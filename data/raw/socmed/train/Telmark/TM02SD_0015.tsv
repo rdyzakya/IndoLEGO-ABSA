@@ -1,0 +1,490 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo selamat malam bapak viki
+1-1	0-4	halo	_	_	_	_	_
+1-2	5-12	selamat	_	_	_	_	_
+1-3	13-18	malam	_	_	_	_	_
+1-4	19-24	bapak	_	_	_	_	_
+1-5	25-29	viki	_	_	_	_	_
+
+#Text=< em > malam
+2-1	31-32	<	_	_	_	_	_
+2-2	33-35	em	_	_	_	_	_
+2-3	36-37	>	_	_	_	_	_
+2-4	38-43	malam	_	_	_	_	_
+
+#Text=halo selamat malam pak viki
+3-1	45-49	halo	_	_	_	_	_
+3-2	50-57	selamat	_	_	_	_	_
+3-3	58-63	malam	_	_	_	_	_
+3-4	64-67	pak	_	_	_	_	_
+3-5	68-72	viki	_	_	_	_	_
+
+#Text=aduh gua lupa lagi
+4-1	74-78	aduh	_	_	_	_	_
+4-2	79-82	gua	_	_	_	_	_
+4-3	83-87	lupa	_	_	_	_	_
+4-4	88-92	lagi	_	_	_	_	_
+
+#Text=iya ini saya ristin dari pihak ketiga dari penagihan gojek paylater
+5-1	94-97	iya	_	_	_	_	_
+5-2	98-101	ini	_	_	_	_	_
+5-3	102-106	saya	_	_	_	_	_
+5-4	107-113	ristin	_	_	_	_	_
+5-5	114-118	dari	_	_	_	_	_
+5-6	119-124	pihak	_	_	_	_	_
+5-7	125-131	ketiga	_	_	_	_	_
+5-8	132-136	dari	_	_	_	_	_
+5-9	137-146	penagihan	_	_	_	_	_
+5-10	147-152	gojek	_	concept[1]	_	_	_
+5-11	153-161	paylater	*	[1_2]|concept[2]	_	_	_
+
+#Text=ini berapa iya
+6-1	163-166	ini	_	_	_	_	_
+6-2	167-173	berapa	_	_	_	_	_
+6-3	174-177	iya	_	_	_	_	_
+
+#Text=ini untuk tagihan bapak viki di paylater bisa dibayarkan hari ini pak
+7-1	179-182	ini	_	_	_	_	_
+7-2	183-188	untuk	_	_	_	_	_
+7-3	189-196	tagihan	*	[2_3]|concept[3]	_	_	_
+7-4	197-202	bapak	_	_	_	_	_
+7-5	203-207	viki	_	_	_	_	_
+7-6	208-210	di	_	_	_	_	_
+7-7	211-219	paylater	_	_	_	_	_
+7-8	220-224	bisa	_	_	_	_	_
+7-9	225-235	dibayarkan	_	_	_	_	_
+7-10	236-240	hari	_	_	_	_	_
+7-11	241-244	ini	_	_	_	_	_
+7-12	245-248	pak	_	_	_	_	_
+
+#Text=< oh > lima puluh ribu iya
+8-1	250-251	<	_	_	_	_	_
+8-2	252-254	oh	_	_	_	_	_
+8-3	255-256	>	_	_	_	_	_
+8-4	257-261	lima	_	_	_	_	_
+8-5	262-267	puluh	_	_	_	_	_
+8-6	268-272	ribu	_	_	_	_	_
+8-7	273-276	iya	_	_	_	_	_
+
+#Text=di sini total tagihan nya lima puluh ribu sembilan ratus tiga puluh rupiah
+9-1	278-280	di	_	_	_	_	_
+9-2	281-285	sini	_	_	_	_	_
+9-3	286-291	total	_	_	_	_	_
+9-4	292-299	tagihan	_	_	_	_	_
+9-5	300-303	nya	_	_	_	_	_
+9-6	304-308	lima	_	_	_	_	_
+9-7	309-314	puluh	_	_	_	_	_
+9-8	315-319	ribu	_	_	_	_	_
+9-9	320-328	sembilan	_	_	_	_	_
+9-10	329-334	ratus	_	_	_	_	_
+9-11	335-339	tiga	_	_	_	_	_
+9-12	340-345	puluh	_	_	_	_	_
+9-13	346-352	rupiah	_	_	_	_	_
+
+#Text=kalau sekiranya minggu besok bagaimana
+10-1	354-359	kalau	_	_	_	_	_
+10-2	360-369	sekiranya	_	_	_	_	_
+10-3	370-376	minggu	_	_	_	_	_
+10-4	377-382	besok	_	_	_	_	_
+10-5	383-392	bagaimana	_	_	_	_	_
+
+#Text=karena sudah keterlambatan kurang lebih empat bulan
+11-1	394-400	karena	_	_	_	_	_
+11-2	401-406	sudah	*	[3_4]|negative[4]	_	_	_
+11-3	407-420	keterlambatan	_	negative[4]	_	_	_
+11-4	421-427	kurang	_	_	_	_	_
+11-5	428-433	lebih	_	_	_	_	_
+11-6	434-439	empat	_	_	_	_	_
+11-7	440-445	bulan	_	_	_	_	_
+
+#Text=< oh > iya iya hari ini sampai jam berapa
+12-1	447-448	<	_	_	_	_	_
+12-2	449-451	oh	_	_	_	_	_
+12-3	452-453	>	_	_	_	_	_
+12-4	454-457	iya	_	_	_	_	_
+12-5	458-461	iya	_	_	_	_	_
+12-6	462-466	hari	_	_	_	_	_
+12-7	467-470	ini	_	_	_	_	_
+12-8	471-477	sampai	_	_	_	_	_
+12-9	478-481	jam	_	_	_	_	_
+12-10	482-488	berapa	_	_	_	_	_
+
+#Text=iya
+13-1	490-493	iya	_	_	_	_	_
+
+#Text=di alfa indomaret
+14-1	495-497	di	_	_	_	_	_
+14-2	498-502	alfa	_	_	_	_	_
+14-3	503-512	indomaret	_	_	_	_	_
+
+#Text=bisa dibayarkan hari ini
+15-1	514-518	bisa	_	_	_	_	_
+15-2	519-529	dibayarkan	_	_	_	_	_
+15-3	530-534	hari	_	_	_	_	_
+15-4	535-538	ini	_	_	_	_	_
+
+#Text=< oh > begitu iya iya iya
+16-1	540-541	<	_	_	_	_	_
+16-2	542-544	oh	_	_	_	_	_
+16-3	545-546	>	_	_	_	_	_
+16-4	547-553	begitu	_	_	_	_	_
+16-5	554-557	iya	_	_	_	_	_
+16-6	558-561	iya	_	_	_	_	_
+16-7	562-565	iya	_	_	_	_	_
+
+#Text=tidak bisa pak karena di sini kami sudah tidak ada toleransi waktu kembali
+17-1	567-572	tidak	_	_	_	_	_
+17-2	573-577	bisa	_	_	_	_	_
+17-3	578-581	pak	_	_	_	_	_
+17-4	582-588	karena	_	_	_	_	_
+17-5	589-591	di	_	_	_	_	_
+17-6	592-596	sini	_	_	_	_	_
+17-7	597-601	kami	_	_	_	_	_
+17-8	602-607	sudah	*	[3_5]|negative[5]	_	_	_
+17-9	608-613	tidak	_	negative[5]	_	_	_
+17-10	614-617	ada	_	negative[5]	_	_	_
+17-11	618-627	toleransi	_	negative[5]	_	_	_
+17-12	628-633	waktu	_	negative[5]	_	_	_
+17-13	634-641	kembali	_	_	_	_	_
+
+#Text=< eh > paling telat sih < unk > jam sepuluh saja paling telat
+18-1	643-644	<	_	_	_	_	_
+18-2	645-647	eh	_	_	_	_	_
+18-3	648-649	>	_	_	_	_	_
+18-4	650-656	paling	_	_	_	_	_
+18-5	657-662	telat	_	_	_	_	_
+18-6	663-666	sih	_	_	_	_	_
+18-7	667-668	<	_	_	_	_	_
+18-8	669-672	unk	_	_	_	_	_
+18-9	673-674	>	_	_	_	_	_
+18-10	675-678	jam	_	_	_	_	_
+18-11	679-686	sepuluh	_	_	_	_	_
+18-12	687-691	saja	_	_	_	_	_
+18-13	692-698	paling	_	_	_	_	_
+18-14	699-704	telat	_	_	_	_	_
+
+#Text=karena kan bapak sudah keterlambatan kurang lebih empat bulan iya
+19-1	706-712	karena	_	_	_	_	_
+19-2	713-716	kan	_	_	_	_	_
+19-3	717-722	bapak	_	_	_	_	_
+19-4	723-728	sudah	*	[3_6]|negative[6]	_	_	_
+19-5	729-742	keterlambatan	_	negative[6]	_	_	_
+19-6	743-749	kurang	_	_	_	_	_
+19-7	750-755	lebih	_	_	_	_	_
+19-8	756-761	empat	_	_	_	_	_
+19-9	762-767	bulan	_	_	_	_	_
+19-10	768-771	iya	_	_	_	_	_
+
+#Text=< oh > begitu
+20-1	773-774	<	_	_	_	_	_
+20-2	775-777	oh	_	_	_	_	_
+20-3	778-779	>	_	_	_	_	_
+20-4	780-786	begitu	_	_	_	_	_
+
+#Text=dan di sini mumpung tagihan nya bapak ini baru rendah jadi dibayarkan di hari ini saja
+21-1	788-791	dan	_	_	_	_	_
+21-2	792-794	di	_	_	_	_	_
+21-3	795-799	sini	_	_	_	_	_
+21-4	800-807	mumpung	_	_	_	_	_
+21-5	808-815	tagihan	*	[2_7]|concept[7]	_	_	_
+21-6	816-819	nya	_	_	_	_	_
+21-7	820-825	bapak	_	_	_	_	_
+21-8	826-829	ini	_	_	_	_	_
+21-9	830-834	baru	_	_	_	_	_
+21-10	835-841	rendah	*	[7_8]|positive[8]	_	_	_
+21-11	842-846	jadi	_	_	_	_	_
+21-12	847-857	dibayarkan	_	_	_	_	_
+21-13	858-860	di	_	_	_	_	_
+21-14	861-865	hari	_	_	_	_	_
+21-15	866-869	ini	_	_	_	_	_
+21-16	870-874	saja	_	_	_	_	_
+
+#Text=kalau di alfamart gopay offline jam berapa iya biasanya iya
+22-1	876-881	kalau	_	_	_	_	_
+22-2	882-884	di	_	_	_	_	_
+22-3	885-893	alfamart	_	_	_	_	_
+22-4	894-899	gopay	_	_	_	_	_
+22-5	900-907	offline	_	_	_	_	_
+22-6	908-911	jam	_	_	_	_	_
+22-7	912-918	berapa	_	_	_	_	_
+22-8	919-922	iya	_	_	_	_	_
+22-9	923-931	biasanya	_	_	_	_	_
+22-10	932-935	iya	_	_	_	_	_
+
+#Text=untuk hari ini pembayaran sampai jam sebelas malam
+23-1	937-942	untuk	_	_	_	_	_
+23-2	943-947	hari	_	_	_	_	_
+23-3	948-951	ini	_	_	_	_	_
+23-4	952-962	pembayaran	_	_	_	_	_
+23-5	963-969	sampai	_	_	_	_	_
+23-6	970-973	jam	_	_	_	_	_
+23-7	974-981	sebelas	_	_	_	_	_
+23-8	982-987	malam	_	_	_	_	_
+
+#Text=< em > begitu iya iya
+24-1	989-990	<	_	_	_	_	_
+24-2	991-993	em	_	_	_	_	_
+24-3	994-995	>	_	_	_	_	_
+24-4	996-1002	begitu	_	_	_	_	_
+24-5	1003-1006	iya	_	_	_	_	_
+24-6	1007-1010	iya	_	_	_	_	_
+
+#Text=pengisian gopay melalui alfamart atau transfer m-banking
+25-1	1012-1021	pengisian	_	_	_	_	_
+25-2	1022-1027	gopay	_	_	_	_	_
+25-3	1028-1035	melalui	_	_	_	_	_
+25-4	1036-1044	alfamart	_	_	_	_	_
+25-5	1045-1049	atau	_	_	_	_	_
+25-6	1050-1058	transfer	_	_	_	_	_
+25-7	1059-1068	m-banking	_	_	_	_	_
+
+#Text=< oh > iya iya iya siap siap
+26-1	1070-1071	<	_	_	_	_	_
+26-2	1072-1074	oh	_	_	_	_	_
+26-3	1075-1076	>	_	_	_	_	_
+26-4	1077-1080	iya	_	_	_	_	_
+26-5	1081-1084	iya	_	_	_	_	_
+26-6	1085-1088	iya	_	_	_	_	_
+26-7	1089-1093	siap	_	_	_	_	_
+26-8	1094-1098	siap	_	_	_	_	_
+
+#Text=karena pembayaran kan melalui gopay pak
+27-1	1100-1106	karena	_	_	_	_	_
+27-2	1107-1117	pembayaran	_	_	_	_	_
+27-3	1118-1121	kan	_	_	_	_	_
+27-4	1122-1129	melalui	_	_	_	_	_
+27-5	1130-1135	gopay	_	_	_	_	_
+27-6	1136-1139	pak	_	_	_	_	_
+
+#Text=< e > ini pokok nya nomor nya enggak ada nomor wa sih ini nomor telepon pribadi
+28-1	1141-1142	<	_	_	_	_	_
+28-2	1143-1144	e	_	_	_	_	_
+28-3	1145-1146	>	_	_	_	_	_
+28-4	1147-1150	ini	_	_	_	_	_
+28-5	1151-1156	pokok	_	_	_	_	_
+28-6	1157-1160	nya	_	_	_	_	_
+28-7	1161-1166	nomor	_	_	_	_	_
+28-8	1167-1170	nya	_	_	_	_	_
+28-9	1171-1177	enggak	_	_	_	_	_
+28-10	1178-1181	ada	_	_	_	_	_
+28-11	1182-1187	nomor	_	_	_	_	_
+28-12	1188-1190	wa	_	_	_	_	_
+28-13	1191-1194	sih	_	_	_	_	_
+28-14	1195-1198	ini	_	_	_	_	_
+28-15	1199-1204	nomor	_	_	_	_	_
+28-16	1205-1212	telepon	_	_	_	_	_
+28-17	1213-1220	pribadi	_	_	_	_	_
+
+#Text=iya
+29-1	1222-1225	iya	_	_	_	_	_
+
+#Text=< e > kebetulan saya juga lupa ini wa - nya
+30-1	1227-1228	<	_	_	_	_	_
+30-2	1229-1230	e	_	_	_	_	_
+30-3	1231-1232	>	_	_	_	_	_
+30-4	1233-1242	kebetulan	_	_	_	_	_
+30-5	1243-1247	saya	_	_	_	_	_
+30-6	1248-1252	juga	_	_	_	_	_
+30-7	1253-1257	lupa	_	_	_	_	_
+30-8	1258-1261	ini	_	_	_	_	_
+30-9	1262-1264	wa	_	_	_	_	_
+30-10	1265-1266	-	_	_	_	_	_
+30-11	1267-1270	nya	_	_	_	_	_
+
+#Text=jam berapa
+31-1	1272-1275	jam	_	_	_	_	_
+31-2	1276-1282	berapa	_	_	_	_	_
+
+#Text=iya dikirim lewat gmail saja infoin nya
+32-1	1284-1287	iya	_	_	_	_	_
+32-2	1288-1295	dikirim	_	_	_	_	_
+32-3	1296-1301	lewat	_	_	_	_	_
+32-4	1302-1307	gmail	_	_	_	_	_
+32-5	1308-1312	saja	_	_	_	_	_
+32-6	1313-1319	infoin	_	_	_	_	_
+32-7	1320-1323	nya	_	_	_	_	_
+
+#Text=biar saya buatkan laporan pembayaran bapak dulu
+33-1	1325-1329	biar	_	_	_	_	_
+33-2	1330-1334	saya	_	_	_	_	_
+33-3	1335-1342	buatkan	_	_	_	_	_
+33-4	1343-1350	laporan	_	_	_	_	_
+33-5	1351-1361	pembayaran	_	_	_	_	_
+33-6	1362-1367	bapak	_	_	_	_	_
+33-7	1368-1372	dulu	_	_	_	_	_
+
+#Text=maaf iya
+34-1	1374-1378	maaf	_	_	_	_	_
+34-2	1379-1382	iya	_	_	_	_	_
+
+#Text=baik
+35-1	1384-1388	baik	_	_	_	_	_
+
+#Text=iya malam sama sama
+36-1	1390-1393	iya	_	_	_	_	_
+36-2	1394-1399	malam	_	_	_	_	_
+36-3	1400-1404	sama	_	_	_	_	_
+36-4	1405-1409	sama	_	_	_	_	_
+
+#Text=ini nanti kalau untuk pengisian gopay di alfamart tolong segera diisikan dari sekarang iya karena takut nya nanti offline
+37-1	1411-1414	ini	_	_	_	_	_
+37-2	1415-1420	nanti	_	_	_	_	_
+37-3	1421-1426	kalau	_	_	_	_	_
+37-4	1427-1432	untuk	_	_	_	_	_
+37-5	1433-1442	pengisian	_	_	_	_	_
+37-6	1443-1448	gopay	_	_	_	_	_
+37-7	1449-1451	di	_	_	_	_	_
+37-8	1452-1460	alfamart	_	_	_	_	_
+37-9	1461-1467	tolong	_	_	_	_	_
+37-10	1468-1474	segera	_	_	_	_	_
+37-11	1475-1483	diisikan	_	_	_	_	_
+37-12	1484-1488	dari	_	_	_	_	_
+37-13	1489-1497	sekarang	_	_	_	_	_
+37-14	1498-1501	iya	_	_	_	_	_
+37-15	1502-1508	karena	_	_	_	_	_
+37-16	1509-1514	takut	_	_	_	_	_
+37-17	1515-1518	nya	_	_	_	_	_
+37-18	1519-1524	nanti	_	_	_	_	_
+37-19	1525-1532	offline	_	_	_	_	_
+
+#Text=iya
+38-1	1534-1537	iya	_	_	_	_	_
+
+#Text=sampai jam delapan
+39-1	1539-1545	sampai	_	_	_	_	_
+39-2	1546-1549	jam	_	_	_	_	_
+39-3	1550-1557	delapan	_	_	_	_	_
+
+#Text=sebelum jam delapan isi gopay terlebih dahulu karena takut nya nanti alfamart offline
+40-1	1559-1566	sebelum	_	_	_	_	_
+40-2	1567-1570	jam	_	_	_	_	_
+40-3	1571-1578	delapan	_	_	_	_	_
+40-4	1579-1582	isi	_	_	_	_	_
+40-5	1583-1588	gopay	_	_	_	_	_
+40-6	1589-1597	terlebih	_	_	_	_	_
+40-7	1598-1604	dahulu	_	_	_	_	_
+40-8	1605-1611	karena	_	_	_	_	_
+40-9	1612-1617	takut	_	_	_	_	_
+40-10	1618-1621	nya	_	_	_	_	_
+40-11	1622-1627	nanti	_	_	_	_	_
+40-12	1628-1636	alfamart	_	_	_	_	_
+40-13	1637-1644	offline	_	_	_	_	_
+
+#Text=< gu > pembayaran hari ini iya di jam sepuluh malam
+41-1	1646-1647	<	_	_	_	_	_
+41-2	1648-1650	gu	_	_	_	_	_
+41-3	1651-1652	>	_	_	_	_	_
+41-4	1653-1663	pembayaran	_	_	_	_	_
+41-5	1664-1668	hari	_	_	_	_	_
+41-6	1669-1672	ini	_	_	_	_	_
+41-7	1673-1676	iya	_	_	_	_	_
+41-8	1677-1679	di	_	_	_	_	_
+41-9	1680-1683	jam	_	_	_	_	_
+41-10	1684-1691	sepuluh	_	_	_	_	_
+41-11	1692-1697	malam	_	_	_	_	_
+
+#Text=ini kemudian nomor wa - nya aktif atau tidak pak
+42-1	1699-1702	ini	_	_	_	_	_
+42-2	1703-1711	kemudian	_	_	_	_	_
+42-3	1712-1717	nomor	_	_	_	_	_
+42-4	1718-1720	wa	_	_	_	_	_
+42-5	1721-1722	-	_	_	_	_	_
+42-6	1723-1726	nya	_	_	_	_	_
+42-7	1727-1732	aktif	_	_	_	_	_
+42-8	1733-1737	atau	_	_	_	_	_
+42-9	1738-1743	tidak	_	_	_	_	_
+42-10	1744-1747	pak	_	_	_	_	_
+
+#Text=nomor wa - nya yang mana nanti biar kami konfirmasikan
+43-1	1749-1754	nomor	_	_	_	_	_
+43-2	1755-1757	wa	_	_	_	_	_
+43-3	1758-1759	-	_	_	_	_	_
+43-4	1760-1763	nya	_	_	_	_	_
+43-5	1764-1768	yang	_	_	_	_	_
+43-6	1769-1773	mana	_	_	_	_	_
+43-7	1774-1779	nanti	_	_	_	_	_
+43-8	1780-1784	biar	_	_	_	_	_
+43-9	1785-1789	kami	_	_	_	_	_
+43-10	1790-1803	konfirmasikan	_	_	_	_	_
+
+#Text=baik kalau misalkan bapak lupa dengan nomor wa - nya ini saya akan pantau melalui sistem kami iya pembayaran bapak hari ini di jam sepuluh
+44-1	1805-1809	baik	_	_	_	_	_
+44-2	1810-1815	kalau	_	_	_	_	_
+44-3	1816-1824	misalkan	_	_	_	_	_
+44-4	1825-1830	bapak	_	_	_	_	_
+44-5	1831-1835	lupa	_	_	_	_	_
+44-6	1836-1842	dengan	_	_	_	_	_
+44-7	1843-1848	nomor	_	_	_	_	_
+44-8	1849-1851	wa	_	_	_	_	_
+44-9	1852-1853	-	_	_	_	_	_
+44-10	1854-1857	nya	_	_	_	_	_
+44-11	1858-1861	ini	_	_	_	_	_
+44-12	1862-1866	saya	_	_	_	_	_
+44-13	1867-1871	akan	_	_	_	_	_
+44-14	1872-1878	pantau	_	_	_	_	_
+44-15	1879-1886	melalui	_	_	_	_	_
+44-16	1887-1893	sistem	_	_	_	_	_
+44-17	1894-1898	kami	_	_	_	_	_
+44-18	1899-1902	iya	_	_	_	_	_
+44-19	1903-1913	pembayaran	_	_	_	_	_
+44-20	1914-1919	bapak	_	_	_	_	_
+44-21	1920-1924	hari	_	_	_	_	_
+44-22	1925-1928	ini	_	_	_	_	_
+44-23	1929-1931	di	_	_	_	_	_
+44-24	1932-1935	jam	_	_	_	_	_
+44-25	1936-1943	sepuluh	_	_	_	_	_
+
+#Text=apabila hari ini
+45-1	1945-1952	apabila	_	_	_	_	_
+45-2	1953-1957	hari	_	_	_	_	_
+45-3	1958-1961	ini	_	_	_	_	_
+
+#Text=besok kami akan menghubungi kembali
+46-1	1963-1968	besok	_	_	_	_	_
+46-2	1969-1973	kami	_	_	_	_	_
+46-3	1974-1978	akan	_	_	_	_	_
+46-4	1979-1990	menghubungi	_	_	_	_	_
+46-5	1991-1998	kembali	_	_	_	_	_
+
+#Text=< tuk > pembayaran nanti dari
+47-1	2000-2001	<	_	_	_	_	_
+47-2	2002-2005	tuk	_	_	_	_	_
+47-3	2006-2007	>	_	_	_	_	_
+47-4	2008-2018	pembayaran	_	_	_	_	_
+47-5	2019-2024	nanti	_	_	_	_	_
+47-6	2025-2029	dari	_	_	_	_	_
+
+#Text=juga akan menginfokan ke e-mail - nya bapak
+48-1	2031-2035	juga	_	_	_	_	_
+48-2	2036-2040	akan	_	_	_	_	_
+48-3	2041-2052	menginfokan	_	_	_	_	_
+48-4	2053-2055	ke	_	_	_	_	_
+48-5	2056-2062	e-mail	_	_	_	_	_
+48-6	2063-2064	-	_	_	_	_	_
+48-7	2065-2068	nya	_	_	_	_	_
+48-8	2069-2074	bapak	_	_	_	_	_
+
+#Text=< si nya > sukses dalam pembayaran
+49-1	2076-2077	<	_	_	_	_	_
+49-2	2078-2080	si	_	_	_	_	_
+49-3	2081-2084	nya	_	_	_	_	_
+49-4	2085-2086	>	_	_	_	_	_
+49-5	2087-2093	sukses	_	_	_	_	_
+49-6	2094-2099	dalam	_	_	_	_	_
+49-7	2100-2110	pembayaran	_	_	_	_	_
+
+#Text=baik
+50-1	2112-2116	baik	_	_	_	_	_
+
+#Text=pembayaran di jam sepuluh
+51-1	2118-2128	pembayaran	_	_	_	_	_
+51-2	2129-2131	di	_	_	_	_	_
+51-3	2132-2135	jam	_	_	_	_	_
+51-4	2136-2143	sepuluh	_	_	_	_	_
+
+#Text=baik terima kasih bapak
+52-1	2145-2149	baik	_	_	_	_	_
+52-2	2150-2156	terima	_	_	_	_	_
+52-3	2157-2162	kasih	_	_	_	_	_
+52-4	2163-2168	bapak	_	_	_	_	_

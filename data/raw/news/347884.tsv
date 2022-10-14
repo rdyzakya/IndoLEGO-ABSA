@@ -1,0 +1,209 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Upaya untuk meningkatkan ketahanan energi di Indonesia akan didukung total oleh BUMN .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-32	Upaya	_	_	_	_	_
+1-7	33-38	untuk	_	_	_	_	_
+1-8	39-51	meningkatkan	_	_	_	_	_
+1-9	52-61	ketahanan	_	_	_	_	_
+1-10	62-68	energi	_	_	_	_	_
+1-11	69-71	di	_	_	_	_	_
+1-12	72-81	Indonesia	_	_	_	_	_
+1-13	82-86	akan	_	_	_	_	_
+1-14	87-95	didukung	_	_	_	_	_
+1-15	96-101	total	_	_	_	_	_
+1-16	102-106	oleh	_	_	_	_	_
+1-17	107-111	BUMN	_	_	_	_	_
+1-18	112-113	.	_	_	_	_	_
+
+#Text=Wakil Menteri Badan Usaha Milik Negara I , Pahala Mansury menjabarkan strategi BUMN dalam CNBC Indonesia Energy Outlook 2022 , Kamis ( 24 / 2 / 2022 ) .
+2-1	115-120	Wakil	_	_	_	_	_
+2-2	121-128	Menteri	_	_	_	_	_
+2-3	129-134	Badan	_	_	_	_	_
+2-4	135-140	Usaha	_	_	_	_	_
+2-5	141-146	Milik	_	_	_	_	_
+2-6	147-153	Negara	_	_	_	_	_
+2-7	154-155	I	_	_	_	_	_
+2-8	156-157	,	_	_	_	_	_
+2-9	158-164	Pahala	_	_	_	_	_
+2-10	165-172	Mansury	_	_	_	_	_
+2-11	173-184	menjabarkan	_	_	_	_	_
+2-12	185-193	strategi	_	_	_	_	_
+2-13	194-198	BUMN	_	_	_	_	_
+2-14	199-204	dalam	_	_	_	_	_
+2-15	205-209	CNBC	_	_	_	_	_
+2-16	210-219	Indonesia	_	_	_	_	_
+2-17	220-226	Energy	_	_	_	_	_
+2-18	227-234	Outlook	_	_	_	_	_
+2-19	235-239	2022	_	_	_	_	_
+2-20	240-241	,	_	_	_	_	_
+2-21	242-247	Kamis	_	_	_	_	_
+2-22	248-249	(	_	_	_	_	_
+2-23	250-252	24	_	_	_	_	_
+2-24	253-254	/	_	_	_	_	_
+2-25	255-256	2	_	_	_	_	_
+2-26	257-258	/	_	_	_	_	_
+2-27	259-263	2022	_	_	_	_	_
+2-28	264-265	)	_	_	_	_	_
+2-29	266-267	.	_	_	_	_	_
+
+#Text=" Untuk bisa melakukan peningkatan ketahanan energi BUMN perlu melakukan beberapa hal dan strategi , " tutur nya .
+3-1	269-270	"	_	_	_	_	_
+3-2	271-276	Untuk	_	_	_	_	_
+3-3	277-281	bisa	_	_	_	_	_
+3-4	282-291	melakukan	_	_	_	_	_
+3-5	292-303	peningkatan	_	_	_	_	_
+3-6	304-313	ketahanan	_	_	_	_	_
+3-7	314-320	energi	_	_	_	_	_
+3-8	321-325	BUMN	_	_	_	_	_
+3-9	326-331	perlu	_	_	_	_	_
+3-10	332-341	melakukan	_	_	_	_	_
+3-11	342-350	beberapa	_	_	_	_	_
+3-12	351-354	hal	_	_	_	_	_
+3-13	355-358	dan	_	_	_	_	_
+3-14	359-367	strategi	_	_	_	_	_
+3-15	368-369	,	_	_	_	_	_
+3-16	370-371	"	_	_	_	_	_
+3-17	372-377	tutur	_	_	_	_	_
+3-18	378-381	nya	_	_	_	_	_
+3-19	382-383	.	_	_	_	_	_
+
+#Text=Pertama , perlu dilakukan peningkatan investasi untuk memastikan suplai energi dapat terpenuhi .
+4-1	385-392	Pertama	_	_	_	_	_
+4-2	393-394	,	_	_	_	_	_
+4-3	395-400	perlu	_	_	_	_	_
+4-4	401-410	dilakukan	_	_	_	_	_
+4-5	411-422	peningkatan	_	_	_	_	_
+4-6	423-432	investasi	_	_	_	_	_
+4-7	433-438	untuk	_	_	_	_	_
+4-8	439-449	memastikan	_	_	_	_	_
+4-9	450-456	suplai	_	_	_	_	_
+4-10	457-463	energi	_	_	_	_	_
+4-11	464-469	dapat	_	_	_	_	_
+4-12	470-479	terpenuhi	_	_	_	_	_
+4-13	480-481	.	_	_	_	_	_
+
+#Text=Kedua , tantangan untuk bagaimana pemenuhan energi dan investasi bisa memenuhi target menurunkan jumlah emisi .
+5-1	483-488	Kedua	_	_	_	_	_
+5-2	489-490	,	_	_	_	_	_
+5-3	491-500	tantangan	_	_	_	_	_
+5-4	501-506	untuk	_	_	_	_	_
+5-5	507-516	bagaimana	_	_	_	_	_
+5-6	517-526	pemenuhan	_	_	_	_	_
+5-7	527-533	energi	_	_	_	_	_
+5-8	534-537	dan	_	_	_	_	_
+5-9	538-547	investasi	_	_	_	_	_
+5-10	548-552	bisa	_	_	_	_	_
+5-11	553-561	memenuhi	_	_	_	_	_
+5-12	562-568	target	_	_	_	_	_
+5-13	569-579	menurunkan	_	_	_	_	_
+5-14	580-586	jumlah	_	_	_	_	_
+5-15	587-592	emisi	_	_	_	_	_
+5-16	593-594	.	_	_	_	_	_
+
+#Text=Diketahui , pemerintah Indonesia telah berkomitmen untuk mengurangi 29 % emisi Gas Rumah Kaca pada tahun 2030 .
+6-1	596-605	Diketahui	_	_	_	_	_
+6-2	606-607	,	_	_	_	_	_
+6-3	608-618	pemerintah	_	_	_	_	_
+6-4	619-628	Indonesia	_	_	_	_	_
+6-5	629-634	telah	_	_	_	_	_
+6-6	635-646	berkomitmen	_	_	_	_	_
+6-7	647-652	untuk	_	_	_	_	_
+6-8	653-663	mengurangi	_	_	_	_	_
+6-9	664-666	29	_	_	_	_	_
+6-10	667-668	%	_	_	_	_	_
+6-11	669-674	emisi	_	_	_	_	_
+6-12	675-678	Gas	_	_	_	_	_
+6-13	679-684	Rumah	_	_	_	_	_
+6-14	685-689	Kaca	_	_	_	_	_
+6-15	690-694	pada	_	_	_	_	_
+6-16	695-700	tahun	_	_	_	_	_
+6-17	701-705	2030	_	_	_	_	_
+6-18	706-707	.	_	_	_	_	_
+
+#Text=Sehingga pencapaian net zero emission pada 2060 bisa terealisasi .
+7-1	709-717	Sehingga	_	_	_	_	_
+7-2	718-728	pencapaian	_	_	_	_	_
+7-3	729-732	net	_	_	_	_	_
+7-4	733-737	zero	_	_	_	_	_
+7-5	738-746	emission	_	_	_	_	_
+7-6	747-751	pada	_	_	_	_	_
+7-7	752-756	2060	_	_	_	_	_
+7-8	757-761	bisa	_	_	_	_	_
+7-9	762-773	terealisasi	_	_	_	_	_
+7-10	774-775	.	_	_	_	_	_
+
+#Text=Di mana posisi energi baru terbarukan menjadi sangat vital .
+8-1	777-779	Di	_	_	_	_	_
+8-2	780-784	mana	_	_	_	_	_
+8-3	785-791	posisi	_	_	_	_	_
+8-4	792-798	energi	_	_	_	_	_
+8-5	799-803	baru	_	_	_	_	_
+8-6	804-814	terbarukan	_	_	_	_	_
+8-7	815-822	menjadi	_	_	_	_	_
+8-8	823-829	sangat	_	_	_	_	_
+8-9	830-835	vital	_	_	_	_	_
+8-10	836-837	.	_	_	_	_	_
+
+#Text=" Selain juga tentunya bagaimana kita bisa lakukan pengembangan energi baru terbarukan melakukan transisi energi menuju komposisi energi baru terbarukan yang lebih besar , " tukas Pahal .
+9-1	839-840	"	_	_	_	_	_
+9-2	841-847	Selain	_	_	_	_	_
+9-3	848-852	juga	_	_	_	_	_
+9-4	853-861	tentunya	_	_	_	_	_
+9-5	862-871	bagaimana	_	_	_	_	_
+9-6	872-876	kita	_	_	_	_	_
+9-7	877-881	bisa	_	_	_	_	_
+9-8	882-889	lakukan	_	_	_	_	_
+9-9	890-902	pengembangan	_	_	_	_	_
+9-10	903-909	energi	_	_	_	_	_
+9-11	910-914	baru	_	_	_	_	_
+9-12	915-925	terbarukan	_	_	_	_	_
+9-13	926-935	melakukan	_	_	_	_	_
+9-14	936-944	transisi	_	_	_	_	_
+9-15	945-951	energi	_	_	_	_	_
+9-16	952-958	menuju	_	_	_	_	_
+9-17	959-968	komposisi	_	_	_	_	_
+9-18	969-975	energi	_	_	_	_	_
+9-19	976-980	baru	_	_	_	_	_
+9-20	981-991	terbarukan	_	_	_	_	_
+9-21	992-996	yang	_	_	_	_	_
+9-22	997-1002	lebih	_	_	_	_	_
+9-23	1003-1008	besar	_	_	_	_	_
+9-24	1009-1010	,	_	_	_	_	_
+9-25	1011-1012	"	_	_	_	_	_
+9-26	1013-1018	tukas	_	_	_	_	_
+9-27	1019-1024	Pahal	_	_	_	_	_
+9-28	1025-1026	.	_	_	_	_	_
+
+#Text=Tidak ketinggalan dia menyebut , agar BUMN bisa melakukan investasi dekarbonisasi , dan meningkatkan kapasitas yang dengan upaya efisiensi pun reorganisasi BUMN di bidang energi .
+10-1	1028-1033	Tidak	_	_	_	_	_
+10-2	1034-1045	ketinggalan	_	_	_	_	_
+10-3	1046-1049	dia	_	_	_	_	_
+10-4	1050-1058	menyebut	_	_	_	_	_
+10-5	1059-1060	,	_	_	_	_	_
+10-6	1061-1065	agar	_	_	_	_	_
+10-7	1066-1070	BUMN	_	_	_	_	_
+10-8	1071-1075	bisa	_	_	_	_	_
+10-9	1076-1085	melakukan	_	_	_	_	_
+10-10	1086-1095	investasi	_	_	_	_	_
+10-11	1096-1109	dekarbonisasi	_	_	_	_	_
+10-12	1110-1111	,	_	_	_	_	_
+10-13	1112-1115	dan	_	_	_	_	_
+10-14	1116-1128	meningkatkan	_	_	_	_	_
+10-15	1129-1138	kapasitas	_	_	_	_	_
+10-16	1139-1143	yang	_	_	_	_	_
+10-17	1144-1150	dengan	_	_	_	_	_
+10-18	1151-1156	upaya	_	_	_	_	_
+10-19	1157-1166	efisiensi	_	_	_	_	_
+10-20	1167-1170	pun	_	_	_	_	_
+10-21	1171-1183	reorganisasi	_	_	_	_	_
+10-22	1184-1188	BUMN	_	_	_	_	_
+10-23	1189-1191	di	_	_	_	_	_
+10-24	1192-1198	bidang	_	_	_	_	_
+10-25	1199-1205	energi	_	_	_	_	_
+10-26	1206-1207	.	_	_	_	_	_
+

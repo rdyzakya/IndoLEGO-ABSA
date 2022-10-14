@@ -1,0 +1,301 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo selamat sore
+1-1	0-4	halo	_	_	_	_	_
+1-2	5-12	selamat	_	_	_	_	_
+1-3	13-17	sore	_	_	_	_	_
+
+#Text=sore
+2-1	19-23	sore	_	_	_	_	_
+
+#Text=< e > dengan bapak < mi > mika estidinata
+3-1	25-26	<	_	_	_	_	_
+3-2	27-28	e	_	_	_	_	_
+3-3	29-30	>	_	_	_	_	_
+3-4	31-37	dengan	_	_	_	_	_
+3-5	38-43	bapak	_	_	_	_	_
+3-6	44-45	<	_	_	_	_	_
+3-7	46-48	mi	_	_	_	_	_
+3-8	49-50	>	_	_	_	_	_
+3-9	51-55	mika	_	_	_	_	_
+3-10	56-66	estidinata	_	_	_	_	_
+
+#Text=iya
+4-1	68-71	iya	_	_	_	_	_
+
+#Text=pak ini saya sara dari pt telmark rekan penagihan gojek paylater pak
+5-1	73-76	pak	_	_	_	_	_
+5-2	77-80	ini	_	_	_	_	_
+5-3	81-85	saya	_	_	_	_	_
+5-4	86-90	sara	_	_	_	_	_
+5-5	91-95	dari	_	_	_	_	_
+5-6	96-98	pt	_	_	_	_	_
+5-7	99-106	telmark	_	_	_	_	_
+5-8	107-112	rekan	_	_	_	_	_
+5-9	113-122	penagihan	_	_	_	_	_
+5-10	123-128	gojek	_	_	_	_	_
+5-11	129-137	paylater	_	_	_	_	_
+5-12	138-141	pak	_	_	_	_	_
+
+#Text=dari mana bu
+6-1	143-147	dari	_	_	_	_	_
+6-2	148-152	mana	_	_	_	_	_
+6-3	153-155	bu	_	_	_	_	_
+
+#Text=dari pt telmark rekan penagihan gojek paylater
+7-1	157-161	dari	_	_	_	_	_
+7-2	162-164	pt	_	_	_	_	_
+7-3	165-172	telmark	_	_	_	_	_
+7-4	173-178	rekan	_	_	_	_	_
+7-5	179-188	penagihan	_	_	_	_	_
+7-6	189-194	gojek	_	concept[1]	_	_	_
+7-7	195-203	paylater	_	_	_	_	_
+
+#Text=paylater < unk > bu iya
+8-1	205-213	paylater	_	_	_	_	_
+8-2	214-215	<	_	_	_	_	_
+8-3	216-219	unk	_	_	_	_	_
+8-4	220-221	>	_	_	_	_	_
+8-5	222-224	bu	_	_	_	_	_
+8-6	225-228	iya	_	_	_	_	_
+
+#Text=ini saya mau konfirmasi dengan tagihan paylater - nya sudah keterlambatan < napas > sekitar seratus lima puluh tujuh hari ini pak dengan total tagihan sekitar empat ratus sembilan puluh < sem > < sem > empat ratus sembilan puluh sembilan ribu
+9-1	230-233	ini	_	_	_	_	_
+9-2	234-238	saya	_	_	_	_	_
+9-3	239-242	mau	_	_	_	_	_
+9-4	243-253	konfirmasi	_	_	_	_	_
+9-5	254-260	dengan	_	_	_	_	_
+9-6	261-268	tagihan	*	concept[2]|[3_2]	_	_	_
+9-7	269-277	paylater	*	[1_3]|concept[3]	_	_	_
+9-8	278-279	-	_	_	_	_	_
+9-9	280-283	nya	_	_	_	_	_
+9-10	284-289	sudah	*	[2_4]|negative[4]	_	_	_
+9-11	290-303	keterlambatan	_	negative[4]	_	_	_
+9-12	304-305	<	_	_	_	_	_
+9-13	306-311	napas	_	_	_	_	_
+9-14	312-313	>	_	_	_	_	_
+9-15	314-321	sekitar	_	_	_	_	_
+9-16	322-329	seratus	_	_	_	_	_
+9-17	330-334	lima	_	_	_	_	_
+9-18	335-340	puluh	_	_	_	_	_
+9-19	341-346	tujuh	_	_	_	_	_
+9-20	347-351	hari	_	_	_	_	_
+9-21	352-355	ini	_	_	_	_	_
+9-22	356-359	pak	_	_	_	_	_
+9-23	360-366	dengan	_	_	_	_	_
+9-24	367-372	total	_	_	_	_	_
+9-25	373-380	tagihan	_	_	_	_	_
+9-26	381-388	sekitar	_	_	_	_	_
+9-27	389-394	empat	_	_	_	_	_
+9-28	395-400	ratus	_	_	_	_	_
+9-29	401-409	sembilan	_	_	_	_	_
+9-30	410-415	puluh	_	_	_	_	_
+9-31	416-417	<	_	_	_	_	_
+9-32	418-421	sem	_	_	_	_	_
+9-33	422-423	>	_	_	_	_	_
+9-34	424-425	<	_	_	_	_	_
+9-35	426-429	sem	_	_	_	_	_
+9-36	430-431	>	_	_	_	_	_
+9-37	432-437	empat	_	_	_	_	_
+9-38	438-443	ratus	_	_	_	_	_
+9-39	444-452	sembilan	_	_	_	_	_
+9-40	453-458	puluh	_	_	_	_	_
+9-41	459-467	sembilan	_	_	_	_	_
+9-42	468-472	ribu	_	_	_	_	_
+
+#Text=okay bu siap siap
+10-1	474-478	okay	_	_	_	_	_
+10-2	479-481	bu	_	_	_	_	_
+10-3	482-486	siap	_	_	_	_	_
+10-4	487-491	siap	_	_	_	_	_
+
+#Text=ini bisa dibayarkan kapan iya pak
+11-1	493-496	ini	_	_	_	_	_
+11-2	497-501	bisa	_	_	_	_	_
+11-3	502-512	dibayarkan	_	_	_	_	_
+11-4	513-518	kapan	_	_	_	_	_
+11-5	519-522	iya	_	_	_	_	_
+11-6	523-526	pak	_	_	_	_	_
+
+#Text=< e > coba besok saya konfirmasi ini iya bu iya pagi pagi iya bu iya
+12-1	528-529	<	_	_	_	_	_
+12-2	530-531	e	_	_	_	_	_
+12-3	532-533	>	_	_	_	_	_
+12-4	534-538	coba	_	_	_	_	_
+12-5	539-544	besok	_	_	_	_	_
+12-6	545-549	saya	_	_	_	_	_
+12-7	550-560	konfirmasi	_	_	_	_	_
+12-8	561-564	ini	_	_	_	_	_
+12-9	565-568	iya	_	_	_	_	_
+12-10	569-571	bu	_	_	_	_	_
+12-11	572-575	iya	_	_	_	_	_
+12-12	576-580	pagi	_	_	_	_	_
+12-13	581-585	pagi	_	_	_	_	_
+12-14	586-589	iya	_	_	_	_	_
+12-15	590-592	bu	_	_	_	_	_
+12-16	593-596	iya	_	_	_	_	_
+
+#Text=iya pak
+13-1	598-601	iya	_	_	_	_	_
+13-2	602-605	pak	_	_	_	_	_
+
+#Text=jam sepuluhan lah bu
+14-1	607-610	jam	_	_	_	_	_
+14-2	611-620	sepuluhan	_	_	_	_	_
+14-3	621-624	lah	_	_	_	_	_
+14-4	625-627	bu	_	_	_	_	_
+
+#Text=okay ini bisa dipastikan jam berapa pak biar saya buatkan laporan nya di sistem
+15-1	629-633	okay	_	_	_	_	_
+15-2	634-637	ini	_	_	_	_	_
+15-3	638-642	bisa	_	_	_	_	_
+15-4	643-653	dipastikan	_	_	_	_	_
+15-5	654-657	jam	_	_	_	_	_
+15-6	658-664	berapa	_	_	_	_	_
+15-7	665-668	pak	_	_	_	_	_
+15-8	669-673	biar	_	_	_	_	_
+15-9	674-678	saya	_	_	_	_	_
+15-10	679-686	buatkan	_	_	_	_	_
+15-11	687-694	laporan	_	_	_	_	_
+15-12	695-698	nya	_	_	_	_	_
+15-13	699-701	di	_	_	_	_	_
+15-14	702-708	sistem	_	_	_	_	_
+
+#Text=< oh > iya bu okay baik baik
+16-1	710-711	<	_	_	_	_	_
+16-2	712-714	oh	_	_	_	_	_
+16-3	715-716	>	_	_	_	_	_
+16-4	717-720	iya	_	_	_	_	_
+16-5	721-723	bu	_	_	_	_	_
+16-6	724-728	okay	_	_	_	_	_
+16-7	729-733	baik	_	_	_	_	_
+16-8	734-738	baik	_	_	_	_	_
+
+#Text=jam sepuluh
+17-1	740-743	jam	_	_	_	_	_
+17-2	744-751	sepuluh	_	_	_	_	_
+
+#Text=iya bu
+18-1	753-756	iya	_	_	_	_	_
+18-2	757-759	bu	_	_	_	_	_
+
+#Text=ini di sini total tagihan nya sudah sekitar empat ratus sembilan puluh sembilan ribu
+19-1	761-764	ini	_	_	_	_	_
+19-2	765-767	di	_	_	_	_	_
+19-3	768-772	sini	_	_	_	_	_
+19-4	773-778	total	_	_	_	_	_
+19-5	779-786	tagihan	_	_	_	_	_
+19-6	787-790	nya	_	_	_	_	_
+19-7	791-796	sudah	_	_	_	_	_
+19-8	797-804	sekitar	_	_	_	_	_
+19-9	805-810	empat	_	_	_	_	_
+19-10	811-816	ratus	_	_	_	_	_
+19-11	817-825	sembilan	_	_	_	_	_
+19-12	826-831	puluh	_	_	_	_	_
+19-13	832-840	sembilan	_	_	_	_	_
+19-14	841-845	ribu	_	_	_	_	_
+
+#Text=masih bu masih saya gunakan
+20-1	847-852	masih	_	_	_	_	_
+20-2	853-855	bu	_	_	_	_	_
+20-3	856-861	masih	_	_	_	_	_
+20-4	862-866	saya	_	_	_	_	_
+20-5	867-874	gunakan	_	_	_	_	_
+
+#Text=< e > di jam sepuluh pagi iya pak iya
+21-1	876-877	<	_	_	_	_	_
+21-2	878-879	e	_	_	_	_	_
+21-3	880-881	>	_	_	_	_	_
+21-4	882-884	di	_	_	_	_	_
+21-5	885-888	jam	_	_	_	_	_
+21-6	889-896	sepuluh	_	_	_	_	_
+21-7	897-901	pagi	_	_	_	_	_
+21-8	902-905	iya	_	_	_	_	_
+21-9	906-909	pak	_	_	_	_	_
+21-10	910-913	iya	_	_	_	_	_
+
+#Text=terhubung bu ini
+22-1	915-924	terhubung	_	_	_	_	_
+22-2	925-927	bu	_	_	_	_	_
+22-3	928-931	ini	_	_	_	_	_
+
+#Text=aplikasi nya masih ada sama bapak
+23-1	933-941	aplikasi	_	_	_	_	_
+23-2	942-945	nya	_	_	_	_	_
+23-3	946-951	masih	_	_	_	_	_
+23-4	952-955	ada	_	_	_	_	_
+23-5	956-960	sama	_	_	_	_	_
+23-6	961-966	bapak	_	_	_	_	_
+
+#Text=okay siap bu
+24-1	968-972	okay	_	_	_	_	_
+24-2	973-977	siap	_	_	_	_	_
+24-3	978-980	bu	_	_	_	_	_
+
+#Text=okay < e > ini pak mohon maaf nomor nya < unk > < e > terhubung ke wa tidak pak
+25-1	982-986	okay	_	_	_	_	_
+25-2	987-988	<	_	_	_	_	_
+25-3	989-990	e	_	_	_	_	_
+25-4	991-992	>	_	_	_	_	_
+25-5	993-996	ini	_	_	_	_	_
+25-6	997-1000	pak	_	_	_	_	_
+25-7	1001-1006	mohon	_	_	_	_	_
+25-8	1007-1011	maaf	_	_	_	_	_
+25-9	1012-1017	nomor	_	_	_	_	_
+25-10	1018-1021	nya	_	_	_	_	_
+25-11	1022-1023	<	_	_	_	_	_
+25-12	1024-1027	unk	_	_	_	_	_
+25-13	1028-1029	>	_	_	_	_	_
+25-14	1030-1031	<	_	_	_	_	_
+25-15	1032-1033	e	_	_	_	_	_
+25-16	1034-1035	>	_	_	_	_	_
+25-17	1036-1045	terhubung	_	_	_	_	_
+25-18	1046-1048	ke	_	_	_	_	_
+25-19	1049-1051	wa	_	_	_	_	_
+25-20	1052-1057	tidak	_	_	_	_	_
+25-21	1058-1061	pak	_	_	_	_	_
+
+#Text=iya
+26-1	1063-1066	iya	_	_	_	_	_
+
+#Text=okay kalau begitu nanti saya konfirmasi ke bapak < e > lewat wa juga iya
+27-1	1068-1072	okay	_	_	_	_	_
+27-2	1073-1078	kalau	_	_	_	_	_
+27-3	1079-1085	begitu	_	_	_	_	_
+27-4	1086-1091	nanti	_	_	_	_	_
+27-5	1092-1096	saya	_	_	_	_	_
+27-6	1097-1107	konfirmasi	_	_	_	_	_
+27-7	1108-1110	ke	_	_	_	_	_
+27-8	1111-1116	bapak	_	_	_	_	_
+27-9	1117-1118	<	_	_	_	_	_
+27-10	1119-1120	e	_	_	_	_	_
+27-11	1121-1122	>	_	_	_	_	_
+27-12	1123-1128	lewat	_	_	_	_	_
+27-13	1129-1131	wa	_	_	_	_	_
+27-14	1132-1136	juga	_	_	_	_	_
+27-15	1137-1140	iya	_	_	_	_	_
+
+#Text=seandainya bapak sudah membayarkan bisa mengirimkan bukti nya ke saya sehingga saya bisa buatkan laporan di sistem biar bapak jangan dihubungi lagi pak
+28-1	1142-1152	seandainya	_	_	_	_	_
+28-2	1153-1158	bapak	_	_	_	_	_
+28-3	1159-1164	sudah	_	_	_	_	_
+28-4	1165-1176	membayarkan	_	_	_	_	_
+28-5	1177-1181	bisa	_	_	_	_	_
+28-6	1182-1193	mengirimkan	_	_	_	_	_
+28-7	1194-1199	bukti	_	_	_	_	_
+28-8	1200-1203	nya	_	_	_	_	_
+28-9	1204-1206	ke	_	_	_	_	_
+28-10	1207-1211	saya	_	_	_	_	_
+28-11	1212-1220	sehingga	_	_	_	_	_
+28-12	1221-1225	saya	_	_	_	_	_
+28-13	1226-1230	bisa	_	_	_	_	_
+28-14	1231-1238	buatkan	_	_	_	_	_
+28-15	1239-1246	laporan	_	_	_	_	_
+28-16	1247-1249	di	_	_	_	_	_
+28-17	1250-1256	sistem	_	_	_	_	_
+28-18	1257-1261	biar	_	_	_	_	_
+28-19	1262-1267	bapak	_	_	_	_	_
+28-20	1268-1274	jangan	_	_	_	_	_
+28-21	1275-1284	dihubungi	_	_	_	_	_
+28-22	1285-1289	lagi	_	_	_	_	_
+28-23	1290-1293	pak	_	_	_	_	_

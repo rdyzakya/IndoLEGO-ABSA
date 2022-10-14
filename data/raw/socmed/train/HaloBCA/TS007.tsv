@@ -1,0 +1,453 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=< filler > delapan dua delapan iya dengan mbak siapa
+1-1	0-1	<	_	_	_	_	_
+1-2	2-8	filler	_	_	_	_	_
+1-3	9-10	>	_	_	_	_	_
+1-4	11-18	delapan	_	_	_	_	_
+1-5	19-22	dua	_	_	_	_	_
+1-6	23-30	delapan	_	_	_	_	_
+1-7	31-34	iya	_	_	_	_	_
+1-8	35-41	dengan	_	_	_	_	_
+1-9	42-46	mbak	_	_	_	_	_
+1-10	47-52	siapa	_	_	_	_	_
+
+#Text=< filler > mbak widi novita
+2-1	54-55	<	_	_	_	_	_
+2-2	56-62	filler	_	_	_	_	_
+2-3	63-64	>	_	_	_	_	_
+2-4	65-69	mbak	_	_	_	_	_
+2-5	70-74	widi	_	_	_	_	_
+2-6	75-81	novita	_	_	_	_	_
+
+#Text=< filler >
+3-1	83-84	<	_	_	_	_	_
+3-2	85-91	filler	_	_	_	_	_
+3-3	92-93	>	_	_	_	_	_
+
+#Text=ini saya kan ada transfer dari mandiri ke bca
+4-1	95-98	ini	_	_	_	_	_
+4-2	99-103	saya	_	_	_	_	_
+4-3	104-107	kan	_	_	_	_	_
+4-4	108-111	ada	_	_	_	_	_
+4-5	112-120	transfer	*|*|*	concept[1]|[2_1]|[3_1]|[5_1]	_	_	_
+4-6	121-125	dari	_	_	_	_	_
+4-7	126-133	mandiri	_	concept[2]	_	_	_
+4-8	134-136	ke	_	_	_	_	_
+4-9	137-140	bca	_	concept[3]	_	_	_
+
+#Text=< filler > delapan ratus dua puluh delapan ribu
+5-1	142-143	<	_	_	_	_	_
+5-2	144-150	filler	_	_	_	_	_
+5-3	151-152	>	_	_	_	_	_
+5-4	153-160	delapan	_	_	_	_	_
+5-5	161-166	ratus	_	_	_	_	_
+5-6	167-170	dua	_	_	_	_	_
+5-7	171-176	puluh	_	_	_	_	_
+5-8	177-184	delapan	_	_	_	_	_
+5-9	185-189	ribu	_	_	_	_	_
+
+#Text=tapi kok enggak masuk ya di rekening bca - nya atau ada apa gitu info apa gitu
+6-1	191-195	tapi	_	_	_	_	_
+6-2	196-199	kok	_	_	_	_	_
+6-3	200-206	enggak	*	[1_4]|negative[4]	_	_	_
+6-4	207-212	masuk	_	negative[4]	_	_	_
+6-5	213-215	ya	_	_	_	_	_
+6-6	216-218	di	_	_	_	_	_
+6-7	219-227	rekening	*	concept[5]|[6_5]	_	_	_
+6-8	228-231	bca	_	concept[6]	_	_	_
+6-9	232-233	-	_	_	_	_	_
+6-10	234-237	nya	_	_	_	_	_
+6-11	238-242	atau	_	_	_	_	_
+6-12	243-246	ada	_	_	_	_	_
+6-13	247-250	apa	_	_	_	_	_
+6-14	251-255	gitu	_	_	_	_	_
+6-15	256-260	info	_	_	_	_	_
+6-16	261-264	apa	_	_	_	_	_
+6-17	265-269	gitu	_	_	_	_	_
+
+#Text=< filler >
+7-1	271-272	<	_	_	_	_	_
+7-2	273-279	filler	_	_	_	_	_
+7-3	280-281	>	_	_	_	_	_
+
+#Text=iya
+8-1	283-286	iya	_	_	_	_	_
+
+#Text=< filler >
+9-1	288-289	<	_	_	_	_	_
+9-2	290-296	filler	_	_	_	_	_
+9-3	297-298	>	_	_	_	_	_
+
+#Text=< filler >
+10-1	300-301	<	_	_	_	_	_
+10-2	302-308	filler	_	_	_	_	_
+10-3	309-310	>	_	_	_	_	_
+
+#Text=oke
+11-1	312-315	oke	_	_	_	_	_
+
+#Text=ya udah
+12-1	317-319	ya	_	_	_	_	_
+12-2	320-324	udah	_	_	_	_	_
+
+#Text=< filler > soal nya di mutasi saya enggak < keb > enggak < mas > enggak ada nih enggak kebaca
+13-1	326-327	<	_	_	_	_	_
+13-2	328-334	filler	_	_	_	_	_
+13-3	335-336	>	_	_	_	_	_
+13-4	337-341	soal	_	_	_	_	_
+13-5	342-345	nya	_	_	_	_	_
+13-6	346-348	di	_	_	_	_	_
+13-7	349-355	mutasi	*	[5_7]|concept[7]	_	_	_
+13-8	356-360	saya	_	_	_	_	_
+13-9	361-367	enggak	_	_	_	_	_
+13-10	368-369	<	_	_	_	_	_
+13-11	370-373	keb	_	_	_	_	_
+13-12	374-375	>	_	_	_	_	_
+13-13	376-382	enggak	_	_	_	_	_
+13-14	383-384	<	_	_	_	_	_
+13-15	385-388	mas	_	_	_	_	_
+13-16	389-390	>	_	_	_	_	_
+13-17	391-397	enggak	_	_	_	_	_
+13-18	398-401	ada	_	_	_	_	_
+13-19	402-405	nih	_	_	_	_	_
+13-20	406-412	enggak	*	[7_8]|negative[8]	_	_	_
+13-21	413-419	kebaca	_	negative[8]	_	_	_
+
+#Text=< filler >
+14-1	421-422	<	_	_	_	_	_
+14-2	423-429	filler	_	_	_	_	_
+14-3	430-431	>	_	_	_	_	_
+
+#Text=tapi di di ini nya di mana nama nya di mandiri - nya udah kepotong
+15-1	433-437	tapi	_	_	_	_	_
+15-2	438-440	di	_	_	_	_	_
+15-3	441-443	di	_	_	_	_	_
+15-4	444-447	ini	_	_	_	_	_
+15-5	448-451	nya	_	_	_	_	_
+15-6	452-454	di	_	_	_	_	_
+15-7	455-459	mana	_	_	_	_	_
+15-8	460-464	nama	_	_	_	_	_
+15-9	465-468	nya	_	_	_	_	_
+15-10	469-471	di	_	_	_	_	_
+15-11	472-479	mandiri	_	_	_	_	_
+15-12	480-481	-	_	_	_	_	_
+15-13	482-485	nya	_	_	_	_	_
+15-14	486-490	udah	*	[1_9]|negative[9]	_	_	_
+15-15	491-499	kepotong	_	negative[9]	_	_	_
+
+#Text=makanya saya bingung
+16-1	501-508	makanya	_	_	_	_	_
+16-2	509-513	saya	_	_	_	_	_
+16-3	514-521	bingung	*	[1_10]|negative[10]	_	_	_
+
+#Text=ya udah deh < filler >
+17-1	523-525	ya	_	_	_	_	_
+17-2	526-530	udah	_	_	_	_	_
+17-3	531-534	deh	_	_	_	_	_
+17-4	535-536	<	_	_	_	_	_
+17-5	537-543	filler	_	_	_	_	_
+17-6	544-545	>	_	_	_	_	_
+
+#Text=ya udah nanti saya
+18-1	547-549	ya	_	_	_	_	_
+18-2	550-554	udah	_	_	_	_	_
+18-3	555-560	nanti	_	_	_	_	_
+18-4	561-565	saya	_	_	_	_	_
+
+#Text=telepon lagi deh
+19-1	567-574	telepon	_	_	_	_	_
+19-2	575-579	lagi	_	_	_	_	_
+19-3	580-583	deh	_	_	_	_	_
+
+#Text=kalau misalnya itu < filler >
+20-1	585-590	kalau	_	_	_	_	_
+20-2	591-599	misalnya	_	_	_	_	_
+20-3	600-603	itu	_	_	_	_	_
+20-4	604-605	<	_	_	_	_	_
+20-5	606-612	filler	_	_	_	_	_
+20-6	613-614	>	_	_	_	_	_
+
+#Text=ya udah
+21-1	616-618	ya	_	_	_	_	_
+21-2	619-623	udah	_	_	_	_	_
+
+#Text=thank you ya mbak
+22-1	625-630	thank	_	_	_	_	_
+22-2	631-634	you	_	_	_	_	_
+22-3	635-637	ya	_	_	_	_	_
+22-4	638-642	mbak	_	_	_	_	_
+
+#Text=iya udah < filler >
+23-1	644-647	iya	_	_	_	_	_
+23-2	648-652	udah	_	_	_	_	_
+23-3	653-654	<	_	_	_	_	_
+23-4	655-661	filler	_	_	_	_	_
+23-5	662-663	>	_	_	_	_	_
+
+#Text=udah dulu
+24-1	665-669	udah	_	_	_	_	_
+24-2	670-674	dulu	_	_	_	_	_
+
+#Text=iya
+25-1	676-679	iya	_	_	_	_	_
+
+#Text=< filler >
+26-1	681-682	<	_	_	_	_	_
+26-2	683-689	filler	_	_	_	_	_
+26-3	690-691	>	_	_	_	_	_
+
+#Text=iya siang
+27-1	693-696	iya	_	_	_	_	_
+27-2	697-702	siang	_	_	_	_	_
+
+#Text=selamat siang halo bca dengan widi bisa saya bantu
+28-1	704-711	selamat	_	_	_	_	_
+28-2	712-717	siang	_	_	_	_	_
+28-3	718-722	halo	_	_	_	_	_
+28-4	723-726	bca	_	_	_	_	_
+28-5	727-733	dengan	_	_	_	_	_
+28-6	734-738	widi	_	_	_	_	_
+28-7	739-743	bisa	_	_	_	_	_
+28-8	744-748	saya	_	_	_	_	_
+28-9	749-754	bantu	_	_	_	_	_
+
+#Text=saya widi bu
+29-1	756-760	saya	_	_	_	_	_
+29-2	761-765	widi	_	_	_	_	_
+29-3	766-768	bu	_	_	_	_	_
+
+#Text=baik ibu novita
+30-1	770-774	baik	_	_	_	_	_
+30-2	775-778	ibu	_	_	_	_	_
+30-3	779-785	novita	_	_	_	_	_
+
+#Text=informasi apa yang bisa saya bantu
+31-1	787-796	informasi	_	_	_	_	_
+31-2	797-800	apa	_	_	_	_	_
+31-3	801-805	yang	_	_	_	_	_
+31-4	806-810	bisa	_	_	_	_	_
+31-5	811-815	saya	_	_	_	_	_
+31-6	816-821	bantu	_	_	_	_	_
+
+#Text=< filler >
+32-1	823-824	<	_	_	_	_	_
+32-2	825-831	filler	_	_	_	_	_
+32-3	832-833	>	_	_	_	_	_
+
+#Text=iya
+33-1	835-838	iya	_	_	_	_	_
+
+#Text=baik bu novita di sini dengan senang hati saya bantu informasikan jadi
+34-1	840-844	baik	_	_	_	_	_
+34-2	845-847	bu	_	_	_	_	_
+34-3	848-854	novita	_	_	_	_	_
+34-4	855-857	di	_	_	_	_	_
+34-5	858-862	sini	_	_	_	_	_
+34-6	863-869	dengan	_	_	_	_	_
+34-7	870-876	senang	_	_	_	_	_
+34-8	877-881	hati	_	_	_	_	_
+34-9	882-886	saya	_	_	_	_	_
+34-10	887-892	bantu	_	_	_	_	_
+34-11	893-905	informasikan	_	_	_	_	_
+34-12	906-910	jadi	_	_	_	_	_
+
+#Text=untuk mandiri dan bca - nya atas nama ibu sendiri
+35-1	912-917	untuk	_	_	_	_	_
+35-2	918-925	mandiri	_	_	_	_	_
+35-3	926-929	dan	_	_	_	_	_
+35-4	930-933	bca	_	_	_	_	_
+35-5	934-935	-	_	_	_	_	_
+35-6	936-939	nya	_	_	_	_	_
+35-7	940-944	atas	_	_	_	_	_
+35-8	945-949	nama	_	_	_	_	_
+35-9	950-953	ibu	_	_	_	_	_
+35-10	954-961	sendiri	_	_	_	_	_
+
+#Text=baik namun di sini kami bantu informasikan untuk bca hanya sebagai penerima dana saja sifat nya pasif
+36-1	963-967	baik	_	_	_	_	_
+36-2	968-973	namun	_	_	_	_	_
+36-3	974-976	di	_	_	_	_	_
+36-4	977-981	sini	_	_	_	_	_
+36-5	982-986	kami	_	_	_	_	_
+36-6	987-992	bantu	_	_	_	_	_
+36-7	993-1005	informasikan	_	_	_	_	_
+36-8	1006-1011	untuk	_	_	_	_	_
+36-9	1012-1015	bca	_	_	_	_	_
+36-10	1016-1021	hanya	_	_	_	_	_
+36-11	1022-1029	sebagai	_	_	_	_	_
+36-12	1030-1038	penerima	_	_	_	_	_
+36-13	1039-1043	dana	_	_	_	_	_
+36-14	1044-1048	saja	_	_	_	_	_
+36-15	1049-1054	sifat	_	_	_	_	_
+36-16	1055-1058	nya	_	_	_	_	_
+36-17	1059-1064	pasif	_	_	_	_	_
+
+#Text=menunggu hasil transferan dari bank mandiri - nya tersebut bu
+37-1	1066-1074	menunggu	_	_	_	_	_
+37-2	1075-1080	hasil	_	_	_	_	_
+37-3	1081-1091	transferan	_	_	_	_	_
+37-4	1092-1096	dari	_	_	_	_	_
+37-5	1097-1101	bank	_	_	_	_	_
+37-6	1102-1109	mandiri	_	_	_	_	_
+37-7	1110-1111	-	_	_	_	_	_
+37-8	1112-1115	nya	_	_	_	_	_
+37-9	1116-1124	tersebut	_	_	_	_	_
+37-10	1125-1127	bu	_	_	_	_	_
+
+#Text=jadi kami bantu sarankan ibu silakan konfirmasi langsung ke bank mandiri - nya apakah transaksi dari mandiri - nya sudah berhasil apa belum bu
+38-1	1129-1133	jadi	_	_	_	_	_
+38-2	1134-1138	kami	_	_	_	_	_
+38-3	1139-1144	bantu	_	_	_	_	_
+38-4	1145-1153	sarankan	_	_	_	_	_
+38-5	1154-1157	ibu	_	_	_	_	_
+38-6	1158-1165	silakan	_	_	_	_	_
+38-7	1166-1176	konfirmasi	_	_	_	_	_
+38-8	1177-1185	langsung	_	_	_	_	_
+38-9	1186-1188	ke	_	_	_	_	_
+38-10	1189-1193	bank	_	_	_	_	_
+38-11	1194-1201	mandiri	_	_	_	_	_
+38-12	1202-1203	-	_	_	_	_	_
+38-13	1204-1207	nya	_	_	_	_	_
+38-14	1208-1214	apakah	_	_	_	_	_
+38-15	1215-1224	transaksi	_	_	_	_	_
+38-16	1225-1229	dari	_	_	_	_	_
+38-17	1230-1237	mandiri	_	_	_	_	_
+38-18	1238-1239	-	_	_	_	_	_
+38-19	1240-1243	nya	_	_	_	_	_
+38-20	1244-1249	sudah	_	_	_	_	_
+38-21	1250-1258	berhasil	_	_	_	_	_
+38-22	1259-1262	apa	_	_	_	_	_
+38-23	1263-1268	belum	_	_	_	_	_
+38-24	1269-1271	bu	_	_	_	_	_
+
+#Text=iya
+39-1	1273-1276	iya	_	_	_	_	_
+
+#Text=iya
+40-1	1278-1281	iya	_	_	_	_	_
+
+#Text=di mutasi di bca
+41-1	1283-1285	di	_	_	_	_	_
+41-2	1286-1292	mutasi	_	_	_	_	_
+41-3	1293-1295	di	_	_	_	_	_
+41-4	1296-1299	bca	_	_	_	_	_
+
+#Text=baik ini di < si >
+42-1	1301-1305	baik	_	_	_	_	_
+42-2	1306-1309	ini	_	_	_	_	_
+42-3	1310-1312	di	_	_	_	_	_
+42-4	1313-1314	<	_	_	_	_	_
+42-5	1315-1317	si	_	_	_	_	_
+42-6	1318-1319	>	_	_	_	_	_
+
+#Text=iya
+43-1	1321-1324	iya	_	_	_	_	_
+
+#Text=iya jadi kan pengirim dana nya dari mandiri jadi kami bantu sarankan konfirmasi ke bank yang bersangkutan bu ke bank pengirim nya karena bca
+44-1	1326-1329	iya	_	_	_	_	_
+44-2	1330-1334	jadi	_	_	_	_	_
+44-3	1335-1338	kan	_	_	_	_	_
+44-4	1339-1347	pengirim	_	_	_	_	_
+44-5	1348-1352	dana	_	_	_	_	_
+44-6	1353-1356	nya	_	_	_	_	_
+44-7	1357-1361	dari	_	_	_	_	_
+44-8	1362-1369	mandiri	_	_	_	_	_
+44-9	1370-1374	jadi	_	_	_	_	_
+44-10	1375-1379	kami	_	_	_	_	_
+44-11	1380-1385	bantu	_	_	_	_	_
+44-12	1386-1394	sarankan	_	_	_	_	_
+44-13	1395-1405	konfirmasi	_	_	_	_	_
+44-14	1406-1408	ke	_	_	_	_	_
+44-15	1409-1413	bank	_	_	_	_	_
+44-16	1414-1418	yang	_	_	_	_	_
+44-17	1419-1431	bersangkutan	_	_	_	_	_
+44-18	1432-1434	bu	_	_	_	_	_
+44-19	1435-1437	ke	_	_	_	_	_
+44-20	1438-1442	bank	_	_	_	_	_
+44-21	1443-1451	pengirim	_	_	_	_	_
+44-22	1452-1455	nya	_	_	_	_	_
+44-23	1456-1462	karena	_	_	_	_	_
+44-24	1463-1466	bca	_	_	_	_	_
+
+#Text=sifat nya pasif hanya menunggu hasil transferan seperti itu ya bu
+45-1	1468-1473	sifat	_	_	_	_	_
+45-2	1474-1477	nya	_	_	_	_	_
+45-3	1478-1483	pasif	_	_	_	_	_
+45-4	1484-1489	hanya	_	_	_	_	_
+45-5	1490-1498	menunggu	_	_	_	_	_
+45-6	1499-1504	hasil	_	_	_	_	_
+45-7	1505-1515	transferan	_	_	_	_	_
+45-8	1516-1523	seperti	_	_	_	_	_
+45-9	1524-1527	itu	_	_	_	_	_
+45-10	1528-1530	ya	_	_	_	_	_
+45-11	1531-1533	bu	_	_	_	_	_
+
+#Text=iya
+46-1	1535-1538	iya	_	_	_	_	_
+
+#Text=baik
+47-1	1540-1544	baik	_	_	_	_	_
+
+#Text=baik
+48-1	1546-1550	baik	_	_	_	_	_
+
+#Text=bagaimana
+49-1	1552-1561	bagaimana	_	_	_	_	_
+
+#Text=iya baik bu novita sejauh ini apakah informasi yang saya sampaikan sudah jelas
+50-1	1563-1566	iya	_	_	_	_	_
+50-2	1567-1571	baik	_	_	_	_	_
+50-3	1572-1574	bu	_	_	_	_	_
+50-4	1575-1581	novita	_	_	_	_	_
+50-5	1582-1588	sejauh	_	_	_	_	_
+50-6	1589-1592	ini	_	_	_	_	_
+50-7	1593-1599	apakah	_	_	_	_	_
+50-8	1600-1609	informasi	_	_	_	_	_
+50-9	1610-1614	yang	_	_	_	_	_
+50-10	1615-1619	saya	_	_	_	_	_
+50-11	1620-1629	sampaikan	_	_	_	_	_
+50-12	1630-1635	sudah	_	_	_	_	_
+50-13	1636-1641	jelas	_	_	_	_	_
+
+#Text=baik ada lagi yang bisa saya bantu
+51-1	1643-1647	baik	_	_	_	_	_
+51-2	1648-1651	ada	_	_	_	_	_
+51-3	1652-1656	lagi	_	_	_	_	_
+51-4	1657-1661	yang	_	_	_	_	_
+51-5	1662-1666	bisa	_	_	_	_	_
+51-6	1667-1671	saya	_	_	_	_	_
+51-7	1672-1677	bantu	_	_	_	_	_
+
+#Text=baik
+52-1	1679-1683	baik	_	_	_	_	_
+
+#Text=semoga transaksi selanjutnya berjalan lancar jika ada hal lain yang ingin ditanyakan
+53-1	1685-1691	semoga	_	_	_	_	_
+53-2	1692-1701	transaksi	_	_	_	_	_
+53-3	1702-1713	selanjutnya	_	_	_	_	_
+53-4	1714-1722	berjalan	_	_	_	_	_
+53-5	1723-1729	lancar	_	_	_	_	_
+53-6	1730-1734	jika	_	_	_	_	_
+53-7	1735-1738	ada	_	_	_	_	_
+53-8	1739-1742	hal	_	_	_	_	_
+53-9	1743-1747	lain	_	_	_	_	_
+53-10	1748-1752	yang	_	_	_	_	_
+53-11	1753-1758	ingin	_	_	_	_	_
+53-12	1759-1769	ditanyakan	_	_	_	_	_
+
+#Text=silakan menghubungi kami kembali terima kasih telah menghubungi halo bca bu novita selamat siang
+54-1	1771-1778	silakan	_	_	_	_	_
+54-2	1779-1790	menghubungi	_	_	_	_	_
+54-3	1791-1795	kami	_	_	_	_	_
+54-4	1796-1803	kembali	_	_	_	_	_
+54-5	1804-1810	terima	_	_	_	_	_
+54-6	1811-1816	kasih	_	_	_	_	_
+54-7	1817-1822	telah	_	_	_	_	_
+54-8	1823-1834	menghubungi	_	_	_	_	_
+54-9	1835-1839	halo	_	_	_	_	_
+54-10	1840-1843	bca	_	_	_	_	_
+54-11	1844-1846	bu	_	_	_	_	_
+54-12	1847-1853	novita	_	_	_	_	_
+54-13	1854-1861	selamat	_	_	_	_	_
+54-14	1862-1867	siang	_	_	_	_	_

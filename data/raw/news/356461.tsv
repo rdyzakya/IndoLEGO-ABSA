@@ -1,0 +1,364 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Netizen kembali meramaikan jagat maya Twitter usai Menko Maritim dan Investasi Luhut Binsar Pandjaitan , mengumumkan peningkatan level PPKM naik ke level 3 .
+1-1	0-7	Netizen	_	_	_	_	_
+1-2	8-15	kembali	_	_	_	_	_
+1-3	16-26	meramaikan	_	_	_	_	_
+1-4	27-32	jagat	_	_	_	_	_
+1-5	33-37	maya	_	_	_	_	_
+1-6	38-45	Twitter	_	_	_	_	_
+1-7	46-50	usai	_	_	_	_	_
+1-8	51-56	Menko	_	_	_	_	_
+1-9	57-64	Maritim	_	_	_	_	_
+1-10	65-68	dan	_	_	_	_	_
+1-11	69-78	Investasi	_	_	_	_	_
+1-12	79-84	Luhut	_	_	_	_	_
+1-13	85-91	Binsar	_	_	_	_	_
+1-14	92-102	Pandjaitan	_	_	_	_	_
+1-15	103-104	,	_	_	_	_	_
+1-16	105-116	mengumumkan	_	_	_	_	_
+1-17	117-128	peningkatan	_	_	_	_	_
+1-18	129-134	level	_	_	_	_	_
+1-19	135-139	PPKM	_	_	_	_	_
+1-20	140-144	naik	_	_	_	_	_
+1-21	145-147	ke	_	_	_	_	_
+1-22	148-153	level	_	_	_	_	_
+1-23	154-155	3	_	_	_	_	_
+1-24	156-157	.	_	_	_	_	_
+
+#Text=di Jabodetabek , DIY , Bali dan Bandung raya , Selasa ( 7 / 2 ) siang .
+2-1	159-161	di	_	_	_	_	_
+2-2	162-173	Jabodetabek	_	_	_	_	_
+2-3	174-175	,	_	_	_	_	_
+2-4	176-179	DIY	_	_	_	_	_
+2-5	180-181	,	_	_	_	_	_
+2-6	182-186	Bali	_	_	_	_	_
+2-7	187-190	dan	_	_	_	_	_
+2-8	191-198	Bandung	_	_	_	_	_
+2-9	199-203	raya	_	_	_	_	_
+2-10	204-205	,	_	_	_	_	_
+2-11	206-212	Selasa	_	_	_	_	_
+2-12	213-214	(	_	_	_	_	_
+2-13	215-216	7	_	_	_	_	_
+2-14	217-218	/	_	_	_	_	_
+2-15	219-220	2	_	_	_	_	_
+2-16	221-222	)	_	_	_	_	_
+2-17	223-228	siang	_	_	_	_	_
+2-18	229-230	.	_	_	_	_	_
+
+#Text=Kebijakan ini diambil setelah menyoroti lonjakan kasus Covid - 19 yang terjadi dalam beberapa hari terakhir .
+3-1	232-241	Kebijakan	_	_	_	_	_
+3-2	242-245	ini	_	_	_	_	_
+3-3	246-253	diambil	_	_	_	_	_
+3-4	254-261	setelah	_	_	_	_	_
+3-5	262-271	menyoroti	_	_	_	_	_
+3-6	272-280	lonjakan	_	_	_	_	_
+3-7	281-286	kasus	_	_	_	_	_
+3-8	287-292	Covid	_	_	_	_	_
+3-9	293-294	-	_	_	_	_	_
+3-10	295-297	19	_	_	_	_	_
+3-11	298-302	yang	_	_	_	_	_
+3-12	303-310	terjadi	_	_	_	_	_
+3-13	311-316	dalam	_	_	_	_	_
+3-14	317-325	beberapa	_	_	_	_	_
+3-15	326-330	hari	_	_	_	_	_
+3-16	331-339	terakhir	_	_	_	_	_
+3-17	340-341	.	_	_	_	_	_
+
+#Text=" Jabodetabek , DIY , Bali Bandung Raya akan ke level 3 , " ujar Luhut dalam jumpa pers disiarkan kanal Youtube Sekretariat Presiden , Senin ( 7 / 2 ) .
+4-1	343-344	"	_	_	_	_	_
+4-2	345-356	Jabodetabek	_	_	_	_	_
+4-3	357-358	,	_	_	_	_	_
+4-4	359-362	DIY	_	_	_	_	_
+4-5	363-364	,	_	_	_	_	_
+4-6	365-369	Bali	_	_	_	_	_
+4-7	370-377	Bandung	_	_	_	_	_
+4-8	378-382	Raya	_	_	_	_	_
+4-9	383-387	akan	_	_	_	_	_
+4-10	388-390	ke	_	_	_	_	_
+4-11	391-396	level	_	_	_	_	_
+4-12	397-398	3	_	_	_	_	_
+4-13	399-400	,	_	_	_	_	_
+4-14	401-402	"	_	_	_	_	_
+4-15	403-407	ujar	_	_	_	_	_
+4-16	408-413	Luhut	_	_	_	_	_
+4-17	414-419	dalam	_	_	_	_	_
+4-18	420-425	jumpa	_	_	_	_	_
+4-19	426-430	pers	_	_	_	_	_
+4-20	431-440	disiarkan	_	_	_	_	_
+4-21	441-446	kanal	_	_	_	_	_
+4-22	447-454	Youtube	_	_	_	_	_
+4-23	455-466	Sekretariat	_	_	_	_	_
+4-24	467-475	Presiden	_	_	_	_	_
+4-25	476-477	,	_	_	_	_	_
+4-26	478-483	Senin	_	_	_	_	_
+4-27	484-485	(	_	_	_	_	_
+4-28	486-487	7	_	_	_	_	_
+4-29	488-489	/	_	_	_	_	_
+4-30	490-491	2	_	_	_	_	_
+4-31	492-493	)	_	_	_	_	_
+4-32	494-495	.	_	_	_	_	_
+
+#Text=Ia memerintahkan peningkatan kewaspadaan terhadap lonjakan varian Omicron , menyumbang kenaikan kasus covid dalam beberapa waktu terakhir .
+5-1	497-499	Ia	_	_	_	_	_
+5-2	500-513	memerintahkan	_	_	_	_	_
+5-3	514-525	peningkatan	_	_	_	_	_
+5-4	526-537	kewaspadaan	_	_	_	_	_
+5-5	538-546	terhadap	_	_	_	_	_
+5-6	547-555	lonjakan	_	_	_	_	_
+5-7	556-562	varian	_	_	_	_	_
+5-8	563-570	Omicron	_	_	_	_	_
+5-9	571-572	,	_	_	_	_	_
+5-10	573-583	menyumbang	_	_	_	_	_
+5-11	584-592	kenaikan	_	_	_	_	_
+5-12	593-598	kasus	_	_	_	_	_
+5-13	599-604	covid	_	_	_	_	_
+5-14	605-610	dalam	_	_	_	_	_
+5-15	611-619	beberapa	_	_	_	_	_
+5-16	620-625	waktu	_	_	_	_	_
+5-17	626-634	terakhir	_	_	_	_	_
+5-18	635-636	.	_	_	_	_	_
+
+#Text=Di antara nya peningkatan faskes hingga konversi bed untuk pasien covid .
+6-1	638-640	Di	_	_	_	_	_
+6-2	641-647	antara	_	_	_	_	_
+6-3	648-651	nya	_	_	_	_	_
+6-4	652-663	peningkatan	_	_	_	_	_
+6-5	664-670	faskes	_	_	_	_	_
+6-6	671-677	hingga	_	_	_	_	_
+6-7	678-686	konversi	_	_	_	_	_
+6-8	687-690	bed	_	_	_	_	_
+6-9	691-696	untuk	_	_	_	_	_
+6-10	697-703	pasien	_	_	_	_	_
+6-11	704-709	covid	_	_	_	_	_
+6-12	710-711	.	_	_	_	_	_
+
+#Text=Salah satu netizen yang mengomentari PPKM level 3 di sejumlah wilayah di Indonesia yaitu @downie_tea .
+7-1	713-718	Salah	_	_	_	_	_
+7-2	719-723	satu	_	_	_	_	_
+7-3	724-731	netizen	_	_	_	_	_
+7-4	732-736	yang	_	_	_	_	_
+7-5	737-749	mengomentari	_	_	_	_	_
+7-6	750-754	PPKM	_	_	_	_	_
+7-7	755-760	level	_	_	_	_	_
+7-8	761-762	3	_	_	_	_	_
+7-9	763-765	di	_	_	_	_	_
+7-10	766-774	sejumlah	_	_	_	_	_
+7-11	775-782	wilayah	_	_	_	_	_
+7-12	783-785	di	_	_	_	_	_
+7-13	786-795	Indonesia	_	_	_	_	_
+7-14	796-801	yaitu	_	_	_	_	_
+7-15	802-813	@downie_tea	_	_	_	_	_
+7-16	814-815	.	_	_	_	_	_
+
+#Text=Ia menghubungkan status PPKM level 3 itu terkait perayaan bulan suci Ramadhan dan perayaan lebaran .
+8-1	817-819	Ia	_	_	_	_	_
+8-2	820-833	menghubungkan	_	_	_	_	_
+8-3	834-840	status	_	_	_	_	_
+8-4	841-845	PPKM	_	_	_	_	_
+8-5	846-851	level	_	_	_	_	_
+8-6	852-853	3	_	_	_	_	_
+8-7	854-857	itu	_	_	_	_	_
+8-8	858-865	terkait	_	_	_	_	_
+8-9	866-874	perayaan	_	_	_	_	_
+8-10	875-880	bulan	_	_	_	_	_
+8-11	881-885	suci	_	_	_	_	_
+8-12	886-894	Ramadhan	_	_	_	_	_
+8-13	895-898	dan	_	_	_	_	_
+8-14	899-907	perayaan	_	_	_	_	_
+8-15	908-915	lebaran	_	_	_	_	_
+8-16	916-917	.	_	_	_	_	_
+
+#Text=" Udh mo bulan suci and lebaran . PPKM naik ke level 3 , dejavu ga sih gua , " ujar nya , Selasa ( 7 / 2 ) .
+9-1	919-920	"	_	_	_	_	_
+9-2	921-924	Udh	_	_	_	_	_
+9-3	925-927	mo	_	_	_	_	_
+9-4	928-933	bulan	_	_	_	_	_
+9-5	934-938	suci	_	_	_	_	_
+9-6	939-942	and	_	_	_	_	_
+9-7	943-950	lebaran	_	_	_	_	_
+9-8	951-952	.	_	_	_	_	_
+9-9	953-957	PPKM	_	_	_	_	_
+9-10	958-962	naik	_	_	_	_	_
+9-11	963-965	ke	_	_	_	_	_
+9-12	966-971	level	_	_	_	_	_
+9-13	972-973	3	_	_	_	_	_
+9-14	974-975	,	_	_	_	_	_
+9-15	976-982	dejavu	_	_	_	_	_
+9-16	983-985	ga	_	_	_	_	_
+9-17	986-989	sih	_	_	_	_	_
+9-18	990-993	gua	_	_	_	_	_
+9-19	994-995	,	_	_	_	_	_
+9-20	996-997	"	_	_	_	_	_
+9-21	998-1002	ujar	_	_	_	_	_
+9-22	1003-1006	nya	_	_	_	_	_
+9-23	1007-1008	,	_	_	_	_	_
+9-24	1009-1015	Selasa	_	_	_	_	_
+9-25	1016-1017	(	_	_	_	_	_
+9-26	1018-1019	7	_	_	_	_	_
+9-27	1020-1021	/	_	_	_	_	_
+9-28	1022-1023	2	_	_	_	_	_
+9-29	1024-1025	)	_	_	_	_	_
+9-30	1026-1027	.	_	_	_	_	_
+
+#Text=[ Gambas : Twitter ] Ada pula akun @yadirsa_mpf yang memberikan komentar serupa , yaitu PPKM level 3 diberlakukan terkait bulan Ramadhan .
+10-1	1029-1030	[	_	_	_	_	_
+10-2	1031-1037	Gambas	_	_	_	_	_
+10-3	1038-1039	:	_	_	_	_	_
+10-4	1040-1047	Twitter	_	_	_	_	_
+10-5	1048-1049	]	_	_	_	_	_
+10-6	1050-1053	Ada	_	_	_	_	_
+10-7	1054-1058	pula	_	_	_	_	_
+10-8	1059-1063	akun	_	_	_	_	_
+10-9	1064-1076	@yadirsa_mpf	_	_	_	_	_
+10-10	1077-1081	yang	_	_	_	_	_
+10-11	1082-1092	memberikan	_	_	_	_	_
+10-12	1093-1101	komentar	_	_	_	_	_
+10-13	1102-1108	serupa	_	_	_	_	_
+10-14	1109-1110	,	_	_	_	_	_
+10-15	1111-1116	yaitu	_	_	_	_	_
+10-16	1117-1121	PPKM	_	_	_	_	_
+10-17	1122-1127	level	_	_	_	_	_
+10-18	1128-1129	3	_	_	_	_	_
+10-19	1130-1142	diberlakukan	_	_	_	_	_
+10-20	1143-1150	terkait	_	_	_	_	_
+10-21	1151-1156	bulan	_	_	_	_	_
+10-22	1157-1165	Ramadhan	_	_	_	_	_
+10-23	1166-1167	.	_	_	_	_	_
+
+#Text=[ Gambas : Twitter ] Lebih lanjut ada pula warganet yang mempersoalkan liburan .
+11-1	1169-1170	[	_	_	_	_	_
+11-2	1171-1177	Gambas	_	_	_	_	_
+11-3	1178-1179	:	_	_	_	_	_
+11-4	1180-1187	Twitter	_	_	_	_	_
+11-5	1188-1189	]	_	_	_	_	_
+11-6	1190-1195	Lebih	_	_	_	_	_
+11-7	1196-1202	lanjut	_	_	_	_	_
+11-8	1203-1206	ada	_	_	_	_	_
+11-9	1207-1211	pula	_	_	_	_	_
+11-10	1212-1220	warganet	_	_	_	_	_
+11-11	1221-1225	yang	_	_	_	_	_
+11-12	1226-1239	mempersoalkan	_	_	_	_	_
+11-13	1240-1247	liburan	_	_	_	_	_
+11-14	1248-1249	.	_	_	_	_	_
+
+#Text=Akun @youghhurt_ mengatakan ia belum sempat pergi berlibur , namun status PPKM saat ini sudah naik jadi level 3 " Yang terhormat bapak Luhut Binsar , saya belom jd jalan-jalan udah mau ppkm level 3 aja pak , " kata nya .
+12-1	1251-1255	Akun	_	_	_	_	_
+12-2	1256-1267	@youghhurt_	_	_	_	_	_
+12-3	1268-1278	mengatakan	_	_	_	_	_
+12-4	1279-1281	ia	_	_	_	_	_
+12-5	1282-1287	belum	_	_	_	_	_
+12-6	1288-1294	sempat	_	_	_	_	_
+12-7	1295-1300	pergi	_	_	_	_	_
+12-8	1301-1309	berlibur	_	_	_	_	_
+12-9	1310-1311	,	_	_	_	_	_
+12-10	1312-1317	namun	_	_	_	_	_
+12-11	1318-1324	status	_	concept[1]	_	_	_
+12-12	1325-1329	PPKM	_	concept[1]	_	_	_
+12-13	1330-1334	saat	_	_	_	_	_
+12-14	1335-1338	ini	_	_	_	_	_
+12-15	1339-1344	sudah	_	positive[2]	_	_	_
+12-16	1345-1349	naik	_	positive[2]	_	_	_
+12-17	1350-1354	jadi	_	_	_	_	_
+12-18	1355-1360	level	_	_	_	_	_
+12-19	1361-1362	3	_	_	_	_	_
+12-20	1363-1364	"	_	_	_	_	_
+12-21	1365-1369	Yang	_	_	_	_	_
+12-22	1370-1379	terhormat	_	_	_	_	_
+12-23	1380-1385	bapak	_	_	_	_	_
+12-24	1386-1391	Luhut	_	_	_	_	_
+12-25	1392-1398	Binsar	_	_	_	_	_
+12-26	1399-1400	,	_	_	_	_	_
+12-27	1401-1405	saya	_	_	_	_	_
+12-28	1406-1411	belom	_	_	_	_	_
+12-29	1412-1414	jd	_	_	_	_	_
+12-30	1415-1426	jalan-jalan	_	_	_	_	_
+12-31	1427-1431	udah	_	_	_	_	_
+12-32	1432-1435	mau	_	_	_	_	_
+12-33	1436-1440	ppkm	_	_	_	_	_
+12-34	1441-1446	level	_	_	_	_	_
+12-35	1447-1448	3	_	_	_	_	_
+12-36	1449-1452	aja	_	_	_	_	_
+12-37	1453-1456	pak	_	_	_	_	_
+12-38	1457-1458	,	_	_	_	_	_
+12-39	1459-1460	"	_	_	_	_	_
+12-40	1461-1465	kata	_	_	_	_	_
+12-41	1466-1469	nya	_	_	_	_	_
+12-42	1470-1471	.	_	_	_	_	_
+
+#Text=[ Gambas : Twitter ] Lebih lanjut warganet mengaku sudah membeli tiket berlibur ke pulau Dewata , Bali .
+13-1	1473-1474	[	_	_	_	_	_
+13-2	1475-1481	Gambas	_	_	_	_	_
+13-3	1482-1483	:	_	_	_	_	_
+13-4	1484-1491	Twitter	_	_	_	_	_
+13-5	1492-1493	]	_	_	_	_	_
+13-6	1494-1499	Lebih	_	_	_	_	_
+13-7	1500-1506	lanjut	_	_	_	_	_
+13-8	1507-1515	warganet	_	_	_	_	_
+13-9	1516-1523	mengaku	_	_	_	_	_
+13-10	1524-1529	sudah	_	_	_	_	_
+13-11	1530-1537	membeli	_	_	_	_	_
+13-12	1538-1543	tiket	_	_	_	_	_
+13-13	1544-1552	berlibur	_	_	_	_	_
+13-14	1553-1555	ke	_	_	_	_	_
+13-15	1556-1561	pulau	_	_	_	_	_
+13-16	1562-1568	Dewata	_	_	_	_	_
+13-17	1569-1570	,	_	_	_	_	_
+13-18	1571-1575	Bali	_	_	_	_	_
+13-19	1576-1577	.	_	_	_	_	_
+
+#Text=Namun status PPKM naik sebelum ia pergi .
+14-1	1579-1584	Namun	_	_	_	_	_
+14-2	1585-1591	status	_	_	_	_	_
+14-3	1592-1596	PPKM	_	_	_	_	_
+14-4	1597-1601	naik	_	_	_	_	_
+14-5	1602-1609	sebelum	_	_	_	_	_
+14-6	1610-1612	ia	_	_	_	_	_
+14-7	1613-1618	pergi	_	_	_	_	_
+14-8	1619-1620	.	_	_	_	_	_
+
+#Text=[ Gambas : Twitter ] Kemudian ada warganet yang mengeluhkan bahwa PPKM level 3 bisa berdampak pemotongan gaji .
+15-1	1622-1623	[	_	_	_	_	_
+15-2	1624-1630	Gambas	_	_	_	_	_
+15-3	1631-1632	:	_	_	_	_	_
+15-4	1633-1640	Twitter	_	_	_	_	_
+15-5	1641-1642	]	_	_	_	_	_
+15-6	1643-1651	Kemudian	_	_	_	_	_
+15-7	1652-1655	ada	_	_	_	_	_
+15-8	1656-1664	warganet	_	_	_	_	_
+15-9	1665-1669	yang	_	_	_	_	_
+15-10	1670-1681	mengeluhkan	_	_	_	_	_
+15-11	1682-1687	bahwa	_	_	_	_	_
+15-12	1688-1692	PPKM	_	concept[3]	_	_	_
+15-13	1693-1698	level	_	_	_	_	_
+15-14	1699-1700	3	_	_	_	_	_
+15-15	1701-1705	bisa	_	negative[4]	_	_	_
+15-16	1706-1715	berdampak	_	negative[4]	_	_	_
+15-17	1716-1726	pemotongan	_	negative[4]	_	_	_
+15-18	1727-1731	gaji	_	negative[4]	_	_	_
+15-19	1732-1733	.	_	_	_	_	_
+
+#Text=" PPKM level 3 . Gaji gueee yalord dipotong lagi , " ujar @papawonpil .
+16-1	1735-1736	"	_	_	_	_	_
+16-2	1737-1741	PPKM	_	_	_	_	_
+16-3	1742-1747	level	_	_	_	_	_
+16-4	1748-1749	3	_	_	_	_	_
+16-5	1750-1751	.	_	_	_	_	_
+16-6	1752-1756	Gaji	_	_	_	_	_
+16-7	1757-1762	gueee	_	_	_	_	_
+16-8	1763-1769	yalord	_	_	_	_	_
+16-9	1770-1778	dipotong	_	_	_	_	_
+16-10	1779-1783	lagi	_	_	_	_	_
+16-11	1784-1785	,	_	_	_	_	_
+16-12	1786-1787	"	_	_	_	_	_
+16-13	1788-1792	ujar	_	_	_	_	_
+16-14	1793-1804	@papawonpil	_	_	_	_	_
+16-15	1805-1806	.	_	_	_	_	_
+
+#Text=[ Gambas : Twitter ]
+17-1	1808-1809	[	_	_	_	_	_
+17-2	1810-1816	Gambas	_	_	_	_	_
+17-3	1817-1818	:	_	_	_	_	_
+17-4	1819-1826	Twitter	_	_	_	_	_
+17-5	1827-1828	]	_	_	_	_	_
+

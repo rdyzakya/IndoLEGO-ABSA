@@ -1,0 +1,344 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=JAKARTA , KOMPAS.com - Grup band HIVI !
+1-1	0-7	JAKARTA	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-20	KOMPAS.com	_	_	_	_	_
+1-4	21-22	-	_	_	_	_	_
+1-5	23-27	Grup	_	_	_	_	_
+1-6	28-32	band	_	_	_	_	_
+1-7	33-37	HIVI	_	_	_	_	_
+1-8	38-39	!	_	_	_	_	_
+
+#Text=menggelar acara konser sebagai penanda 13 tahun mereka berkarya dalam industri musik Tanah Air .
+2-1	41-50	menggelar	_	_	_	_	_
+2-2	51-56	acara	_	_	_	_	_
+2-3	57-63	konser	_	_	_	_	_
+2-4	64-71	sebagai	_	_	_	_	_
+2-5	72-79	penanda	_	_	_	_	_
+2-6	80-82	13	_	_	_	_	_
+2-7	83-88	tahun	_	_	_	_	_
+2-8	89-95	mereka	_	_	_	_	_
+2-9	96-104	berkarya	_	_	_	_	_
+2-10	105-110	dalam	_	_	_	_	_
+2-11	111-119	industri	_	_	_	_	_
+2-12	120-125	musik	_	_	_	_	_
+2-13	126-131	Tanah	_	_	_	_	_
+2-14	132-135	Air	_	_	_	_	_
+2-15	136-137	.	_	_	_	_	_
+
+#Text=Mereka menggelar konser bertajuk #ThirteenOnThirty yang digelar di Bengkel Space , SCBD , Jakarta Selatan , Minggu ( 30 / 1 / 2022 ) .
+3-1	139-145	Mereka	_	_	_	_	_
+3-2	146-155	menggelar	_	_	_	_	_
+3-3	156-162	konser	_	_	_	_	_
+3-4	163-171	bertajuk	_	_	_	_	_
+3-5	172-189	#ThirteenOnThirty	_	_	_	_	_
+3-6	190-194	yang	_	_	_	_	_
+3-7	195-202	digelar	_	_	_	_	_
+3-8	203-205	di	_	_	_	_	_
+3-9	206-213	Bengkel	_	_	_	_	_
+3-10	214-219	Space	_	_	_	_	_
+3-11	220-221	,	_	_	_	_	_
+3-12	222-226	SCBD	_	_	_	_	_
+3-13	227-228	,	_	_	_	_	_
+3-14	229-236	Jakarta	_	_	_	_	_
+3-15	237-244	Selatan	_	_	_	_	_
+3-16	245-246	,	_	_	_	_	_
+3-17	247-253	Minggu	_	_	_	_	_
+3-18	254-255	(	_	_	_	_	_
+3-19	256-258	30	_	_	_	_	_
+3-20	259-260	/	_	_	_	_	_
+3-21	261-262	1	_	_	_	_	_
+3-22	263-264	/	_	_	_	_	_
+3-23	265-269	2022	_	_	_	_	_
+3-24	270-271	)	_	_	_	_	_
+3-25	272-273	.	_	_	_	_	_
+
+#Text=Berdasarkan pantauan Kompas.com , antusiasme para penonton menyaksikan HIVI !
+4-1	275-286	Berdasarkan	_	_	_	_	_
+4-2	287-295	pantauan	_	_	_	_	_
+4-3	296-306	Kompas.com	_	_	_	_	_
+4-4	307-308	,	_	_	_	_	_
+4-5	309-319	antusiasme	_	_	_	_	_
+4-6	320-324	para	_	_	_	_	_
+4-7	325-333	penonton	_	_	_	_	_
+4-8	334-345	menyaksikan	_	_	_	_	_
+4-9	346-350	HIVI	_	_	_	_	_
+4-10	351-352	!	_	_	_	_	_
+
+#Text=tergolong cukup tinggi .
+5-1	354-363	tergolong	_	_	_	_	_
+5-2	364-369	cukup	_	_	_	_	_
+5-3	370-376	tinggi	_	_	_	_	_
+5-4	377-378	.	_	_	_	_	_
+
+#Text=Yang mana di depan tempat berlangsung konser tersebut sudah mengantre para penggemar HIVI !
+6-1	380-384	Yang	_	_	_	_	_
+6-2	385-389	mana	_	_	_	_	_
+6-3	390-392	di	_	_	_	_	_
+6-4	393-398	depan	_	_	_	_	_
+6-5	399-405	tempat	_	_	_	_	_
+6-6	406-417	berlangsung	_	_	_	_	_
+6-7	418-424	konser	_	_	_	_	_
+6-8	425-433	tersebut	_	_	_	_	_
+6-9	434-439	sudah	_	_	_	_	_
+6-10	440-449	mengantre	_	_	_	_	_
+6-11	450-454	para	_	_	_	_	_
+6-12	455-464	penggemar	_	_	_	_	_
+6-13	465-469	HIVI	_	_	_	_	_
+6-14	470-471	!	_	_	_	_	_
+
+#Text=.
+7-1	473-474	.	_	_	_	_	_
+
+#Text=HIVI !
+8-1	476-480	HIVI	_	_	_	_	_
+8-2	481-482	!	_	_	_	_	_
+
+#Text=Rayakan 13 Tahun Berkarya Lewat Konser #ThirteenOnThirty Sebelum masuk para penonton diwajibkan memakai masker dan berjaga jarak .
+9-1	484-491	Rayakan	_	_	_	_	_
+9-2	492-494	13	_	_	_	_	_
+9-3	495-500	Tahun	_	_	_	_	_
+9-4	501-509	Berkarya	_	_	_	_	_
+9-5	510-515	Lewat	_	_	_	_	_
+9-6	516-522	Konser	_	_	_	_	_
+9-7	523-540	#ThirteenOnThirty	_	_	_	_	_
+9-8	541-548	Sebelum	_	_	_	_	_
+9-9	549-554	masuk	_	_	_	_	_
+9-10	555-559	para	_	_	_	_	_
+9-11	560-568	penonton	_	_	_	_	_
+9-12	569-579	diwajibkan	_	_	_	_	_
+9-13	580-587	memakai	_	_	_	_	_
+9-14	588-594	masker	_	_	_	_	_
+9-15	595-598	dan	_	_	_	_	_
+9-16	599-606	berjaga	_	_	_	_	_
+9-17	607-612	jarak	_	_	_	_	_
+9-18	613-614	.	_	_	_	_	_
+
+#Text=" Kalau antusiasme sih ramai banget jujur aja . Terus kami bersyukur banget bsia dapat kesempatan kayak gini dan bisa bikin perayaan seperti ini , " ucap Adit Broi , Minggu .
+10-1	616-617	"	_	_	_	_	_
+10-2	618-623	Kalau	_	_	_	_	_
+10-3	624-634	antusiasme	_	concept[1]	_	_	_
+10-4	635-638	sih	_	_	_	_	_
+10-5	639-644	ramai	_	positive[2]	_	_	_
+10-6	645-651	banget	_	positive[2]	_	_	_
+10-7	652-657	jujur	_	_	_	_	_
+10-8	658-661	aja	_	_	_	_	_
+10-9	662-663	.	_	_	_	_	_
+10-10	664-669	Terus	_	_	_	_	_
+10-11	670-674	kami	_	_	_	_	_
+10-12	675-684	bersyukur	_	_	_	_	_
+10-13	685-691	banget	_	_	_	_	_
+10-14	692-696	bsia	_	_	_	_	_
+10-15	697-702	dapat	_	_	_	_	_
+10-16	703-713	kesempatan	_	_	_	_	_
+10-17	714-719	kayak	_	_	_	_	_
+10-18	720-724	gini	_	_	_	_	_
+10-19	725-728	dan	_	_	_	_	_
+10-20	729-733	bisa	_	_	_	_	_
+10-21	734-739	bikin	_	_	_	_	_
+10-22	740-748	perayaan	_	_	_	_	_
+10-23	749-756	seperti	_	_	_	_	_
+10-24	757-760	ini	_	_	_	_	_
+10-25	761-762	,	_	_	_	_	_
+10-26	763-764	"	_	_	_	_	_
+10-27	765-769	ucap	_	_	_	_	_
+10-28	770-774	Adit	_	_	_	_	_
+10-29	775-779	Broi	_	_	_	_	_
+10-30	780-781	,	_	_	_	_	_
+10-31	782-788	Minggu	_	_	_	_	_
+10-32	789-790	.	_	_	_	_	_
+
+#Text=Sementara itu , Adit mengakui bahwa selang satu hari sebelum konser berjalan , tiket sudah ludes terjual .
+11-1	792-801	Sementara	_	_	_	_	_
+11-2	802-805	itu	_	_	_	_	_
+11-3	806-807	,	_	_	_	_	_
+11-4	808-812	Adit	_	_	_	_	_
+11-5	813-821	mengakui	_	_	_	_	_
+11-6	822-827	bahwa	_	_	_	_	_
+11-7	828-834	selang	_	_	_	_	_
+11-8	835-839	satu	_	_	_	_	_
+11-9	840-844	hari	_	_	_	_	_
+11-10	845-852	sebelum	_	_	_	_	_
+11-11	853-859	konser	_	_	_	_	_
+11-12	860-868	berjalan	_	_	_	_	_
+11-13	869-870	,	_	_	_	_	_
+11-14	871-876	tiket	_	concept[3]	_	_	_
+11-15	877-882	sudah	_	negative[4]	_	_	_
+11-16	883-888	ludes	_	negative[4]	_	_	_
+11-17	889-896	terjual	_	negative[4]	_	_	_
+11-18	897-898	.	_	_	_	_	_
+
+#Text=Neida Aleida Bocorkan Rencana yang Disiapkan HIVI !
+12-1	900-905	Neida	_	_	_	_	_
+12-2	906-912	Aleida	_	_	_	_	_
+12-3	913-921	Bocorkan	_	_	_	_	_
+12-4	922-929	Rencana	_	_	_	_	_
+12-5	930-934	yang	_	_	_	_	_
+12-6	935-944	Disiapkan	_	_	_	_	_
+12-7	945-949	HIVI	_	_	_	_	_
+12-8	950-951	!	_	_	_	_	_
+
+#Text=di 2022 " Kalau tiket sendiri tadi malam itu H-1 udah sold out semuanya . Terus abis itu H+1 semenjak pertama kali di announce selitar 50 persen sudah terjual , " tutur Adit lagi .
+13-1	953-955	di	_	_	_	_	_
+13-2	956-960	2022	_	_	_	_	_
+13-3	961-962	"	_	_	_	_	_
+13-4	963-968	Kalau	_	_	_	_	_
+13-5	969-974	tiket	_	_	_	_	_
+13-6	975-982	sendiri	_	_	_	_	_
+13-7	983-987	tadi	_	_	_	_	_
+13-8	988-993	malam	_	_	_	_	_
+13-9	994-997	itu	_	_	_	_	_
+13-10	998-1001	H-1	_	_	_	_	_
+13-11	1002-1006	udah	_	_	_	_	_
+13-12	1007-1011	sold	_	_	_	_	_
+13-13	1012-1015	out	_	_	_	_	_
+13-14	1016-1024	semuanya	_	_	_	_	_
+13-15	1025-1026	.	_	_	_	_	_
+13-16	1027-1032	Terus	_	_	_	_	_
+13-17	1033-1037	abis	_	_	_	_	_
+13-18	1038-1041	itu	_	_	_	_	_
+13-19	1042-1045	H+1	_	_	_	_	_
+13-20	1046-1054	semenjak	_	_	_	_	_
+13-21	1055-1062	pertama	_	_	_	_	_
+13-22	1063-1067	kali	_	_	_	_	_
+13-23	1068-1070	di	_	_	_	_	_
+13-24	1071-1079	announce	_	_	_	_	_
+13-25	1080-1087	selitar	_	_	_	_	_
+13-26	1088-1090	50	_	_	_	_	_
+13-27	1091-1097	persen	_	_	_	_	_
+13-28	1098-1103	sudah	_	_	_	_	_
+13-29	1104-1111	terjual	_	_	_	_	_
+13-30	1112-1113	,	_	_	_	_	_
+13-31	1114-1115	"	_	_	_	_	_
+13-32	1116-1121	tutur	_	_	_	_	_
+13-33	1122-1126	Adit	_	_	_	_	_
+13-34	1127-1131	lagi	_	_	_	_	_
+13-35	1132-1133	.	_	_	_	_	_
+
+#Text=Gelaran konser HIVI !
+14-1	1135-1142	Gelaran	_	_	_	_	_
+14-2	1143-1149	konser	_	_	_	_	_
+14-3	1150-1154	HIVI	_	_	_	_	_
+14-4	1155-1156	!	_	_	_	_	_
+
+#Text=#ThirteenOnThirty didukung penuh oleh SRN Entertainment selaku IP Creator .
+15-1	1158-1175	#ThirteenOnThirty	_	_	_	_	_
+15-2	1176-1184	didukung	_	_	_	_	_
+15-3	1185-1190	penuh	_	_	_	_	_
+15-4	1191-1195	oleh	_	_	_	_	_
+15-5	1196-1199	SRN	_	_	_	_	_
+15-6	1200-1213	Entertainment	_	_	_	_	_
+15-7	1214-1220	selaku	_	_	_	_	_
+15-8	1221-1223	IP	_	_	_	_	_
+15-9	1224-1231	Creator	_	_	_	_	_
+15-10	1232-1233	.	_	_	_	_	_
+
+#Text=" Tentu dengan ada nya konser grup musik HIVI ! #ThirteenOnThirty di awal tahun 2022 ini bisa menjadikan semangat baru untuk semua musisi-musisi Indonesia agar tetap eksis menampilkan kreativitas dan berekspresi , " kata Sonya Laoh Mendes , CEO SRN Entertainment beberapa waktu lalu .
+16-1	1235-1236	"	_	_	_	_	_
+16-2	1237-1242	Tentu	_	_	_	_	_
+16-3	1243-1249	dengan	_	_	_	_	_
+16-4	1250-1253	ada	_	_	_	_	_
+16-5	1254-1257	nya	_	_	_	_	_
+16-6	1258-1264	konser	_	_	_	_	_
+16-7	1265-1269	grup	_	_	_	_	_
+16-8	1270-1275	musik	_	_	_	_	_
+16-9	1276-1280	HIVI	_	_	_	_	_
+16-10	1281-1282	!	_	_	_	_	_
+16-11	1283-1300	#ThirteenOnThirty	_	_	_	_	_
+16-12	1301-1303	di	_	_	_	_	_
+16-13	1304-1308	awal	_	_	_	_	_
+16-14	1309-1314	tahun	_	_	_	_	_
+16-15	1315-1319	2022	_	_	_	_	_
+16-16	1320-1323	ini	_	_	_	_	_
+16-17	1324-1328	bisa	_	_	_	_	_
+16-18	1329-1339	menjadikan	_	_	_	_	_
+16-19	1340-1348	semangat	_	_	_	_	_
+16-20	1349-1353	baru	_	_	_	_	_
+16-21	1354-1359	untuk	_	_	_	_	_
+16-22	1360-1365	semua	_	_	_	_	_
+16-23	1366-1379	musisi-musisi	_	_	_	_	_
+16-24	1380-1389	Indonesia	_	_	_	_	_
+16-25	1390-1394	agar	_	_	_	_	_
+16-26	1395-1400	tetap	_	_	_	_	_
+16-27	1401-1406	eksis	_	_	_	_	_
+16-28	1407-1418	menampilkan	_	_	_	_	_
+16-29	1419-1430	kreativitas	_	_	_	_	_
+16-30	1431-1434	dan	_	_	_	_	_
+16-31	1435-1446	berekspresi	_	_	_	_	_
+16-32	1447-1448	,	_	_	_	_	_
+16-33	1449-1450	"	_	_	_	_	_
+16-34	1451-1455	kata	_	_	_	_	_
+16-35	1456-1461	Sonya	_	_	_	_	_
+16-36	1462-1466	Laoh	_	_	_	_	_
+16-37	1467-1473	Mendes	_	_	_	_	_
+16-38	1474-1475	,	_	_	_	_	_
+16-39	1476-1479	CEO	_	_	_	_	_
+16-40	1480-1483	SRN	_	_	_	_	_
+16-41	1484-1497	Entertainment	_	_	_	_	_
+16-42	1498-1506	beberapa	_	_	_	_	_
+16-43	1507-1512	waktu	_	_	_	_	_
+16-44	1513-1517	lalu	_	_	_	_	_
+16-45	1518-1519	.	_	_	_	_	_
+
+#Text=SRN Entertainment sendiri sebelumnya sukses menggelar program musik seperti Pop Party , Konser Jamrud Perspektif , dan Ini Dangdut .
+17-1	1521-1524	SRN	_	_	_	_	_
+17-2	1525-1538	Entertainment	_	_	_	_	_
+17-3	1539-1546	sendiri	_	_	_	_	_
+17-4	1547-1557	sebelumnya	_	_	_	_	_
+17-5	1558-1564	sukses	_	_	_	_	_
+17-6	1565-1574	menggelar	_	_	_	_	_
+17-7	1575-1582	program	_	_	_	_	_
+17-8	1583-1588	musik	_	_	_	_	_
+17-9	1589-1596	seperti	_	_	_	_	_
+17-10	1597-1600	Pop	_	_	_	_	_
+17-11	1601-1606	Party	_	_	_	_	_
+17-12	1607-1608	,	_	_	_	_	_
+17-13	1609-1615	Konser	_	_	_	_	_
+17-14	1616-1622	Jamrud	_	_	_	_	_
+17-15	1623-1633	Perspektif	_	_	_	_	_
+17-16	1634-1635	,	_	_	_	_	_
+17-17	1636-1639	dan	_	_	_	_	_
+17-18	1640-1643	Ini	_	_	_	_	_
+17-19	1644-1651	Dangdut	_	_	_	_	_
+17-20	1652-1653	.	_	_	_	_	_
+
+#Text=Selain HIVI !, konser ini juga diramaikan musisi-musisi , seperti Candra Darusman , Tohpati , Nino RAN , Rendy Pandugo , Thomas Djorghi , Gerald Situmorang , Ify Alyssa , Sri Hanuraga , dan Juicy Luicy .
+18-1	1655-1661	Selain	_	_	_	_	_
+18-2	1662-1666	HIVI	_	_	_	_	_
+18-3	1667-1669	!,	_	_	_	_	_
+18-4	1670-1676	konser	_	_	_	_	_
+18-5	1677-1680	ini	_	_	_	_	_
+18-6	1681-1685	juga	_	_	_	_	_
+18-7	1686-1696	diramaikan	_	_	_	_	_
+18-8	1697-1710	musisi-musisi	_	_	_	_	_
+18-9	1711-1712	,	_	_	_	_	_
+18-10	1713-1720	seperti	_	_	_	_	_
+18-11	1721-1727	Candra	_	_	_	_	_
+18-12	1728-1736	Darusman	_	_	_	_	_
+18-13	1737-1738	,	_	_	_	_	_
+18-14	1739-1746	Tohpati	_	_	_	_	_
+18-15	1747-1748	,	_	_	_	_	_
+18-16	1749-1753	Nino	_	_	_	_	_
+18-17	1754-1757	RAN	_	_	_	_	_
+18-18	1758-1759	,	_	_	_	_	_
+18-19	1760-1765	Rendy	_	_	_	_	_
+18-20	1766-1773	Pandugo	_	_	_	_	_
+18-21	1774-1775	,	_	_	_	_	_
+18-22	1776-1782	Thomas	_	_	_	_	_
+18-23	1783-1790	Djorghi	_	_	_	_	_
+18-24	1791-1792	,	_	_	_	_	_
+18-25	1793-1799	Gerald	_	_	_	_	_
+18-26	1800-1810	Situmorang	_	_	_	_	_
+18-27	1811-1812	,	_	_	_	_	_
+18-28	1813-1816	Ify	_	_	_	_	_
+18-29	1817-1823	Alyssa	_	_	_	_	_
+18-30	1824-1825	,	_	_	_	_	_
+18-31	1826-1829	Sri	_	_	_	_	_
+18-32	1830-1838	Hanuraga	_	_	_	_	_
+18-33	1839-1840	,	_	_	_	_	_
+18-34	1841-1844	dan	_	_	_	_	_
+18-35	1845-1850	Juicy	_	_	_	_	_
+18-36	1851-1856	Luicy	_	_	_	_	_
+18-37	1857-1858	.	_	_	_	_	_
+

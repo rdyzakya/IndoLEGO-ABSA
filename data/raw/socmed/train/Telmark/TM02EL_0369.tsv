@@ -1,0 +1,485 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo
+1-1	0-4	halo	_	_	_	_	_
+
+#Text=iya betul
+2-1	6-9	iya	_	_	_	_	_
+2-2	10-15	betul	_	_	_	_	_
+
+#Text=selamat sore
+3-1	17-24	selamat	_	_	_	_	_
+3-2	25-29	sore	_	_	_	_	_
+
+#Text=kalau untuk hari ini kayak nya belum bisa deh bu
+4-1	31-36	kalau	_	_	_	_	_
+4-2	37-42	untuk	_	_	_	_	_
+4-3	43-47	hari	_	_	_	_	_
+4-4	48-51	ini	_	_	_	_	_
+4-5	52-57	kayak	_	_	_	_	_
+4-6	58-61	nya	_	_	_	_	_
+4-7	62-67	belum	_	negative[1]	_	_	_
+4-8	68-72	bisa	_	negative[1]	_	_	_
+4-9	73-76	deh	_	_	_	_	_
+4-10	77-79	bu	_	_	_	_	_
+
+#Text=saya novita dari < pe > telmark rekan penagihan untuk aplikasi gojek paylater
+5-1	81-85	saya	_	_	_	_	_
+5-2	86-92	novita	_	_	_	_	_
+5-3	93-97	dari	_	_	_	_	_
+5-4	98-99	<	_	_	_	_	_
+5-5	100-102	pe	_	_	_	_	_
+5-6	103-104	>	_	_	_	_	_
+5-7	105-112	telmark	_	_	_	_	_
+5-8	113-118	rekan	_	_	_	_	_
+5-9	119-128	penagihan	_	_	_	_	_
+5-10	129-134	untuk	_	_	_	_	_
+5-11	135-143	aplikasi	_	_	_	_	_
+5-12	144-149	gojek	_	concept[2]	_	_	_
+5-13	150-158	paylater	*	[2_3]|concept[3]	_	_	_
+
+#Text=iya < ma > iya insyaallah kalau misalkan sekarang kan < unk > lagi begini lagi belum saya kan < e > driver juga
+6-1	160-163	iya	_	_	_	_	_
+6-2	164-165	<	_	_	_	_	_
+6-3	166-168	ma	_	_	_	_	_
+6-4	169-170	>	_	_	_	_	_
+6-5	171-174	iya	_	_	_	_	_
+6-6	175-185	insyaallah	_	_	_	_	_
+6-7	186-191	kalau	_	_	_	_	_
+6-8	192-200	misalkan	_	_	_	_	_
+6-9	201-209	sekarang	_	_	_	_	_
+6-10	210-213	kan	_	_	_	_	_
+6-11	214-215	<	_	_	_	_	_
+6-12	216-219	unk	_	_	_	_	_
+6-13	220-221	>	_	_	_	_	_
+6-14	222-226	lagi	_	_	_	_	_
+6-15	227-233	begini	_	_	_	_	_
+6-16	234-238	lagi	_	_	_	_	_
+6-17	239-244	belum	_	_	_	_	_
+6-18	245-249	saya	_	_	_	_	_
+6-19	250-253	kan	_	_	_	_	_
+6-20	254-255	<	_	_	_	_	_
+6-21	256-257	e	_	_	_	_	_
+6-22	258-259	>	_	_	_	_	_
+6-23	260-266	driver	*	[2_4]|concept[4]	_	_	_
+6-24	267-271	juga	_	_	_	_	_
+
+#Text=ini benar dengan bapak supriadi
+7-1	273-276	ini	_	_	_	_	_
+7-2	277-282	benar	_	_	_	_	_
+7-3	283-289	dengan	_	_	_	_	_
+7-4	290-295	bapak	_	_	_	_	_
+7-5	296-304	supriadi	_	_	_	_	_
+
+#Text=belum bisa narik juga iya mungkin kalau misalkan sudah bisa narik lagi baru bisa bayar
+8-1	306-311	belum	*	[4_5]|negative[5]	_	_	_
+8-2	312-316	bisa	_	negative[5]	_	_	_
+8-3	317-322	narik	_	negative[5]	_	_	_
+8-4	323-327	juga	_	_	_	_	_
+8-5	328-331	iya	_	_	_	_	_
+8-6	332-339	mungkin	_	_	_	_	_
+8-7	340-345	kalau	_	_	_	_	_
+8-8	346-354	misalkan	_	_	_	_	_
+8-9	355-360	sudah	_	_	_	_	_
+8-10	361-365	bisa	_	_	_	_	_
+8-11	366-371	narik	_	_	_	_	_
+8-12	372-376	lagi	_	_	_	_	_
+8-13	377-381	baru	_	_	_	_	_
+8-14	382-386	bisa	_	_	_	_	_
+8-15	387-392	bayar	_	_	_	_	_
+
+#Text=iya mau konfirmasi sebentar pak ini perihal tagihan nya iya di aplikasi gojek paylater
+9-1	394-397	iya	_	_	_	_	_
+9-2	398-401	mau	_	_	_	_	_
+9-3	402-412	konfirmasi	_	_	_	_	_
+9-4	413-421	sebentar	_	_	_	_	_
+9-5	422-425	pak	_	_	_	_	_
+9-6	426-429	ini	_	_	_	_	_
+9-7	430-437	perihal	_	_	_	_	_
+9-8	438-445	tagihan	*	concept[6]|[9_6]	_	_	_
+9-9	446-449	nya	_	_	_	_	_
+9-10	450-453	iya	_	_	_	_	_
+9-11	454-456	di	_	_	_	_	_
+9-12	457-465	aplikasi	*	concept[7]|[8_7]	_	_	_
+9-13	466-471	gojek	_	concept[8]	_	_	_
+9-14	472-480	paylater	*	[7_9]|concept[9]	_	_	_
+
+#Text=iya kalau kemarin saya sih sudah sudah ngajuin buat < e > keringanan iya lewat e-mail iya soal nya kan memang < unk > lagi begini juga
+10-1	482-485	iya	_	_	_	_	_
+10-2	486-491	kalau	_	_	_	_	_
+10-3	492-499	kemarin	_	_	_	_	_
+10-4	500-504	saya	_	_	_	_	_
+10-5	505-508	sih	_	_	_	_	_
+10-6	509-514	sudah	_	_	_	_	_
+10-7	515-520	sudah	_	_	_	_	_
+10-8	521-528	ngajuin	*	[9_10]|concept[10]	_	_	_
+10-9	529-533	buat	_	concept[10]	_	_	_
+10-10	534-535	<	_	concept[10]	_	_	_
+10-11	536-537	e	_	concept[10]	_	_	_
+10-12	538-539	>	_	concept[10]	_	_	_
+10-13	540-550	keringanan	_	concept[10]	_	_	_
+10-14	551-554	iya	_	_	_	_	_
+10-15	555-560	lewat	_	_	_	_	_
+10-16	561-567	e-mail	_	_	_	_	_
+10-17	568-571	iya	_	_	_	_	_
+10-18	572-576	soal	_	_	_	_	_
+10-19	577-580	nya	_	_	_	_	_
+10-20	581-584	kan	_	_	_	_	_
+10-21	585-591	memang	_	_	_	_	_
+10-22	592-593	<	_	_	_	_	_
+10-23	594-597	unk	_	_	_	_	_
+10-24	598-599	>	_	_	_	_	_
+10-25	600-604	lagi	_	_	_	_	_
+10-26	605-611	begini	_	_	_	_	_
+10-27	612-616	juga	_	_	_	_	_
+
+#Text=keterlambatan nya sudah lama sudah tiga bulan
+11-1	618-631	keterlambatan	*	[6_11]|negative[11]	_	_	_
+11-2	632-635	nya	_	negative[11]	_	_	_
+11-3	636-641	sudah	_	negative[11]	_	_	_
+11-4	642-646	lama	_	negative[11]	_	_	_
+11-5	647-652	sudah	_	_	_	_	_
+11-6	653-657	tiga	_	_	_	_	_
+11-7	658-663	bulan	_	_	_	_	_
+
+#Text=belum ada balasan nya juga sih dari e-mail - nya < heeh > belum ada balasan juga dari e-mail - nya sih
+12-1	665-670	belum	*	[10_12]|negative[12]	_	_	_
+12-2	671-674	ada	_	negative[12]	_	_	_
+12-3	675-682	balasan	_	negative[12]	_	_	_
+12-4	683-686	nya	_	_	_	_	_
+12-5	687-691	juga	_	_	_	_	_
+12-6	692-695	sih	_	_	_	_	_
+12-7	696-700	dari	_	_	_	_	_
+12-8	701-707	e-mail	_	_	_	_	_
+12-9	708-709	-	_	_	_	_	_
+12-10	710-713	nya	_	_	_	_	_
+12-11	714-715	<	_	_	_	_	_
+12-12	716-720	heeh	_	_	_	_	_
+12-13	721-722	>	_	_	_	_	_
+12-14	723-728	belum	*	[10_13]|negative[13]	_	_	_
+12-15	729-732	ada	_	negative[13]	_	_	_
+12-16	733-740	balasan	_	negative[13]	_	_	_
+12-17	741-745	juga	_	_	_	_	_
+12-18	746-750	dari	_	_	_	_	_
+12-19	751-757	e-mail	_	_	_	_	_
+12-20	758-759	-	_	_	_	_	_
+12-21	760-763	nya	_	_	_	_	_
+12-22	764-767	sih	_	_	_	_	_
+
+#Text=ini untuk tagihan nya bisa iya dibayarkan hari ini
+13-1	769-772	ini	_	_	_	_	_
+13-2	773-778	untuk	_	_	_	_	_
+13-3	779-786	tagihan	*	[9_14]|concept[14]	_	_	_
+13-4	787-790	nya	_	_	_	_	_
+13-5	791-795	bisa	_	_	_	_	_
+13-6	796-799	iya	_	_	_	_	_
+13-7	800-810	dibayarkan	*	[14_15]|concept[15]	_	_	_
+13-8	811-815	hari	_	_	_	_	_
+13-9	816-819	ini	_	_	_	_	_
+
+#Text=respons < eh > respons e-mail iya
+14-1	821-828	respons	_	_	_	_	_
+14-2	829-830	<	_	_	_	_	_
+14-3	831-833	eh	_	_	_	_	_
+14-4	834-835	>	_	_	_	_	_
+14-5	836-843	respons	_	_	_	_	_
+14-6	844-850	e-mail	_	_	_	_	_
+14-7	851-854	iya	_	_	_	_	_
+
+#Text=< oh > belum bisa hari ini besok iya bagaimana
+15-1	856-857	<	_	_	_	_	_
+15-2	858-860	oh	_	_	_	_	_
+15-3	861-862	>	_	_	_	_	_
+15-4	863-868	belum	*	[15_16]|negative[16]	_	_	_
+15-5	869-873	bisa	_	negative[16]	_	_	_
+15-6	874-878	hari	_	_	_	_	_
+15-7	879-882	ini	_	_	_	_	_
+15-8	883-888	besok	_	_	_	_	_
+15-9	889-892	iya	_	_	_	_	_
+15-10	893-902	bagaimana	_	_	_	_	_
+
+#Text=iya sudah
+16-1	904-907	iya	_	_	_	_	_
+16-2	908-913	sudah	_	_	_	_	_
+
+#Text=iya < unk > soal nya kan tagihan bapak kan < e > sudah ada beberapa itu
+17-1	915-918	iya	_	_	_	_	_
+17-2	919-920	<	_	_	_	_	_
+17-3	921-924	unk	_	_	_	_	_
+17-4	925-926	>	_	_	_	_	_
+17-5	927-931	soal	_	_	_	_	_
+17-6	932-935	nya	_	_	_	_	_
+17-7	936-939	kan	_	_	_	_	_
+17-8	940-947	tagihan	_	_	_	_	_
+17-9	948-953	bapak	_	_	_	_	_
+17-10	954-957	kan	_	_	_	_	_
+17-11	958-959	<	_	_	_	_	_
+17-12	960-961	e	_	_	_	_	_
+17-13	962-963	>	_	_	_	_	_
+17-14	964-969	sudah	_	_	_	_	_
+17-15	970-973	ada	_	_	_	_	_
+17-16	974-982	beberapa	_	_	_	_	_
+17-17	983-986	itu	_	_	_	_	_
+
+#Text=< e > lagi lagi lagi di tahap peninjauan kata nya
+18-1	988-989	<	_	_	_	_	_
+18-2	990-991	e	_	_	_	_	_
+18-3	992-993	>	_	_	_	_	_
+18-4	994-998	lagi	_	_	_	_	_
+18-5	999-1003	lagi	_	_	_	_	_
+18-6	1004-1008	lagi	_	_	_	_	_
+18-7	1009-1011	di	_	_	_	_	_
+18-8	1012-1017	tahap	_	_	_	_	_
+18-9	1018-1028	peninjauan	_	_	_	_	_
+18-10	1029-1033	kata	_	_	_	_	_
+18-11	1034-1037	nya	_	_	_	_	_
+
+#Text=< napas > begitu nanti kalau ditunda terus nanti takut nya bapak ini denda nya bertambah banyak begitu
+19-1	1039-1040	<	_	_	_	_	_
+19-2	1041-1046	napas	_	_	_	_	_
+19-3	1047-1048	>	_	_	_	_	_
+19-4	1049-1055	begitu	_	_	_	_	_
+19-5	1056-1061	nanti	_	_	_	_	_
+19-6	1062-1067	kalau	_	_	_	_	_
+19-7	1068-1075	ditunda	_	_	_	_	_
+19-8	1076-1081	terus	_	_	_	_	_
+19-9	1082-1087	nanti	_	_	_	_	_
+19-10	1088-1093	takut	_	_	_	_	_
+19-11	1094-1097	nya	_	_	_	_	_
+19-12	1098-1103	bapak	_	_	_	_	_
+19-13	1104-1107	ini	_	_	_	_	_
+19-14	1108-1113	denda	_	_	_	_	_
+19-15	1114-1117	nya	_	_	_	_	_
+19-16	1118-1127	bertambah	_	_	_	_	_
+19-17	1128-1134	banyak	_	_	_	_	_
+19-18	1135-1141	begitu	_	_	_	_	_
+
+#Text=iya pengin nya sih < unk > < unk > memang memang seenggak nya saya < unk > usaha nya lagi enggak ada masukan iya bingung juga begitu lo
+20-1	1143-1146	iya	_	_	_	_	_
+20-2	1147-1153	pengin	_	_	_	_	_
+20-3	1154-1157	nya	_	_	_	_	_
+20-4	1158-1161	sih	_	_	_	_	_
+20-5	1162-1163	<	_	_	_	_	_
+20-6	1164-1167	unk	_	_	_	_	_
+20-7	1168-1169	>	_	_	_	_	_
+20-8	1170-1171	<	_	_	_	_	_
+20-9	1172-1175	unk	_	_	_	_	_
+20-10	1176-1177	>	_	_	_	_	_
+20-11	1178-1184	memang	_	_	_	_	_
+20-12	1185-1191	memang	_	_	_	_	_
+20-13	1192-1200	seenggak	_	_	_	_	_
+20-14	1201-1204	nya	_	_	_	_	_
+20-15	1205-1209	saya	_	_	_	_	_
+20-16	1210-1211	<	_	_	_	_	_
+20-17	1212-1215	unk	_	_	_	_	_
+20-18	1216-1217	>	_	_	_	_	_
+20-19	1218-1223	usaha	_	_	_	_	_
+20-20	1224-1227	nya	_	_	_	_	_
+20-21	1228-1232	lagi	_	_	_	_	_
+20-22	1233-1239	enggak	_	_	_	_	_
+20-23	1240-1243	ada	_	_	_	_	_
+20-24	1244-1251	masukan	_	_	_	_	_
+20-25	1252-1255	iya	_	_	_	_	_
+20-26	1256-1263	bingung	_	_	_	_	_
+20-27	1264-1268	juga	_	_	_	_	_
+20-28	1269-1275	begitu	_	_	_	_	_
+20-29	1276-1278	lo	_	_	_	_	_
+
+#Text=respons nya bagaimana pak
+21-1	1280-1287	respons	_	_	_	_	_
+21-2	1288-1291	nya	_	_	_	_	_
+21-3	1292-1301	bagaimana	_	_	_	_	_
+21-4	1302-1305	pak	_	_	_	_	_
+
+#Text=saya juga sambil di diusahakan
+22-1	1307-1311	saya	_	_	_	_	_
+22-2	1312-1316	juga	_	_	_	_	_
+22-3	1317-1323	sambil	_	_	_	_	_
+22-4	1324-1326	di	_	_	_	_	_
+22-5	1327-1337	diusahakan	_	_	_	_	_
+
+#Text=dari findaya - nya sudah dibalas belum
+23-1	1339-1343	dari	_	_	_	_	_
+23-2	1344-1351	findaya	_	concept[17]	_	_	_
+23-3	1352-1353	-	_	_	_	_	_
+23-4	1354-1357	nya	_	_	_	_	_
+23-5	1358-1363	sudah	_	_	_	_	_
+23-6	1364-1371	dibalas	_	_	_	_	_
+23-7	1372-1377	belum	_	_	_	_	_
+
+#Text=okay okay okay
+24-1	1379-1383	okay	_	_	_	_	_
+24-2	1384-1388	okay	_	_	_	_	_
+24-3	1389-1393	okay	_	_	_	_	_
+
+#Text=belum dibalas
+25-1	1395-1400	belum	*	[17_18]|negative[18]	_	_	_
+25-2	1401-1408	dibalas	_	negative[18]	_	_	_
+
+#Text=iya iya iya
+26-1	1410-1413	iya	_	_	_	_	_
+26-2	1414-1417	iya	_	_	_	_	_
+26-3	1418-1421	iya	_	_	_	_	_
+
+#Text=okay kalau pembayaran nya dimaksimalkan besok bagaimana pak
+27-1	1423-1427	okay	_	_	_	_	_
+27-2	1428-1433	kalau	_	_	_	_	_
+27-3	1434-1444	pembayaran	_	_	_	_	_
+27-4	1445-1448	nya	_	_	_	_	_
+27-5	1449-1462	dimaksimalkan	_	_	_	_	_
+27-6	1463-1468	besok	_	_	_	_	_
+27-7	1469-1478	bagaimana	_	_	_	_	_
+27-8	1479-1482	pak	_	_	_	_	_
+
+#Text=iya iya < yo >
+28-1	1484-1487	iya	_	_	_	_	_
+28-2	1488-1491	iya	_	_	_	_	_
+28-3	1492-1493	<	_	_	_	_	_
+28-4	1494-1496	yo	_	_	_	_	_
+28-5	1497-1498	>	_	_	_	_	_
+
+#Text=dicoba dulu untuk cari dana talangan nya pak < e > biar tagihan bapak cepat selesai biar tidak ditelepon telepon juga begitu
+29-1	1500-1506	dicoba	_	_	_	_	_
+29-2	1507-1511	dulu	_	_	_	_	_
+29-3	1512-1517	untuk	_	_	_	_	_
+29-4	1518-1522	cari	_	_	_	_	_
+29-5	1523-1527	dana	_	_	_	_	_
+29-6	1528-1536	talangan	_	_	_	_	_
+29-7	1537-1540	nya	_	_	_	_	_
+29-8	1541-1544	pak	_	_	_	_	_
+29-9	1545-1546	<	_	_	_	_	_
+29-10	1547-1548	e	_	_	_	_	_
+29-11	1549-1550	>	_	_	_	_	_
+29-12	1551-1555	biar	_	_	_	_	_
+29-13	1556-1563	tagihan	_	_	_	_	_
+29-14	1564-1569	bapak	_	_	_	_	_
+29-15	1570-1575	cepat	_	_	_	_	_
+29-16	1576-1583	selesai	_	_	_	_	_
+29-17	1584-1588	biar	_	_	_	_	_
+29-18	1589-1594	tidak	_	_	_	_	_
+29-19	1595-1604	ditelepon	_	_	_	_	_
+29-20	1605-1612	telepon	_	_	_	_	_
+29-21	1613-1617	juga	_	_	_	_	_
+29-22	1618-1624	begitu	_	_	_	_	_
+
+#Text=iya insyaallah iya bu
+30-1	1626-1629	iya	_	_	_	_	_
+30-2	1630-1640	insyaallah	_	_	_	_	_
+30-3	1641-1644	iya	_	_	_	_	_
+30-4	1645-1647	bu	_	_	_	_	_
+
+#Text=diusahakan iya < napas >
+31-1	1649-1659	diusahakan	_	_	_	_	_
+31-2	1660-1663	iya	_	_	_	_	_
+31-3	1664-1665	<	_	_	_	_	_
+31-4	1666-1671	napas	_	_	_	_	_
+31-5	1672-1673	>	_	_	_	_	_
+
+#Text=ini untuk tanggal enam belas ini saya tunggu < e > usaha bapak sampai di jam dua belas siang
+32-1	1675-1678	ini	_	_	_	_	_
+32-2	1679-1684	untuk	_	_	_	_	_
+32-3	1685-1692	tanggal	_	_	_	_	_
+32-4	1693-1697	enam	_	_	_	_	_
+32-5	1698-1703	belas	_	_	_	_	_
+32-6	1704-1707	ini	_	_	_	_	_
+32-7	1708-1712	saya	_	_	_	_	_
+32-8	1713-1719	tunggu	_	_	_	_	_
+32-9	1720-1721	<	_	_	_	_	_
+32-10	1722-1723	e	_	_	_	_	_
+32-11	1724-1725	>	_	_	_	_	_
+32-12	1726-1731	usaha	_	_	_	_	_
+32-13	1732-1737	bapak	_	_	_	_	_
+32-14	1738-1744	sampai	_	_	_	_	_
+32-15	1745-1747	di	_	_	_	_	_
+32-16	1748-1751	jam	_	_	_	_	_
+32-17	1752-1755	dua	_	_	_	_	_
+32-18	1756-1761	belas	_	_	_	_	_
+32-19	1762-1767	siang	_	_	_	_	_
+
+#Text=iya nanti kalau di jam dua belas siang di besok tanggal enam belas itu belum ada pembayaran akan dikonfirmasi kembali begitu iya
+33-1	1769-1772	iya	_	_	_	_	_
+33-2	1773-1778	nanti	_	_	_	_	_
+33-3	1779-1784	kalau	_	_	_	_	_
+33-4	1785-1787	di	_	_	_	_	_
+33-5	1788-1791	jam	_	_	_	_	_
+33-6	1792-1795	dua	_	_	_	_	_
+33-7	1796-1801	belas	_	_	_	_	_
+33-8	1802-1807	siang	_	_	_	_	_
+33-9	1808-1810	di	_	_	_	_	_
+33-10	1811-1816	besok	_	_	_	_	_
+33-11	1817-1824	tanggal	_	_	_	_	_
+33-12	1825-1829	enam	_	_	_	_	_
+33-13	1830-1835	belas	_	_	_	_	_
+33-14	1836-1839	itu	_	_	_	_	_
+33-15	1840-1845	belum	_	_	_	_	_
+33-16	1846-1849	ada	_	_	_	_	_
+33-17	1850-1860	pembayaran	_	_	_	_	_
+33-18	1861-1865	akan	_	_	_	_	_
+33-19	1866-1878	dikonfirmasi	_	_	_	_	_
+33-20	1879-1886	kembali	_	_	_	_	_
+33-21	1887-1893	begitu	_	_	_	_	_
+33-22	1894-1897	iya	_	_	_	_	_
+
+#Text=karena ini tagihan bapak sudah mau di angka dua ratus ribu sendiri iya
+34-1	1899-1905	karena	_	_	_	_	_
+34-2	1906-1909	ini	_	_	_	_	_
+34-3	1910-1917	tagihan	_	_	_	_	_
+34-4	1918-1923	bapak	_	_	_	_	_
+34-5	1924-1929	sudah	_	_	_	_	_
+34-6	1930-1933	mau	_	_	_	_	_
+34-7	1934-1936	di	_	_	_	_	_
+34-8	1937-1942	angka	_	_	_	_	_
+34-9	1943-1946	dua	_	_	_	_	_
+34-10	1947-1952	ratus	_	_	_	_	_
+34-11	1953-1957	ribu	_	_	_	_	_
+34-12	1958-1965	sendiri	_	_	_	_	_
+34-13	1966-1969	iya	_	_	_	_	_
+
+#Text=iya jadi dimaksimalkan dulu cari dana talangan nya biar nanti tagihan nya tidak terus bertambah seperti itu iya pak iya
+35-1	1971-1974	iya	_	_	_	_	_
+35-2	1975-1979	jadi	_	_	_	_	_
+35-3	1980-1993	dimaksimalkan	_	_	_	_	_
+35-4	1994-1998	dulu	_	_	_	_	_
+35-5	1999-2003	cari	_	_	_	_	_
+35-6	2004-2008	dana	_	_	_	_	_
+35-7	2009-2017	talangan	_	_	_	_	_
+35-8	2018-2021	nya	_	_	_	_	_
+35-9	2022-2026	biar	_	_	_	_	_
+35-10	2027-2032	nanti	_	_	_	_	_
+35-11	2033-2040	tagihan	_	_	_	_	_
+35-12	2041-2044	nya	_	_	_	_	_
+35-13	2045-2050	tidak	_	_	_	_	_
+35-14	2051-2056	terus	_	_	_	_	_
+35-15	2057-2066	bertambah	_	_	_	_	_
+35-16	2067-2074	seperti	_	_	_	_	_
+35-17	2075-2078	itu	_	_	_	_	_
+35-18	2079-2082	iya	_	_	_	_	_
+35-19	2083-2086	pak	_	_	_	_	_
+35-20	2087-2090	iya	_	_	_	_	_
+
+#Text=baik kalau begitu terima kasih untuk waktu nya saya tunggu pembayaran nya besok di jam dua belas siang
+36-1	2092-2096	baik	_	_	_	_	_
+36-2	2097-2102	kalau	_	_	_	_	_
+36-3	2103-2109	begitu	_	_	_	_	_
+36-4	2110-2116	terima	_	_	_	_	_
+36-5	2117-2122	kasih	_	_	_	_	_
+36-6	2123-2128	untuk	_	_	_	_	_
+36-7	2129-2134	waktu	_	_	_	_	_
+36-8	2135-2138	nya	_	_	_	_	_
+36-9	2139-2143	saya	_	_	_	_	_
+36-10	2144-2150	tunggu	_	_	_	_	_
+36-11	2151-2161	pembayaran	_	_	_	_	_
+36-12	2162-2165	nya	_	_	_	_	_
+36-13	2166-2171	besok	_	_	_	_	_
+36-14	2172-2174	di	_	_	_	_	_
+36-15	2175-2178	jam	_	_	_	_	_
+36-16	2179-2182	dua	_	_	_	_	_
+36-17	2183-2188	belas	_	_	_	_	_
+36-18	2189-2194	siang	_	_	_	_	_
+
+#Text=baik terima kasih selamat sore
+37-1	2196-2200	baik	_	_	_	_	_
+37-2	2201-2207	terima	_	_	_	_	_
+37-3	2208-2213	kasih	_	_	_	_	_
+37-4	2214-2221	selamat	_	_	_	_	_
+37-5	2222-2226	sore	_	_	_	_	_

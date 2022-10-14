@@ -1,0 +1,2855 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Promo yang ada di aplikasi nya cukup banyak dan bagus .
+1-1	0-5	Promo	*	concept[1]|[2_1]	_	_	_
+1-2	6-10	yang	_	_	_	_	_
+1-3	11-14	ada	_	_	_	_	_
+1-4	15-17	di	_	_	_	_	_
+1-5	18-26	aplikasi	_	concept[2]	_	_	_
+1-6	27-30	nya	_	_	_	_	_
+1-7	31-36	cukup	*	[1_3]|positive[3]	_	_	_
+1-8	37-43	banyak	_	positive[3]	_	_	_
+1-9	44-47	dan	_	_	_	_	_
+1-10	48-53	bagus	*	[1_4]|positive[4]	_	_	_
+1-11	54-55	.	_	_	_	_	_
+
+#Text=cukup berguna dan mudah digunakan ya aplikasi nya .
+2-1	57-62	cukup	*	positive[5]|[8_5]	_	_	_
+2-2	63-70	berguna	_	positive[5]	_	_	_
+2-3	71-74	dan	_	_	_	_	_
+2-4	75-80	mudah	*	positive[6]|[7_6]	_	_	_
+2-5	81-90	digunakan	*	concept[7]|[8_7]	_	_	_
+2-6	91-93	ya	_	_	_	_	_
+2-7	94-102	aplikasi	_	concept[8]	_	_	_
+2-8	103-106	nya	_	_	_	_	_
+2-9	107-108	.	_	_	_	_	_
+
+#Text=Promo aplikasi nya menarik dan aplikasi nya juga simpel .
+3-1	110-115	Promo	*	concept[9]|[10_9]	_	_	_
+3-2	116-124	aplikasi	_	concept[10]	_	_	_
+3-3	125-128	nya	_	_	_	_	_
+3-4	129-136	menarik	*	[9_11]|positive[11]	_	_	_
+3-5	137-140	dan	_	_	_	_	_
+3-6	141-149	aplikasi	_	concept[12]	_	_	_
+3-7	150-153	nya	_	_	_	_	_
+3-8	154-158	juga	_	_	_	_	_
+3-9	159-165	simpel	*	[12_13]|positive[13]	_	_	_
+3-10	166-167	.	_	_	_	_	_
+
+#Text=Semua Spbu ditempelin poster nya mypertamina keren banget .
+4-1	169-174	Semua	_	_	_	_	_
+4-2	175-179	Spbu	_	concept[14]	_	_	_
+4-3	180-190	ditempelin	*	[14_15]|concept[15]	_	_	_
+4-4	191-197	poster	_	concept[15]	_	_	_
+4-5	198-201	nya	_	concept[15]	_	_	_
+4-6	202-213	mypertamina	_	concept[15]	_	_	_
+4-7	214-219	keren	*	[15_16]|positive[16]	_	_	_
+4-8	220-226	banget	_	positive[16]	_	_	_
+4-9	227-228	.	_	_	_	_	_
+
+#Text=Program Pertamina memang cukup keren .
+5-1	230-237	Program	*	concept[17]|[18_17]	_	_	_
+5-2	238-247	Pertamina	_	concept[18]	_	_	_
+5-3	248-254	memang	_	_	_	_	_
+5-4	255-260	cukup	*	[17_19]|positive[19]	_	_	_
+5-5	261-266	keren	_	positive[19]	_	_	_
+5-6	267-268	.	_	_	_	_	_
+
+#Text=aplikasi ini membuat kami mudah dalam penerapan nya .
+6-1	270-278	aplikasi	_	concept[20]	_	_	_
+6-2	279-282	ini	_	_	_	_	_
+6-3	283-290	membuat	_	_	_	_	_
+6-4	291-295	kami	_	_	_	_	_
+6-5	296-301	mudah	*	positive[21]|[22_21]	_	_	_
+6-6	302-307	dalam	_	_	_	_	_
+6-7	308-317	penerapan	*	[20_22]|concept[22]	_	_	_
+6-8	318-321	nya	_	_	_	_	_
+6-9	322-323	.	_	_	_	_	_
+
+#Text=Koneksi dan kuota nya irit dan ketika login juga lancar terus .
+7-1	325-332	Koneksi	_	concept[23]	_	_	_
+7-2	333-336	dan	_	_	_	_	_
+7-3	337-342	kuota	_	concept[24]	_	_	_
+7-4	343-346	nya	_	_	_	_	_
+7-5	347-351	irit	*|*	[23_25]|[24_25]|positive[25]	_	_	_
+7-6	352-355	dan	_	_	_	_	_
+7-7	356-362	ketika	_	_	_	_	_
+7-8	363-368	login	_	concept[26]	_	_	_
+7-9	369-373	juga	_	_	_	_	_
+7-10	374-380	lancar	*	[26_27]|positive[27]	_	_	_
+7-11	381-386	terus	_	positive[27]	_	_	_
+7-12	387-388	.	_	_	_	_	_
+
+#Text=Bagus ini program dari Pertamina nya .
+8-1	390-395	Bagus	*	positive[28]|[29_28]	_	_	_
+8-2	396-399	ini	_	_	_	_	_
+8-3	400-407	program	*	concept[29]|[30_29]	_	_	_
+8-4	408-412	dari	_	_	_	_	_
+8-5	413-422	Pertamina	_	concept[30]	_	_	_
+8-6	423-426	nya	_	_	_	_	_
+8-7	427-428	.	_	_	_	_	_
+
+#Text=Aplikasi nya cukup baik dan bisa membuat mudah pengguna .
+9-1	430-438	Aplikasi	_	concept[31]	_	_	_
+9-2	439-442	nya	_	_	_	_	_
+9-3	443-448	cukup	*	[31_32]|positive[32]	_	_	_
+9-4	449-453	baik	_	positive[32]	_	_	_
+9-5	454-457	dan	_	_	_	_	_
+9-6	458-462	bisa	*	[31_33]|positive[33]	_	_	_
+9-7	463-470	membuat	_	positive[33]	_	_	_
+9-8	471-476	mudah	_	positive[33]	_	_	_
+9-9	477-485	pengguna	_	positive[33]	_	_	_
+9-10	486-487	.	_	_	_	_	_
+
+#Text=lumayan lengkap loh fitur yang ada di aplikasi .
+10-1	489-496	lumayan	*	positive[34]|[35_34]	_	_	_
+10-2	497-504	lengkap	_	positive[34]	_	_	_
+10-3	505-508	loh	_	_	_	_	_
+10-4	509-514	fitur	*	concept[35]|[36_35]	_	_	_
+10-5	515-519	yang	_	_	_	_	_
+10-6	520-523	ada	_	_	_	_	_
+10-7	524-526	di	_	_	_	_	_
+10-8	527-535	aplikasi	_	concept[36]	_	_	_
+10-9	536-537	.	_	_	_	_	_
+
+#Text=Diperbaharui secara rutin dan aplikasi nya lancar .
+11-1	539-551	Diperbaharui	*	concept[37]|[39_37]	_	_	_
+11-2	552-558	secara	_	_	_	_	_
+11-3	559-564	rutin	*	[37_38]|positive[38]	_	_	_
+11-4	565-568	dan	_	_	_	_	_
+11-5	569-577	aplikasi	_	concept[39]	_	_	_
+11-6	578-581	nya	_	_	_	_	_
+11-7	582-588	lancar	*	[39_40]|positive[40]	_	_	_
+11-8	589-590	.	_	_	_	_	_
+
+#Text=Aplikasi yang baik agar lebih dekat dengan pengguna .
+12-1	592-600	Aplikasi	_	concept[41]	_	_	_
+12-2	601-605	yang	_	_	_	_	_
+12-3	606-610	baik	*	[41_42]|positive[42]	_	_	_
+12-4	611-615	agar	_	_	_	_	_
+12-5	616-621	lebih	_	_	_	_	_
+12-6	622-627	dekat	_	_	_	_	_
+12-7	628-634	dengan	_	_	_	_	_
+12-8	635-643	pengguna	_	_	_	_	_
+12-9	644-645	.	_	_	_	_	_
+
+#Text=Cepat , bermanfaat , dan akurat ini aplikasi nya , makasih .
+13-1	647-652	Cepat	*	positive[43]|[46_43]	_	_	_
+13-2	653-654	,	_	_	_	_	_
+13-3	655-665	bermanfaat	*	positive[44]|[46_44]	_	_	_
+13-4	666-667	,	_	_	_	_	_
+13-5	668-671	dan	_	_	_	_	_
+13-6	672-678	akurat	*	positive[45]|[46_45]	_	_	_
+13-7	679-682	ini	_	_	_	_	_
+13-8	683-691	aplikasi	_	concept[46]	_	_	_
+13-9	692-695	nya	_	_	_	_	_
+13-10	696-697	,	_	_	_	_	_
+13-11	698-705	makasih	_	_	_	_	_
+13-12	706-707	.	_	_	_	_	_
+
+#Text=Sudah lancar sekarang upload struk pembelian .
+14-1	709-714	Sudah	*	positive[47]|[48_47]	_	_	_
+14-2	715-721	lancar	_	positive[47]	_	_	_
+14-3	722-730	sekarang	_	_	_	_	_
+14-4	731-737	upload	_	concept[48]	_	_	_
+14-5	738-743	struk	_	concept[48]	_	_	_
+14-6	744-753	pembelian	_	_	_	_	_
+14-7	754-755	.	_	_	_	_	_
+
+#Text=Aplikasi ini cukup lancar dan informatif .
+15-1	757-765	Aplikasi	_	concept[49]	_	_	_
+15-2	766-769	ini	_	_	_	_	_
+15-3	770-775	cukup	*	[49_50]|positive[50]	_	_	_
+15-4	776-782	lancar	_	positive[50]	_	_	_
+15-5	783-786	dan	_	_	_	_	_
+15-6	787-797	informatif	*	[49_51]|positive[51]	_	_	_
+15-7	798-799	.	_	_	_	_	_
+
+#Text=Untuk pembayaran dengan kartu , aplikasi ini cukup memudahkan .
+16-1	801-806	Untuk	_	_	_	_	_
+16-2	807-817	pembayaran	*	concept[52]|[54_52]	_	_	_
+16-3	818-824	dengan	_	_	_	_	_
+16-4	825-830	kartu	_	keterangan[53]	_	_	_
+16-5	831-832	,	_	_	_	_	_
+16-6	833-841	aplikasi	_	concept[54]	_	_	_
+16-7	842-845	ini	_	_	_	_	_
+16-8	846-851	cukup	*|*	[52_55]|[53_55]|positive[55]	_	_	_
+16-9	852-862	memudahkan	_	positive[55]	_	_	_
+16-10	863-864	.	_	_	_	_	_
+
+#Text=Pertamina menjadi lebih dekat dengan konsumen nya melalui aplikasi ini .
+17-1	866-875	Pertamina	_	concept[56]	_	_	_
+17-2	876-883	menjadi	_	_	_	_	_
+17-3	884-889	lebih	*	[56_57]|positive[57]	_	_	_
+17-4	890-895	dekat	_	positive[57]	_	_	_
+17-5	896-902	dengan	_	positive[57]	_	_	_
+17-6	903-911	konsumen	_	positive[57]	_	_	_
+17-7	912-915	nya	_	_	_	_	_
+17-8	916-923	melalui	_	_	_	_	_
+17-9	924-932	aplikasi	_	_	_	_	_
+17-10	933-936	ini	_	_	_	_	_
+17-11	937-938	.	_	_	_	_	_
+
+#Text=Karena sangat bermanfaat , saya sangat suka memakai aplikasi My Pertamina .
+18-1	940-946	Karena	_	_	_	_	_
+18-2	947-953	sangat	*	positive[58]|[61_58]	_	_	_
+18-3	954-964	bermanfaat	_	positive[58]	_	_	_
+18-4	965-966	,	_	_	_	_	_
+18-5	967-971	saya	_	_	_	_	_
+18-6	972-978	sangat	*	positive[59]|[60_59]	_	_	_
+18-7	979-983	suka	_	positive[59]	_	_	_
+18-8	984-991	memakai	*	concept[60]|[61_60]	_	_	_
+18-9	992-1000	aplikasi	_	_	_	_	_
+18-10	1001-1003	My	_	concept[61]	_	_	_
+18-11	1004-1013	Pertamina	_	concept[61]	_	_	_
+18-12	1014-1015	.	_	_	_	_	_
+
+#Text=My Pertamina ini sangat mudah dipakai dan terbaik .
+19-1	1017-1019	My	_	concept[62]	_	_	_
+19-2	1020-1029	Pertamina	_	concept[62]	_	_	_
+19-3	1030-1033	ini	_	_	_	_	_
+19-4	1034-1040	sangat	*	positive[63]|[64_63]	_	_	_
+19-5	1041-1046	mudah	_	positive[63]	_	_	_
+19-6	1047-1054	dipakai	*	[62_64]|concept[64]	_	_	_
+19-7	1055-1058	dan	_	_	_	_	_
+19-8	1059-1066	terbaik	*	[62_65]|positive[65]	_	_	_
+19-9	1067-1068	.	_	_	_	_	_
+
+#Text=SPBU paling dekat bisa ditemukan dengan aplikasi My Pertamina sehingga aplikasi ini bermanfaat banget .
+20-1	1070-1074	SPBU	*	concept[66]|[68_66]	_	_	_
+20-2	1075-1081	paling	_	concept[66]	_	_	_
+20-3	1082-1087	dekat	_	concept[66]	_	_	_
+20-4	1088-1092	bisa	*	[66_67]|positive[67]	_	_	_
+20-5	1093-1102	ditemukan	_	positive[67]	_	_	_
+20-6	1103-1109	dengan	_	_	_	_	_
+20-7	1110-1118	aplikasi	_	_	_	_	_
+20-8	1119-1121	My	_	concept[68]	_	_	_
+20-9	1122-1131	Pertamina	_	concept[68]	_	_	_
+20-10	1132-1140	sehingga	_	_	_	_	_
+20-11	1141-1149	aplikasi	_	_	_	_	_
+20-12	1150-1153	ini	_	_	_	_	_
+20-13	1154-1164	bermanfaat	*	[68_69]|positive[69]	_	_	_
+20-14	1165-1171	banget	_	positive[69]	_	_	_
+20-15	1172-1173	.	_	_	_	_	_
+
+#Text=Banyak manfaat yang bisa didapat dari aplikasi My Pertamina .
+21-1	1175-1181	Banyak	*	positive[70]|[71_70]	_	_	_
+21-2	1182-1189	manfaat	*	concept[71]|[72_71]	_	_	_
+21-3	1190-1194	yang	_	_	_	_	_
+21-4	1195-1199	bisa	_	_	_	_	_
+21-5	1200-1207	didapat	_	_	_	_	_
+21-6	1208-1212	dari	_	_	_	_	_
+21-7	1213-1221	aplikasi	_	_	_	_	_
+21-8	1222-1224	My	_	concept[72]	_	_	_
+21-9	1225-1234	Pertamina	_	concept[72]	_	_	_
+21-10	1235-1236	.	_	_	_	_	_
+
+#Text=Promo-promo yang ditawarkan di aplikasi cukup bagus .
+22-1	1238-1249	Promo-promo	*	concept[73]|[74_73]	_	_	_
+22-2	1250-1254	yang	_	_	_	_	_
+22-3	1255-1265	ditawarkan	_	_	_	_	_
+22-4	1266-1268	di	_	_	_	_	_
+22-5	1269-1277	aplikasi	_	concept[74]	_	_	_
+22-6	1278-1283	cukup	*	[73_75]|positive[75]	_	_	_
+22-7	1284-1289	bagus	_	positive[75]	_	_	_
+22-8	1290-1291	.	_	_	_	_	_
+
+#Text=Aplikasi ini mudah dioperasikan dan cukup bermanfaat bagi konsumen .
+23-1	1293-1301	Aplikasi	_	concept[76]	_	_	_
+23-2	1302-1305	ini	_	_	_	_	_
+23-3	1306-1311	mudah	*	positive[77]|[78_77]	_	_	_
+23-4	1312-1324	dioperasikan	*	[76_78]|concept[78]	_	_	_
+23-5	1325-1328	dan	_	_	_	_	_
+23-6	1329-1334	cukup	*	[76_79]|positive[79]	_	_	_
+23-7	1335-1345	bermanfaat	_	positive[79]	_	_	_
+23-8	1346-1350	bagi	_	_	_	_	_
+23-9	1351-1359	konsumen	_	_	_	_	_
+23-10	1360-1361	.	_	_	_	_	_
+
+#Text=Aplikasi simpel dan promo nya cukup menarik .
+24-1	1363-1371	Aplikasi	*	concept[80]|[82_80]	_	_	_
+24-2	1372-1378	simpel	*	[80_81]|positive[81]	_	_	_
+24-3	1379-1382	dan	_	_	_	_	_
+24-4	1383-1388	promo	_	concept[82]	_	_	_
+24-5	1389-1392	nya	_	_	_	_	_
+24-6	1393-1398	cukup	*	[82_83]|positive[83]	_	_	_
+24-7	1399-1406	menarik	_	positive[83]	_	_	_
+24-8	1407-1408	.	_	_	_	_	_
+
+#Text=Bagus banget nempelin poster my pertamina di semua spbu ya .
+25-1	1410-1415	Bagus	*	positive[84]|[85_84]	_	_	_
+25-2	1416-1422	banget	_	positive[84]	_	_	_
+25-3	1423-1431	nempelin	*	concept[85]|[86_85]	_	_	_
+25-4	1432-1438	poster	_	concept[85]	_	_	_
+25-5	1439-1441	my	_	concept[85]	_	_	_
+25-6	1442-1451	pertamina	_	concept[85]	_	_	_
+25-7	1452-1454	di	_	_	_	_	_
+25-8	1455-1460	semua	_	_	_	_	_
+25-9	1461-1465	spbu	_	concept[86]	_	_	_
+25-10	1466-1468	ya	_	_	_	_	_
+25-11	1469-1470	.	_	_	_	_	_
+
+#Text=Keren banget program Pertamina .
+26-1	1472-1477	Keren	*	positive[87]|[88_87]	_	_	_
+26-2	1478-1484	banget	_	positive[87]	_	_	_
+26-3	1485-1492	program	*	concept[88]|[89_88]	_	_	_
+26-4	1493-1502	Pertamina	_	concept[89]	_	_	_
+26-5	1503-1504	.	_	_	_	_	_
+
+#Text=Kami merasa terbantu dengan aplikasi ini .
+27-1	1506-1510	Kami	_	_	_	_	_
+27-2	1511-1517	merasa	_	_	_	_	_
+27-3	1518-1526	terbantu	*	positive[90]|[91_90]	_	_	_
+27-4	1527-1533	dengan	_	_	_	_	_
+27-5	1534-1542	aplikasi	_	concept[91]	_	_	_
+27-6	1543-1546	ini	_	_	_	_	_
+27-7	1547-1548	.	_	_	_	_	_
+
+#Text=Bagus deh ini koneksi dan kuota nya , login nya juga lancar banget .
+28-1	1550-1555	Bagus	*|*	positive[92]|[93_92]|[94_92]	_	_	_
+28-2	1556-1559	deh	_	_	_	_	_
+28-3	1560-1563	ini	_	_	_	_	_
+28-4	1564-1571	koneksi	_	concept[93]	_	_	_
+28-5	1572-1575	dan	_	_	_	_	_
+28-6	1576-1581	kuota	_	concept[94]	_	_	_
+28-7	1582-1585	nya	_	_	_	_	_
+28-8	1586-1587	,	_	_	_	_	_
+28-9	1588-1593	login	_	concept[95]	_	_	_
+28-10	1594-1597	nya	_	_	_	_	_
+28-11	1598-1602	juga	_	_	_	_	_
+28-12	1603-1609	lancar	*	[95_96]|positive[96]	_	_	_
+28-13	1610-1616	banget	_	positive[96]	_	_	_
+28-14	1617-1618	.	_	_	_	_	_
+
+#Text=program nya bagus banget ya dari Pertamina ini .
+29-1	1620-1627	program	*	concept[97]|[99_97]	_	_	_
+29-2	1628-1631	nya	_	_	_	_	_
+29-3	1632-1637	bagus	*	[97_98]|positive[98]	_	_	_
+29-4	1638-1644	banget	_	positive[98]	_	_	_
+29-5	1645-1647	ya	_	_	_	_	_
+29-6	1648-1652	dari	_	_	_	_	_
+29-7	1653-1662	Pertamina	_	concept[99]	_	_	_
+29-8	1663-1666	ini	_	_	_	_	_
+29-9	1667-1668	.	_	_	_	_	_
+
+#Text=Membantu pengguna dan cukup baik aplikasi nya .
+30-1	1670-1678	Membantu	*	positive[100]|[102_100]	_	_	_
+30-2	1679-1687	pengguna	_	positive[100]	_	_	_
+30-3	1688-1691	dan	_	_	_	_	_
+30-4	1692-1697	cukup	*	positive[101]|[102_101]	_	_	_
+30-5	1698-1702	baik	_	positive[101]	_	_	_
+30-6	1703-1711	aplikasi	_	concept[102]	_	_	_
+30-7	1712-1715	nya	_	_	_	_	_
+30-8	1716-1717	.	_	_	_	_	_
+
+#Text=Lumayan lengkap ya fitur yang ada di aplikasi .
+31-1	1719-1726	Lumayan	*	positive[103]|[104_103]	_	_	_
+31-2	1727-1734	lengkap	_	positive[103]	_	_	_
+31-3	1735-1737	ya	_	_	_	_	_
+31-4	1738-1743	fitur	*	concept[104]|[105_104]	_	_	_
+31-5	1744-1748	yang	_	_	_	_	_
+31-6	1749-1752	ada	_	_	_	_	_
+31-7	1753-1755	di	_	_	_	_	_
+31-8	1756-1764	aplikasi	_	concept[105]	_	_	_
+31-9	1765-1766	.	_	_	_	_	_
+
+#Text=Aplikasi lancar dan rutin diperbaharui .
+32-1	1768-1776	Aplikasi	_	concept[106]	_	_	_
+32-2	1777-1783	lancar	*	[106_107]|positive[107]	_	_	_
+32-3	1784-1787	dan	_	_	_	_	_
+32-4	1788-1793	rutin	*	positive[108]|[109_108]	_	_	_
+32-5	1794-1806	diperbaharui	*	[106_109]|concept[109]	_	_	_
+32-6	1807-1808	.	_	_	_	_	_
+
+#Text=Aplikasi yang keren untuk mendekat dengan konsumen nya .
+33-1	1810-1818	Aplikasi	_	concept[110]	_	_	_
+33-2	1819-1823	yang	_	_	_	_	_
+33-3	1824-1829	keren	*	[110_111]|positive[111]	_	_	_
+33-4	1830-1835	untuk	_	_	_	_	_
+33-5	1836-1844	mendekat	_	_	_	_	_
+33-6	1845-1851	dengan	_	_	_	_	_
+33-7	1852-1860	konsumen	_	_	_	_	_
+33-8	1861-1864	nya	_	_	_	_	_
+33-9	1865-1866	.	_	_	_	_	_
+
+#Text=Makasih min . Aplikasi ini cepat , bermanfaat , dan akurat .
+34-1	1868-1875	Makasih	_	_	_	_	_
+34-2	1876-1879	min	_	_	_	_	_
+34-3	1880-1881	.	_	_	_	_	_
+34-4	1882-1890	Aplikasi	_	concept[112]	_	_	_
+34-5	1891-1894	ini	_	_	_	_	_
+34-6	1895-1900	cepat	*	[112_113]|positive[113]	_	_	_
+34-7	1901-1902	,	_	_	_	_	_
+34-8	1903-1913	bermanfaat	*	[112_114]|positive[114]	_	_	_
+34-9	1914-1915	,	_	_	_	_	_
+34-10	1916-1919	dan	_	_	_	_	_
+34-11	1920-1926	akurat	*	[112_115]|positive[115]	_	_	_
+34-12	1927-1928	.	_	_	_	_	_
+
+#Text=proses unggah struk sekarang sudah oke .
+35-1	1930-1936	proses	*	concept[116]|[117_116]	_	_	_
+35-2	1937-1943	unggah	_	concept[117]	_	_	_
+35-3	1944-1949	struk	_	concept[117]	_	_	_
+35-4	1950-1958	sekarang	_	_	_	_	_
+35-5	1959-1964	sudah	*	[116_118]|positive[118]	_	_	_
+35-6	1965-1968	oke	_	positive[118]	_	_	_
+35-7	1969-1970	.	_	_	_	_	_
+
+#Text=informatif dan lancar aplikasi nya .
+36-1	1972-1982	informatif	*	positive[119]|[121_119]	_	_	_
+36-2	1983-1986	dan	_	_	_	_	_
+36-3	1987-1993	lancar	*	positive[120]|[121_120]	_	_	_
+36-4	1994-2002	aplikasi	_	concept[121]	_	_	_
+36-5	2003-2006	nya	_	_	_	_	_
+36-6	2007-2008	.	_	_	_	_	_
+
+#Text=aplikasi yang bermanfaat untuk pembayaran dengan kartu .
+37-1	2010-2018	aplikasi	_	concept[122]	_	_	_
+37-2	2019-2023	yang	_	_	_	_	_
+37-3	2024-2034	bermanfaat	*|*	positive[123]|[124_123]|[125_123]	_	_	_
+37-4	2035-2040	untuk	_	_	_	_	_
+37-5	2041-2051	pembayaran	*	[122_124]|concept[124]	_	_	_
+37-6	2052-2058	dengan	_	_	_	_	_
+37-7	2059-2064	kartu	_	keterangan[125]	_	_	_
+37-8	2065-2066	.	_	_	_	_	_
+
+#Text=Berkat aplikasi ini , Pertamina menjadi lebih dekat dengan konsumen .
+38-1	2068-2074	Berkat	_	_	_	_	_
+38-2	2075-2083	aplikasi	_	_	_	_	_
+38-3	2084-2087	ini	_	_	_	_	_
+38-4	2088-2089	,	_	_	_	_	_
+38-5	2090-2099	Pertamina	_	concept[126]	_	_	_
+38-6	2100-2107	menjadi	_	_	_	_	_
+38-7	2108-2113	lebih	*	[126_127]|positive[127]	_	_	_
+38-8	2114-2119	dekat	_	positive[127]	_	_	_
+38-9	2120-2126	dengan	_	positive[127]	_	_	_
+38-10	2127-2135	konsumen	_	positive[127]	_	_	_
+38-11	2136-2137	.	_	_	_	_	_
+
+#Text=Aplikasi My Pertamina ini sangat berguna bagi saya sehingga saya suka pakai nya hehe .
+39-1	2139-2147	Aplikasi	_	_	_	_	_
+39-2	2148-2150	My	_	concept[128]	_	_	_
+39-3	2151-2160	Pertamina	_	concept[128]	_	_	_
+39-4	2161-2164	ini	_	_	_	_	_
+39-5	2165-2171	sangat	*	[128_129]|positive[129]	_	_	_
+39-6	2172-2179	berguna	_	positive[129]	_	_	_
+39-7	2180-2184	bagi	_	_	_	_	_
+39-8	2185-2189	saya	_	_	_	_	_
+39-9	2190-2198	sehingga	_	_	_	_	_
+39-10	2199-2203	saya	_	_	_	_	_
+39-11	2204-2208	suka	*	positive[130]|[131_130]	_	_	_
+39-12	2209-2214	pakai	*	[128_131]|concept[131]	_	_	_
+39-13	2215-2218	nya	_	_	_	_	_
+39-14	2219-2223	hehe	_	_	_	_	_
+39-15	2224-2225	.	_	_	_	_	_
+
+#Text=Bagus banget dan mantap ya aplikasi My Pertamina ini .
+40-1	2227-2232	Bagus	*	positive[132]|[134_132]	_	_	_
+40-2	2233-2239	banget	_	positive[132]	_	_	_
+40-3	2240-2243	dan	_	_	_	_	_
+40-4	2244-2250	mantap	*	positive[133]|[134_133]	_	_	_
+40-5	2251-2253	ya	_	_	_	_	_
+40-6	2254-2262	aplikasi	_	_	_	_	_
+40-7	2263-2265	My	_	concept[134]	_	_	_
+40-8	2266-2275	Pertamina	_	concept[134]	_	_	_
+40-9	2276-2279	ini	_	_	_	_	_
+40-10	2280-2281	.	_	_	_	_	_
+
+#Text=Manfaat aplikasi My Pertamina sangat terlihat bisa buat cari letak SPBU .
+41-1	2283-2290	Manfaat	*	concept[135]|[136_135]	_	_	_
+41-2	2291-2299	aplikasi	_	_	_	_	_
+41-3	2300-2302	My	_	concept[136]	_	_	_
+41-4	2303-2312	Pertamina	_	concept[136]	_	_	_
+41-5	2313-2319	sangat	*	[135_137]|positive[137]	_	_	_
+41-6	2320-2328	terlihat	_	positive[137]	_	_	_
+41-7	2329-2333	bisa	*	positive[138]|[139_138]	_	_	_
+41-8	2334-2338	buat	_	_	_	_	_
+41-9	2339-2343	cari	*	[136_139]|concept[139]	_	_	_
+41-10	2344-2349	letak	_	concept[139]	_	_	_
+41-11	2350-2354	SPBU	_	concept[139]	_	_	_
+41-12	2355-2356	.	_	_	_	_	_
+
+#Text=My Pertamina banyak sekali guna nya deh .
+42-1	2358-2360	My	_	concept[140]	_	_	_
+42-2	2361-2370	Pertamina	_	concept[140]	_	_	_
+42-3	2371-2377	banyak	*	positive[141]|[142_141]	_	_	_
+42-4	2378-2384	sekali	_	positive[141]	_	_	_
+42-5	2385-2389	guna	*	[140_142]|concept[142]	_	_	_
+42-6	2390-2393	nya	_	_	_	_	_
+42-7	2394-2397	deh	_	_	_	_	_
+42-8	2398-2399	.	_	_	_	_	_
+
+#Text=Cukup bagus ya promo-promo yang ada di aplikasi .
+43-1	2401-2406	Cukup	*	positive[143]|[144_143]	_	_	_
+43-2	2407-2412	bagus	_	positive[143]	_	_	_
+43-3	2413-2415	ya	_	_	_	_	_
+43-4	2416-2427	promo-promo	*	concept[144]|[145_144]	_	_	_
+43-5	2428-2432	yang	_	_	_	_	_
+43-6	2433-2436	ada	_	_	_	_	_
+43-7	2437-2439	di	_	_	_	_	_
+43-8	2440-2448	aplikasi	_	concept[145]	_	_	_
+43-9	2449-2450	.	_	_	_	_	_
+
+#Text=Aplikasi ini sudah lumayan ada manfaat nya dan mudah dipakai .
+44-1	2452-2460	Aplikasi	_	concept[146]	_	_	_
+44-2	2461-2464	ini	_	_	_	_	_
+44-3	2465-2470	sudah	*	[146_147]|positive[147]	_	_	_
+44-4	2471-2478	lumayan	_	positive[147]	_	_	_
+44-5	2479-2482	ada	*	positive[148]|[149_148]	_	_	_
+44-6	2483-2490	manfaat	*	[146_149]|concept[149]	_	_	_
+44-7	2491-2494	nya	_	_	_	_	_
+44-8	2495-2498	dan	_	_	_	_	_
+44-9	2499-2504	mudah	*	positive[150]|[151_150]	_	_	_
+44-10	2505-2512	dipakai	*	[146_151]|concept[151]	_	_	_
+44-11	2513-2514	.	_	_	_	_	_
+
+#Text=Menarik juga promo nya dan aplikasi simpel .
+45-1	2516-2523	Menarik	*	positive[152]|[153_152]	_	_	_
+45-2	2524-2528	juga	_	_	_	_	_
+45-3	2529-2534	promo	*	concept[153]|[154_153]	_	_	_
+45-4	2535-2538	nya	_	_	_	_	_
+45-5	2539-2542	dan	_	_	_	_	_
+45-6	2543-2551	aplikasi	_	concept[154]	_	_	_
+45-7	2552-2558	simpel	*	[154_155]|positive[155]	_	_	_
+45-8	2559-2560	.	_	_	_	_	_
+
+#Text=Nempelin poster aplikasi mypertamina di setiap spbu bagus sekali .
+46-1	2562-2570	Nempelin	*	concept[156]|[157_156]	_	_	_
+46-2	2571-2577	poster	_	concept[156]	_	_	_
+46-3	2578-2586	aplikasi	_	_	_	_	_
+46-4	2587-2598	mypertamina	_	_	_	_	_
+46-5	2599-2601	di	_	_	_	_	_
+46-6	2602-2608	setiap	_	_	_	_	_
+46-7	2609-2613	spbu	_	concept[157]	_	_	_
+46-8	2614-2619	bagus	*	[156_158]|positive[158]	_	_	_
+46-9	2620-2626	sekali	_	positive[158]	_	_	_
+46-10	2627-2628	.	_	_	_	_	_
+
+#Text=Program Pertamina terbaik lah .
+47-1	2630-2637	Program	*	concept[159]|[160_159]	_	_	_
+47-2	2638-2647	Pertamina	_	concept[160]	_	_	_
+47-3	2648-2655	terbaik	*	[159_161]|positive[161]	_	_	_
+47-4	2656-2659	lah	_	_	_	_	_
+47-5	2660-2661	.	_	_	_	_	_
+
+#Text=Aplikasi ini membuat kami terbantu .
+48-1	2663-2671	Aplikasi	_	concept[162]	_	_	_
+48-2	2672-2675	ini	_	_	_	_	_
+48-3	2676-2683	membuat	_	_	_	_	_
+48-4	2684-2688	kami	_	_	_	_	_
+48-5	2689-2697	terbantu	*	[162_163]|positive[163]	_	_	_
+48-6	2698-2699	.	_	_	_	_	_
+
+#Text=Mantap ini koneksi dan kuota nya , ketika masuk juga lancar terus .
+49-1	2701-2707	Mantap	*|*	positive[164]|[165_164]|[166_164]	_	_	_
+49-2	2708-2711	ini	_	_	_	_	_
+49-3	2712-2719	koneksi	_	concept[165]	_	_	_
+49-4	2720-2723	dan	_	_	_	_	_
+49-5	2724-2729	kuota	_	concept[166]	_	_	_
+49-6	2730-2733	nya	_	_	_	_	_
+49-7	2734-2735	,	_	_	_	_	_
+49-8	2736-2742	ketika	_	_	_	_	_
+49-9	2743-2748	masuk	_	concept[167]	_	_	_
+49-10	2749-2753	juga	_	_	_	_	_
+49-11	2754-2760	lancar	*	[167_168]|positive[168]	_	_	_
+49-12	2761-2766	terus	_	positive[168]	_	_	_
+49-13	2767-2768	.	_	_	_	_	_
+
+#Text=Program bagus ya ini dari Pertamina .
+50-1	2770-2777	Program	*	concept[169]|[171_169]	_	_	_
+50-2	2778-2783	bagus	*	[169_170]|positive[170]	_	_	_
+50-3	2784-2786	ya	_	_	_	_	_
+50-4	2787-2790	ini	_	_	_	_	_
+50-5	2791-2795	dari	_	_	_	_	_
+50-6	2796-2805	Pertamina	_	concept[171]	_	_	_
+50-7	2806-2807	.	_	_	_	_	_
+
+#Text=cukup bagus aplikasi nya dan bisa membantu konsumen .
+51-1	2809-2814	cukup	*	positive[172]|[173_172]	_	_	_
+51-2	2815-2820	bagus	_	positive[172]	_	_	_
+51-3	2821-2829	aplikasi	_	concept[173]	_	_	_
+51-4	2830-2833	nya	_	_	_	_	_
+51-5	2834-2837	dan	_	_	_	_	_
+51-6	2838-2842	bisa	*	[173_174]|positive[174]	_	_	_
+51-7	2843-2851	membantu	_	positive[174]	_	_	_
+51-8	2852-2860	konsumen	_	positive[174]	_	_	_
+51-9	2861-2862	.	_	_	_	_	_
+
+#Text=Cukup komplit deh fitur yang terdapat dalam aplikasi .
+52-1	2864-2869	Cukup	*	positive[175]|[176_175]	_	_	_
+52-2	2870-2877	komplit	_	positive[175]	_	_	_
+52-3	2878-2881	deh	_	_	_	_	_
+52-4	2882-2887	fitur	*	concept[176]|[177_176]	_	_	_
+52-5	2888-2892	yang	_	_	_	_	_
+52-6	2893-2901	terdapat	_	_	_	_	_
+52-7	2902-2907	dalam	_	_	_	_	_
+52-8	2908-2916	aplikasi	_	concept[177]	_	_	_
+52-9	2917-2918	.	_	_	_	_	_
+
+#Text=Rutin dalam pembaharuan dan lancar aplikasi nya .
+53-1	2920-2925	Rutin	*	positive[178]|[179_178]	_	_	_
+53-2	2926-2931	dalam	_	_	_	_	_
+53-3	2932-2943	pembaharuan	*	concept[179]|[181_179]	_	_	_
+53-4	2944-2947	dan	_	_	_	_	_
+53-5	2948-2954	lancar	*	positive[180]|[181_180]	_	_	_
+53-6	2955-2963	aplikasi	_	concept[181]	_	_	_
+53-7	2964-2967	nya	_	_	_	_	_
+53-8	2968-2969	.	_	_	_	_	_
+
+#Text=Aplikasi yang bagus sekali untuk lebih dekat dengan pengguna .
+54-1	2971-2979	Aplikasi	_	concept[182]	_	_	_
+54-2	2980-2984	yang	_	_	_	_	_
+54-3	2985-2990	bagus	*	[182_183]|positive[183]	_	_	_
+54-4	2991-2997	sekali	_	positive[183]	_	_	_
+54-5	2998-3003	untuk	_	_	_	_	_
+54-6	3004-3009	lebih	_	_	_	_	_
+54-7	3010-3015	dekat	_	_	_	_	_
+54-8	3016-3022	dengan	_	_	_	_	_
+54-9	3023-3031	pengguna	_	_	_	_	_
+54-10	3032-3033	.	_	_	_	_	_
+
+#Text=Makasih , ya , Admin . Aplikasi yang bermanfaat , cepat , dan akurat .
+55-1	3035-3042	Makasih	_	_	_	_	_
+55-2	3043-3044	,	_	_	_	_	_
+55-3	3045-3047	ya	_	_	_	_	_
+55-4	3048-3049	,	_	_	_	_	_
+55-5	3050-3055	Admin	_	_	_	_	_
+55-6	3056-3057	.	_	_	_	_	_
+55-7	3058-3066	Aplikasi	_	concept[184]	_	_	_
+55-8	3067-3071	yang	_	_	_	_	_
+55-9	3072-3082	bermanfaat	*	[184_185]|positive[185]	_	_	_
+55-10	3083-3084	,	_	_	_	_	_
+55-11	3085-3090	cepat	*	[184_186]|positive[186]	_	_	_
+55-12	3091-3092	,	_	_	_	_	_
+55-13	3093-3096	dan	_	_	_	_	_
+55-14	3097-3103	akurat	*	[184_187]|positive[187]	_	_	_
+55-15	3104-3105	.	_	_	_	_	_
+
+#Text=Sudah oke sekarang upload struk pembelian .
+56-1	3107-3112	Sudah	*	positive[188]|[189_188]	_	_	_
+56-2	3113-3116	oke	_	positive[188]	_	_	_
+56-3	3117-3125	sekarang	_	_	_	_	_
+56-4	3126-3132	upload	_	concept[189]	_	_	_
+56-5	3133-3138	struk	_	concept[189]	_	_	_
+56-6	3139-3148	pembelian	_	_	_	_	_
+56-7	3149-3150	.	_	_	_	_	_
+
+#Text=Lumayan lancar dan informatif ya aplikasi nya .
+57-1	3152-3159	Lumayan	*	positive[190]|[192_190]	_	_	_
+57-2	3160-3166	lancar	_	positive[190]	_	_	_
+57-3	3167-3170	dan	_	_	_	_	_
+57-4	3171-3181	informatif	*	positive[191]|[192_191]	_	_	_
+57-5	3182-3184	ya	_	_	_	_	_
+57-6	3185-3193	aplikasi	_	concept[192]	_	_	_
+57-7	3194-3197	nya	_	_	_	_	_
+57-8	3198-3199	.	_	_	_	_	_
+
+#Text=Pembayaran dengan kartu pakai aplikasi ini cukup memudahkan .
+58-1	3201-3211	Pembayaran	*	concept[193]|[195_193]	_	_	_
+58-2	3212-3218	dengan	_	_	_	_	_
+58-3	3219-3224	kartu	_	keterangan[194]	_	_	_
+58-4	3225-3230	pakai	_	_	_	_	_
+58-5	3231-3239	aplikasi	_	concept[195]	_	_	_
+58-6	3240-3243	ini	_	_	_	_	_
+58-7	3244-3249	cukup	*|*	[193_196]|[194_196]|positive[196]	_	_	_
+58-8	3250-3260	memudahkan	_	positive[196]	_	_	_
+58-9	3261-3262	.	_	_	_	_	_
+
+#Text=Konsumen menjadi lebih dekat dengan Pertamina berkat aplikasi ini .
+59-1	3264-3272	Konsumen	*	positive[197]|[198_197]	_	_	_
+59-2	3273-3280	menjadi	_	positive[197]	_	_	_
+59-3	3281-3286	lebih	_	positive[197]	_	_	_
+59-4	3287-3292	dekat	_	positive[197]	_	_	_
+59-5	3293-3299	dengan	_	_	_	_	_
+59-6	3300-3309	Pertamina	_	concept[198]	_	_	_
+59-7	3310-3316	berkat	_	_	_	_	_
+59-8	3317-3325	aplikasi	_	_	_	_	_
+59-9	3326-3329	ini	_	_	_	_	_
+59-10	3330-3331	.	_	_	_	_	_
+
+#Text=Good aplikasi , bisa beli bbm cashless .
+60-1	3333-3337	Good	*	positive[199]|[200_199]	_	_	_
+60-2	3338-3346	aplikasi	_	concept[200]	_	_	_
+60-3	3347-3348	,	_	_	_	_	_
+60-4	3349-3353	bisa	*|*	positive[201]|[202_201]|[203_201]	_	_	_
+60-5	3354-3358	beli	*	[200_202]|concept[202]	_	_	_
+60-6	3359-3362	bbm	_	concept[202]	_	_	_
+60-7	3363-3371	cashless	_	keterangan[203]	_	_	_
+60-8	3372-3373	.	_	_	_	_	_
+
+#Text=My pertamina banyak keuntungan nya .
+61-1	3375-3377	My	_	concept[204]	_	_	_
+61-2	3378-3387	pertamina	_	concept[204]	_	_	_
+61-3	3388-3394	banyak	*	positive[205]|[206_205]	_	_	_
+61-4	3395-3405	keuntungan	*	[204_206]|concept[206]	_	_	_
+61-5	3406-3409	nya	_	_	_	_	_
+61-6	3410-3411	.	_	_	_	_	_
+
+#Text=Mantul , mantab betul aplikasi nya .
+62-1	3413-3419	Mantul	*	positive[207]|[209_207]	_	_	_
+62-2	3420-3421	,	_	_	_	_	_
+62-3	3422-3428	mantab	*	positive[208]|[209_208]	_	_	_
+62-4	3429-3434	betul	_	positive[208]	_	_	_
+62-5	3435-3443	aplikasi	_	concept[209]	_	_	_
+62-6	3444-3447	nya	_	_	_	_	_
+62-7	3448-3449	.	_	_	_	_	_
+
+#Text=Aplikasi lebih bagus lebih cepat .
+63-1	3451-3459	Aplikasi	_	concept[210]	_	_	_
+63-2	3460-3465	lebih	*	[210_211]|positive[211]	_	_	_
+63-3	3466-3471	bagus	_	positive[211]	_	_	_
+63-4	3472-3477	lebih	*	[210_212]|positive[212]	_	_	_
+63-5	3478-3483	cepat	_	positive[212]	_	_	_
+63-6	3484-3485	.	_	_	_	_	_
+
+#Text=Wah , tampilan nya makin ciamik . menu navigasi nya makin fleksibel .
+64-1	3487-3490	Wah	_	_	_	_	_
+64-2	3491-3492	,	_	_	_	_	_
+64-3	3493-3501	tampilan	_	concept[213]	_	_	_
+64-4	3502-3505	nya	_	_	_	_	_
+64-5	3506-3511	makin	*	[213_214]|positive[214]	_	_	_
+64-6	3512-3518	ciamik	_	positive[214]	_	_	_
+64-7	3519-3520	.	_	_	_	_	_
+64-8	3521-3525	menu	_	concept[215]	_	_	_
+64-9	3526-3534	navigasi	_	concept[215]	_	_	_
+64-10	3535-3538	nya	_	_	_	_	_
+64-11	3539-3544	makin	*	[215_216]|positive[216]	_	_	_
+64-12	3545-3554	fleksibel	_	positive[216]	_	_	_
+64-13	3555-3556	.	_	_	_	_	_
+
+#Text=Aplikasi nya baik sangat membantu .
+65-1	3558-3566	Aplikasi	_	concept[217]	_	_	_
+65-2	3567-3570	nya	_	_	_	_	_
+65-3	3571-3575	baik	*	[217_218]|positive[218]	_	_	_
+65-4	3576-3582	sangat	*	[217_219]|positive[219]	_	_	_
+65-5	3583-3591	membantu	_	positive[219]	_	_	_
+65-6	3592-3593	.	_	_	_	_	_
+
+#Text=Mantab . lanjutkan aplikasi yang bagus lagi ya pertamina .
+66-1	3595-3601	Mantab	*	positive[220]|[221_220]	_	_	_
+66-2	3602-3603	.	_	_	_	_	_
+66-3	3604-3613	lanjutkan	_	_	_	_	_
+66-4	3614-3622	aplikasi	*	concept[221]|[223_221]	_	_	_
+66-5	3623-3627	yang	_	_	_	_	_
+66-6	3628-3633	bagus	*	[221_222]|positive[222]	_	_	_
+66-7	3634-3638	lagi	_	_	_	_	_
+66-8	3639-3641	ya	_	_	_	_	_
+66-9	3642-3651	pertamina	_	concept[223]	_	_	_
+66-10	3652-3653	.	_	_	_	_	_
+
+#Text=Aplikasi My Pertamina manfaat nya sangat terasa .
+67-1	3655-3663	Aplikasi	_	_	_	_	_
+67-2	3664-3666	My	_	concept[224]	_	_	_
+67-3	3667-3676	Pertamina	_	concept[224]	_	_	_
+67-4	3677-3684	manfaat	*	[224_225]|concept[225]	_	_	_
+67-5	3685-3688	nya	_	_	_	_	_
+67-6	3689-3695	sangat	*	[225_226]|positive[226]	_	_	_
+67-7	3696-3702	terasa	_	positive[226]	_	_	_
+67-8	3703-3704	.	_	_	_	_	_
+
+#Text=my pertamina mantab .
+68-1	3706-3708	my	_	concept[227]	_	_	_
+68-2	3709-3718	pertamina	_	concept[227]	_	_	_
+68-3	3719-3725	mantab	*	[227_228]|positive[228]	_	_	_
+68-4	3726-3727	.	_	_	_	_	_
+
+#Text=Tampilan baru nya lebih segar dan ada fitur baru pada aplikasi My Pertamina .
+69-1	3729-3737	Tampilan	*	concept[229]|[232_229]	_	_	_
+69-2	3738-3742	baru	_	_	_	_	_
+69-3	3743-3746	nya	_	_	_	_	_
+69-4	3747-3752	lebih	*	[229_230]|positive[230]	_	_	_
+69-5	3753-3758	segar	_	positive[230]	_	_	_
+69-6	3759-3762	dan	_	_	_	_	_
+69-7	3763-3766	ada	*	positive[231]|[232_231]	_	_	_
+69-8	3767-3772	fitur	_	positive[231]	_	_	_
+69-9	3773-3777	baru	_	positive[231]	_	_	_
+69-10	3778-3782	pada	_	_	_	_	_
+69-11	3783-3791	aplikasi	_	_	_	_	_
+69-12	3792-3794	My	_	concept[232]	_	_	_
+69-13	3795-3804	Pertamina	_	concept[232]	_	_	_
+69-14	3805-3806	.	_	_	_	_	_
+
+#Text=Mantap nih , keren banget tampilan My Pertamina yang versi terbaru .
+70-1	3808-3814	Mantap	*	positive[233]|[235_233]	_	_	_
+70-2	3815-3818	nih	_	_	_	_	_
+70-3	3819-3820	,	_	_	_	_	_
+70-4	3821-3826	keren	*	positive[234]|[235_234]	_	_	_
+70-5	3827-3833	banget	_	positive[234]	_	_	_
+70-6	3834-3842	tampilan	*	concept[235]|[236_235]	_	_	_
+70-7	3843-3845	My	_	concept[236]	_	_	_
+70-8	3846-3855	Pertamina	_	concept[236]	_	_	_
+70-9	3856-3860	yang	_	_	_	_	_
+70-10	3861-3866	versi	_	_	_	_	_
+70-11	3867-3874	terbaru	_	_	_	_	_
+70-12	3875-3876	.	_	_	_	_	_
+
+#Text=Pakai My Pertamina cepat mendapatkan SPBU terdekat .
+71-1	3878-3883	Pakai	*	concept[237]|[238_237]	_	_	_
+71-2	3884-3886	My	_	concept[238]	_	_	_
+71-3	3887-3896	Pertamina	_	concept[238]	_	_	_
+71-4	3897-3902	cepat	*	positive[239]|[240_239]	_	_	_
+71-5	3903-3914	mendapatkan	*	[237_240]|concept[240]	_	_	_
+71-6	3915-3919	SPBU	_	concept[240]	_	_	_
+71-7	3920-3928	terdekat	_	concept[240]	_	_	_
+71-8	3929-3930	.	_	_	_	_	_
+
+#Text=Sangat mudah aplikasi nya .
+72-1	3932-3938	Sangat	*	positive[241]|[242_241]	_	_	_
+72-2	3939-3944	mudah	_	positive[241]	_	_	_
+72-3	3945-3953	aplikasi	_	concept[242]	_	_	_
+72-4	3954-3957	nya	_	_	_	_	_
+72-5	3958-3959	.	_	_	_	_	_
+
+#Text=Saya mau komentar , Aplikasi My Pertamina saat ini sudah cukup bagus .
+73-1	3961-3965	Saya	_	_	_	_	_
+73-2	3966-3969	mau	_	_	_	_	_
+73-3	3970-3978	komentar	_	_	_	_	_
+73-4	3979-3980	,	_	_	_	_	_
+73-5	3981-3989	Aplikasi	_	_	_	_	_
+73-6	3990-3992	My	_	concept[243]	_	_	_
+73-7	3993-4002	Pertamina	_	concept[243]	_	_	_
+73-8	4003-4007	saat	_	_	_	_	_
+73-9	4008-4011	ini	_	_	_	_	_
+73-10	4012-4017	sudah	_	_	_	_	_
+73-11	4018-4023	cukup	*	[243_244]|positive[244]	_	_	_
+73-12	4024-4029	bagus	_	positive[244]	_	_	_
+73-13	4030-4031	.	_	_	_	_	_
+
+#Text=Aplikasi bagus gak ada masalah sama sekali .
+74-1	4033-4041	Aplikasi	_	concept[245]	_	_	_
+74-2	4042-4047	bagus	*	[245_246]|positive[246]	_	_	_
+74-3	4048-4051	gak	*	[245_247]|positive[247]	_	_	_
+74-4	4052-4055	ada	_	positive[247]	_	_	_
+74-5	4056-4063	masalah	_	positive[247]	_	_	_
+74-6	4064-4068	sama	_	positive[247]	_	_	_
+74-7	4069-4075	sekali	_	positive[247]	_	_	_
+74-8	4076-4077	.	_	_	_	_	_
+
+#Text=Setelah di update aplikasi My Pertamina kembali normal dan tidak ada kendala .
+75-1	4079-4086	Setelah	_	_	_	_	_
+75-2	4087-4089	di	_	_	_	_	_
+75-3	4090-4096	update	_	_	_	_	_
+75-4	4097-4105	aplikasi	_	_	_	_	_
+75-5	4106-4108	My	_	concept[248]	_	_	_
+75-6	4109-4118	Pertamina	_	concept[248]	_	_	_
+75-7	4119-4126	kembali	*	[248_249]|positive[249]	_	_	_
+75-8	4127-4133	normal	_	positive[249]	_	_	_
+75-9	4134-4137	dan	_	_	_	_	_
+75-10	4138-4143	tidak	*	[248_250]|positive[250]	_	_	_
+75-11	4144-4147	ada	_	positive[250]	_	_	_
+75-12	4148-4155	kendala	_	positive[250]	_	_	_
+75-13	4156-4157	.	_	_	_	_	_
+
+#Text=Aplikasi yang bagus , bisa beli bbm cashless .
+76-1	4159-4167	Aplikasi	_	concept[251]	_	_	_
+76-2	4168-4172	yang	_	_	_	_	_
+76-3	4173-4178	bagus	*	[251_252]|positive[252]	_	_	_
+76-4	4179-4180	,	_	_	_	_	_
+76-5	4181-4185	bisa	*|*	positive[253]|[254_253]|[255_253]	_	_	_
+76-6	4186-4190	beli	*	[251_254]|concept[254]	_	_	_
+76-7	4191-4194	bbm	_	concept[254]	_	_	_
+76-8	4195-4203	cashless	_	keterangan[255]	_	_	_
+76-9	4204-4205	.	_	_	_	_	_
+
+#Text=Banyak keuntungan nya My pertamina .
+77-1	4207-4213	Banyak	*	positive[256]|[257_256]	_	_	_
+77-2	4214-4224	keuntungan	*	concept[257]|[258_257]	_	_	_
+77-3	4225-4228	nya	_	_	_	_	_
+77-4	4229-4231	My	_	concept[258]	_	_	_
+77-5	4232-4241	pertamina	_	concept[258]	_	_	_
+77-6	4242-4243	.	_	_	_	_	_
+
+#Text=aplikasi mantul , mantab betul .
+78-1	4245-4253	aplikasi	_	concept[259]	_	_	_
+78-2	4254-4260	mantul	*	[259_260]|positive[260]	_	_	_
+78-3	4261-4262	,	_	_	_	_	_
+78-4	4263-4269	mantab	*	[259_261]|positive[261]	_	_	_
+78-5	4270-4275	betul	_	positive[261]	_	_	_
+78-6	4276-4277	.	_	_	_	_	_
+
+#Text=Aplikasi nya jadi lebih bagus dan lebih cepat .
+79-1	4279-4287	Aplikasi	_	concept[262]	_	_	_
+79-2	4288-4291	nya	_	_	_	_	_
+79-3	4292-4296	jadi	_	_	_	_	_
+79-4	4297-4302	lebih	*	[262_263]|positive[263]	_	_	_
+79-5	4303-4308	bagus	_	positive[263]	_	_	_
+79-6	4309-4312	dan	_	_	_	_	_
+79-7	4313-4318	lebih	*	[262_264]|positive[264]	_	_	_
+79-8	4319-4324	cepat	_	positive[264]	_	_	_
+79-9	4325-4326	.	_	_	_	_	_
+
+#Text=Tampilan nya makin menarik . Menu navigasi nya juga semakin simpel .
+80-1	4328-4336	Tampilan	_	concept[265]	_	_	_
+80-2	4337-4340	nya	_	_	_	_	_
+80-3	4341-4346	makin	*	[265_266]|positive[266]	_	_	_
+80-4	4347-4354	menarik	_	positive[266]	_	_	_
+80-5	4355-4356	.	_	_	_	_	_
+80-6	4357-4361	Menu	_	concept[267]	_	_	_
+80-7	4362-4370	navigasi	_	concept[267]	_	_	_
+80-8	4371-4374	nya	_	_	_	_	_
+80-9	4375-4379	juga	_	_	_	_	_
+80-10	4380-4387	semakin	*	[267_268]|positive[268]	_	_	_
+80-11	4388-4394	simpel	_	positive[268]	_	_	_
+80-12	4395-4396	.	_	_	_	_	_
+
+#Text=Bagus aplikasi nya dan sangat membantu .
+81-1	4398-4403	Bagus	*	positive[269]|[270_269]	_	_	_
+81-2	4404-4412	aplikasi	_	concept[270]	_	_	_
+81-3	4413-4416	nya	_	_	_	_	_
+81-4	4417-4420	dan	_	_	_	_	_
+81-5	4421-4427	sangat	*	[270_271]|positive[271]	_	_	_
+81-6	4428-4436	membantu	_	positive[271]	_	_	_
+81-7	4437-4438	.	_	_	_	_	_
+
+#Text=Keren . aplikasi yang keren lanjutkan lagi ya Pertamina .
+82-1	4440-4445	Keren	*	positive[272]|[273_272]	_	_	_
+82-2	4446-4447	.	_	_	_	_	_
+82-3	4448-4456	aplikasi	*	concept[273]|[275_273]	_	_	_
+82-4	4457-4461	yang	_	_	_	_	_
+82-5	4462-4467	keren	*	[273_274]|positive[274]	_	_	_
+82-6	4468-4477	lanjutkan	_	_	_	_	_
+82-7	4478-4482	lagi	_	_	_	_	_
+82-8	4483-4485	ya	_	_	_	_	_
+82-9	4486-4495	Pertamina	_	concept[275]	_	_	_
+82-10	4496-4497	.	_	_	_	_	_
+
+#Text=Aplikasi My Pertamina manfaat nya sangat terasa .
+83-1	4499-4507	Aplikasi	_	_	_	_	_
+83-2	4508-4510	My	_	concept[276]	_	_	_
+83-3	4511-4520	Pertamina	_	concept[276]	_	_	_
+83-4	4521-4528	manfaat	*	[276_277]|concept[277]	_	_	_
+83-5	4529-4532	nya	_	_	_	_	_
+83-6	4533-4539	sangat	*	[277_278]|positive[278]	_	_	_
+83-7	4540-4546	terasa	_	positive[278]	_	_	_
+83-8	4547-4548	.	_	_	_	_	_
+
+#Text=my pertamina oke .
+84-1	4550-4552	my	_	concept[279]	_	_	_
+84-2	4553-4562	pertamina	_	concept[279]	_	_	_
+84-3	4563-4566	oke	*	[279_280]|positive[280]	_	_	_
+84-4	4567-4568	.	_	_	_	_	_
+
+#Text=Lebih segar ya ini tampilan baru nya dan aplikasi my pertamina ada fitur baru nya .
+85-1	4570-4575	Lebih	*	positive[281]|[282_281]	_	_	_
+85-2	4576-4581	segar	_	positive[281]	_	_	_
+85-3	4582-4584	ya	_	_	_	_	_
+85-4	4585-4588	ini	_	_	_	_	_
+85-5	4589-4597	tampilan	*	concept[282]|[283_282]	_	_	_
+85-6	4598-4602	baru	_	_	_	_	_
+85-7	4603-4606	nya	_	_	_	_	_
+85-8	4607-4610	dan	_	_	_	_	_
+85-9	4611-4619	aplikasi	_	_	_	_	_
+85-10	4620-4622	my	_	concept[283]	_	_	_
+85-11	4623-4632	pertamina	_	concept[283]	_	_	_
+85-12	4633-4636	ada	*	[283_284]|positive[284]	_	_	_
+85-13	4637-4642	fitur	_	positive[284]	_	_	_
+85-14	4643-4647	baru	_	positive[284]	_	_	_
+85-15	4648-4651	nya	_	_	_	_	_
+85-16	4652-4653	.	_	_	_	_	_
+
+#Text=Keren deh ini , bagus banget tampilan my pertamina yang terbaru .
+86-1	4655-4660	Keren	*	positive[285]|[288_285]	_	_	_
+86-2	4661-4664	deh	_	_	_	_	_
+86-3	4665-4668	ini	_	_	_	_	_
+86-4	4669-4670	,	_	_	_	_	_
+86-5	4671-4676	bagus	*	positive[286]|[287_286]	_	_	_
+86-6	4677-4683	banget	_	positive[286]	_	_	_
+86-7	4684-4692	tampilan	*	concept[287]|[288_287]	_	_	_
+86-8	4693-4695	my	_	concept[288]	_	_	_
+86-9	4696-4705	pertamina	_	concept[288]	_	_	_
+86-10	4706-4710	yang	_	_	_	_	_
+86-11	4711-4718	terbaru	_	_	_	_	_
+86-12	4719-4720	.	_	_	_	_	_
+
+#Text=Cepat dapetin SPBU terdekat karena pakai My Pertamina .
+87-1	4722-4727	Cepat	*	positive[289]|[290_289]	_	_	_
+87-2	4728-4735	dapetin	*	concept[290]|[291_290]	_	_	_
+87-3	4736-4740	SPBU	_	concept[290]	_	_	_
+87-4	4741-4749	terdekat	_	concept[290]	_	_	_
+87-5	4750-4756	karena	_	_	_	_	_
+87-6	4757-4762	pakai	*	concept[291]|[292_291]	_	_	_
+87-7	4763-4765	My	_	concept[292]	_	_	_
+87-8	4766-4775	Pertamina	_	concept[292]	_	_	_
+87-9	4776-4777	.	_	_	_	_	_
+
+#Text=Aplikasi nya gampang banget .
+88-1	4779-4787	Aplikasi	_	concept[293]	_	_	_
+88-2	4788-4791	nya	_	_	_	_	_
+88-3	4792-4799	gampang	*	[293_294]|positive[294]	_	_	_
+88-4	4800-4806	banget	_	positive[294]	_	_	_
+88-5	4807-4808	.	_	_	_	_	_
+
+#Text=Saya mau komentar bahwa aplikasi my pertamina ini sudah cukup bagus .
+89-1	4810-4814	Saya	_	_	_	_	_
+89-2	4815-4818	mau	_	_	_	_	_
+89-3	4819-4827	komentar	_	_	_	_	_
+89-4	4828-4833	bahwa	_	_	_	_	_
+89-5	4834-4842	aplikasi	_	_	_	_	_
+89-6	4843-4845	my	_	concept[295]	_	_	_
+89-7	4846-4855	pertamina	_	concept[295]	_	_	_
+89-8	4856-4859	ini	_	_	_	_	_
+89-9	4860-4865	sudah	_	_	_	_	_
+89-10	4866-4871	cukup	*	[295_296]|positive[296]	_	_	_
+89-11	4872-4877	bagus	_	positive[296]	_	_	_
+89-12	4878-4879	.	_	_	_	_	_
+
+#Text=Sama sekali tidak ada masalah dan aplikasi nya bagus .
+90-1	4881-4885	Sama	*	positive[297]|[298_297]	_	_	_
+90-2	4886-4892	sekali	_	positive[297]	_	_	_
+90-3	4893-4898	tidak	_	positive[297]	_	_	_
+90-4	4899-4902	ada	_	positive[297]	_	_	_
+90-5	4903-4910	masalah	_	positive[297]	_	_	_
+90-6	4911-4914	dan	_	_	_	_	_
+90-7	4915-4923	aplikasi	_	concept[298]	_	_	_
+90-8	4924-4927	nya	_	_	_	_	_
+90-9	4928-4933	bagus	*	[298_299]|positive[299]	_	_	_
+90-10	4934-4935	.	_	_	_	_	_
+
+#Text=sekarang , sehabis diperbaharui , aplikasi my pertamina udah normal dan gak ada masalah .
+91-1	4937-4945	sekarang	_	_	_	_	_
+91-2	4946-4947	,	_	_	_	_	_
+91-3	4948-4955	sehabis	_	_	_	_	_
+91-4	4956-4968	diperbaharui	_	_	_	_	_
+91-5	4969-4970	,	_	_	_	_	_
+91-6	4971-4979	aplikasi	_	_	_	_	_
+91-7	4980-4982	my	_	concept[300]	_	_	_
+91-8	4983-4992	pertamina	_	concept[300]	_	_	_
+91-9	4993-4997	udah	*	[300_301]|positive[301]	_	_	_
+91-10	4998-5004	normal	_	positive[301]	_	_	_
+91-11	5005-5008	dan	_	_	_	_	_
+91-12	5009-5012	gak	*	[300_302]|positive[302]	_	_	_
+91-13	5013-5016	ada	_	positive[302]	_	_	_
+91-14	5017-5024	masalah	_	positive[302]	_	_	_
+91-15	5025-5026	.	_	_	_	_	_
+
+#Text=Aplikasi ini bagus karena bisa beli bbm secara cashless .
+92-1	5028-5036	Aplikasi	_	concept[303]	_	_	_
+92-2	5037-5040	ini	_	_	_	_	_
+92-3	5041-5046	bagus	*	[303_304]|positive[304]	_	_	_
+92-4	5047-5053	karena	_	_	_	_	_
+92-5	5054-5058	bisa	*|*	positive[305]|[306_305]|[307_305]	_	_	_
+92-6	5059-5063	beli	*	[303_306]|concept[306]	_	_	_
+92-7	5064-5067	bbm	_	concept[306]	_	_	_
+92-8	5068-5074	secara	_	_	_	_	_
+92-9	5075-5083	cashless	_	keterangan[307]	_	_	_
+92-10	5084-5085	.	_	_	_	_	_
+
+#Text=My pertamina banyak sekali keuntungan nya .
+93-1	5087-5089	My	_	concept[308]	_	_	_
+93-2	5090-5099	pertamina	_	concept[308]	_	_	_
+93-3	5100-5106	banyak	*	positive[309]|[310_309]	_	_	_
+93-4	5107-5113	sekali	_	positive[309]	_	_	_
+93-5	5114-5124	keuntungan	*	[308_310]|concept[310]	_	_	_
+93-6	5125-5128	nya	_	_	_	_	_
+93-7	5129-5130	.	_	_	_	_	_
+
+#Text=aplikasi yang mantap sekali ini .
+94-1	5132-5140	aplikasi	_	concept[311]	_	_	_
+94-2	5141-5145	yang	_	_	_	_	_
+94-3	5146-5152	mantap	*	[311_312]|positive[312]	_	_	_
+94-4	5153-5159	sekali	_	positive[312]	_	_	_
+94-5	5160-5163	ini	_	_	_	_	_
+94-6	5164-5165	.	_	_	_	_	_
+
+#Text=aplikasi nya menjadi lebih cepat dan lebih bagus .
+95-1	5167-5175	aplikasi	_	concept[313]	_	_	_
+95-2	5176-5179	nya	_	_	_	_	_
+95-3	5180-5187	menjadi	_	_	_	_	_
+95-4	5188-5193	lebih	*	[313_314]|positive[314]	_	_	_
+95-5	5194-5199	cepat	_	positive[314]	_	_	_
+95-6	5200-5203	dan	_	_	_	_	_
+95-7	5204-5209	lebih	*	[313_315]|positive[315]	_	_	_
+95-8	5210-5215	bagus	_	positive[315]	_	_	_
+95-9	5216-5217	.	_	_	_	_	_
+
+#Text=Desain nya semakin ciamik . Menu navigasi nya juga semakin oke .
+96-1	5219-5225	Desain	_	concept[316]	_	_	_
+96-2	5226-5229	nya	_	_	_	_	_
+96-3	5230-5237	semakin	*	[316_317]|positive[317]	_	_	_
+96-4	5238-5244	ciamik	_	positive[317]	_	_	_
+96-5	5245-5246	.	_	_	_	_	_
+96-6	5247-5251	Menu	_	concept[318]	_	_	_
+96-7	5252-5260	navigasi	_	concept[318]	_	_	_
+96-8	5261-5264	nya	_	_	_	_	_
+96-9	5265-5269	juga	_	_	_	_	_
+96-10	5270-5277	semakin	*	[318_319]|positive[319]	_	_	_
+96-11	5278-5281	oke	_	positive[319]	_	_	_
+96-12	5282-5283	.	_	_	_	_	_
+
+#Text=Sangat membantu ya aplikasi nya dan makin bagus saja .
+97-1	5285-5291	Sangat	*	positive[320]|[321_320]	_	_	_
+97-2	5292-5300	membantu	_	positive[320]	_	_	_
+97-3	5301-5303	ya	_	_	_	_	_
+97-4	5304-5312	aplikasi	_	concept[321]	_	_	_
+97-5	5313-5316	nya	_	_	_	_	_
+97-6	5317-5320	dan	_	_	_	_	_
+97-7	5321-5326	makin	*	[321_322]|positive[322]	_	_	_
+97-8	5327-5332	bagus	_	positive[322]	_	_	_
+97-9	5333-5337	saja	_	_	_	_	_
+97-10	5338-5339	.	_	_	_	_	_
+
+#Text=lanjutkan ya pertamina untuk aplikasi yang bagus ini .
+98-1	5341-5350	lanjutkan	_	_	_	_	_
+98-2	5351-5353	ya	_	_	_	_	_
+98-3	5354-5363	pertamina	_	concept[323]	_	_	_
+98-4	5364-5369	untuk	_	_	_	_	_
+98-5	5370-5378	aplikasi	*	[323_324]|concept[324]	_	_	_
+98-6	5379-5383	yang	_	_	_	_	_
+98-7	5384-5389	bagus	*	[324_325]|positive[325]	_	_	_
+98-8	5390-5393	ini	_	_	_	_	_
+98-9	5394-5395	.	_	_	_	_	_
+
+#Text=Aplikasi my pertamina sangat terasa kebermanfaatan nya .
+99-1	5397-5405	Aplikasi	_	_	_	_	_
+99-2	5406-5408	my	_	concept[326]	_	_	_
+99-3	5409-5418	pertamina	_	concept[326]	_	_	_
+99-4	5419-5425	sangat	*	[326_327]|positive[327]	_	_	_
+99-5	5426-5432	terasa	_	positive[327]	_	_	_
+99-6	5433-5447	kebermanfaatan	_	positive[327]	_	_	_
+99-7	5448-5451	nya	_	_	_	_	_
+99-8	5452-5453	.	_	_	_	_	_
+
+#Text=mypertamina bagus .
+100-1	5455-5466	mypertamina	_	concept[328]	_	_	_
+100-2	5467-5472	bagus	*	[328_329]|positive[329]	_	_	_
+100-3	5473-5474	.	_	_	_	_	_
+
+#Text=Ada fitur baru di mypertamina dan lebih segar gitu tampilan baru nya .
+101-1	5476-5479	Ada	*	positive[330]|[331_330]	_	_	_
+101-2	5480-5485	fitur	_	positive[330]	_	_	_
+101-3	5486-5490	baru	_	positive[330]	_	_	_
+101-4	5491-5493	di	_	_	_	_	_
+101-5	5494-5505	mypertamina	_	concept[331]	_	_	_
+101-6	5506-5509	dan	_	_	_	_	_
+101-7	5510-5515	lebih	*	positive[332]|[333_332]	_	_	_
+101-8	5516-5521	segar	_	positive[332]	_	_	_
+101-9	5522-5526	gitu	_	_	_	_	_
+101-10	5527-5535	tampilan	*	[331_333]|concept[333]	_	_	_
+101-11	5536-5540	baru	_	_	_	_	_
+101-12	5541-5544	nya	_	_	_	_	_
+101-13	5545-5546	.	_	_	_	_	_
+
+#Text=tampilan my pertamina versi terbaru keren banget deh ini . Mantap bos .
+102-1	5548-5556	tampilan	*	concept[334]|[335_334]	_	_	_
+102-2	5557-5559	my	_	concept[335]	_	_	_
+102-3	5560-5569	pertamina	_	concept[335]	_	_	_
+102-4	5570-5575	versi	_	keterangan[336]	_	_	_
+102-5	5576-5583	terbaru	_	keterangan[336]	_	_	_
+102-6	5584-5589	keren	*|*	[334_337]|[336_337]|positive[337]	_	_	_
+102-7	5590-5596	banget	_	positive[337]	_	_	_
+102-8	5597-5600	deh	_	_	_	_	_
+102-9	5601-5604	ini	_	_	_	_	_
+102-10	5605-5606	.	_	_	_	_	_
+102-11	5607-5613	Mantap	*	[334_338]|positive[338]	_	_	_
+102-12	5614-5617	bos	_	_	_	_	_
+102-13	5618-5619	.	_	_	_	_	_
+
+#Text=Pakai mypertamina bisa cepat dapatkan SPBU terdekat .
+103-1	5621-5626	Pakai	*	concept[339]|[340_339]	_	_	_
+103-2	5627-5638	mypertamina	_	concept[340]	_	_	_
+103-3	5639-5643	bisa	*	positive[341]|[342_341]	_	_	_
+103-4	5644-5649	cepat	_	positive[341]	_	_	_
+103-5	5650-5658	dapatkan	*	[339_342]|concept[342]	_	_	_
+103-6	5659-5663	SPBU	_	concept[342]	_	_	_
+103-7	5664-5672	terdekat	_	concept[342]	_	_	_
+103-8	5673-5674	.	_	_	_	_	_
+
+#Text=gampang banget ini aplikasi nya .
+104-1	5676-5683	gampang	*	positive[343]|[344_343]	_	_	_
+104-2	5684-5690	banget	_	positive[343]	_	_	_
+104-3	5691-5694	ini	_	_	_	_	_
+104-4	5695-5703	aplikasi	_	concept[344]	_	_	_
+104-5	5704-5707	nya	_	_	_	_	_
+104-6	5708-5709	.	_	_	_	_	_
+
+#Text=Menurut saya , sudah cukup bagus aplikasi my pertamina ini .
+105-1	5711-5718	Menurut	_	_	_	_	_
+105-2	5719-5723	saya	_	_	_	_	_
+105-3	5724-5725	,	_	_	_	_	_
+105-4	5726-5731	sudah	_	_	_	_	_
+105-5	5732-5737	cukup	*	positive[345]|[346_345]	_	_	_
+105-6	5738-5743	bagus	_	positive[345]	_	_	_
+105-7	5744-5752	aplikasi	_	_	_	_	_
+105-8	5753-5755	my	_	concept[346]	_	_	_
+105-9	5756-5765	pertamina	_	concept[346]	_	_	_
+105-10	5766-5769	ini	_	_	_	_	_
+105-11	5770-5771	.	_	_	_	_	_
+
+#Text=Aplikasi nya gak ada masalah sama sekali dan bagus .
+106-1	5773-5781	Aplikasi	_	concept[347]	_	_	_
+106-2	5782-5785	nya	_	_	_	_	_
+106-3	5786-5789	gak	*	[347_348]|positive[348]	_	_	_
+106-4	5790-5793	ada	_	positive[348]	_	_	_
+106-5	5794-5801	masalah	_	positive[348]	_	_	_
+106-6	5802-5806	sama	_	positive[348]	_	_	_
+106-7	5807-5813	sekali	_	positive[348]	_	_	_
+106-8	5814-5817	dan	_	_	_	_	_
+106-9	5818-5823	bagus	*	[347_349]|positive[349]	_	_	_
+106-10	5824-5825	.	_	_	_	_	_
+
+#Text=Sudah normal kembali dan tak ada kendala setelah aplikasi my pertamina diupdate .
+107-1	5827-5832	Sudah	*	positive[350]|[352_350]	_	_	_
+107-2	5833-5839	normal	_	positive[350]	_	_	_
+107-3	5840-5847	kembali	_	_	_	_	_
+107-4	5848-5851	dan	_	_	_	_	_
+107-5	5852-5855	tak	*	positive[351]|[352_351]	_	_	_
+107-6	5856-5859	ada	_	positive[351]	_	_	_
+107-7	5860-5867	kendala	_	positive[351]	_	_	_
+107-8	5868-5875	setelah	_	_	_	_	_
+107-9	5876-5884	aplikasi	_	_	_	_	_
+107-10	5885-5887	my	_	concept[352]	_	_	_
+107-11	5888-5897	pertamina	_	concept[352]	_	_	_
+107-12	5898-5906	diupdate	_	_	_	_	_
+107-13	5907-5908	.	_	_	_	_	_
+
+#Text=Beli bbm bisa cashless , bagus deh aplikasi ini .
+108-1	5910-5914	Beli	*	concept[353]|[357_353]	_	_	_
+108-2	5915-5918	bbm	_	concept[353]	_	_	_
+108-3	5919-5923	bisa	*|*	[353_354]|positive[354]|[355_354]	_	_	_
+108-4	5924-5932	cashless	_	keterangan[355]	_	_	_
+108-5	5933-5934	,	_	_	_	_	_
+108-6	5935-5940	bagus	*	positive[356]|[357_356]	_	_	_
+108-7	5941-5944	deh	_	_	_	_	_
+108-8	5945-5953	aplikasi	_	concept[357]	_	_	_
+108-9	5954-5957	ini	_	_	_	_	_
+108-10	5958-5959	.	_	_	_	_	_
+
+#Text=Banyak manfaat nya my pertamina .
+109-1	5961-5967	Banyak	*	positive[358]|[359_358]	_	_	_
+109-2	5968-5975	manfaat	*	concept[359]|[360_359]	_	_	_
+109-3	5976-5979	nya	_	_	_	_	_
+109-4	5980-5982	my	_	concept[360]	_	_	_
+109-5	5983-5992	pertamina	_	concept[360]	_	_	_
+109-6	5993-5994	.	_	_	_	_	_
+
+#Text=aplikasi ini mantap banget .
+110-1	5996-6004	aplikasi	_	concept[361]	_	_	_
+110-2	6005-6008	ini	_	_	_	_	_
+110-3	6009-6015	mantap	*	[361_362]|positive[362]	_	_	_
+110-4	6016-6022	banget	_	positive[362]	_	_	_
+110-5	6023-6024	.	_	_	_	_	_
+
+#Text=Aplikasi menjadi cepat dan bagus .
+111-1	6026-6034	Aplikasi	_	concept[363]	_	_	_
+111-2	6035-6042	menjadi	*	[363_364]|positive[364]	_	_	_
+111-3	6043-6048	cepat	_	positive[364]	_	_	_
+111-4	6049-6052	dan	_	_	_	_	_
+111-5	6053-6058	bagus	*	[363_365]|positive[365]	_	_	_
+111-6	6059-6060	.	_	_	_	_	_
+
+#Text=semakin bagus ya tampilan nya dan menu navigasi nya semakin menarik .
+112-1	6062-6069	semakin	*	positive[366]|[367_366]	_	_	_
+112-2	6070-6075	bagus	_	positive[366]	_	_	_
+112-3	6076-6078	ya	_	_	_	_	_
+112-4	6079-6087	tampilan	_	concept[367]	_	_	_
+112-5	6088-6091	nya	_	_	_	_	_
+112-6	6092-6095	dan	_	_	_	_	_
+112-7	6096-6100	menu	_	concept[368]	_	_	_
+112-8	6101-6109	navigasi	_	concept[368]	_	_	_
+112-9	6110-6113	nya	_	_	_	_	_
+112-10	6114-6121	semakin	*	[368_369]|positive[369]	_	_	_
+112-11	6122-6129	menarik	_	positive[369]	_	_	_
+112-12	6130-6131	.	_	_	_	_	_
+
+#Text=Makin bagus ya aplikasi dan sangat membantu juga .
+113-1	6133-6138	Makin	*	positive[370]|[371_370]	_	_	_
+113-2	6139-6144	bagus	_	positive[370]	_	_	_
+113-3	6145-6147	ya	_	_	_	_	_
+113-4	6148-6156	aplikasi	_	concept[371]	_	_	_
+113-5	6157-6160	dan	_	_	_	_	_
+113-6	6161-6167	sangat	*	[371_372]|positive[372]	_	_	_
+113-7	6168-6176	membantu	_	positive[372]	_	_	_
+113-8	6177-6181	juga	_	_	_	_	_
+113-9	6182-6183	.	_	_	_	_	_
+
+#Text=pertamina lanjutkan untuk aplikasi bagus seperti ini .
+114-1	6185-6194	pertamina	_	concept[373]	_	_	_
+114-2	6195-6204	lanjutkan	_	_	_	_	_
+114-3	6205-6210	untuk	_	_	_	_	_
+114-4	6211-6219	aplikasi	*	[373_374]|concept[374]	_	_	_
+114-5	6220-6225	bagus	*	[374_375]|positive[375]	_	_	_
+114-6	6226-6233	seperti	_	_	_	_	_
+114-7	6234-6237	ini	_	_	_	_	_
+114-8	6238-6239	.	_	_	_	_	_
+
+#Text=Sangat terasa manfaat dari aplikasi My Pertamina .
+115-1	6241-6247	Sangat	*	positive[376]|[377_376]	_	_	_
+115-2	6248-6254	terasa	_	positive[376]	_	_	_
+115-3	6255-6262	manfaat	*	concept[377]|[378_377]	_	_	_
+115-4	6263-6267	dari	_	_	_	_	_
+115-5	6268-6276	aplikasi	_	_	_	_	_
+115-6	6277-6279	My	_	concept[378]	_	_	_
+115-7	6280-6289	Pertamina	_	concept[378]	_	_	_
+115-8	6290-6291	.	_	_	_	_	_
+
+#Text=mypertamina keren .
+116-1	6293-6304	mypertamina	_	concept[379]	_	_	_
+116-2	6305-6310	keren	*	[379_380]|positive[380]	_	_	_
+116-3	6311-6312	.	_	_	_	_	_
+
+#Text=Versi terbaru lebih segar tampilan nya dan ada fitur baru nya juga di mypertamina .
+117-1	6314-6319	Versi	_	keterangan[381]	_	_	_
+117-2	6320-6327	terbaru	_	keterangan[381]	_	_	_
+117-3	6328-6333	lebih	*|*	[381_382]|positive[382]|[383_382]	_	_	_
+117-4	6334-6339	segar	_	positive[382]	_	_	_
+117-5	6340-6348	tampilan	*	concept[383]|[385_383]	_	_	_
+117-6	6349-6352	nya	_	_	_	_	_
+117-7	6353-6356	dan	_	_	_	_	_
+117-8	6357-6360	ada	*	positive[384]|[385_384]	_	_	_
+117-9	6361-6366	fitur	_	positive[384]	_	_	_
+117-10	6367-6371	baru	_	positive[384]	_	_	_
+117-11	6372-6375	nya	_	_	_	_	_
+117-12	6376-6380	juga	_	_	_	_	_
+117-13	6381-6383	di	_	_	_	_	_
+117-14	6384-6395	mypertamina	_	concept[385]	_	_	_
+117-15	6396-6397	.	_	_	_	_	_
+
+#Text=mantap banget nih tampilan my pertamina yang paling baru keren banget .
+118-1	6399-6405	mantap	*	positive[386]|[387_386]	_	_	_
+118-2	6406-6412	banget	_	positive[386]	_	_	_
+118-3	6413-6416	nih	_	_	_	_	_
+118-4	6417-6425	tampilan	*	concept[387]|[388_387]	_	_	_
+118-5	6426-6428	my	_	concept[388]	_	_	_
+118-6	6429-6438	pertamina	_	concept[388]	_	_	_
+118-7	6439-6443	yang	_	_	_	_	_
+118-8	6444-6450	paling	_	_	_	_	_
+118-9	6451-6455	baru	_	_	_	_	_
+118-10	6456-6461	keren	*	[387_389]|positive[389]	_	_	_
+118-11	6462-6468	banget	_	positive[389]	_	_	_
+118-12	6469-6470	.	_	_	_	_	_
+
+#Text=SPBU terdekat cepat didapatkan berkat pakai my pertamina .
+119-1	6472-6476	SPBU	*	concept[390]|[392_390]	_	_	_
+119-2	6477-6485	terdekat	_	concept[390]	_	_	_
+119-3	6486-6491	cepat	*	[390_391]|positive[391]	_	_	_
+119-4	6492-6502	didapatkan	_	positive[391]	_	_	_
+119-5	6503-6509	berkat	_	_	_	_	_
+119-6	6510-6515	pakai	*	concept[392]|[393_392]	_	_	_
+119-7	6516-6518	my	_	concept[393]	_	_	_
+119-8	6519-6528	pertamina	_	concept[393]	_	_	_
+119-9	6529-6530	.	_	_	_	_	_
+
+#Text=mudah sekali aplikasi nya .
+120-1	6532-6537	mudah	*	positive[394]|[395_394]	_	_	_
+120-2	6538-6544	sekali	_	positive[394]	_	_	_
+120-3	6545-6553	aplikasi	_	concept[395]	_	_	_
+120-4	6554-6557	nya	_	_	_	_	_
+120-5	6558-6559	.	_	_	_	_	_
+
+#Text=Kalau kata saya sih , aplikasi my pertamina sudah lumayan bagus .
+121-1	6561-6566	Kalau	_	_	_	_	_
+121-2	6567-6571	kata	_	_	_	_	_
+121-3	6572-6576	saya	_	_	_	_	_
+121-4	6577-6580	sih	_	_	_	_	_
+121-5	6581-6582	,	_	_	_	_	_
+121-6	6583-6591	aplikasi	_	_	_	_	_
+121-7	6592-6594	my	_	concept[396]	_	_	_
+121-8	6595-6604	pertamina	_	concept[396]	_	_	_
+121-9	6605-6610	sudah	_	_	_	_	_
+121-10	6611-6618	lumayan	*	[396_397]|positive[397]	_	_	_
+121-11	6619-6624	bagus	_	positive[397]	_	_	_
+121-12	6625-6626	.	_	_	_	_	_
+
+#Text=menurut saya , aplikasi nya bagus sih dan tidak ada masalah apapun .
+122-1	6628-6635	menurut	_	_	_	_	_
+122-2	6636-6640	saya	_	_	_	_	_
+122-3	6641-6642	,	_	_	_	_	_
+122-4	6643-6651	aplikasi	_	concept[398]	_	_	_
+122-5	6652-6655	nya	_	_	_	_	_
+122-6	6656-6661	bagus	*	[398_399]|positive[399]	_	_	_
+122-7	6662-6665	sih	_	_	_	_	_
+122-8	6666-6669	dan	_	_	_	_	_
+122-9	6670-6675	tidak	*	[398_400]|positive[400]	_	_	_
+122-10	6676-6679	ada	_	positive[400]	_	_	_
+122-11	6680-6687	masalah	_	positive[400]	_	_	_
+122-12	6688-6694	apapun	_	_	_	_	_
+122-13	6695-6696	.	_	_	_	_	_
+
+#Text=semenjak diupdate , aplikasi my pertamina sudah lancar kembali dan tak ada kendala .
+123-1	6698-6706	semenjak	_	_	_	_	_
+123-2	6707-6715	diupdate	_	_	_	_	_
+123-3	6716-6717	,	_	_	_	_	_
+123-4	6718-6726	aplikasi	_	_	_	_	_
+123-5	6727-6729	my	_	concept[401]	_	_	_
+123-6	6730-6739	pertamina	_	concept[401]	_	_	_
+123-7	6740-6745	sudah	_	_	_	_	_
+123-8	6746-6752	lancar	*	[401_402]|positive[402]	_	_	_
+123-9	6753-6760	kembali	_	_	_	_	_
+123-10	6761-6764	dan	_	_	_	_	_
+123-11	6765-6768	tak	*	[401_403]|positive[403]	_	_	_
+123-12	6769-6772	ada	_	positive[403]	_	_	_
+123-13	6773-6780	kendala	_	positive[403]	_	_	_
+123-14	6781-6782	.	_	_	_	_	_
+
+#Text=aplikasi ini bagus karena bisa beli bensin secara cashless .
+124-1	6784-6792	aplikasi	_	concept[404]	_	_	_
+124-2	6793-6796	ini	_	_	_	_	_
+124-3	6797-6802	bagus	*	[404_405]|positive[405]	_	_	_
+124-4	6803-6809	karena	_	_	_	_	_
+124-5	6810-6814	bisa	*|*	positive[406]|[407_406]|[408_406]	_	_	_
+124-6	6815-6819	beli	*	[404_407]|concept[407]	_	_	_
+124-7	6820-6826	bensin	_	concept[407]	_	_	_
+124-8	6827-6833	secara	_	_	_	_	_
+124-9	6834-6842	cashless	_	keterangan[408]	_	_	_
+124-10	6843-6844	.	_	_	_	_	_
+
+#Text=Banyak kegunaan nya ya My pertamina .
+125-1	6846-6852	Banyak	*	positive[409]|[410_409]	_	_	_
+125-2	6853-6861	kegunaan	*	concept[410]|[411_410]	_	_	_
+125-3	6862-6865	nya	_	_	_	_	_
+125-4	6866-6868	ya	_	_	_	_	_
+125-5	6869-6871	My	_	concept[411]	_	_	_
+125-6	6872-6881	pertamina	_	concept[411]	_	_	_
+125-7	6882-6883	.	_	_	_	_	_
+
+#Text=mantap banget ya aplikasi ini .
+126-1	6885-6891	mantap	*	positive[412]|[413_412]	_	_	_
+126-2	6892-6898	banget	_	positive[412]	_	_	_
+126-3	6899-6901	ya	_	_	_	_	_
+126-4	6902-6910	aplikasi	_	concept[413]	_	_	_
+126-5	6911-6914	ini	_	_	_	_	_
+126-6	6915-6916	.	_	_	_	_	_
+
+#Text=sekarang , aplikasi nya jadi lebih cepat dan bagus .
+127-1	6918-6926	sekarang	_	_	_	_	_
+127-2	6927-6928	,	_	_	_	_	_
+127-3	6929-6937	aplikasi	_	concept[414]	_	_	_
+127-4	6938-6941	nya	_	_	_	_	_
+127-5	6942-6946	jadi	_	_	_	_	_
+127-6	6947-6952	lebih	*	[414_415]|positive[415]	_	_	_
+127-7	6953-6958	cepat	_	positive[415]	_	_	_
+127-8	6959-6962	dan	_	_	_	_	_
+127-9	6963-6968	bagus	*	[414_416]|positive[416]	_	_	_
+127-10	6969-6970	.	_	_	_	_	_
+
+#Text=Makin ciamik aja nih tampilan aplikasi nya . Menu navigasi nya juga semakin fleksibel .
+128-1	6972-6977	Makin	*	positive[417]|[418_417]	_	_	_
+128-2	6978-6984	ciamik	_	positive[417]	_	_	_
+128-3	6985-6988	aja	_	_	_	_	_
+128-4	6989-6992	nih	_	_	_	_	_
+128-5	6993-7001	tampilan	*	concept[418]|[419_418]	_	_	_
+128-6	7002-7010	aplikasi	_	concept[419]	_	_	_
+128-7	7011-7014	nya	_	_	_	_	_
+128-8	7015-7016	.	_	_	_	_	_
+128-9	7017-7021	Menu	*	[419_420]|concept[420]	_	_	_
+128-10	7022-7030	navigasi	_	concept[420]	_	_	_
+128-11	7031-7034	nya	_	_	_	_	_
+128-12	7035-7039	juga	_	_	_	_	_
+128-13	7040-7047	semakin	*	[420_421]|positive[421]	_	_	_
+128-14	7048-7057	fleksibel	_	positive[421]	_	_	_
+128-15	7058-7059	.	_	_	_	_	_
+
+#Text=Aplikasi nya mantap dan cukup membantu .
+129-1	7061-7069	Aplikasi	_	concept[422]	_	_	_
+129-2	7070-7073	nya	_	_	_	_	_
+129-3	7074-7080	mantap	*	[422_423]|positive[423]	_	_	_
+129-4	7081-7084	dan	_	_	_	_	_
+129-5	7085-7090	cukup	*	[422_424]|positive[424]	_	_	_
+129-6	7091-7099	membantu	_	positive[424]	_	_	_
+129-7	7100-7101	.	_	_	_	_	_
+
+#Text=Aplikasi bagus seperti ini lanjutkan ya Pertamina .
+130-1	7103-7111	Aplikasi	*	concept[425]|[427_425]	_	_	_
+130-2	7112-7117	bagus	*	[425_426]|positive[426]	_	_	_
+130-3	7118-7125	seperti	_	_	_	_	_
+130-4	7126-7129	ini	_	_	_	_	_
+130-5	7130-7139	lanjutkan	_	_	_	_	_
+130-6	7140-7142	ya	_	_	_	_	_
+130-7	7143-7152	Pertamina	_	concept[427]	_	_	_
+130-8	7153-7154	.	_	_	_	_	_
+
+#Text=My pertamina sangat terasa manfaat nya .
+131-1	7156-7158	My	_	concept[428]	_	_	_
+131-2	7159-7168	pertamina	_	concept[428]	_	_	_
+131-3	7169-7175	sangat	*	positive[429]|[430_429]	_	_	_
+131-4	7176-7182	terasa	_	positive[429]	_	_	_
+131-5	7183-7190	manfaat	*	[428_430]|concept[430]	_	_	_
+131-6	7191-7194	nya	_	_	_	_	_
+131-7	7195-7196	.	_	_	_	_	_
+
+#Text=mypertamina mantap betul .
+132-1	7198-7209	mypertamina	_	concept[431]	_	_	_
+132-2	7210-7216	mantap	*	[431_432]|positive[432]	_	_	_
+132-3	7217-7222	betul	_	positive[432]	_	_	_
+132-4	7223-7224	.	_	_	_	_	_
+
+#Text=My pertamina ada fitur baru dan lebih fresh ya tampilan baru nya .
+133-1	7226-7228	My	_	concept[433]	_	_	_
+133-2	7229-7238	pertamina	_	concept[433]	_	_	_
+133-3	7239-7242	ada	*	[433_434]|positive[434]	_	_	_
+133-4	7243-7248	fitur	_	positive[434]	_	_	_
+133-5	7249-7253	baru	_	positive[434]	_	_	_
+133-6	7254-7257	dan	_	_	_	_	_
+133-7	7258-7263	lebih	*	positive[435]|[436_435]	_	_	_
+133-8	7264-7269	fresh	_	positive[435]	_	_	_
+133-9	7270-7272	ya	_	_	_	_	_
+133-10	7273-7281	tampilan	*	[433_436]|concept[436]	_	_	_
+133-11	7282-7286	baru	_	_	_	_	_
+133-12	7287-7290	nya	_	_	_	_	_
+133-13	7291-7292	.	_	_	_	_	_
+
+#Text=Keren banget ini desain my pertamina yang terbaru , mantap !
+134-1	7294-7299	Keren	*	positive[437]|[438_437]	_	_	_
+134-2	7300-7306	banget	_	positive[437]	_	_	_
+134-3	7307-7310	ini	_	_	_	_	_
+134-4	7311-7317	desain	*	concept[438]|[439_438]	_	_	_
+134-5	7318-7320	my	_	concept[439]	_	_	_
+134-6	7321-7330	pertamina	_	concept[439]	_	_	_
+134-7	7331-7335	yang	_	_	_	_	_
+134-8	7336-7343	terbaru	_	_	_	_	_
+134-9	7344-7345	,	_	_	_	_	_
+134-10	7346-7352	mantap	*	[438_440]|positive[440]	_	_	_
+134-11	7353-7354	!	_	_	_	_	_
+
+#Text=Karena pakai my pertamina jadi cepat dapetin lokasi SPBU terdekat .
+135-1	7356-7362	Karena	_	_	_	_	_
+135-2	7363-7368	pakai	*	concept[441]|[442_441]	_	_	_
+135-3	7369-7371	my	_	concept[442]	_	_	_
+135-4	7372-7381	pertamina	_	concept[442]	_	_	_
+135-5	7382-7386	jadi	*	positive[443]|[444_443]	_	_	_
+135-6	7387-7392	cepat	_	positive[443]	_	_	_
+135-7	7393-7400	dapetin	*	[441_444]|concept[444]	_	_	_
+135-8	7401-7407	lokasi	_	concept[444]	_	_	_
+135-9	7408-7412	SPBU	_	concept[444]	_	_	_
+135-10	7413-7421	terdekat	_	concept[444]	_	_	_
+135-11	7422-7423	.	_	_	_	_	_
+
+#Text=aplikasi nya mudah banget .
+136-1	7425-7433	aplikasi	_	concept[445]	_	_	_
+136-2	7434-7437	nya	_	_	_	_	_
+136-3	7438-7443	mudah	*	[445_446]|positive[446]	_	_	_
+136-4	7444-7450	banget	_	positive[446]	_	_	_
+136-5	7451-7452	.	_	_	_	_	_
+
+#Text=sudah lumayan bagus aplikasi my pertamina ini .
+137-1	7454-7459	sudah	_	_	_	_	_
+137-2	7460-7467	lumayan	*	positive[447]|[448_447]	_	_	_
+137-3	7468-7473	bagus	_	positive[447]	_	_	_
+137-4	7474-7482	aplikasi	_	_	_	_	_
+137-5	7483-7485	my	_	concept[448]	_	_	_
+137-6	7486-7495	pertamina	_	concept[448]	_	_	_
+137-7	7496-7499	ini	_	_	_	_	_
+137-8	7500-7501	.	_	_	_	_	_
+
+#Text=gak ada masalah apapun dan bagus aplikasi nya .
+138-1	7503-7506	gak	*	positive[449]|[451_449]	_	_	_
+138-2	7507-7510	ada	_	positive[449]	_	_	_
+138-3	7511-7518	masalah	_	positive[449]	_	_	_
+138-4	7519-7525	apapun	_	_	_	_	_
+138-5	7526-7529	dan	_	_	_	_	_
+138-6	7530-7535	bagus	*	positive[450]|[451_450]	_	_	_
+138-7	7536-7544	aplikasi	_	concept[451]	_	_	_
+138-8	7545-7548	nya	_	_	_	_	_
+138-9	7549-7550	.	_	_	_	_	_
+
+#Text=Kendala sudah tidak ada dan sudah normal kembali setelah aplikasi my pertamina diupdate .
+139-1	7552-7559	Kendala	*	positive[452]|[454_452]	_	_	_
+139-2	7560-7565	sudah	_	positive[452]	_	_	_
+139-3	7566-7571	tidak	_	positive[452]	_	_	_
+139-4	7572-7575	ada	_	positive[452]	_	_	_
+139-5	7576-7579	dan	_	_	_	_	_
+139-6	7580-7585	sudah	*	positive[453]|[454_453]	_	_	_
+139-7	7586-7592	normal	_	positive[453]	_	_	_
+139-8	7593-7600	kembali	_	_	_	_	_
+139-9	7601-7608	setelah	_	_	_	_	_
+139-10	7609-7617	aplikasi	_	_	_	_	_
+139-11	7618-7620	my	_	concept[454]	_	_	_
+139-12	7621-7630	pertamina	_	concept[454]	_	_	_
+139-13	7631-7639	diupdate	_	_	_	_	_
+139-14	7640-7641	.	_	_	_	_	_
+
+#Text=Bisa cashless beli bbm ini aplikasi bagus ya .
+140-1	7643-7647	Bisa	*|*	positive[455]|[456_455]|[457_455]	_	_	_
+140-2	7648-7656	cashless	_	keterangan[456]	_	_	_
+140-3	7657-7661	beli	*	concept[457]|[458_457]	_	_	_
+140-4	7662-7665	bbm	_	concept[457]	_	_	_
+140-5	7666-7669	ini	_	_	_	_	_
+140-6	7670-7678	aplikasi	_	concept[458]	_	_	_
+140-7	7679-7684	bagus	*	[458_459]|positive[459]	_	_	_
+140-8	7685-7687	ya	_	_	_	_	_
+140-9	7688-7689	.	_	_	_	_	_
+
+#Text=My pertamina banyak manfaat nya , deh .
+141-1	7691-7693	My	_	concept[460]	_	_	_
+141-2	7694-7703	pertamina	_	concept[460]	_	_	_
+141-3	7704-7710	banyak	*	positive[461]|[462_461]	_	_	_
+141-4	7711-7718	manfaat	*	[460_462]|concept[462]	_	_	_
+141-5	7719-7722	nya	_	_	_	_	_
+141-6	7723-7724	,	_	_	_	_	_
+141-7	7725-7728	deh	_	_	_	_	_
+141-8	7729-7730	.	_	_	_	_	_
+
+#Text=Aplikasi ini bagus banget , mantap !
+142-1	7732-7740	Aplikasi	_	concept[463]	_	_	_
+142-2	7741-7744	ini	_	_	_	_	_
+142-3	7745-7750	bagus	*	[463_464]|positive[464]	_	_	_
+142-4	7751-7757	banget	_	positive[464]	_	_	_
+142-5	7758-7759	,	_	_	_	_	_
+142-6	7760-7766	mantap	*	[463_465]|positive[465]	_	_	_
+142-7	7767-7768	!	_	_	_	_	_
+
+#Text=aplikasi yang lebih bagus dan sekarang menjadi lebih cepat .
+143-1	7770-7778	aplikasi	_	concept[466]	_	_	_
+143-2	7779-7783	yang	_	_	_	_	_
+143-3	7784-7789	lebih	*	[466_467]|positive[467]	_	_	_
+143-4	7790-7795	bagus	_	positive[467]	_	_	_
+143-5	7796-7799	dan	_	_	_	_	_
+143-6	7800-7808	sekarang	_	_	_	_	_
+143-7	7809-7816	menjadi	_	_	_	_	_
+143-8	7817-7822	lebih	*	[466_468]|positive[468]	_	_	_
+143-9	7823-7828	cepat	_	positive[468]	_	_	_
+143-10	7829-7830	.	_	_	_	_	_
+
+#Text=Semakin mantap ini tampilan nya dan makin fleksibel ya menu navigasi nya .
+144-1	7832-7839	Semakin	*	positive[469]|[470_469]	_	_	_
+144-2	7840-7846	mantap	_	positive[469]	_	_	_
+144-3	7847-7850	ini	_	_	_	_	_
+144-4	7851-7859	tampilan	_	concept[470]	_	_	_
+144-5	7860-7863	nya	_	_	_	_	_
+144-6	7864-7867	dan	_	_	_	_	_
+144-7	7868-7873	makin	*	positive[471]|[472_471]	_	_	_
+144-8	7874-7883	fleksibel	_	positive[471]	_	_	_
+144-9	7884-7886	ya	_	_	_	_	_
+144-10	7887-7891	menu	_	concept[472]	_	_	_
+144-11	7892-7900	navigasi	_	concept[472]	_	_	_
+144-12	7901-7904	nya	_	_	_	_	_
+144-13	7905-7906	.	_	_	_	_	_
+
+#Text=Aplikasi oke dan sangat membantu .
+145-1	7908-7916	Aplikasi	_	concept[473]	_	_	_
+145-2	7917-7920	oke	*	[473_474]|positive[474]	_	_	_
+145-3	7921-7924	dan	_	_	_	_	_
+145-4	7925-7931	sangat	*	[473_475]|positive[475]	_	_	_
+145-5	7932-7940	membantu	_	positive[475]	_	_	_
+145-6	7941-7942	.	_	_	_	_	_
+
+#Text=Pertamina , mantap , lanjutkan aplikasi bagus seperti ini .
+146-1	7944-7953	Pertamina	_	concept[476]	_	_	_
+146-2	7954-7955	,	_	_	_	_	_
+146-3	7956-7962	mantap	*	[476_477]|positive[477]	_	_	_
+146-4	7963-7964	,	_	_	_	_	_
+146-5	7965-7974	lanjutkan	_	_	_	_	_
+146-6	7975-7983	aplikasi	*	[476_478]|concept[478]	_	_	_
+146-7	7984-7989	bagus	*	[478_479]|positive[479]	_	_	_
+146-8	7990-7997	seperti	_	_	_	_	_
+146-9	7998-8001	ini	_	_	_	_	_
+146-10	8002-8003	.	_	_	_	_	_
+
+#Text=Terasa sekali manfaat dari My Pertamina .
+147-1	8005-8011	Terasa	*	positive[480]|[481_480]	_	_	_
+147-2	8012-8018	sekali	_	positive[480]	_	_	_
+147-3	8019-8026	manfaat	*	concept[481]|[482_481]	_	_	_
+147-4	8027-8031	dari	_	_	_	_	_
+147-5	8032-8034	My	_	concept[482]	_	_	_
+147-6	8035-8044	Pertamina	_	concept[482]	_	_	_
+147-7	8045-8046	.	_	_	_	_	_
+
+#Text=mantap nih mypertamina .
+148-1	8048-8054	mantap	*	positive[483]|[484_483]	_	_	_
+148-2	8055-8058	nih	_	_	_	_	_
+148-3	8059-8070	mypertamina	_	concept[484]	_	_	_
+148-4	8071-8072	.	_	_	_	_	_
+
+#Text=tampilan baru nya lebih segar deh dan terdapat fitur baru di mypertamina .
+149-1	8074-8082	tampilan	*	concept[485]|[488_485]	_	_	_
+149-2	8083-8087	baru	_	_	_	_	_
+149-3	8088-8091	nya	_	_	_	_	_
+149-4	8092-8097	lebih	*	[485_486]|positive[486]	_	_	_
+149-5	8098-8103	segar	_	positive[486]	_	_	_
+149-6	8104-8107	deh	_	_	_	_	_
+149-7	8108-8111	dan	_	_	_	_	_
+149-8	8112-8120	terdapat	*	positive[487]|[488_487]	_	_	_
+149-9	8121-8126	fitur	_	positive[487]	_	_	_
+149-10	8127-8131	baru	_	positive[487]	_	_	_
+149-11	8132-8134	di	_	_	_	_	_
+149-12	8135-8146	mypertamina	_	concept[488]	_	_	_
+149-13	8147-8148	.	_	_	_	_	_
+
+#Text=Mantap banget ini my pertamina versi terbaru tampilan nya mantap !
+150-1	8150-8156	Mantap	*	positive[489]|[490_489]	_	_	_
+150-2	8157-8163	banget	_	positive[489]	_	_	_
+150-3	8164-8167	ini	_	_	_	_	_
+150-4	8168-8170	my	_	concept[490]	_	_	_
+150-5	8171-8180	pertamina	_	concept[490]	_	_	_
+150-6	8181-8186	versi	_	keterangan[491]	_	_	_
+150-7	8187-8194	terbaru	_	keterangan[491]	_	_	_
+150-8	8195-8203	tampilan	*	[490_492]|concept[492]	_	_	_
+150-9	8204-8207	nya	_	_	_	_	_
+150-10	8208-8214	mantap	*|*	[491_493]|[492_493]|positive[493]	_	_	_
+150-11	8215-8216	!	_	_	_	_	_
+
+#Text=Lokasi spbu terdekat gampang didapatkan dengan aplikasi my pertamina .
+151-1	8218-8224	Lokasi	*	concept[494]|[496_494]	_	_	_
+151-2	8225-8229	spbu	_	concept[494]	_	_	_
+151-3	8230-8238	terdekat	_	concept[494]	_	_	_
+151-4	8239-8246	gampang	*	[494_495]|positive[495]	_	_	_
+151-5	8247-8257	didapatkan	_	positive[495]	_	_	_
+151-6	8258-8264	dengan	_	_	_	_	_
+151-7	8265-8273	aplikasi	_	_	_	_	_
+151-8	8274-8276	my	_	concept[496]	_	_	_
+151-9	8277-8286	pertamina	_	concept[496]	_	_	_
+151-10	8287-8288	.	_	_	_	_	_
+
+#Text=Gampang dipakai aplikasi nya .
+152-1	8290-8297	Gampang	*	positive[497]|[498_497]	_	_	_
+152-2	8298-8305	dipakai	*	concept[498]|[499_498]	_	_	_
+152-3	8306-8314	aplikasi	_	concept[499]	_	_	_
+152-4	8315-8318	nya	_	_	_	_	_
+152-5	8319-8320	.	_	_	_	_	_
+
+#Text=Saya ingin komentar nih , aplikasi ini sudah lumayan baik .
+153-1	8322-8326	Saya	_	_	_	_	_
+153-2	8327-8332	ingin	_	_	_	_	_
+153-3	8333-8341	komentar	_	_	_	_	_
+153-4	8342-8345	nih	_	_	_	_	_
+153-5	8346-8347	,	_	_	_	_	_
+153-6	8348-8356	aplikasi	_	concept[500]	_	_	_
+153-7	8357-8360	ini	_	_	_	_	_
+153-8	8361-8366	sudah	_	_	_	_	_
+153-9	8367-8374	lumayan	*	[500_501]|positive[501]	_	_	_
+153-10	8375-8379	baik	_	positive[501]	_	_	_
+153-11	8380-8381	.	_	_	_	_	_
+
+#Text=aplikasi nya bagus dan tidak ada masalah sama sekali .
+154-1	8383-8391	aplikasi	_	concept[502]	_	_	_
+154-2	8392-8395	nya	_	_	_	_	_
+154-3	8396-8401	bagus	*	[502_503]|positive[503]	_	_	_
+154-4	8402-8405	dan	_	_	_	_	_
+154-5	8406-8411	tidak	*	[502_504]|positive[504]	_	_	_
+154-6	8412-8415	ada	_	positive[504]	_	_	_
+154-7	8416-8423	masalah	_	positive[504]	_	_	_
+154-8	8424-8428	sama	_	positive[504]	_	_	_
+154-9	8429-8435	sekali	_	positive[504]	_	_	_
+154-10	8436-8437	.	_	_	_	_	_
+
+#Text=Setelah aplikasi my pertamina diperbaharui , sudah lancar kembali dan tak ada masalah apapun .
+155-1	8439-8446	Setelah	_	_	_	_	_
+155-2	8447-8455	aplikasi	_	_	_	_	_
+155-3	8456-8458	my	_	concept[505]	_	_	_
+155-4	8459-8468	pertamina	_	concept[505]	_	_	_
+155-5	8469-8481	diperbaharui	_	_	_	_	_
+155-6	8482-8483	,	_	_	_	_	_
+155-7	8484-8489	sudah	*	[505_506]|positive[506]	_	_	_
+155-8	8490-8496	lancar	_	positive[506]	_	_	_
+155-9	8497-8504	kembali	_	_	_	_	_
+155-10	8505-8508	dan	_	_	_	_	_
+155-11	8509-8512	tak	*	[505_507]|positive[507]	_	_	_
+155-12	8513-8516	ada	_	positive[507]	_	_	_
+155-13	8517-8524	masalah	_	positive[507]	_	_	_
+155-14	8525-8531	apapun	_	_	_	_	_
+155-15	8532-8533	.	_	_	_	_	_
+
+#Text=Untuk sampai saat ini , pelayanan pada aplikasi My Pertamina sudah sangat bagus .
+156-1	8535-8540	Untuk	_	_	_	_	_
+156-2	8541-8547	sampai	_	_	_	_	_
+156-3	8548-8552	saat	_	_	_	_	_
+156-4	8553-8556	ini	_	_	_	_	_
+156-5	8557-8558	,	_	_	_	_	_
+156-6	8559-8568	pelayanan	*	concept[508]|[509_508]	_	_	_
+156-7	8569-8573	pada	_	_	_	_	_
+156-8	8574-8582	aplikasi	_	_	_	_	_
+156-9	8583-8585	My	_	concept[509]	_	_	_
+156-10	8586-8595	Pertamina	_	concept[509]	_	_	_
+156-11	8596-8601	sudah	_	_	_	_	_
+156-12	8602-8608	sangat	*	[508_510]|positive[510]	_	_	_
+156-13	8609-8614	bagus	_	positive[510]	_	_	_
+156-14	8615-8616	.	_	_	_	_	_
+
+#Text=Mantab banget program pada aplikasi My Pertamina .
+157-1	8618-8624	Mantab	*	positive[511]|[512_511]	_	_	_
+157-2	8625-8631	banget	_	positive[511]	_	_	_
+157-3	8632-8639	program	*	concept[512]|[513_512]	_	_	_
+157-4	8640-8644	pada	_	_	_	_	_
+157-5	8645-8653	aplikasi	_	_	_	_	_
+157-6	8654-8656	My	_	concept[513]	_	_	_
+157-7	8657-8666	Pertamina	_	concept[513]	_	_	_
+157-8	8667-8668	.	_	_	_	_	_
+
+#Text=Log in di aplikasi My Pertamina sangat cepat .
+158-1	8670-8673	Log	*	concept[514]|[515_514]	_	_	_
+158-2	8674-8676	in	_	concept[514]	_	_	_
+158-3	8677-8679	di	_	_	_	_	_
+158-4	8680-8688	aplikasi	_	_	_	_	_
+158-5	8689-8691	My	_	concept[515]	_	_	_
+158-6	8692-8701	Pertamina	_	concept[515]	_	_	_
+158-7	8702-8708	sangat	*	[514_516]|positive[516]	_	_	_
+158-8	8709-8714	cepat	_	positive[516]	_	_	_
+158-9	8715-8716	.	_	_	_	_	_
+
+#Text=buka aplikasi nya cepat ternyata .
+159-1	8718-8722	buka	*	concept[517]|[518_517]	_	_	_
+159-2	8723-8731	aplikasi	_	concept[518]	_	_	_
+159-3	8732-8735	nya	_	_	_	_	_
+159-4	8736-8741	cepat	*	[517_519]|positive[519]	_	_	_
+159-5	8742-8750	ternyata	_	_	_	_	_
+159-6	8751-8752	.	_	_	_	_	_
+
+#Text=Scan struk selalu berhasil .
+160-1	8754-8758	Scan	_	concept[520]	_	_	_
+160-2	8759-8764	struk	_	concept[520]	_	_	_
+160-3	8765-8771	selalu	*	[520_521]|positive[521]	_	_	_
+160-4	8772-8780	berhasil	_	positive[521]	_	_	_
+160-5	8781-8782	.	_	_	_	_	_
+
+#Text=Aplikasi jarang minta diupdate versi sehingga mempermudah .
+161-1	8784-8792	Aplikasi	_	concept[522]	_	_	_
+161-2	8793-8799	jarang	*	positive[523]|[524_523]	_	_	_
+161-3	8800-8805	minta	_	_	_	_	_
+161-4	8806-8814	diupdate	*	[522_524]|concept[524]	_	_	_
+161-5	8815-8820	versi	_	_	_	_	_
+161-6	8821-8829	sehingga	_	_	_	_	_
+161-7	8830-8841	mempermudah	*	[522_525]|positive[525]	_	_	_
+161-8	8842-8843	.	_	_	_	_	_
+
+#Text=Upload foto sangat mudah deh .
+162-1	8845-8851	Upload	_	concept[526]	_	_	_
+162-2	8852-8856	foto	_	concept[526]	_	_	_
+162-3	8857-8863	sangat	*	[526_527]|positive[527]	_	_	_
+162-4	8864-8869	mudah	_	positive[527]	_	_	_
+162-5	8870-8873	deh	_	_	_	_	_
+162-6	8874-8875	.	_	_	_	_	_
+
+#Text=Seneng karena gampang banget pakai aplikasi nya .
+163-1	8877-8883	Seneng	*	positive[528]|[530_528]	_	_	_
+163-2	8884-8890	karena	_	_	_	_	_
+163-3	8891-8898	gampang	*	positive[529]|[530_529]	_	_	_
+163-4	8899-8905	banget	_	positive[529]	_	_	_
+163-5	8906-8911	pakai	*	concept[530]|[531_530]	_	_	_
+163-6	8912-8920	aplikasi	_	concept[531]	_	_	_
+163-7	8921-8924	nya	_	_	_	_	_
+163-8	8925-8926	.	_	_	_	_	_
+
+#Text=Sangat mudah dipakai deh aplikasi My Pertamina .
+164-1	8928-8934	Sangat	*	positive[532]|[533_532]	_	_	_
+164-2	8935-8940	mudah	_	positive[532]	_	_	_
+164-3	8941-8948	dipakai	*	concept[533]|[534_533]	_	_	_
+164-4	8949-8952	deh	_	_	_	_	_
+164-5	8953-8961	aplikasi	_	_	_	_	_
+164-6	8962-8964	My	_	concept[534]	_	_	_
+164-7	8965-8974	Pertamina	_	concept[534]	_	_	_
+164-8	8975-8976	.	_	_	_	_	_
+
+#Text=Sangat mudah buka aplikasi nya .
+165-1	8978-8984	Sangat	*	positive[535]|[536_535]	_	_	_
+165-2	8985-8990	mudah	_	positive[535]	_	_	_
+165-3	8991-8995	buka	*	concept[536]|[537_536]	_	_	_
+165-4	8996-9004	aplikasi	_	concept[537]	_	_	_
+165-5	9005-9008	nya	_	_	_	_	_
+165-6	9009-9010	.	_	_	_	_	_
+
+#Text=Struk selalu bisa terbaca .
+166-1	9012-9017	Struk	_	concept[538]	_	_	_
+166-2	9018-9024	selalu	*	[538_539]|positive[539]	_	_	_
+166-3	9025-9029	bisa	_	positive[539]	_	_	_
+166-4	9030-9037	terbaca	_	positive[539]	_	_	_
+166-5	9038-9039	.	_	_	_	_	_
+
+#Text=Fitur nya sangat membantu .
+167-1	9041-9046	Fitur	_	concept[540]	_	_	_
+167-2	9047-9050	nya	_	_	_	_	_
+167-3	9051-9057	sangat	*	[540_541]|positive[541]	_	_	_
+167-4	9058-9066	membantu	_	positive[541]	_	_	_
+167-5	9067-9068	.	_	_	_	_	_
+
+#Text=Aplikasi nya jarang banget error ya .
+168-1	9070-9078	Aplikasi	_	concept[542]	_	_	_
+168-2	9079-9082	nya	_	_	_	_	_
+168-3	9083-9089	jarang	*	[542_543]|positive[543]	_	_	_
+168-4	9090-9096	banget	_	positive[543]	_	_	_
+168-5	9097-9102	error	_	positive[543]	_	_	_
+168-6	9103-9105	ya	_	_	_	_	_
+168-7	9106-9107	.	_	_	_	_	_
+
+#Text=struk nya mudah discan oleh aplikasi .
+169-1	9109-9114	struk	*	concept[544]|[547_544]	_	_	_
+169-2	9115-9118	nya	_	_	_	_	_
+169-3	9119-9124	mudah	*	positive[545]|[546_545]	_	_	_
+169-4	9125-9131	discan	*	[544_546]|concept[546]	_	_	_
+169-5	9132-9136	oleh	_	_	_	_	_
+169-6	9137-9145	aplikasi	_	concept[547]	_	_	_
+169-7	9146-9147	.	_	_	_	_	_
+
+#Text=Aplikasi langsung terdetect .
+170-1	9149-9157	Aplikasi	_	concept[548]	_	_	_
+170-2	9158-9166	langsung	*	[548_549]|positive[549]	_	_	_
+170-3	9167-9176	terdetect	_	positive[549]	_	_	_
+170-4	9177-9178	.	_	_	_	_	_
+
+#Text=update nya sangat membantu .
+171-1	9180-9186	update	_	concept[550]	_	_	_
+171-2	9187-9190	nya	_	_	_	_	_
+171-3	9191-9197	sangat	*	[550_551]|positive[551]	_	_	_
+171-4	9198-9206	membantu	_	positive[551]	_	_	_
+171-5	9207-9208	.	_	_	_	_	_
+
+#Text=Cepat sekali proses loading nya .
+172-1	9210-9215	Cepat	_	positive[552]	_	_	_
+172-2	9216-9222	sekali	_	positive[552]	_	_	_
+172-3	9223-9229	proses	*	concept[553]|[554_553]	_	_	_
+172-4	9230-9237	loading	*	[552_554]|concept[554]	_	_	_
+172-5	9238-9241	nya	_	_	_	_	_
+172-6	9242-9243	.	_	_	_	_	_
+
+#Text=Makin gampang buat daftar nya .
+173-1	9245-9250	Makin	*	positive[555]|[556_555]	_	_	_
+173-2	9251-9258	gampang	_	positive[555]	_	_	_
+173-3	9259-9263	buat	_	_	_	_	_
+173-4	9264-9270	daftar	_	concept[556]	_	_	_
+173-5	9271-9274	nya	_	_	_	_	_
+173-6	9275-9276	.	_	_	_	_	_
+
+#Text=Aku selalu puas deh dengan Pertamina . Aplikasi nya selalu up to date banget . hehe
+174-1	9278-9281	Aku	_	_	_	_	_
+174-2	9282-9288	selalu	*	positive[557]|[558_557]	_	_	_
+174-3	9289-9293	puas	_	positive[557]	_	_	_
+174-4	9294-9297	deh	_	_	_	_	_
+174-5	9298-9304	dengan	_	_	_	_	_
+174-6	9305-9314	Pertamina	_	concept[558]	_	_	_
+174-7	9315-9316	.	_	_	_	_	_
+174-8	9317-9325	Aplikasi	*	[558_559]|concept[559]	_	_	_
+174-9	9326-9329	nya	_	_	_	_	_
+174-10	9330-9336	selalu	*	[559_560]|positive[560]	_	_	_
+174-11	9337-9339	up	_	positive[560]	_	_	_
+174-12	9340-9342	to	_	positive[560]	_	_	_
+174-13	9343-9347	date	_	positive[560]	_	_	_
+174-14	9348-9354	banget	_	positive[560]	_	_	_
+174-15	9355-9356	.	_	_	_	_	_
+174-16	9357-9361	hehe	_	_	_	_	_
+
+#Text=Aplikasi berguna banget untuk bisa mengenal Pertamina .
+175-1	9363-9371	Aplikasi	_	concept[561]	_	_	_
+175-2	9372-9379	berguna	*	[561_562]|positive[562]	_	_	_
+175-3	9380-9386	banget	_	positive[562]	_	_	_
+175-4	9387-9392	untuk	_	_	_	_	_
+175-5	9393-9397	bisa	_	_	_	_	_
+175-6	9398-9406	mengenal	_	_	_	_	_
+175-7	9407-9416	Pertamina	_	_	_	_	_
+175-8	9417-9418	.	_	_	_	_	_
+
+#Text=Aplikasi sangat mudah untuk baca struk .
+176-1	9420-9428	Aplikasi	_	concept[563]	_	_	_
+176-2	9429-9435	sangat	*	positive[564]|[565_564]	_	_	_
+176-3	9436-9441	mudah	_	positive[564]	_	_	_
+176-4	9442-9447	untuk	_	_	_	_	_
+176-5	9448-9452	baca	*	[563_565]|concept[565]	_	_	_
+176-6	9453-9458	struk	_	concept[565]	_	_	_
+176-7	9459-9460	.	_	_	_	_	_
+
+#Text=Sekarang mah lancar terus aplikasi nya jadi happy pakai nya .
+177-1	9462-9470	Sekarang	_	_	_	_	_
+177-2	9471-9474	mah	_	_	_	_	_
+177-3	9475-9481	lancar	*	positive[566]|[567_566]	_	_	_
+177-4	9482-9487	terus	_	positive[566]	_	_	_
+177-5	9488-9496	aplikasi	_	concept[567]	_	_	_
+177-6	9497-9500	nya	_	_	_	_	_
+177-7	9501-9505	jadi	*	positive[568]|[569_568]	_	_	_
+177-8	9506-9511	happy	_	positive[568]	_	_	_
+177-9	9512-9517	pakai	*	[567_569]|concept[569]	_	_	_
+177-10	9518-9521	nya	_	_	_	_	_
+177-11	9522-9523	.	_	_	_	_	_
+
+#Text=Selalu mudah untuk register nya .
+178-1	9525-9531	Selalu	*	positive[570]|[571_570]	_	_	_
+178-2	9532-9537	mudah	_	positive[570]	_	_	_
+178-3	9538-9543	untuk	_	_	_	_	_
+178-4	9544-9552	register	_	concept[571]	_	_	_
+178-5	9553-9556	nya	_	_	_	_	_
+178-6	9557-9558	.	_	_	_	_	_
+
+#Text=Gampang betul sih masuk nya .
+179-1	9560-9567	Gampang	*	positive[572]|[573_572]	_	_	_
+179-2	9568-9573	betul	_	positive[572]	_	_	_
+179-3	9574-9577	sih	_	_	_	_	_
+179-4	9578-9583	masuk	_	concept[573]	_	_	_
+179-5	9584-9587	nya	_	_	_	_	_
+179-6	9588-9589	.	_	_	_	_	_
+
+#Text=Fitur-fitur di aplikasi nya sungguh user friendly deh .
+180-1	9591-9602	Fitur-fitur	*	concept[574]|[575_574]	_	_	_
+180-2	9603-9605	di	_	_	_	_	_
+180-3	9606-9614	aplikasi	_	concept[575]	_	_	_
+180-4	9615-9618	nya	_	_	_	_	_
+180-5	9619-9626	sungguh	*	[574_576]|positive[576]	_	_	_
+180-6	9627-9631	user	_	positive[576]	_	_	_
+180-7	9632-9640	friendly	_	positive[576]	_	_	_
+180-8	9641-9644	deh	_	_	_	_	_
+180-9	9645-9646	.	_	_	_	_	_
+
+#Text=Mau upload struk lancar terus .
+181-1	9648-9651	Mau	_	_	_	_	_
+181-2	9652-9658	upload	_	concept[577]	_	_	_
+181-3	9659-9664	struk	_	concept[577]	_	_	_
+181-4	9665-9671	lancar	*	[577_578]|positive[578]	_	_	_
+181-5	9672-9677	terus	_	positive[578]	_	_	_
+181-6	9678-9679	.	_	_	_	_	_
+
+#Text=Jarang update terus jadi nya karena aplikasi nya tidak ada bug .
+182-1	9681-9687	Jarang	*	[580_579]|positive[579]	_	_	_
+182-2	9688-9694	update	*	positive[579]|concept[580]|[581_580]	_	_	_
+182-3	9695-9700	terus	_	positive[579]	_	_	_
+182-4	9701-9705	jadi	_	_	_	_	_
+182-5	9706-9709	nya	_	_	_	_	_
+182-6	9710-9716	karena	_	_	_	_	_
+182-7	9717-9725	aplikasi	_	concept[581]	_	_	_
+182-8	9726-9729	nya	_	_	_	_	_
+182-9	9730-9735	tidak	*	positive[582]|[583_582]	_	_	_
+182-10	9736-9739	ada	_	positive[582]	_	_	_
+182-11	9740-9743	bug	*	[581_583]|concept[583]	_	_	_
+182-12	9744-9745	.	_	_	_	_	_
+
+#Text=Sangat mudah saat login .
+183-1	9747-9753	Sangat	*	positive[584]|[585_584]	_	_	_
+183-2	9754-9759	mudah	_	positive[584]	_	_	_
+183-3	9760-9764	saat	_	_	_	_	_
+183-4	9765-9770	login	_	concept[585]	_	_	_
+183-5	9771-9772	.	_	_	_	_	_
+
+#Text=Mudah banget untuk operasi nya .
+184-1	9774-9779	Mudah	*	positive[586]|[587_586]	_	_	_
+184-2	9780-9786	banget	_	positive[586]	_	_	_
+184-3	9787-9792	untuk	_	_	_	_	_
+184-4	9793-9800	operasi	_	concept[587]	_	_	_
+184-5	9801-9804	nya	_	_	_	_	_
+184-6	9805-9806	.	_	_	_	_	_
+
+#Text=Mudah sekali masuk nya ke aplikasi .
+185-1	9808-9813	Mudah	*	positive[588]|[589_588]	_	_	_
+185-2	9814-9820	sekali	_	positive[588]	_	_	_
+185-3	9821-9826	masuk	*	concept[589]|[590_589]	_	_	_
+185-4	9827-9830	nya	_	_	_	_	_
+185-5	9831-9833	ke	_	_	_	_	_
+185-6	9834-9842	aplikasi	_	concept[590]	_	_	_
+185-7	9843-9844	.	_	_	_	_	_
+
+#Text=Daftar ke my pertamina sangat mudah masuk ke profil saya .
+186-1	9846-9852	Daftar	*	concept[591]|[592_591]	_	_	_
+186-2	9853-9855	ke	_	_	_	_	_
+186-3	9856-9858	my	_	concept[592]	_	_	_
+186-4	9859-9868	pertamina	_	concept[592]	_	_	_
+186-5	9869-9875	sangat	*	[591_593]|positive[593]	_	_	_
+186-6	9876-9881	mudah	_	positive[593]	_	_	_
+186-7	9882-9887	masuk	_	positive[593]	_	_	_
+186-8	9888-9890	ke	_	positive[593]	_	_	_
+186-9	9891-9897	profil	_	positive[593]	_	_	_
+186-10	9898-9902	saya	_	_	_	_	_
+186-11	9903-9904	.	_	_	_	_	_
+
+#Text=update version baru gampang banget .
+187-1	9906-9912	update	_	concept[594]	_	_	_
+187-2	9913-9920	version	_	_	_	_	_
+187-3	9921-9925	baru	_	_	_	_	_
+187-4	9926-9933	gampang	*	[594_595]|positive[595]	_	_	_
+187-5	9934-9940	banget	_	positive[595]	_	_	_
+187-6	9941-9942	.	_	_	_	_	_
+
+#Text=Pertamina memang top .
+188-1	9944-9953	Pertamina	_	concept[596]	_	_	_
+188-2	9954-9960	memang	_	_	_	_	_
+188-3	9961-9964	top	*	[596_597]|positive[597]	_	_	_
+188-4	9965-9966	.	_	_	_	_	_
+
+#Text=Aplikasi yang sangat membantu , deh .
+189-1	9968-9976	Aplikasi	_	concept[598]	_	_	_
+189-2	9977-9981	yang	_	_	_	_	_
+189-3	9982-9988	sangat	*	[598_599]|positive[599]	_	_	_
+189-4	9989-9997	membantu	_	positive[599]	_	_	_
+189-5	9998-9999	,	_	_	_	_	_
+189-6	10000-10003	deh	_	_	_	_	_
+189-7	10004-10005	.	_	_	_	_	_
+
+#Text=Upload struk jadi sangat mudah setelah update versi terbaru aplikasi nya .
+190-1	10007-10013	Upload	*	concept[600]|[602_600]	_	_	_
+190-2	10014-10019	struk	_	concept[600]	_	_	_
+190-3	10020-10024	jadi	_	_	_	_	_
+190-4	10025-10031	sangat	*	[600_601]|positive[601]	_	_	_
+190-5	10032-10037	mudah	_	positive[601]	_	_	_
+190-6	10038-10045	setelah	_	_	_	_	_
+190-7	10046-10052	update	_	_	_	_	_
+190-8	10053-10058	versi	_	_	_	_	_
+190-9	10059-10066	terbaru	_	_	_	_	_
+190-10	10067-10075	aplikasi	_	concept[602]	_	_	_
+190-11	10076-10079	nya	_	_	_	_	_
+190-12	10080-10081	.	_	_	_	_	_
+
+#Text=Setelah update , jadi sangat mudah upload struk nya .
+191-1	10083-10090	Setelah	_	_	_	_	_
+191-2	10091-10097	update	_	_	_	_	_
+191-3	10098-10099	,	_	_	_	_	_
+191-4	10100-10104	jadi	_	_	_	_	_
+191-5	10105-10111	sangat	*	positive[603]|[604_603]	_	_	_
+191-6	10112-10117	mudah	_	positive[603]	_	_	_
+191-7	10118-10124	upload	_	concept[604]	_	_	_
+191-8	10125-10130	struk	_	concept[604]	_	_	_
+191-9	10131-10134	nya	_	_	_	_	_
+191-10	10135-10136	.	_	_	_	_	_
+
+#Text=fitur sangat menarik .
+192-1	10138-10143	fitur	_	concept[605]	_	_	_
+192-2	10144-10150	sangat	*	[605_606]|positive[606]	_	_	_
+192-3	10151-10158	menarik	_	positive[606]	_	_	_
+192-4	10159-10160	.	_	_	_	_	_
+
+#Text=app sudah sangat bagus .
+193-1	10162-10165	app	_	concept[607]	_	_	_
+193-2	10166-10171	sudah	_	_	_	_	_
+193-3	10172-10178	sangat	*	[607_608]|positive[608]	_	_	_
+193-4	10179-10184	bagus	_	positive[608]	_	_	_
+193-5	10185-10186	.	_	_	_	_	_
+
+#Text=Sangat cepat untuk masuk .
+194-1	10188-10194	Sangat	*	positive[609]|[610_609]	_	_	_
+194-2	10195-10200	cepat	_	positive[609]	_	_	_
+194-3	10201-10206	untuk	_	_	_	_	_
+194-4	10207-10212	masuk	_	concept[610]	_	_	_
+194-5	10213-10214	.	_	_	_	_	_
+
+#Text=Update nya cukup jarang sehingga tidak ribet .
+195-1	10216-10222	Update	_	concept[611]	_	_	_
+195-2	10223-10226	nya	_	_	_	_	_
+195-3	10227-10232	cukup	*	[611_612]|positive[612]	_	_	_
+195-4	10233-10239	jarang	_	positive[612]	_	_	_
+195-5	10240-10248	sehingga	_	_	_	_	_
+195-6	10249-10254	tidak	_	_	_	_	_
+195-7	10255-10260	ribet	_	_	_	_	_
+195-8	10261-10262	.	_	_	_	_	_
+
+#Text=Aplikasi Tidak sering update sehingga cukup simpel .
+196-1	10264-10272	Aplikasi	_	concept[613]	_	_	_
+196-2	10273-10278	Tidak	*	positive[614]|[615_614]	_	_	_
+196-3	10279-10285	sering	_	positive[614]	_	_	_
+196-4	10286-10292	update	*	[613_615]|concept[615]	_	_	_
+196-5	10293-10301	sehingga	_	_	_	_	_
+196-6	10302-10307	cukup	*	[613_616]|positive[616]	_	_	_
+196-7	10308-10314	simpel	_	positive[616]	_	_	_
+196-8	10315-10316	.	_	_	_	_	_
+
+#Text=gampang upload otomatis .
+197-1	10318-10325	gampang	*	positive[617]|[618_617]	_	_	_
+197-2	10326-10332	upload	_	concept[618]	_	_	_
+197-3	10333-10341	otomatis	_	concept[618]	_	_	_
+197-4	10342-10343	.	_	_	_	_	_
+
+#Text=Aplikasi tidak sering update sehingga memudahkan pengguna .
+198-1	10345-10353	Aplikasi	_	concept[619]	_	_	_
+198-2	10354-10359	tidak	*	positive[620]|[621_620]	_	_	_
+198-3	10360-10366	sering	_	positive[620]	_	_	_
+198-4	10367-10373	update	*	[619_621]|concept[621]	_	_	_
+198-5	10374-10382	sehingga	_	_	_	_	_
+198-6	10383-10393	memudahkan	*	[619_622]|positive[622]	_	_	_
+198-7	10394-10402	pengguna	_	positive[622]	_	_	_
+198-8	10403-10404	.	_	_	_	_	_
+
+#Text=Upload struk di aplikasi My Pertamina sangat gampang .
+199-1	10406-10412	Upload	*	concept[623]|[624_623]	_	_	_
+199-2	10413-10418	struk	_	concept[623]	_	_	_
+199-3	10419-10421	di	_	_	_	_	_
+199-4	10422-10430	aplikasi	_	_	_	_	_
+199-5	10431-10433	My	_	concept[624]	_	_	_
+199-6	10434-10443	Pertamina	_	concept[624]	_	_	_
+199-7	10444-10450	sangat	*	[623_625]|positive[625]	_	_	_
+199-8	10451-10458	gampang	_	positive[625]	_	_	_
+199-9	10459-10460	.	_	_	_	_	_
+
+#Text=Aplikasi nya oke , alhamdulilah selama ini gak ada masalah . Proses validasi nya juga gak lama .
+200-1	10462-10470	Aplikasi	_	concept[626]	_	_	_
+200-2	10471-10474	nya	_	_	_	_	_
+200-3	10475-10478	oke	*	[626_627]|positive[627]	_	_	_
+200-4	10479-10480	,	_	_	_	_	_
+200-5	10481-10493	alhamdulilah	_	_	_	_	_
+200-6	10494-10500	selama	_	_	_	_	_
+200-7	10501-10504	ini	_	_	_	_	_
+200-8	10505-10508	gak	*	[626_628]|positive[628]	_	_	_
+200-9	10509-10512	ada	_	positive[628]	_	_	_
+200-10	10513-10520	masalah	_	positive[628]	_	_	_
+200-11	10521-10522	.	_	_	_	_	_
+200-12	10523-10529	Proses	*	concept[629]|[630_629]	_	_	_
+200-13	10530-10538	validasi	*	[626_630]|concept[630]	_	_	_
+200-14	10539-10542	nya	_	_	_	_	_
+200-15	10543-10547	juga	_	_	_	_	_
+200-16	10548-10551	gak	*	[629_631]|positive[631]	_	_	_
+200-17	10552-10556	lama	_	positive[631]	_	_	_
+200-18	10557-10558	.	_	_	_	_	_
+
+#Text=Alhamdulilah saya bisa upload profil di My Pertamina .
+201-1	10560-10572	Alhamdulilah	_	_	_	_	_
+201-2	10573-10577	saya	_	_	_	_	_
+201-3	10578-10582	bisa	*	positive[632]|[633_632]	_	_	_
+201-4	10583-10589	upload	*	concept[633]|[634_633]	_	_	_
+201-5	10590-10596	profil	_	concept[633]	_	_	_
+201-6	10597-10599	di	_	_	_	_	_
+201-7	10600-10602	My	_	concept[634]	_	_	_
+201-8	10603-10612	Pertamina	_	concept[634]	_	_	_
+201-9	10613-10614	.	_	_	_	_	_
+
+#Text=Banyak manfaat yang saya dapat setelah memakai aplikasi My Pertamina .
+202-1	10616-10622	Banyak	*	positive[635]|[636_635]	_	_	_
+202-2	10623-10630	manfaat	*	concept[636]|[637_636]	_	_	_
+202-3	10631-10635	yang	_	_	_	_	_
+202-4	10636-10640	saya	_	_	_	_	_
+202-5	10641-10646	dapat	_	_	_	_	_
+202-6	10647-10654	setelah	_	_	_	_	_
+202-7	10655-10662	memakai	_	_	_	_	_
+202-8	10663-10671	aplikasi	_	_	_	_	_
+202-9	10672-10674	My	_	concept[637]	_	_	_
+202-10	10675-10684	Pertamina	_	concept[637]	_	_	_
+202-11	10685-10686	.	_	_	_	_	_
+
+#Text=Aplikasi ini jadi semakin baik sehingga saya tidak ragu untuk memberikan bintang 5 .
+203-1	10688-10696	Aplikasi	_	concept[638]	_	_	_
+203-2	10697-10700	ini	_	_	_	_	_
+203-3	10701-10705	jadi	_	_	_	_	_
+203-4	10706-10713	semakin	*	[638_639]|positive[639]	_	_	_
+203-5	10714-10718	baik	_	positive[639]	_	_	_
+203-6	10719-10727	sehingga	_	_	_	_	_
+203-7	10728-10732	saya	_	_	_	_	_
+203-8	10733-10738	tidak	_	_	_	_	_
+203-9	10739-10743	ragu	_	_	_	_	_
+203-10	10744-10749	untuk	_	_	_	_	_
+203-11	10750-10760	memberikan	_	_	_	_	_
+203-12	10761-10768	bintang	*	[638_640]|positive[640]	_	_	_
+203-13	10769-10770	5	_	positive[640]	_	_	_
+203-14	10771-10772	.	_	_	_	_	_
+
+#Text=Aplikasi nya lancar digunakan , scan struk juga gampang wajar jika struk tidak terbaca kadang ada struk yang kertas nya buram jadi ngga terbaca . Untuk pengguna lain pakai aplikasi ini jangan hanya untuk mendapatkan hadiah saja , tapi giliran pas ngasih ulasan yang kacau nggak jelas . Pertamina pasti niat .
+204-1	10774-10782	Aplikasi	*	concept[641]|[646_641]	_	_	_
+204-2	10783-10786	nya	_	_	_	_	_
+204-3	10787-10793	lancar	*	positive[642]|[643_642]	_	_	_
+204-4	10794-10803	digunakan	*	[641_643]|concept[643]	_	_	_
+204-5	10804-10805	,	_	_	_	_	_
+204-6	10806-10810	scan	*	[641_644]|concept[644]	_	_	_
+204-7	10811-10816	struk	_	concept[644]	_	_	_
+204-8	10817-10821	juga	_	_	_	_	_
+204-9	10822-10829	gampang	*	[644_645]|positive[645]	_	_	_
+204-10	10830-10835	wajar	_	_	_	_	_
+204-11	10836-10840	jika	_	_	_	_	_
+204-12	10841-10846	struk	_	_	_	_	_
+204-13	10847-10852	tidak	_	_	_	_	_
+204-14	10853-10860	terbaca	_	_	_	_	_
+204-15	10861-10867	kadang	_	_	_	_	_
+204-16	10868-10871	ada	_	_	_	_	_
+204-17	10872-10877	struk	_	_	_	_	_
+204-18	10878-10882	yang	_	_	_	_	_
+204-19	10883-10889	kertas	_	_	_	_	_
+204-20	10890-10893	nya	_	_	_	_	_
+204-21	10894-10899	buram	_	_	_	_	_
+204-22	10900-10904	jadi	_	_	_	_	_
+204-23	10905-10909	ngga	_	_	_	_	_
+204-24	10910-10917	terbaca	_	_	_	_	_
+204-25	10918-10919	.	_	_	_	_	_
+204-26	10920-10925	Untuk	_	_	_	_	_
+204-27	10926-10934	pengguna	_	_	_	_	_
+204-28	10935-10939	lain	_	_	_	_	_
+204-29	10940-10945	pakai	_	_	_	_	_
+204-30	10946-10954	aplikasi	_	_	_	_	_
+204-31	10955-10958	ini	_	_	_	_	_
+204-32	10959-10965	jangan	_	_	_	_	_
+204-33	10966-10971	hanya	_	_	_	_	_
+204-34	10972-10977	untuk	_	_	_	_	_
+204-35	10978-10989	mendapatkan	_	_	_	_	_
+204-36	10990-10996	hadiah	_	_	_	_	_
+204-37	10997-11001	saja	_	_	_	_	_
+204-38	11002-11003	,	_	_	_	_	_
+204-39	11004-11008	tapi	_	_	_	_	_
+204-40	11009-11016	giliran	_	_	_	_	_
+204-41	11017-11020	pas	_	_	_	_	_
+204-42	11021-11027	ngasih	_	_	_	_	_
+204-43	11028-11034	ulasan	_	_	_	_	_
+204-44	11035-11039	yang	_	_	_	_	_
+204-45	11040-11045	kacau	_	_	_	_	_
+204-46	11046-11051	nggak	_	_	_	_	_
+204-47	11052-11057	jelas	_	_	_	_	_
+204-48	11058-11059	.	_	_	_	_	_
+204-49	11060-11069	Pertamina	_	concept[646]	_	_	_
+204-50	11070-11075	pasti	*	[646_647]|positive[647]	_	_	_
+204-51	11076-11080	niat	_	positive[647]	_	_	_
+204-52	11081-11082	.	_	_	_	_	_
+
+#Text=Setelah aplikasi di upgrade ke versi yang lebih baru , struk transaksi jadi bisa di upload .
+205-1	11084-11091	Setelah	_	_	_	_	_
+205-2	11092-11100	aplikasi	_	concept[648]	_	_	_
+205-3	11101-11103	di	_	_	_	_	_
+205-4	11104-11111	upgrade	_	_	_	_	_
+205-5	11112-11114	ke	_	_	_	_	_
+205-6	11115-11120	versi	_	_	_	_	_
+205-7	11121-11125	yang	_	_	_	_	_
+205-8	11126-11131	lebih	_	_	_	_	_
+205-9	11132-11136	baru	_	_	_	_	_
+205-10	11137-11138	,	_	_	_	_	_
+205-11	11139-11144	struk	*	[648_649]|concept[649]	_	_	_
+205-12	11145-11154	transaksi	_	concept[649]	_	_	_
+205-13	11155-11159	jadi	_	_	_	_	_
+205-14	11160-11164	bisa	*	positive[650]|[651_650]	_	_	_
+205-15	11165-11167	di	*	[649_651]|concept[651]	_	_	_
+205-16	11168-11174	upload	_	concept[651]	_	_	_
+205-17	11175-11176	.	_	_	_	_	_
+
+#Text=Aplikasi ini sangat bagus , dari awal sampai sekarang saya tidak mengalami kendala apa pun .
+206-1	11178-11186	Aplikasi	_	concept[652]	_	_	_
+206-2	11187-11190	ini	_	_	_	_	_
+206-3	11191-11197	sangat	*	[652_653]|positive[653]	_	_	_
+206-4	11198-11203	bagus	_	positive[653]	_	_	_
+206-5	11204-11205	,	_	_	_	_	_
+206-6	11206-11210	dari	_	_	_	_	_
+206-7	11211-11215	awal	_	_	_	_	_
+206-8	11216-11222	sampai	_	_	_	_	_
+206-9	11223-11231	sekarang	_	_	_	_	_
+206-10	11232-11236	saya	_	_	_	_	_
+206-11	11237-11242	tidak	*	[652_654]|positive[654]	_	_	_
+206-12	11243-11252	mengalami	_	positive[654]	_	_	_
+206-13	11253-11260	kendala	_	positive[654]	_	_	_
+206-14	11261-11264	apa	_	_	_	_	_
+206-15	11265-11268	pun	_	_	_	_	_
+206-16	11269-11270	.	_	_	_	_	_
+
+#Text=Alhamdulilah saya berhasil untuk scan struk BBK .
+207-1	11272-11284	Alhamdulilah	_	_	_	_	_
+207-2	11285-11289	saya	_	_	_	_	_
+207-3	11290-11298	berhasil	*	positive[655]|[656_655]	_	_	_
+207-4	11299-11304	untuk	_	_	_	_	_
+207-5	11305-11309	scan	_	concept[656]	_	_	_
+207-6	11310-11315	struk	_	concept[656]	_	_	_
+207-7	11316-11319	BBK	_	_	_	_	_
+207-8	11320-11321	.	_	_	_	_	_
+
+#Text=Setelah Update aplikasi My Pertamina , Edit Profil sudah berhasil dan tersimpan ( email , tempat tanggal lahir , alamat ) sehingga status kupon sekarang menjadi aktif , terima kasih atas respon ulasan yang cepat semoga lebih baik lagi ke depan nya .
+208-1	11323-11330	Setelah	_	_	_	_	_
+208-2	11331-11337	Update	_	_	_	_	_
+208-3	11338-11346	aplikasi	_	_	_	_	_
+208-4	11347-11349	My	_	concept[657]	_	_	_
+208-5	11350-11359	Pertamina	_	concept[657]	_	_	_
+208-6	11360-11361	,	_	_	_	_	_
+208-7	11362-11366	Edit	*	[657_658]|concept[658]	_	_	_
+208-8	11367-11373	Profil	_	concept[658]	_	_	_
+208-9	11374-11379	sudah	*	[658_659]|positive[659]	_	_	_
+208-10	11380-11388	berhasil	_	positive[659]	_	_	_
+208-11	11389-11392	dan	_	_	_	_	_
+208-12	11393-11402	tersimpan	*	[658_660]|positive[660]	_	_	_
+208-13	11403-11404	(	_	_	_	_	_
+208-14	11405-11410	email	_	_	_	_	_
+208-15	11411-11412	,	_	_	_	_	_
+208-16	11413-11419	tempat	_	_	_	_	_
+208-17	11420-11427	tanggal	_	_	_	_	_
+208-18	11428-11433	lahir	_	_	_	_	_
+208-19	11434-11435	,	_	_	_	_	_
+208-20	11436-11442	alamat	_	_	_	_	_
+208-21	11443-11444	)	_	_	_	_	_
+208-22	11445-11453	sehingga	_	_	_	_	_
+208-23	11454-11460	status	*	[657_661]|concept[661]	_	_	_
+208-24	11461-11466	kupon	_	concept[661]	_	_	_
+208-25	11467-11475	sekarang	_	_	_	_	_
+208-26	11476-11483	menjadi	*	[661_662]|positive[662]	_	_	_
+208-27	11484-11489	aktif	_	positive[662]	_	_	_
+208-28	11490-11491	,	_	_	_	_	_
+208-29	11492-11498	terima	_	_	_	_	_
+208-30	11499-11504	kasih	_	_	_	_	_
+208-31	11505-11509	atas	_	_	_	_	_
+208-32	11510-11516	respon	*	[657_663]|concept[663]	_	_	_
+208-33	11517-11523	ulasan	_	concept[663]	_	_	_
+208-34	11524-11528	yang	_	_	_	_	_
+208-35	11529-11534	cepat	*	[663_664]|positive[664]	_	_	_
+208-36	11535-11541	semoga	_	_	_	_	_
+208-37	11542-11547	lebih	_	_	_	_	_
+208-38	11548-11552	baik	_	_	_	_	_
+208-39	11553-11557	lagi	_	_	_	_	_
+208-40	11558-11560	ke	_	_	_	_	_
+208-41	11561-11566	depan	_	_	_	_	_
+208-42	11567-11570	nya	_	_	_	_	_
+208-43	11571-11572	.	_	_	_	_	_
+
+#Text=setiap login sangat cepat deh proses nya .
+209-1	11574-11580	setiap	_	_	_	_	_
+209-2	11581-11586	login	_	concept[665]	_	_	_
+209-3	11587-11593	sangat	*	positive[666]|[667_666]	_	_	_
+209-4	11594-11599	cepat	_	positive[666]	_	_	_
+209-5	11600-11603	deh	_	_	_	_	_
+209-6	11604-11610	proses	*	[665_667]|concept[667]	_	_	_
+209-7	11611-11614	nya	_	_	_	_	_
+209-8	11615-11616	.	_	_	_	_	_
+
+#Text=Aplikasi ini cukup bagus karena jarang minta update .
+210-1	11618-11626	Aplikasi	_	concept[668]	_	_	_
+210-2	11627-11630	ini	_	_	_	_	_
+210-3	11631-11636	cukup	*	[668_669]|positive[669]	_	_	_
+210-4	11637-11642	bagus	_	positive[669]	_	_	_
+210-5	11643-11649	karena	_	_	_	_	_
+210-6	11650-11656	jarang	*	positive[670]|[671_670]	_	_	_
+210-7	11657-11662	minta	_	_	_	_	_
+210-8	11663-11669	update	*	[668_671]|concept[671]	_	_	_
+210-9	11670-11671	.	_	_	_	_	_
+
+#Text=mau upload struk gampang banget .
+211-1	11673-11676	mau	_	_	_	_	_
+211-2	11677-11683	upload	_	concept[672]	_	_	_
+211-3	11684-11689	struk	_	concept[672]	_	_	_
+211-4	11690-11697	gampang	*	[672_673]|positive[673]	_	_	_
+211-5	11698-11704	banget	_	positive[673]	_	_	_
+211-6	11705-11706	.	_	_	_	_	_
+
+#Text=nota kita foto otomatis sehingga aplikasi ini sangat memudahkan pengguna .
+212-1	11708-11712	nota	_	_	_	_	_
+212-2	11713-11717	kita	_	_	_	_	_
+212-3	11718-11722	foto	_	_	_	_	_
+212-4	11723-11731	otomatis	_	_	_	_	_
+212-5	11732-11740	sehingga	_	_	_	_	_
+212-6	11741-11749	aplikasi	_	concept[674]	_	_	_
+212-7	11750-11753	ini	_	_	_	_	_
+212-8	11754-11760	sangat	*	[674_675]|positive[675]	_	_	_
+212-9	11761-11771	memudahkan	_	positive[675]	_	_	_
+212-10	11772-11780	pengguna	_	positive[675]	_	_	_
+212-11	11781-11782	.	_	_	_	_	_
+
+#Text=Nota nya selalu kebaca .
+213-1	11784-11788	Nota	_	concept[676]	_	_	_
+213-2	11789-11792	nya	_	_	_	_	_
+213-3	11793-11799	selalu	*	[676_677]|positive[677]	_	_	_
+213-4	11800-11806	kebaca	_	positive[677]	_	_	_
+213-5	11807-11808	.	_	_	_	_	_
+
+#Text=Selalu berhasil ketika upload foto .
+214-1	11810-11816	Selalu	*	positive[678]|[679_678]	_	_	_
+214-2	11817-11825	berhasil	_	positive[678]	_	_	_
+214-3	11826-11832	ketika	_	_	_	_	_
+214-4	11833-11839	upload	_	concept[679]	_	_	_
+214-5	11840-11844	foto	_	concept[679]	_	_	_
+214-6	11845-11846	.	_	_	_	_	_
+
+#Text=Proses install aplikasi nya sangat mudah .
+215-1	11848-11854	Proses	*	concept[680]|[681_680]	_	_	_
+215-2	11855-11862	install	*	concept[681]|[682_681]	_	_	_
+215-3	11863-11871	aplikasi	_	concept[682]	_	_	_
+215-4	11872-11875	nya	_	_	_	_	_
+215-5	11876-11882	sangat	*	[680_683]|positive[683]	_	_	_
+215-6	11883-11888	mudah	_	positive[683]	_	_	_
+215-7	11889-11890	.	_	_	_	_	_
+
+#Text=Jarang update jadi nya praktis sekali aplikasi nya .
+216-1	11892-11898	Jarang	*	positive[684]|[685_684]	_	_	_
+216-2	11899-11905	update	*	concept[685]|[687_685]	_	_	_
+216-3	11906-11910	jadi	_	_	_	_	_
+216-4	11911-11914	nya	_	_	_	_	_
+216-5	11915-11922	praktis	*	positive[686]|[687_686]	_	_	_
+216-6	11923-11929	sekali	_	positive[686]	_	_	_
+216-7	11930-11938	aplikasi	_	concept[687]	_	_	_
+216-8	11939-11942	nya	_	_	_	_	_
+216-9	11943-11944	.	_	_	_	_	_
+
+#Text=Aplikasi mantap karena tak banyak upgrade .
+217-1	11946-11954	Aplikasi	_	concept[688]	_	_	_
+217-2	11955-11961	mantap	*	[688_689]|positive[689]	_	_	_
+217-3	11962-11968	karena	_	_	_	_	_
+217-4	11969-11972	tak	*	positive[690]|[691_690]	_	_	_
+217-5	11973-11979	banyak	_	positive[690]	_	_	_
+217-6	11980-11987	upgrade	*	[688_691]|concept[691]	_	_	_
+217-7	11988-11989	.	_	_	_	_	_
+
+#Text=Aplikasi sangat stabil dan tidak ribet .
+218-1	11991-11999	Aplikasi	_	concept[692]	_	_	_
+218-2	12000-12006	sangat	*	[692_693]|positive[693]	_	_	_
+218-3	12007-12013	stabil	_	positive[693]	_	_	_
+218-4	12014-12017	dan	_	_	_	_	_
+218-5	12018-12023	tidak	*	[692_694]|positive[694]	_	_	_
+218-6	12024-12029	ribet	_	positive[694]	_	_	_
+218-7	12030-12031	.	_	_	_	_	_
+
+#Text=Scan nya lancar terus .
+219-1	12033-12037	Scan	_	concept[695]	_	_	_
+219-2	12038-12041	nya	_	_	_	_	_
+219-3	12042-12048	lancar	*	[695_696]|positive[696]	_	_	_
+219-4	12049-12054	terus	_	positive[696]	_	_	_
+219-5	12055-12056	.	_	_	_	_	_
+
+#Text=Tidak banyak pembaruan sehingga aplikasi mantap .
+220-1	12058-12063	Tidak	*	positive[697]|[698_697]	_	_	_
+220-2	12064-12070	banyak	_	positive[697]	_	_	_
+220-3	12071-12080	pembaruan	*	concept[698]|[699_698]	_	_	_
+220-4	12081-12089	sehingga	_	_	_	_	_
+220-5	12090-12098	aplikasi	_	concept[699]	_	_	_
+220-6	12099-12105	mantap	*	[699_700]|positive[700]	_	_	_
+220-7	12106-12107	.	_	_	_	_	_
+
+#Text=Aplikasi sangat stabil .
+221-1	12109-12117	Aplikasi	_	concept[701]	_	_	_
+221-2	12118-12124	sangat	*	[701_702]|positive[702]	_	_	_
+221-3	12125-12131	stabil	_	positive[702]	_	_	_
+221-4	12132-12133	.	_	_	_	_	_
+
+#Text=Koneksi dari aplikasi lancar jaya , mantap .
+222-1	12135-12142	Koneksi	*	concept[703]|[704_703]	_	_	_
+222-2	12143-12147	dari	_	_	_	_	_
+222-3	12148-12156	aplikasi	_	concept[704]	_	_	_
+222-4	12157-12163	lancar	*	[703_705]|positive[705]	_	_	_
+222-5	12164-12168	jaya	_	positive[705]	_	_	_
+222-6	12169-12170	,	_	_	_	_	_
+222-7	12171-12177	mantap	*	[703_706]|positive[706]	_	_	_
+222-8	12178-12179	.	_	_	_	_	_
+
+#Text=upload foto lancar terus pakai aplikasi ini .
+223-1	12181-12187	upload	*	concept[707]|[709_707]	_	_	_
+223-2	12188-12192	foto	_	concept[707]	_	_	_
+223-3	12193-12199	lancar	*	[707_708]|positive[708]	_	_	_
+223-4	12200-12205	terus	_	positive[708]	_	_	_
+223-5	12206-12211	pakai	_	_	_	_	_
+223-6	12212-12220	aplikasi	_	concept[709]	_	_	_
+223-7	12221-12224	ini	_	_	_	_	_
+223-8	12225-12226	.	_	_	_	_	_
+
+#Text=Fast respon banget aplikasi nya .
+224-1	12228-12232	Fast	*	[711_710]|positive[710]	_	_	_
+224-2	12233-12239	respon	*	positive[710]|concept[711]|[712_711]	_	_	_
+224-3	12240-12246	banget	_	positive[710]	_	_	_
+224-4	12247-12255	aplikasi	_	concept[712]	_	_	_
+224-5	12256-12259	nya	_	_	_	_	_
+224-6	12260-12261	.	_	_	_	_	_
+
+#Text=mudah sekali untuk upload .
+225-1	12263-12268	mudah	*	positive[713]|[714_713]	_	_	_
+225-2	12269-12275	sekali	_	positive[713]	_	_	_
+225-3	12276-12281	untuk	_	_	_	_	_
+225-4	12282-12288	upload	_	concept[714]	_	_	_
+225-5	12289-12290	.	_	_	_	_	_
+
+#Text=Fitur-fitur nya cukup membantu
+226-1	12292-12303	Fitur-fitur	_	concept[715]	_	_	_
+226-2	12304-12307	nya	_	_	_	_	_
+226-3	12308-12313	cukup	*	[715_716]|positive[716]	_	_	_
+226-4	12314-12322	membantu	_	positive[716]	_	_	_
+
+#Text=Menarik banget promo nya .
+227-1	12324-12331	Menarik	*	positive[717]|[718_717]	_	_	_
+227-2	12332-12338	banget	_	positive[717]	_	_	_
+227-3	12339-12344	promo	_	concept[718]	_	_	_
+227-4	12345-12348	nya	_	_	_	_	_
+227-5	12349-12350	.	_	_	_	_	_
+
+#Text=Aplikasi My Pertamina sangat bermanfaat dan mempermudah transaksi secara online .
+228-1	12352-12360	Aplikasi	_	_	_	_	_
+228-2	12361-12363	My	_	concept[719]	_	_	_
+228-3	12364-12373	Pertamina	_	concept[719]	_	_	_
+228-4	12374-12380	sangat	*	[719_720]|positive[720]	_	_	_
+228-5	12381-12391	bermanfaat	_	positive[720]	_	_	_
+228-6	12392-12395	dan	_	_	_	_	_
+228-7	12396-12407	mempermudah	*|*	positive[721]|[722_721]|[723_721]	_	_	_
+228-8	12408-12417	transaksi	*	[719_722]|concept[722]	_	_	_
+228-9	12418-12424	secara	_	_	_	_	_
+228-10	12425-12431	online	_	keterangan[723]	_	_	_
+228-11	12432-12433	.	_	_	_	_	_
+
+#Text=Semenjak di upgrade , saya bisa upload struk .
+229-1	12435-12443	Semenjak	_	_	_	_	_
+229-2	12444-12446	di	_	_	_	_	_
+229-3	12447-12454	upgrade	_	_	_	_	_
+229-4	12455-12456	,	_	_	_	_	_
+229-5	12457-12461	saya	_	_	_	_	_
+229-6	12462-12466	bisa	*	positive[724]|[725_724]	_	_	_
+229-7	12467-12473	upload	_	concept[725]	_	_	_
+229-8	12474-12479	struk	_	concept[725]	_	_	_
+229-9	12480-12481	.	_	_	_	_	_
+
+#Text=Aplikasi nya lebih bagus dari versi sebelumnya .
+230-1	12483-12491	Aplikasi	_	concept[726]	_	_	_
+230-2	12492-12495	nya	_	_	_	_	_
+230-3	12496-12501	lebih	*	[726_727]|positive[727]	_	_	_
+230-4	12502-12507	bagus	_	positive[727]	_	_	_
+230-5	12508-12512	dari	_	_	_	_	_
+230-6	12513-12518	versi	_	_	_	_	_
+230-7	12519-12529	sebelumnya	_	_	_	_	_
+230-8	12530-12531	.	_	_	_	_	_
+
+#Text=Sudah Lumayan bagus aplikasi nya , hanya perlu ditambahkan isian dalam upload struk pembelian yaitu nopol kendaraan yang mengisi BBK .
+231-1	12533-12538	Sudah	_	_	_	_	_
+231-2	12539-12546	Lumayan	*	positive[728]|[729_728]	_	_	_
+231-3	12547-12552	bagus	_	positive[728]	_	_	_
+231-4	12553-12561	aplikasi	_	concept[729]	_	_	_
+231-5	12562-12565	nya	_	_	_	_	_
+231-6	12566-12567	,	_	_	_	_	_
+231-7	12568-12573	hanya	_	_	_	_	_
+231-8	12574-12579	perlu	_	_	_	_	_
+231-9	12580-12591	ditambahkan	_	_	_	_	_
+231-10	12592-12597	isian	_	_	_	_	_
+231-11	12598-12603	dalam	_	_	_	_	_
+231-12	12604-12610	upload	_	_	_	_	_
+231-13	12611-12616	struk	_	_	_	_	_
+231-14	12617-12626	pembelian	_	_	_	_	_
+231-15	12627-12632	yaitu	_	_	_	_	_
+231-16	12633-12638	nopol	_	_	_	_	_
+231-17	12639-12648	kendaraan	_	_	_	_	_
+231-18	12649-12653	yang	_	_	_	_	_
+231-19	12654-12661	mengisi	_	_	_	_	_
+231-20	12662-12665	BBK	_	_	_	_	_
+231-21	12666-12667	.	_	_	_	_	_
+
+#Text=Aplikasi ini bermanfaat sekali . Memberi peluang kepada pelanggan pertamina untuk mendapatkan hadiah .
+232-1	12669-12677	Aplikasi	_	concept[730]	_	_	_
+232-2	12678-12681	ini	_	_	_	_	_
+232-3	12682-12692	bermanfaat	*	[730_731]|positive[731]	_	_	_
+232-4	12693-12699	sekali	_	positive[731]	_	_	_
+232-5	12700-12701	.	_	_	_	_	_
+232-6	12702-12709	Memberi	*	[730_732]|positive[732]	_	_	_
+232-7	12710-12717	peluang	_	positive[732]	_	_	_
+232-8	12718-12724	kepada	_	positive[732]	_	_	_
+232-9	12725-12734	pelanggan	_	positive[732]	_	_	_
+232-10	12735-12744	pertamina	_	positive[732]	_	_	_
+232-11	12745-12750	untuk	_	_	_	_	_
+232-12	12751-12762	mendapatkan	_	_	_	_	_
+232-13	12763-12769	hadiah	_	_	_	_	_
+232-14	12770-12771	.	_	_	_	_	_
+
+#Text=Setelah update , aplikasi menjadi lebih cepat untuk verifikasi kupon nya .
+233-1	12773-12780	Setelah	_	_	_	_	_
+233-2	12781-12787	update	_	_	_	_	_
+233-3	12788-12789	,	_	_	_	_	_
+233-4	12790-12798	aplikasi	_	concept[733]	_	_	_
+233-5	12799-12806	menjadi	_	_	_	_	_
+233-6	12807-12812	lebih	*	positive[734]|[735_734]	_	_	_
+233-7	12813-12818	cepat	_	positive[734]	_	_	_
+233-8	12819-12824	untuk	_	_	_	_	_
+233-9	12825-12835	verifikasi	*	[733_735]|concept[735]	_	_	_
+233-10	12836-12841	kupon	_	concept[735]	_	_	_
+233-11	12842-12845	nya	_	_	_	_	_
+233-12	12846-12847	.	_	_	_	_	_
+
+#Text=My Pertamina merupakan aplikasi yang bermanfaat bagi masyarakat untuk mencari pom bensin terdekat .
+234-1	12849-12851	My	_	concept[736]	_	_	_
+234-2	12852-12861	Pertamina	_	concept[736]	_	_	_
+234-3	12862-12871	merupakan	_	_	_	_	_
+234-4	12872-12880	aplikasi	_	_	_	_	_
+234-5	12881-12885	yang	_	_	_	_	_
+234-6	12886-12896	bermanfaat	*	positive[737]|[738_737]	_	_	_
+234-7	12897-12901	bagi	_	_	_	_	_
+234-8	12902-12912	masyarakat	_	_	_	_	_
+234-9	12913-12918	untuk	_	_	_	_	_
+234-10	12919-12926	mencari	*	[736_738]|concept[738]	_	_	_
+234-11	12927-12930	pom	_	concept[738]	_	_	_
+234-12	12931-12937	bensin	_	concept[738]	_	_	_
+234-13	12938-12946	terdekat	_	concept[738]	_	_	_
+234-14	12947-12948	.	_	_	_	_	_
+
+#Text=Apllikasi yang bagus untuk membantu dalam mengontrol penggunaan BBM , dengan program program yang menarik dari Pertamina .
+235-1	12950-12959	Apllikasi	*	concept[739]|[745_739]	_	_	_
+235-2	12960-12964	yang	_	_	_	_	_
+235-3	12965-12970	bagus	*	[739_740]|positive[740]	_	_	_
+235-4	12971-12976	untuk	_	_	_	_	_
+235-5	12977-12985	membantu	*	positive[741]|[742_741]	_	_	_
+235-6	12986-12991	dalam	_	_	_	_	_
+235-7	12992-13002	mengontrol	*	[739_742]|concept[742]	_	_	_
+235-8	13003-13013	penggunaan	_	concept[742]	_	_	_
+235-9	13014-13017	BBM	_	concept[742]	_	_	_
+235-10	13018-13019	,	_	_	_	_	_
+235-11	13020-13026	dengan	_	_	_	_	_
+235-12	13027-13034	program	_	_	_	_	_
+235-13	13035-13042	program	*	concept[743]|[745_743]	_	_	_
+235-14	13043-13047	yang	_	_	_	_	_
+235-15	13048-13055	menarik	*	[743_744]|positive[744]	_	_	_
+235-16	13056-13060	dari	_	_	_	_	_
+235-17	13061-13070	Pertamina	_	concept[745]	_	_	_
+235-18	13071-13072	.	_	_	_	_	_
+
+#Text=Upgrade My Pertamina ke versi baru sangat mudah .
+236-1	13074-13081	Upgrade	*	concept[746]|[747_746]	_	_	_
+236-2	13082-13084	My	_	concept[747]	_	_	_
+236-3	13085-13094	Pertamina	_	concept[747]	_	_	_
+236-4	13095-13097	ke	_	_	_	_	_
+236-5	13098-13103	versi	_	_	_	_	_
+236-6	13104-13108	baru	_	_	_	_	_
+236-7	13109-13115	sangat	*	[746_748]|positive[748]	_	_	_
+236-8	13116-13121	mudah	_	positive[748]	_	_	_
+236-9	13122-13123	.	_	_	_	_	_
+
+#Text=Pelayanan di My Pertamina menurut saya sangat memuaskan .
+237-1	13125-13134	Pelayanan	*	concept[749]|[750_749]	_	_	_
+237-2	13135-13137	di	_	_	_	_	_
+237-3	13138-13140	My	_	concept[750]	_	_	_
+237-4	13141-13150	Pertamina	_	concept[750]	_	_	_
+237-5	13151-13158	menurut	_	_	_	_	_
+237-6	13159-13163	saya	_	_	_	_	_
+237-7	13164-13170	sangat	*	[749_751]|positive[751]	_	_	_
+237-8	13171-13180	memuaskan	_	positive[751]	_	_	_
+237-9	13181-13182	.	_	_	_	_	_
+
+#Text=Aplikasi ini memuaskan dan saya masih belum menemui kendala yang berarti .
+238-1	13184-13192	Aplikasi	_	concept[752]	_	_	_
+238-2	13193-13196	ini	_	_	_	_	_
+238-3	13197-13206	memuaskan	*	[752_753]|positive[753]	_	_	_
+238-4	13207-13210	dan	_	_	_	_	_
+238-5	13211-13215	saya	_	_	_	_	_
+238-6	13216-13221	masih	_	_	_	_	_
+238-7	13222-13227	belum	*	[752_754]|positive[754]	_	_	_
+238-8	13228-13235	menemui	_	positive[754]	_	_	_
+238-9	13236-13243	kendala	_	positive[754]	_	_	_
+238-10	13244-13248	yang	_	_	_	_	_
+238-11	13249-13256	berarti	_	_	_	_	_
+238-12	13257-13258	.	_	_	_	_	_
+
+#Text=Aplikasi nya mantap dan bagus , kemudian setelah di upgrade aplikasi pun jadi cepat proses scanning struk nya .
+239-1	13260-13268	Aplikasi	_	concept[755]	_	_	_
+239-2	13269-13272	nya	_	_	_	_	_
+239-3	13273-13279	mantap	*	[755_756]|positive[756]	_	_	_
+239-4	13280-13283	dan	_	_	_	_	_
+239-5	13284-13289	bagus	*	[755_757]|positive[757]	_	_	_
+239-6	13290-13291	,	_	_	_	_	_
+239-7	13292-13300	kemudian	_	_	_	_	_
+239-8	13301-13308	setelah	_	_	_	_	_
+239-9	13309-13311	di	_	_	_	_	_
+239-10	13312-13319	upgrade	_	_	_	_	_
+239-11	13320-13328	aplikasi	_	concept[758]	_	_	_
+239-12	13329-13332	pun	_	_	_	_	_
+239-13	13333-13337	jadi	*	positive[759]|[760_759]	_	_	_
+239-14	13338-13343	cepat	_	positive[759]	_	_	_
+239-15	13344-13350	proses	*	concept[760]|[761_760]	_	_	_
+239-16	13351-13359	scanning	*	[758_761]|concept[761]	_	_	_
+239-17	13360-13365	struk	_	concept[761]	_	_	_
+239-18	13366-13369	nya	_	_	_	_	_
+239-19	13370-13371	.	_	_	_	_	_
+
+#Text=Aplikasi ini bagus banget , terlengkap pertama untuk perusahaan , setau saya ini belum ada di perusahaan manapun .
+240-1	13373-13381	Aplikasi	_	concept[762]	_	_	_
+240-2	13382-13385	ini	_	_	_	_	_
+240-3	13386-13391	bagus	*	[762_763]|positive[763]	_	_	_
+240-4	13392-13398	banget	_	positive[763]	_	_	_
+240-5	13399-13400	,	_	_	_	_	_
+240-6	13401-13411	terlengkap	*	[762_764]|positive[764]	_	_	_
+240-7	13412-13419	pertama	_	_	_	_	_
+240-8	13420-13425	untuk	_	_	_	_	_
+240-9	13426-13436	perusahaan	_	_	_	_	_
+240-10	13437-13438	,	_	_	_	_	_
+240-11	13439-13444	setau	_	_	_	_	_
+240-12	13445-13449	saya	_	_	_	_	_
+240-13	13450-13453	ini	_	_	_	_	_
+240-14	13454-13459	belum	*	[762_765]|positive[765]	_	_	_
+240-15	13460-13463	ada	_	positive[765]	_	_	_
+240-16	13464-13466	di	_	positive[765]	_	_	_
+240-17	13467-13477	perusahaan	_	positive[765]	_	_	_
+240-18	13478-13485	manapun	_	positive[765]	_	_	_
+240-19	13486-13487	.	_	_	_	_	_
+
+#Text=Aplikasi yang memudahkan semua orang .
+241-1	13489-13497	Aplikasi	_	concept[766]	_	_	_
+241-2	13498-13502	yang	_	_	_	_	_
+241-3	13503-13513	memudahkan	*	[766_767]|positive[767]	_	_	_
+241-4	13514-13519	semua	_	positive[767]	_	_	_
+241-5	13520-13525	orang	_	positive[767]	_	_	_
+241-6	13526-13527	.	_	_	_	_	_
+
+#Text=aplikasi my pertamina imi menurut saya sudah sangat bagus dan sangat mudah dan cepat untuk diakses dari lokasi manapun berada .
+242-1	13529-13537	aplikasi	_	_	_	_	_
+242-2	13538-13540	my	_	concept[768]	_	_	_
+242-3	13541-13550	pertamina	_	concept[768]	_	_	_
+242-4	13551-13554	imi	_	_	_	_	_
+242-5	13555-13562	menurut	_	_	_	_	_
+242-6	13563-13567	saya	_	_	_	_	_
+242-7	13568-13573	sudah	_	_	_	_	_
+242-8	13574-13580	sangat	*	[768_769]|positive[769]	_	_	_
+242-9	13581-13586	bagus	_	positive[769]	_	_	_
+242-10	13587-13590	dan	_	_	_	_	_
+242-11	13591-13597	sangat	*	positive[770]|[772_770]	_	_	_
+242-12	13598-13603	mudah	_	positive[770]	_	_	_
+242-13	13604-13607	dan	_	_	_	_	_
+242-14	13608-13613	cepat	*	positive[771]|[772_771]	_	_	_
+242-15	13614-13619	untuk	_	_	_	_	_
+242-16	13620-13627	diakses	*	[768_772]|concept[772]	_	_	_
+242-17	13628-13632	dari	_	_	_	_	_
+242-18	13633-13639	lokasi	_	_	_	_	_
+242-19	13640-13647	manapun	_	_	_	_	_
+242-20	13648-13654	berada	_	_	_	_	_
+242-21	13655-13656	.	_	_	_	_	_
+
+#Text=Alhamdulilah , dengan menggunakan aplikasi mypertamina bisa membantu memanage keuangan pribadi ( karena ada struk , menghindari lupa ) makasih mypertamina .
+243-1	13658-13670	Alhamdulilah	_	_	_	_	_
+243-2	13671-13672	,	_	_	_	_	_
+243-3	13673-13679	dengan	_	_	_	_	_
+243-4	13680-13691	menggunakan	_	_	_	_	_
+243-5	13692-13700	aplikasi	_	_	_	_	_
+243-6	13701-13712	mypertamina	_	concept[773]	_	_	_
+243-7	13713-13717	bisa	*	[773_774]|positive[774]	_	_	_
+243-8	13718-13726	membantu	_	positive[774]	_	_	_
+243-9	13727-13735	memanage	_	positive[774]	_	_	_
+243-10	13736-13744	keuangan	_	positive[774]	_	_	_
+243-11	13745-13752	pribadi	_	positive[774]	_	_	_
+243-12	13753-13754	(	_	_	_	_	_
+243-13	13755-13761	karena	_	_	_	_	_
+243-14	13762-13765	ada	_	_	_	_	_
+243-15	13766-13771	struk	_	_	_	_	_
+243-16	13772-13773	,	_	_	_	_	_
+243-17	13774-13785	menghindari	_	_	_	_	_
+243-18	13786-13790	lupa	_	_	_	_	_
+243-19	13791-13792	)	_	_	_	_	_
+243-20	13793-13800	makasih	_	_	_	_	_
+243-21	13801-13812	mypertamina	_	_	_	_	_
+243-22	13813-13814	.	_	_	_	_	_
+
+#Text=Sejauh ini lancar lancar saja dalam melakukan upload struk . Setelah perbaikan tambah cepat dalam melakukan verifikasi struk .
+244-1	13816-13822	Sejauh	_	_	_	_	_
+244-2	13823-13826	ini	_	_	_	_	_
+244-3	13827-13833	lancar	*	positive[775]|[777_775]	_	_	_
+244-4	13834-13840	lancar	*	positive[776]|[777_776]	_	_	_
+244-5	13841-13845	saja	_	_	_	_	_
+244-6	13846-13851	dalam	_	_	_	_	_
+244-7	13852-13861	melakukan	_	_	_	_	_
+244-8	13862-13868	upload	_	concept[777]	_	_	_
+244-9	13869-13874	struk	_	concept[777]	_	_	_
+244-10	13875-13876	.	_	_	_	_	_
+244-11	13877-13884	Setelah	_	_	_	_	_
+244-12	13885-13894	perbaikan	_	_	_	_	_
+244-13	13895-13901	tambah	*	positive[778]|[779_778]	_	_	_
+244-14	13902-13907	cepat	_	positive[778]	_	_	_
+244-15	13908-13913	dalam	_	_	_	_	_
+244-16	13914-13923	melakukan	_	_	_	_	_
+244-17	13924-13934	verifikasi	_	concept[779]	_	_	_
+244-18	13935-13940	struk	_	concept[779]	_	_	_
+244-19	13941-13942	.	_	_	_	_	_
+
+#Text=Pokok nya Mypertamina ok banget deh , scanning lancar , verifikasi nya juga cepet baru scan langsung terverifikasi .
+245-1	13944-13949	Pokok	_	_	_	_	_
+245-2	13950-13953	nya	_	_	_	_	_
+245-3	13954-13965	Mypertamina	_	concept[780]	_	_	_
+245-4	13966-13968	ok	*	[780_781]|positive[781]	_	_	_
+245-5	13969-13975	banget	_	positive[781]	_	_	_
+245-6	13976-13979	deh	_	_	_	_	_
+245-7	13980-13981	,	_	_	_	_	_
+245-8	13982-13990	scanning	*	[780_782]|concept[782]	_	_	_
+245-9	13991-13997	lancar	*	[782_783]|positive[783]	_	_	_
+245-10	13998-13999	,	_	_	_	_	_
+245-11	14000-14010	verifikasi	*	[780_784]|concept[784]	_	_	_
+245-12	14011-14014	nya	_	_	_	_	_
+245-13	14015-14019	juga	_	_	_	_	_
+245-14	14020-14025	cepet	*	[784_785]|positive[785]	_	_	_
+245-15	14026-14030	baru	_	_	_	_	_
+245-16	14031-14035	scan	*	[780_786]|concept[786]	_	_	_
+245-17	14036-14044	langsung	*	[786_787]|positive[787]	_	_	_
+245-18	14045-14058	terverifikasi	_	positive[787]	_	_	_
+245-19	14059-14060	.	_	_	_	_	_
+
+#Text=My Pertamina itu memudahkan pelanggan .
+246-1	14062-14064	My	_	concept[788]	_	_	_
+246-2	14065-14074	Pertamina	_	concept[788]	_	_	_
+246-3	14075-14078	itu	_	_	_	_	_
+246-4	14079-14089	memudahkan	*	[788_789]|positive[789]	_	_	_
+246-5	14090-14099	pelanggan	_	positive[789]	_	_	_
+246-6	14100-14101	.	_	_	_	_	_
+
+#Text=Cukup mudah deh upload foto .
+247-1	14103-14108	Cukup	*	positive[790]|[791_790]	_	_	_
+247-2	14109-14114	mudah	_	positive[790]	_	_	_
+247-3	14115-14118	deh	_	_	_	_	_
+247-4	14119-14125	upload	_	concept[791]	_	_	_
+247-5	14126-14130	foto	_	concept[791]	_	_	_
+247-6	14131-14132	.	_	_	_	_	_
+
+#Text=Aplikasi idaman deh .
+248-1	14134-14142	Aplikasi	_	concept[792]	_	_	_
+248-2	14143-14149	idaman	*	[792_793]|positive[793]	_	_	_
+248-3	14150-14153	deh	_	_	_	_	_
+248-4	14154-14155	.	_	_	_	_	_
+
+#Text=Scan selalu berhasil .
+249-1	14157-14161	Scan	_	concept[794]	_	_	_
+249-2	14162-14168	selalu	*	[794_795]|positive[795]	_	_	_
+249-3	14169-14177	berhasil	_	positive[795]	_	_	_
+249-4	14178-14179	.	_	_	_	_	_
+
+#Text=Selalu bisa upload struk .
+250-1	14181-14187	Selalu	*	positive[796]|[797_796]	_	_	_
+250-2	14188-14192	bisa	_	positive[796]	_	_	_
+250-3	14193-14199	upload	_	concept[797]	_	_	_
+250-4	14200-14205	struk	_	concept[797]	_	_	_
+250-5	14206-14207	.	_	_	_	_	_

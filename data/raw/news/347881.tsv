@@ -1,0 +1,619 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Dunia telah menghadapi pandemi virus corona selama tiga tahun .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-32	Dunia	_	_	_	_	_
+1-7	33-38	telah	_	_	_	_	_
+1-8	39-49	menghadapi	_	_	_	_	_
+1-9	50-57	pandemi	_	_	_	_	_
+1-10	58-63	virus	_	_	_	_	_
+1-11	64-70	corona	_	_	_	_	_
+1-12	71-77	selama	_	_	_	_	_
+1-13	78-82	tiga	_	_	_	_	_
+1-14	83-88	tahun	_	_	_	_	_
+1-15	89-90	.	_	_	_	_	_
+
+#Text=Ratusan negara dan wilayah sudah terinfeksi .
+2-1	92-99	Ratusan	_	_	_	_	_
+2-2	100-106	negara	_	_	_	_	_
+2-3	107-110	dan	_	_	_	_	_
+2-4	111-118	wilayah	_	_	_	_	_
+2-5	119-124	sudah	_	_	_	_	_
+2-6	125-135	terinfeksi	_	_	_	_	_
+2-7	136-137	.	_	_	_	_	_
+
+#Text=Mengutip data Worldometers , kasus Covid - 19 di dunia kini telah melampaui 428 juta dengan lebih dari 5,9 juta orang meninggal dunia .
+3-1	139-147	Mengutip	_	_	_	_	_
+3-2	148-152	data	_	_	_	_	_
+3-3	153-165	Worldometers	_	_	_	_	_
+3-4	166-167	,	_	_	_	_	_
+3-5	168-173	kasus	_	_	_	_	_
+3-6	174-179	Covid	_	_	_	_	_
+3-7	180-181	-	_	_	_	_	_
+3-8	182-184	19	_	_	_	_	_
+3-9	185-187	di	_	_	_	_	_
+3-10	188-193	dunia	_	_	_	_	_
+3-11	194-198	kini	_	_	_	_	_
+3-12	199-204	telah	_	_	_	_	_
+3-13	205-214	melampaui	_	_	_	_	_
+3-14	215-218	428	_	_	_	_	_
+3-15	219-223	juta	_	_	_	_	_
+3-16	224-230	dengan	_	_	_	_	_
+3-17	231-236	lebih	_	_	_	_	_
+3-18	237-241	dari	_	_	_	_	_
+3-19	242-245	5,9	_	_	_	_	_
+3-20	246-250	juta	_	_	_	_	_
+3-21	251-256	orang	_	_	_	_	_
+3-22	257-266	meninggal	_	_	_	_	_
+3-23	267-272	dunia	_	_	_	_	_
+3-24	273-274	.	_	_	_	_	_
+
+#Text=Namun sejauh ini ada beberapa negara yang masih belum tersentuh oleh pandemi , alias nol kasus Covid - 19 .
+4-1	276-281	Namun	_	_	_	_	_
+4-2	282-288	sejauh	_	_	_	_	_
+4-3	289-292	ini	_	_	_	_	_
+4-4	293-296	ada	_	_	_	_	_
+4-5	297-305	beberapa	_	_	_	_	_
+4-6	306-312	negara	_	_	_	_	_
+4-7	313-317	yang	_	_	_	_	_
+4-8	318-323	masih	_	_	_	_	_
+4-9	324-329	belum	_	_	_	_	_
+4-10	330-339	tersentuh	_	_	_	_	_
+4-11	340-344	oleh	_	_	_	_	_
+4-12	345-352	pandemi	_	_	_	_	_
+4-13	353-354	,	_	_	_	_	_
+4-14	355-360	alias	_	_	_	_	_
+4-15	361-364	nol	_	positive[1]	_	_	_
+4-16	365-370	kasus	_	concept[2]	_	_	_
+4-17	371-376	Covid	_	concept[2]	_	_	_
+4-18	377-378	-	_	concept[2]	_	_	_
+4-19	379-381	19	_	concept[2]	_	_	_
+4-20	382-383	.	_	_	_	_	_
+
+#Text=Meskipun negara-negara ini melaporkan nol kasus , tidak menutup kemungkinan bahwa beberapa kasus mungkin tidak terdeteksi .
+5-1	385-393	Meskipun	_	_	_	_	_
+5-2	394-407	negara-negara	_	_	_	_	_
+5-3	408-411	ini	_	_	_	_	_
+5-4	412-422	melaporkan	_	_	_	_	_
+5-5	423-426	nol	_	_	_	_	_
+5-6	427-432	kasus	_	_	_	_	_
+5-7	433-434	,	_	_	_	_	_
+5-8	435-440	tidak	_	_	_	_	_
+5-9	441-448	menutup	_	_	_	_	_
+5-10	449-460	kemungkinan	_	_	_	_	_
+5-11	461-466	bahwa	_	_	_	_	_
+5-12	467-475	beberapa	_	_	_	_	_
+5-13	476-481	kasus	_	_	_	_	_
+5-14	482-489	mungkin	_	_	_	_	_
+5-15	490-495	tidak	_	_	_	_	_
+5-16	496-506	terdeteksi	_	_	_	_	_
+5-17	507-508	.	_	_	_	_	_
+
+#Text=Bisa jadi karena data terbaru akurat sulit diperoleh dari beberapa negara .
+6-1	510-514	Bisa	_	_	_	_	_
+6-2	515-519	jadi	_	_	_	_	_
+6-3	520-526	karena	_	_	_	_	_
+6-4	527-531	data	_	concept[3]	_	_	_
+6-5	532-539	terbaru	_	_	_	_	_
+6-6	540-546	akurat	_	_	_	_	_
+6-7	547-552	sulit	_	negative[4]	_	_	_
+6-8	553-562	diperoleh	_	negative[4]	_	_	_
+6-9	563-567	dari	_	_	_	_	_
+6-10	568-576	beberapa	_	_	_	_	_
+6-11	577-583	negara	_	_	_	_	_
+6-12	584-585	.	_	_	_	_	_
+
+#Text=Seperti yang dicatat oleh Associated Press , dua negara yakni Korea Utara dan Turkmenistan yang menarik diri dari komunitas internasional tentang keakuratan catatan data kesehatan mereka .
+7-1	587-594	Seperti	_	_	_	_	_
+7-2	595-599	yang	_	_	_	_	_
+7-3	600-607	dicatat	_	_	_	_	_
+7-4	608-612	oleh	_	_	_	_	_
+7-5	613-623	Associated	_	_	_	_	_
+7-6	624-629	Press	_	_	_	_	_
+7-7	630-631	,	_	_	_	_	_
+7-8	632-635	dua	_	_	_	_	_
+7-9	636-642	negara	_	_	_	_	_
+7-10	643-648	yakni	_	_	_	_	_
+7-11	649-654	Korea	_	_	_	_	_
+7-12	655-660	Utara	_	_	_	_	_
+7-13	661-664	dan	_	_	_	_	_
+7-14	665-677	Turkmenistan	_	_	_	_	_
+7-15	678-682	yang	_	_	_	_	_
+7-16	683-690	menarik	_	_	_	_	_
+7-17	691-695	diri	_	_	_	_	_
+7-18	696-700	dari	_	_	_	_	_
+7-19	701-710	komunitas	_	_	_	_	_
+7-20	711-724	internasional	_	_	_	_	_
+7-21	725-732	tentang	_	_	_	_	_
+7-22	733-743	keakuratan	_	_	_	_	_
+7-23	744-751	catatan	_	_	_	_	_
+7-24	752-756	data	_	_	_	_	_
+7-25	757-766	kesehatan	_	_	_	_	_
+7-26	767-773	mereka	_	_	_	_	_
+7-27	774-775	.	_	_	_	_	_
+
+#Text=Berikut ini daftar negara dan wilayah yang tidak tercatat memiliki kasus Covid - 19 , dirangkum CNBC Indonesia dari berbagai sumber , Rabu ( 23 / 2 / 2022 ) .
+8-1	777-784	Berikut	_	_	_	_	_
+8-2	785-788	ini	_	_	_	_	_
+8-3	789-795	daftar	_	_	_	_	_
+8-4	796-802	negara	_	_	_	_	_
+8-5	803-806	dan	_	_	_	_	_
+8-6	807-814	wilayah	_	_	_	_	_
+8-7	815-819	yang	_	_	_	_	_
+8-8	820-825	tidak	_	_	_	_	_
+8-9	826-834	tercatat	_	_	_	_	_
+8-10	835-843	memiliki	_	_	_	_	_
+8-11	844-849	kasus	_	_	_	_	_
+8-12	850-855	Covid	_	_	_	_	_
+8-13	856-857	-	_	_	_	_	_
+8-14	858-860	19	_	_	_	_	_
+8-15	861-862	,	_	_	_	_	_
+8-16	863-872	dirangkum	_	_	_	_	_
+8-17	873-877	CNBC	_	_	_	_	_
+8-18	878-887	Indonesia	_	_	_	_	_
+8-19	888-892	dari	_	_	_	_	_
+8-20	893-901	berbagai	_	_	_	_	_
+8-21	902-908	sumber	_	_	_	_	_
+8-22	909-910	,	_	_	_	_	_
+8-23	911-915	Rabu	_	_	_	_	_
+8-24	916-917	(	_	_	_	_	_
+8-25	918-920	23	_	_	_	_	_
+8-26	921-922	/	_	_	_	_	_
+8-27	923-924	2	_	_	_	_	_
+8-28	925-926	/	_	_	_	_	_
+8-29	927-931	2022	_	_	_	_	_
+8-30	932-933	)	_	_	_	_	_
+8-31	934-935	.	_	_	_	_	_
+
+#Text=1 .
+9-1	937-938	1	_	_	_	_	_
+9-2	939-940	.	_	_	_	_	_
+
+#Text=Tuvalu Terletak antara Hawaii dan Australia , Tuvalu terdiri dari tiga pulau karang dan enam atol .
+10-1	942-948	Tuvalu	_	_	_	_	_
+10-2	949-957	Terletak	_	_	_	_	_
+10-3	958-964	antara	_	_	_	_	_
+10-4	965-971	Hawaii	_	_	_	_	_
+10-5	972-975	dan	_	_	_	_	_
+10-6	976-985	Australia	_	_	_	_	_
+10-7	986-987	,	_	_	_	_	_
+10-8	988-994	Tuvalu	_	_	_	_	_
+10-9	995-1002	terdiri	_	_	_	_	_
+10-10	1003-1007	dari	_	_	_	_	_
+10-11	1008-1012	tiga	_	_	_	_	_
+10-12	1013-1018	pulau	_	_	_	_	_
+10-13	1019-1025	karang	_	_	_	_	_
+10-14	1026-1029	dan	_	_	_	_	_
+10-15	1030-1034	enam	_	_	_	_	_
+10-16	1035-1039	atol	_	_	_	_	_
+10-17	1040-1041	.	_	_	_	_	_
+
+#Text=Tuvalu memiliki luas gabungan sekitar 10 mil persegi dan populasi lebih dari 10.000 .
+11-1	1043-1049	Tuvalu	_	_	_	_	_
+11-2	1050-1058	memiliki	_	_	_	_	_
+11-3	1059-1063	luas	_	_	_	_	_
+11-4	1064-1072	gabungan	_	_	_	_	_
+11-5	1073-1080	sekitar	_	_	_	_	_
+11-6	1081-1083	10	_	_	_	_	_
+11-7	1084-1087	mil	_	_	_	_	_
+11-8	1088-1095	persegi	_	_	_	_	_
+11-9	1096-1099	dan	_	_	_	_	_
+11-10	1100-1108	populasi	_	_	_	_	_
+11-11	1109-1114	lebih	_	_	_	_	_
+11-12	1115-1119	dari	_	_	_	_	_
+11-13	1120-1126	10.000	_	_	_	_	_
+11-14	1127-1128	.	_	_	_	_	_
+
+#Text=Negara merdeka anggota Persemakmuran itu telah melihat keberhasilan dalam menutup perbatasan nya untuk bepergian , dengan karantina wajib dalam beberapa kasus .
+12-1	1130-1136	Negara	_	_	_	_	_
+12-2	1137-1144	merdeka	_	_	_	_	_
+12-3	1145-1152	anggota	_	_	_	_	_
+12-4	1153-1166	Persemakmuran	_	_	_	_	_
+12-5	1167-1170	itu	_	_	_	_	_
+12-6	1171-1176	telah	_	_	_	_	_
+12-7	1177-1184	melihat	_	_	_	_	_
+12-8	1185-1197	keberhasilan	_	positive[5]	_	_	_
+12-9	1198-1203	dalam	_	_	_	_	_
+12-10	1204-1211	menutup	_	concept[6]	_	_	_
+12-11	1212-1222	perbatasan	_	concept[6]	_	_	_
+12-12	1223-1226	nya	_	concept[6]	_	_	_
+12-13	1227-1232	untuk	_	_	_	_	_
+12-14	1233-1242	bepergian	_	_	_	_	_
+12-15	1243-1244	,	_	_	_	_	_
+12-16	1245-1251	dengan	_	_	_	_	_
+12-17	1252-1261	karantina	_	_	_	_	_
+12-18	1262-1267	wajib	_	_	_	_	_
+12-19	1268-1273	dalam	_	_	_	_	_
+12-20	1274-1282	beberapa	_	_	_	_	_
+12-21	1283-1288	kasus	_	_	_	_	_
+12-22	1289-1290	.	_	_	_	_	_
+
+#Text=2 .
+13-1	1292-1293	2	_	_	_	_	_
+13-2	1294-1295	.	_	_	_	_	_
+
+#Text=Tokelau Kelompok kecil atol di Pasifik Selatan itu telah terdaftar sebagai bebas Covid - 19 oleh WHO .
+14-1	1297-1304	Tokelau	_	_	_	_	_
+14-2	1305-1313	Kelompok	_	_	_	_	_
+14-3	1314-1319	kecil	_	_	_	_	_
+14-4	1320-1324	atol	_	_	_	_	_
+14-5	1325-1327	di	_	_	_	_	_
+14-6	1328-1335	Pasifik	_	_	_	_	_
+14-7	1336-1343	Selatan	_	_	_	_	_
+14-8	1344-1347	itu	_	_	_	_	_
+14-9	1348-1353	telah	_	_	_	_	_
+14-10	1354-1363	terdaftar	_	_	_	_	_
+14-11	1364-1371	sebagai	_	_	_	_	_
+14-12	1372-1377	bebas	_	_	_	_	_
+14-13	1378-1383	Covid	_	_	_	_	_
+14-14	1384-1385	-	_	_	_	_	_
+14-15	1386-1388	19	_	_	_	_	_
+14-16	1389-1393	oleh	_	_	_	_	_
+14-17	1394-1397	WHO	_	_	_	_	_
+14-18	1398-1399	.	_	_	_	_	_
+
+#Text=Pulau ini terletak di dekat Selandia Baru dan memiliki satu bandara , dengan populasi 1.500 .
+15-1	1401-1406	Pulau	_	_	_	_	_
+15-2	1407-1410	ini	_	_	_	_	_
+15-3	1411-1419	terletak	_	_	_	_	_
+15-4	1420-1422	di	_	_	_	_	_
+15-5	1423-1428	dekat	_	_	_	_	_
+15-6	1429-1437	Selandia	_	_	_	_	_
+15-7	1438-1442	Baru	_	_	_	_	_
+15-8	1443-1446	dan	_	_	_	_	_
+15-9	1447-1455	memiliki	_	_	_	_	_
+15-10	1456-1460	satu	_	_	_	_	_
+15-11	1461-1468	bandara	_	_	_	_	_
+15-12	1469-1470	,	_	_	_	_	_
+15-13	1471-1477	dengan	_	_	_	_	_
+15-14	1478-1486	populasi	_	_	_	_	_
+15-15	1487-1492	1.500	_	_	_	_	_
+15-16	1493-1494	.	_	_	_	_	_
+
+#Text=3 .
+16-1	1496-1497	3	_	_	_	_	_
+16-2	1498-1499	.	_	_	_	_	_
+
+#Text=Turkmenistan Turkmenistan belum secara resmi mengakui ada nya kasus virus corona .
+17-1	1501-1513	Turkmenistan	_	_	_	_	_
+17-2	1514-1526	Turkmenistan	_	_	_	_	_
+17-3	1527-1532	belum	_	_	_	_	_
+17-4	1533-1539	secara	_	_	_	_	_
+17-5	1540-1545	resmi	_	_	_	_	_
+17-6	1546-1554	mengakui	_	_	_	_	_
+17-7	1555-1558	ada	_	_	_	_	_
+17-8	1559-1562	nya	_	_	_	_	_
+17-9	1563-1568	kasus	_	_	_	_	_
+17-10	1569-1574	virus	_	_	_	_	_
+17-11	1575-1581	corona	_	_	_	_	_
+17-12	1582-1583	.	_	_	_	_	_
+
+#Text=Pemerintah setempat telah melakukan pembatasan terhadap semua perjalanan komersial , acara keagamaan massal dan mendorong jarak sosial dan pemakaian masker , lapor Associated Press .
+18-1	1585-1595	Pemerintah	_	_	_	_	_
+18-2	1596-1604	setempat	_	_	_	_	_
+18-3	1605-1610	telah	_	_	_	_	_
+18-4	1611-1620	melakukan	_	_	_	_	_
+18-5	1621-1631	pembatasan	_	_	_	_	_
+18-6	1632-1640	terhadap	_	_	_	_	_
+18-7	1641-1646	semua	_	_	_	_	_
+18-8	1647-1657	perjalanan	_	_	_	_	_
+18-9	1658-1667	komersial	_	_	_	_	_
+18-10	1668-1669	,	_	_	_	_	_
+18-11	1670-1675	acara	_	_	_	_	_
+18-12	1676-1685	keagamaan	_	_	_	_	_
+18-13	1686-1692	massal	_	_	_	_	_
+18-14	1693-1696	dan	_	_	_	_	_
+18-15	1697-1706	mendorong	_	_	_	_	_
+18-16	1707-1712	jarak	_	_	_	_	_
+18-17	1713-1719	sosial	_	_	_	_	_
+18-18	1720-1723	dan	_	_	_	_	_
+18-19	1724-1733	pemakaian	_	_	_	_	_
+18-20	1734-1740	masker	_	_	_	_	_
+18-21	1741-1742	,	_	_	_	_	_
+18-22	1743-1748	lapor	_	_	_	_	_
+18-23	1749-1759	Associated	_	_	_	_	_
+18-24	1760-1765	Press	_	_	_	_	_
+18-25	1766-1767	.	_	_	_	_	_
+
+#Text=4 .
+19-1	1769-1770	4	_	_	_	_	_
+19-2	1771-1772	.	_	_	_	_	_
+
+#Text=Kepulauan Pitcairn Pulau-pulau ini terletak di Samudra Pasifik .
+20-1	1774-1783	Kepulauan	_	_	_	_	_
+20-2	1784-1792	Pitcairn	_	_	_	_	_
+20-3	1793-1804	Pulau-pulau	_	_	_	_	_
+20-4	1805-1808	ini	_	_	_	_	_
+20-5	1809-1817	terletak	_	_	_	_	_
+20-6	1818-1820	di	_	_	_	_	_
+20-7	1821-1828	Samudra	_	_	_	_	_
+20-8	1829-1836	Pasifik	_	_	_	_	_
+20-9	1837-1838	.	_	_	_	_	_
+
+#Text=Terdiri dari empat pulau , yaitu Henderson , Oeno , Pitcairn dan Ducie .
+21-1	1840-1847	Terdiri	_	_	_	_	_
+21-2	1848-1852	dari	_	_	_	_	_
+21-3	1853-1858	empat	_	_	_	_	_
+21-4	1859-1864	pulau	_	_	_	_	_
+21-5	1865-1866	,	_	_	_	_	_
+21-6	1867-1872	yaitu	_	_	_	_	_
+21-7	1873-1882	Henderson	_	_	_	_	_
+21-8	1883-1884	,	_	_	_	_	_
+21-9	1885-1889	Oeno	_	_	_	_	_
+21-10	1890-1891	,	_	_	_	_	_
+21-11	1892-1900	Pitcairn	_	_	_	_	_
+21-12	1901-1904	dan	_	_	_	_	_
+21-13	1905-1910	Ducie	_	_	_	_	_
+21-14	1911-1912	.	_	_	_	_	_
+
+#Text=Sesuai catatan , orang Polinesia adalah penghuni pertama Kepulauan Pitcairn , dan itu satu-satunya pulau yang berpenghuni .
+22-1	1914-1920	Sesuai	_	_	_	_	_
+22-2	1921-1928	catatan	_	_	_	_	_
+22-3	1929-1930	,	_	_	_	_	_
+22-4	1931-1936	orang	_	_	_	_	_
+22-5	1937-1946	Polinesia	_	_	_	_	_
+22-6	1947-1953	adalah	_	_	_	_	_
+22-7	1954-1962	penghuni	_	_	_	_	_
+22-8	1963-1970	pertama	_	_	_	_	_
+22-9	1971-1980	Kepulauan	_	_	_	_	_
+22-10	1981-1989	Pitcairn	_	_	_	_	_
+22-11	1990-1991	,	_	_	_	_	_
+22-12	1992-1995	dan	_	_	_	_	_
+22-13	1996-1999	itu	_	_	_	_	_
+22-14	2000-2012	satu-satunya	_	_	_	_	_
+22-15	2013-2018	pulau	_	_	_	_	_
+22-16	2019-2023	yang	_	_	_	_	_
+22-17	2024-2035	berpenghuni	_	_	_	_	_
+22-18	2036-2037	.	_	_	_	_	_
+
+#Text=Juga sesuai catatan , ia memiliki populasi hanya 50 orang dan mereka berhasil menjauh dari virus corona .
+23-1	2039-2043	Juga	_	_	_	_	_
+23-2	2044-2050	sesuai	_	_	_	_	_
+23-3	2051-2058	catatan	_	_	_	_	_
+23-4	2059-2060	,	_	_	_	_	_
+23-5	2061-2063	ia	_	_	_	_	_
+23-6	2064-2072	memiliki	_	_	_	_	_
+23-7	2073-2081	populasi	_	_	_	_	_
+23-8	2082-2087	hanya	_	_	_	_	_
+23-9	2088-2090	50	_	_	_	_	_
+23-10	2091-2096	orang	_	_	_	_	_
+23-11	2097-2100	dan	_	_	_	_	_
+23-12	2101-2107	mereka	_	_	_	_	_
+23-13	2108-2116	berhasil	_	_	_	_	_
+23-14	2117-2124	menjauh	_	_	_	_	_
+23-15	2125-2129	dari	_	_	_	_	_
+23-16	2130-2135	virus	_	_	_	_	_
+23-17	2136-2142	corona	_	_	_	_	_
+23-18	2143-2144	.	_	_	_	_	_
+
+#Text=5 .
+24-1	2146-2147	5	_	_	_	_	_
+24-2	2148-2149	.	_	_	_	_	_
+
+#Text=Saint Helena Saint Helena merupakan Wilayah Luar Negeri Inggris di Samudra Atlantik Selatan .
+25-1	2151-2156	Saint	_	_	_	_	_
+25-2	2157-2163	Helena	_	_	_	_	_
+25-3	2164-2169	Saint	_	_	_	_	_
+25-4	2170-2176	Helena	_	_	_	_	_
+25-5	2177-2186	merupakan	_	_	_	_	_
+25-6	2187-2194	Wilayah	_	_	_	_	_
+25-7	2195-2199	Luar	_	_	_	_	_
+25-8	2200-2206	Negeri	_	_	_	_	_
+25-9	2207-2214	Inggris	_	_	_	_	_
+25-10	2215-2217	di	_	_	_	_	_
+25-11	2218-2225	Samudra	_	_	_	_	_
+25-12	2226-2234	Atlantik	_	_	_	_	_
+25-13	2235-2242	Selatan	_	_	_	_	_
+25-14	2243-2244	.	_	_	_	_	_
+
+#Text=Saint Helena dianggap sebagai salah satu tempat paling terpencil di dunia .
+26-1	2246-2251	Saint	_	concept[7]	_	_	_
+26-2	2252-2258	Helena	_	concept[7]	_	_	_
+26-3	2259-2267	dianggap	_	_	_	_	_
+26-4	2268-2275	sebagai	_	_	_	_	_
+26-5	2276-2281	salah	_	_	_	_	_
+26-6	2282-2286	satu	_	_	_	_	_
+26-7	2287-2293	tempat	_	_	_	_	_
+26-8	2294-2300	paling	_	negative[8]	_	_	_
+26-9	2301-2310	terpencil	_	negative[8]	_	_	_
+26-10	2311-2313	di	_	_	_	_	_
+26-11	2314-2319	dunia	_	_	_	_	_
+26-12	2320-2321	.	_	_	_	_	_
+
+#Text=Hingga kini belum ada kasus corona yang dilaporkan oleh wilayah Saint Helena .
+27-1	2323-2329	Hingga	_	_	_	_	_
+27-2	2330-2334	kini	_	_	_	_	_
+27-3	2335-2340	belum	_	positive[9]	_	_	_
+27-4	2341-2344	ada	_	positive[9]	_	_	_
+27-5	2345-2350	kasus	_	concept[10]	_	_	_
+27-6	2351-2357	corona	_	concept[10]	_	_	_
+27-7	2358-2362	yang	_	_	_	_	_
+27-8	2363-2373	dilaporkan	_	_	_	_	_
+27-9	2374-2378	oleh	_	_	_	_	_
+27-10	2379-2386	wilayah	_	_	_	_	_
+27-11	2387-2392	Saint	_	_	_	_	_
+27-12	2393-2399	Helena	_	_	_	_	_
+27-13	2400-2401	.	_	_	_	_	_
+
+#Text=Populasi Sanit Helena sendiri diyakini hanya 4.500 orang .
+28-1	2403-2411	Populasi	_	_	_	_	_
+28-2	2412-2417	Sanit	_	_	_	_	_
+28-3	2418-2424	Helena	_	_	_	_	_
+28-4	2425-2432	sendiri	_	_	_	_	_
+28-5	2433-2441	diyakini	_	_	_	_	_
+28-6	2442-2447	hanya	_	_	_	_	_
+28-7	2448-2453	4.500	_	_	_	_	_
+28-8	2454-2459	orang	_	_	_	_	_
+28-9	2460-2461	.	_	_	_	_	_
+
+#Text=6 .
+29-1	2463-2464	6	_	_	_	_	_
+29-2	2465-2466	.	_	_	_	_	_
+
+#Text=Korea Utara Korea Utara adalah satu dari hanya dua negara non-pulau yang masuk daftar ini , meskipun pelaporan nya tentang nol kasus virus corona baru dipertanyakan .
+30-1	2468-2473	Korea	_	_	_	_	_
+30-2	2474-2479	Utara	_	_	_	_	_
+30-3	2480-2485	Korea	_	_	_	_	_
+30-4	2486-2491	Utara	_	_	_	_	_
+30-5	2492-2498	adalah	_	_	_	_	_
+30-6	2499-2503	satu	_	_	_	_	_
+30-7	2504-2508	dari	_	_	_	_	_
+30-8	2509-2514	hanya	_	_	_	_	_
+30-9	2515-2518	dua	_	_	_	_	_
+30-10	2519-2525	negara	_	_	_	_	_
+30-11	2526-2535	non-pulau	_	_	_	_	_
+30-12	2536-2540	yang	_	_	_	_	_
+30-13	2541-2546	masuk	_	_	_	_	_
+30-14	2547-2553	daftar	_	_	_	_	_
+30-15	2554-2557	ini	_	_	_	_	_
+30-16	2558-2559	,	_	_	_	_	_
+30-17	2560-2568	meskipun	_	_	_	_	_
+30-18	2569-2578	pelaporan	_	_	_	_	_
+30-19	2579-2582	nya	_	_	_	_	_
+30-20	2583-2590	tentang	_	_	_	_	_
+30-21	2591-2594	nol	_	_	_	_	_
+30-22	2595-2600	kasus	_	_	_	_	_
+30-23	2601-2606	virus	_	_	_	_	_
+30-24	2607-2613	corona	_	_	_	_	_
+30-25	2614-2618	baru	_	_	_	_	_
+30-26	2619-2632	dipertanyakan	_	_	_	_	_
+30-27	2633-2634	.	_	_	_	_	_
+
+#Text=Negara pimpinan Kim Jong Un itu berbatasan dengan China dan Korea Selatan , membuat pelaporan nol kasus Covid - 19 menjadi tidak mungkin .
+31-1	2636-2642	Negara	_	_	_	_	_
+31-2	2643-2651	pimpinan	_	_	_	_	_
+31-3	2652-2655	Kim	_	_	_	_	_
+31-4	2656-2660	Jong	_	_	_	_	_
+31-5	2661-2663	Un	_	_	_	_	_
+31-6	2664-2667	itu	_	_	_	_	_
+31-7	2668-2678	berbatasan	_	_	_	_	_
+31-8	2679-2685	dengan	_	_	_	_	_
+31-9	2686-2691	China	_	_	_	_	_
+31-10	2692-2695	dan	_	_	_	_	_
+31-11	2696-2701	Korea	_	_	_	_	_
+31-12	2702-2709	Selatan	_	_	_	_	_
+31-13	2710-2711	,	_	_	_	_	_
+31-14	2712-2719	membuat	_	_	_	_	_
+31-15	2720-2729	pelaporan	_	concept[11]	_	_	_
+31-16	2730-2733	nol	_	concept[11]	_	_	_
+31-17	2734-2739	kasus	_	concept[11]	_	_	_
+31-18	2740-2745	Covid	_	concept[11]	_	_	_
+31-19	2746-2747	-	_	concept[11]	_	_	_
+31-20	2748-2750	19	_	concept[11]	_	_	_
+31-21	2751-2758	menjadi	_	negative[12]	_	_	_
+31-22	2759-2764	tidak	_	negative[12]	_	_	_
+31-23	2765-2772	mungkin	_	negative[12]	_	_	_
+31-24	2773-2774	.	_	_	_	_	_
+
+#Text=Korea Utara menjadi negara terbesar yang melaporkan nol kasus , dengan populasi 25 juta , telah menerapkan lockdown yang ketat , pembatasan perjalanan , dan menutup perbatasan nya , menurut The Associated Press .
+32-1	2776-2781	Korea	_	_	_	_	_
+32-2	2782-2787	Utara	_	_	_	_	_
+32-3	2788-2795	menjadi	_	_	_	_	_
+32-4	2796-2802	negara	_	_	_	_	_
+32-5	2803-2811	terbesar	_	_	_	_	_
+32-6	2812-2816	yang	_	_	_	_	_
+32-7	2817-2827	melaporkan	_	_	_	_	_
+32-8	2828-2831	nol	_	_	_	_	_
+32-9	2832-2837	kasus	_	_	_	_	_
+32-10	2838-2839	,	_	_	_	_	_
+32-11	2840-2846	dengan	_	_	_	_	_
+32-12	2847-2855	populasi	_	_	_	_	_
+32-13	2856-2858	25	_	_	_	_	_
+32-14	2859-2863	juta	_	_	_	_	_
+32-15	2864-2865	,	_	_	_	_	_
+32-16	2866-2871	telah	_	_	_	_	_
+32-17	2872-2882	menerapkan	_	_	_	_	_
+32-18	2883-2891	lockdown	_	_	_	_	_
+32-19	2892-2896	yang	_	_	_	_	_
+32-20	2897-2902	ketat	_	_	_	_	_
+32-21	2903-2904	,	_	_	_	_	_
+32-22	2905-2915	pembatasan	_	_	_	_	_
+32-23	2916-2926	perjalanan	_	_	_	_	_
+32-24	2927-2928	,	_	_	_	_	_
+32-25	2929-2932	dan	_	_	_	_	_
+32-26	2933-2940	menutup	_	_	_	_	_
+32-27	2941-2951	perbatasan	_	_	_	_	_
+32-28	2952-2955	nya	_	_	_	_	_
+32-29	2956-2957	,	_	_	_	_	_
+32-30	2958-2965	menurut	_	_	_	_	_
+32-31	2966-2969	The	_	_	_	_	_
+32-32	2970-2980	Associated	_	_	_	_	_
+32-33	2981-2986	Press	_	_	_	_	_
+32-34	2987-2988	.	_	_	_	_	_
+
+#Text=7 .
+33-1	2990-2991	7	_	_	_	_	_
+33-2	2992-2993	.	_	_	_	_	_
+
+#Text=Nauru Bertetangga dengan Kiribati , Nauru adalah negara terkecil ketiga di dunia berdasarkan ukuran .
+34-1	2995-3000	Nauru	_	_	_	_	_
+34-2	3001-3012	Bertetangga	_	_	_	_	_
+34-3	3013-3019	dengan	_	_	_	_	_
+34-4	3020-3028	Kiribati	_	_	_	_	_
+34-5	3029-3030	,	_	_	_	_	_
+34-6	3031-3036	Nauru	_	_	_	_	_
+34-7	3037-3043	adalah	_	_	_	_	_
+34-8	3044-3050	negara	_	_	_	_	_
+34-9	3051-3059	terkecil	_	_	_	_	_
+34-10	3060-3066	ketiga	_	_	_	_	_
+34-11	3067-3069	di	_	_	_	_	_
+34-12	3070-3075	dunia	_	_	_	_	_
+34-13	3076-3087	berdasarkan	_	_	_	_	_
+34-14	3088-3094	ukuran	_	_	_	_	_
+34-15	3095-3096	.	_	_	_	_	_
+
+#Text=Di mana pulau tunggal ini memiliki luas 8 mil persegi , dengan 10.000 penduduk .
+35-1	3098-3100	Di	_	_	_	_	_
+35-2	3101-3105	mana	_	_	_	_	_
+35-3	3106-3111	pulau	_	_	_	_	_
+35-4	3112-3119	tunggal	_	_	_	_	_
+35-5	3120-3123	ini	_	_	_	_	_
+35-6	3124-3132	memiliki	_	_	_	_	_
+35-7	3133-3137	luas	_	_	_	_	_
+35-8	3138-3139	8	_	_	_	_	_
+35-9	3140-3143	mil	_	_	_	_	_
+35-10	3144-3151	persegi	_	_	_	_	_
+35-11	3152-3153	,	_	_	_	_	_
+35-12	3154-3160	dengan	_	_	_	_	_
+35-13	3161-3167	10.000	_	_	_	_	_
+35-14	3168-3176	penduduk	_	_	_	_	_
+35-15	3177-3178	.	_	_	_	_	_
+
+#Text=Negara itu dilaporkan telah mencegah virus corona melalui pembatasan perjalanan serupa ke negara-negara pulau tetangga mereka .
+36-1	3180-3186	Negara	_	_	_	_	_
+36-2	3187-3190	itu	_	_	_	_	_
+36-3	3191-3201	dilaporkan	_	_	_	_	_
+36-4	3202-3207	telah	_	_	_	_	_
+36-5	3208-3216	mencegah	_	_	_	_	_
+36-6	3217-3222	virus	_	_	_	_	_
+36-7	3223-3229	corona	_	_	_	_	_
+36-8	3230-3237	melalui	_	_	_	_	_
+36-9	3238-3248	pembatasan	_	_	_	_	_
+36-10	3249-3259	perjalanan	_	_	_	_	_
+36-11	3260-3266	serupa	_	_	_	_	_
+36-12	3267-3269	ke	_	_	_	_	_
+36-13	3270-3283	negara-negara	_	_	_	_	_
+36-14	3284-3289	pulau	_	_	_	_	_
+36-15	3290-3298	tetangga	_	_	_	_	_
+36-16	3299-3305	mereka	_	_	_	_	_
+36-17	3306-3307	.	_	_	_	_	_
+
+#Text=Sehingga hingga kini Nauru belum mencatatkan kasus infeksi terkait Covid - 19 .
+37-1	3309-3317	Sehingga	_	_	_	_	_
+37-2	3318-3324	hingga	_	_	_	_	_
+37-3	3325-3329	kini	_	_	_	_	_
+37-4	3330-3335	Nauru	_	_	_	_	_
+37-5	3336-3341	belum	_	positive[13]	_	_	_
+37-6	3342-3353	mencatatkan	_	positive[13]	_	_	_
+37-7	3354-3359	kasus	_	concept[14]	_	_	_
+37-8	3360-3367	infeksi	_	concept[14]	_	_	_
+37-9	3368-3375	terkait	_	_	_	_	_
+37-10	3376-3381	Covid	_	_	_	_	_
+37-11	3382-3383	-	_	_	_	_	_
+37-12	3384-3386	19	_	_	_	_	_
+37-13	3387-3388	.	_	_	_	_	_
+

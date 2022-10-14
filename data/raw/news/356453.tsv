@@ -1,0 +1,519 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Sektor pariwisata Indonesia dikenal sangat mengandalkan kekayaan dan panorama alam yang dimiliki .
+1-1	0-6	Sektor	_	concept[1]	_	_	_
+1-2	7-17	pariwisata	_	concept[1]	_	_	_
+1-3	18-27	Indonesia	_	concept[1]	_	_	_
+1-4	28-35	dikenal	_	_	_	_	_
+1-5	36-42	sangat	_	positive[2]	_	_	_
+1-6	43-55	mengandalkan	_	positive[2]	_	_	_
+1-7	56-64	kekayaan	_	positive[2]	_	_	_
+1-8	65-68	dan	_	positive[2]	_	_	_
+1-9	69-77	panorama	_	positive[2]	_	_	_
+1-10	78-82	alam	_	positive[2]	_	_	_
+1-11	83-87	yang	_	_	_	_	_
+1-12	88-96	dimiliki	_	_	_	_	_
+1-13	97-98	.	_	_	_	_	_
+
+#Text=Ada beberapa taman wisata alam di Indonesia yang populer di tengah masyarakat .
+2-1	100-103	Ada	_	_	_	_	_
+2-2	104-112	beberapa	_	_	_	_	_
+2-3	113-118	taman	_	_	_	_	_
+2-4	119-125	wisata	_	_	_	_	_
+2-5	126-130	alam	_	_	_	_	_
+2-6	131-133	di	_	_	_	_	_
+2-7	134-143	Indonesia	_	_	_	_	_
+2-8	144-148	yang	_	_	_	_	_
+2-9	149-156	populer	_	_	_	_	_
+2-10	157-159	di	_	_	_	_	_
+2-11	160-166	tengah	_	_	_	_	_
+2-12	167-177	masyarakat	_	_	_	_	_
+2-13	178-179	.	_	_	_	_	_
+
+#Text=Taman wisata alam ( TWA ) sendiri adalah wilayah konservasi yang diperuntukkan sebagai sarana pariwisata dan rekreasi .
+3-1	181-186	Taman	_	_	_	_	_
+3-2	187-193	wisata	_	_	_	_	_
+3-3	194-198	alam	_	_	_	_	_
+3-4	199-200	(	_	_	_	_	_
+3-5	201-204	TWA	_	_	_	_	_
+3-6	205-206	)	_	_	_	_	_
+3-7	207-214	sendiri	_	_	_	_	_
+3-8	215-221	adalah	_	_	_	_	_
+3-9	222-229	wilayah	_	_	_	_	_
+3-10	230-240	konservasi	_	_	_	_	_
+3-11	241-245	yang	_	_	_	_	_
+3-12	246-259	diperuntukkan	_	_	_	_	_
+3-13	260-267	sebagai	_	_	_	_	_
+3-14	268-274	sarana	_	_	_	_	_
+3-15	275-285	pariwisata	_	_	_	_	_
+3-16	286-289	dan	_	_	_	_	_
+3-17	290-298	rekreasi	_	_	_	_	_
+3-18	299-300	.	_	_	_	_	_
+
+#Text=Berada di dalam wilayah konservasi , pengelolaan TWA umum nya akan sejalan dengan prinsip perlindungan alam .
+4-1	302-308	Berada	_	_	_	_	_
+4-2	309-311	di	_	_	_	_	_
+4-3	312-317	dalam	_	_	_	_	_
+4-4	318-325	wilayah	_	_	_	_	_
+4-5	326-336	konservasi	_	_	_	_	_
+4-6	337-338	,	_	_	_	_	_
+4-7	339-350	pengelolaan	_	_	_	_	_
+4-8	351-354	TWA	_	_	_	_	_
+4-9	355-359	umum	_	_	_	_	_
+4-10	360-363	nya	_	_	_	_	_
+4-11	364-368	akan	_	_	_	_	_
+4-12	369-376	sejalan	_	_	_	_	_
+4-13	377-383	dengan	_	_	_	_	_
+4-14	384-391	prinsip	_	_	_	_	_
+4-15	392-404	perlindungan	_	_	_	_	_
+4-16	405-409	alam	_	_	_	_	_
+4-17	410-411	.	_	_	_	_	_
+
+#Text=Definisi TWA juga disebut di dalam Undang-Undang Nomor 5 Tahun 1990 tentang Konservasi Sumber Daya Alam Hayati dan Ekosistem nya .
+5-1	413-421	Definisi	_	_	_	_	_
+5-2	422-425	TWA	_	_	_	_	_
+5-3	426-430	juga	_	_	_	_	_
+5-4	431-438	disebut	_	_	_	_	_
+5-5	439-441	di	_	_	_	_	_
+5-6	442-447	dalam	_	_	_	_	_
+5-7	448-461	Undang-Undang	_	_	_	_	_
+5-8	462-467	Nomor	_	_	_	_	_
+5-9	468-469	5	_	_	_	_	_
+5-10	470-475	Tahun	_	_	_	_	_
+5-11	476-480	1990	_	_	_	_	_
+5-12	481-488	tentang	_	_	_	_	_
+5-13	489-499	Konservasi	_	_	_	_	_
+5-14	500-506	Sumber	_	_	_	_	_
+5-15	507-511	Daya	_	_	_	_	_
+5-16	512-516	Alam	_	_	_	_	_
+5-17	517-523	Hayati	_	_	_	_	_
+5-18	524-527	dan	_	_	_	_	_
+5-19	528-537	Ekosistem	_	_	_	_	_
+5-20	538-541	nya	_	_	_	_	_
+5-21	542-543	.	_	_	_	_	_
+
+#Text=Di sana disebutkan bahwa TWA merupakan kawasan pelestarian alam yang dimanfaatkan untuk pariwisata .
+6-1	545-547	Di	_	_	_	_	_
+6-2	548-552	sana	_	_	_	_	_
+6-3	553-563	disebutkan	_	_	_	_	_
+6-4	564-569	bahwa	_	_	_	_	_
+6-5	570-573	TWA	_	_	_	_	_
+6-6	574-583	merupakan	_	_	_	_	_
+6-7	584-591	kawasan	_	_	_	_	_
+6-8	592-603	pelestarian	_	_	_	_	_
+6-9	604-608	alam	_	_	_	_	_
+6-10	609-613	yang	_	_	_	_	_
+6-11	614-626	dimanfaatkan	_	_	_	_	_
+6-12	627-632	untuk	_	_	_	_	_
+6-13	633-643	pariwisata	_	_	_	_	_
+6-14	644-645	.	_	_	_	_	_
+
+#Text=Tak hanya memiliki panorama yang memukau , TWA juga umum nya menyimpan keanekaragaman hayati yang harus dijaga .
+7-1	647-650	Tak	_	_	_	_	_
+7-2	651-656	hanya	_	_	_	_	_
+7-3	657-665	memiliki	_	_	_	_	_
+7-4	666-674	panorama	_	concept[3]	_	_	_
+7-5	675-679	yang	_	_	_	_	_
+7-6	680-687	memukau	_	positive[4]	_	_	_
+7-7	688-689	,	_	_	_	_	_
+7-8	690-693	TWA	_	_	_	_	_
+7-9	694-698	juga	_	_	_	_	_
+7-10	699-703	umum	_	_	_	_	_
+7-11	704-707	nya	_	_	_	_	_
+7-12	708-717	menyimpan	_	_	_	_	_
+7-13	718-732	keanekaragaman	_	_	_	_	_
+7-14	733-739	hayati	_	_	_	_	_
+7-15	740-744	yang	_	_	_	_	_
+7-16	745-750	harus	_	_	_	_	_
+7-17	751-757	dijaga	_	_	_	_	_
+7-18	758-759	.	_	_	_	_	_
+
+#Text=Selain menawarkan keindahan , TWA juga bisa dijadikan sebagai sarana edukasi bagi masyarakat .
+8-1	761-767	Selain	_	_	_	_	_
+8-2	768-778	menawarkan	_	_	_	_	_
+8-3	779-788	keindahan	_	_	_	_	_
+8-4	789-790	,	_	_	_	_	_
+8-5	791-794	TWA	_	concept[5]	_	_	_
+8-6	795-799	juga	_	_	_	_	_
+8-7	800-804	bisa	_	positive[6]	_	_	_
+8-8	805-814	dijadikan	_	positive[6]	_	_	_
+8-9	815-822	sebagai	_	positive[6]	_	_	_
+8-10	823-829	sarana	_	positive[6]	_	_	_
+8-11	830-837	edukasi	_	positive[6]	_	_	_
+8-12	838-842	bagi	_	_	_	_	_
+8-13	843-853	masyarakat	_	_	_	_	_
+8-14	854-855	.	_	_	_	_	_
+
+#Text=Berikut beberapa TWA yang populer di Indonesia .
+9-1	857-864	Berikut	_	_	_	_	_
+9-2	865-873	beberapa	_	_	_	_	_
+9-3	874-877	TWA	_	_	_	_	_
+9-4	878-882	yang	_	_	_	_	_
+9-5	883-890	populer	_	_	_	_	_
+9-6	891-893	di	_	_	_	_	_
+9-7	894-903	Indonesia	_	_	_	_	_
+9-8	904-905	.	_	_	_	_	_
+
+#Text=Taman wisata alam di Indonesia yang populer pertama adalah Tangkuban Perahu .
+10-1	907-912	Taman	_	_	_	_	_
+10-2	913-919	wisata	_	_	_	_	_
+10-3	920-924	alam	_	_	_	_	_
+10-4	925-927	di	_	_	_	_	_
+10-5	928-937	Indonesia	_	_	_	_	_
+10-6	938-942	yang	_	_	_	_	_
+10-7	943-950	populer	_	_	_	_	_
+10-8	951-958	pertama	_	_	_	_	_
+10-9	959-965	adalah	_	_	_	_	_
+10-10	966-975	Tangkuban	_	_	_	_	_
+10-11	976-982	Perahu	_	_	_	_	_
+10-12	983-984	.	_	_	_	_	_
+
+#Text=TWA ini terletak di kawasan Gunung Tangkuban Parahu , gunung berapi yang masih aktif hingga saat ini .
+11-1	986-989	TWA	_	_	_	_	_
+11-2	990-993	ini	_	_	_	_	_
+11-3	994-1002	terletak	_	_	_	_	_
+11-4	1003-1005	di	_	_	_	_	_
+11-5	1006-1013	kawasan	_	_	_	_	_
+11-6	1014-1020	Gunung	_	_	_	_	_
+11-7	1021-1030	Tangkuban	_	_	_	_	_
+11-8	1031-1037	Parahu	_	_	_	_	_
+11-9	1038-1039	,	_	_	_	_	_
+11-10	1040-1046	gunung	_	_	_	_	_
+11-11	1047-1053	berapi	_	_	_	_	_
+11-12	1054-1058	yang	_	_	_	_	_
+11-13	1059-1064	masih	_	_	_	_	_
+11-14	1065-1070	aktif	_	_	_	_	_
+11-15	1071-1077	hingga	_	_	_	_	_
+11-16	1078-1082	saat	_	_	_	_	_
+11-17	1083-1086	ini	_	_	_	_	_
+11-18	1087-1088	.	_	_	_	_	_
+
+#Text=Tak hanya berstatus sebagai TWA , Tangkuban Perahu juga memiliki status sebagai cagar alam .
+12-1	1090-1093	Tak	_	_	_	_	_
+12-2	1094-1099	hanya	_	_	_	_	_
+12-3	1100-1109	berstatus	_	_	_	_	_
+12-4	1110-1117	sebagai	_	_	_	_	_
+12-5	1118-1121	TWA	_	_	_	_	_
+12-6	1122-1123	,	_	_	_	_	_
+12-7	1124-1133	Tangkuban	_	_	_	_	_
+12-8	1134-1140	Perahu	_	_	_	_	_
+12-9	1141-1145	juga	_	_	_	_	_
+12-10	1146-1154	memiliki	_	_	_	_	_
+12-11	1155-1161	status	_	_	_	_	_
+12-12	1162-1169	sebagai	_	_	_	_	_
+12-13	1170-1175	cagar	_	_	_	_	_
+12-14	1176-1180	alam	_	_	_	_	_
+12-15	1181-1182	.	_	_	_	_	_
+
+#Text=Secara administratif , TWA yang terkenal dengan legenda Sangkuriang ini berada di Kabupaten Subang dan Kabupaten Bandung Barat , Jawa Barat .
+13-1	1184-1190	Secara	_	_	_	_	_
+13-2	1191-1204	administratif	_	_	_	_	_
+13-3	1205-1206	,	_	_	_	_	_
+13-4	1207-1210	TWA	_	_	_	_	_
+13-5	1211-1215	yang	_	_	_	_	_
+13-6	1216-1224	terkenal	_	_	_	_	_
+13-7	1225-1231	dengan	_	_	_	_	_
+13-8	1232-1239	legenda	_	_	_	_	_
+13-9	1240-1251	Sangkuriang	_	_	_	_	_
+13-10	1252-1255	ini	_	_	_	_	_
+13-11	1256-1262	berada	_	_	_	_	_
+13-12	1263-1265	di	_	_	_	_	_
+13-13	1266-1275	Kabupaten	_	_	_	_	_
+13-14	1276-1282	Subang	_	_	_	_	_
+13-15	1283-1286	dan	_	_	_	_	_
+13-16	1287-1296	Kabupaten	_	_	_	_	_
+13-17	1297-1304	Bandung	_	_	_	_	_
+13-18	1305-1310	Barat	_	_	_	_	_
+13-19	1311-1312	,	_	_	_	_	_
+13-20	1313-1317	Jawa	_	_	_	_	_
+13-21	1318-1323	Barat	_	_	_	_	_
+13-22	1324-1325	.	_	_	_	_	_
+
+#Text=Berada di ketinggian 2.084 mdpl , TWA satu ini menghadirkan lanskap lubang kawah berukuran besar yang berada di puncak gunung .
+14-1	1327-1333	Berada	_	_	_	_	_
+14-2	1334-1336	di	_	_	_	_	_
+14-3	1337-1347	ketinggian	_	_	_	_	_
+14-4	1348-1353	2.084	_	_	_	_	_
+14-5	1354-1358	mdpl	_	_	_	_	_
+14-6	1359-1360	,	_	_	_	_	_
+14-7	1361-1364	TWA	_	_	_	_	_
+14-8	1365-1369	satu	_	_	_	_	_
+14-9	1370-1373	ini	_	_	_	_	_
+14-10	1374-1386	menghadirkan	_	_	_	_	_
+14-11	1387-1394	lanskap	_	_	_	_	_
+14-12	1395-1401	lubang	_	_	_	_	_
+14-13	1402-1407	kawah	_	_	_	_	_
+14-14	1408-1417	berukuran	_	_	_	_	_
+14-15	1418-1423	besar	_	_	_	_	_
+14-16	1424-1428	yang	_	_	_	_	_
+14-17	1429-1435	berada	_	_	_	_	_
+14-18	1436-1438	di	_	_	_	_	_
+14-19	1439-1445	puncak	_	_	_	_	_
+14-20	1446-1452	gunung	_	_	_	_	_
+14-21	1453-1454	.	_	_	_	_	_
+
+#Text=Ada beberapa lubang kawah yang dimiliki Tangkuban Perahu .
+15-1	1456-1459	Ada	_	_	_	_	_
+15-2	1460-1468	beberapa	_	_	_	_	_
+15-3	1469-1475	lubang	_	_	_	_	_
+15-4	1476-1481	kawah	_	_	_	_	_
+15-5	1482-1486	yang	_	_	_	_	_
+15-6	1487-1495	dimiliki	_	_	_	_	_
+15-7	1496-1505	Tangkuban	_	_	_	_	_
+15-8	1506-1512	Perahu	_	_	_	_	_
+15-9	1513-1514	.	_	_	_	_	_
+
+#Text=Kawah Ratu merupakan kawah terbesar , bersama dengan Kawah Upas , Kawah Baru , dan Kawah Domas .
+16-1	1516-1521	Kawah	_	concept[7]	_	_	_
+16-2	1522-1526	Ratu	_	concept[7]	_	_	_
+16-3	1527-1536	merupakan	_	_	_	_	_
+16-4	1537-1542	kawah	_	_	_	_	_
+16-5	1543-1551	terbesar	_	positive[8]	_	_	_
+16-6	1552-1553	,	_	_	_	_	_
+16-7	1554-1561	bersama	_	_	_	_	_
+16-8	1562-1568	dengan	_	_	_	_	_
+16-9	1569-1574	Kawah	_	_	_	_	_
+16-10	1575-1579	Upas	_	_	_	_	_
+16-11	1580-1581	,	_	_	_	_	_
+16-12	1582-1587	Kawah	_	_	_	_	_
+16-13	1588-1592	Baru	_	_	_	_	_
+16-14	1593-1594	,	_	_	_	_	_
+16-15	1595-1598	dan	_	_	_	_	_
+16-16	1599-1604	Kawah	_	_	_	_	_
+16-17	1605-1610	Domas	_	_	_	_	_
+16-18	1611-1612	.	_	_	_	_	_
+
+#Text=Tak hanya menawarkan panorama kawah , Tangkuban Perahu juga menyimpan sejumlah flora dan fauna endemik .
+17-1	1614-1617	Tak	_	_	_	_	_
+17-2	1618-1623	hanya	_	_	_	_	_
+17-3	1624-1634	menawarkan	_	_	_	_	_
+17-4	1635-1643	panorama	_	_	_	_	_
+17-5	1644-1649	kawah	_	_	_	_	_
+17-6	1650-1651	,	_	_	_	_	_
+17-7	1652-1661	Tangkuban	_	_	_	_	_
+17-8	1662-1668	Perahu	_	_	_	_	_
+17-9	1669-1673	juga	_	_	_	_	_
+17-10	1674-1683	menyimpan	_	_	_	_	_
+17-11	1684-1692	sejumlah	_	_	_	_	_
+17-12	1693-1698	flora	_	_	_	_	_
+17-13	1699-1702	dan	_	_	_	_	_
+17-14	1703-1708	fauna	_	_	_	_	_
+17-15	1709-1716	endemik	_	_	_	_	_
+17-16	1717-1718	.	_	_	_	_	_
+
+#Text=Misalnya saja elang Jawa , macan dahan , surili ( salah satu spesies monyet ) , lutung Jawa , bunga cantigi , pakis emas , hingga anggrek hutan .
+18-1	1720-1728	Misalnya	_	_	_	_	_
+18-2	1729-1733	saja	_	_	_	_	_
+18-3	1734-1739	elang	_	_	_	_	_
+18-4	1740-1744	Jawa	_	_	_	_	_
+18-5	1745-1746	,	_	_	_	_	_
+18-6	1747-1752	macan	_	_	_	_	_
+18-7	1753-1758	dahan	_	_	_	_	_
+18-8	1759-1760	,	_	_	_	_	_
+18-9	1761-1767	surili	_	_	_	_	_
+18-10	1768-1769	(	_	_	_	_	_
+18-11	1770-1775	salah	_	_	_	_	_
+18-12	1776-1780	satu	_	_	_	_	_
+18-13	1781-1788	spesies	_	_	_	_	_
+18-14	1789-1795	monyet	_	_	_	_	_
+18-15	1796-1797	)	_	_	_	_	_
+18-16	1798-1799	,	_	_	_	_	_
+18-17	1800-1806	lutung	_	_	_	_	_
+18-18	1807-1811	Jawa	_	_	_	_	_
+18-19	1812-1813	,	_	_	_	_	_
+18-20	1814-1819	bunga	_	_	_	_	_
+18-21	1820-1827	cantigi	_	_	_	_	_
+18-22	1828-1829	,	_	_	_	_	_
+18-23	1830-1835	pakis	_	_	_	_	_
+18-24	1836-1840	emas	_	_	_	_	_
+18-25	1841-1842	,	_	_	_	_	_
+18-26	1843-1849	hingga	_	_	_	_	_
+18-27	1850-1857	anggrek	_	_	_	_	_
+18-28	1858-1863	hutan	_	_	_	_	_
+18-29	1864-1865	.	_	_	_	_	_
+
+#Text=Selanjutnya adalah TWA Grojogan Sewu yang terletak di Kecamatan Tawangmangu , Kabupaten Karanganyar , Jawa Tengah .
+19-1	1867-1878	Selanjutnya	_	_	_	_	_
+19-2	1879-1885	adalah	_	_	_	_	_
+19-3	1886-1889	TWA	_	_	_	_	_
+19-4	1890-1898	Grojogan	_	_	_	_	_
+19-5	1899-1903	Sewu	_	_	_	_	_
+19-6	1904-1908	yang	_	_	_	_	_
+19-7	1909-1917	terletak	_	_	_	_	_
+19-8	1918-1920	di	_	_	_	_	_
+19-9	1921-1930	Kecamatan	_	_	_	_	_
+19-10	1931-1942	Tawangmangu	_	_	_	_	_
+19-11	1943-1944	,	_	_	_	_	_
+19-12	1945-1954	Kabupaten	_	_	_	_	_
+19-13	1955-1966	Karanganyar	_	_	_	_	_
+19-14	1967-1968	,	_	_	_	_	_
+19-15	1969-1973	Jawa	_	_	_	_	_
+19-16	1974-1980	Tengah	_	_	_	_	_
+19-17	1981-1982	.	_	_	_	_	_
+
+#Text=TWA satu ini dikenal dengan sekelompok kera jinak yang memenuhi hutan .
+20-1	1984-1987	TWA	_	_	_	_	_
+20-2	1988-1992	satu	_	_	_	_	_
+20-3	1993-1996	ini	_	_	_	_	_
+20-4	1997-2004	dikenal	_	_	_	_	_
+20-5	2005-2011	dengan	_	_	_	_	_
+20-6	2012-2022	sekelompok	_	_	_	_	_
+20-7	2023-2027	kera	_	_	_	_	_
+20-8	2028-2033	jinak	_	_	_	_	_
+20-9	2034-2038	yang	_	_	_	_	_
+20-10	2039-2047	memenuhi	_	_	_	_	_
+20-11	2048-2053	hutan	_	_	_	_	_
+20-12	2054-2055	.	_	_	_	_	_
+
+#Text=Grojogan Sewu sendiri merupakan air terjun yang berada di lereng Gunung Lawu .
+21-1	2057-2065	Grojogan	_	_	_	_	_
+21-2	2066-2070	Sewu	_	_	_	_	_
+21-3	2071-2078	sendiri	_	_	_	_	_
+21-4	2079-2088	merupakan	_	_	_	_	_
+21-5	2089-2092	air	_	_	_	_	_
+21-6	2093-2099	terjun	_	_	_	_	_
+21-7	2100-2104	yang	_	_	_	_	_
+21-8	2105-2111	berada	_	_	_	_	_
+21-9	2112-2114	di	_	_	_	_	_
+21-10	2115-2121	lereng	_	_	_	_	_
+21-11	2122-2128	Gunung	_	_	_	_	_
+21-12	2129-2133	Lawu	_	_	_	_	_
+21-13	2134-2135	.	_	_	_	_	_
+
+#Text=' Grojogan ' sendiri berarti ' air terjun ' , sementara ' sewu ' berarti ' seribu ' .
+22-1	2137-2138	'	_	_	_	_	_
+22-2	2139-2147	Grojogan	_	_	_	_	_
+22-3	2148-2149	'	_	_	_	_	_
+22-4	2150-2157	sendiri	_	_	_	_	_
+22-5	2158-2165	berarti	_	_	_	_	_
+22-6	2166-2167	'	_	_	_	_	_
+22-7	2168-2171	air	_	_	_	_	_
+22-8	2172-2178	terjun	_	_	_	_	_
+22-9	2179-2180	'	_	_	_	_	_
+22-10	2181-2182	,	_	_	_	_	_
+22-11	2183-2192	sementara	_	_	_	_	_
+22-12	2193-2194	'	_	_	_	_	_
+22-13	2195-2199	sewu	_	_	_	_	_
+22-14	2200-2201	'	_	_	_	_	_
+22-15	2202-2209	berarti	_	_	_	_	_
+22-16	2210-2211	'	_	_	_	_	_
+22-17	2212-2218	seribu	_	_	_	_	_
+22-18	2219-2220	'	_	_	_	_	_
+22-19	2221-2222	.	_	_	_	_	_
+
+#Text=Meski tak berjumlah seribu , namun kawasan ini memiliki sejumlah titik air terjun yang dapat dinikmati .
+23-1	2224-2229	Meski	_	_	_	_	_
+23-2	2230-2233	tak	_	_	_	_	_
+23-3	2234-2243	berjumlah	_	_	_	_	_
+23-4	2244-2250	seribu	_	_	_	_	_
+23-5	2251-2252	,	_	_	_	_	_
+23-6	2253-2258	namun	_	_	_	_	_
+23-7	2259-2266	kawasan	_	_	_	_	_
+23-8	2267-2270	ini	_	_	_	_	_
+23-9	2271-2279	memiliki	_	_	_	_	_
+23-10	2280-2288	sejumlah	_	_	_	_	_
+23-11	2289-2294	titik	_	_	_	_	_
+23-12	2295-2298	air	_	_	_	_	_
+23-13	2299-2305	terjun	_	_	_	_	_
+23-14	2306-2310	yang	_	_	_	_	_
+23-15	2311-2316	dapat	_	_	_	_	_
+23-16	2317-2326	dinikmati	_	_	_	_	_
+23-17	2327-2328	.	_	_	_	_	_
+
+#Text=Berada di atas ketinggian 950 mdpl , Grojogan Sewu menawarkan cuaca yang sangat sejuk .
+24-1	2330-2336	Berada	_	_	_	_	_
+24-2	2337-2339	di	_	_	_	_	_
+24-3	2340-2344	atas	_	_	_	_	_
+24-4	2345-2355	ketinggian	_	_	_	_	_
+24-5	2356-2359	950	_	_	_	_	_
+24-6	2360-2364	mdpl	_	_	_	_	_
+24-7	2365-2366	,	_	_	_	_	_
+24-8	2367-2375	Grojogan	_	_	_	_	_
+24-9	2376-2380	Sewu	_	_	_	_	_
+24-10	2381-2391	menawarkan	_	_	_	_	_
+24-11	2392-2397	cuaca	_	concept[9]	_	_	_
+24-12	2398-2402	yang	_	_	_	_	_
+24-13	2403-2409	sangat	_	positive[10]	_	_	_
+24-14	2410-2415	sejuk	_	positive[10]	_	_	_
+24-15	2416-2417	.	_	_	_	_	_
+
+#Text=Pelancong perlu menuruni ribuan anak tangga hingga tiba di kawasan air terjun setinggi 81 meter tersebut .
+25-1	2419-2428	Pelancong	_	_	_	_	_
+25-2	2429-2434	perlu	_	_	_	_	_
+25-3	2435-2443	menuruni	_	_	_	_	_
+25-4	2444-2450	ribuan	_	_	_	_	_
+25-5	2451-2455	anak	_	_	_	_	_
+25-6	2456-2462	tangga	_	_	_	_	_
+25-7	2463-2469	hingga	_	_	_	_	_
+25-8	2470-2474	tiba	_	_	_	_	_
+25-9	2475-2477	di	_	_	_	_	_
+25-10	2478-2485	kawasan	_	_	_	_	_
+25-11	2486-2489	air	_	_	_	_	_
+25-12	2490-2496	terjun	_	_	_	_	_
+25-13	2497-2505	setinggi	_	_	_	_	_
+25-14	2506-2508	81	_	_	_	_	_
+25-15	2509-2514	meter	_	_	_	_	_
+25-16	2515-2523	tersebut	_	_	_	_	_
+25-17	2524-2525	.	_	_	_	_	_
+
+#Text=Sebagai TWA , kawasan Grojogan Sewu juga menyimpan banyak keanekaragaman flora dan fauna .
+26-1	2527-2534	Sebagai	_	_	_	_	_
+26-2	2535-2538	TWA	_	_	_	_	_
+26-3	2539-2540	,	_	_	_	_	_
+26-4	2541-2548	kawasan	_	_	_	_	_
+26-5	2549-2557	Grojogan	_	_	_	_	_
+26-6	2558-2562	Sewu	_	_	_	_	_
+26-7	2563-2567	juga	_	_	_	_	_
+26-8	2568-2577	menyimpan	_	_	_	_	_
+26-9	2578-2584	banyak	_	_	_	_	_
+26-10	2585-2599	keanekaragaman	_	_	_	_	_
+26-11	2600-2605	flora	_	_	_	_	_
+26-12	2606-2609	dan	_	_	_	_	_
+26-13	2610-2615	fauna	_	_	_	_	_
+26-14	2616-2617	.	_	_	_	_	_
+
+#Text=Misalnya saja hutan pinus , pohon beringin , hingga tanaman bulu karet .
+27-1	2619-2627	Misalnya	_	_	_	_	_
+27-2	2628-2632	saja	_	_	_	_	_
+27-3	2633-2638	hutan	_	_	_	_	_
+27-4	2639-2644	pinus	_	_	_	_	_
+27-5	2645-2646	,	_	_	_	_	_
+27-6	2647-2652	pohon	_	_	_	_	_
+27-7	2653-2661	beringin	_	_	_	_	_
+27-8	2662-2663	,	_	_	_	_	_
+27-9	2664-2670	hingga	_	_	_	_	_
+27-10	2671-2678	tanaman	_	_	_	_	_
+27-11	2679-2683	bulu	_	_	_	_	_
+27-12	2684-2689	karet	_	_	_	_	_
+27-13	2690-2691	.	_	_	_	_	_
+
+#Text=Tak lupa juga dengan monyet ekor panjang yang begitu populer di tempat ini .
+28-1	2693-2696	Tak	_	_	_	_	_
+28-2	2697-2701	lupa	_	_	_	_	_
+28-3	2702-2706	juga	_	_	_	_	_
+28-4	2707-2713	dengan	_	_	_	_	_
+28-5	2714-2720	monyet	_	_	_	_	_
+28-6	2721-2725	ekor	_	_	_	_	_
+28-7	2726-2733	panjang	_	_	_	_	_
+28-8	2734-2738	yang	_	_	_	_	_
+28-9	2739-2745	begitu	_	_	_	_	_
+28-10	2746-2753	populer	_	_	_	_	_
+28-11	2754-2756	di	_	_	_	_	_
+28-12	2757-2763	tempat	_	_	_	_	_
+28-13	2764-2767	ini	_	_	_	_	_
+28-14	2768-2769	.	_	_	_	_	_
+
+#Text=Simak taman wisata alam di Indonesia lainnya di halaman berikut nya ..
+29-1	2771-2776	Simak	_	_	_	_	_
+29-2	2777-2782	taman	_	_	_	_	_
+29-3	2783-2789	wisata	_	_	_	_	_
+29-4	2790-2794	alam	_	_	_	_	_
+29-5	2795-2797	di	_	_	_	_	_
+29-6	2798-2807	Indonesia	_	_	_	_	_
+29-7	2808-2815	lainnya	_	_	_	_	_
+29-8	2816-2818	di	_	_	_	_	_
+29-9	2819-2826	halaman	_	_	_	_	_
+29-10	2827-2834	berikut	_	_	_	_	_
+29-11	2835-2838	nya	_	_	_	_	_
+29-12	2839-2841	..	_	_	_	_	_
+

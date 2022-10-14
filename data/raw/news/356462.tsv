@@ -1,0 +1,486 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Waktu libur tiga hari sebelum menjalani tes MotoGP Mandalika benar-benar dimanfaatkan para pembalap MotoGP untuk mengeksplorasi keindahan Lombok .
+1-1	0-5	Waktu	_	_	_	_	_
+1-2	6-11	libur	_	_	_	_	_
+1-3	12-16	tiga	_	_	_	_	_
+1-4	17-21	hari	_	_	_	_	_
+1-5	22-29	sebelum	_	_	_	_	_
+1-6	30-39	menjalani	_	_	_	_	_
+1-7	40-43	tes	_	_	_	_	_
+1-8	44-50	MotoGP	_	_	_	_	_
+1-9	51-60	Mandalika	_	_	_	_	_
+1-10	61-72	benar-benar	_	_	_	_	_
+1-11	73-85	dimanfaatkan	_	_	_	_	_
+1-12	86-90	para	_	_	_	_	_
+1-13	91-99	pembalap	_	_	_	_	_
+1-14	100-106	MotoGP	_	_	_	_	_
+1-15	107-112	untuk	_	_	_	_	_
+1-16	113-127	mengeksplorasi	_	_	_	_	_
+1-17	128-137	keindahan	_	_	_	_	_
+1-18	138-144	Lombok	_	_	_	_	_
+1-19	145-146	.	_	_	_	_	_
+
+#Text=Tes MotoGP Mandalika pun dimanfaatkan para pembalap untuk merasakan liburan sejenak .
+2-1	148-151	Tes	_	_	_	_	_
+2-2	152-158	MotoGP	_	_	_	_	_
+2-3	159-168	Mandalika	_	_	_	_	_
+2-4	169-172	pun	_	_	_	_	_
+2-5	173-185	dimanfaatkan	_	_	_	_	_
+2-6	186-190	para	_	_	_	_	_
+2-7	191-199	pembalap	_	_	_	_	_
+2-8	200-205	untuk	_	_	_	_	_
+2-9	206-215	merasakan	_	_	_	_	_
+2-10	216-223	liburan	_	_	_	_	_
+2-11	224-231	sejenak	_	_	_	_	_
+2-12	232-233	.	_	_	_	_	_
+
+#Text=Seluruh pembalap MotoGP tiba di Lombok pada Senin ( 7 / 2 ) , dan setelah melakukan karantina 24 jam , ke-24 pembalap punya waktu tiga hari sebelum menjalani tes MotoGP Mandalika di Sirkuit Mandalika pada 11 - 13 Februari .
+3-1	235-242	Seluruh	_	_	_	_	_
+3-2	243-251	pembalap	_	_	_	_	_
+3-3	252-258	MotoGP	_	_	_	_	_
+3-4	259-263	tiba	_	_	_	_	_
+3-5	264-266	di	_	_	_	_	_
+3-6	267-273	Lombok	_	_	_	_	_
+3-7	274-278	pada	_	_	_	_	_
+3-8	279-284	Senin	_	_	_	_	_
+3-9	285-286	(	_	_	_	_	_
+3-10	287-288	7	_	_	_	_	_
+3-11	289-290	/	_	_	_	_	_
+3-12	291-292	2	_	_	_	_	_
+3-13	293-294	)	_	_	_	_	_
+3-14	295-296	,	_	_	_	_	_
+3-15	297-300	dan	_	_	_	_	_
+3-16	301-308	setelah	_	_	_	_	_
+3-17	309-318	melakukan	_	_	_	_	_
+3-18	319-328	karantina	_	_	_	_	_
+3-19	329-331	24	_	_	_	_	_
+3-20	332-335	jam	_	_	_	_	_
+3-21	336-337	,	_	_	_	_	_
+3-22	338-343	ke-24	_	_	_	_	_
+3-23	344-352	pembalap	_	_	_	_	_
+3-24	353-358	punya	_	_	_	_	_
+3-25	359-364	waktu	_	_	_	_	_
+3-26	365-369	tiga	_	_	_	_	_
+3-27	370-374	hari	_	_	_	_	_
+3-28	375-382	sebelum	_	_	_	_	_
+3-29	383-392	menjalani	_	_	_	_	_
+3-30	393-396	tes	_	_	_	_	_
+3-31	397-403	MotoGP	_	_	_	_	_
+3-32	404-413	Mandalika	_	_	_	_	_
+3-33	414-416	di	_	_	_	_	_
+3-34	417-424	Sirkuit	_	_	_	_	_
+3-35	425-434	Mandalika	_	_	_	_	_
+3-36	435-439	pada	_	_	_	_	_
+3-37	440-442	11	_	_	_	_	_
+3-38	443-444	-	_	_	_	_	_
+3-39	445-447	13	_	_	_	_	_
+3-40	448-456	Februari	_	_	_	_	_
+3-41	457-458	.	_	_	_	_	_
+
+#Text=Setelah selesai menjalani karantina di hotel masing-masing , para pembalap MotoGP langsung menikmati keindahan Mandalika .
+4-1	460-467	Setelah	_	_	_	_	_
+4-2	468-475	selesai	_	_	_	_	_
+4-3	476-485	menjalani	_	_	_	_	_
+4-4	486-495	karantina	_	_	_	_	_
+4-5	496-498	di	_	_	_	_	_
+4-6	499-504	hotel	_	_	_	_	_
+4-7	505-518	masing-masing	_	_	_	_	_
+4-8	519-520	,	_	_	_	_	_
+4-9	521-525	para	_	_	_	_	_
+4-10	526-534	pembalap	_	_	_	_	_
+4-11	535-541	MotoGP	_	_	_	_	_
+4-12	542-550	langsung	_	_	_	_	_
+4-13	551-560	menikmati	_	_	_	_	_
+4-14	561-570	keindahan	_	_	_	_	_
+4-15	571-580	Mandalika	_	_	_	_	_
+4-16	581-582	.	_	_	_	_	_
+
+#Text=Waktu tiga hari sebelum tes MotoGP Mandalika benar-benar dimanfaatkan para pembalap untuk liburan di Mandalika .
+5-1	584-589	Waktu	_	_	_	_	_
+5-2	590-594	tiga	_	_	_	_	_
+5-3	595-599	hari	_	_	_	_	_
+5-4	600-607	sebelum	_	_	_	_	_
+5-5	608-611	tes	_	_	_	_	_
+5-6	612-618	MotoGP	_	_	_	_	_
+5-7	619-628	Mandalika	_	_	_	_	_
+5-8	629-640	benar-benar	_	_	_	_	_
+5-9	641-653	dimanfaatkan	_	_	_	_	_
+5-10	654-658	para	_	_	_	_	_
+5-11	659-667	pembalap	_	_	_	_	_
+5-12	668-673	untuk	_	_	_	_	_
+5-13	674-681	liburan	_	_	_	_	_
+5-14	682-684	di	_	_	_	_	_
+5-15	685-694	Mandalika	_	_	_	_	_
+5-16	695-696	.	_	_	_	_	_
+
+#Text=Ada pembalap yang menikmati pantai di Mandalika seperti Fabio Quartararo , Andrea Dovizioso , Aleix Espargaro .
+6-1	698-701	Ada	_	_	_	_	_
+6-2	702-710	pembalap	_	_	_	_	_
+6-3	711-715	yang	_	_	_	_	_
+6-4	716-725	menikmati	_	_	_	_	_
+6-5	726-732	pantai	_	_	_	_	_
+6-6	733-735	di	_	_	_	_	_
+6-7	736-745	Mandalika	_	_	_	_	_
+6-8	746-753	seperti	_	_	_	_	_
+6-9	754-759	Fabio	_	_	_	_	_
+6-10	760-770	Quartararo	_	_	_	_	_
+6-11	771-772	,	_	_	_	_	_
+6-12	773-779	Andrea	_	_	_	_	_
+6-13	780-789	Dovizioso	_	_	_	_	_
+6-14	790-791	,	_	_	_	_	_
+6-15	792-797	Aleix	_	_	_	_	_
+6-16	798-807	Espargaro	_	_	_	_	_
+6-17	808-809	.	_	_	_	_	_
+
+#Text=Ada yang menikmati keindahan Mandalika dengan bersepeda seperti Aleix Espargaro .
+7-1	811-814	Ada	_	_	_	_	_
+7-2	815-819	yang	_	_	_	_	_
+7-3	820-829	menikmati	_	_	_	_	_
+7-4	830-839	keindahan	_	_	_	_	_
+7-5	840-849	Mandalika	_	_	_	_	_
+7-6	850-856	dengan	_	_	_	_	_
+7-7	857-866	bersepeda	_	_	_	_	_
+7-8	867-874	seperti	_	_	_	_	_
+7-9	875-880	Aleix	_	_	_	_	_
+7-10	881-890	Espargaro	_	_	_	_	_
+7-11	891-892	.	_	_	_	_	_
+
+#Text=Bahkan ada yang jalan-jalan ke toko pulsa handphone untuk mencari nomor telepon lokal .
+8-1	894-900	Bahkan	_	_	_	_	_
+8-2	901-904	ada	_	_	_	_	_
+8-3	905-909	yang	_	_	_	_	_
+8-4	910-921	jalan-jalan	_	_	_	_	_
+8-5	922-924	ke	_	_	_	_	_
+8-6	925-929	toko	_	_	_	_	_
+8-7	930-935	pulsa	_	_	_	_	_
+8-8	936-945	handphone	_	_	_	_	_
+8-9	946-951	untuk	_	_	_	_	_
+8-10	952-959	mencari	_	_	_	_	_
+8-11	960-965	nomor	_	_	_	_	_
+8-12	966-973	telepon	_	_	_	_	_
+8-13	974-979	lokal	_	_	_	_	_
+8-14	980-981	.	_	_	_	_	_
+
+#Text=Para pembalap MotoGP ramai-ramai mengunggah kegiatan mereka selama di Mandalika melalui media sosial .
+9-1	983-987	Para	_	_	_	_	_
+9-2	988-996	pembalap	_	_	_	_	_
+9-3	997-1003	MotoGP	_	_	_	_	_
+9-4	1004-1015	ramai-ramai	_	_	_	_	_
+9-5	1016-1026	mengunggah	_	_	_	_	_
+9-6	1027-1035	kegiatan	_	_	_	_	_
+9-7	1036-1042	mereka	_	_	_	_	_
+9-8	1043-1049	selama	_	_	_	_	_
+9-9	1050-1052	di	_	_	_	_	_
+9-10	1053-1062	Mandalika	_	_	_	_	_
+9-11	1063-1070	melalui	_	_	_	_	_
+9-12	1071-1076	media	_	_	_	_	_
+9-13	1077-1083	sosial	_	_	_	_	_
+9-14	1084-1085	.	_	_	_	_	_
+
+#Text=Mereka pun ramai-ramai memuji keindahan Mandalika dan Sirkuit Mandalika .
+10-1	1087-1093	Mereka	_	_	_	_	_
+10-2	1094-1097	pun	_	_	_	_	_
+10-3	1098-1109	ramai-ramai	_	_	_	_	_
+10-4	1110-1116	memuji	_	_	_	_	_
+10-5	1117-1126	keindahan	_	_	_	_	_
+10-6	1127-1136	Mandalika	_	_	_	_	_
+10-7	1137-1140	dan	_	_	_	_	_
+10-8	1141-1148	Sirkuit	_	_	_	_	_
+10-9	1149-1158	Mandalika	_	_	_	_	_
+10-10	1159-1160	.	_	_	_	_	_
+
+#Text=Hal itu pun mendapat sambutan luar biasa dari penggemar MotoGP di Indonesia , yang sudah 25 tahun tidak menggelar balapan Grand Prix .
+11-1	1162-1165	Hal	_	_	_	_	_
+11-2	1166-1169	itu	_	_	_	_	_
+11-3	1170-1173	pun	_	_	_	_	_
+11-4	1174-1182	mendapat	_	_	_	_	_
+11-5	1183-1191	sambutan	_	_	_	_	_
+11-6	1192-1196	luar	_	_	_	_	_
+11-7	1197-1202	biasa	_	_	_	_	_
+11-8	1203-1207	dari	_	_	_	_	_
+11-9	1208-1217	penggemar	_	_	_	_	_
+11-10	1218-1224	MotoGP	_	_	_	_	_
+11-11	1225-1227	di	_	_	_	_	_
+11-12	1228-1237	Indonesia	_	_	_	_	_
+11-13	1238-1239	,	_	_	_	_	_
+11-14	1240-1244	yang	_	_	_	_	_
+11-15	1245-1250	sudah	_	_	_	_	_
+11-16	1251-1253	25	_	_	_	_	_
+11-17	1254-1259	tahun	_	_	_	_	_
+11-18	1260-1265	tidak	_	_	_	_	_
+11-19	1266-1275	menggelar	_	_	_	_	_
+11-20	1276-1283	balapan	_	_	_	_	_
+11-21	1284-1289	Grand	_	_	_	_	_
+11-22	1290-1294	Prix	_	_	_	_	_
+11-23	1295-1296	.	_	_	_	_	_
+
+#Text=[ Gambas :I nstagram ] Meski berstatus pembalap kelas dunia , para pembalap MotoGP sadar mereka butuh liburan .
+12-1	1298-1299	[	_	_	_	_	_
+12-2	1300-1306	Gambas	_	_	_	_	_
+12-3	1307-1309	:I	_	_	_	_	_
+12-4	1310-1318	nstagram	_	_	_	_	_
+12-5	1319-1320	]	_	_	_	_	_
+12-6	1321-1326	Meski	_	_	_	_	_
+12-7	1327-1336	berstatus	_	_	_	_	_
+12-8	1337-1345	pembalap	_	_	_	_	_
+12-9	1346-1351	kelas	_	_	_	_	_
+12-10	1352-1357	dunia	_	_	_	_	_
+12-11	1358-1359	,	_	_	_	_	_
+12-12	1360-1364	para	_	_	_	_	_
+12-13	1365-1373	pembalap	_	_	_	_	_
+12-14	1374-1380	MotoGP	_	_	_	_	_
+12-15	1381-1386	sadar	_	_	_	_	_
+12-16	1387-1393	mereka	_	_	_	_	_
+12-17	1394-1399	butuh	_	_	_	_	_
+12-18	1400-1407	liburan	_	_	_	_	_
+12-19	1408-1409	.	_	_	_	_	_
+
+#Text=Terlebih sebelum menjalani musim MotoGP 2022 yang panjang dimulai 6 Maret di Losail , Qatar .
+13-1	1411-1419	Terlebih	_	_	_	_	_
+13-2	1420-1427	sebelum	_	_	_	_	_
+13-3	1428-1437	menjalani	_	_	_	_	_
+13-4	1438-1443	musim	_	_	_	_	_
+13-5	1444-1450	MotoGP	_	_	_	_	_
+13-6	1451-1455	2022	_	_	_	_	_
+13-7	1456-1460	yang	_	_	_	_	_
+13-8	1461-1468	panjang	_	_	_	_	_
+13-9	1469-1476	dimulai	_	_	_	_	_
+13-10	1477-1478	6	_	_	_	_	_
+13-11	1479-1484	Maret	_	_	_	_	_
+13-12	1485-1487	di	_	_	_	_	_
+13-13	1488-1494	Losail	_	_	_	_	_
+13-14	1495-1496	,	_	_	_	_	_
+13-15	1497-1502	Qatar	_	_	_	_	_
+13-16	1503-1504	.	_	_	_	_	_
+
+#Text=Selain itu tidak semua pembalap MotoGP pernah ke Mandalika , meski pembalap seperti Marc Marquez atau Maverick Vinales sering ke Indonesia .
+14-1	1506-1512	Selain	_	_	_	_	_
+14-2	1513-1516	itu	_	_	_	_	_
+14-3	1517-1522	tidak	_	_	_	_	_
+14-4	1523-1528	semua	_	_	_	_	_
+14-5	1529-1537	pembalap	_	_	_	_	_
+14-6	1538-1544	MotoGP	_	_	_	_	_
+14-7	1545-1551	pernah	_	_	_	_	_
+14-8	1552-1554	ke	_	_	_	_	_
+14-9	1555-1564	Mandalika	_	_	_	_	_
+14-10	1565-1566	,	_	_	_	_	_
+14-11	1567-1572	meski	_	_	_	_	_
+14-12	1573-1581	pembalap	_	_	_	_	_
+14-13	1582-1589	seperti	_	_	_	_	_
+14-14	1590-1594	Marc	_	_	_	_	_
+14-15	1595-1602	Marquez	_	_	_	_	_
+14-16	1603-1607	atau	_	_	_	_	_
+14-17	1608-1616	Maverick	_	_	_	_	_
+14-18	1617-1624	Vinales	_	_	_	_	_
+14-19	1625-1631	sering	_	_	_	_	_
+14-20	1632-1634	ke	_	_	_	_	_
+14-21	1635-1644	Indonesia	_	_	_	_	_
+14-22	1645-1646	.	_	_	_	_	_
+
+#Text=Kondisi cuaca Eropa , markas semua tim MotoGP 2022 , yang dingin juga membuat para pembalap MotoGP senang merasakan suhu panas di Mandalika .
+15-1	1648-1655	Kondisi	_	_	_	_	_
+15-2	1656-1661	cuaca	_	_	_	_	_
+15-3	1662-1667	Eropa	_	_	_	_	_
+15-4	1668-1669	,	_	_	_	_	_
+15-5	1670-1676	markas	_	_	_	_	_
+15-6	1677-1682	semua	_	_	_	_	_
+15-7	1683-1686	tim	_	_	_	_	_
+15-8	1687-1693	MotoGP	_	_	_	_	_
+15-9	1694-1698	2022	_	_	_	_	_
+15-10	1699-1700	,	_	_	_	_	_
+15-11	1701-1705	yang	_	_	_	_	_
+15-12	1706-1712	dingin	_	_	_	_	_
+15-13	1713-1717	juga	_	_	_	_	_
+15-14	1718-1725	membuat	_	_	_	_	_
+15-15	1726-1730	para	_	_	_	_	_
+15-16	1731-1739	pembalap	_	concept[1]	_	_	_
+15-17	1740-1746	MotoGP	_	concept[1]	_	_	_
+15-18	1747-1753	senang	_	positive[2]	_	_	_
+15-19	1754-1763	merasakan	_	_	_	_	_
+15-20	1764-1768	suhu	_	_	_	_	_
+15-21	1769-1774	panas	_	_	_	_	_
+15-22	1775-1777	di	_	_	_	_	_
+15-23	1778-1787	Mandalika	_	_	_	_	_
+15-24	1788-1789	.	_	_	_	_	_
+
+#Text=Terlebih hotel seluruh pembalap yang mengikuti tes MotoGP Mandalika langsung berhadapan dengan pantai .
+16-1	1791-1799	Terlebih	_	_	_	_	_
+16-2	1800-1805	hotel	_	_	_	_	_
+16-3	1806-1813	seluruh	_	_	_	_	_
+16-4	1814-1822	pembalap	_	_	_	_	_
+16-5	1823-1827	yang	_	_	_	_	_
+16-6	1828-1837	mengikuti	_	_	_	_	_
+16-7	1838-1841	tes	_	_	_	_	_
+16-8	1842-1848	MotoGP	_	_	_	_	_
+16-9	1849-1858	Mandalika	_	_	_	_	_
+16-10	1859-1867	langsung	_	_	_	_	_
+16-11	1868-1878	berhadapan	_	_	_	_	_
+16-12	1879-1885	dengan	_	_	_	_	_
+16-13	1886-1892	pantai	_	_	_	_	_
+16-14	1893-1894	.	_	_	_	_	_
+
+#Text=Sirkuit Mandalika memang trek yang unik , satu-satunya sirkuit yang dibangun dan dikemas bersamaan dengan paket wisata .
+17-1	1896-1903	Sirkuit	_	_	_	_	_
+17-2	1904-1913	Mandalika	_	_	_	_	_
+17-3	1914-1920	memang	_	_	_	_	_
+17-4	1921-1925	trek	_	concept[3]	_	_	_
+17-5	1926-1930	yang	_	_	_	_	_
+17-6	1931-1935	unik	_	positive[4]	_	_	_
+17-7	1936-1937	,	_	_	_	_	_
+17-8	1938-1950	satu-satunya	_	_	_	_	_
+17-9	1951-1958	sirkuit	_	_	_	_	_
+17-10	1959-1963	yang	_	_	_	_	_
+17-11	1964-1972	dibangun	_	_	_	_	_
+17-12	1973-1976	dan	_	_	_	_	_
+17-13	1977-1984	dikemas	_	_	_	_	_
+17-14	1985-1994	bersamaan	_	_	_	_	_
+17-15	1995-2001	dengan	_	_	_	_	_
+17-16	2002-2007	paket	_	_	_	_	_
+17-17	2008-2014	wisata	_	_	_	_	_
+17-18	2015-2016	.	_	_	_	_	_
+
+#Text=Itu sebab nya sejauh ini para pembalap MotoGP senang berada di Mandalika .
+18-1	2018-2021	Itu	_	_	_	_	_
+18-2	2022-2027	sebab	_	_	_	_	_
+18-3	2028-2031	nya	_	_	_	_	_
+18-4	2032-2038	sejauh	_	_	_	_	_
+18-5	2039-2042	ini	_	_	_	_	_
+18-6	2043-2047	para	_	_	_	_	_
+18-7	2048-2056	pembalap	_	_	_	_	_
+18-8	2057-2063	MotoGP	_	_	_	_	_
+18-9	2064-2070	senang	_	_	_	_	_
+18-10	2071-2077	berada	_	_	_	_	_
+18-11	2078-2080	di	_	_	_	_	_
+18-12	2081-2090	Mandalika	_	_	_	_	_
+18-13	2091-2092	.	_	_	_	_	_
+
+#Text=Mereka bisa merasakan liburan jelang tes MotoGP Mandalika .
+19-1	2094-2100	Mereka	_	_	_	_	_
+19-2	2101-2105	bisa	_	_	_	_	_
+19-3	2106-2115	merasakan	_	_	_	_	_
+19-4	2116-2123	liburan	_	_	_	_	_
+19-5	2124-2130	jelang	_	_	_	_	_
+19-6	2131-2134	tes	_	_	_	_	_
+19-7	2135-2141	MotoGP	_	_	_	_	_
+19-8	2142-2151	Mandalika	_	_	_	_	_
+19-9	2152-2153	.	_	_	_	_	_
+
+#Text=Berbeda seperti tes di Malaysia , di mana Sirkuit Sepang terletak di dekat Bandara Kuala Lumpur .
+20-1	2155-2162	Berbeda	_	_	_	_	_
+20-2	2163-2170	seperti	_	_	_	_	_
+20-3	2171-2174	tes	_	_	_	_	_
+20-4	2175-2177	di	_	_	_	_	_
+20-5	2178-2186	Malaysia	_	_	_	_	_
+20-6	2187-2188	,	_	_	_	_	_
+20-7	2189-2191	di	_	_	_	_	_
+20-8	2192-2196	mana	_	_	_	_	_
+20-9	2197-2204	Sirkuit	_	_	_	_	_
+20-10	2205-2211	Sepang	_	_	_	_	_
+20-11	2212-2220	terletak	_	_	_	_	_
+20-12	2221-2223	di	_	_	_	_	_
+20-13	2224-2229	dekat	_	_	_	_	_
+20-14	2230-2237	Bandara	_	_	_	_	_
+20-15	2238-2243	Kuala	_	_	_	_	_
+20-16	2244-2250	Lumpur	_	_	_	_	_
+20-17	2251-2252	.	_	_	_	_	_
+
+#Text=" Saya benar-benar menyukai ide MotoGP untuk menggelar balapan di Mandalika , karena hal ini juga menjadi kesempatan untuk membangkitkan ekonomi di tempat ini . Pemandangan nya unik . Saya [ mungkin ] hanya melihat pantai Pulau Lombok di depan hotel saya , tapi saya menyukai nya , " ujar jurnalis kawakan MotoGP asal Italia , Sandro Donato .
+21-1	2254-2255	"	_	_	_	_	_
+21-2	2256-2260	Saya	_	_	_	_	_
+21-3	2261-2272	benar-benar	_	_	_	_	_
+21-4	2273-2281	menyukai	_	_	_	_	_
+21-5	2282-2285	ide	_	_	_	_	_
+21-6	2286-2292	MotoGP	_	_	_	_	_
+21-7	2293-2298	untuk	_	_	_	_	_
+21-8	2299-2308	menggelar	_	_	_	_	_
+21-9	2309-2316	balapan	_	_	_	_	_
+21-10	2317-2319	di	_	_	_	_	_
+21-11	2320-2329	Mandalika	_	_	_	_	_
+21-12	2330-2331	,	_	_	_	_	_
+21-13	2332-2338	karena	_	_	_	_	_
+21-14	2339-2342	hal	_	_	_	_	_
+21-15	2343-2346	ini	_	_	_	_	_
+21-16	2347-2351	juga	_	_	_	_	_
+21-17	2352-2359	menjadi	_	_	_	_	_
+21-18	2360-2370	kesempatan	_	_	_	_	_
+21-19	2371-2376	untuk	_	_	_	_	_
+21-20	2377-2390	membangkitkan	_	_	_	_	_
+21-21	2391-2398	ekonomi	_	_	_	_	_
+21-22	2399-2401	di	_	_	_	_	_
+21-23	2402-2408	tempat	_	_	_	_	_
+21-24	2409-2412	ini	_	_	_	_	_
+21-25	2413-2414	.	_	_	_	_	_
+21-26	2415-2426	Pemandangan	_	_	_	_	_
+21-27	2427-2430	nya	_	_	_	_	_
+21-28	2431-2435	unik	_	_	_	_	_
+21-29	2436-2437	.	_	_	_	_	_
+21-30	2438-2442	Saya	_	_	_	_	_
+21-31	2443-2444	[	_	_	_	_	_
+21-32	2445-2452	mungkin	_	_	_	_	_
+21-33	2453-2454	]	_	_	_	_	_
+21-34	2455-2460	hanya	_	_	_	_	_
+21-35	2461-2468	melihat	_	_	_	_	_
+21-36	2469-2475	pantai	_	_	_	_	_
+21-37	2476-2481	Pulau	_	_	_	_	_
+21-38	2482-2488	Lombok	_	_	_	_	_
+21-39	2489-2491	di	_	_	_	_	_
+21-40	2492-2497	depan	_	_	_	_	_
+21-41	2498-2503	hotel	_	_	_	_	_
+21-42	2504-2508	saya	_	_	_	_	_
+21-43	2509-2510	,	_	_	_	_	_
+21-44	2511-2515	tapi	_	_	_	_	_
+21-45	2516-2520	saya	_	_	_	_	_
+21-46	2521-2529	menyukai	_	_	_	_	_
+21-47	2530-2533	nya	_	_	_	_	_
+21-48	2534-2535	,	_	_	_	_	_
+21-49	2536-2537	"	_	_	_	_	_
+21-50	2538-2542	ujar	_	_	_	_	_
+21-51	2543-2551	jurnalis	_	_	_	_	_
+21-52	2552-2559	kawakan	_	_	_	_	_
+21-53	2560-2566	MotoGP	_	_	_	_	_
+21-54	2567-2571	asal	_	_	_	_	_
+21-55	2572-2578	Italia	_	_	_	_	_
+21-56	2579-2580	,	_	_	_	_	_
+21-57	2581-2587	Sandro	_	_	_	_	_
+21-58	2588-2594	Donato	_	_	_	_	_
+21-59	2595-2596	.	_	_	_	_	_
+
+#Text=Namun rasa liburan itu hampir pasti akan hilang , karena para pembalap MotoGP akan mulai fokus menjalani tes MotoGP Mandalika mulai Jumat ( 11 / 2 ) .
+22-1	2598-2603	Namun	_	_	_	_	_
+22-2	2604-2608	rasa	_	_	_	_	_
+22-3	2609-2616	liburan	_	_	_	_	_
+22-4	2617-2620	itu	_	_	_	_	_
+22-5	2621-2627	hampir	_	_	_	_	_
+22-6	2628-2633	pasti	_	_	_	_	_
+22-7	2634-2638	akan	_	_	_	_	_
+22-8	2639-2645	hilang	_	_	_	_	_
+22-9	2646-2647	,	_	_	_	_	_
+22-10	2648-2654	karena	_	_	_	_	_
+22-11	2655-2659	para	_	_	_	_	_
+22-12	2660-2668	pembalap	_	_	_	_	_
+22-13	2669-2675	MotoGP	_	_	_	_	_
+22-14	2676-2680	akan	_	_	_	_	_
+22-15	2681-2686	mulai	_	_	_	_	_
+22-16	2687-2692	fokus	_	_	_	_	_
+22-17	2693-2702	menjalani	_	_	_	_	_
+22-18	2703-2706	tes	_	_	_	_	_
+22-19	2707-2713	MotoGP	_	_	_	_	_
+22-20	2714-2723	Mandalika	_	_	_	_	_
+22-21	2724-2729	mulai	_	_	_	_	_
+22-22	2730-2735	Jumat	_	_	_	_	_
+22-23	2736-2737	(	_	_	_	_	_
+22-24	2738-2740	11	_	_	_	_	_
+22-25	2741-2742	/	_	_	_	_	_
+22-26	2743-2744	2	_	_	_	_	_
+22-27	2745-2746	)	_	_	_	_	_
+22-28	2747-2748	.	_	_	_	_	_
+
+#Text=[ Gambas : Video CNN ]
+23-1	2750-2751	[	_	_	_	_	_
+23-2	2752-2758	Gambas	_	_	_	_	_
+23-3	2759-2760	:	_	_	_	_	_
+23-4	2761-2766	Video	_	_	_	_	_
+23-5	2767-2770	CNN	_	_	_	_	_
+23-6	2771-2772	]	_	_	_	_	_
+

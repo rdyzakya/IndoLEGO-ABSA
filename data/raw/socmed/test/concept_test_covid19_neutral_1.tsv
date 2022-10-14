@@ -1,0 +1,349 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Seorang tenaga kesehatan di Indonesia, Prof dr Suwandi Widjaja, berusia 77 tahun, disuntik vaksin Corona buatan Sinovac.
+1-1	0-7	Seorang	_	_	_	_	_
+1-2	9-15	tenaga	_	_	_	_	_
+1-3	17-26	kesehatan	_	_	_	_	_
+1-4	28-30	di	_	_	_	_	_
+1-5	32-42	Indonesia,	_	_	_	_	_
+1-6	44-48	Prof	_	_	_	_	_
+1-7	50-52	dr	_	_	_	_	_
+1-8	54-61	Suwandi	_	_	_	_	_
+1-9	63-71	Widjaja,	_	_	_	_	_
+1-10	73-80	berusia	_	_	_	_	_
+1-11	82-84	77	_	_	_	_	_
+1-12	86-92	tahun,	_	_	_	_	_
+1-13	94-102	disuntik	_	_	_	_	_
+1-14	104-110	vaksin	_	_	_	_	_
+1-15	112-118	Corona	_	_	_	_	_
+1-16	120-126	buatan	_	_	_	_	_
+1-17	128-136	Sinovac.	_	_	_	_	_
+
+#Text=Vaksin yg diberikan akan melatih tubuh kita untuk membentuk kekebalan terhadap virus Corona #VaksinYuk
+2-1	138-144	Vaksin	_	_	_	_	_
+2-2	146-148	yg	_	_	_	_	_
+2-3	150-159	diberikan	_	_	_	_	_
+2-4	161-165	akan	_	_	_	_	_
+2-5	167-174	melatih	_	_	_	_	_
+2-6	176-181	tubuh	_	_	_	_	_
+2-7	183-187	kita	_	_	_	_	_
+2-8	189-194	untuk	_	_	_	_	_
+2-9	196-205	membentuk	_	_	_	_	_
+2-10	207-216	kekebalan	_	_	_	_	_
+2-11	218-226	terhadap	_	_	_	_	_
+2-12	228-233	virus	_	_	_	_	_
+2-13	235-241	Corona	_	_	_	_	_
+2-14	243-253	#VaksinYuk	_	_	_	_	_
+
+#Text=Puskesmas Kupang Kota, Kota Bandar Lampung hari ini melakukan vaksinasi corona terhadap tenaga kesehatan yang bertugas. #publisherstory
+3-1	255-264	Puskesmas	_	_	_	_	_
+3-2	266-272	Kupang	_	_	_	_	_
+3-3	274-279	Kota,	_	_	_	_	_
+3-4	281-285	Kota	_	_	_	_	_
+3-5	287-293	Bandar	_	_	_	_	_
+3-6	295-302	Lampung	_	_	_	_	_
+3-7	304-308	hari	_	_	_	_	_
+3-8	310-313	ini	_	_	_	_	_
+3-9	315-324	melakukan	_	_	_	_	_
+3-10	326-335	vaksinasi	_	_	_	_	_
+3-11	337-343	corona	_	_	_	_	_
+3-12	345-353	terhadap	_	_	_	_	_
+3-13	355-361	tenaga	_	_	_	_	_
+3-14	363-372	kesehatan	_	_	_	_	_
+3-15	374-378	yang	_	_	_	_	_
+3-16	380-389	bertugas.	_	_	_	_	_
+3-17	391-406	#publisherstory	_	_	_	_	_
+
+#Text=Mari kita doakan kesehatan Mbak Rita.  Semoga segera fit dan kembali bertahta di singgasana padepokan laskar corona.
+4-1	408-412	Mari	_	_	_	_	_
+4-2	414-418	kita	_	_	_	_	_
+4-3	420-426	doakan	_	_	_	_	_
+4-4	428-437	kesehatan	_	_	_	_	_
+4-5	439-443	Mbak	_	_	_	_	_
+4-6	445-450	Rita.	_	_	_	_	_
+4-7	452-458	Semoga	_	_	_	_	_
+4-8	460-466	segera	_	_	_	_	_
+4-9	468-471	fit	_	_	_	_	_
+4-10	473-476	dan	_	_	_	_	_
+4-11	478-485	kembali	_	_	_	_	_
+4-12	487-495	bertahta	_	_	_	_	_
+4-13	497-499	di	_	_	_	_	_
+4-14	501-511	singgasana	_	_	_	_	_
+4-15	513-522	padepokan	_	_	_	_	_
+4-16	524-530	laskar	_	_	_	_	_
+4-17	532-539	corona.	_	_	_	_	_
+
+#Text=Beredar sebuah pesan di Facebook yang menyebutkan penerima vaksin corona tak perlu memakai masker. Cek faktanya.
+5-1	541-548	Beredar	_	_	_	_	_
+5-2	550-556	sebuah	_	_	_	_	_
+5-3	558-563	pesan	_	_	_	_	_
+5-4	565-567	di	_	_	_	_	_
+5-5	569-577	Facebook	_	_	_	_	_
+5-6	579-583	yang	_	_	_	_	_
+5-7	585-596	menyebutkan	_	_	_	_	_
+5-8	598-606	penerima	_	_	_	_	_
+5-9	608-614	vaksin	_	_	_	_	_
+5-10	616-622	corona	_	_	_	_	_
+5-11	624-627	tak	_	_	_	_	_
+5-12	629-634	perlu	_	_	_	_	_
+5-13	636-643	memakai	_	_	_	_	_
+5-14	645-652	masker.	_	_	_	_	_
+5-15	654-657	Cek	_	_	_	_	_
+5-16	659-668	faktanya.	_	_	_	_	_
+
+#Text=Tiga vaksin corona yang akan segera diuji di Indonesia. Apa sajakah itu? #satgascovid19
+6-1	670-674	Tiga	_	_	_	_	_
+6-2	676-682	vaksin	_	_	_	_	_
+6-3	684-690	corona	_	_	_	_	_
+6-4	692-696	yang	_	_	_	_	_
+6-5	698-702	akan	_	_	_	_	_
+6-6	704-710	segera	_	_	_	_	_
+6-7	712-717	diuji	_	_	_	_	_
+6-8	719-721	di	_	_	_	_	_
+6-9	723-733	Indonesia.	_	_	_	_	_
+6-10	735-738	Apa	_	_	_	_	_
+6-11	740-747	sajakah	_	_	_	_	_
+6-12	749-753	itu?	_	_	_	_	_
+6-13	755-769	#satgascovid19	_	_	_	_	_
+
+#Text=Gubernur Daerah Istimewa Yogyakarta Sri Sultan Hamengku Buwono (HB) meminta Dinas Kesehatan DIY membuat laporan perkembangan kasus corona tiga kali sehari.
+7-1	771-779	Gubernur	_	_	_	_	_
+7-2	781-787	Daerah	_	_	_	_	_
+7-3	789-797	Istimewa	_	_	_	_	_
+7-4	799-809	Yogyakarta	_	_	_	_	_
+7-5	811-814	Sri	_	_	_	_	_
+7-6	816-822	Sultan	_	_	_	_	_
+7-7	824-832	Hamengku	_	_	_	_	_
+7-8	834-840	Buwono	_	_	_	_	_
+7-9	842-846	(HB)	_	_	_	_	_
+7-10	848-855	meminta	_	_	_	_	_
+7-11	857-862	Dinas	_	_	_	_	_
+7-12	864-873	Kesehatan	_	_	_	_	_
+7-13	875-878	DIY	_	_	_	_	_
+7-14	880-887	membuat	_	_	_	_	_
+7-15	889-896	laporan	_	_	_	_	_
+7-16	898-910	perkembangan	_	_	_	_	_
+7-17	912-917	kasus	_	_	_	_	_
+7-18	919-925	corona	_	_	_	_	_
+7-19	927-931	tiga	_	_	_	_	_
+7-20	933-937	kali	_	_	_	_	_
+7-21	939-946	sehari.	_	_	_	_	_
+
+#Text=Konfirmasi mengenai Airlangga pernah positif corona disampaikan Menko PMK Muhadjir Effendy dalam sambutannya. Ia menyambut Airlangga sebagai penyintas.
+8-1	948-958	Konfirmasi	_	_	_	_	_
+8-2	960-968	mengenai	_	_	_	_	_
+8-3	970-979	Airlangga	_	_	_	_	_
+8-4	981-987	pernah	_	_	_	_	_
+8-5	989-996	positif	_	_	_	_	_
+8-6	998-1004	corona	_	_	_	_	_
+8-7	1006-1017	disampaikan	_	_	_	_	_
+8-8	1019-1024	Menko	_	_	_	_	_
+8-9	1026-1029	PMK	_	_	_	_	_
+8-10	1031-1039	Muhadjir	_	_	_	_	_
+8-11	1041-1048	Effendy	_	_	_	_	_
+8-12	1050-1055	dalam	_	_	_	_	_
+8-13	1057-1069	sambutannya.	_	_	_	_	_
+8-14	1071-1073	Ia	_	_	_	_	_
+8-15	1075-1084	menyambut	_	_	_	_	_
+8-16	1086-1095	Airlangga	_	_	_	_	_
+8-17	1097-1104	sebagai	_	_	_	_	_
+8-18	1106-1116	penyintas.	_	_	_	_	_
+
+#Text=Seneng banget ot7. Indonesia udh banyak ternotice, tinggal konsernya aja huhuu, semoga 2021 corona pergi.aamiin.
+9-1	1118-1124	Seneng	_	_	_	_	_
+9-2	1126-1132	banget	_	_	_	_	_
+9-3	1134-1138	ot7.	_	_	_	_	_
+9-4	1140-1149	Indonesia	_	_	_	_	_
+9-5	1151-1154	udh	_	_	_	_	_
+9-6	1156-1162	banyak	_	_	_	_	_
+9-7	1164-1174	ternotice,	_	_	_	_	_
+9-8	1176-1183	tinggal	_	_	_	_	_
+9-9	1185-1194	konsernya	_	_	_	_	_
+9-10	1196-1199	aja	_	_	_	_	_
+9-11	1201-1207	huhuu,	_	_	_	_	_
+9-12	1209-1215	semoga	_	_	_	_	_
+9-13	1217-1221	2021	_	_	_	_	_
+9-14	1223-1229	corona	_	_	_	_	_
+9-15	1231-1244	pergi.aamiin.	_	_	_	_	_
+
+#Text=Mendapatkan vaksin bukan berarti kita secara otomatis akan terbebas dari virus corona. Pasalnya, perlu waktu agar vaksin bisa bekerja untuk menciptakan antibodi melawan Covid-19 ini.
+10-1	1246-1257	Mendapatkan	_	_	_	_	_
+10-2	1259-1265	vaksin	_	_	_	_	_
+10-3	1267-1272	bukan	_	_	_	_	_
+10-4	1274-1281	berarti	_	_	_	_	_
+10-5	1283-1287	kita	_	_	_	_	_
+10-6	1289-1295	secara	_	_	_	_	_
+10-7	1297-1305	otomatis	_	_	_	_	_
+10-8	1307-1311	akan	_	_	_	_	_
+10-9	1313-1321	terbebas	_	_	_	_	_
+10-10	1323-1327	dari	_	_	_	_	_
+10-11	1329-1334	virus	_	_	_	_	_
+10-12	1336-1343	corona.	_	_	_	_	_
+10-13	1345-1354	Pasalnya,	_	_	_	_	_
+10-14	1356-1361	perlu	_	_	_	_	_
+10-15	1363-1368	waktu	_	_	_	_	_
+10-16	1370-1374	agar	_	_	_	_	_
+10-17	1376-1382	vaksin	_	_	_	_	_
+10-18	1384-1388	bisa	_	_	_	_	_
+10-19	1390-1397	bekerja	_	_	_	_	_
+10-20	1399-1404	untuk	_	_	_	_	_
+10-21	1406-1417	menciptakan	_	_	_	_	_
+10-22	1419-1427	antibodi	_	_	_	_	_
+10-23	1429-1436	melawan	_	_	_	_	_
+10-24	1438-1446	Covid-19	_	_	_	_	_
+10-25	1448-1452	ini.	_	_	_	_	_
+
+#Text=PMI setiap harinya bisa menerima 200 permintaan plasma darah konvalesen untuk pasien corona.
+11-1	1454-1457	PMI	_	_	_	_	_
+11-2	1459-1465	setiap	_	_	_	_	_
+11-3	1467-1474	harinya	_	_	_	_	_
+11-4	1476-1480	bisa	_	_	_	_	_
+11-5	1482-1490	menerima	_	_	_	_	_
+11-6	1492-1495	200	_	_	_	_	_
+11-7	1497-1507	permintaan	_	_	_	_	_
+11-8	1509-1515	plasma	_	_	_	_	_
+11-9	1517-1522	darah	_	_	_	_	_
+11-10	1524-1534	konvalesen	_	_	_	_	_
+11-11	1536-1541	untuk	_	_	_	_	_
+11-12	1543-1549	pasien	_	_	_	_	_
+11-13	1551-1558	corona.	_	_	_	_	_
+
+#Text=kan banyak idol yg debut pas corona gini kan, di stage kan juga ga ada penonton, ntar kalo udh ga ada corona mereka cb lagi ntar di stage mesti udh ada penonton, mereka kaget ga ya gugup ga ya
+12-1	1560-1563	kan	_	_	_	_	_
+12-2	1565-1571	banyak	_	_	_	_	_
+12-3	1573-1577	idol	_	_	_	_	_
+12-4	1579-1581	yg	_	_	_	_	_
+12-5	1583-1588	debut	_	_	_	_	_
+12-6	1590-1593	pas	_	_	_	_	_
+12-7	1595-1601	corona	_	_	_	_	_
+12-8	1603-1607	gini	_	_	_	_	_
+12-9	1609-1613	kan,	_	_	_	_	_
+12-10	1615-1617	di	_	_	_	_	_
+12-11	1619-1624	stage	_	_	_	_	_
+12-12	1626-1629	kan	_	_	_	_	_
+12-13	1631-1635	juga	_	_	_	_	_
+12-14	1637-1639	ga	_	_	_	_	_
+12-15	1641-1644	ada	_	_	_	_	_
+12-16	1646-1655	penonton,	_	_	_	_	_
+12-17	1657-1661	ntar	_	_	_	_	_
+12-18	1663-1667	kalo	_	_	_	_	_
+12-19	1669-1672	udh	_	_	_	_	_
+12-20	1674-1676	ga	_	_	_	_	_
+12-21	1678-1681	ada	_	_	_	_	_
+12-22	1683-1689	corona	_	_	_	_	_
+12-23	1691-1697	mereka	_	_	_	_	_
+12-24	1699-1701	cb	_	_	_	_	_
+12-25	1703-1707	lagi	_	_	_	_	_
+12-26	1709-1713	ntar	_	_	_	_	_
+12-27	1715-1717	di	_	_	_	_	_
+12-28	1719-1724	stage	_	_	_	_	_
+12-29	1726-1731	mesti	_	_	_	_	_
+12-30	1733-1736	udh	_	_	_	_	_
+12-31	1738-1741	ada	_	_	_	_	_
+12-32	1743-1752	penonton,	_	_	_	_	_
+12-33	1754-1760	mereka	_	_	_	_	_
+12-34	1762-1767	kaget	_	_	_	_	_
+12-35	1769-1771	ga	_	_	_	_	_
+12-36	1773-1775	ya	_	_	_	_	_
+12-37	1777-1782	gugup	_	_	_	_	_
+12-38	1784-1786	ga	_	_	_	_	_
+12-39	1788-1790	ya	_	_	_	_	_
+
+#Text=Polsek Kenduruan melaksanakan giat Yustisi Pendisiplinan Protokol Kesehatan, Cegah Penyebaran Virus Corona
+13-1	1792-1798	Polsek	_	_	_	_	_
+13-2	1800-1809	Kenduruan	_	_	_	_	_
+13-3	1811-1823	melaksanakan	_	_	_	_	_
+13-4	1825-1829	giat	_	_	_	_	_
+13-5	1831-1838	Yustisi	_	_	_	_	_
+13-6	1840-1853	Pendisiplinan	_	_	_	_	_
+13-7	1855-1863	Protokol	_	_	_	_	_
+13-8	1865-1875	Kesehatan,	_	_	_	_	_
+13-9	1877-1882	Cegah	_	_	_	_	_
+13-10	1884-1894	Penyebaran	_	_	_	_	_
+13-11	1896-1901	Virus	_	_	_	_	_
+13-12	1903-1909	Corona	_	_	_	_	_
+
+#Text=Bersama kita mencegah penyebaran virus corona dengan menerapkan disiplin 3M
+14-1	1911-1918	Bersama	_	_	_	_	_
+14-2	1920-1924	kita	_	_	_	_	_
+14-3	1926-1934	mencegah	_	_	_	_	_
+14-4	1936-1946	penyebaran	_	_	_	_	_
+14-5	1948-1953	virus	_	_	_	_	_
+14-6	1955-1961	corona	_	_	_	_	_
+14-7	1963-1969	dengan	_	_	_	_	_
+14-8	1971-1981	menerapkan	_	_	_	_	_
+14-9	1983-1991	disiplin	_	_	_	_	_
+14-10	1993-1995	3M	_	_	_	_	_
+
+#Text=privasiii jigeum!! ih bego banget, ga diajarin hargaiin privasi org apa? lagian lagi corona astagaa!
+15-1	1997-2006	privasiii	_	_	_	_	_
+15-2	2008-2016	jigeum!!	_	_	_	_	_
+15-3	2018-2020	ih	_	_	_	_	_
+15-4	2022-2026	bego	_	_	_	_	_
+15-5	2028-2035	banget,	_	_	_	_	_
+15-6	2037-2039	ga	_	_	_	_	_
+15-7	2041-2049	diajarin	_	_	_	_	_
+15-8	2051-2059	hargaiin	_	_	_	_	_
+15-9	2061-2068	privasi	_	_	_	_	_
+15-10	2070-2073	org	_	_	_	_	_
+15-11	2075-2079	apa?	_	_	_	_	_
+15-12	2081-2087	lagian	_	_	_	_	_
+15-13	2089-2093	lagi	_	_	_	_	_
+15-14	2095-2101	corona	_	_	_	_	_
+15-15	2103-2111	astagaa!	_	_	_	_	_
+
+#Text=Hal ini diharapkan dapat mengurangi beban kapasitas rumah sakit khusus corona di Jakarta.
+16-1	2113-2116	Hal	_	_	_	_	_
+16-2	2118-2121	ini	_	_	_	_	_
+16-3	2123-2133	diharapkan	_	_	_	_	_
+16-4	2135-2140	dapat	_	_	_	_	_
+16-5	2142-2152	mengurangi	_	_	_	_	_
+16-6	2154-2159	beban	_	_	_	_	_
+16-7	2161-2170	kapasitas	_	_	_	_	_
+16-8	2172-2177	rumah	_	_	_	_	_
+16-9	2179-2184	sakit	_	_	_	_	_
+16-10	2186-2192	khusus	_	_	_	_	_
+16-11	2194-2200	corona	_	_	_	_	_
+16-12	2202-2204	di	_	_	_	_	_
+16-13	2206-2214	Jakarta.	_	_	_	_	_
+
+#Text=Pemerintah bersama PMI berharap penyintas corona bisa mendonorkan plasma konvalesen demi meningkatkan angka kesembuhan dan menurunkan angka kematian COVID-19
+17-1	2216-2226	Pemerintah	_	_	_	_	_
+17-2	2228-2235	bersama	_	_	_	_	_
+17-3	2237-2240	PMI	_	_	_	_	_
+17-4	2242-2250	berharap	_	_	_	_	_
+17-5	2252-2261	penyintas	_	_	_	_	_
+17-6	2263-2269	corona	_	_	_	_	_
+17-7	2271-2275	bisa	_	_	_	_	_
+17-8	2277-2288	mendonorkan	_	_	_	_	_
+17-9	2290-2296	plasma	_	_	_	_	_
+17-10	2298-2308	konvalesen	_	_	_	_	_
+17-11	2310-2314	demi	_	_	_	_	_
+17-12	2316-2328	meningkatkan	_	_	_	_	_
+17-13	2330-2335	angka	_	_	_	_	_
+17-14	2337-2347	kesembuhan	_	_	_	_	_
+17-15	2349-2352	dan	_	_	_	_	_
+17-16	2354-2364	menurunkan	_	_	_	_	_
+17-17	2366-2371	angka	_	_	_	_	_
+17-18	2373-2381	kematian	_	_	_	_	_
+17-19	2383-2391	COVID-19	_	_	_	_	_
+
+#Text=Negara Bagian Sao Paolo adalah yang pertama memulai vaksinasi virus corona memakai Sinovac dan AstraZeneca di Brasil
+18-1	2393-2399	Negara	_	_	_	_	_
+18-2	2401-2407	Bagian	_	_	_	_	_
+18-3	2409-2412	Sao	_	_	_	_	_
+18-4	2414-2419	Paolo	_	_	_	_	_
+18-5	2421-2427	adalah	_	_	_	_	_
+18-6	2429-2433	yang	_	_	_	_	_
+18-7	2435-2442	pertama	_	_	_	_	_
+18-8	2444-2451	memulai	_	_	_	_	_
+18-9	2453-2462	vaksinasi	_	_	_	_	_
+18-10	2464-2469	virus	_	_	_	_	_
+18-11	2471-2477	corona	_	_	_	_	_
+18-12	2479-2486	memakai	_	_	_	_	_
+18-13	2488-2495	Sinovac	_	_	_	_	_
+18-14	2497-2500	dan	_	_	_	_	_
+18-15	2502-2513	AstraZeneca	_	_	_	_	_
+18-16	2515-2517	di	_	_	_	_	_
+18-17	2519-2525	Brasil	_	_	_	_	_
+

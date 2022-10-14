@@ -1,0 +1,130 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Pemerintah Australia ingin musisi hip - hop terkemuka asal Amerika Serikat ( AS ) Kanye West melakukan vaksinasi Covid - 19 lengkap sebelum mengadakan tur ke Negeri Kanguru Maret 2022 .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-37	Pemerintah	_	_	_	_	_
+1-7	38-47	Australia	_	_	_	_	_
+1-8	48-53	ingin	_	_	_	_	_
+1-9	54-60	musisi	_	_	_	_	_
+1-10	61-64	hip	_	_	_	_	_
+1-11	65-66	-	_	_	_	_	_
+1-12	67-70	hop	_	_	_	_	_
+1-13	71-80	terkemuka	_	_	_	_	_
+1-14	81-85	asal	_	_	_	_	_
+1-15	86-93	Amerika	_	_	_	_	_
+1-16	94-101	Serikat	_	_	_	_	_
+1-17	102-103	(	_	_	_	_	_
+1-18	104-106	AS	_	_	_	_	_
+1-19	107-108	)	_	_	_	_	_
+1-20	109-114	Kanye	_	_	_	_	_
+1-21	115-119	West	_	_	_	_	_
+1-22	120-129	melakukan	_	_	_	_	_
+1-23	130-139	vaksinasi	_	_	_	_	_
+1-24	140-145	Covid	_	_	_	_	_
+1-25	146-147	-	_	_	_	_	_
+1-26	148-150	19	_	_	_	_	_
+1-27	151-158	lengkap	_	_	_	_	_
+1-28	159-166	sebelum	_	_	_	_	_
+1-29	167-177	mengadakan	_	_	_	_	_
+1-30	178-181	tur	_	_	_	_	_
+1-31	182-184	ke	_	_	_	_	_
+1-32	185-191	Negeri	_	_	_	_	_
+1-33	192-199	Kanguru	_	_	_	_	_
+1-34	200-205	Maret	_	_	_	_	_
+1-35	206-210	2022	_	_	_	_	_
+1-36	211-212	.	_	_	_	_	_
+
+#Text=Keinginan itu disampaikan langsung oleh Perdana Menteri Australia Scott Morrison .
+2-1	214-223	Keinginan	_	_	_	_	_
+2-2	224-227	itu	_	_	_	_	_
+2-3	228-239	disampaikan	_	_	_	_	_
+2-4	240-248	langsung	_	_	_	_	_
+2-5	249-253	oleh	_	_	_	_	_
+2-6	254-261	Perdana	_	_	_	_	_
+2-7	262-269	Menteri	_	_	_	_	_
+2-8	270-279	Australia	_	_	_	_	_
+2-9	280-285	Scott	_	_	_	_	_
+2-10	286-294	Morrison	_	_	_	_	_
+2-11	295-296	.	_	_	_	_	_
+
+#Text=" Ikuti aturan , Anda bisa datang . Anda tidak mengikuti aturan , Anda tidak bisa datang , " ujar Morrison seperti dilansir Channel News Asia , Minggu ( 30 / 1 / 2022 ) .
+3-1	298-299	"	_	_	_	_	_
+3-2	300-305	Ikuti	_	_	_	_	_
+3-3	306-312	aturan	_	_	_	_	_
+3-4	313-314	,	_	_	_	_	_
+3-5	315-319	Anda	_	_	_	_	_
+3-6	320-324	bisa	_	_	_	_	_
+3-7	325-331	datang	_	_	_	_	_
+3-8	332-333	.	_	_	_	_	_
+3-9	334-338	Anda	_	_	_	_	_
+3-10	339-344	tidak	_	_	_	_	_
+3-11	345-354	mengikuti	_	_	_	_	_
+3-12	355-361	aturan	_	_	_	_	_
+3-13	362-363	,	_	_	_	_	_
+3-14	364-368	Anda	_	_	_	_	_
+3-15	369-374	tidak	_	_	_	_	_
+3-16	375-379	bisa	_	_	_	_	_
+3-17	380-386	datang	_	_	_	_	_
+3-18	387-388	,	_	_	_	_	_
+3-19	389-390	"	_	_	_	_	_
+3-20	391-395	ujar	_	_	_	_	_
+3-21	396-404	Morrison	_	_	_	_	_
+3-22	405-412	seperti	_	_	_	_	_
+3-23	413-421	dilansir	_	_	_	_	_
+3-24	422-429	Channel	_	_	_	_	_
+3-25	430-434	News	_	_	_	_	_
+3-26	435-439	Asia	_	_	_	_	_
+3-27	440-441	,	_	_	_	_	_
+3-28	442-448	Minggu	_	_	_	_	_
+3-29	449-450	(	_	_	_	_	_
+3-30	451-453	30	_	_	_	_	_
+3-31	454-455	/	_	_	_	_	_
+3-32	456-457	1	_	_	_	_	_
+3-33	458-459	/	_	_	_	_	_
+3-34	460-464	2022	_	_	_	_	_
+3-35	465-466	)	_	_	_	_	_
+3-36	467-468	.	_	_	_	_	_
+
+#Text=Peringatan itu muncul dua minggu setelah harapan bintang tenis Serbia Novak Djokovic untuk mendapatkan gelar grand slam Australia Terbuka pupus .
+4-1	470-480	Peringatan	_	_	_	_	_
+4-2	481-484	itu	_	_	_	_	_
+4-3	485-491	muncul	_	_	_	_	_
+4-4	492-495	dua	_	_	_	_	_
+4-5	496-502	minggu	_	_	_	_	_
+4-6	503-510	setelah	_	_	_	_	_
+4-7	511-518	harapan	_	_	_	_	_
+4-8	519-526	bintang	_	_	_	_	_
+4-9	527-532	tenis	_	_	_	_	_
+4-10	533-539	Serbia	_	_	_	_	_
+4-11	540-545	Novak	_	_	_	_	_
+4-12	546-554	Djokovic	_	_	_	_	_
+4-13	555-560	untuk	_	_	_	_	_
+4-14	561-572	mendapatkan	_	_	_	_	_
+4-15	573-578	gelar	_	_	_	_	_
+4-16	579-584	grand	_	_	_	_	_
+4-17	585-589	slam	_	_	_	_	_
+4-18	590-599	Australia	_	_	_	_	_
+4-19	600-607	Terbuka	_	_	_	_	_
+4-20	608-613	pupus	_	_	_	_	_
+4-21	614-615	.	_	_	_	_	_
+
+#Text=Ini karena pengadilan menguatkan keputusan pemerintah untuk membatalkan visa Djokovic lantaran tidak divaksin .
+5-1	617-620	Ini	_	_	_	_	_
+5-2	621-627	karena	_	_	_	_	_
+5-3	628-638	pengadilan	_	_	_	_	_
+5-4	639-649	menguatkan	_	_	_	_	_
+5-5	650-659	keputusan	_	_	_	_	_
+5-6	660-670	pemerintah	_	_	_	_	_
+5-7	671-676	untuk	_	_	_	_	_
+5-8	677-688	membatalkan	_	_	_	_	_
+5-9	689-693	visa	_	_	_	_	_
+5-10	694-702	Djokovic	_	_	_	_	_
+5-11	703-711	lantaran	_	_	_	_	_
+5-12	712-717	tidak	_	_	_	_	_
+5-13	718-726	divaksin	_	_	_	_	_
+5-14	727-728	.	_	_	_	_	_
+

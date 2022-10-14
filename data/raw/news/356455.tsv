@@ -1,0 +1,320 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Sekretaris Kabinet ( Seskab ) era Presiden Susilo Bambang Yudhoyono ( SBY ) Dipo Alam mengungkap perseteruan antara BJ Habibie dengan Benny Moerdani .
+1-1	0-10	Sekretaris	_	_	_	_	_
+1-2	11-18	Kabinet	_	_	_	_	_
+1-3	19-20	(	_	_	_	_	_
+1-4	21-27	Seskab	_	_	_	_	_
+1-5	28-29	)	_	_	_	_	_
+1-6	30-33	era	_	_	_	_	_
+1-7	34-42	Presiden	_	_	_	_	_
+1-8	43-49	Susilo	_	_	_	_	_
+1-9	50-57	Bambang	_	_	_	_	_
+1-10	58-67	Yudhoyono	_	_	_	_	_
+1-11	68-69	(	_	_	_	_	_
+1-12	70-73	SBY	_	_	_	_	_
+1-13	74-75	)	_	_	_	_	_
+1-14	76-80	Dipo	_	_	_	_	_
+1-15	81-85	Alam	_	_	_	_	_
+1-16	86-96	mengungkap	_	_	_	_	_
+1-17	97-108	perseteruan	_	_	_	_	_
+1-18	109-115	antara	_	_	_	_	_
+1-19	116-118	BJ	_	_	_	_	_
+1-20	119-126	Habibie	_	_	_	_	_
+1-21	127-133	dengan	_	_	_	_	_
+1-22	134-139	Benny	_	_	_	_	_
+1-23	140-148	Moerdani	_	_	_	_	_
+1-24	149-150	.	_	_	_	_	_
+
+#Text=Hal itu ia tuangkan dalam buku terbaru nya , Dalam Pusaran Adab Dipimpin dan Memimpin : Biografi Seorang Aktivis .
+2-1	152-155	Hal	_	_	_	_	_
+2-2	156-159	itu	_	_	_	_	_
+2-3	160-162	ia	_	_	_	_	_
+2-4	163-171	tuangkan	_	_	_	_	_
+2-5	172-177	dalam	_	_	_	_	_
+2-6	178-182	buku	_	_	_	_	_
+2-7	183-190	terbaru	_	_	_	_	_
+2-8	191-194	nya	_	_	_	_	_
+2-9	195-196	,	_	_	_	_	_
+2-10	197-202	Dalam	_	_	_	_	_
+2-11	203-210	Pusaran	_	_	_	_	_
+2-12	211-215	Adab	_	_	_	_	_
+2-13	216-224	Dipimpin	_	_	_	_	_
+2-14	225-228	dan	_	_	_	_	_
+2-15	229-237	Memimpin	_	_	_	_	_
+2-16	238-239	:	_	_	_	_	_
+2-17	240-248	Biografi	_	_	_	_	_
+2-18	249-256	Seorang	_	_	_	_	_
+2-19	257-264	Aktivis	_	_	_	_	_
+2-20	265-266	.	_	_	_	_	_
+
+#Text=Dipo berkata cekcok antara Habibie dengan Moerdani bermula pada 1986 .
+3-1	268-272	Dipo	_	_	_	_	_
+3-2	273-280	berkata	_	_	_	_	_
+3-3	281-287	cekcok	_	_	_	_	_
+3-4	288-294	antara	_	_	_	_	_
+3-5	295-302	Habibie	_	_	_	_	_
+3-6	303-309	dengan	_	_	_	_	_
+3-7	310-318	Moerdani	_	_	_	_	_
+3-8	319-326	bermula	_	_	_	_	_
+3-9	327-331	pada	_	_	_	_	_
+3-10	332-336	1986	_	_	_	_	_
+3-11	337-338	.	_	_	_	_	_
+
+#Text=Saat itu , Presiden Soeharto tertarik memperkuat armada Angkatan Udara dengan menghadirkan pesawat tempur jenis fighter .
+4-1	340-344	Saat	_	_	_	_	_
+4-2	345-348	itu	_	_	_	_	_
+4-3	349-350	,	_	_	_	_	_
+4-4	351-359	Presiden	_	_	_	_	_
+4-5	360-368	Soeharto	_	_	_	_	_
+4-6	369-377	tertarik	_	_	_	_	_
+4-7	378-388	memperkuat	_	_	_	_	_
+4-8	389-395	armada	_	_	_	_	_
+4-9	396-404	Angkatan	_	_	_	_	_
+4-10	405-410	Udara	_	_	_	_	_
+4-11	411-417	dengan	_	_	_	_	_
+4-12	418-430	menghadirkan	_	_	_	_	_
+4-13	431-438	pesawat	_	_	_	_	_
+4-14	439-445	tempur	_	_	_	_	_
+4-15	446-451	jenis	_	_	_	_	_
+4-16	452-459	fighter	_	_	_	_	_
+4-17	460-461	.	_	_	_	_	_
+
+#Text=" Atas keinginan Presiden tersebut , Benny yang ketika itu menjabat Menhankam / Pangab , mengajukan Mirage 2000 , pesawat tempur buatan Perancis , sebagai pilihan untuk TNI AU . Benny kemudian menyampaikan rencana pembelian Mirage 2000 itu kepada Presiden Soeharto , " kata Dipo dalam keterangan tertulis , Senin ( 31 / 1 ) .
+5-1	463-464	"	_	_	_	_	_
+5-2	465-469	Atas	_	_	_	_	_
+5-3	470-479	keinginan	_	_	_	_	_
+5-4	480-488	Presiden	_	_	_	_	_
+5-5	489-497	tersebut	_	_	_	_	_
+5-6	498-499	,	_	_	_	_	_
+5-7	500-505	Benny	_	_	_	_	_
+5-8	506-510	yang	_	_	_	_	_
+5-9	511-517	ketika	_	_	_	_	_
+5-10	518-521	itu	_	_	_	_	_
+5-11	522-530	menjabat	_	_	_	_	_
+5-12	531-540	Menhankam	_	_	_	_	_
+5-13	541-542	/	_	_	_	_	_
+5-14	543-549	Pangab	_	_	_	_	_
+5-15	550-551	,	_	_	_	_	_
+5-16	552-562	mengajukan	_	_	_	_	_
+5-17	563-569	Mirage	_	_	_	_	_
+5-18	570-574	2000	_	_	_	_	_
+5-19	575-576	,	_	_	_	_	_
+5-20	577-584	pesawat	_	_	_	_	_
+5-21	585-591	tempur	_	_	_	_	_
+5-22	592-598	buatan	_	_	_	_	_
+5-23	599-607	Perancis	_	_	_	_	_
+5-24	608-609	,	_	_	_	_	_
+5-25	610-617	sebagai	_	_	_	_	_
+5-26	618-625	pilihan	_	_	_	_	_
+5-27	626-631	untuk	_	_	_	_	_
+5-28	632-635	TNI	_	_	_	_	_
+5-29	636-638	AU	_	_	_	_	_
+5-30	639-640	.	_	_	_	_	_
+5-31	641-646	Benny	_	_	_	_	_
+5-32	647-655	kemudian	_	_	_	_	_
+5-33	656-668	menyampaikan	_	_	_	_	_
+5-34	669-676	rencana	_	_	_	_	_
+5-35	677-686	pembelian	_	_	_	_	_
+5-36	687-693	Mirage	_	_	_	_	_
+5-37	694-698	2000	_	_	_	_	_
+5-38	699-702	itu	_	_	_	_	_
+5-39	703-709	kepada	_	_	_	_	_
+5-40	710-718	Presiden	_	_	_	_	_
+5-41	719-727	Soeharto	_	_	_	_	_
+5-42	728-729	,	_	_	_	_	_
+5-43	730-731	"	_	_	_	_	_
+5-44	732-736	kata	_	_	_	_	_
+5-45	737-741	Dipo	_	_	_	_	_
+5-46	742-747	dalam	_	_	_	_	_
+5-47	748-758	keterangan	_	_	_	_	_
+5-48	759-767	tertulis	_	_	_	_	_
+5-49	768-769	,	_	_	_	_	_
+5-50	770-775	Senin	_	_	_	_	_
+5-51	776-777	(	_	_	_	_	_
+5-52	778-780	31	_	_	_	_	_
+5-53	781-782	/	_	_	_	_	_
+5-54	783-784	1	_	_	_	_	_
+5-55	785-786	)	_	_	_	_	_
+5-56	787-788	.	_	_	_	_	_
+
+#Text=Usai menerima usulan tersebut , Soeharto meminta pertimbangan kepada Menteri Riset dan Teknologi Habibie .
+6-1	790-794	Usai	_	_	_	_	_
+6-2	795-803	menerima	_	_	_	_	_
+6-3	804-810	usulan	_	_	_	_	_
+6-4	811-819	tersebut	_	_	_	_	_
+6-5	820-821	,	_	_	_	_	_
+6-6	822-830	Soeharto	_	_	_	_	_
+6-7	831-838	meminta	_	_	_	_	_
+6-8	839-851	pertimbangan	_	_	_	_	_
+6-9	852-858	kepada	_	_	_	_	_
+6-10	859-866	Menteri	_	_	_	_	_
+6-11	867-872	Riset	_	_	_	_	_
+6-12	873-876	dan	_	_	_	_	_
+6-13	877-886	Teknologi	_	_	_	_	_
+6-14	887-894	Habibie	_	_	_	_	_
+6-15	895-896	.	_	_	_	_	_
+
+#Text=Pakar pesawat terbang itu pun memberikan kajian komprehensif .
+7-1	898-903	Pakar	_	_	_	_	_
+7-2	904-911	pesawat	_	_	_	_	_
+7-3	912-919	terbang	_	_	_	_	_
+7-4	920-923	itu	_	_	_	_	_
+7-5	924-927	pun	_	_	_	_	_
+7-6	928-938	memberikan	_	_	_	_	_
+7-7	939-945	kajian	_	_	_	_	_
+7-8	946-958	komprehensif	_	_	_	_	_
+7-9	959-960	.	_	_	_	_	_
+
+#Text=Habibie berpendapat produsen Mirage 2000 pelit mentransfer ilmu soal pesawat itu .
+8-1	962-969	Habibie	_	_	_	_	_
+8-2	970-981	berpendapat	_	_	_	_	_
+8-3	982-990	produsen	_	concept[1]	_	_	_
+8-4	991-997	Mirage	_	concept[1]	_	_	_
+8-5	998-1002	2000	_	concept[1]	_	_	_
+8-6	1003-1008	pelit	_	negative[2]	_	_	_
+8-7	1009-1020	mentransfer	_	negative[2]	_	_	_
+8-8	1021-1025	ilmu	_	negative[2]	_	_	_
+8-9	1026-1030	soal	_	_	_	_	_
+8-10	1031-1038	pesawat	_	_	_	_	_
+8-11	1039-1042	itu	_	_	_	_	_
+8-12	1043-1044	.	_	_	_	_	_
+
+#Text=Menurut nya , Indonesia akan bergantung pada perusahaan tersebut dalam perawatan .
+9-1	1046-1053	Menurut	_	_	_	_	_
+9-2	1054-1057	nya	_	_	_	_	_
+9-3	1058-1059	,	_	_	_	_	_
+9-4	1060-1069	Indonesia	_	_	_	_	_
+9-5	1070-1074	akan	_	_	_	_	_
+9-6	1075-1085	bergantung	_	_	_	_	_
+9-7	1086-1090	pada	_	_	_	_	_
+9-8	1091-1101	perusahaan	_	_	_	_	_
+9-9	1102-1110	tersebut	_	_	_	_	_
+9-10	1111-1116	dalam	_	_	_	_	_
+9-11	1117-1126	perawatan	_	_	_	_	_
+9-12	1127-1128	.	_	_	_	_	_
+
+#Text=Hal itu berdampak pada biaya perawatan yang mahal .
+10-1	1130-1133	Hal	_	_	_	_	_
+10-2	1134-1137	itu	_	_	_	_	_
+10-3	1138-1147	berdampak	_	_	_	_	_
+10-4	1148-1152	pada	_	_	_	_	_
+10-5	1153-1158	biaya	_	concept[3]	_	_	_
+10-6	1159-1168	perawatan	_	concept[3]	_	_	_
+10-7	1169-1173	yang	_	_	_	_	_
+10-8	1174-1179	mahal	_	negative[4]	_	_	_
+10-9	1180-1181	.	_	_	_	_	_
+
+#Text=" Gara-gara rencana pembelian Mirage - nya terganjal , Benny kemudian bersikap sengit kepada Habibie . Selama ini , urusan alutsista memang hanya berporos di tangan Benny dan sejumlah anak buah nya , " ujar Dipo .
+11-1	1183-1184	"	_	_	_	_	_
+11-2	1185-1194	Gara-gara	_	_	_	_	_
+11-3	1195-1202	rencana	_	_	_	_	_
+11-4	1203-1212	pembelian	_	_	_	_	_
+11-5	1213-1219	Mirage	_	_	_	_	_
+11-6	1220-1221	-	_	_	_	_	_
+11-7	1222-1225	nya	_	_	_	_	_
+11-8	1226-1235	terganjal	_	_	_	_	_
+11-9	1236-1237	,	_	_	_	_	_
+11-10	1238-1243	Benny	_	_	_	_	_
+11-11	1244-1252	kemudian	_	_	_	_	_
+11-12	1253-1261	bersikap	_	concept[5]	_	_	_
+11-13	1262-1268	sengit	_	negative[6]	_	_	_
+11-14	1269-1275	kepada	_	_	_	_	_
+11-15	1276-1283	Habibie	_	_	_	_	_
+11-16	1284-1285	.	_	_	_	_	_
+11-17	1286-1292	Selama	_	_	_	_	_
+11-18	1293-1296	ini	_	_	_	_	_
+11-19	1297-1298	,	_	_	_	_	_
+11-20	1299-1305	urusan	_	_	_	_	_
+11-21	1306-1315	alutsista	_	_	_	_	_
+11-22	1316-1322	memang	_	_	_	_	_
+11-23	1323-1328	hanya	_	_	_	_	_
+11-24	1329-1337	berporos	_	_	_	_	_
+11-25	1338-1340	di	_	_	_	_	_
+11-26	1341-1347	tangan	_	_	_	_	_
+11-27	1348-1353	Benny	_	_	_	_	_
+11-28	1354-1357	dan	_	_	_	_	_
+11-29	1358-1366	sejumlah	_	_	_	_	_
+11-30	1367-1371	anak	_	_	_	_	_
+11-31	1372-1376	buah	_	_	_	_	_
+11-32	1377-1380	nya	_	_	_	_	_
+11-33	1381-1382	,	_	_	_	_	_
+11-34	1383-1384	"	_	_	_	_	_
+11-35	1385-1389	ujar	_	_	_	_	_
+11-36	1390-1394	Dipo	_	_	_	_	_
+11-37	1395-1396	.	_	_	_	_	_
+
+#Text=Buku Dalam Pusaran Adab Dipimpin dan Memimpin : Biografi Seorang Aktivis merupakan karya terbaru Dipo Alam .
+12-1	1398-1402	Buku	_	_	_	_	_
+12-2	1403-1408	Dalam	_	_	_	_	_
+12-3	1409-1416	Pusaran	_	_	_	_	_
+12-4	1417-1421	Adab	_	_	_	_	_
+12-5	1422-1430	Dipimpin	_	_	_	_	_
+12-6	1431-1434	dan	_	_	_	_	_
+12-7	1435-1443	Memimpin	_	_	_	_	_
+12-8	1444-1445	:	_	_	_	_	_
+12-9	1446-1454	Biografi	_	_	_	_	_
+12-10	1455-1462	Seorang	_	_	_	_	_
+12-11	1463-1470	Aktivis	_	_	_	_	_
+12-12	1471-1480	merupakan	_	_	_	_	_
+12-13	1481-1486	karya	_	_	_	_	_
+12-14	1487-1494	terbaru	_	_	_	_	_
+12-15	1495-1499	Dipo	_	_	_	_	_
+12-16	1500-1504	Alam	_	_	_	_	_
+12-17	1505-1506	.	_	_	_	_	_
+
+#Text=Buku itu diluncurkan di Menara Bank Mega , Jakarta , Senin ( 31 / 1 ) .
+13-1	1508-1512	Buku	_	_	_	_	_
+13-2	1513-1516	itu	_	_	_	_	_
+13-3	1517-1528	diluncurkan	_	_	_	_	_
+13-4	1529-1531	di	_	_	_	_	_
+13-5	1532-1538	Menara	_	_	_	_	_
+13-6	1539-1543	Bank	_	_	_	_	_
+13-7	1544-1548	Mega	_	_	_	_	_
+13-8	1549-1550	,	_	_	_	_	_
+13-9	1551-1558	Jakarta	_	_	_	_	_
+13-10	1559-1560	,	_	_	_	_	_
+13-11	1561-1566	Senin	_	_	_	_	_
+13-12	1567-1568	(	_	_	_	_	_
+13-13	1569-1571	31	_	_	_	_	_
+13-14	1572-1573	/	_	_	_	_	_
+13-15	1574-1575	1	_	_	_	_	_
+13-16	1576-1577	)	_	_	_	_	_
+13-17	1578-1579	.	_	_	_	_	_
+
+#Text=Buku tersebut menceritakan pengalaman Dipo selama di dunia politik pemerintahan .
+14-1	1581-1585	Buku	_	_	_	_	_
+14-2	1586-1594	tersebut	_	_	_	_	_
+14-3	1595-1607	menceritakan	_	_	_	_	_
+14-4	1608-1618	pengalaman	_	_	_	_	_
+14-5	1619-1623	Dipo	_	_	_	_	_
+14-6	1624-1630	selama	_	_	_	_	_
+14-7	1631-1633	di	_	_	_	_	_
+14-8	1634-1639	dunia	_	_	_	_	_
+14-9	1640-1647	politik	_	_	_	_	_
+14-10	1648-1660	pemerintahan	_	_	_	_	_
+14-11	1661-1662	.	_	_	_	_	_
+
+#Text=Selain soal perseteruan Habibie - Moerdani , buku itu juga mengungkap petualangan politik Dipo dari Orde Baru hingga pemerintahan Joko Widodo
+15-1	1664-1670	Selain	_	_	_	_	_
+15-2	1671-1675	soal	_	_	_	_	_
+15-3	1676-1687	perseteruan	_	_	_	_	_
+15-4	1688-1695	Habibie	_	_	_	_	_
+15-5	1696-1697	-	_	_	_	_	_
+15-6	1698-1706	Moerdani	_	_	_	_	_
+15-7	1707-1708	,	_	_	_	_	_
+15-8	1709-1713	buku	_	_	_	_	_
+15-9	1714-1717	itu	_	_	_	_	_
+15-10	1718-1722	juga	_	_	_	_	_
+15-11	1723-1733	mengungkap	_	_	_	_	_
+15-12	1734-1745	petualangan	_	_	_	_	_
+15-13	1746-1753	politik	_	_	_	_	_
+15-14	1754-1758	Dipo	_	_	_	_	_
+15-15	1759-1763	dari	_	_	_	_	_
+15-16	1764-1768	Orde	_	_	_	_	_
+15-17	1769-1773	Baru	_	_	_	_	_
+15-18	1774-1780	hingga	_	_	_	_	_
+15-19	1781-1793	pemerintahan	_	_	_	_	_
+15-20	1794-1798	Joko	_	_	_	_	_
+15-21	1799-1805	Widodo	_	_	_	_	_
+

@@ -1,0 +1,295 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=mbak ini saya mau lapor < unk >
+1-1	0-4	mbak	_	_	_	_	_
+1-2	5-8	ini	_	_	_	_	_
+1-3	9-13	saya	_	_	_	_	_
+1-4	14-17	mau	_	_	_	_	_
+1-5	18-23	lapor	_	_	_	_	_
+1-6	24-25	<	_	_	_	_	_
+1-7	26-29	unk	_	_	_	_	_
+1-8	30-31	>	_	_	_	_	_
+
+#Text=< filler > pembayaran saya ditolak < unk >
+2-1	33-34	<	_	_	_	_	_
+2-2	35-41	filler	_	_	_	_	_
+2-3	42-43	>	_	_	_	_	_
+2-4	44-54	pembayaran	_	concept[1]	_	_	_
+2-5	55-59	saya	_	_	_	_	_
+2-6	60-67	ditolak	*	[1_2]|negative[2]	_	_	_
+2-7	68-69	<	_	_	_	_	_
+2-8	70-73	unk	_	_	_	_	_
+2-9	74-75	>	_	_	_	_	_
+
+#Text=dengan johana
+3-1	77-83	dengan	_	_	_	_	_
+3-2	84-90	johana	_	_	_	_	_
+
+#Text=johana
+4-1	92-98	johana	_	_	_	_	_
+
+#Text=iya iya
+5-1	100-103	iya	_	_	_	_	_
+5-2	104-107	iya	_	_	_	_	_
+
+#Text=di < unk > kartu kredit ya di empat lima lima
+6-1	109-111	di	_	_	_	_	_
+6-2	112-113	<	_	_	_	_	_
+6-3	114-117	unk	_	_	_	_	_
+6-4	118-119	>	_	_	_	_	_
+6-5	120-125	kartu	_	_	_	_	_
+6-6	126-132	kredit	_	_	_	_	_
+6-7	133-135	ya	_	_	_	_	_
+6-8	136-138	di	_	_	_	_	_
+6-9	139-144	empat	_	_	_	_	_
+6-10	145-149	lima	_	_	_	_	_
+6-11	150-154	lima	_	_	_	_	_
+
+#Text=enam tiga tiga
+7-1	156-160	enam	_	_	_	_	_
+7-2	161-165	tiga	_	_	_	_	_
+7-3	166-170	tiga	_	_	_	_	_
+
+#Text=kosong kosong lima
+8-1	172-178	kosong	_	_	_	_	_
+8-2	179-185	kosong	_	_	_	_	_
+8-3	186-190	lima	_	_	_	_	_
+
+#Text=enam empat sembilan
+9-1	192-196	enam	_	_	_	_	_
+9-2	197-202	empat	_	_	_	_	_
+9-3	203-211	sembilan	_	_	_	_	_
+
+#Text=tiga enam kosong lima
+10-1	213-217	tiga	_	_	_	_	_
+10-2	218-222	enam	_	_	_	_	_
+10-3	223-229	kosong	_	_	_	_	_
+10-4	230-234	lima	_	_	_	_	_
+
+#Text=< eb > per dua puluh empat ya dua puluh tiga
+11-1	236-237	<	_	_	_	_	_
+11-2	238-240	eb	_	_	_	_	_
+11-3	241-242	>	_	_	_	_	_
+11-4	243-246	per	_	_	_	_	_
+11-5	247-250	dua	_	_	_	_	_
+11-6	251-256	puluh	_	_	_	_	_
+11-7	257-262	empat	_	_	_	_	_
+11-8	263-265	ya	_	_	_	_	_
+11-9	266-269	dua	_	_	_	_	_
+11-10	270-275	puluh	_	_	_	_	_
+11-11	276-280	tiga	_	_	_	_	_
+
+#Text=< filler > barusan maksud nya yang ditolak nya ya
+12-1	282-283	<	_	_	_	_	_
+12-2	284-290	filler	_	_	_	_	_
+12-3	291-292	>	_	_	_	_	_
+12-4	293-300	barusan	_	_	_	_	_
+12-5	301-307	maksud	_	_	_	_	_
+12-6	308-311	nya	_	_	_	_	_
+12-7	312-316	yang	_	_	_	_	_
+12-8	317-324	ditolak	_	_	_	_	_
+12-9	325-328	nya	_	_	_	_	_
+12-10	329-331	ya	_	_	_	_	_
+
+#Text=barusan
+13-1	333-340	barusan	_	_	_	_	_
+
+#Text=< unk > di tujuh juta tujuh juta seratus < unk > sekian
+14-1	342-343	<	_	_	_	_	_
+14-2	344-347	unk	_	_	_	_	_
+14-3	348-349	>	_	_	_	_	_
+14-4	350-352	di	_	_	_	_	_
+14-5	353-358	tujuh	_	_	_	_	_
+14-6	359-363	juta	_	_	_	_	_
+14-7	364-369	tujuh	_	_	_	_	_
+14-8	370-374	juta	_	_	_	_	_
+14-9	375-382	seratus	_	_	_	_	_
+14-10	383-384	<	_	_	_	_	_
+14-11	385-388	unk	_	_	_	_	_
+14-12	389-390	>	_	_	_	_	_
+14-13	391-397	sekian	_	_	_	_	_
+
+#Text=iya iya
+15-1	399-402	iya	_	_	_	_	_
+15-2	403-406	iya	_	_	_	_	_
+
+#Text=iya
+16-1	408-411	iya	_	_	_	_	_
+
+#Text=< filler > tokopedia
+17-1	413-414	<	_	_	_	_	_
+17-2	415-421	filler	_	_	_	_	_
+17-3	422-423	>	_	_	_	_	_
+17-4	424-433	tokopedia	_	_	_	_	_
+
+#Text=iya
+18-1	435-438	iya	_	_	_	_	_
+
+#Text=selamat siang halo bca dengan chika bisa saya bantu
+19-1	440-447	selamat	_	_	_	_	_
+19-2	448-453	siang	_	_	_	_	_
+19-3	454-458	halo	_	_	_	_	_
+19-4	459-462	bca	_	_	_	_	_
+19-5	463-469	dengan	_	_	_	_	_
+19-6	470-475	chika	_	_	_	_	_
+19-7	476-480	bisa	_	_	_	_	_
+19-8	481-485	saya	_	_	_	_	_
+19-9	486-491	bantu	_	_	_	_	_
+
+#Text=baik
+20-1	493-497	baik	_	_	_	_	_
+
+#Text=baik sebelumnya ibu dengan siapa saya bicara
+21-1	499-503	baik	_	_	_	_	_
+21-2	504-514	sebelumnya	_	_	_	_	_
+21-3	515-518	ibu	_	_	_	_	_
+21-4	519-525	dengan	_	_	_	_	_
+21-5	526-531	siapa	_	_	_	_	_
+21-6	532-536	saya	_	_	_	_	_
+21-7	537-543	bicara	_	_	_	_	_
+
+#Text=mohon maaf dengan siapa bu
+22-1	545-550	mohon	_	_	_	_	_
+22-2	551-555	maaf	_	_	_	_	_
+22-3	556-562	dengan	_	_	_	_	_
+22-4	563-568	siapa	_	_	_	_	_
+22-5	569-571	bu	_	_	_	_	_
+
+#Text=baik ibu johana
+23-1	573-577	baik	_	_	_	_	_
+23-2	578-581	ibu	_	_	_	_	_
+23-3	582-588	johana	_	_	_	_	_
+
+#Text=tidak perlu khawatir bu saya akan bantu untuk informasikan namun sebelumnya boleh dibantu ibu disebutkan nomor kartu kredit < kar > atau nomor customer - nya
+24-1	590-595	tidak	_	_	_	_	_
+24-2	596-601	perlu	_	_	_	_	_
+24-3	602-610	khawatir	_	_	_	_	_
+24-4	611-613	bu	_	_	_	_	_
+24-5	614-618	saya	_	_	_	_	_
+24-6	619-623	akan	_	_	_	_	_
+24-7	624-629	bantu	_	_	_	_	_
+24-8	630-635	untuk	_	_	_	_	_
+24-9	636-648	informasikan	_	_	_	_	_
+24-10	649-654	namun	_	_	_	_	_
+24-11	655-665	sebelumnya	_	_	_	_	_
+24-12	666-671	boleh	_	_	_	_	_
+24-13	672-679	dibantu	_	_	_	_	_
+24-14	680-683	ibu	_	_	_	_	_
+24-15	684-694	disebutkan	_	_	_	_	_
+24-16	695-700	nomor	_	_	_	_	_
+24-17	701-706	kartu	_	_	_	_	_
+24-18	707-713	kredit	_	_	_	_	_
+24-19	714-715	<	_	_	_	_	_
+24-20	716-719	kar	_	_	_	_	_
+24-21	720-721	>	_	_	_	_	_
+24-22	722-726	atau	_	_	_	_	_
+24-23	727-732	nomor	_	_	_	_	_
+24-24	733-741	customer	_	_	_	_	_
+24-25	742-743	-	_	_	_	_	_
+24-26	744-747	nya	_	_	_	_	_
+
+#Text=iya
+25-1	749-752	iya	_	_	_	_	_
+
+#Text=iya
+26-1	754-757	iya	_	_	_	_	_
+
+#Text=iya
+27-1	759-762	iya	_	_	_	_	_
+
+#Text=enam empat sembilan
+28-1	764-768	enam	_	_	_	_	_
+28-2	769-774	empat	_	_	_	_	_
+28-3	775-783	sembilan	_	_	_	_	_
+
+#Text=tiga enam kosong lima baik ibu sebelumnya ini untuk tagihan nya ini dibayarkan per kapan bu
+29-1	785-789	tiga	_	_	_	_	_
+29-2	790-794	enam	_	_	_	_	_
+29-3	795-801	kosong	_	_	_	_	_
+29-4	802-806	lima	_	_	_	_	_
+29-5	807-811	baik	_	_	_	_	_
+29-6	812-815	ibu	_	_	_	_	_
+29-7	816-826	sebelumnya	_	_	_	_	_
+29-8	827-830	ini	_	_	_	_	_
+29-9	831-836	untuk	_	_	_	_	_
+29-10	837-844	tagihan	_	_	_	_	_
+29-11	845-848	nya	_	_	_	_	_
+29-12	849-852	ini	_	_	_	_	_
+29-13	853-863	dibayarkan	_	_	_	_	_
+29-14	864-867	per	_	_	_	_	_
+29-15	868-873	kapan	_	_	_	_	_
+29-16	874-876	bu	_	_	_	_	_
+
+#Text=ibu melakukan transaksi nya ini per kapan bu mohon maaf
+30-1	878-881	ibu	_	_	_	_	_
+30-2	882-891	melakukan	_	_	_	_	_
+30-3	892-901	transaksi	_	_	_	_	_
+30-4	902-905	nya	_	_	_	_	_
+30-5	906-909	ini	_	_	_	_	_
+30-6	910-913	per	_	_	_	_	_
+30-7	914-919	kapan	_	_	_	_	_
+30-8	920-922	bu	_	_	_	_	_
+30-9	923-928	mohon	_	_	_	_	_
+30-10	929-933	maaf	_	_	_	_	_
+
+#Text=pembayaran nya iya yang ditolak nya per kapan
+31-1	935-945	pembayaran	_	concept[3]	_	_	_
+31-2	946-949	nya	_	_	_	_	_
+31-3	950-953	iya	_	_	_	_	_
+31-4	954-958	yang	_	_	_	_	_
+31-5	959-966	ditolak	*	[3_4]|negative[4]	_	_	_
+31-6	967-970	nya	_	_	_	_	_
+31-7	971-974	per	_	_	_	_	_
+31-8	975-980	kapan	_	_	_	_	_
+
+#Text=baik untuk nominal nya berapa bu
+32-1	982-986	baik	_	_	_	_	_
+32-2	987-992	untuk	_	_	_	_	_
+32-3	993-1000	nominal	_	_	_	_	_
+32-4	1001-1004	nya	_	_	_	_	_
+32-5	1005-1011	berapa	_	_	_	_	_
+32-6	1012-1014	bu	_	_	_	_	_
+
+#Text=baik baik mohon ditunggu sebentar saya akan batu untuk menginformasikan nya ya bu
+33-1	1016-1020	baik	_	_	_	_	_
+33-2	1021-1025	baik	_	_	_	_	_
+33-3	1026-1031	mohon	_	_	_	_	_
+33-4	1032-1040	ditunggu	_	_	_	_	_
+33-5	1041-1049	sebentar	_	_	_	_	_
+33-6	1050-1054	saya	_	_	_	_	_
+33-7	1055-1059	akan	_	_	_	_	_
+33-8	1060-1064	batu	_	_	_	_	_
+33-9	1065-1070	untuk	_	_	_	_	_
+33-10	1071-1087	menginformasikan	_	_	_	_	_
+33-11	1088-1091	nya	_	_	_	_	_
+33-12	1092-1094	ya	_	_	_	_	_
+33-13	1095-1097	bu	_	_	_	_	_
+
+#Text=kalau boleh tahu ibu
+34-1	1099-1104	kalau	_	_	_	_	_
+34-2	1105-1110	boleh	_	_	_	_	_
+34-3	1111-1115	tahu	_	_	_	_	_
+34-4	1116-1119	ibu	_	_	_	_	_
+
+#Text=di sini untuk transaksi nya ibu menggunakan apa bu atau melalui apa
+35-1	1121-1123	di	_	_	_	_	_
+35-2	1124-1128	sini	_	_	_	_	_
+35-3	1129-1134	untuk	_	_	_	_	_
+35-4	1135-1144	transaksi	_	_	_	_	_
+35-5	1145-1148	nya	_	_	_	_	_
+35-6	1149-1152	ibu	_	_	_	_	_
+35-7	1153-1164	menggunakan	_	_	_	_	_
+35-8	1165-1168	apa	_	_	_	_	_
+35-9	1169-1171	bu	_	_	_	_	_
+35-10	1172-1176	atau	_	_	_	_	_
+35-11	1177-1184	melalui	_	_	_	_	_
+35-12	1185-1188	apa	_	_	_	_	_
+
+#Text=tokopedia baik mohon ditunggu sebentar ibu ya
+36-1	1190-1199	tokopedia	_	_	_	_	_
+36-2	1200-1204	baik	_	_	_	_	_
+36-3	1205-1210	mohon	_	_	_	_	_
+36-4	1211-1219	ditunggu	_	_	_	_	_
+36-5	1220-1228	sebentar	_	_	_	_	_
+36-6	1229-1232	ibu	_	_	_	_	_
+36-7	1233-1235	ya	_	_	_	_	_

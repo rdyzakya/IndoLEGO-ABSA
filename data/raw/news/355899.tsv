@@ -1,0 +1,362 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Badan Reserse Kriminal ( Bareskrim ) Polri menyita tanah yang akan dibangun menjadi rumah mewah milik tersangka kasus penipuan investasi Binomo Indra Kesuma alias Indra Kenz di kawasan Alam Sutera , Tangerang pada Jumat ( 18 / 3 ) .
+1-1	0-5	Badan	_	_	_	_	_
+1-2	6-13	Reserse	_	_	_	_	_
+1-3	14-22	Kriminal	_	_	_	_	_
+1-4	23-24	(	_	_	_	_	_
+1-5	25-34	Bareskrim	_	_	_	_	_
+1-6	35-36	)	_	_	_	_	_
+1-7	37-42	Polri	_	_	_	_	_
+1-8	43-50	menyita	_	_	_	_	_
+1-9	51-56	tanah	_	_	_	_	_
+1-10	57-61	yang	_	_	_	_	_
+1-11	62-66	akan	_	_	_	_	_
+1-12	67-75	dibangun	_	_	_	_	_
+1-13	76-83	menjadi	_	_	_	_	_
+1-14	84-89	rumah	_	_	_	_	_
+1-15	90-95	mewah	_	_	_	_	_
+1-16	96-101	milik	_	_	_	_	_
+1-17	102-111	tersangka	_	_	_	_	_
+1-18	112-117	kasus	_	_	_	_	_
+1-19	118-126	penipuan	_	_	_	_	_
+1-20	127-136	investasi	_	_	_	_	_
+1-21	137-143	Binomo	_	_	_	_	_
+1-22	144-149	Indra	_	_	_	_	_
+1-23	150-156	Kesuma	_	_	_	_	_
+1-24	157-162	alias	_	_	_	_	_
+1-25	163-168	Indra	_	_	_	_	_
+1-26	169-173	Kenz	_	_	_	_	_
+1-27	174-176	di	_	_	_	_	_
+1-28	177-184	kawasan	_	_	_	_	_
+1-29	185-189	Alam	_	_	_	_	_
+1-30	190-196	Sutera	_	_	_	_	_
+1-31	197-198	,	_	_	_	_	_
+1-32	199-208	Tangerang	_	_	_	_	_
+1-33	209-213	pada	_	_	_	_	_
+1-34	214-219	Jumat	_	_	_	_	_
+1-35	220-221	(	_	_	_	_	_
+1-36	222-224	18	_	_	_	_	_
+1-37	225-226	/	_	_	_	_	_
+1-38	227-228	3	_	_	_	_	_
+1-39	229-230	)	_	_	_	_	_
+1-40	231-232	.	_	_	_	_	_
+
+#Text=Kanit 5 Subdit II Perbankan Dittipideksus Bareskrim Polri Kompol Karta mengatakan bahwa tanah tersebut dibeli Indra dengan harga Rp 7,8 miliar pada sekitar 2020 hingga 2021 .
+2-1	234-239	Kanit	_	_	_	_	_
+2-2	240-241	5	_	_	_	_	_
+2-3	242-248	Subdit	_	_	_	_	_
+2-4	249-251	II	_	_	_	_	_
+2-5	252-261	Perbankan	_	_	_	_	_
+2-6	262-275	Dittipideksus	_	_	_	_	_
+2-7	276-285	Bareskrim	_	_	_	_	_
+2-8	286-291	Polri	_	_	_	_	_
+2-9	292-298	Kompol	_	_	_	_	_
+2-10	299-304	Karta	_	_	_	_	_
+2-11	305-315	mengatakan	_	_	_	_	_
+2-12	316-321	bahwa	_	_	_	_	_
+2-13	322-327	tanah	_	_	_	_	_
+2-14	328-336	tersebut	_	_	_	_	_
+2-15	337-343	dibeli	_	_	_	_	_
+2-16	344-349	Indra	_	_	_	_	_
+2-17	350-356	dengan	_	_	_	_	_
+2-18	357-362	harga	_	_	_	_	_
+2-19	363-365	Rp	_	_	_	_	_
+2-20	366-369	7,8	_	_	_	_	_
+2-21	370-376	miliar	_	_	_	_	_
+2-22	377-381	pada	_	_	_	_	_
+2-23	382-389	sekitar	_	_	_	_	_
+2-24	390-394	2020	_	_	_	_	_
+2-25	395-401	hingga	_	_	_	_	_
+2-26	402-406	2021	_	_	_	_	_
+2-27	407-408	.	_	_	_	_	_
+
+#Text=" Jadi tanah kosong yang dia beli kemudian ada pembangunan , " kata Karta kepada wartawan di lokasi .
+3-1	410-411	"	_	_	_	_	_
+3-2	412-416	Jadi	_	_	_	_	_
+3-3	417-422	tanah	_	_	_	_	_
+3-4	423-429	kosong	_	_	_	_	_
+3-5	430-434	yang	_	_	_	_	_
+3-6	435-438	dia	_	_	_	_	_
+3-7	439-443	beli	_	_	_	_	_
+3-8	444-452	kemudian	_	_	_	_	_
+3-9	453-456	ada	_	_	_	_	_
+3-10	457-468	pembangunan	_	_	_	_	_
+3-11	469-470	,	_	_	_	_	_
+3-12	471-472	"	_	_	_	_	_
+3-13	473-477	kata	_	_	_	_	_
+3-14	478-483	Karta	_	_	_	_	_
+3-15	484-490	kepada	_	_	_	_	_
+3-16	491-499	wartawan	_	_	_	_	_
+3-17	500-502	di	_	_	_	_	_
+3-18	503-509	lokasi	_	_	_	_	_
+3-19	510-511	.	_	_	_	_	_
+
+#Text=Pantauan CNNIndonesia.com di lokasi , bangunan rumah yang terletak di salah satu klaster mewah di kawasan Tangerang itu masih belum rampung dikerjakan .
+4-1	513-521	Pantauan	_	_	_	_	_
+4-2	522-538	CNNIndonesia.com	_	_	_	_	_
+4-3	539-541	di	_	_	_	_	_
+4-4	542-548	lokasi	_	_	_	_	_
+4-5	549-550	,	_	_	_	_	_
+4-6	551-559	bangunan	_	concept[1]	_	_	_
+4-7	560-565	rumah	_	concept[1]	_	_	_
+4-8	566-570	yang	_	_	_	_	_
+4-9	571-579	terletak	_	_	_	_	_
+4-10	580-582	di	_	_	_	_	_
+4-11	583-588	salah	_	_	_	_	_
+4-12	589-593	satu	_	_	_	_	_
+4-13	594-601	klaster	_	_	_	_	_
+4-14	602-607	mewah	_	_	_	_	_
+4-15	608-610	di	_	_	_	_	_
+4-16	611-618	kawasan	_	_	_	_	_
+4-17	619-628	Tangerang	_	_	_	_	_
+4-18	629-632	itu	_	_	_	_	_
+4-19	633-638	masih	_	_	_	_	_
+4-20	639-644	belum	_	negative[2]	_	_	_
+4-21	645-652	rampung	_	negative[2]	_	_	_
+4-22	653-663	dikerjakan	_	negative[2]	_	_	_
+4-23	664-665	.	_	_	_	_	_
+
+#Text=Tak ada aktivitas pembangunan yang dilakukan di sekitar lokasi .
+5-1	667-670	Tak	_	negative[3]	_	_	_
+5-2	671-674	ada	_	negative[3]	_	_	_
+5-3	675-684	aktivitas	_	concept[4]	_	_	_
+5-4	685-696	pembangunan	_	concept[4]	_	_	_
+5-5	697-701	yang	_	_	_	_	_
+5-6	702-711	dilakukan	_	_	_	_	_
+5-7	712-714	di	_	_	_	_	_
+5-8	715-722	sekitar	_	_	_	_	_
+5-9	723-729	lokasi	_	_	_	_	_
+5-10	730-731	.	_	_	_	_	_
+
+#Text=Selain itu , rumah tersebut masih berbentuk rangka-rangka dan dikelilingi oleh seng untuk pembangunan .
+6-1	733-739	Selain	_	_	_	_	_
+6-2	740-743	itu	_	_	_	_	_
+6-3	744-745	,	_	_	_	_	_
+6-4	746-751	rumah	_	_	_	_	_
+6-5	752-760	tersebut	_	_	_	_	_
+6-6	761-766	masih	_	_	_	_	_
+6-7	767-776	berbentuk	_	_	_	_	_
+6-8	777-790	rangka-rangka	_	_	_	_	_
+6-9	791-794	dan	_	_	_	_	_
+6-10	795-806	dikelilingi	_	_	_	_	_
+6-11	807-811	oleh	_	_	_	_	_
+6-12	812-816	seng	_	_	_	_	_
+6-13	817-822	untuk	_	_	_	_	_
+6-14	823-834	pembangunan	_	_	_	_	_
+6-15	835-836	.	_	_	_	_	_
+
+#Text=Polisi pun menempelkan spanduk penyitaan di lokasi tersebut .
+7-1	838-844	Polisi	_	_	_	_	_
+7-2	845-848	pun	_	_	_	_	_
+7-3	849-860	menempelkan	_	_	_	_	_
+7-4	861-868	spanduk	_	_	_	_	_
+7-5	869-878	penyitaan	_	_	_	_	_
+7-6	879-881	di	_	_	_	_	_
+7-7	882-888	lokasi	_	_	_	_	_
+7-8	889-897	tersebut	_	_	_	_	_
+7-9	898-899	.	_	_	_	_	_
+
+#Text=Dia menyebutkan bahwa penyidik menemukan dugaan aliran dana hasil dari tindak pidana yang dilakukan Indra Kenz ke tanah tersebut .
+8-1	901-904	Dia	_	_	_	_	_
+8-2	905-916	menyebutkan	_	_	_	_	_
+8-3	917-922	bahwa	_	_	_	_	_
+8-4	923-931	penyidik	_	_	_	_	_
+8-5	932-941	menemukan	_	_	_	_	_
+8-6	942-948	dugaan	_	_	_	_	_
+8-7	949-955	aliran	_	_	_	_	_
+8-8	956-960	dana	_	_	_	_	_
+8-9	961-966	hasil	_	_	_	_	_
+8-10	967-971	dari	_	_	_	_	_
+8-11	972-978	tindak	_	_	_	_	_
+8-12	979-985	pidana	_	_	_	_	_
+8-13	986-990	yang	_	_	_	_	_
+8-14	991-1000	dilakukan	_	_	_	_	_
+8-15	1001-1006	Indra	_	_	_	_	_
+8-16	1007-1011	Kenz	_	_	_	_	_
+8-17	1012-1014	ke	_	_	_	_	_
+8-18	1015-1020	tanah	_	_	_	_	_
+8-19	1021-1029	tersebut	_	_	_	_	_
+8-20	1030-1031	.	_	_	_	_	_
+
+#Text=Namun demikian , ia belum mengetahui lebih lanjut mengenai pihak yang mengelola aset berupa tanah kosong tersebut untuk kemudian didirikan sebagai bangunan .
+9-1	1033-1038	Namun	_	_	_	_	_
+9-2	1039-1047	demikian	_	_	_	_	_
+9-3	1048-1049	,	_	_	_	_	_
+9-4	1050-1052	ia	_	_	_	_	_
+9-5	1053-1058	belum	_	_	_	_	_
+9-6	1059-1069	mengetahui	_	_	_	_	_
+9-7	1070-1075	lebih	_	_	_	_	_
+9-8	1076-1082	lanjut	_	_	_	_	_
+9-9	1083-1091	mengenai	_	_	_	_	_
+9-10	1092-1097	pihak	_	_	_	_	_
+9-11	1098-1102	yang	_	_	_	_	_
+9-12	1103-1112	mengelola	_	_	_	_	_
+9-13	1113-1117	aset	_	_	_	_	_
+9-14	1118-1124	berupa	_	_	_	_	_
+9-15	1125-1130	tanah	_	_	_	_	_
+9-16	1131-1137	kosong	_	_	_	_	_
+9-17	1138-1146	tersebut	_	_	_	_	_
+9-18	1147-1152	untuk	_	_	_	_	_
+9-19	1153-1161	kemudian	_	_	_	_	_
+9-20	1162-1171	didirikan	_	_	_	_	_
+9-21	1172-1179	sebagai	_	_	_	_	_
+9-22	1180-1188	bangunan	_	_	_	_	_
+9-23	1189-1190	.	_	_	_	_	_
+
+#Text=Penyidik , kata dia , menemukan indikasi pembangunan di lokasi yang saat ini telah terhenti .
+10-1	1192-1200	Penyidik	_	_	_	_	_
+10-2	1201-1202	,	_	_	_	_	_
+10-3	1203-1207	kata	_	_	_	_	_
+10-4	1208-1211	dia	_	_	_	_	_
+10-5	1212-1213	,	_	_	_	_	_
+10-6	1214-1223	menemukan	_	_	_	_	_
+10-7	1224-1232	indikasi	_	_	_	_	_
+10-8	1233-1244	pembangunan	_	_	_	_	_
+10-9	1245-1247	di	_	_	_	_	_
+10-10	1248-1254	lokasi	_	_	_	_	_
+10-11	1255-1259	yang	_	_	_	_	_
+10-12	1260-1264	saat	_	_	_	_	_
+10-13	1265-1268	ini	_	_	_	_	_
+10-14	1269-1274	telah	_	_	_	_	_
+10-15	1275-1283	terhenti	_	_	_	_	_
+10-16	1284-1285	.	_	_	_	_	_
+
+#Text=" Masih kami selidiki cuma kami mengejar aliran dana sampai ke sini nanti akan tahu siapa ini pemilik nya , " jelas nya .
+11-1	1287-1288	"	_	_	_	_	_
+11-2	1289-1294	Masih	_	_	_	_	_
+11-3	1295-1299	kami	_	_	_	_	_
+11-4	1300-1308	selidiki	_	_	_	_	_
+11-5	1309-1313	cuma	_	_	_	_	_
+11-6	1314-1318	kami	_	_	_	_	_
+11-7	1319-1327	mengejar	_	_	_	_	_
+11-8	1328-1334	aliran	_	_	_	_	_
+11-9	1335-1339	dana	_	_	_	_	_
+11-10	1340-1346	sampai	_	_	_	_	_
+11-11	1347-1349	ke	_	_	_	_	_
+11-12	1350-1354	sini	_	_	_	_	_
+11-13	1355-1360	nanti	_	_	_	_	_
+11-14	1361-1365	akan	_	_	_	_	_
+11-15	1366-1370	tahu	_	_	_	_	_
+11-16	1371-1376	siapa	_	_	_	_	_
+11-17	1377-1380	ini	_	_	_	_	_
+11-18	1381-1388	pemilik	_	_	_	_	_
+11-19	1389-1392	nya	_	_	_	_	_
+11-20	1393-1394	,	_	_	_	_	_
+11-21	1395-1396	"	_	_	_	_	_
+11-22	1397-1402	jelas	_	_	_	_	_
+11-23	1403-1406	nya	_	_	_	_	_
+11-24	1407-1408	.	_	_	_	_	_
+
+#Text=Menurut nya , Indra Kenz masih menutupi aset-aset yang dimiliki nya kepada penyidik hingga saat ini .
+12-1	1410-1417	Menurut	_	_	_	_	_
+12-2	1418-1421	nya	_	_	_	_	_
+12-3	1422-1423	,	_	_	_	_	_
+12-4	1424-1429	Indra	_	concept[5]	_	_	_
+12-5	1430-1434	Kenz	_	concept[5]	_	_	_
+12-6	1435-1440	masih	_	negative[6]	_	_	_
+12-7	1441-1449	menutupi	_	negative[6]	_	_	_
+12-8	1450-1459	aset-aset	_	negative[6]	_	_	_
+12-9	1460-1464	yang	_	_	_	_	_
+12-10	1465-1473	dimiliki	_	_	_	_	_
+12-11	1474-1477	nya	_	_	_	_	_
+12-12	1478-1484	kepada	_	_	_	_	_
+12-13	1485-1493	penyidik	_	_	_	_	_
+12-14	1494-1500	hingga	_	_	_	_	_
+12-15	1501-1505	saat	_	_	_	_	_
+12-16	1506-1509	ini	_	_	_	_	_
+12-17	1510-1511	.	_	_	_	_	_
+
+#Text=Temuan aset tersebut didasarkan pada hasil analisis keuangan yang dilakukan oleh Pusat Pelaporan dan Analisis Transaksi Keuangan .
+13-1	1513-1519	Temuan	_	_	_	_	_
+13-2	1520-1524	aset	_	_	_	_	_
+13-3	1525-1533	tersebut	_	_	_	_	_
+13-4	1534-1544	didasarkan	_	_	_	_	_
+13-5	1545-1549	pada	_	_	_	_	_
+13-6	1550-1555	hasil	_	_	_	_	_
+13-7	1556-1564	analisis	_	_	_	_	_
+13-8	1565-1573	keuangan	_	_	_	_	_
+13-9	1574-1578	yang	_	_	_	_	_
+13-10	1579-1588	dilakukan	_	_	_	_	_
+13-11	1589-1593	oleh	_	_	_	_	_
+13-12	1594-1599	Pusat	_	_	_	_	_
+13-13	1600-1609	Pelaporan	_	_	_	_	_
+13-14	1610-1613	dan	_	_	_	_	_
+13-15	1614-1622	Analisis	_	_	_	_	_
+13-16	1623-1632	Transaksi	_	_	_	_	_
+13-17	1633-1641	Keuangan	_	_	_	_	_
+13-18	1642-1643	.	_	_	_	_	_
+
+#Text=Selama proses pelacakan aset , polisi menyatakan bakal menyita total Rp 57,2 miliar aset milik Indra .
+14-1	1645-1651	Selama	_	_	_	_	_
+14-2	1652-1658	proses	_	_	_	_	_
+14-3	1659-1668	pelacakan	_	_	_	_	_
+14-4	1669-1673	aset	_	_	_	_	_
+14-5	1674-1675	,	_	_	_	_	_
+14-6	1676-1682	polisi	_	_	_	_	_
+14-7	1683-1693	menyatakan	_	_	_	_	_
+14-8	1694-1699	bakal	_	_	_	_	_
+14-9	1700-1707	menyita	_	_	_	_	_
+14-10	1708-1713	total	_	_	_	_	_
+14-11	1714-1716	Rp	_	_	_	_	_
+14-12	1717-1721	57,2	_	_	_	_	_
+14-13	1722-1728	miliar	_	_	_	_	_
+14-14	1729-1733	aset	_	_	_	_	_
+14-15	1734-1739	milik	_	_	_	_	_
+14-16	1740-1745	Indra	_	_	_	_	_
+14-17	1746-1747	.	_	_	_	_	_
+
+#Text=Sejauh ini , total aset yang disita baru sebesar Rp 43,5 miliar .
+15-1	1749-1755	Sejauh	_	_	_	_	_
+15-2	1756-1759	ini	_	_	_	_	_
+15-3	1760-1761	,	_	_	_	_	_
+15-4	1762-1767	total	_	_	_	_	_
+15-5	1768-1772	aset	_	_	_	_	_
+15-6	1773-1777	yang	_	_	_	_	_
+15-7	1778-1784	disita	_	_	_	_	_
+15-8	1785-1789	baru	_	_	_	_	_
+15-9	1790-1797	sebesar	_	_	_	_	_
+15-10	1798-1800	Rp	_	_	_	_	_
+15-11	1801-1805	43,5	_	_	_	_	_
+15-12	1806-1812	miliar	_	_	_	_	_
+15-13	1813-1814	.	_	_	_	_	_
+
+#Text=Beberapa aset diantara nya seperti dua unit mobil mewah merek Ferrari dan Tesla .
+16-1	1816-1824	Beberapa	_	_	_	_	_
+16-2	1825-1829	aset	_	_	_	_	_
+16-3	1830-1838	diantara	_	_	_	_	_
+16-4	1839-1842	nya	_	_	_	_	_
+16-5	1843-1850	seperti	_	_	_	_	_
+16-6	1851-1854	dua	_	_	_	_	_
+16-7	1855-1859	unit	_	_	_	_	_
+16-8	1860-1865	mobil	_	_	_	_	_
+16-9	1866-1871	mewah	_	_	_	_	_
+16-10	1872-1877	merek	_	_	_	_	_
+16-11	1878-1885	Ferrari	_	_	_	_	_
+16-12	1886-1889	dan	_	_	_	_	_
+16-13	1890-1895	Tesla	_	_	_	_	_
+16-14	1896-1897	.	_	_	_	_	_
+
+#Text=Kemudian , dua bidang tanah di Deliserdang , Sumatera Utara .
+17-1	1899-1907	Kemudian	_	_	_	_	_
+17-2	1908-1909	,	_	_	_	_	_
+17-3	1910-1913	dua	_	_	_	_	_
+17-4	1914-1920	bidang	_	_	_	_	_
+17-5	1921-1926	tanah	_	_	_	_	_
+17-6	1927-1929	di	_	_	_	_	_
+17-7	1930-1941	Deliserdang	_	_	_	_	_
+17-8	1942-1943	,	_	_	_	_	_
+17-9	1944-1952	Sumatera	_	_	_	_	_
+17-10	1953-1958	Utara	_	_	_	_	_
+17-11	1959-1960	.	_	_	_	_	_
+
+#Text=Terakhir , ada unit rumah di Medan .
+18-1	1962-1970	Terakhir	_	_	_	_	_
+18-2	1971-1972	,	_	_	_	_	_
+18-3	1973-1976	ada	_	_	_	_	_
+18-4	1977-1981	unit	_	_	_	_	_
+18-5	1982-1987	rumah	_	_	_	_	_
+18-6	1988-1990	di	_	_	_	_	_
+18-7	1991-1996	Medan	_	_	_	_	_
+18-8	1997-1998	.	_	_	_	_	_
+

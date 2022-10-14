@@ -1,0 +1,55 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Berakhir pekan ke kawasan lama Jakarta tidak hanya di Kota Tua .
+1-1	0-8	Berakhir	_	_	_	_	_
+1-2	9-14	pekan	_	_	_	_	_
+1-3	15-17	ke	_	_	_	_	_
+1-4	18-25	kawasan	_	_	_	_	_
+1-5	26-30	lama	_	_	_	_	_
+1-6	31-38	Jakarta	_	_	_	_	_
+1-7	39-44	tidak	_	_	_	_	_
+1-8	45-50	hanya	_	_	_	_	_
+1-9	51-53	di	_	_	_	_	_
+1-10	54-58	Kota	_	_	_	_	_
+1-11	59-62	Tua	_	_	_	_	_
+1-12	63-64	.	_	_	_	_	_
+
+#Text=Di Pasar Baru Jakarta Pusat juga kita bisa bernostalgia dengan kuliner legendaris , belanja baju murah dan hunting hidden gem lainnya .
+2-1	66-68	Di	_	_	_	_	_
+2-2	69-74	Pasar	_	_	_	_	_
+2-3	75-79	Baru	_	_	_	_	_
+2-4	80-87	Jakarta	_	_	_	_	_
+2-5	88-93	Pusat	_	_	_	_	_
+2-6	94-98	juga	_	_	_	_	_
+2-7	99-103	kita	_	_	_	_	_
+2-8	104-108	bisa	_	_	_	_	_
+2-9	109-121	bernostalgia	_	_	_	_	_
+2-10	122-128	dengan	_	_	_	_	_
+2-11	129-136	kuliner	_	_	_	_	_
+2-12	137-147	legendaris	_	_	_	_	_
+2-13	148-149	,	_	_	_	_	_
+2-14	150-157	belanja	_	_	_	_	_
+2-15	158-162	baju	_	_	_	_	_
+2-16	163-168	murah	_	_	_	_	_
+2-17	169-172	dan	_	_	_	_	_
+2-18	173-180	hunting	_	_	_	_	_
+2-19	181-187	hidden	_	_	_	_	_
+2-20	188-191	gem	_	_	_	_	_
+2-21	192-199	lainnya	_	_	_	_	_
+2-22	200-201	.	_	_	_	_	_
+
+#Text=Anita Mae akan mengajak anda jalan-jalan ke Pasar Baru dalam weekend gateaway .
+3-1	203-208	Anita	_	_	_	_	_
+3-2	209-212	Mae	_	_	_	_	_
+3-3	213-217	akan	_	_	_	_	_
+3-4	218-226	mengajak	_	_	_	_	_
+3-5	227-231	anda	_	_	_	_	_
+3-6	232-243	jalan-jalan	_	_	_	_	_
+3-7	244-246	ke	_	_	_	_	_
+3-8	247-252	Pasar	_	_	_	_	_
+3-9	253-257	Baru	_	_	_	_	_
+3-10	258-263	dalam	_	_	_	_	_
+3-11	264-271	weekend	_	_	_	_	_
+3-12	272-280	gateaway	_	_	_	_	_
+3-13	281-282	.	_	_	_	_	_
+

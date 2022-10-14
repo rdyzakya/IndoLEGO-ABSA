@@ -1,0 +1,422 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Pemerintah mengakui penjualan tiket penyelenggaraan MotoGP Mandalika masih minim .
+1-1	0-10	Pemerintah	_	_	_	_	_
+1-2	11-19	mengakui	_	_	_	_	_
+1-3	20-29	penjualan	_	_	_	_	_
+1-4	30-35	tiket	_	_	_	_	_
+1-5	36-51	penyelenggaraan	_	_	_	_	_
+1-6	52-58	MotoGP	_	_	_	_	_
+1-7	59-68	Mandalika	_	_	_	_	_
+1-8	69-74	masih	_	_	_	_	_
+1-9	75-80	minim	_	_	_	_	_
+1-10	81-82	.	_	_	_	_	_
+
+#Text=Deputi I Kepala Staf Kepresidenan ( KSP ) , Febry Calvin Tetelepta , mengatakan hal ini tak terlepas dari ketersediaan akomodasi yang terbatas .
+2-1	84-90	Deputi	_	_	_	_	_
+2-2	91-92	I	_	_	_	_	_
+2-3	93-99	Kepala	_	_	_	_	_
+2-4	100-104	Staf	_	_	_	_	_
+2-5	105-117	Kepresidenan	_	_	_	_	_
+2-6	118-119	(	_	_	_	_	_
+2-7	120-123	KSP	_	_	_	_	_
+2-8	124-125	)	_	_	_	_	_
+2-9	126-127	,	_	_	_	_	_
+2-10	128-133	Febry	_	_	_	_	_
+2-11	134-140	Calvin	_	_	_	_	_
+2-12	141-150	Tetelepta	_	_	_	_	_
+2-13	151-152	,	_	_	_	_	_
+2-14	153-163	mengatakan	_	_	_	_	_
+2-15	164-167	hal	_	_	_	_	_
+2-16	168-171	ini	_	_	_	_	_
+2-17	172-175	tak	_	_	_	_	_
+2-18	176-184	terlepas	_	_	_	_	_
+2-19	185-189	dari	_	_	_	_	_
+2-20	190-202	ketersediaan	_	_	_	_	_
+2-21	203-212	akomodasi	_	_	_	_	_
+2-22	213-217	yang	_	_	_	_	_
+2-23	218-226	terbatas	_	_	_	_	_
+2-24	227-228	.	_	_	_	_	_
+
+#Text=Menurut nya , hasil monitoring dan verifikasi lapangan yang dilakukan Kantor Staf Presiden , sampai saat ini masih ada kekhawatiran wisatawan terkait ketersediaan hunian , yang menyebabkan penjualan tiket MotoGP belum maksimal .
+3-1	230-237	Menurut	_	_	_	_	_
+3-2	238-241	nya	_	_	_	_	_
+3-3	242-243	,	_	_	_	_	_
+3-4	244-249	hasil	_	_	_	_	_
+3-5	250-260	monitoring	_	_	_	_	_
+3-6	261-264	dan	_	_	_	_	_
+3-7	265-275	verifikasi	_	_	_	_	_
+3-8	276-284	lapangan	_	_	_	_	_
+3-9	285-289	yang	_	_	_	_	_
+3-10	290-299	dilakukan	_	_	_	_	_
+3-11	300-306	Kantor	_	_	_	_	_
+3-12	307-311	Staf	_	_	_	_	_
+3-13	312-320	Presiden	_	_	_	_	_
+3-14	321-322	,	_	_	_	_	_
+3-15	323-329	sampai	_	_	_	_	_
+3-16	330-334	saat	_	_	_	_	_
+3-17	335-338	ini	_	_	_	_	_
+3-18	339-344	masih	_	_	_	_	_
+3-19	345-348	ada	_	_	_	_	_
+3-20	349-361	kekhawatiran	_	_	_	_	_
+3-21	362-371	wisatawan	_	_	_	_	_
+3-22	372-379	terkait	_	_	_	_	_
+3-23	380-392	ketersediaan	_	_	_	_	_
+3-24	393-399	hunian	_	_	_	_	_
+3-25	400-401	,	_	_	_	_	_
+3-26	402-406	yang	_	_	_	_	_
+3-27	407-418	menyebabkan	_	_	_	_	_
+3-28	419-428	penjualan	_	concept[1]	_	_	_
+3-29	429-434	tiket	_	concept[1]	_	_	_
+3-30	435-441	MotoGP	_	concept[1]	_	_	_
+3-31	442-447	belum	_	negative[2]	_	_	_
+3-32	448-456	maksimal	_	negative[2]	_	_	_
+3-33	457-458	.	_	_	_	_	_
+
+#Text=" Salah satu penyebab minim nya penjualan tiket MotoGP tidak terlepas dari ketersediaan akomodasi yang terbatas . Wisatawan khawatir tidak mendapat penginapan sementara mereka sudah terlanjur membeli tiket MotoGP , " kata Febry dalam keterangan tertulis nya , Kamis ( 3 / 3 ) .
+4-1	460-461	"	_	_	_	_	_
+4-2	462-467	Salah	_	_	_	_	_
+4-3	468-472	satu	_	_	_	_	_
+4-4	473-481	penyebab	_	_	_	_	_
+4-5	482-487	minim	_	negative[3]	_	_	_
+4-6	488-491	nya	_	negative[3]	_	_	_
+4-7	492-501	penjualan	_	concept[4]	_	_	_
+4-8	502-507	tiket	_	concept[4]	_	_	_
+4-9	508-514	MotoGP	_	concept[4]	_	_	_
+4-10	515-520	tidak	_	_	_	_	_
+4-11	521-529	terlepas	_	_	_	_	_
+4-12	530-534	dari	_	_	_	_	_
+4-13	535-547	ketersediaan	_	_	_	_	_
+4-14	548-557	akomodasi	_	_	_	_	_
+4-15	558-562	yang	_	_	_	_	_
+4-16	563-571	terbatas	_	_	_	_	_
+4-17	572-573	.	_	_	_	_	_
+4-18	574-583	Wisatawan	_	_	_	_	_
+4-19	584-592	khawatir	_	_	_	_	_
+4-20	593-598	tidak	_	_	_	_	_
+4-21	599-607	mendapat	_	_	_	_	_
+4-22	608-618	penginapan	_	_	_	_	_
+4-23	619-628	sementara	_	_	_	_	_
+4-24	629-635	mereka	_	_	_	_	_
+4-25	636-641	sudah	_	_	_	_	_
+4-26	642-651	terlanjur	_	_	_	_	_
+4-27	652-659	membeli	_	_	_	_	_
+4-28	660-665	tiket	_	_	_	_	_
+4-29	666-672	MotoGP	_	_	_	_	_
+4-30	673-674	,	_	_	_	_	_
+4-31	675-676	"	_	_	_	_	_
+4-32	677-681	kata	_	_	_	_	_
+4-33	682-687	Febry	_	_	_	_	_
+4-34	688-693	dalam	_	_	_	_	_
+4-35	694-704	keterangan	_	_	_	_	_
+4-36	705-713	tertulis	_	_	_	_	_
+4-37	714-717	nya	_	_	_	_	_
+4-38	718-719	,	_	_	_	_	_
+4-39	720-725	Kamis	_	_	_	_	_
+4-40	726-727	(	_	_	_	_	_
+4-41	728-729	3	_	_	_	_	_
+4-42	730-731	/	_	_	_	_	_
+4-43	732-733	3	_	_	_	_	_
+4-44	734-735	)	_	_	_	_	_
+4-45	736-737	.	_	_	_	_	_
+
+#Text=Febry mengatakan , dari semua akomodasi yang tersebar di Lombok , saat ini hanya 75 persen yang bisa beroperasi karena ada nya pandemi Covid - 19 .
+5-1	739-744	Febry	_	_	_	_	_
+5-2	745-755	mengatakan	_	_	_	_	_
+5-3	756-757	,	_	_	_	_	_
+5-4	758-762	dari	_	_	_	_	_
+5-5	763-768	semua	_	_	_	_	_
+5-6	769-778	akomodasi	_	concept[5]	_	_	_
+5-7	779-783	yang	_	_	_	_	_
+5-8	784-792	tersebar	_	_	_	_	_
+5-9	793-795	di	_	_	_	_	_
+5-10	796-802	Lombok	_	concept[6]	_	_	_
+5-11	803-804	,	_	_	_	_	_
+5-12	805-809	saat	_	_	_	_	_
+5-13	810-813	ini	_	_	_	_	_
+5-14	814-819	hanya	_	_	_	_	_
+5-15	820-822	75	_	_	_	_	_
+5-16	823-829	persen	_	_	_	_	_
+5-17	830-834	yang	_	positive[7]	_	_	_
+5-18	835-839	bisa	_	positive[7]	_	_	_
+5-19	840-850	beroperasi	_	positive[7]	_	_	_
+5-20	851-857	karena	_	_	_	_	_
+5-21	858-861	ada	_	_	_	_	_
+5-22	862-865	nya	_	_	_	_	_
+5-23	866-873	pandemi	_	_	_	_	_
+5-24	874-879	Covid	_	_	_	_	_
+5-25	880-881	-	_	_	_	_	_
+5-26	882-884	19	_	_	_	_	_
+5-27	885-886	.	_	_	_	_	_
+
+#Text=Dari jumlah itu , setengah nya sudah terbooking , dan masih tersedia 7.200 kamar .
+6-1	888-892	Dari	_	_	_	_	_
+6-2	893-899	jumlah	_	_	_	_	_
+6-3	900-903	itu	_	_	_	_	_
+6-4	904-905	,	_	_	_	_	_
+6-5	906-914	setengah	_	_	_	_	_
+6-6	915-918	nya	_	_	_	_	_
+6-7	919-924	sudah	_	_	_	_	_
+6-8	925-935	terbooking	_	_	_	_	_
+6-9	936-937	,	_	_	_	_	_
+6-10	938-941	dan	_	_	_	_	_
+6-11	942-947	masih	_	_	_	_	_
+6-12	948-956	tersedia	_	_	_	_	_
+6-13	957-962	7.200	_	_	_	_	_
+6-14	963-968	kamar	_	_	_	_	_
+6-15	969-970	.	_	_	_	_	_
+
+#Text=Namun , ia memastikan pemerintah telah melakukan berbagai upaya agar masyarakat dapat mengakses akomodasi dengan terjangkau .
+7-1	972-977	Namun	_	_	_	_	_
+7-2	978-979	,	_	_	_	_	_
+7-3	980-982	ia	_	_	_	_	_
+7-4	983-993	memastikan	_	_	_	_	_
+7-5	994-1004	pemerintah	_	_	_	_	_
+7-6	1005-1010	telah	_	_	_	_	_
+7-7	1011-1020	melakukan	_	_	_	_	_
+7-8	1021-1029	berbagai	_	_	_	_	_
+7-9	1030-1035	upaya	_	_	_	_	_
+7-10	1036-1040	agar	_	_	_	_	_
+7-11	1041-1051	masyarakat	_	_	_	_	_
+7-12	1052-1057	dapat	_	_	_	_	_
+7-13	1058-1067	mengakses	_	_	_	_	_
+7-14	1068-1077	akomodasi	_	_	_	_	_
+7-15	1078-1084	dengan	_	_	_	_	_
+7-16	1085-1095	terjangkau	_	_	_	_	_
+7-17	1096-1097	.	_	_	_	_	_
+
+#Text=Salah satu nya dengan memberlakukan Pergub NTB Nomor 9 / 2022 yang mengatur tarif akomodasi selama acara internasional .
+8-1	1099-1104	Salah	_	_	_	_	_
+8-2	1105-1109	satu	_	_	_	_	_
+8-3	1110-1113	nya	_	_	_	_	_
+8-4	1114-1120	dengan	_	_	_	_	_
+8-5	1121-1134	memberlakukan	_	_	_	_	_
+8-6	1135-1141	Pergub	_	_	_	_	_
+8-7	1142-1145	NTB	_	_	_	_	_
+8-8	1146-1151	Nomor	_	_	_	_	_
+8-9	1152-1153	9	_	_	_	_	_
+8-10	1154-1155	/	_	_	_	_	_
+8-11	1156-1160	2022	_	_	_	_	_
+8-12	1161-1165	yang	_	_	_	_	_
+8-13	1166-1174	mengatur	_	_	_	_	_
+8-14	1175-1180	tarif	_	_	_	_	_
+8-15	1181-1190	akomodasi	_	_	_	_	_
+8-16	1191-1197	selama	_	_	_	_	_
+8-17	1198-1203	acara	_	_	_	_	_
+8-18	1204-1217	internasional	_	_	_	_	_
+8-19	1218-1219	.	_	_	_	_	_
+
+#Text=" Untuk memaksimalkan pemanfaatan homestay atau sarhunta , KSP juga mendorong agar homestay yang ditawarkan dapat diakses melalui saluran ITDC online , " ujar nya .
+9-1	1221-1222	"	_	_	_	_	_
+9-2	1223-1228	Untuk	_	_	_	_	_
+9-3	1229-1242	memaksimalkan	_	_	_	_	_
+9-4	1243-1254	pemanfaatan	_	_	_	_	_
+9-5	1255-1263	homestay	_	_	_	_	_
+9-6	1264-1268	atau	_	_	_	_	_
+9-7	1269-1277	sarhunta	_	_	_	_	_
+9-8	1278-1279	,	_	_	_	_	_
+9-9	1280-1283	KSP	_	_	_	_	_
+9-10	1284-1288	juga	_	_	_	_	_
+9-11	1289-1298	mendorong	_	_	_	_	_
+9-12	1299-1303	agar	_	_	_	_	_
+9-13	1304-1312	homestay	_	_	_	_	_
+9-14	1313-1317	yang	_	_	_	_	_
+9-15	1318-1328	ditawarkan	_	_	_	_	_
+9-16	1329-1334	dapat	_	_	_	_	_
+9-17	1335-1342	diakses	_	_	_	_	_
+9-18	1343-1350	melalui	_	_	_	_	_
+9-19	1351-1358	saluran	_	_	_	_	_
+9-20	1359-1363	ITDC	_	_	_	_	_
+9-21	1364-1370	online	_	_	_	_	_
+9-22	1371-1372	,	_	_	_	_	_
+9-23	1373-1374	"	_	_	_	_	_
+9-24	1375-1379	ujar	_	_	_	_	_
+9-25	1380-1383	nya	_	_	_	_	_
+9-26	1384-1385	.	_	_	_	_	_
+
+#Text=Dalam kesempatan itu , Febry meminta pemerintah daerah dan ITDC untuk terus mengajak masyarakat menonton perhelatan MotoGP .
+10-1	1387-1392	Dalam	_	_	_	_	_
+10-2	1393-1403	kesempatan	_	_	_	_	_
+10-3	1404-1407	itu	_	_	_	_	_
+10-4	1408-1409	,	_	_	_	_	_
+10-5	1410-1415	Febry	_	_	_	_	_
+10-6	1416-1423	meminta	_	_	_	_	_
+10-7	1424-1434	pemerintah	_	_	_	_	_
+10-8	1435-1441	daerah	_	_	_	_	_
+10-9	1442-1445	dan	_	_	_	_	_
+10-10	1446-1450	ITDC	_	_	_	_	_
+10-11	1451-1456	untuk	_	_	_	_	_
+10-12	1457-1462	terus	_	_	_	_	_
+10-13	1463-1471	mengajak	_	_	_	_	_
+10-14	1472-1482	masyarakat	_	_	_	_	_
+10-15	1483-1491	menonton	_	_	_	_	_
+10-16	1492-1502	perhelatan	_	_	_	_	_
+10-17	1503-1509	MotoGP	_	_	_	_	_
+10-18	1510-1511	.	_	_	_	_	_
+
+#Text=" Pemda NTB sudah melibatkan masyarakat dalam proses pembangunan sarana dan prasarana MotoGP . Perlu juga melibatkan masyarakat mensukseskan penyelenggaraan nya , " ungkap Febry .
+11-1	1513-1514	"	_	_	_	_	_
+11-2	1515-1520	Pemda	_	_	_	_	_
+11-3	1521-1524	NTB	_	_	_	_	_
+11-4	1525-1530	sudah	_	_	_	_	_
+11-5	1531-1541	melibatkan	_	_	_	_	_
+11-6	1542-1552	masyarakat	_	_	_	_	_
+11-7	1553-1558	dalam	_	_	_	_	_
+11-8	1559-1565	proses	_	_	_	_	_
+11-9	1566-1577	pembangunan	_	_	_	_	_
+11-10	1578-1584	sarana	_	_	_	_	_
+11-11	1585-1588	dan	_	_	_	_	_
+11-12	1589-1598	prasarana	_	_	_	_	_
+11-13	1599-1605	MotoGP	_	_	_	_	_
+11-14	1606-1607	.	_	_	_	_	_
+11-15	1608-1613	Perlu	_	_	_	_	_
+11-16	1614-1618	juga	_	_	_	_	_
+11-17	1619-1629	melibatkan	_	_	_	_	_
+11-18	1630-1640	masyarakat	_	_	_	_	_
+11-19	1641-1653	mensukseskan	_	_	_	_	_
+11-20	1654-1669	penyelenggaraan	_	_	_	_	_
+11-21	1670-1673	nya	_	_	_	_	_
+11-22	1674-1675	,	_	_	_	_	_
+11-23	1676-1677	"	_	_	_	_	_
+11-24	1678-1684	ungkap	_	_	_	_	_
+11-25	1685-1690	Febry	_	_	_	_	_
+11-26	1691-1692	.	_	_	_	_	_
+
+#Text=Seperti diketahui , jumlah tiket MotoGP Mandalika yang terjual hingga 20 Februari 2022 sebanyak 21.530 tiket .
+12-1	1694-1701	Seperti	_	_	_	_	_
+12-2	1702-1711	diketahui	_	_	_	_	_
+12-3	1712-1713	,	_	_	_	_	_
+12-4	1714-1720	jumlah	_	_	_	_	_
+12-5	1721-1726	tiket	_	_	_	_	_
+12-6	1727-1733	MotoGP	_	_	_	_	_
+12-7	1734-1743	Mandalika	_	_	_	_	_
+12-8	1744-1748	yang	_	_	_	_	_
+12-9	1749-1756	terjual	_	_	_	_	_
+12-10	1757-1763	hingga	_	_	_	_	_
+12-11	1764-1766	20	_	_	_	_	_
+12-12	1767-1775	Februari	_	_	_	_	_
+12-13	1776-1780	2022	_	_	_	_	_
+12-14	1781-1789	sebanyak	_	_	_	_	_
+12-15	1790-1796	21.530	_	_	_	_	_
+12-16	1797-1802	tiket	_	_	_	_	_
+12-17	1803-1804	.	_	_	_	_	_
+
+#Text=Jumlah ini masih jauh dari target yakni 60.000 tiket .
+13-1	1806-1812	Jumlah	_	_	_	_	_
+13-2	1813-1816	ini	_	_	_	_	_
+13-3	1817-1822	masih	_	_	_	_	_
+13-4	1823-1827	jauh	_	_	_	_	_
+13-5	1828-1832	dari	_	_	_	_	_
+13-6	1833-1839	target	_	_	_	_	_
+13-7	1840-1845	yakni	_	_	_	_	_
+13-8	1846-1852	60.000	_	_	_	_	_
+13-9	1853-1858	tiket	_	_	_	_	_
+13-10	1859-1860	.	_	_	_	_	_
+
+#Text=Di sisi lain , pemerintah melakukan berbagai upaya untuk memaksimalkan penjualan tiket MotoGP Mandalika atau Pertamina Grand Prix of Indonesia .
+14-1	1862-1864	Di	_	_	_	_	_
+14-2	1865-1869	sisi	_	_	_	_	_
+14-3	1870-1874	lain	_	_	_	_	_
+14-4	1875-1876	,	_	_	_	_	_
+14-5	1877-1887	pemerintah	_	_	_	_	_
+14-6	1888-1897	melakukan	_	_	_	_	_
+14-7	1898-1906	berbagai	_	_	_	_	_
+14-8	1907-1912	upaya	_	_	_	_	_
+14-9	1913-1918	untuk	_	_	_	_	_
+14-10	1919-1932	memaksimalkan	_	_	_	_	_
+14-11	1933-1942	penjualan	_	_	_	_	_
+14-12	1943-1948	tiket	_	_	_	_	_
+14-13	1949-1955	MotoGP	_	_	_	_	_
+14-14	1956-1965	Mandalika	_	_	_	_	_
+14-15	1966-1970	atau	_	_	_	_	_
+14-16	1971-1980	Pertamina	_	_	_	_	_
+14-17	1981-1986	Grand	_	_	_	_	_
+14-18	1987-1991	Prix	_	_	_	_	_
+14-19	1992-1994	of	_	_	_	_	_
+14-20	1995-2004	Indonesia	_	_	_	_	_
+14-21	2005-2006	.	_	_	_	_	_
+
+#Text=Di antara nya , dengan membuat tiket MotoGP satu paket dengan penginapan .
+15-1	2008-2010	Di	_	_	_	_	_
+15-2	2011-2017	antara	_	_	_	_	_
+15-3	2018-2021	nya	_	_	_	_	_
+15-4	2022-2023	,	_	_	_	_	_
+15-5	2024-2030	dengan	_	_	_	_	_
+15-6	2031-2038	membuat	_	_	_	_	_
+15-7	2039-2044	tiket	_	_	_	_	_
+15-8	2045-2051	MotoGP	_	_	_	_	_
+15-9	2052-2056	satu	_	_	_	_	_
+15-10	2057-2062	paket	_	_	_	_	_
+15-11	2063-2069	dengan	_	_	_	_	_
+15-12	2070-2080	penginapan	_	_	_	_	_
+15-13	2081-2082	.	_	_	_	_	_
+
+#Text=MotoGP 2022 bakal dibuka di Sirkuit Losail , Qatar , akhir pekan ini .
+16-1	2084-2090	MotoGP	_	_	_	_	_
+16-2	2091-2095	2022	_	_	_	_	_
+16-3	2096-2101	bakal	_	_	_	_	_
+16-4	2102-2108	dibuka	_	_	_	_	_
+16-5	2109-2111	di	_	_	_	_	_
+16-6	2112-2119	Sirkuit	_	_	_	_	_
+16-7	2120-2126	Losail	_	_	_	_	_
+16-8	2127-2128	,	_	_	_	_	_
+16-9	2129-2134	Qatar	_	_	_	_	_
+16-10	2135-2136	,	_	_	_	_	_
+16-11	2137-2142	akhir	_	_	_	_	_
+16-12	2143-2148	pekan	_	_	_	_	_
+16-13	2149-2152	ini	_	_	_	_	_
+16-14	2153-2154	.	_	_	_	_	_
+
+#Text=Kemudian Fabio Quartararo dan kawan-kawan akan kembali mengaspal di MotoGP Mandalika Indonesia pada 20 Maret mendatang .
+17-1	2156-2164	Kemudian	_	_	_	_	_
+17-2	2165-2170	Fabio	_	_	_	_	_
+17-3	2171-2181	Quartararo	_	_	_	_	_
+17-4	2182-2185	dan	_	_	_	_	_
+17-5	2186-2197	kawan-kawan	_	_	_	_	_
+17-6	2198-2202	akan	_	_	_	_	_
+17-7	2203-2210	kembali	_	_	_	_	_
+17-8	2211-2220	mengaspal	_	_	_	_	_
+17-9	2221-2223	di	_	_	_	_	_
+17-10	2224-2230	MotoGP	_	_	_	_	_
+17-11	2231-2240	Mandalika	_	_	_	_	_
+17-12	2241-2250	Indonesia	_	_	_	_	_
+17-13	2251-2255	pada	_	_	_	_	_
+17-14	2256-2258	20	_	_	_	_	_
+17-15	2259-2264	Maret	_	_	_	_	_
+17-16	2265-2274	mendatang	_	_	_	_	_
+17-17	2275-2276	.	_	_	_	_	_
+
+#Text=Saksikan live streaming MotoGP Qatar 2022di CNNIndonesia.com pada Minggu ( 6 / 3 ) .
+18-1	2278-2286	Saksikan	_	_	_	_	_
+18-2	2287-2291	live	_	_	_	_	_
+18-3	2292-2301	streaming	_	_	_	_	_
+18-4	2302-2308	MotoGP	_	_	_	_	_
+18-5	2309-2314	Qatar	_	_	_	_	_
+18-6	2315-2321	2022di	_	_	_	_	_
+18-7	2322-2338	CNNIndonesia.com	_	_	_	_	_
+18-8	2339-2343	pada	_	_	_	_	_
+18-9	2344-2350	Minggu	_	_	_	_	_
+18-10	2351-2352	(	_	_	_	_	_
+18-11	2353-2354	6	_	_	_	_	_
+18-12	2355-2356	/	_	_	_	_	_
+18-13	2357-2358	3	_	_	_	_	_
+18-14	2359-2360	)	_	_	_	_	_
+18-15	2361-2362	.	_	_	_	_	_
+
+#Text=Siaran langsung balapan akan disiarkan Trans7 .
+19-1	2364-2370	Siaran	_	_	_	_	_
+19-2	2371-2379	langsung	_	_	_	_	_
+19-3	2380-2387	balapan	_	_	_	_	_
+19-4	2388-2392	akan	_	_	_	_	_
+19-5	2393-2402	disiarkan	_	_	_	_	_
+19-6	2403-2409	Trans7	_	_	_	_	_
+19-7	2410-2411	.	_	_	_	_	_
+
+#Text=[ Gambas : Video CNN ]
+20-1	2413-2414	[	_	_	_	_	_
+20-2	2415-2421	Gambas	_	_	_	_	_
+20-3	2422-2423	:	_	_	_	_	_
+20-4	2424-2429	Video	_	_	_	_	_
+20-5	2430-2433	CNN	_	_	_	_	_
+20-6	2434-2435	]	_	_	_	_	_
+

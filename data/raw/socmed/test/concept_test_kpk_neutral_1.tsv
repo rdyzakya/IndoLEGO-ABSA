@@ -1,0 +1,248 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Dear KPK, mau tanya aku, kalo Para Koruptor yg ketangkep itu Rekening dan harta dia dan keluarganya dibawa kemana ya ?? Mohon Penjelasan..
+1-1	0-4	Dear	_	_	_	_	_
+1-2	6-10	KPK,	_	_	_	_	_
+1-3	12-15	mau	_	_	_	_	_
+1-4	17-22	tanya	_	_	_	_	_
+1-5	24-28	aku,	_	_	_	_	_
+1-6	30-34	kalo	_	_	_	_	_
+1-7	36-40	Para	_	_	_	_	_
+1-8	42-50	Koruptor	_	_	_	_	_
+1-9	52-54	yg	_	_	_	_	_
+1-10	56-65	ketangkep	_	_	_	_	_
+1-11	67-70	itu	_	_	_	_	_
+1-12	72-80	Rekening	_	_	_	_	_
+1-13	82-85	dan	_	_	_	_	_
+1-14	87-92	harta	_	_	_	_	_
+1-15	94-97	dia	_	_	_	_	_
+1-16	99-102	dan	_	_	_	_	_
+1-17	104-115	keluarganya	_	_	_	_	_
+1-18	117-123	dibawa	_	_	_	_	_
+1-19	125-131	kemana	_	_	_	_	_
+1-20	133-135	ya	_	_	_	_	_
+1-21	137-139	??	_	_	_	_	_
+1-22	141-146	Mohon	_	_	_	_	_
+1-23	148-160	Penjelasan..	_	_	_	_	_
+
+#Text=Proyek mangkrak ini juga gak ada pertanggung  jawaban yg diminta oleh pemerintah. Kpk, bpk dll
+2-1	162-168	Proyek	_	_	_	_	_
+2-2	170-178	mangkrak	_	_	_	_	_
+2-3	180-183	ini	_	_	_	_	_
+2-4	185-189	juga	_	_	_	_	_
+2-5	191-194	gak	_	_	_	_	_
+2-6	196-199	ada	_	_	_	_	_
+2-7	201-212	pertanggung	_	_	_	_	_
+2-8	214-221	jawaban	_	_	_	_	_
+2-9	223-225	yg	_	_	_	_	_
+2-10	227-234	diminta	_	_	_	_	_
+2-11	236-240	oleh	_	_	_	_	_
+2-12	242-253	pemerintah.	_	_	_	_	_
+2-13	255-259	Kpk,	_	_	_	_	_
+2-14	261-264	bpk	_	_	_	_	_
+2-15	266-269	dll	_	_	_	_	_
+
+#Text=Supaya transparansi makin terpenuhi, pemerintah menggandeng KPK agar tdk terjadi penyelewengan
+3-1	271-277	Supaya	_	_	_	_	_
+3-2	279-291	transparansi	_	_	_	_	_
+3-3	293-298	makin	_	_	_	_	_
+3-4	300-310	terpenuhi,	_	_	_	_	_
+3-5	312-322	pemerintah	_	_	_	_	_
+3-6	324-335	menggandeng	_	_	_	_	_
+3-7	337-340	KPK	_	_	_	_	_
+3-8	342-346	agar	_	_	_	_	_
+3-9	348-351	tdk	_	_	_	_	_
+3-10	353-360	terjadi	_	_	_	_	_
+3-11	362-375	penyelewengan	_	_	_	_	_
+
+#Text=Slmt siang, mohon klo bisa kpk turun ke desa sy untk mlihat bagaimana uang desa di kelola ole pemerintah desa
+4-1	377-381	Slmt	_	_	_	_	_
+4-2	383-389	siang,	_	_	_	_	_
+4-3	391-396	mohon	_	_	_	_	_
+4-4	398-401	klo	_	_	_	_	_
+4-5	403-407	bisa	_	_	_	_	_
+4-6	409-412	kpk	_	_	_	_	_
+4-7	414-419	turun	_	_	_	_	_
+4-8	421-423	ke	_	_	_	_	_
+4-9	425-429	desa	_	_	_	_	_
+4-10	431-433	sy	_	_	_	_	_
+4-11	435-439	untk	_	_	_	_	_
+4-12	441-447	mlihat	_	_	_	_	_
+4-13	449-458	bagaimana	_	_	_	_	_
+4-14	460-464	uang	_	_	_	_	_
+4-15	466-470	desa	_	_	_	_	_
+4-16	472-474	di	_	_	_	_	_
+4-17	476-482	kelola	_	_	_	_	_
+4-18	484-487	ole	_	_	_	_	_
+4-19	489-499	pemerintah	_	_	_	_	_
+4-20	501-505	desa	_	_	_	_	_
+
+#Text=@KPK_RI di desa kami kpm BLT dd tahap1 didominasi pamong desa beserta mantan pamong dan konco
+5-1	507-514	@KPK_RI	_	_	_	_	_
+5-2	516-518	di	_	_	_	_	_
+5-3	520-524	desa	_	_	_	_	_
+5-4	526-530	kami	_	_	_	_	_
+5-5	532-535	kpm	_	_	_	_	_
+5-6	537-540	BLT	_	_	_	_	_
+5-7	542-544	dd	_	_	_	_	_
+5-8	546-552	tahap1	_	_	_	_	_
+5-9	554-564	didominasi	_	_	_	_	_
+5-10	566-572	pamong	_	_	_	_	_
+5-11	574-578	desa	_	_	_	_	_
+5-12	580-587	beserta	_	_	_	_	_
+5-13	589-595	mantan	_	_	_	_	_
+5-14	597-603	pamong	_	_	_	_	_
+5-15	605-608	dan	_	_	_	_	_
+5-16	610-615	konco	_	_	_	_	_
+
+#Text=@KPK_RI Assalamualaikum Selamat sore maaf jikalau saya mengganggu saya cuma tanya tentang prihal kasus korupsi di desa itu termasuk tugas anda juga pak
+6-1	617-624	@KPK_RI	_	_	_	_	_
+6-2	626-641	Assalamualaikum	_	_	_	_	_
+6-3	643-650	Selamat	_	_	_	_	_
+6-4	652-656	sore	_	_	_	_	_
+6-5	658-662	maaf	_	_	_	_	_
+6-6	664-671	jikalau	_	_	_	_	_
+6-7	673-677	saya	_	_	_	_	_
+6-8	679-689	mengganggu	_	_	_	_	_
+6-9	691-695	saya	_	_	_	_	_
+6-10	697-701	cuma	_	_	_	_	_
+6-11	703-708	tanya	_	_	_	_	_
+6-12	710-717	tentang	_	_	_	_	_
+6-13	719-725	prihal	_	_	_	_	_
+6-14	727-732	kasus	_	_	_	_	_
+6-15	734-741	korupsi	_	_	_	_	_
+6-16	743-745	di	_	_	_	_	_
+6-17	747-751	desa	_	_	_	_	_
+6-18	753-756	itu	_	_	_	_	_
+6-19	758-766	termasuk	_	_	_	_	_
+6-20	768-773	tugas	_	_	_	_	_
+6-21	775-779	anda	_	_	_	_	_
+6-22	781-785	juga	_	_	_	_	_
+6-23	787-790	pak	_	_	_	_	_
+
+#Text=Harusnya KPK buat bagian dari KPK untuk ke pelosok-pelosok desa, guna mengaudit dana desa dan pembangunan desa. Masa hanya di kota saja. Di desa juga ada masalah
+7-1	792-800	Harusnya	_	_	_	_	_
+7-2	802-805	KPK	_	_	_	_	_
+7-3	807-811	buat	_	_	_	_	_
+7-4	813-819	bagian	_	_	_	_	_
+7-5	821-825	dari	_	_	_	_	_
+7-6	827-830	KPK	_	_	_	_	_
+7-7	832-837	untuk	_	_	_	_	_
+7-8	839-841	ke	_	_	_	_	_
+7-9	843-858	pelosok-pelosok	_	_	_	_	_
+7-10	860-865	desa,	_	_	_	_	_
+7-11	867-871	guna	_	_	_	_	_
+7-12	873-882	mengaudit	_	_	_	_	_
+7-13	884-888	dana	_	_	_	_	_
+7-14	890-894	desa	_	_	_	_	_
+7-15	896-899	dan	_	_	_	_	_
+7-16	901-912	pembangunan	_	_	_	_	_
+7-17	914-919	desa.	_	_	_	_	_
+7-18	921-925	Masa	_	_	_	_	_
+7-19	927-932	hanya	_	_	_	_	_
+7-20	934-936	di	_	_	_	_	_
+7-21	938-942	kota	_	_	_	_	_
+7-22	944-949	saja.	_	_	_	_	_
+7-23	951-953	Di	_	_	_	_	_
+7-24	955-959	desa	_	_	_	_	_
+7-25	961-965	juga	_	_	_	_	_
+7-26	967-970	ada	_	_	_	_	_
+7-27	972-979	masalah	_	_	_	_	_
+
+#Text=Kapan nih kpk tindaklanjuti soal anggaran n dana di pemprov Jakarta?
+8-1	981-986	Kapan	_	_	_	_	_
+8-2	988-991	nih	_	_	_	_	_
+8-3	993-996	kpk	_	_	_	_	_
+8-4	998-1011	tindaklanjuti	_	_	_	_	_
+8-5	1013-1017	soal	_	_	_	_	_
+8-6	1019-1027	anggaran	_	_	_	_	_
+8-7	1029-1030	n	_	_	_	_	_
+8-8	1032-1036	dana	_	_	_	_	_
+8-9	1038-1040	di	_	_	_	_	_
+8-10	1042-1049	pemprov	_	_	_	_	_
+8-11	1051-1059	Jakarta?	_	_	_	_	_
+
+#Text=Selamat malam Pak @jokowi @kanal_kpk  @KemensosRI , mau bertanya prihal bantuan UMKN wilayah Lampung Tengah apakah benar 2.400.000? Mohon konfirmasinya
+9-1	1061-1068	Selamat	_	_	_	_	_
+9-2	1070-1075	malam	_	_	_	_	_
+9-3	1077-1080	Pak	_	_	_	_	_
+9-4	1082-1089	@jokowi	_	_	_	_	_
+9-5	1091-1101	@kanal_kpk	_	_	_	_	_
+9-6	1103-1114	@KemensosRI	_	_	_	_	_
+9-7	1116-1117	,	_	_	_	_	_
+9-8	1119-1122	mau	_	_	_	_	_
+9-9	1124-1132	bertanya	_	_	_	_	_
+9-10	1134-1140	prihal	_	_	_	_	_
+9-11	1142-1149	bantuan	_	_	_	_	_
+9-12	1151-1155	UMKN	_	_	_	_	_
+9-13	1157-1164	wilayah	_	_	_	_	_
+9-14	1166-1173	Lampung	_	_	_	_	_
+9-15	1175-1181	Tengah	_	_	_	_	_
+9-16	1183-1189	apakah	_	_	_	_	_
+9-17	1191-1196	benar	_	_	_	_	_
+9-18	1198-1208	2.400.000?	_	_	_	_	_
+9-19	1210-1215	Mohon	_	_	_	_	_
+9-20	1217-1230	konfirmasinya	_	_	_	_	_
+
+#Text=KPK tolong pantau pembagian bantuan pada kami, karena kami curiga jumlahnya
+10-1	1232-1235	KPK	_	_	_	_	_
+10-2	1237-1243	tolong	_	_	_	_	_
+10-3	1245-1251	pantau	_	_	_	_	_
+10-4	1253-1262	pembagian	_	_	_	_	_
+10-5	1264-1271	bantuan	_	_	_	_	_
+10-6	1273-1277	pada	_	_	_	_	_
+10-7	1279-1284	kami,	_	_	_	_	_
+10-8	1286-1292	karena	_	_	_	_	_
+10-9	1294-1298	kami	_	_	_	_	_
+10-10	1300-1306	curiga	_	_	_	_	_
+10-11	1308-1317	jumlahnya	_	_	_	_	_
+
+#Text=Coba KPK datang ke desa-desa, terus lihat kelakuan anggota dprd yang memanfaatkan BLT UMKM, khusunya di daerah pandeglang
+11-1	1319-1323	Coba	_	_	_	_	_
+11-2	1325-1328	KPK	_	_	_	_	_
+11-3	1330-1336	datang	_	_	_	_	_
+11-4	1338-1340	ke	_	_	_	_	_
+11-5	1342-1352	desa-desa,	_	_	_	_	_
+11-6	1354-1359	terus	_	_	_	_	_
+11-7	1361-1366	lihat	_	_	_	_	_
+11-8	1368-1376	kelakuan	_	_	_	_	_
+11-9	1378-1385	anggota	_	_	_	_	_
+11-10	1387-1391	dprd	_	_	_	_	_
+11-11	1393-1397	yang	_	_	_	_	_
+11-12	1399-1411	memanfaatkan	_	_	_	_	_
+11-13	1413-1416	BLT	_	_	_	_	_
+11-14	1418-1423	UMKM,	_	_	_	_	_
+11-15	1425-1433	khusunya	_	_	_	_	_
+11-16	1435-1437	di	_	_	_	_	_
+11-17	1439-1445	daerah	_	_	_	_	_
+11-18	1447-1457	pandeglang	_	_	_	_	_
+
+#Text=Andai semua pejabat di negara kita ini dari ketua RT maupun sampai presiden selalu berprilaku jujur dan amanah maka KPK akan bisa tidak memiliki tupoksi dan pekerjaan
+12-1	1459-1464	Andai	_	_	_	_	_
+12-2	1466-1471	semua	_	_	_	_	_
+12-3	1473-1480	pejabat	_	_	_	_	_
+12-4	1482-1484	di	_	_	_	_	_
+12-5	1486-1492	negara	_	_	_	_	_
+12-6	1494-1498	kita	_	_	_	_	_
+12-7	1500-1503	ini	_	_	_	_	_
+12-8	1505-1509	dari	_	_	_	_	_
+12-9	1511-1516	ketua	_	_	_	_	_
+12-10	1518-1520	RT	_	_	_	_	_
+12-11	1522-1528	maupun	_	_	_	_	_
+12-12	1530-1536	sampai	_	_	_	_	_
+12-13	1538-1546	presiden	_	_	_	_	_
+12-14	1548-1554	selalu	_	_	_	_	_
+12-15	1556-1566	berprilaku	_	_	_	_	_
+12-16	1568-1573	jujur	_	_	_	_	_
+12-17	1575-1578	dan	_	_	_	_	_
+12-18	1580-1586	amanah	_	_	_	_	_
+12-19	1588-1592	maka	_	_	_	_	_
+12-20	1594-1597	KPK	_	_	_	_	_
+12-21	1599-1603	akan	_	_	_	_	_
+12-22	1605-1609	bisa	_	_	_	_	_
+12-23	1611-1616	tidak	_	_	_	_	_
+12-24	1618-1626	memiliki	_	_	_	_	_
+12-25	1628-1635	tupoksi	_	_	_	_	_
+12-26	1637-1640	dan	_	_	_	_	_
+12-27	1642-1651	pekerjaan	_	_	_	_	_
+

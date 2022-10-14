@@ -1,0 +1,474 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Harga batu bara melesat pada perdagangan kemarin .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-32	Harga	_	concept[1]	_	_	_
+1-7	33-37	batu	_	concept[1]	_	_	_
+1-8	38-42	bara	_	concept[1]	_	_	_
+1-9	43-50	melesat	_	negative[2]	_	_	_
+1-10	51-55	pada	_	_	_	_	_
+1-11	56-67	perdagangan	_	_	_	_	_
+1-12	68-75	kemarin	_	_	_	_	_
+1-13	76-77	.	_	_	_	_	_
+
+#Text=Secara mingguan , perkembangan harga si batu hitam sangat mencengangkan .
+2-1	79-85	Secara	_	_	_	_	_
+2-2	86-94	mingguan	_	_	_	_	_
+2-3	95-96	,	_	_	_	_	_
+2-4	97-109	perkembangan	_	concept[3]	_	_	_
+2-5	110-115	harga	_	concept[3]	_	_	_
+2-6	116-118	si	_	concept[3]	_	_	_
+2-7	119-123	batu	_	concept[3]	_	_	_
+2-8	124-129	hitam	_	concept[3]	_	_	_
+2-9	130-136	sangat	_	positive[4]	_	_	_
+2-10	137-150	mencengangkan	_	positive[4]	_	_	_
+2-11	151-152	.	_	_	_	_	_
+
+#Text=Kemarin , harga batu bara di pasar ICE Newcastle ( Australia ) berada ditutup di US$ 407,05 / troy ons .
+3-1	154-161	Kemarin	_	_	_	_	_
+3-2	162-163	,	_	_	_	_	_
+3-3	164-169	harga	_	_	_	_	_
+3-4	170-174	batu	_	_	_	_	_
+3-5	175-179	bara	_	_	_	_	_
+3-6	180-182	di	_	_	_	_	_
+3-7	183-188	pasar	_	_	_	_	_
+3-8	189-192	ICE	_	_	_	_	_
+3-9	193-202	Newcastle	_	_	_	_	_
+3-10	203-204	(	_	_	_	_	_
+3-11	205-214	Australia	_	_	_	_	_
+3-12	215-216	)	_	_	_	_	_
+3-13	217-223	berada	_	_	_	_	_
+3-14	224-231	ditutup	_	_	_	_	_
+3-15	232-234	di	_	_	_	_	_
+3-16	235-238	US$	_	_	_	_	_
+3-17	239-245	407,05	_	_	_	_	_
+3-18	246-247	/	_	_	_	_	_
+3-19	248-252	troy	_	_	_	_	_
+3-20	253-256	ons	_	_	_	_	_
+3-21	257-258	.	_	_	_	_	_
+
+#Text=Melonjak 13,56 % dibandingkan sehari sebelumnya .
+4-1	260-268	Melonjak	_	_	_	_	_
+4-2	269-274	13,56	_	_	_	_	_
+4-3	275-276	%	_	_	_	_	_
+4-4	277-289	dibandingkan	_	_	_	_	_
+4-5	290-296	sehari	_	_	_	_	_
+4-6	297-307	sebelumnya	_	_	_	_	_
+4-7	308-309	.	_	_	_	_	_
+
+#Text=Pekan ini , harga batu bara membukukan kenaikan 61,85 % secara point - to - point .
+5-1	311-316	Pekan	_	_	_	_	_
+5-2	317-320	ini	_	_	_	_	_
+5-3	321-322	,	_	_	_	_	_
+5-4	323-328	harga	_	concept[5]	_	_	_
+5-5	329-333	batu	_	concept[5]	_	_	_
+5-6	334-338	bara	_	concept[5]	_	_	_
+5-7	339-349	membukukan	_	_	_	_	_
+5-8	350-358	kenaikan	_	negative[6]	_	_	_
+5-9	359-364	61,85	_	_	_	_	_
+5-10	365-366	%	_	_	_	_	_
+5-11	367-373	secara	_	_	_	_	_
+5-12	374-379	point	_	_	_	_	_
+5-13	380-381	-	_	_	_	_	_
+5-14	382-384	to	_	_	_	_	_
+5-15	385-386	-	_	_	_	_	_
+5-16	387-392	point	_	_	_	_	_
+5-17	393-394	.	_	_	_	_	_
+
+#Text=Ini adalah rekor tertinggi kenaikan mingguan setidaknya sejak 2008 .
+6-1	396-399	Ini	_	_	_	_	_
+6-2	400-406	adalah	_	_	_	_	_
+6-3	407-412	rekor	_	_	_	_	_
+6-4	413-422	tertinggi	_	_	_	_	_
+6-5	423-431	kenaikan	_	_	_	_	_
+6-6	432-440	mingguan	_	_	_	_	_
+6-7	441-451	setidaknya	_	_	_	_	_
+6-8	452-457	sejak	_	_	_	_	_
+6-9	458-462	2008	_	_	_	_	_
+6-10	463-464	.	_	_	_	_	_
+
+#Text=Lonjakan harga batu bara sebelumnya terjadi seiring harga gas alam yang juga melejit .
+7-1	466-474	Lonjakan	*	negative[7]|[9_7]	_	_	_
+7-2	475-480	harga	_	concept[8]	_	_	_
+7-3	481-485	batu	_	concept[8]	_	_	_
+7-4	486-490	bara	_	concept[8]	_	_	_
+7-5	491-501	sebelumnya	_	_	_	_	_
+7-6	502-509	terjadi	_	_	_	_	_
+7-7	510-517	seiring	_	_	_	_	_
+7-8	518-523	harga	_	concept[9]	_	_	_
+7-9	524-527	gas	_	concept[9]	_	_	_
+7-10	528-532	alam	_	concept[9]	_	_	_
+7-11	533-537	yang	_	_	_	_	_
+7-12	538-542	juga	_	_	_	_	_
+7-13	543-550	melejit	_	negative[10]	_	_	_
+7-14	551-552	.	_	_	_	_	_
+
+#Text=Kemarin , harga gas alam di Henry Hub ( Oklahoma , Amerika Serikat / AS ) ditutup di US$ 5,02 / MMBtu .
+8-1	554-561	Kemarin	_	_	_	_	_
+8-2	562-563	,	_	_	_	_	_
+8-3	564-569	harga	_	_	_	_	_
+8-4	570-573	gas	_	_	_	_	_
+8-5	574-578	alam	_	_	_	_	_
+8-6	579-581	di	_	_	_	_	_
+8-7	582-587	Henry	_	_	_	_	_
+8-8	588-591	Hub	_	_	_	_	_
+8-9	592-593	(	_	_	_	_	_
+8-10	594-602	Oklahoma	_	_	_	_	_
+8-11	603-604	,	_	_	_	_	_
+8-12	605-612	Amerika	_	_	_	_	_
+8-13	613-620	Serikat	_	_	_	_	_
+8-14	621-622	/	_	_	_	_	_
+8-15	623-625	AS	_	_	_	_	_
+8-16	626-627	)	_	_	_	_	_
+8-17	628-635	ditutup	_	_	_	_	_
+8-18	636-638	di	_	_	_	_	_
+8-19	639-642	US$	_	_	_	_	_
+8-20	643-647	5,02	_	_	_	_	_
+8-21	648-649	/	_	_	_	_	_
+8-22	650-655	MMBtu	_	_	_	_	_
+8-23	656-657	.	_	_	_	_	_
+
+#Text=Melonjak 6,23 % dari hari sebelumnya .
+9-1	659-667	Melonjak	_	_	_	_	_
+9-2	668-672	6,23	_	_	_	_	_
+9-3	673-674	%	_	_	_	_	_
+9-4	675-679	dari	_	_	_	_	_
+9-5	680-684	hari	_	_	_	_	_
+9-6	685-695	sebelumnya	_	_	_	_	_
+9-7	696-697	.	_	_	_	_	_
+
+#Text=Dalam seminggu terakhir , harga gas naik 9,93 % .
+10-1	699-704	Dalam	_	_	_	_	_
+10-2	705-713	seminggu	_	_	_	_	_
+10-3	714-722	terakhir	_	_	_	_	_
+10-4	723-724	,	_	_	_	_	_
+10-5	725-730	harga	_	_	_	_	_
+10-6	731-734	gas	_	_	_	_	_
+10-7	735-739	naik	_	_	_	_	_
+10-8	740-744	9,93	_	_	_	_	_
+10-9	745-746	%	_	_	_	_	_
+10-10	747-748	.	_	_	_	_	_
+
+#Text=Selama sebulan ke belakang , harga menanjak 17,06 % .
+11-1	750-756	Selama	_	_	_	_	_
+11-2	757-764	sebulan	_	_	_	_	_
+11-3	765-767	ke	_	_	_	_	_
+11-4	768-776	belakang	_	_	_	_	_
+11-5	777-778	,	_	_	_	_	_
+11-6	779-784	harga	_	concept[11]	_	_	_
+11-7	785-793	menanjak	_	negative[12]	_	_	_
+11-8	794-799	17,06	_	_	_	_	_
+11-9	800-801	%	_	_	_	_	_
+11-10	802-803	.	_	_	_	_	_
+
+#Text=Perang Rusia vs Ukraina menjadi latar belakang penyebab kenaikan harga gas .
+12-1	805-811	Perang	_	_	_	_	_
+12-2	812-817	Rusia	_	_	_	_	_
+12-3	818-820	vs	_	_	_	_	_
+12-4	821-828	Ukraina	_	_	_	_	_
+12-5	829-836	menjadi	_	_	_	_	_
+12-6	837-842	latar	_	_	_	_	_
+12-7	843-851	belakang	_	_	_	_	_
+12-8	852-860	penyebab	_	_	_	_	_
+12-9	861-869	kenaikan	_	_	_	_	_
+12-10	870-875	harga	_	_	_	_	_
+12-11	876-879	gas	_	_	_	_	_
+12-12	880-881	.	_	_	_	_	_
+
+#Text=Di Eropa , Rusia adalah pemain utama gas alam .
+13-1	883-885	Di	_	_	_	_	_
+13-2	886-891	Eropa	_	_	_	_	_
+13-3	892-893	,	_	_	_	_	_
+13-4	894-899	Rusia	_	_	_	_	_
+13-5	900-906	adalah	_	_	_	_	_
+13-6	907-913	pemain	_	_	_	_	_
+13-7	914-919	utama	_	_	_	_	_
+13-8	920-923	gas	_	_	_	_	_
+13-9	924-928	alam	_	_	_	_	_
+13-10	929-930	.	_	_	_	_	_
+
+#Text=Rusia memasok sekitar 40 % kebutuhan gas alam di Benua Biru .
+14-1	932-937	Rusia	_	_	_	_	_
+14-2	938-945	memasok	_	_	_	_	_
+14-3	946-953	sekitar	_	_	_	_	_
+14-4	954-956	40	_	_	_	_	_
+14-5	957-958	%	_	_	_	_	_
+14-6	959-968	kebutuhan	_	_	_	_	_
+14-7	969-972	gas	_	_	_	_	_
+14-8	973-977	alam	_	_	_	_	_
+14-9	978-980	di	_	_	_	_	_
+14-10	981-986	Benua	_	_	_	_	_
+14-11	987-991	Biru	_	_	_	_	_
+14-12	992-993	.	_	_	_	_	_
+
+#Text=Namun kini negara-negara Eropa berencana ogah mendatangkan gas alam dari Rusia karena serangan ke Ukraina .
+15-1	995-1000	Namun	_	_	_	_	_
+15-2	1001-1005	kini	_	_	_	_	_
+15-3	1006-1019	negara-negara	_	_	_	_	_
+15-4	1020-1025	Eropa	_	_	_	_	_
+15-5	1026-1035	berencana	_	_	_	_	_
+15-6	1036-1040	ogah	_	_	_	_	_
+15-7	1041-1053	mendatangkan	_	_	_	_	_
+15-8	1054-1057	gas	_	_	_	_	_
+15-9	1058-1062	alam	_	_	_	_	_
+15-10	1063-1067	dari	_	_	_	_	_
+15-11	1068-1073	Rusia	_	_	_	_	_
+15-12	1074-1080	karena	_	_	_	_	_
+15-13	1081-1089	serangan	_	_	_	_	_
+15-14	1090-1092	ke	_	_	_	_	_
+15-15	1093-1100	Ukraina	_	_	_	_	_
+15-16	1101-1102	.	_	_	_	_	_
+
+#Text=Parlemen Uni Eropa mendesak negara-negara anggota nya untuk menutup akses pelabuhan dari dan ke Rusia , termasuk pengiriman gas alam .
+16-1	1104-1112	Parlemen	_	_	_	_	_
+16-2	1113-1116	Uni	_	_	_	_	_
+16-3	1117-1122	Eropa	_	_	_	_	_
+16-4	1123-1131	mendesak	_	_	_	_	_
+16-5	1132-1145	negara-negara	_	_	_	_	_
+16-6	1146-1153	anggota	_	_	_	_	_
+16-7	1154-1157	nya	_	_	_	_	_
+16-8	1158-1163	untuk	_	_	_	_	_
+16-9	1164-1171	menutup	_	_	_	_	_
+16-10	1172-1177	akses	_	_	_	_	_
+16-11	1178-1187	pelabuhan	_	_	_	_	_
+16-12	1188-1192	dari	_	_	_	_	_
+16-13	1193-1196	dan	_	_	_	_	_
+16-14	1197-1199	ke	_	_	_	_	_
+16-15	1200-1205	Rusia	_	_	_	_	_
+16-16	1206-1207	,	_	_	_	_	_
+16-17	1208-1216	termasuk	_	_	_	_	_
+16-18	1217-1227	pengiriman	_	_	_	_	_
+16-19	1228-1231	gas	_	_	_	_	_
+16-20	1232-1236	alam	_	_	_	_	_
+16-21	1237-1238	.	_	_	_	_	_
+
+#Text=Saat pasokan gas alam dari Rusia terputus , Jerman sepertinya bakal merasakan dampak paling parah .
+17-1	1240-1244	Saat	_	_	_	_	_
+17-2	1245-1252	pasokan	_	concept[13]	_	_	_
+17-3	1253-1256	gas	_	concept[13]	_	_	_
+17-4	1257-1261	alam	_	_	_	_	_
+17-5	1262-1266	dari	_	_	_	_	_
+17-6	1267-1272	Rusia	_	_	_	_	_
+17-7	1273-1281	terputus	_	negative[14]	_	_	_
+17-8	1282-1283	,	_	_	_	_	_
+17-9	1284-1290	Jerman	_	_	_	_	_
+17-10	1291-1301	sepertinya	_	_	_	_	_
+17-11	1302-1307	bakal	_	_	_	_	_
+17-12	1308-1317	merasakan	_	_	_	_	_
+17-13	1318-1324	dampak	_	_	_	_	_
+17-14	1325-1331	paling	_	_	_	_	_
+17-15	1332-1337	parah	_	_	_	_	_
+17-16	1338-1339	.	_	_	_	_	_
+
+#Text=Di Eropa , Jerman adalah konsumen terbesar gas alam asal Rusia .
+18-1	1341-1343	Di	_	_	_	_	_
+18-2	1344-1349	Eropa	_	_	_	_	_
+18-3	1350-1351	,	_	_	_	_	_
+18-4	1352-1358	Jerman	_	_	_	_	_
+18-5	1359-1365	adalah	_	_	_	_	_
+18-6	1366-1374	konsumen	_	_	_	_	_
+18-7	1375-1383	terbesar	_	_	_	_	_
+18-8	1384-1387	gas	_	_	_	_	_
+18-9	1388-1392	alam	_	_	_	_	_
+18-10	1393-1397	asal	_	_	_	_	_
+18-11	1398-1403	Rusia	_	_	_	_	_
+18-12	1404-1405	.	_	_	_	_	_
+
+#Text=Berdasarkan catatan Rystad Energy , tiga negara pemasok gas alam terbesar bagi Jerman pada 2019 adalah Rusia ( 55,5 miliar meter kubik ) , Norwegia ( 27 miliar meter kubik ) , dan Belanda ( 23,4 miliar meter kubik ) .
+19-1	1407-1418	Berdasarkan	_	_	_	_	_
+19-2	1419-1426	catatan	_	_	_	_	_
+19-3	1427-1433	Rystad	_	_	_	_	_
+19-4	1434-1440	Energy	_	_	_	_	_
+19-5	1441-1442	,	_	_	_	_	_
+19-6	1443-1447	tiga	_	_	_	_	_
+19-7	1448-1454	negara	_	_	_	_	_
+19-8	1455-1462	pemasok	_	_	_	_	_
+19-9	1463-1466	gas	_	_	_	_	_
+19-10	1467-1471	alam	_	_	_	_	_
+19-11	1472-1480	terbesar	_	_	_	_	_
+19-12	1481-1485	bagi	_	_	_	_	_
+19-13	1486-1492	Jerman	_	_	_	_	_
+19-14	1493-1497	pada	_	_	_	_	_
+19-15	1498-1502	2019	_	_	_	_	_
+19-16	1503-1509	adalah	_	_	_	_	_
+19-17	1510-1515	Rusia	_	_	_	_	_
+19-18	1516-1517	(	_	_	_	_	_
+19-19	1518-1522	55,5	_	_	_	_	_
+19-20	1523-1529	miliar	_	_	_	_	_
+19-21	1530-1535	meter	_	_	_	_	_
+19-22	1536-1541	kubik	_	_	_	_	_
+19-23	1542-1543	)	_	_	_	_	_
+19-24	1544-1545	,	_	_	_	_	_
+19-25	1546-1554	Norwegia	_	_	_	_	_
+19-26	1555-1556	(	_	_	_	_	_
+19-27	1557-1559	27	_	_	_	_	_
+19-28	1560-1566	miliar	_	_	_	_	_
+19-29	1567-1572	meter	_	_	_	_	_
+19-30	1573-1578	kubik	_	_	_	_	_
+19-31	1579-1580	)	_	_	_	_	_
+19-32	1581-1582	,	_	_	_	_	_
+19-33	1583-1586	dan	_	_	_	_	_
+19-34	1587-1594	Belanda	_	_	_	_	_
+19-35	1595-1596	(	_	_	_	_	_
+19-36	1597-1601	23,4	_	_	_	_	_
+19-37	1602-1608	miliar	_	_	_	_	_
+19-38	1609-1614	meter	_	_	_	_	_
+19-39	1615-1620	kubik	_	_	_	_	_
+19-40	1621-1622	)	_	_	_	_	_
+19-41	1623-1624	.	_	_	_	_	_
+
+#Text=Kontribusi tiga negara itu mencapai 92 % dari total impor gas alam Negeri Panser .
+20-1	1626-1636	Kontribusi	_	_	_	_	_
+20-2	1637-1641	tiga	_	_	_	_	_
+20-3	1642-1648	negara	_	_	_	_	_
+20-4	1649-1652	itu	_	_	_	_	_
+20-5	1653-1661	mencapai	_	_	_	_	_
+20-6	1662-1664	92	_	_	_	_	_
+20-7	1665-1666	%	_	_	_	_	_
+20-8	1667-1671	dari	_	_	_	_	_
+20-9	1672-1677	total	_	_	_	_	_
+20-10	1678-1683	impor	_	_	_	_	_
+20-11	1684-1687	gas	_	_	_	_	_
+20-12	1688-1692	alam	_	_	_	_	_
+20-13	1693-1699	Negeri	_	_	_	_	_
+20-14	1700-1706	Panser	_	_	_	_	_
+20-15	1707-1708	.	_	_	_	_	_
+
+#Text=Saat harga gas naik , maka harus dicari komoditas lain yang bisa menjadi pengganti .
+21-1	1710-1714	Saat	_	_	_	_	_
+21-2	1715-1720	harga	_	_	_	_	_
+21-3	1721-1724	gas	_	_	_	_	_
+21-4	1725-1729	naik	_	_	_	_	_
+21-5	1730-1731	,	_	_	_	_	_
+21-6	1732-1736	maka	_	_	_	_	_
+21-7	1737-1742	harus	_	_	_	_	_
+21-8	1743-1749	dicari	_	_	_	_	_
+21-9	1750-1759	komoditas	_	_	_	_	_
+21-10	1760-1764	lain	_	_	_	_	_
+21-11	1765-1769	yang	_	_	_	_	_
+21-12	1770-1774	bisa	_	_	_	_	_
+21-13	1775-1782	menjadi	_	_	_	_	_
+21-14	1783-1792	pengganti	_	_	_	_	_
+21-15	1793-1794	.	_	_	_	_	_
+
+#Text=Salah satu alternatif gas untuk sumber energi primer pembangkit listrik adalah batu bara .
+22-1	1796-1801	Salah	_	_	_	_	_
+22-2	1802-1806	satu	_	_	_	_	_
+22-3	1807-1817	alternatif	_	_	_	_	_
+22-4	1818-1821	gas	_	_	_	_	_
+22-5	1822-1827	untuk	_	_	_	_	_
+22-6	1828-1834	sumber	_	_	_	_	_
+22-7	1835-1841	energi	_	_	_	_	_
+22-8	1842-1848	primer	_	_	_	_	_
+22-9	1849-1859	pembangkit	_	_	_	_	_
+22-10	1860-1867	listrik	_	_	_	_	_
+22-11	1868-1874	adalah	_	_	_	_	_
+22-12	1875-1879	batu	_	_	_	_	_
+22-13	1880-1884	bara	_	_	_	_	_
+22-14	1885-1886	.	_	_	_	_	_
+
+#Text=" Pragmatisme harus dikedepankan . Keamanan pasokan harus diamankan , " tegas Robert Habeck , Menteri Ekonomi Jerman , seperti dikutip dari Reuters .
+23-1	1888-1889	"	_	_	_	_	_
+23-2	1890-1901	Pragmatisme	_	_	_	_	_
+23-3	1902-1907	harus	_	_	_	_	_
+23-4	1908-1920	dikedepankan	_	_	_	_	_
+23-5	1921-1922	.	_	_	_	_	_
+23-6	1923-1931	Keamanan	_	_	_	_	_
+23-7	1932-1939	pasokan	_	_	_	_	_
+23-8	1940-1945	harus	_	_	_	_	_
+23-9	1946-1955	diamankan	_	_	_	_	_
+23-10	1956-1957	,	_	_	_	_	_
+23-11	1958-1959	"	_	_	_	_	_
+23-12	1960-1965	tegas	_	_	_	_	_
+23-13	1966-1972	Robert	_	_	_	_	_
+23-14	1973-1979	Habeck	_	_	_	_	_
+23-15	1980-1981	,	_	_	_	_	_
+23-16	1982-1989	Menteri	_	_	_	_	_
+23-17	1990-1997	Ekonomi	_	_	_	_	_
+23-18	1998-2004	Jerman	_	_	_	_	_
+23-19	2005-2006	,	_	_	_	_	_
+23-20	2007-2014	seperti	_	_	_	_	_
+23-21	2015-2022	dikutip	_	_	_	_	_
+23-22	2023-2027	dari	_	_	_	_	_
+23-23	2028-2035	Reuters	_	_	_	_	_
+23-24	2036-2037	.	_	_	_	_	_
+
+#Text=Komentar Habeck ini adalah Jerman kemungkinan akan menunda rencana mempensiunkan pembangkit listrik bertenaga batu bara yang seharusnya terjadi pada 2030 .
+24-1	2039-2047	Komentar	_	_	_	_	_
+24-2	2048-2054	Habeck	_	_	_	_	_
+24-3	2055-2058	ini	_	_	_	_	_
+24-4	2059-2065	adalah	_	_	_	_	_
+24-5	2066-2072	Jerman	_	_	_	_	_
+24-6	2073-2084	kemungkinan	_	_	_	_	_
+24-7	2085-2089	akan	_	_	_	_	_
+24-8	2090-2097	menunda	_	_	_	_	_
+24-9	2098-2105	rencana	_	_	_	_	_
+24-10	2106-2119	mempensiunkan	_	_	_	_	_
+24-11	2120-2130	pembangkit	_	_	_	_	_
+24-12	2131-2138	listrik	_	_	_	_	_
+24-13	2139-2148	bertenaga	_	_	_	_	_
+24-14	2149-2153	batu	_	_	_	_	_
+24-15	2154-2158	bara	_	_	_	_	_
+24-16	2159-2163	yang	_	_	_	_	_
+24-17	2164-2174	seharusnya	_	_	_	_	_
+24-18	2175-2182	terjadi	_	_	_	_	_
+24-19	2183-2187	pada	_	_	_	_	_
+24-20	2188-2192	2030	_	_	_	_	_
+24-21	2193-2194	.	_	_	_	_	_
+
+#Text=Namun dengan dinamika terbaru , sepertinya target itu akan mundur .
+25-1	2196-2201	Namun	_	_	_	_	_
+25-2	2202-2208	dengan	_	_	_	_	_
+25-3	2209-2217	dinamika	_	_	_	_	_
+25-4	2218-2225	terbaru	_	_	_	_	_
+25-5	2226-2227	,	_	_	_	_	_
+25-6	2228-2238	sepertinya	_	_	_	_	_
+25-7	2239-2245	target	_	_	_	_	_
+25-8	2246-2249	itu	_	_	_	_	_
+25-9	2250-2254	akan	_	_	_	_	_
+25-10	2255-2261	mundur	_	_	_	_	_
+25-11	2262-2263	.	_	_	_	_	_
+
+#Text=Prospek peningkatan permintaan seiring perburuan akan sumber energi alternatif pengganti gas membuat batu bara menjadi incaran .
+26-1	2265-2272	Prospek	_	_	_	_	_
+26-2	2273-2284	peningkatan	_	_	_	_	_
+26-3	2285-2295	permintaan	_	_	_	_	_
+26-4	2296-2303	seiring	_	_	_	_	_
+26-5	2304-2313	perburuan	_	_	_	_	_
+26-6	2314-2318	akan	_	_	_	_	_
+26-7	2319-2325	sumber	_	_	_	_	_
+26-8	2326-2332	energi	_	_	_	_	_
+26-9	2333-2343	alternatif	_	_	_	_	_
+26-10	2344-2353	pengganti	_	_	_	_	_
+26-11	2354-2357	gas	_	_	_	_	_
+26-12	2358-2365	membuat	_	_	_	_	_
+26-13	2366-2370	batu	_	_	_	_	_
+26-14	2371-2375	bara	_	_	_	_	_
+26-15	2376-2383	menjadi	_	_	_	_	_
+26-16	2384-2391	incaran	_	_	_	_	_
+26-17	2392-2393	.	_	_	_	_	_
+
+#Text=Jadi jangan heran kalau besok-besok harga batu bara bakal naik lagi .
+27-1	2395-2399	Jadi	_	_	_	_	_
+27-2	2400-2406	jangan	_	_	_	_	_
+27-3	2407-2412	heran	_	_	_	_	_
+27-4	2413-2418	kalau	_	_	_	_	_
+27-5	2419-2430	besok-besok	_	_	_	_	_
+27-6	2431-2436	harga	_	_	_	_	_
+27-7	2437-2441	batu	_	_	_	_	_
+27-8	2442-2446	bara	_	_	_	_	_
+27-9	2447-2452	bakal	_	_	_	_	_
+27-10	2453-2457	naik	_	_	_	_	_
+27-11	2458-2462	lagi	_	_	_	_	_
+27-12	2463-2464	.	_	_	_	_	_
+
+#Text=TIM RISET CNBC INDONESIA
+28-1	2466-2469	TIM	_	_	_	_	_
+28-2	2470-2475	RISET	_	_	_	_	_
+28-3	2476-2480	CNBC	_	_	_	_	_
+28-4	2481-2490	INDONESIA	_	_	_	_	_
+

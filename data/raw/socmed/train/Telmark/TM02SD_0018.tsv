@@ -1,0 +1,140 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo selamat sore
+1-1	0-4	halo	_	_	_	_	_
+1-2	5-12	selamat	_	_	_	_	_
+1-3	13-17	sore	_	_	_	_	_
+
+#Text=halo ibu febi dwi candra iya
+2-1	19-23	halo	_	_	_	_	_
+2-2	24-27	ibu	_	_	_	_	_
+2-3	28-32	febi	_	_	_	_	_
+2-4	33-36	dwi	_	_	_	_	_
+2-5	37-43	candra	_	_	_	_	_
+2-6	44-47	iya	_	_	_	_	_
+
+#Text=selamat sore ibu
+3-1	49-56	selamat	_	_	_	_	_
+3-2	57-61	sore	_	_	_	_	_
+3-3	62-65	ibu	_	_	_	_	_
+
+#Text=saya fia dari pusat gadai
+4-1	67-71	saya	_	_	_	_	_
+4-2	72-75	fia	_	_	_	_	_
+4-3	76-80	dari	_	_	_	_	_
+4-4	81-86	pusat	_	concept[1]	_	_	_
+4-5	87-92	gadai	_	concept[1]	_	_	_
+
+#Text=< low > bisa direspons peneleponan saya
+5-1	94-95	<	_	_	_	_	_
+5-2	96-99	low	_	_	_	_	_
+5-3	100-101	>	_	_	_	_	_
+5-4	102-106	bisa	_	_	_	_	_
+5-5	107-116	direspons	_	_	_	_	_
+5-6	117-128	peneleponan	_	_	_	_	_
+5-7	129-133	saya	_	_	_	_	_
+
+#Text=iya baik ibu
+6-1	135-138	iya	_	_	_	_	_
+6-2	139-143	baik	_	_	_	_	_
+6-3	144-147	ibu	_	_	_	_	_
+
+#Text=ini karena ibu tidak ada respons sama sekali di peneleponan saya
+7-1	149-152	ini	_	_	_	_	_
+7-2	153-159	karena	_	_	_	_	_
+7-3	160-163	ibu	_	_	_	_	_
+7-4	164-169	tidak	_	_	_	_	_
+7-5	170-173	ada	_	_	_	_	_
+7-6	174-181	respons	_	_	_	_	_
+7-7	182-186	sama	_	_	_	_	_
+7-8	187-193	sekali	_	_	_	_	_
+7-9	194-196	di	_	_	_	_	_
+7-10	197-208	peneleponan	_	_	_	_	_
+7-11	209-213	saya	_	_	_	_	_
+
+#Text=di sini saya konfirmasikan saja jika tagihan ibu memang sudah mengalami keterlambatan sangat banyak sehingga tagihan nya berada di angka enam belas juta delapan ratus delapan ribu rupiah
+8-1	215-217	di	_	_	_	_	_
+8-2	218-222	sini	_	_	_	_	_
+8-3	223-227	saya	_	_	_	_	_
+8-4	228-241	konfirmasikan	_	_	_	_	_
+8-5	242-246	saja	_	_	_	_	_
+8-6	247-251	jika	_	_	_	_	_
+8-7	252-259	tagihan	*	[1_2]|concept[2]	_	_	_
+8-8	260-263	ibu	_	_	_	_	_
+8-9	264-270	memang	_	_	_	_	_
+8-10	271-276	sudah	*	[2_3]|negative[3]	_	_	_
+8-11	277-286	mengalami	_	negative[3]	_	_	_
+8-12	287-300	keterlambatan	_	negative[3]	_	_	_
+8-13	301-307	sangat	_	negative[3]	_	_	_
+8-14	308-314	banyak	_	negative[3]	_	_	_
+8-15	315-323	sehingga	_	_	_	_	_
+8-16	324-331	tagihan	_	_	_	_	_
+8-17	332-335	nya	_	_	_	_	_
+8-18	336-342	berada	_	_	_	_	_
+8-19	343-345	di	_	_	_	_	_
+8-20	346-351	angka	_	_	_	_	_
+8-21	352-356	enam	_	_	_	_	_
+8-22	357-362	belas	_	_	_	_	_
+8-23	363-367	juta	_	_	_	_	_
+8-24	368-375	delapan	_	_	_	_	_
+8-25	376-381	ratus	_	_	_	_	_
+8-26	382-389	delapan	_	_	_	_	_
+8-27	390-394	ribu	_	_	_	_	_
+8-28	395-401	rupiah	_	_	_	_	_
+
+#Text=saya harap ibu ada iktikad baik untuk segera membayarkan
+9-1	403-407	saya	_	_	_	_	_
+9-2	408-413	harap	_	_	_	_	_
+9-3	414-417	ibu	_	_	_	_	_
+9-4	418-421	ada	_	_	_	_	_
+9-5	422-429	iktikad	_	_	_	_	_
+9-6	430-434	baik	_	_	_	_	_
+9-7	435-440	untuk	_	_	_	_	_
+9-8	441-447	segera	_	_	_	_	_
+9-9	448-459	membayarkan	_	_	_	_	_
+
+#Text=ini saya tunggu pembayaran nya sampai besok di jam tiga sore
+10-1	461-464	ini	_	_	_	_	_
+10-2	465-469	saya	_	_	_	_	_
+10-3	470-476	tunggu	_	_	_	_	_
+10-4	477-487	pembayaran	_	_	_	_	_
+10-5	488-491	nya	_	_	_	_	_
+10-6	492-498	sampai	_	_	_	_	_
+10-7	499-504	besok	_	_	_	_	_
+10-8	505-507	di	_	_	_	_	_
+10-9	508-511	jam	_	_	_	_	_
+10-10	512-516	tiga	_	_	_	_	_
+10-11	517-521	sore	_	_	_	_	_
+
+#Text=jika di jam tiga tersebut belum ada pembayaran atas nama ibu saya akan konfirmasi kembali melalui telepon
+11-1	523-527	jika	_	_	_	_	_
+11-2	528-530	di	_	_	_	_	_
+11-3	531-534	jam	_	_	_	_	_
+11-4	535-539	tiga	_	_	_	_	_
+11-5	540-548	tersebut	_	_	_	_	_
+11-6	549-554	belum	_	_	_	_	_
+11-7	555-558	ada	_	_	_	_	_
+11-8	559-569	pembayaran	_	_	_	_	_
+11-9	570-574	atas	_	_	_	_	_
+11-10	575-579	nama	_	_	_	_	_
+11-11	580-583	ibu	_	_	_	_	_
+11-12	584-588	saya	_	_	_	_	_
+11-13	589-593	akan	_	_	_	_	_
+11-14	594-604	konfirmasi	_	_	_	_	_
+11-15	605-612	kembali	_	_	_	_	_
+11-16	613-620	melalui	_	_	_	_	_
+11-17	621-628	telepon	_	_	_	_	_
+
+#Text=baik kalau begitu terima kasih untuk waktu nya
+12-1	630-634	baik	_	_	_	_	_
+12-2	635-640	kalau	_	_	_	_	_
+12-3	641-647	begitu	_	_	_	_	_
+12-4	648-654	terima	_	_	_	_	_
+12-5	655-660	kasih	_	_	_	_	_
+12-6	661-666	untuk	_	_	_	_	_
+12-7	667-672	waktu	_	_	_	_	_
+12-8	673-676	nya	_	_	_	_	_
+
+#Text=selamat sore
+13-1	678-685	selamat	_	_	_	_	_
+13-2	686-690	sore	_	_	_	_	_

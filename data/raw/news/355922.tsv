@@ -1,0 +1,274 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Wali Kota Surabaya Eri Cahyadi mengatakan Covid - 19 varian Omicron terdeteksi di wilayah nya setelah menjangkit warga nya usai berlibur dari Bali .
+1-1	0-4	Wali	_	_	_	_	_
+1-2	5-9	Kota	_	_	_	_	_
+1-3	10-18	Surabaya	_	_	_	_	_
+1-4	19-22	Eri	_	_	_	_	_
+1-5	23-30	Cahyadi	_	_	_	_	_
+1-6	31-41	mengatakan	_	_	_	_	_
+1-7	42-47	Covid	_	_	_	_	_
+1-8	48-49	-	_	_	_	_	_
+1-9	50-52	19	_	_	_	_	_
+1-10	53-59	varian	_	_	_	_	_
+1-11	60-67	Omicron	_	_	_	_	_
+1-12	68-78	terdeteksi	_	_	_	_	_
+1-13	79-81	di	_	_	_	_	_
+1-14	82-89	wilayah	_	_	_	_	_
+1-15	90-93	nya	_	_	_	_	_
+1-16	94-101	setelah	_	_	_	_	_
+1-17	102-112	menjangkit	_	_	_	_	_
+1-18	113-118	warga	_	_	_	_	_
+1-19	119-122	nya	_	_	_	_	_
+1-20	123-127	usai	_	_	_	_	_
+1-21	128-136	berlibur	_	_	_	_	_
+1-22	137-141	dari	_	_	_	_	_
+1-23	142-146	Bali	_	_	_	_	_
+1-24	147-148	.	_	_	_	_	_
+
+#Text=Liburan itu , kata Eri , tak hanya dilakukan oleh satu keluarga inti atau beberapa orang saja .
+2-1	150-157	Liburan	_	_	_	_	_
+2-2	158-161	itu	_	_	_	_	_
+2-3	162-163	,	_	_	_	_	_
+2-4	164-168	kata	_	_	_	_	_
+2-5	169-172	Eri	_	_	_	_	_
+2-6	173-174	,	_	_	_	_	_
+2-7	175-178	tak	_	_	_	_	_
+2-8	179-184	hanya	_	_	_	_	_
+2-9	185-194	dilakukan	_	_	_	_	_
+2-10	195-199	oleh	_	_	_	_	_
+2-11	200-204	satu	_	_	_	_	_
+2-12	205-213	keluarga	_	_	_	_	_
+2-13	214-218	inti	_	_	_	_	_
+2-14	219-223	atau	_	_	_	_	_
+2-15	224-232	beberapa	_	_	_	_	_
+2-16	233-238	orang	_	_	_	_	_
+2-17	239-243	saja	_	_	_	_	_
+2-18	244-245	.	_	_	_	_	_
+
+#Text=Melainkan keluarga besar .
+3-1	247-256	Melainkan	_	_	_	_	_
+3-2	257-265	keluarga	_	_	_	_	_
+3-3	266-271	besar	_	_	_	_	_
+3-4	272-273	.	_	_	_	_	_
+
+#Text=Karena itu pihak nya pun kini tengah melakukan tracing atau pelacakan .
+4-1	275-281	Karena	_	_	_	_	_
+4-2	282-285	itu	_	_	_	_	_
+4-3	286-291	pihak	_	_	_	_	_
+4-4	292-295	nya	_	_	_	_	_
+4-5	296-299	pun	_	_	_	_	_
+4-6	300-304	kini	_	_	_	_	_
+4-7	305-311	tengah	_	_	_	_	_
+4-8	312-321	melakukan	_	_	_	_	_
+4-9	322-329	tracing	_	_	_	_	_
+4-10	330-334	atau	_	_	_	_	_
+4-11	335-344	pelacakan	_	_	_	_	_
+4-12	345-346	.	_	_	_	_	_
+
+#Text=" Karena liburan nya di Bali kan keluarga besar , " kata Eri , di rumah dinas nya , Minggu ( 2 / 1 ) .
+5-1	348-349	"	_	_	_	_	_
+5-2	350-356	Karena	_	_	_	_	_
+5-3	357-364	liburan	_	_	_	_	_
+5-4	365-368	nya	_	_	_	_	_
+5-5	369-371	di	_	_	_	_	_
+5-6	372-376	Bali	_	_	_	_	_
+5-7	377-380	kan	_	_	_	_	_
+5-8	381-389	keluarga	_	_	_	_	_
+5-9	390-395	besar	_	_	_	_	_
+5-10	396-397	,	_	_	_	_	_
+5-11	398-399	"	_	_	_	_	_
+5-12	400-404	kata	_	_	_	_	_
+5-13	405-408	Eri	_	_	_	_	_
+5-14	409-410	,	_	_	_	_	_
+5-15	411-413	di	_	_	_	_	_
+5-16	414-419	rumah	_	_	_	_	_
+5-17	420-425	dinas	_	_	_	_	_
+5-18	426-429	nya	_	_	_	_	_
+5-19	430-431	,	_	_	_	_	_
+5-20	432-438	Minggu	_	_	_	_	_
+5-21	439-440	(	_	_	_	_	_
+5-22	441-442	2	_	_	_	_	_
+5-23	443-444	/	_	_	_	_	_
+5-24	445-446	1	_	_	_	_	_
+5-25	447-448	)	_	_	_	_	_
+5-26	449-450	.	_	_	_	_	_
+
+#Text=Eri mengatakan , mula nya Omicron ini terdeteksi di satu orang .
+6-1	452-455	Eri	_	_	_	_	_
+6-2	456-466	mengatakan	_	_	_	_	_
+6-3	467-468	,	_	_	_	_	_
+6-4	469-473	mula	_	_	_	_	_
+6-5	474-477	nya	_	_	_	_	_
+6-6	478-485	Omicron	_	_	_	_	_
+6-7	486-489	ini	_	_	_	_	_
+6-8	490-500	terdeteksi	_	_	_	_	_
+6-9	501-503	di	_	_	_	_	_
+6-10	504-508	satu	_	_	_	_	_
+6-11	509-514	orang	_	_	_	_	_
+6-12	515-516	.	_	_	_	_	_
+
+#Text=Kemudian bertambah jadi satu orang .
+7-1	518-526	Kemudian	_	_	_	_	_
+7-2	527-536	bertambah	_	_	_	_	_
+7-3	537-541	jadi	_	_	_	_	_
+7-4	542-546	satu	_	_	_	_	_
+7-5	547-552	orang	_	_	_	_	_
+7-6	553-554	.	_	_	_	_	_
+
+#Text=Mereka merupakan keluarga di satu rumah .
+8-1	556-562	Mereka	_	_	_	_	_
+8-2	563-572	merupakan	_	_	_	_	_
+8-3	573-581	keluarga	_	_	_	_	_
+8-4	582-584	di	_	_	_	_	_
+8-5	585-589	satu	_	_	_	_	_
+8-6	590-595	rumah	_	_	_	_	_
+8-7	596-597	.	_	_	_	_	_
+
+#Text=" Satu , setelah itu kena lagi keluarga dalam satu rumah , " ucap nya .
+9-1	599-600	"	_	_	_	_	_
+9-2	601-605	Satu	_	_	_	_	_
+9-3	606-607	,	_	_	_	_	_
+9-4	608-615	setelah	_	_	_	_	_
+9-5	616-619	itu	_	_	_	_	_
+9-6	620-624	kena	_	_	_	_	_
+9-7	625-629	lagi	_	_	_	_	_
+9-8	630-638	keluarga	_	_	_	_	_
+9-9	639-644	dalam	_	_	_	_	_
+9-10	645-649	satu	_	_	_	_	_
+9-11	650-655	rumah	_	_	_	_	_
+9-12	656-657	,	_	_	_	_	_
+9-13	658-659	"	_	_	_	_	_
+9-14	660-664	ucap	_	_	_	_	_
+9-15	665-668	nya	_	_	_	_	_
+9-16	669-670	.	_	_	_	_	_
+
+#Text=Kini Satgas Penanganan Covid - 19 Surabaya sudah melakukan blocking area rumah keluarga terjangkit .
+10-1	672-676	Kini	_	_	_	_	_
+10-2	677-683	Satgas	_	_	_	_	_
+10-3	684-694	Penanganan	_	_	_	_	_
+10-4	695-700	Covid	_	_	_	_	_
+10-5	701-702	-	_	_	_	_	_
+10-6	703-705	19	_	_	_	_	_
+10-7	706-714	Surabaya	_	_	_	_	_
+10-8	715-720	sudah	_	_	_	_	_
+10-9	721-730	melakukan	_	_	_	_	_
+10-10	731-739	blocking	_	_	_	_	_
+10-11	740-744	area	_	_	_	_	_
+10-12	745-750	rumah	_	_	_	_	_
+10-13	751-759	keluarga	_	_	_	_	_
+10-14	760-770	terjangkit	_	_	_	_	_
+10-15	771-772	.	_	_	_	_	_
+
+#Text=Sembari terus meningkat tracing .
+11-1	774-781	Sembari	_	_	_	_	_
+11-2	782-787	terus	_	_	_	_	_
+11-3	788-797	meningkat	_	_	_	_	_
+11-4	798-805	tracing	_	_	_	_	_
+11-5	806-807	.	_	_	_	_	_
+
+#Text=" Area-area tempat nya dia kami lakukan blocking , juga untuk tempat-tempat yang lain , " ujar dia .
+12-1	809-810	"	_	_	_	_	_
+12-2	811-820	Area-area	_	_	_	_	_
+12-3	821-827	tempat	_	_	_	_	_
+12-4	828-831	nya	_	_	_	_	_
+12-5	832-835	dia	_	_	_	_	_
+12-6	836-840	kami	_	_	_	_	_
+12-7	841-848	lakukan	_	_	_	_	_
+12-8	849-857	blocking	_	_	_	_	_
+12-9	858-859	,	_	_	_	_	_
+12-10	860-864	juga	_	_	_	_	_
+12-11	865-870	untuk	_	_	_	_	_
+12-12	871-884	tempat-tempat	_	_	_	_	_
+12-13	885-889	yang	_	_	_	_	_
+12-14	890-894	lain	_	_	_	_	_
+12-15	895-896	,	_	_	_	_	_
+12-16	897-898	"	_	_	_	_	_
+12-17	899-903	ujar	_	_	_	_	_
+12-18	904-907	dia	_	_	_	_	_
+12-19	908-909	.	_	_	_	_	_
+
+#Text=Eri juga meminta warga Surabaya untuk meningkatkan kewaspadaan dan disiplin protokol kesehatan .
+13-1	911-914	Eri	_	_	_	_	_
+13-2	915-919	juga	_	_	_	_	_
+13-3	920-927	meminta	_	_	_	_	_
+13-4	928-933	warga	_	_	_	_	_
+13-5	934-942	Surabaya	_	_	_	_	_
+13-6	943-948	untuk	_	_	_	_	_
+13-7	949-961	meningkatkan	_	_	_	_	_
+13-8	962-973	kewaspadaan	_	_	_	_	_
+13-9	974-977	dan	_	_	_	_	_
+13-10	978-986	disiplin	_	_	_	_	_
+13-11	987-995	protokol	_	_	_	_	_
+13-12	996-1005	kesehatan	_	_	_	_	_
+13-13	1006-1007	.	_	_	_	_	_
+
+#Text=Sebab sampai saat ini , menurut nya , ahli pun masih mencari tahu sejauh mana bahaya infeksi Covid - 19 varian Omicron ini .
+14-1	1009-1014	Sebab	_	_	_	_	_
+14-2	1015-1021	sampai	_	_	_	_	_
+14-3	1022-1026	saat	_	_	_	_	_
+14-4	1027-1030	ini	_	_	_	_	_
+14-5	1031-1032	,	_	_	_	_	_
+14-6	1033-1040	menurut	_	_	_	_	_
+14-7	1041-1044	nya	_	_	_	_	_
+14-8	1045-1046	,	_	_	_	_	_
+14-9	1047-1051	ahli	_	_	_	_	_
+14-10	1052-1055	pun	_	_	_	_	_
+14-11	1056-1061	masih	_	_	_	_	_
+14-12	1062-1069	mencari	_	_	_	_	_
+14-13	1070-1074	tahu	_	_	_	_	_
+14-14	1075-1081	sejauh	_	_	_	_	_
+14-15	1082-1086	mana	_	_	_	_	_
+14-16	1087-1093	bahaya	_	_	_	_	_
+14-17	1094-1101	infeksi	_	_	_	_	_
+14-18	1102-1107	Covid	_	_	_	_	_
+14-19	1108-1109	-	_	_	_	_	_
+14-20	1110-1112	19	_	_	_	_	_
+14-21	1113-1119	varian	_	_	_	_	_
+14-22	1120-1127	Omicron	_	_	_	_	_
+14-23	1128-1131	ini	_	_	_	_	_
+14-24	1132-1133	.	_	_	_	_	_
+
+#Text=" Harus hati-hati , karena kita tidak ngerti Omicron ini bahaya nya seperti apa , " ujar nya .
+15-1	1135-1136	"	_	_	_	_	_
+15-2	1137-1142	Harus	_	_	_	_	_
+15-3	1143-1152	hati-hati	_	_	_	_	_
+15-4	1153-1154	,	_	_	_	_	_
+15-5	1155-1161	karena	_	_	_	_	_
+15-6	1162-1166	kita	_	_	_	_	_
+15-7	1167-1172	tidak	_	_	_	_	_
+15-8	1173-1179	ngerti	_	_	_	_	_
+15-9	1180-1187	Omicron	_	_	_	_	_
+15-10	1188-1191	ini	_	_	_	_	_
+15-11	1192-1198	bahaya	_	_	_	_	_
+15-12	1199-1202	nya	_	_	_	_	_
+15-13	1203-1210	seperti	_	_	_	_	_
+15-14	1211-1214	apa	_	_	_	_	_
+15-15	1215-1216	,	_	_	_	_	_
+15-16	1217-1218	"	_	_	_	_	_
+15-17	1219-1223	ujar	_	_	_	_	_
+15-18	1224-1227	nya	_	_	_	_	_
+15-19	1228-1229	.	_	_	_	_	_
+
+#Text=Ia menyatakan akan memantau laju kasus di Surabaya sembari menerjunkan petugas Swab Hunter di sejumlah titik di Kota Pahlawan .
+16-1	1231-1233	Ia	_	_	_	_	_
+16-2	1234-1244	menyatakan	_	_	_	_	_
+16-3	1245-1249	akan	_	_	_	_	_
+16-4	1250-1258	memantau	_	_	_	_	_
+16-5	1259-1263	laju	_	_	_	_	_
+16-6	1264-1269	kasus	_	_	_	_	_
+16-7	1270-1272	di	_	_	_	_	_
+16-8	1273-1281	Surabaya	_	_	_	_	_
+16-9	1282-1289	sembari	_	_	_	_	_
+16-10	1290-1301	menerjunkan	_	_	_	_	_
+16-11	1302-1309	petugas	_	_	_	_	_
+16-12	1310-1314	Swab	_	_	_	_	_
+16-13	1315-1321	Hunter	_	_	_	_	_
+16-14	1322-1324	di	_	_	_	_	_
+16-15	1325-1333	sejumlah	_	_	_	_	_
+16-16	1334-1339	titik	_	_	_	_	_
+16-17	1340-1342	di	_	_	_	_	_
+16-18	1343-1347	Kota	_	_	_	_	_
+16-19	1348-1356	Pahlawan	_	_	_	_	_
+16-20	1357-1358	.	_	_	_	_	_
+

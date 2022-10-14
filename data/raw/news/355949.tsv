@@ -1,0 +1,234 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Petugas Patroli Jalan Raya ( PJR ) membubarkan konvoi mobil mewah di jalan tol Andara , Jakarta Selatan , Minggu ( 23 / 1 ) pagi .
+1-1	0-7	Petugas	_	_	_	_	_
+1-2	8-15	Patroli	_	_	_	_	_
+1-3	16-21	Jalan	_	_	_	_	_
+1-4	22-26	Raya	_	_	_	_	_
+1-5	27-28	(	_	_	_	_	_
+1-6	29-32	PJR	_	_	_	_	_
+1-7	33-34	)	_	_	_	_	_
+1-8	35-46	membubarkan	_	_	_	_	_
+1-9	47-53	konvoi	_	_	_	_	_
+1-10	54-59	mobil	_	_	_	_	_
+1-11	60-65	mewah	_	_	_	_	_
+1-12	66-68	di	_	_	_	_	_
+1-13	69-74	jalan	_	_	_	_	_
+1-14	75-78	tol	_	_	_	_	_
+1-15	79-85	Andara	_	_	_	_	_
+1-16	86-87	,	_	_	_	_	_
+1-17	88-95	Jakarta	_	_	_	_	_
+1-18	96-103	Selatan	_	_	_	_	_
+1-19	104-105	,	_	_	_	_	_
+1-20	106-112	Minggu	_	_	_	_	_
+1-21	113-114	(	_	_	_	_	_
+1-22	115-117	23	_	_	_	_	_
+1-23	118-119	/	_	_	_	_	_
+1-24	120-121	1	_	_	_	_	_
+1-25	122-123	)	_	_	_	_	_
+1-26	124-128	pagi	_	_	_	_	_
+1-27	129-130	.	_	_	_	_	_
+
+#Text=Menurut petugas rombongan ini sempat melakukan foto-foto yang menyebabkan kemacetan .
+2-1	132-139	Menurut	_	_	_	_	_
+2-2	140-147	petugas	_	_	_	_	_
+2-3	148-157	rombongan	_	_	_	_	_
+2-4	158-161	ini	_	_	_	_	_
+2-5	162-168	sempat	_	_	_	_	_
+2-6	169-178	melakukan	_	_	_	_	_
+2-7	179-188	foto-foto	_	_	_	_	_
+2-8	189-193	yang	_	_	_	_	_
+2-9	194-205	menyebabkan	_	_	_	_	_
+2-10	206-215	kemacetan	_	_	_	_	_
+2-11	216-217	.	_	_	_	_	_
+
+#Text=Kepala Satuan ( Kasat ) PJR Polda Metro Jaya , Kompol Sutikno mengatakan pihak nya sudah menegur pemilik kendaraan yang berhenti di jalan tol Andara .
+3-1	219-225	Kepala	_	_	_	_	_
+3-2	226-232	Satuan	_	_	_	_	_
+3-3	233-234	(	_	_	_	_	_
+3-4	235-240	Kasat	_	_	_	_	_
+3-5	241-242	)	_	_	_	_	_
+3-6	243-246	PJR	_	_	_	_	_
+3-7	247-252	Polda	_	_	_	_	_
+3-8	253-258	Metro	_	_	_	_	_
+3-9	259-263	Jaya	_	_	_	_	_
+3-10	264-265	,	_	_	_	_	_
+3-11	266-272	Kompol	_	_	_	_	_
+3-12	273-280	Sutikno	_	_	_	_	_
+3-13	281-291	mengatakan	_	_	_	_	_
+3-14	292-297	pihak	_	_	_	_	_
+3-15	298-301	nya	_	_	_	_	_
+3-16	302-307	sudah	_	_	_	_	_
+3-17	308-315	menegur	_	_	_	_	_
+3-18	316-323	pemilik	_	_	_	_	_
+3-19	324-333	kendaraan	_	_	_	_	_
+3-20	334-338	yang	_	_	_	_	_
+3-21	339-347	berhenti	_	_	_	_	_
+3-22	348-350	di	_	_	_	_	_
+3-23	351-356	jalan	_	_	_	_	_
+3-24	357-360	tol	_	_	_	_	_
+3-25	361-367	Andara	_	_	_	_	_
+3-26	368-369	.	_	_	_	_	_
+
+#Text=" Ditegur sambil diperingatkan jangan mengulang lagi , " kata Sutikno saat dihubungi CNNIndonesia.com , Minggu ( 23 / 1 ) .
+4-1	371-372	"	_	_	_	_	_
+4-2	373-380	Ditegur	_	_	_	_	_
+4-3	381-387	sambil	_	_	_	_	_
+4-4	388-401	diperingatkan	_	_	_	_	_
+4-5	402-408	jangan	_	_	_	_	_
+4-6	409-418	mengulang	_	_	_	_	_
+4-7	419-423	lagi	_	_	_	_	_
+4-8	424-425	,	_	_	_	_	_
+4-9	426-427	"	_	_	_	_	_
+4-10	428-432	kata	_	_	_	_	_
+4-11	433-440	Sutikno	_	_	_	_	_
+4-12	441-445	saat	_	_	_	_	_
+4-13	446-455	dihubungi	_	_	_	_	_
+4-14	456-472	CNNIndonesia.com	_	_	_	_	_
+4-15	473-474	,	_	_	_	_	_
+4-16	475-481	Minggu	_	_	_	_	_
+4-17	482-483	(	_	_	_	_	_
+4-18	484-486	23	_	_	_	_	_
+4-19	487-488	/	_	_	_	_	_
+4-20	489-490	1	_	_	_	_	_
+4-21	491-492	)	_	_	_	_	_
+4-22	493-494	.	_	_	_	_	_
+
+#Text=Menurut keterangan nya , peristiwa tersebut terjadi pada Minggu ( 23 / 1 ) pukul 10.45 WIB di 02 + 400 Tol Andara ( Jalan Tol Depok - Antasari ) .
+5-1	496-503	Menurut	_	_	_	_	_
+5-2	504-514	keterangan	_	_	_	_	_
+5-3	515-518	nya	_	_	_	_	_
+5-4	519-520	,	_	_	_	_	_
+5-5	521-530	peristiwa	_	_	_	_	_
+5-6	531-539	tersebut	_	_	_	_	_
+5-7	540-547	terjadi	_	_	_	_	_
+5-8	548-552	pada	_	_	_	_	_
+5-9	553-559	Minggu	_	_	_	_	_
+5-10	560-561	(	_	_	_	_	_
+5-11	562-564	23	_	_	_	_	_
+5-12	565-566	/	_	_	_	_	_
+5-13	567-568	1	_	_	_	_	_
+5-14	569-570	)	_	_	_	_	_
+5-15	571-576	pukul	_	_	_	_	_
+5-16	577-582	10.45	_	_	_	_	_
+5-17	583-586	WIB	_	_	_	_	_
+5-18	587-589	di	_	_	_	_	_
+5-19	590-592	02	_	_	_	_	_
+5-20	593-594	+	_	_	_	_	_
+5-21	595-598	400	_	_	_	_	_
+5-22	599-602	Tol	_	_	_	_	_
+5-23	603-609	Andara	_	_	_	_	_
+5-24	610-611	(	_	_	_	_	_
+5-25	612-617	Jalan	_	_	_	_	_
+5-26	618-621	Tol	_	_	_	_	_
+5-27	622-627	Depok	_	_	_	_	_
+5-28	628-629	-	_	_	_	_	_
+5-29	630-638	Antasari	_	_	_	_	_
+5-30	639-640	)	_	_	_	_	_
+5-31	641-642	.	_	_	_	_	_
+
+#Text=Petugas terdiri dari Aipda Yudi W , Bripka Efendi , dan Brigadir Mardiana .
+6-1	644-651	Petugas	_	_	_	_	_
+6-2	652-659	terdiri	_	_	_	_	_
+6-3	660-664	dari	_	_	_	_	_
+6-4	665-670	Aipda	_	_	_	_	_
+6-5	671-675	Yudi	_	_	_	_	_
+6-6	676-677	W	_	_	_	_	_
+6-7	678-679	,	_	_	_	_	_
+6-8	680-686	Bripka	_	_	_	_	_
+6-9	687-693	Efendi	_	_	_	_	_
+6-10	694-695	,	_	_	_	_	_
+6-11	696-699	dan	_	_	_	_	_
+6-12	700-708	Brigadir	_	_	_	_	_
+6-13	709-717	Mardiana	_	_	_	_	_
+6-14	718-719	.	_	_	_	_	_
+
+#Text=Sutikno menyebut lebih dari 7 mobil mewah yang diketahui berhenti di jalan tol yang mengganggu pengguna jalan lain .
+7-1	721-728	Sutikno	_	_	_	_	_
+7-2	729-737	menyebut	_	_	_	_	_
+7-3	738-743	lebih	_	_	_	_	_
+7-4	744-748	dari	_	_	_	_	_
+7-5	749-750	7	_	_	_	_	_
+7-6	751-756	mobil	_	concept[1]	_	_	_
+7-7	757-762	mewah	_	_	_	_	_
+7-8	763-767	yang	_	_	_	_	_
+7-9	768-777	diketahui	_	_	_	_	_
+7-10	778-786	berhenti	_	_	_	_	_
+7-11	787-789	di	_	_	_	_	_
+7-12	790-795	jalan	_	_	_	_	_
+7-13	796-799	tol	_	_	_	_	_
+7-14	800-804	yang	_	_	_	_	_
+7-15	805-815	mengganggu	_	negative[2]	_	_	_
+7-16	816-824	pengguna	_	negative[2]	_	_	_
+7-17	825-830	jalan	_	negative[2]	_	_	_
+7-18	831-835	lain	_	negative[2]	_	_	_
+7-19	836-837	.	_	_	_	_	_
+
+#Text=" Mobil mewah lebih dari 7 , " ujar nya .
+8-1	839-840	"	_	_	_	_	_
+8-2	841-846	Mobil	_	_	_	_	_
+8-3	847-852	mewah	_	_	_	_	_
+8-4	853-858	lebih	_	_	_	_	_
+8-5	859-863	dari	_	_	_	_	_
+8-6	864-865	7	_	_	_	_	_
+8-7	866-867	,	_	_	_	_	_
+8-8	868-869	"	_	_	_	_	_
+8-9	870-874	ujar	_	_	_	_	_
+8-10	875-878	nya	_	_	_	_	_
+8-11	879-880	.	_	_	_	_	_
+
+#Text=Pemilik kendaraan mewah itu juga diketahui melakukan dokumentasi berupa foto saat ditemui petugas di lapangan .
+9-1	882-889	Pemilik	_	_	_	_	_
+9-2	890-899	kendaraan	_	_	_	_	_
+9-3	900-905	mewah	_	_	_	_	_
+9-4	906-909	itu	_	_	_	_	_
+9-5	910-914	juga	_	_	_	_	_
+9-6	915-924	diketahui	_	_	_	_	_
+9-7	925-934	melakukan	_	_	_	_	_
+9-8	935-946	dokumentasi	_	_	_	_	_
+9-9	947-953	berupa	_	_	_	_	_
+9-10	954-958	foto	_	_	_	_	_
+9-11	959-963	saat	_	_	_	_	_
+9-12	964-971	ditemui	_	_	_	_	_
+9-13	972-979	petugas	_	_	_	_	_
+9-14	980-982	di	_	_	_	_	_
+9-15	983-991	lapangan	_	_	_	_	_
+9-16	992-993	.	_	_	_	_	_
+
+#Text=" Peneguran kendaraan mobil mewah yg beriringan yang sedang melaksanakan dokumentasi di dalam tol , sehingga mengganggu pengguna jalan yang lain . Situasi arus lalu lintas [ menjadi ] terhambat , " jelas dia .
+10-1	995-996	"	_	_	_	_	_
+10-2	997-1006	Peneguran	_	concept[3]	_	_	_
+10-3	1007-1016	kendaraan	_	_	_	_	_
+10-4	1017-1022	mobil	_	_	_	_	_
+10-5	1023-1028	mewah	_	_	_	_	_
+10-6	1029-1031	yg	_	_	_	_	_
+10-7	1032-1042	beriringan	_	_	_	_	_
+10-8	1043-1047	yang	_	_	_	_	_
+10-9	1048-1054	sedang	_	_	_	_	_
+10-10	1055-1067	melaksanakan	_	_	_	_	_
+10-11	1068-1079	dokumentasi	_	_	_	_	_
+10-12	1080-1082	di	_	_	_	_	_
+10-13	1083-1088	dalam	_	_	_	_	_
+10-14	1089-1092	tol	_	_	_	_	_
+10-15	1093-1094	,	_	_	_	_	_
+10-16	1095-1103	sehingga	_	_	_	_	_
+10-17	1104-1114	mengganggu	_	negative[4]	_	_	_
+10-18	1115-1123	pengguna	_	negative[4]	_	_	_
+10-19	1124-1129	jalan	_	negative[4]	_	_	_
+10-20	1130-1134	yang	_	negative[4]	_	_	_
+10-21	1135-1139	lain	_	negative[4]	_	_	_
+10-22	1140-1141	.	_	_	_	_	_
+10-23	1142-1149	Situasi	_	_	_	_	_
+10-24	1150-1154	arus	_	concept[5]	_	_	_
+10-25	1155-1159	lalu	_	concept[5]	_	_	_
+10-26	1160-1166	lintas	_	concept[5]	_	_	_
+10-27	1167-1168	[	_	_	_	_	_
+10-28	1169-1176	menjadi	_	_	_	_	_
+10-29	1177-1178	]	_	_	_	_	_
+10-30	1179-1188	terhambat	_	negative[6]	_	_	_
+10-31	1189-1190	,	_	_	_	_	_
+10-32	1191-1192	"	_	_	_	_	_
+10-33	1193-1198	jelas	_	_	_	_	_
+10-34	1199-1202	dia	_	_	_	_	_
+10-35	1203-1204	.	_	_	_	_	_
+

@@ -1,0 +1,317 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Mencapai keberhasilan finansial atau financial goals tentunya menjadi dambaan Sobat Cuan di mana pun berada .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-35	Mencapai	_	_	_	_	_
+1-7	36-48	keberhasilan	_	_	_	_	_
+1-8	49-58	finansial	_	_	_	_	_
+1-9	59-63	atau	_	_	_	_	_
+1-10	64-73	financial	_	_	_	_	_
+1-11	74-79	goals	_	_	_	_	_
+1-12	80-88	tentunya	_	_	_	_	_
+1-13	89-96	menjadi	_	_	_	_	_
+1-14	97-104	dambaan	_	_	_	_	_
+1-15	105-110	Sobat	_	_	_	_	_
+1-16	111-115	Cuan	_	_	_	_	_
+1-17	116-118	di	_	_	_	_	_
+1-18	119-123	mana	_	_	_	_	_
+1-19	124-127	pun	_	_	_	_	_
+1-20	128-134	berada	_	_	_	_	_
+1-21	135-136	.	_	_	_	_	_
+
+#Text=Sayang nya , tujuan ini sukar ditempuh sebab mengatur keuangan tidak semudah menyajikan mi instan .
+2-1	138-144	Sayang	_	_	_	_	_
+2-2	145-148	nya	_	_	_	_	_
+2-3	149-150	,	_	_	_	_	_
+2-4	151-157	tujuan	_	_	_	_	_
+2-5	158-161	ini	_	_	_	_	_
+2-6	162-167	sukar	_	_	_	_	_
+2-7	168-176	ditempuh	_	_	_	_	_
+2-8	177-182	sebab	_	_	_	_	_
+2-9	183-191	mengatur	_	_	_	_	_
+2-10	192-200	keuangan	_	_	_	_	_
+2-11	201-206	tidak	_	_	_	_	_
+2-12	207-214	semudah	_	_	_	_	_
+2-13	215-225	menyajikan	_	_	_	_	_
+2-14	226-228	mi	_	_	_	_	_
+2-15	229-235	instan	_	_	_	_	_
+2-16	236-237	.	_	_	_	_	_
+
+#Text=Berbagai kebutuhan harus dipenuhi , seperti dana liburan , pernikahan , properti , kendaraan , bisnis , hingga tabungan dan investasi .
+3-1	239-247	Berbagai	_	_	_	_	_
+3-2	248-257	kebutuhan	_	_	_	_	_
+3-3	258-263	harus	_	_	_	_	_
+3-4	264-272	dipenuhi	_	_	_	_	_
+3-5	273-274	,	_	_	_	_	_
+3-6	275-282	seperti	_	_	_	_	_
+3-7	283-287	dana	_	_	_	_	_
+3-8	288-295	liburan	_	_	_	_	_
+3-9	296-297	,	_	_	_	_	_
+3-10	298-308	pernikahan	_	_	_	_	_
+3-11	309-310	,	_	_	_	_	_
+3-12	311-319	properti	_	_	_	_	_
+3-13	320-321	,	_	_	_	_	_
+3-14	322-331	kendaraan	_	_	_	_	_
+3-15	332-333	,	_	_	_	_	_
+3-16	334-340	bisnis	_	_	_	_	_
+3-17	341-342	,	_	_	_	_	_
+3-18	343-349	hingga	_	_	_	_	_
+3-19	350-358	tabungan	_	_	_	_	_
+3-20	359-362	dan	_	_	_	_	_
+3-21	363-372	investasi	_	_	_	_	_
+3-22	373-374	.	_	_	_	_	_
+
+#Text=Belum lagi bagi Sobat Cuan yang terjebak menjadi generasi sandwich yang harus memenuhi kebutuhan orang lain selain diri nya sendiri , seperti orang tua .
+4-1	376-381	Belum	_	_	_	_	_
+4-2	382-386	lagi	_	_	_	_	_
+4-3	387-391	bagi	_	_	_	_	_
+4-4	392-397	Sobat	_	_	_	_	_
+4-5	398-402	Cuan	_	_	_	_	_
+4-6	403-407	yang	_	_	_	_	_
+4-7	408-416	terjebak	_	_	_	_	_
+4-8	417-424	menjadi	_	_	_	_	_
+4-9	425-433	generasi	_	_	_	_	_
+4-10	434-442	sandwich	_	_	_	_	_
+4-11	443-447	yang	_	_	_	_	_
+4-12	448-453	harus	_	_	_	_	_
+4-13	454-462	memenuhi	_	_	_	_	_
+4-14	463-472	kebutuhan	_	_	_	_	_
+4-15	473-478	orang	_	_	_	_	_
+4-16	479-483	lain	_	_	_	_	_
+4-17	484-490	selain	_	_	_	_	_
+4-18	491-495	diri	_	_	_	_	_
+4-19	496-499	nya	_	_	_	_	_
+4-20	500-507	sendiri	_	_	_	_	_
+4-21	508-509	,	_	_	_	_	_
+4-22	510-517	seperti	_	_	_	_	_
+4-23	518-523	orang	_	_	_	_	_
+4-24	524-527	tua	_	_	_	_	_
+4-25	528-529	.	_	_	_	_	_
+
+#Text=Permasalah finansial ini juga erat kaitan nya dengan pengembangan karier .
+5-1	531-541	Permasalah	_	_	_	_	_
+5-2	542-551	finansial	_	_	_	_	_
+5-3	552-555	ini	_	_	_	_	_
+5-4	556-560	juga	_	_	_	_	_
+5-5	561-565	erat	_	_	_	_	_
+5-6	566-572	kaitan	_	_	_	_	_
+5-7	573-576	nya	_	_	_	_	_
+5-8	577-583	dengan	_	_	_	_	_
+5-9	584-596	pengembangan	_	_	_	_	_
+5-10	597-603	karier	_	_	_	_	_
+5-11	604-605	.	_	_	_	_	_
+
+#Text=Bagaimanapun masalah finansial biasanya terjadi karena pemasukan yang kurang menjangkau kebutuhan-kebutuhan itu .
+6-1	607-619	Bagaimanapun	_	_	_	_	_
+6-2	620-627	masalah	_	_	_	_	_
+6-3	628-637	finansial	_	_	_	_	_
+6-4	638-646	biasanya	_	_	_	_	_
+6-5	647-654	terjadi	_	_	_	_	_
+6-6	655-661	karena	_	_	_	_	_
+6-7	662-671	pemasukan	_	concept[1]	_	_	_
+6-8	672-676	yang	_	_	_	_	_
+6-9	677-683	kurang	_	negative[2]	_	_	_
+6-10	684-694	menjangkau	_	negative[2]	_	_	_
+6-11	695-714	kebutuhan-kebutuhan	_	negative[2]	_	_	_
+6-12	715-718	itu	_	_	_	_	_
+6-13	719-720	.	_	_	_	_	_
+
+#Text=Melihat banyak nya permasalahan yang dihadapi semacam ini , selama tiga minggu ke depan ASUS Business bersama CNBC Indonesia akan membahas seputar karier dan keuangan dalam Cuap Cuap Cuan .
+7-1	722-729	Melihat	_	_	_	_	_
+7-2	730-736	banyak	_	_	_	_	_
+7-3	737-740	nya	_	_	_	_	_
+7-4	741-753	permasalahan	_	_	_	_	_
+7-5	754-758	yang	_	_	_	_	_
+7-6	759-767	dihadapi	_	_	_	_	_
+7-7	768-775	semacam	_	_	_	_	_
+7-8	776-779	ini	_	_	_	_	_
+7-9	780-781	,	_	_	_	_	_
+7-10	782-788	selama	_	_	_	_	_
+7-11	789-793	tiga	_	_	_	_	_
+7-12	794-800	minggu	_	_	_	_	_
+7-13	801-803	ke	_	_	_	_	_
+7-14	804-809	depan	_	_	_	_	_
+7-15	810-814	ASUS	_	_	_	_	_
+7-16	815-823	Business	_	_	_	_	_
+7-17	824-831	bersama	_	_	_	_	_
+7-18	832-836	CNBC	_	_	_	_	_
+7-19	837-846	Indonesia	_	_	_	_	_
+7-20	847-851	akan	_	_	_	_	_
+7-21	852-860	membahas	_	_	_	_	_
+7-22	861-868	seputar	_	_	_	_	_
+7-23	869-875	karier	_	_	_	_	_
+7-24	876-879	dan	_	_	_	_	_
+7-25	880-888	keuangan	_	_	_	_	_
+7-26	889-894	dalam	_	_	_	_	_
+7-27	895-899	Cuap	_	_	_	_	_
+7-28	900-904	Cuap	_	_	_	_	_
+7-29	905-909	Cuan	_	_	_	_	_
+7-30	910-911	.	_	_	_	_	_
+
+#Text=Pemilihan Perangkat yang tepat seperti ASUS ExpertBook tentunya dapat mendukung untuk mendapatkan cuan maksimal .
+8-1	913-922	Pemilihan	_	_	_	_	_
+8-2	923-932	Perangkat	_	_	_	_	_
+8-3	933-937	yang	_	_	_	_	_
+8-4	938-943	tepat	_	_	_	_	_
+8-5	944-951	seperti	_	_	_	_	_
+8-6	952-956	ASUS	_	concept[3]	_	_	_
+8-7	957-967	ExpertBook	_	concept[3]	_	_	_
+8-8	968-976	tentunya	_	_	_	_	_
+8-9	977-982	dapat	_	positive[4]	_	_	_
+8-10	983-992	mendukung	_	positive[4]	_	_	_
+8-11	993-998	untuk	_	positive[4]	_	_	_
+8-12	999-1010	mendapatkan	_	positive[4]	_	_	_
+8-13	1011-1015	cuan	_	positive[4]	_	_	_
+8-14	1016-1024	maksimal	_	positive[4]	_	_	_
+8-15	1025-1026	.	_	_	_	_	_
+
+#Text=Karena sekarang sudah zaman nya kerja fleksibel , bisa di mana saja dan kapan saja .
+9-1	1028-1034	Karena	_	_	_	_	_
+9-2	1035-1043	sekarang	_	_	_	_	_
+9-3	1044-1049	sudah	_	_	_	_	_
+9-4	1050-1055	zaman	_	_	_	_	_
+9-5	1056-1059	nya	_	_	_	_	_
+9-6	1060-1065	kerja	_	concept[5]	_	_	_
+9-7	1066-1075	fleksibel	_	positive[6]	_	_	_
+9-8	1076-1077	,	_	_	_	_	_
+9-9	1078-1082	bisa	_	positive[7]	_	_	_
+9-10	1083-1085	di	_	positive[7]	_	_	_
+9-11	1086-1090	mana	_	positive[7]	_	_	_
+9-12	1091-1095	saja	_	positive[7]	_	_	_
+9-13	1096-1099	dan	_	positive[7]	_	_	_
+9-14	1100-1105	kapan	_	positive[7]	_	_	_
+9-15	1106-1110	saja	_	positive[7]	_	_	_
+9-16	1111-1112	.	_	_	_	_	_
+
+#Text=Pada episode pertama , Cuap Cuap Cuan with ASUS Business mengangkat tema " Karier Menanjak , Kantong Sehat " .
+10-1	1114-1118	Pada	_	_	_	_	_
+10-2	1119-1126	episode	_	_	_	_	_
+10-3	1127-1134	pertama	_	_	_	_	_
+10-4	1135-1136	,	_	_	_	_	_
+10-5	1137-1141	Cuap	_	_	_	_	_
+10-6	1142-1146	Cuap	_	_	_	_	_
+10-7	1147-1151	Cuan	_	_	_	_	_
+10-8	1152-1156	with	_	_	_	_	_
+10-9	1157-1161	ASUS	_	_	_	_	_
+10-10	1162-1170	Business	_	_	_	_	_
+10-11	1171-1181	mengangkat	_	_	_	_	_
+10-12	1182-1186	tema	_	_	_	_	_
+10-13	1187-1188	"	_	_	_	_	_
+10-14	1189-1195	Karier	_	_	_	_	_
+10-15	1196-1204	Menanjak	_	_	_	_	_
+10-16	1205-1206	,	_	_	_	_	_
+10-17	1207-1214	Kantong	_	_	_	_	_
+10-18	1215-1220	Sehat	_	_	_	_	_
+10-19	1221-1222	"	_	_	_	_	_
+10-20	1223-1224	.	_	_	_	_	_
+
+#Text=Acara ini akan berlangsung pada Kamis , 17 Maret 2022 , pukul 19.00 - 19.30 WIB .
+11-1	1226-1231	Acara	_	_	_	_	_
+11-2	1232-1235	ini	_	_	_	_	_
+11-3	1236-1240	akan	_	_	_	_	_
+11-4	1241-1252	berlangsung	_	_	_	_	_
+11-5	1253-1257	pada	_	_	_	_	_
+11-6	1258-1263	Kamis	_	_	_	_	_
+11-7	1264-1265	,	_	_	_	_	_
+11-8	1266-1268	17	_	_	_	_	_
+11-9	1269-1274	Maret	_	_	_	_	_
+11-10	1275-1279	2022	_	_	_	_	_
+11-11	1280-1281	,	_	_	_	_	_
+11-12	1282-1287	pukul	_	_	_	_	_
+11-13	1288-1293	19.00	_	_	_	_	_
+11-14	1294-1295	-	_	_	_	_	_
+11-15	1296-1301	19.30	_	_	_	_	_
+11-16	1302-1305	WIB	_	_	_	_	_
+11-17	1306-1307	.	_	_	_	_	_
+
+#Text=Dalam kesempatan ini , Master Financial Planner Aidil Akbar Madjid dipandu host Maria Katarina akan mengupas seputar pengembangan karier yang tepat baik bagi para lulusan baru ataupun mereka yang sudah berpengalaman di dunia kerja .
+12-1	1309-1314	Dalam	_	_	_	_	_
+12-2	1315-1325	kesempatan	_	_	_	_	_
+12-3	1326-1329	ini	_	_	_	_	_
+12-4	1330-1331	,	_	_	_	_	_
+12-5	1332-1338	Master	_	_	_	_	_
+12-6	1339-1348	Financial	_	_	_	_	_
+12-7	1349-1356	Planner	_	_	_	_	_
+12-8	1357-1362	Aidil	_	_	_	_	_
+12-9	1363-1368	Akbar	_	_	_	_	_
+12-10	1369-1375	Madjid	_	_	_	_	_
+12-11	1376-1383	dipandu	_	_	_	_	_
+12-12	1384-1388	host	_	_	_	_	_
+12-13	1389-1394	Maria	_	_	_	_	_
+12-14	1395-1403	Katarina	_	_	_	_	_
+12-15	1404-1408	akan	_	_	_	_	_
+12-16	1409-1417	mengupas	_	_	_	_	_
+12-17	1418-1425	seputar	_	_	_	_	_
+12-18	1426-1438	pengembangan	_	_	_	_	_
+12-19	1439-1445	karier	_	_	_	_	_
+12-20	1446-1450	yang	_	_	_	_	_
+12-21	1451-1456	tepat	_	_	_	_	_
+12-22	1457-1461	baik	_	_	_	_	_
+12-23	1462-1466	bagi	_	_	_	_	_
+12-24	1467-1471	para	_	_	_	_	_
+12-25	1472-1479	lulusan	_	_	_	_	_
+12-26	1480-1484	baru	_	_	_	_	_
+12-27	1485-1492	ataupun	_	_	_	_	_
+12-28	1493-1499	mereka	_	_	_	_	_
+12-29	1500-1504	yang	_	_	_	_	_
+12-30	1505-1510	sudah	_	_	_	_	_
+12-31	1511-1524	berpengalaman	_	_	_	_	_
+12-32	1525-1527	di	_	_	_	_	_
+12-33	1528-1533	dunia	_	_	_	_	_
+12-34	1534-1539	kerja	_	_	_	_	_
+12-35	1540-1541	.	_	_	_	_	_
+
+#Text=Cuap Cuap Cuap Cuan with ASUS Business juga menyediakan doorprize e - wallet senilai Rp 250.000 bagi 5 penonton beruntung .
+13-1	1543-1547	Cuap	_	_	_	_	_
+13-2	1548-1552	Cuap	_	_	_	_	_
+13-3	1553-1557	Cuap	_	_	_	_	_
+13-4	1558-1562	Cuan	_	_	_	_	_
+13-5	1563-1567	with	_	_	_	_	_
+13-6	1568-1572	ASUS	_	_	_	_	_
+13-7	1573-1581	Business	_	_	_	_	_
+13-8	1582-1586	juga	_	_	_	_	_
+13-9	1587-1598	menyediakan	_	_	_	_	_
+13-10	1599-1608	doorprize	_	_	_	_	_
+13-11	1609-1610	e	_	_	_	_	_
+13-12	1611-1612	-	_	_	_	_	_
+13-13	1613-1619	wallet	_	_	_	_	_
+13-14	1620-1627	senilai	_	_	_	_	_
+13-15	1628-1630	Rp	_	_	_	_	_
+13-16	1631-1638	250.000	_	_	_	_	_
+13-17	1639-1643	bagi	_	_	_	_	_
+13-18	1644-1645	5	_	_	_	_	_
+13-19	1646-1654	penonton	_	_	_	_	_
+13-20	1655-1664	beruntung	_	_	_	_	_
+13-21	1665-1666	.	_	_	_	_	_
+
+#Text=Simak tayangan ini hanya di CNBC Indonesia TV dan s treaming di cnbcindonesia.com .
+14-1	1668-1673	Simak	_	_	_	_	_
+14-2	1674-1682	tayangan	_	_	_	_	_
+14-3	1683-1686	ini	_	_	_	_	_
+14-4	1687-1692	hanya	_	_	_	_	_
+14-5	1693-1695	di	_	_	_	_	_
+14-6	1696-1700	CNBC	_	_	_	_	_
+14-7	1701-1710	Indonesia	_	_	_	_	_
+14-8	1711-1713	TV	_	_	_	_	_
+14-9	1714-1717	dan	_	_	_	_	_
+14-10	1718-1719	s	_	_	_	_	_
+14-11	1720-1728	treaming	_	_	_	_	_
+14-12	1729-1731	di	_	_	_	_	_
+14-13	1732-1749	cnbcindonesia.com	_	_	_	_	_
+14-14	1750-1751	.	_	_	_	_	_
+
+#Text=Catat tanggal nya dan pantau terus CNBC Indonesia !
+15-1	1753-1758	Catat	_	_	_	_	_
+15-2	1759-1766	tanggal	_	_	_	_	_
+15-3	1767-1770	nya	_	_	_	_	_
+15-4	1771-1774	dan	_	_	_	_	_
+15-5	1775-1781	pantau	_	_	_	_	_
+15-6	1782-1787	terus	_	_	_	_	_
+15-7	1788-1792	CNBC	_	_	_	_	_
+15-8	1793-1802	Indonesia	_	_	_	_	_
+15-9	1803-1804	!	_	_	_	_	_
+

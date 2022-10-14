@@ -1,0 +1,331 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Pemerintah Provinsi DKI Jakarta masih memberlakukan aturan ganjil genap bagi kendaraan roda empat pribadi di sejumlah ruas jalan Ibu Kota , Pada hari ini , Senin ( 10 / 1 / 2022 ) , bagi Anda yang memiliki pelat genap dapat melintasi sejumlah ruas ganjil genap di kawasan Ibu Kota .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-37	Pemerintah	_	_	_	_	_
+1-7	38-46	Provinsi	_	_	_	_	_
+1-8	47-50	DKI	_	_	_	_	_
+1-9	51-58	Jakarta	_	_	_	_	_
+1-10	59-64	masih	_	_	_	_	_
+1-11	65-78	memberlakukan	_	_	_	_	_
+1-12	79-85	aturan	_	_	_	_	_
+1-13	86-92	ganjil	_	_	_	_	_
+1-14	93-98	genap	_	_	_	_	_
+1-15	99-103	bagi	_	_	_	_	_
+1-16	104-113	kendaraan	_	_	_	_	_
+1-17	114-118	roda	_	_	_	_	_
+1-18	119-124	empat	_	_	_	_	_
+1-19	125-132	pribadi	_	_	_	_	_
+1-20	133-135	di	_	_	_	_	_
+1-21	136-144	sejumlah	_	_	_	_	_
+1-22	145-149	ruas	_	_	_	_	_
+1-23	150-155	jalan	_	_	_	_	_
+1-24	156-159	Ibu	_	_	_	_	_
+1-25	160-164	Kota	_	_	_	_	_
+1-26	165-166	,	_	_	_	_	_
+1-27	167-171	Pada	_	_	_	_	_
+1-28	172-176	hari	_	_	_	_	_
+1-29	177-180	ini	_	_	_	_	_
+1-30	181-182	,	_	_	_	_	_
+1-31	183-188	Senin	_	_	_	_	_
+1-32	189-190	(	_	_	_	_	_
+1-33	191-193	10	_	_	_	_	_
+1-34	194-195	/	_	_	_	_	_
+1-35	196-197	1	_	_	_	_	_
+1-36	198-199	/	_	_	_	_	_
+1-37	200-204	2022	_	_	_	_	_
+1-38	205-206	)	_	_	_	_	_
+1-39	207-208	,	_	_	_	_	_
+1-40	209-213	bagi	_	_	_	_	_
+1-41	214-218	Anda	_	_	_	_	_
+1-42	219-223	yang	_	_	_	_	_
+1-43	224-232	memiliki	_	_	_	_	_
+1-44	233-238	pelat	_	_	_	_	_
+1-45	239-244	genap	_	_	_	_	_
+1-46	245-250	dapat	_	_	_	_	_
+1-47	251-260	melintasi	_	_	_	_	_
+1-48	261-269	sejumlah	_	_	_	_	_
+1-49	270-274	ruas	_	_	_	_	_
+1-50	275-281	ganjil	_	_	_	_	_
+1-51	282-287	genap	_	_	_	_	_
+1-52	288-290	di	_	_	_	_	_
+1-53	291-298	kawasan	_	_	_	_	_
+1-54	299-302	Ibu	_	_	_	_	_
+1-55	303-307	Kota	_	_	_	_	_
+1-56	308-309	.	_	_	_	_	_
+
+#Text=Jika berpelat ganjil , maka Anda harus mencari alternatif jalan lain .
+2-1	311-315	Jika	_	_	_	_	_
+2-2	316-324	berpelat	_	_	_	_	_
+2-3	325-331	ganjil	_	_	_	_	_
+2-4	332-333	,	_	_	_	_	_
+2-5	334-338	maka	_	_	_	_	_
+2-6	339-343	Anda	_	_	_	_	_
+2-7	344-349	harus	_	_	_	_	_
+2-8	350-357	mencari	_	_	_	_	_
+2-9	358-368	alternatif	_	_	_	_	_
+2-10	369-374	jalan	_	_	_	_	_
+2-11	375-379	lain	_	_	_	_	_
+2-12	380-381	.	_	_	_	_	_
+
+#Text=Adapun titik pemberlakuan pembatasan tidak ada yang berubah .
+3-1	383-389	Adapun	_	_	_	_	_
+3-2	390-395	titik	_	concept[1]	_	_	_
+3-3	396-408	pemberlakuan	_	concept[1]	_	_	_
+3-4	409-419	pembatasan	_	concept[1]	_	_	_
+3-5	420-425	tidak	*	[1_2]|negative[2]	_	_	_
+3-6	426-429	ada	_	negative[2]	_	_	_
+3-7	430-434	yang	_	negative[2]	_	_	_
+3-8	435-442	berubah	_	negative[2]	_	_	_
+3-9	443-444	.	_	_	_	_	_
+
+#Text=Ganjil genap tetap diberlakukan di 13 ruas jalan , dengan waktu penerapan Senin - Jumat pada pukul 06.00 - 10.00 WIB dan 16.00 - 21.00 WIB .
+4-1	446-452	Ganjil	_	_	_	_	_
+4-2	453-458	genap	_	_	_	_	_
+4-3	459-464	tetap	_	_	_	_	_
+4-4	465-477	diberlakukan	_	_	_	_	_
+4-5	478-480	di	_	_	_	_	_
+4-6	481-483	13	_	_	_	_	_
+4-7	484-488	ruas	_	_	_	_	_
+4-8	489-494	jalan	_	_	_	_	_
+4-9	495-496	,	_	_	_	_	_
+4-10	497-503	dengan	_	_	_	_	_
+4-11	504-509	waktu	_	_	_	_	_
+4-12	510-519	penerapan	_	_	_	_	_
+4-13	520-525	Senin	_	_	_	_	_
+4-14	526-527	-	_	_	_	_	_
+4-15	528-533	Jumat	_	_	_	_	_
+4-16	534-538	pada	_	_	_	_	_
+4-17	539-544	pukul	_	_	_	_	_
+4-18	545-550	06.00	_	_	_	_	_
+4-19	551-552	-	_	_	_	_	_
+4-20	553-558	10.00	_	_	_	_	_
+4-21	559-562	WIB	_	_	_	_	_
+4-22	563-566	dan	_	_	_	_	_
+4-23	567-572	16.00	_	_	_	_	_
+4-24	573-574	-	_	_	_	_	_
+4-25	575-580	21.00	_	_	_	_	_
+4-26	581-584	WIB	_	_	_	_	_
+4-27	585-586	.	_	_	_	_	_
+
+#Text=Sementara itu , pada akhir pekan ganjil genap ada penambahan tiga lokasi ganjil genap yaitu di sejumlah kawasan wisata seperti Taman Impian Jaya Ancol , Taman Mini Indonesia , dan Ragunan .
+5-1	588-597	Sementara	_	_	_	_	_
+5-2	598-601	itu	_	_	_	_	_
+5-3	602-603	,	_	_	_	_	_
+5-4	604-608	pada	_	_	_	_	_
+5-5	609-614	akhir	_	_	_	_	_
+5-6	615-620	pekan	_	_	_	_	_
+5-7	621-627	ganjil	_	_	_	_	_
+5-8	628-633	genap	_	_	_	_	_
+5-9	634-637	ada	_	_	_	_	_
+5-10	638-648	penambahan	_	_	_	_	_
+5-11	649-653	tiga	_	_	_	_	_
+5-12	654-660	lokasi	_	_	_	_	_
+5-13	661-667	ganjil	_	_	_	_	_
+5-14	668-673	genap	_	_	_	_	_
+5-15	674-679	yaitu	_	_	_	_	_
+5-16	680-682	di	_	_	_	_	_
+5-17	683-691	sejumlah	_	_	_	_	_
+5-18	692-699	kawasan	_	_	_	_	_
+5-19	700-706	wisata	_	_	_	_	_
+5-20	707-714	seperti	_	_	_	_	_
+5-21	715-720	Taman	_	_	_	_	_
+5-22	721-727	Impian	_	_	_	_	_
+5-23	728-732	Jaya	_	_	_	_	_
+5-24	733-738	Ancol	_	_	_	_	_
+5-25	739-740	,	_	_	_	_	_
+5-26	741-746	Taman	_	_	_	_	_
+5-27	747-751	Mini	_	_	_	_	_
+5-28	752-761	Indonesia	_	_	_	_	_
+5-29	762-763	,	_	_	_	_	_
+5-30	764-767	dan	_	_	_	_	_
+5-31	768-775	Ragunan	_	_	_	_	_
+5-32	776-777	.	_	_	_	_	_
+
+#Text=Tiga lokasi wisata di DKI Jakarta yang memberlakukan ganjil genap akan dimulai pada pukul Jumat pukul 12.00 WIB sampai hari Minggu 18.00 WIB .
+6-1	779-783	Tiga	_	_	_	_	_
+6-2	784-790	lokasi	_	_	_	_	_
+6-3	791-797	wisata	_	_	_	_	_
+6-4	798-800	di	_	_	_	_	_
+6-5	801-804	DKI	_	_	_	_	_
+6-6	805-812	Jakarta	_	_	_	_	_
+6-7	813-817	yang	_	_	_	_	_
+6-8	818-831	memberlakukan	_	_	_	_	_
+6-9	832-838	ganjil	_	_	_	_	_
+6-10	839-844	genap	_	_	_	_	_
+6-11	845-849	akan	_	_	_	_	_
+6-12	850-857	dimulai	_	_	_	_	_
+6-13	858-862	pada	_	_	_	_	_
+6-14	863-868	pukul	_	_	_	_	_
+6-15	869-874	Jumat	_	_	_	_	_
+6-16	875-880	pukul	_	_	_	_	_
+6-17	881-886	12.00	_	_	_	_	_
+6-18	887-890	WIB	_	_	_	_	_
+6-19	891-897	sampai	_	_	_	_	_
+6-20	898-902	hari	_	_	_	_	_
+6-21	903-909	Minggu	_	_	_	_	_
+6-22	910-915	18.00	_	_	_	_	_
+6-23	916-919	WIB	_	_	_	_	_
+6-24	920-921	.	_	_	_	_	_
+
+#Text=Bagi para pelanggar sistem ganjil genap akan dikenakan sanksi tilang yang mengacu pada pasal 287 Undang-Undang ( UU ) 12 / 2009 tentang Lalu Lintas dan Angkutan Jalan berupa denda maksimal Rp 500 ribu .
+7-1	923-927	Bagi	_	_	_	_	_
+7-2	928-932	para	_	_	_	_	_
+7-3	933-942	pelanggar	_	_	_	_	_
+7-4	943-949	sistem	_	_	_	_	_
+7-5	950-956	ganjil	_	_	_	_	_
+7-6	957-962	genap	_	_	_	_	_
+7-7	963-967	akan	_	_	_	_	_
+7-8	968-977	dikenakan	_	_	_	_	_
+7-9	978-984	sanksi	_	_	_	_	_
+7-10	985-991	tilang	_	_	_	_	_
+7-11	992-996	yang	_	_	_	_	_
+7-12	997-1004	mengacu	_	_	_	_	_
+7-13	1005-1009	pada	_	_	_	_	_
+7-14	1010-1015	pasal	_	_	_	_	_
+7-15	1016-1019	287	_	_	_	_	_
+7-16	1020-1033	Undang-Undang	_	_	_	_	_
+7-17	1034-1035	(	_	_	_	_	_
+7-18	1036-1038	UU	_	_	_	_	_
+7-19	1039-1040	)	_	_	_	_	_
+7-20	1041-1043	12	_	_	_	_	_
+7-21	1044-1045	/	_	_	_	_	_
+7-22	1046-1050	2009	_	_	_	_	_
+7-23	1051-1058	tentang	_	_	_	_	_
+7-24	1059-1063	Lalu	_	_	_	_	_
+7-25	1064-1070	Lintas	_	_	_	_	_
+7-26	1071-1074	dan	_	_	_	_	_
+7-27	1075-1083	Angkutan	_	_	_	_	_
+7-28	1084-1089	Jalan	_	_	_	_	_
+7-29	1090-1096	berupa	_	_	_	_	_
+7-30	1097-1102	denda	_	_	_	_	_
+7-31	1103-1111	maksimal	_	_	_	_	_
+7-32	1112-1114	Rp	_	_	_	_	_
+7-33	1115-1118	500	_	_	_	_	_
+7-34	1119-1123	ribu	_	_	_	_	_
+7-35	1124-1125	.	_	_	_	_	_
+
+#Text=Penindakan sendiri akan dilakukan secara langsung atau melalui sistem kamera Electronic Traffic Law Enforcement ( ETLE ) .
+8-1	1127-1137	Penindakan	_	_	_	_	_
+8-2	1138-1145	sendiri	_	_	_	_	_
+8-3	1146-1150	akan	_	_	_	_	_
+8-4	1151-1160	dilakukan	_	_	_	_	_
+8-5	1161-1167	secara	_	_	_	_	_
+8-6	1168-1176	langsung	_	_	_	_	_
+8-7	1177-1181	atau	_	_	_	_	_
+8-8	1182-1189	melalui	_	_	_	_	_
+8-9	1190-1196	sistem	_	_	_	_	_
+8-10	1197-1203	kamera	_	_	_	_	_
+8-11	1204-1214	Electronic	_	_	_	_	_
+8-12	1215-1222	Traffic	_	_	_	_	_
+8-13	1223-1226	Law	_	_	_	_	_
+8-14	1227-1238	Enforcement	_	_	_	_	_
+8-15	1239-1240	(	_	_	_	_	_
+8-16	1241-1245	ETLE	_	_	_	_	_
+8-17	1246-1247	)	_	_	_	_	_
+8-18	1248-1249	.	_	_	_	_	_
+
+#Text=Berikut 13 ruas jalan Jakarta yang memberlakukan ganjil genap : 1 .
+9-1	1251-1258	Berikut	_	_	_	_	_
+9-2	1259-1261	13	_	_	_	_	_
+9-3	1262-1266	ruas	_	_	_	_	_
+9-4	1267-1272	jalan	_	_	_	_	_
+9-5	1273-1280	Jakarta	_	_	_	_	_
+9-6	1281-1285	yang	_	_	_	_	_
+9-7	1286-1299	memberlakukan	_	_	_	_	_
+9-8	1300-1306	ganjil	_	_	_	_	_
+9-9	1307-1312	genap	_	_	_	_	_
+9-10	1313-1314	:	_	_	_	_	_
+9-11	1315-1316	1	_	_	_	_	_
+9-12	1317-1318	.	_	_	_	_	_
+
+#Text=Jalan Sudirman 2 .
+10-1	1320-1325	Jalan	_	_	_	_	_
+10-2	1326-1334	Sudirman	_	_	_	_	_
+10-3	1335-1336	2	_	_	_	_	_
+10-4	1337-1338	.	_	_	_	_	_
+
+#Text=Jalan MH Thamrin 3 .
+11-1	1340-1345	Jalan	_	_	_	_	_
+11-2	1346-1348	MH	_	_	_	_	_
+11-3	1349-1356	Thamrin	_	_	_	_	_
+11-4	1357-1358	3	_	_	_	_	_
+11-5	1359-1360	.	_	_	_	_	_
+
+#Text=Jalan Rasuna Said 4 .
+12-1	1362-1367	Jalan	_	_	_	_	_
+12-2	1368-1374	Rasuna	_	_	_	_	_
+12-3	1375-1379	Said	_	_	_	_	_
+12-4	1380-1381	4	_	_	_	_	_
+12-5	1382-1383	.	_	_	_	_	_
+
+#Text=Jalan Fatmawati 5 .
+13-1	1385-1390	Jalan	_	_	_	_	_
+13-2	1391-1400	Fatmawati	_	_	_	_	_
+13-3	1401-1402	5	_	_	_	_	_
+13-4	1403-1404	.	_	_	_	_	_
+
+#Text=Jalan Panglima Polim 6 .
+14-1	1406-1411	Jalan	_	_	_	_	_
+14-2	1412-1420	Panglima	_	_	_	_	_
+14-3	1421-1426	Polim	_	_	_	_	_
+14-4	1427-1428	6	_	_	_	_	_
+14-5	1429-1430	.	_	_	_	_	_
+
+#Text=Jalan Sisingamaraja 7 .
+15-1	1432-1437	Jalan	_	_	_	_	_
+15-2	1438-1451	Sisingamaraja	_	_	_	_	_
+15-3	1452-1453	7	_	_	_	_	_
+15-4	1454-1455	.	_	_	_	_	_
+
+#Text=Jalan MT Haryono 8 .
+16-1	1457-1462	Jalan	_	_	_	_	_
+16-2	1463-1465	MT	_	_	_	_	_
+16-3	1466-1473	Haryono	_	_	_	_	_
+16-4	1474-1475	8	_	_	_	_	_
+16-5	1476-1477	.	_	_	_	_	_
+
+#Text=Jalan Gatot Subroto 9 .
+17-1	1479-1484	Jalan	_	_	_	_	_
+17-2	1485-1490	Gatot	_	_	_	_	_
+17-3	1491-1498	Subroto	_	_	_	_	_
+17-4	1499-1500	9	_	_	_	_	_
+17-5	1501-1502	.	_	_	_	_	_
+
+#Text=Jalan S. Parman 10 .
+18-1	1504-1509	Jalan	_	_	_	_	_
+18-2	1510-1512	S.	_	_	_	_	_
+18-3	1513-1519	Parman	_	_	_	_	_
+18-4	1520-1522	10	_	_	_	_	_
+18-5	1523-1524	.	_	_	_	_	_
+
+#Text=Jalan Tomang Raya 11 .
+19-1	1526-1531	Jalan	_	_	_	_	_
+19-2	1532-1538	Tomang	_	_	_	_	_
+19-3	1539-1543	Raya	_	_	_	_	_
+19-4	1544-1546	11	_	_	_	_	_
+19-5	1547-1548	.	_	_	_	_	_
+
+#Text=Jalan Gunung Sahari 12 .
+20-1	1550-1555	Jalan	_	_	_	_	_
+20-2	1556-1562	Gunung	_	_	_	_	_
+20-3	1563-1569	Sahari	_	_	_	_	_
+20-4	1570-1572	12	_	_	_	_	_
+20-5	1573-1574	.	_	_	_	_	_
+
+#Text=Jalan DI Panjaitan 13 .
+21-1	1576-1581	Jalan	_	_	_	_	_
+21-2	1582-1584	DI	_	_	_	_	_
+21-3	1585-1594	Panjaitan	_	_	_	_	_
+21-4	1595-1597	13	_	_	_	_	_
+21-5	1598-1599	.	_	_	_	_	_
+
+#Text=Jalan Ahmad Yani
+22-1	1601-1606	Jalan	_	_	_	_	_
+22-2	1607-1612	Ahmad	_	_	_	_	_
+22-3	1613-1617	Yani	_	_	_	_	_
+

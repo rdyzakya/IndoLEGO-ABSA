@@ -1,0 +1,281 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Harga timah dunia ukir rekor harga tertinggi sepanjang masa pada perdagangan hari ini .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-32	Harga	_	concept[1]	_	_	_
+1-7	33-38	timah	_	concept[1]	_	_	_
+1-8	39-44	dunia	_	concept[1]	_	_	_
+1-9	45-49	ukir	_	negative[2]	_	_	_
+1-10	50-55	rekor	_	negative[2]	_	_	_
+1-11	56-61	harga	_	negative[2]	_	_	_
+1-12	62-71	tertinggi	_	negative[2]	_	_	_
+1-13	72-81	sepanjang	_	_	_	_	_
+1-14	82-86	masa	_	_	_	_	_
+1-15	87-91	pada	_	_	_	_	_
+1-16	92-103	perdagangan	_	_	_	_	_
+1-17	104-108	hari	_	_	_	_	_
+1-18	109-112	ini	_	_	_	_	_
+1-19	113-114	.	_	_	_	_	_
+
+#Text=Rekor terjadi karena produksi timah dari China cenderung anjlok pada bulan Januari membuat pasokan menjadi ketat .
+2-1	116-121	Rekor	_	_	_	_	_
+2-2	122-129	terjadi	_	_	_	_	_
+2-3	130-136	karena	_	_	_	_	_
+2-4	137-145	produksi	_	concept[3]|concept[4]	_	_	_
+2-5	146-151	timah	_	concept[3]	_	_	_
+2-6	152-156	dari	_	_	_	_	_
+2-7	157-162	China	_	_	_	_	_
+2-8	163-172	cenderung	*	[3_5]|negative[5]	_	_	_
+2-9	173-179	anjlok	_	negative[5]|negative[6]	_	_	_
+2-10	180-184	pada	_	_	_	_	_
+2-11	185-190	bulan	_	_	_	_	_
+2-12	191-198	Januari	_	_	_	_	_
+2-13	199-206	membuat	_	_	_	_	_
+2-14	207-214	pasokan	_	concept[7]	_	_	_
+2-15	215-222	menjadi	_	negative[8]	_	_	_
+2-16	223-228	ketat	_	negative[8]	_	_	_
+2-17	229-230	.	_	_	_	_	_
+
+#Text=Pada Jumat ( 18 / 2 / 2022 ) pukul 15.13 WIB harga timah tercatat US$ 44.225 / ton , naik 0,87 % dibandingkan dengan harga penutupan kemarin .
+3-1	232-236	Pada	_	_	_	_	_
+3-2	237-242	Jumat	_	_	_	_	_
+3-3	243-244	(	_	_	_	_	_
+3-4	245-247	18	_	_	_	_	_
+3-5	248-249	/	_	_	_	_	_
+3-6	250-251	2	_	_	_	_	_
+3-7	252-253	/	_	_	_	_	_
+3-8	254-258	2022	_	_	_	_	_
+3-9	259-260	)	_	_	_	_	_
+3-10	261-266	pukul	_	_	_	_	_
+3-11	267-272	15.13	_	_	_	_	_
+3-12	273-276	WIB	_	_	_	_	_
+3-13	277-282	harga	_	_	_	_	_
+3-14	283-288	timah	_	_	_	_	_
+3-15	289-297	tercatat	_	_	_	_	_
+3-16	298-301	US$	_	_	_	_	_
+3-17	302-308	44.225	_	_	_	_	_
+3-18	309-310	/	_	_	_	_	_
+3-19	311-314	ton	_	_	_	_	_
+3-20	315-316	,	_	_	_	_	_
+3-21	317-321	naik	_	_	_	_	_
+3-22	322-326	0,87	_	_	_	_	_
+3-23	327-328	%	_	_	_	_	_
+3-24	329-341	dibandingkan	_	_	_	_	_
+3-25	342-348	dengan	_	_	_	_	_
+3-26	349-354	harga	_	_	_	_	_
+3-27	355-364	penutupan	_	_	_	_	_
+3-28	365-372	kemarin	_	_	_	_	_
+3-29	373-374	.	_	_	_	_	_
+
+#Text=Produksi yang anjlok dari China mendorong harga timah dunia mencatat rekor harga tertinggi .
+4-1	376-384	Produksi	_	_	_	_	_
+4-2	385-389	yang	_	_	_	_	_
+4-3	390-396	anjlok	_	_	_	_	_
+4-4	397-401	dari	_	_	_	_	_
+4-5	402-407	China	_	_	_	_	_
+4-6	408-417	mendorong	_	_	_	_	_
+4-7	418-423	harga	_	concept[9]	_	_	_
+4-8	424-429	timah	_	concept[9]	_	_	_
+4-9	430-435	dunia	_	concept[9]	_	_	_
+4-10	436-444	mencatat	_	negative[10]	_	_	_
+4-11	445-450	rekor	_	negative[10]	_	_	_
+4-12	451-456	harga	_	negative[10]	_	_	_
+4-13	457-466	tertinggi	_	negative[10]	_	_	_
+4-14	467-468	.	_	_	_	_	_
+
+#Text=Sebelumnya rekor tertinggi tercatat di US$ 44.192 / ton pada 10 Februari 2022 .
+5-1	470-480	Sebelumnya	_	_	_	_	_
+5-2	481-486	rekor	_	_	_	_	_
+5-3	487-496	tertinggi	_	_	_	_	_
+5-4	497-505	tercatat	_	_	_	_	_
+5-5	506-508	di	_	_	_	_	_
+5-6	509-512	US$	_	_	_	_	_
+5-7	513-519	44.192	_	_	_	_	_
+5-8	520-521	/	_	_	_	_	_
+5-9	522-525	ton	_	_	_	_	_
+5-10	526-530	pada	_	_	_	_	_
+5-11	531-533	10	_	_	_	_	_
+5-12	534-542	Februari	_	_	_	_	_
+5-13	543-547	2022	_	_	_	_	_
+5-14	548-549	.	_	_	_	_	_
+
+#Text=Produksi timah olahan di China pada Januari turun 3,4 % dari bulan sebelumnya , mengutip data Antaike .
+6-1	551-559	Produksi	_	concept[11]	_	_	_
+6-2	560-565	timah	_	concept[11]	_	_	_
+6-3	566-572	olahan	_	concept[11]	_	_	_
+6-4	573-575	di	_	_	_	_	_
+6-5	576-581	China	_	_	_	_	_
+6-6	582-586	pada	_	_	_	_	_
+6-7	587-594	Januari	_	_	_	_	_
+6-8	595-600	turun	_	positive[12]	_	_	_
+6-9	601-604	3,4	_	_	_	_	_
+6-10	605-606	%	_	_	_	_	_
+6-11	607-611	dari	_	_	_	_	_
+6-12	612-617	bulan	_	_	_	_	_
+6-13	618-628	sebelumnya	_	_	_	_	_
+6-14	629-630	,	_	_	_	_	_
+6-15	631-639	mengutip	_	_	_	_	_
+6-16	640-644	data	_	_	_	_	_
+6-17	645-652	Antaike	_	_	_	_	_
+6-18	653-654	.	_	_	_	_	_
+
+#Text=Output dari 20 pabrik peleburan yang disurvei oleh Antaike , yang menyumbang 95 % dari total kapasitas China , mencapai 15.288 ton bulan lalu .
+7-1	656-662	Output	_	_	_	_	_
+7-2	663-667	dari	_	_	_	_	_
+7-3	668-670	20	_	_	_	_	_
+7-4	671-677	pabrik	_	_	_	_	_
+7-5	678-687	peleburan	_	_	_	_	_
+7-6	688-692	yang	_	_	_	_	_
+7-7	693-701	disurvei	_	_	_	_	_
+7-8	702-706	oleh	_	_	_	_	_
+7-9	707-714	Antaike	_	_	_	_	_
+7-10	715-716	,	_	_	_	_	_
+7-11	717-721	yang	_	_	_	_	_
+7-12	722-732	menyumbang	_	_	_	_	_
+7-13	733-735	95	_	_	_	_	_
+7-14	736-737	%	_	_	_	_	_
+7-15	738-742	dari	_	_	_	_	_
+7-16	743-748	total	_	_	_	_	_
+7-17	749-758	kapasitas	_	_	_	_	_
+7-18	759-764	China	_	_	_	_	_
+7-19	765-766	,	_	_	_	_	_
+7-20	767-775	mencapai	_	_	_	_	_
+7-21	776-782	15.288	_	_	_	_	_
+7-22	783-786	ton	_	_	_	_	_
+7-23	787-792	bulan	_	_	_	_	_
+7-24	793-797	lalu	_	_	_	_	_
+7-25	798-799	.	_	_	_	_	_
+
+#Text=Sebenarnya banyak pabrik peleburan meningkatkan produksi menjelang liburan Tahun Baru Imlek .
+8-1	801-811	Sebenarnya	_	_	_	_	_
+8-2	812-818	banyak	_	_	_	_	_
+8-3	819-825	pabrik	_	_	_	_	_
+8-4	826-835	peleburan	_	_	_	_	_
+8-5	836-848	meningkatkan	*	positive[13]|[14_13]	_	_	_
+8-6	849-857	produksi	_	concept[14]	_	_	_
+8-7	858-867	menjelang	_	_	_	_	_
+8-8	868-875	liburan	_	_	_	_	_
+8-9	876-881	Tahun	_	_	_	_	_
+8-10	882-886	Baru	_	_	_	_	_
+8-11	887-892	Imlek	_	_	_	_	_
+8-12	893-894	.	_	_	_	_	_
+
+#Text=Akan tetapi , terjadi penurunan produksi di wilayah utara dan selatan .
+9-1	896-900	Akan	_	_	_	_	_
+9-2	901-907	tetapi	_	_	_	_	_
+9-3	908-909	,	_	_	_	_	_
+9-4	910-917	terjadi	_	_	_	_	_
+9-5	918-927	penurunan	*	negative[15]|[16_15]	_	_	_
+9-6	928-936	produksi	_	concept[16]	_	_	_
+9-7	937-939	di	_	_	_	_	_
+9-8	940-947	wilayah	_	_	_	_	_
+9-9	948-953	utara	_	_	_	_	_
+9-10	954-957	dan	_	_	_	_	_
+9-11	958-965	selatan	_	_	_	_	_
+9-12	966-967	.	_	_	_	_	_
+
+#Text=Sehingga menekan produksi secara umum .
+10-1	969-977	Sehingga	_	_	_	_	_
+10-2	978-985	menekan	_	_	_	_	_
+10-3	986-994	produksi	_	_	_	_	_
+10-4	995-1001	secara	_	_	_	_	_
+10-5	1002-1006	umum	_	_	_	_	_
+10-6	1007-1008	.	_	_	_	_	_
+
+#Text=Antaike memperkirakan produksi timah olahan akan turun ke rekor terendah pada Februari .
+11-1	1010-1017	Antaike	_	_	_	_	_
+11-2	1018-1031	memperkirakan	_	_	_	_	_
+11-3	1032-1040	produksi	_	_	_	_	_
+11-4	1041-1046	timah	_	_	_	_	_
+11-5	1047-1053	olahan	_	_	_	_	_
+11-6	1054-1058	akan	_	_	_	_	_
+11-7	1059-1064	turun	_	_	_	_	_
+11-8	1065-1067	ke	_	_	_	_	_
+11-9	1068-1073	rekor	_	_	_	_	_
+11-10	1074-1082	terendah	_	_	_	_	_
+11-11	1083-1087	pada	_	_	_	_	_
+11-12	1088-1096	Februari	_	_	_	_	_
+11-13	1097-1098	.	_	_	_	_	_
+
+#Text=Ini karena rencana pemeliharaan seperti China Tin Group dan pabrik peleburan di Jiangxi dan Anhui melanjutkan produksi lebih lambat dari provinsi lain setelah liburan .
+12-1	1100-1103	Ini	_	_	_	_	_
+12-2	1104-1110	karena	_	_	_	_	_
+12-3	1111-1118	rencana	_	_	_	_	_
+12-4	1119-1131	pemeliharaan	_	_	_	_	_
+12-5	1132-1139	seperti	_	_	_	_	_
+12-6	1140-1145	China	_	_	_	_	_
+12-7	1146-1149	Tin	_	_	_	_	_
+12-8	1150-1155	Group	_	_	_	_	_
+12-9	1156-1159	dan	_	_	_	_	_
+12-10	1160-1166	pabrik	_	_	_	_	_
+12-11	1167-1176	peleburan	_	_	_	_	_
+12-12	1177-1179	di	_	_	_	_	_
+12-13	1180-1187	Jiangxi	_	_	_	_	_
+12-14	1188-1191	dan	_	_	_	_	_
+12-15	1192-1197	Anhui	_	_	_	_	_
+12-16	1198-1209	melanjutkan	_	_	_	_	_
+12-17	1210-1218	produksi	_	_	_	_	_
+12-18	1219-1224	lebih	_	_	_	_	_
+12-19	1225-1231	lambat	_	_	_	_	_
+12-20	1232-1236	dari	_	_	_	_	_
+12-21	1237-1245	provinsi	_	_	_	_	_
+12-22	1246-1250	lain	_	_	_	_	_
+12-23	1251-1258	setelah	_	_	_	_	_
+12-24	1259-1266	liburan	_	_	_	_	_
+12-25	1267-1268	.	_	_	_	_	_
+
+#Text=China adalah produsen timah terbesar di dunia .
+13-1	1270-1275	China	_	_	_	_	_
+13-2	1276-1282	adalah	_	_	_	_	_
+13-3	1283-1291	produsen	_	concept[17]	_	_	_
+13-4	1292-1297	timah	_	concept[17]	_	_	_
+13-5	1298-1306	terbesar	*	[17_18]|positive[18]	_	_	_
+13-6	1307-1309	di	_	_	_	_	_
+13-7	1310-1315	dunia	_	_	_	_	_
+13-8	1316-1317	.	_	_	_	_	_
+
+#Text=Dihimpun dari USGS , produksi timah China pada tahun 2021 sebesar 91.000 ton atau setara 30,3 % dari produksi dunia .
+14-1	1319-1327	Dihimpun	_	_	_	_	_
+14-2	1328-1332	dari	_	_	_	_	_
+14-3	1333-1337	USGS	_	_	_	_	_
+14-4	1338-1339	,	_	_	_	_	_
+14-5	1340-1348	produksi	_	_	_	_	_
+14-6	1349-1354	timah	_	_	_	_	_
+14-7	1355-1360	China	_	_	_	_	_
+14-8	1361-1365	pada	_	_	_	_	_
+14-9	1366-1371	tahun	_	_	_	_	_
+14-10	1372-1376	2021	_	_	_	_	_
+14-11	1377-1384	sebesar	_	_	_	_	_
+14-12	1385-1391	91.000	_	_	_	_	_
+14-13	1392-1395	ton	_	_	_	_	_
+14-14	1396-1400	atau	_	_	_	_	_
+14-15	1401-1407	setara	_	_	_	_	_
+14-16	1408-1412	30,3	_	_	_	_	_
+14-17	1413-1414	%	_	_	_	_	_
+14-18	1415-1419	dari	_	_	_	_	_
+14-19	1420-1428	produksi	_	_	_	_	_
+14-20	1429-1434	dunia	_	_	_	_	_
+14-21	1435-1436	.	_	_	_	_	_
+
+#Text=Sehingga pasokan dari China berpengaruh terhadap gerak timah dunia .
+15-1	1438-1446	Sehingga	_	_	_	_	_
+15-2	1447-1454	pasokan	_	_	_	_	_
+15-3	1455-1459	dari	_	_	_	_	_
+15-4	1460-1465	China	_	_	_	_	_
+15-5	1466-1477	berpengaruh	_	_	_	_	_
+15-6	1478-1486	terhadap	_	_	_	_	_
+15-7	1487-1492	gerak	_	_	_	_	_
+15-8	1493-1498	timah	_	_	_	_	_
+15-9	1499-1504	dunia	_	_	_	_	_
+15-10	1505-1506	.	_	_	_	_	_
+
+#Text=TIM RISET CNBC INDONESIA
+16-1	1508-1511	TIM	_	_	_	_	_
+16-2	1512-1517	RISET	_	_	_	_	_
+16-3	1518-1522	CNBC	_	_	_	_	_
+16-4	1523-1532	INDONESIA	_	_	_	_	_
+

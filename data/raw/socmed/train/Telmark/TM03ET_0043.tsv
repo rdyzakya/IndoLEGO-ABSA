@@ -1,0 +1,249 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=sudah matiin saja dadah
+1-1	0-5	sudah	_	_	_	_	_
+1-2	6-12	matiin	_	_	_	_	_
+1-3	13-17	saja	_	_	_	_	_
+1-4	18-23	dadah	_	_	_	_	_
+
+#Text=halo
+2-1	25-29	halo	_	_	_	_	_
+
+#Text=mama cari duit dulu
+3-1	31-35	mama	_	_	_	_	_
+3-2	36-40	cari	_	_	_	_	_
+3-3	41-45	duit	_	_	_	_	_
+3-4	46-50	dulu	_	_	_	_	_
+
+#Text=iya
+4-1	52-55	iya	_	_	_	_	_
+
+#Text=halo sore pak gatot
+5-1	57-61	halo	_	_	_	_	_
+5-2	62-66	sore	_	_	_	_	_
+5-3	67-70	pak	_	_	_	_	_
+5-4	71-76	gatot	_	_	_	_	_
+
+#Text=kalau besok kalau enggak hari ini bentar
+6-1	78-83	kalau	_	_	_	_	_
+6-2	84-89	besok	_	_	_	_	_
+6-3	90-95	kalau	_	_	_	_	_
+6-4	96-102	enggak	_	_	_	_	_
+6-5	103-107	hari	_	_	_	_	_
+6-6	108-111	ini	_	_	_	_	_
+6-7	112-118	bentar	_	_	_	_	_
+
+#Text=iya jesica pak bca
+7-1	120-123	iya	_	_	_	_	_
+7-2	124-130	jesica	_	_	_	_	_
+7-3	131-134	pak	_	_	_	_	_
+7-4	135-138	bca	_	concept[1]	_	_	_
+
+#Text=< em > < ah > belum ada mbak
+8-1	140-141	<	_	_	_	_	_
+8-2	142-144	em	_	_	_	_	_
+8-3	145-146	>	_	_	_	_	_
+8-4	147-148	<	_	_	_	_	_
+8-5	149-151	ah	_	_	_	_	_
+8-6	152-153	>	_	_	_	_	_
+8-7	154-159	belum	*	negative[2]|[3_2]	_	_	_
+8-8	160-163	ada	_	negative[2]	_	_	_
+8-9	164-168	mbak	_	_	_	_	_
+
+#Text=pak gatot ini untuk sementara wa saya keblokir ini jadi saya konfirmasi nya via telepon iya
+9-1	170-173	pak	_	_	_	_	_
+9-2	174-179	gatot	_	_	_	_	_
+9-3	180-183	ini	_	_	_	_	_
+9-4	184-189	untuk	_	_	_	_	_
+9-5	190-199	sementara	_	_	_	_	_
+9-6	200-202	wa	_	_	_	_	_
+9-7	203-207	saya	_	_	_	_	_
+9-8	208-216	keblokir	_	_	_	_	_
+9-9	217-220	ini	_	_	_	_	_
+9-10	221-225	jadi	_	_	_	_	_
+9-11	226-230	saya	_	_	_	_	_
+9-12	231-241	konfirmasi	_	_	_	_	_
+9-13	242-245	nya	_	_	_	_	_
+9-14	246-249	via	_	_	_	_	_
+9-15	250-257	telepon	_	_	_	_	_
+9-16	258-261	iya	_	_	_	_	_
+
+#Text=mau ada nya sebegitu mbak < e > ini nya
+10-1	263-266	mau	_	_	_	_	_
+10-2	267-270	ada	_	_	_	_	_
+10-3	271-274	nya	_	_	_	_	_
+10-4	275-283	sebegitu	_	_	_	_	_
+10-5	284-288	mbak	_	_	_	_	_
+10-6	289-290	<	_	_	_	_	_
+10-7	291-292	e	_	_	_	_	_
+10-8	293-294	>	_	_	_	_	_
+10-9	295-298	ini	_	_	_	_	_
+10-10	299-302	nya	_	_	_	_	_
+
+#Text=< heem > sudah tanggal dua enam ini pak jadi bisa dipastikan kembali tanggal berapa ini pak
+11-1	304-305	<	_	_	_	_	_
+11-2	306-310	heem	_	_	_	_	_
+11-3	311-312	>	_	_	_	_	_
+11-4	313-318	sudah	_	_	_	_	_
+11-5	319-326	tanggal	_	_	_	_	_
+11-6	327-330	dua	_	_	_	_	_
+11-7	331-335	enam	_	_	_	_	_
+11-8	336-339	ini	_	_	_	_	_
+11-9	340-343	pak	_	_	_	_	_
+11-10	344-348	jadi	_	_	_	_	_
+11-11	349-353	bisa	_	_	_	_	_
+11-12	354-364	dipastikan	_	_	_	_	_
+11-13	365-372	kembali	_	_	_	_	_
+11-14	373-380	tanggal	_	_	_	_	_
+11-15	381-387	berapa	_	_	_	_	_
+11-16	388-391	ini	_	_	_	_	_
+11-17	392-395	pak	_	_	_	_	_
+
+#Text=sebegitu
+12-1	397-405	sebegitu	_	_	_	_	_
+
+#Text=< e > begitu bapak ini kan tinggal tiga juta ini pak tiga juta dua ratus empat puluh dua ribu sekian < napas > enggak mau dilunasin saja ini pak gatot
+13-1	407-408	<	_	_	_	_	_
+13-2	409-410	e	_	_	_	_	_
+13-3	411-412	>	_	_	_	_	_
+13-4	413-419	begitu	_	_	_	_	_
+13-5	420-425	bapak	_	_	_	_	_
+13-6	426-429	ini	_	_	_	_	_
+13-7	430-433	kan	_	_	_	_	_
+13-8	434-441	tinggal	_	_	_	_	_
+13-9	442-446	tiga	_	_	_	_	_
+13-10	447-451	juta	_	_	_	_	_
+13-11	452-455	ini	_	_	_	_	_
+13-12	456-459	pak	_	_	_	_	_
+13-13	460-464	tiga	_	_	_	_	_
+13-14	465-469	juta	_	_	_	_	_
+13-15	470-473	dua	_	_	_	_	_
+13-16	474-479	ratus	_	_	_	_	_
+13-17	480-485	empat	_	_	_	_	_
+13-18	486-491	puluh	_	_	_	_	_
+13-19	492-495	dua	_	_	_	_	_
+13-20	496-500	ribu	_	_	_	_	_
+13-21	501-507	sekian	_	_	_	_	_
+13-22	508-509	<	_	_	_	_	_
+13-23	510-515	napas	_	_	_	_	_
+13-24	516-517	>	_	_	_	_	_
+13-25	518-524	enggak	_	_	_	_	_
+13-26	525-528	mau	_	_	_	_	_
+13-27	529-538	dilunasin	_	_	_	_	_
+13-28	539-543	saja	_	_	_	_	_
+13-29	544-547	ini	_	_	_	_	_
+13-30	548-551	pak	_	_	_	_	_
+13-31	552-557	gatot	_	_	_	_	_
+
+#Text=iya < e > ini juga ini mbak kan yang penting ini sudah ada terus saya juga mau nya juga begitu saya lebihin mbak
+14-1	559-562	iya	_	_	_	_	_
+14-2	563-564	<	_	_	_	_	_
+14-3	565-566	e	_	_	_	_	_
+14-4	567-568	>	_	_	_	_	_
+14-5	569-572	ini	_	_	_	_	_
+14-6	573-577	juga	_	_	_	_	_
+14-7	578-581	ini	_	_	_	_	_
+14-8	582-586	mbak	_	_	_	_	_
+14-9	587-590	kan	_	_	_	_	_
+14-10	591-595	yang	_	_	_	_	_
+14-11	596-603	penting	_	_	_	_	_
+14-12	604-607	ini	_	_	_	_	_
+14-13	608-613	sudah	_	_	_	_	_
+14-14	614-617	ada	_	_	_	_	_
+14-15	618-623	terus	_	_	_	_	_
+14-16	624-628	saya	_	_	_	_	_
+14-17	629-633	juga	_	_	_	_	_
+14-18	634-637	mau	_	_	_	_	_
+14-19	638-641	nya	_	_	_	_	_
+14-20	642-646	juga	_	_	_	_	_
+14-21	647-653	begitu	_	_	_	_	_
+14-22	654-658	saya	_	_	_	_	_
+14-23	659-666	lebihin	_	_	_	_	_
+14-24	667-671	mbak	_	_	_	_	_
+
+#Text=okay minimum berapa ini pak
+15-1	673-677	okay	_	_	_	_	_
+15-2	678-685	minimum	*	[1_3]|concept[3]	_	_	_
+15-3	686-692	berapa	_	_	_	_	_
+15-4	693-696	ini	_	_	_	_	_
+15-5	697-700	pak	_	_	_	_	_
+
+#Text=iya tar saya ini kalau ini saya sekalian lewat ke atm
+16-1	702-705	iya	_	_	_	_	_
+16-2	706-709	tar	_	_	_	_	_
+16-3	710-714	saya	_	_	_	_	_
+16-4	715-718	ini	_	_	_	_	_
+16-5	719-724	kalau	_	_	_	_	_
+16-6	725-728	ini	_	_	_	_	_
+16-7	729-733	saya	_	_	_	_	_
+16-8	734-742	sekalian	_	_	_	_	_
+16-9	743-748	lewat	_	_	_	_	_
+16-10	749-751	ke	_	_	_	_	_
+16-11	752-755	atm	_	_	_	_	_
+
+#Text=ditingkatin dong pak kecil banget kalau sebegitu
+17-1	757-768	ditingkatin	_	_	_	_	_
+17-2	769-773	dong	_	_	_	_	_
+17-3	774-777	pak	_	_	_	_	_
+17-4	778-783	kecil	*	[3_4]|negative[4]	_	_	_
+17-5	784-790	banget	_	negative[4]	_	_	_
+17-6	791-796	kalau	_	_	_	_	_
+17-7	797-805	sebegitu	_	_	_	_	_
+
+#Text=siang
+18-1	807-812	siang	_	_	_	_	_
+
+#Text=jauh banget dong pak kalau masih empat ratus empat ratus juga dibayarin
+19-1	814-818	jauh	*	[3_5]|negative[5]	_	_	_
+19-2	819-825	banget	_	negative[5]	_	_	_
+19-3	826-830	dong	_	_	_	_	_
+19-4	831-834	pak	_	_	_	_	_
+19-5	835-840	kalau	_	_	_	_	_
+19-6	841-846	masih	_	_	_	_	_
+19-7	847-852	empat	_	_	_	_	_
+19-8	853-858	ratus	_	_	_	_	_
+19-9	859-864	empat	_	_	_	_	_
+19-10	865-870	ratus	_	_	_	_	_
+19-11	871-875	juga	_	_	_	_	_
+19-12	876-885	dibayarin	_	_	_	_	_
+
+#Text=< em > iya sudah dikejar saja iya pak iya
+20-1	887-888	<	_	_	_	_	_
+20-2	889-891	em	_	_	_	_	_
+20-3	892-893	>	_	_	_	_	_
+20-4	894-897	iya	_	_	_	_	_
+20-5	898-903	sudah	_	_	_	_	_
+20-6	904-911	dikejar	_	_	_	_	_
+20-7	912-916	saja	_	_	_	_	_
+20-8	917-920	iya	_	_	_	_	_
+20-9	921-924	pak	_	_	_	_	_
+20-10	925-928	iya	_	_	_	_	_
+
+#Text=iya sudah
+21-1	930-933	iya	_	_	_	_	_
+21-2	934-939	sudah	_	_	_	_	_
+
+#Text=iya sudah okay iya < jes > konfirmasi via telepon saja iya untuk sementara < napas > yuk siang pak
+22-1	941-944	iya	_	_	_	_	_
+22-2	945-950	sudah	_	_	_	_	_
+22-3	951-955	okay	_	_	_	_	_
+22-4	956-959	iya	_	_	_	_	_
+22-5	960-961	<	_	_	_	_	_
+22-6	962-965	jes	_	_	_	_	_
+22-7	966-967	>	_	_	_	_	_
+22-8	968-978	konfirmasi	_	_	_	_	_
+22-9	979-982	via	_	_	_	_	_
+22-10	983-990	telepon	_	_	_	_	_
+22-11	991-995	saja	_	_	_	_	_
+22-12	996-999	iya	_	_	_	_	_
+22-13	1000-1005	untuk	_	_	_	_	_
+22-14	1006-1015	sementara	_	_	_	_	_
+22-15	1016-1017	<	_	_	_	_	_
+22-16	1018-1023	napas	_	_	_	_	_
+22-17	1024-1025	>	_	_	_	_	_
+22-18	1026-1029	yuk	_	_	_	_	_
+22-19	1030-1035	siang	_	_	_	_	_
+22-20	1036-1039	pak	_	_	_	_	_
+
+#Text=iya
+23-1	1041-1044	iya	_	_	_	_	_

@@ -1,0 +1,1827 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo siang bu dengan ibu lilis nih bu
+1-1	0-4	halo	_	_	_	_	_
+1-2	5-10	siang	_	_	_	_	_
+1-3	11-13	bu	_	_	_	_	_
+1-4	14-20	dengan	_	_	_	_	_
+1-5	21-24	ibu	_	_	_	_	_
+1-6	25-30	lilis	_	_	_	_	_
+1-7	31-34	nih	_	_	_	_	_
+1-8	35-37	bu	_	_	_	_	_
+
+#Text=iya dengan ibu lilis
+2-1	39-42	iya	_	_	_	_	_
+2-2	43-49	dengan	_	_	_	_	_
+2-3	50-53	ibu	_	_	_	_	_
+2-4	54-59	lilis	_	_	_	_	_
+
+#Text=iya saya mau nanya
+3-1	61-64	iya	_	_	_	_	_
+3-2	65-69	saya	_	_	_	_	_
+3-3	70-73	mau	_	_	_	_	_
+3-4	74-79	nanya	_	_	_	_	_
+
+#Text=kok di mobile banking bca itu tidak ada untuk pembayaran bpjs ya bu ya
+4-1	81-84	kok	_	_	_	_	_
+4-2	85-87	di	_	_	_	_	_
+4-3	88-94	mobile	*	concept[1]|[2_1]	_	_	_
+4-4	95-102	banking	_	concept[1]	_	_	_
+4-5	103-106	bca	_	concept[2]	_	_	_
+4-6	107-110	itu	_	_	_	_	_
+4-7	111-116	tidak	*	negative[3]|[4_3]	_	_	_
+4-8	117-120	ada	_	negative[3]	_	_	_
+4-9	121-126	untuk	_	_	_	_	_
+4-10	127-137	pembayaran	*	[1_4]|concept[4]	_	_	_
+4-11	138-142	bpjs	_	concept[4]	_	_	_
+4-12	143-145	ya	_	_	_	_	_
+4-13	146-148	bu	_	_	_	_	_
+4-14	149-151	ya	_	_	_	_	_
+
+#Text=< filler > halo
+5-1	153-154	<	_	_	_	_	_
+5-2	155-161	filler	_	_	_	_	_
+5-3	162-163	>	_	_	_	_	_
+5-4	164-168	halo	_	_	_	_	_
+
+#Text=< filler >
+6-1	170-171	<	_	_	_	_	_
+6-2	172-178	filler	_	_	_	_	_
+6-3	179-180	>	_	_	_	_	_
+
+#Text=< filler > belum
+7-1	182-183	<	_	_	_	_	_
+7-2	184-190	filler	_	_	_	_	_
+7-3	191-192	>	_	_	_	_	_
+7-4	193-198	belum	_	_	_	_	_
+
+#Text=< filler > < filler > oke terus < filler > saya
+8-1	200-201	<	_	_	_	_	_
+8-2	202-208	filler	_	_	_	_	_
+8-3	209-210	>	_	_	_	_	_
+8-4	211-212	<	_	_	_	_	_
+8-5	213-219	filler	_	_	_	_	_
+8-6	220-221	>	_	_	_	_	_
+8-7	222-225	oke	_	_	_	_	_
+8-8	226-231	terus	_	_	_	_	_
+8-9	232-233	<	_	_	_	_	_
+8-10	234-240	filler	_	_	_	_	_
+8-11	241-242	>	_	_	_	_	_
+8-12	243-247	saya	_	_	_	_	_
+
+#Text=individu individu
+9-1	249-257	individu	_	_	_	_	_
+9-2	258-266	individu	_	_	_	_	_
+
+#Text=< filler > ya pasti di mesin mbak mau nanya
+10-1	268-269	<	_	_	_	_	_
+10-2	270-276	filler	_	_	_	_	_
+10-3	277-278	>	_	_	_	_	_
+10-4	279-281	ya	_	_	_	_	_
+10-5	282-287	pasti	_	_	_	_	_
+10-6	288-290	di	_	_	_	_	_
+10-7	291-296	mesin	_	_	_	_	_
+10-8	297-301	mbak	_	_	_	_	_
+10-9	302-305	mau	_	_	_	_	_
+10-10	306-311	nanya	_	_	_	_	_
+
+#Text=< filler > bisa cek tahu saya tuh kemarin kan < filler > tanggal berapa itu kan saya bayar bpjs nih
+11-1	313-314	<	_	_	_	_	_
+11-2	315-321	filler	_	_	_	_	_
+11-3	322-323	>	_	_	_	_	_
+11-4	324-328	bisa	_	_	_	_	_
+11-5	329-332	cek	_	_	_	_	_
+11-6	333-337	tahu	_	_	_	_	_
+11-7	338-342	saya	_	_	_	_	_
+11-8	343-346	tuh	_	_	_	_	_
+11-9	347-354	kemarin	_	_	_	_	_
+11-10	355-358	kan	_	_	_	_	_
+11-11	359-360	<	_	_	_	_	_
+11-12	361-367	filler	_	_	_	_	_
+11-13	368-369	>	_	_	_	_	_
+11-14	370-377	tanggal	_	_	_	_	_
+11-15	378-384	berapa	_	_	_	_	_
+11-16	385-388	itu	_	_	_	_	_
+11-17	389-392	kan	_	_	_	_	_
+11-18	393-397	saya	_	_	_	_	_
+11-19	398-403	bayar	*	concept[5]|[6_5]	_	_	_
+11-20	404-408	bpjs	_	concept[5]	_	_	_
+11-21	409-412	nih	_	_	_	_	_
+
+#Text=< filler > ternyata < filler > status nya kan < filler > di di di < unk > pakai saya pakai internet banking status nya itu gagal gagal nya itu karena saya enggak tahu apa udah lunas atau gimana tapi < filler > apa nama nya < filler > uang saya udah udah terdebit nih di bca
+12-1	414-415	<	_	_	_	_	_
+12-2	416-422	filler	_	_	_	_	_
+12-3	423-424	>	_	_	_	_	_
+12-4	425-433	ternyata	_	_	_	_	_
+12-5	434-435	<	_	_	_	_	_
+12-6	436-442	filler	_	_	_	_	_
+12-7	443-444	>	_	_	_	_	_
+12-8	445-451	status	_	_	_	_	_
+12-9	452-455	nya	_	_	_	_	_
+12-10	456-459	kan	_	_	_	_	_
+12-11	460-461	<	_	_	_	_	_
+12-12	462-468	filler	_	_	_	_	_
+12-13	469-470	>	_	_	_	_	_
+12-14	471-473	di	_	_	_	_	_
+12-15	474-476	di	_	_	_	_	_
+12-16	477-479	di	_	_	_	_	_
+12-17	480-481	<	_	_	_	_	_
+12-18	482-485	unk	_	_	_	_	_
+12-19	486-487	>	_	_	_	_	_
+12-20	488-493	pakai	_	_	_	_	_
+12-21	494-498	saya	_	_	_	_	_
+12-22	499-504	pakai	_	_	_	_	_
+12-23	505-513	internet	*	concept[6]|[9_6]	_	_	_
+12-24	514-521	banking	_	concept[6]	_	_	_
+12-25	522-528	status	_	_	_	_	_
+12-26	529-532	nya	_	_	_	_	_
+12-27	533-536	itu	_	_	_	_	_
+12-28	537-542	gagal	*	[5_7]|negative[7]	_	_	_
+12-29	543-548	gagal	*	[5_8]|negative[8]	_	_	_
+12-30	549-552	nya	_	_	_	_	_
+12-31	553-556	itu	_	_	_	_	_
+12-32	557-563	karena	_	_	_	_	_
+12-33	564-568	saya	_	_	_	_	_
+12-34	569-575	enggak	_	_	_	_	_
+12-35	576-580	tahu	_	_	_	_	_
+12-36	581-584	apa	_	_	_	_	_
+12-37	585-589	udah	_	_	_	_	_
+12-38	590-595	lunas	_	_	_	_	_
+12-39	596-600	atau	_	_	_	_	_
+12-40	601-607	gimana	_	_	_	_	_
+12-41	608-612	tapi	_	_	_	_	_
+12-42	613-614	<	_	_	_	_	_
+12-43	615-621	filler	_	_	_	_	_
+12-44	622-623	>	_	_	_	_	_
+12-45	624-627	apa	_	_	_	_	_
+12-46	628-632	nama	_	_	_	_	_
+12-47	633-636	nya	_	_	_	_	_
+12-48	637-638	<	_	_	_	_	_
+12-49	639-645	filler	_	_	_	_	_
+12-50	646-647	>	_	_	_	_	_
+12-51	648-652	uang	_	_	_	_	_
+12-52	653-657	saya	_	_	_	_	_
+12-53	658-662	udah	_	_	_	_	_
+12-54	663-667	udah	_	_	_	_	_
+12-55	668-676	terdebit	_	_	_	_	_
+12-56	677-680	nih	_	_	_	_	_
+12-57	681-683	di	_	_	_	_	_
+12-58	684-687	bca	_	concept[9]	_	_	_
+
+#Text=nah terus kan saya < filler > telepon lagi ke bca
+13-1	689-692	nah	_	_	_	_	_
+13-2	693-698	terus	_	_	_	_	_
+13-3	699-702	kan	_	_	_	_	_
+13-4	703-707	saya	_	_	_	_	_
+13-5	708-709	<	_	_	_	_	_
+13-6	710-716	filler	_	_	_	_	_
+13-7	717-718	>	_	_	_	_	_
+13-8	719-726	telepon	_	_	_	_	_
+13-9	727-731	lagi	_	_	_	_	_
+13-10	732-734	ke	_	_	_	_	_
+13-11	735-738	bca	_	_	_	_	_
+
+#Text=itu uang nya dikembalikan lagi nah tapi kok sekarang kok saya bayar bayar bca lagi kok tagihan sudah < unk > lunas ya bingung saya
+14-1	740-743	itu	_	_	_	_	_
+14-2	744-748	uang	*	concept[10]|[13_10]	_	_	_
+14-3	749-752	nya	_	_	_	_	_
+14-4	753-765	dikembalikan	*	[10_11]|positive[11]	_	_	_
+14-5	766-770	lagi	_	positive[11]	_	_	_
+14-6	771-774	nah	_	_	_	_	_
+14-7	775-779	tapi	_	_	_	_	_
+14-8	780-783	kok	_	_	_	_	_
+14-9	784-792	sekarang	_	_	_	_	_
+14-10	793-796	kok	_	_	_	_	_
+14-11	797-801	saya	_	_	_	_	_
+14-12	802-807	bayar	_	_	_	_	_
+14-13	808-813	bayar	*	concept[12]|[13_12]	_	_	_
+14-14	814-817	bca	_	concept[13]	_	_	_
+14-15	818-822	lagi	_	_	_	_	_
+14-16	823-826	kok	_	_	_	_	_
+14-17	827-834	tagihan	*	[12_14]|negative[14]	_	_	_
+14-18	835-840	sudah	_	negative[14]	_	_	_
+14-19	841-842	<	_	negative[14]	_	_	_
+14-20	843-846	unk	_	negative[14]	_	_	_
+14-21	847-848	>	_	negative[14]	_	_	_
+14-22	849-854	lunas	_	negative[14]	_	_	_
+14-23	855-857	ya	_	_	_	_	_
+14-24	858-865	bingung	*	[12_15]|negative[15]	_	_	_
+14-25	866-870	saya	_	_	_	_	_
+
+#Text=< filler >
+15-1	872-873	<	_	_	_	_	_
+15-2	874-880	filler	_	_	_	_	_
+15-3	881-882	>	_	_	_	_	_
+
+#Text=transaksi nya sebentar ya bu ini tanggal berapa sih nih kayak nya tanggal sa kalau enggak salah tanggal lima
+16-1	884-893	transaksi	*	[13_16]|concept[16]	_	_	_
+16-2	894-897	nya	_	_	_	_	_
+16-3	898-906	sebentar	_	_	_	_	_
+16-4	907-909	ya	_	_	_	_	_
+16-5	910-912	bu	_	_	_	_	_
+16-6	913-916	ini	_	_	_	_	_
+16-7	917-924	tanggal	_	_	_	_	_
+16-8	925-931	berapa	_	_	_	_	_
+16-9	932-935	sih	_	_	_	_	_
+16-10	936-939	nih	_	_	_	_	_
+16-11	940-945	kayak	_	_	_	_	_
+16-12	946-949	nya	_	_	_	_	_
+16-13	950-957	tanggal	_	_	_	_	_
+16-14	958-960	sa	_	_	_	_	_
+16-15	961-966	kalau	_	_	_	_	_
+16-16	967-973	enggak	_	_	_	_	_
+16-17	974-979	salah	_	_	_	_	_
+16-18	980-987	tanggal	_	_	_	_	_
+16-19	988-992	lima	_	_	_	_	_
+
+#Text=di nomor rekening saya < filler >
+17-1	994-996	di	_	_	_	_	_
+17-2	997-1002	nomor	_	_	_	_	_
+17-3	1003-1011	rekening	_	_	_	_	_
+17-4	1012-1016	saya	_	_	_	_	_
+17-5	1017-1018	<	_	_	_	_	_
+17-6	1019-1025	filler	_	_	_	_	_
+17-7	1026-1027	>	_	_	_	_	_
+
+#Text=nomor rekening dengan nominal lima puluh satu ribu plus admin dua ribu lima ratus
+18-1	1029-1034	nomor	_	_	_	_	_
+18-2	1035-1043	rekening	_	_	_	_	_
+18-3	1044-1050	dengan	_	_	_	_	_
+18-4	1051-1058	nominal	_	_	_	_	_
+18-5	1059-1063	lima	_	_	_	_	_
+18-6	1064-1069	puluh	_	_	_	_	_
+18-7	1070-1074	satu	_	_	_	_	_
+18-8	1075-1079	ribu	_	_	_	_	_
+18-9	1080-1084	plus	_	_	_	_	_
+18-10	1085-1090	admin	_	_	_	_	_
+18-11	1091-1094	dua	_	_	_	_	_
+18-12	1095-1099	ribu	_	_	_	_	_
+18-13	1100-1104	lima	_	_	_	_	_
+18-14	1105-1110	ratus	_	_	_	_	_
+
+#Text=nah itu saya belum tahu karena pertama < filler > saya kalau enggak salah sih sempat dua kali nah
+19-1	1112-1115	nah	_	_	_	_	_
+19-2	1116-1119	itu	_	_	_	_	_
+19-3	1120-1124	saya	_	_	_	_	_
+19-4	1125-1130	belum	_	_	_	_	_
+19-5	1131-1135	tahu	_	_	_	_	_
+19-6	1136-1142	karena	_	_	_	_	_
+19-7	1143-1150	pertama	_	_	_	_	_
+19-8	1151-1152	<	_	_	_	_	_
+19-9	1153-1159	filler	_	_	_	_	_
+19-10	1160-1161	>	_	_	_	_	_
+19-11	1162-1166	saya	_	_	_	_	_
+19-12	1167-1172	kalau	_	_	_	_	_
+19-13	1173-1179	enggak	_	_	_	_	_
+19-14	1180-1185	salah	_	_	_	_	_
+19-15	1186-1189	sih	_	_	_	_	_
+19-16	1190-1196	sempat	_	_	_	_	_
+19-17	1197-1200	dua	_	_	_	_	_
+19-18	1201-1205	kali	_	_	_	_	_
+19-19	1206-1209	nah	_	_	_	_	_
+
+#Text=dua kalinya itu gimana < filler > ter saya enggak ngerti nih
+20-1	1211-1214	dua	_	_	_	_	_
+20-2	1215-1222	kalinya	_	_	_	_	_
+20-3	1223-1226	itu	_	_	_	_	_
+20-4	1227-1233	gimana	_	_	_	_	_
+20-5	1234-1235	<	_	_	_	_	_
+20-6	1236-1242	filler	_	_	_	_	_
+20-7	1243-1244	>	_	_	_	_	_
+20-8	1245-1248	ter	_	_	_	_	_
+20-9	1249-1253	saya	_	_	_	_	_
+20-10	1254-1260	enggak	_	_	_	_	_
+20-11	1261-1267	ngerti	_	_	_	_	_
+20-12	1268-1271	nih	_	_	_	_	_
+
+#Text=< filler >
+21-1	1273-1274	<	_	_	_	_	_
+21-2	1275-1281	filler	_	_	_	_	_
+21-3	1282-1283	>	_	_	_	_	_
+
+#Text=< filler >
+22-1	1285-1286	<	_	_	_	_	_
+22-2	1287-1293	filler	_	_	_	_	_
+22-3	1294-1295	>	_	_	_	_	_
+
+#Text=< filler > status gagal tanggal
+23-1	1297-1298	<	_	_	_	_	_
+23-2	1299-1305	filler	_	_	_	_	_
+23-3	1306-1307	>	_	_	_	_	_
+23-4	1308-1314	status	*	[16_17]|concept[17]	_	_	_
+23-5	1315-1320	gagal	*	[17_18]|negative[18]	_	_	_
+23-6	1321-1328	tanggal	_	_	_	_	_
+
+#Text=tanggal lima bulan jam sembilan dua tiga titik tiga empat
+24-1	1330-1337	tanggal	_	_	_	_	_
+24-2	1338-1342	lima	_	_	_	_	_
+24-3	1343-1348	bulan	_	_	_	_	_
+24-4	1349-1352	jam	_	_	_	_	_
+24-5	1353-1361	sembilan	_	_	_	_	_
+24-6	1362-1365	dua	_	_	_	_	_
+24-7	1366-1370	tiga	_	_	_	_	_
+24-8	1371-1376	titik	_	_	_	_	_
+24-9	1377-1381	tiga	_	_	_	_	_
+24-10	1382-1387	empat	_	_	_	_	_
+
+#Text=< filler >
+25-1	1389-1390	<	_	_	_	_	_
+25-2	1391-1397	filler	_	_	_	_	_
+25-3	1398-1399	>	_	_	_	_	_
+
+#Text=empat sat empat satu tiga
+26-1	1401-1406	empat	_	_	_	_	_
+26-2	1407-1410	sat	_	_	_	_	_
+26-3	1411-1416	empat	_	_	_	_	_
+26-4	1417-1421	satu	_	_	_	_	_
+26-5	1422-1426	tiga	_	_	_	_	_
+
+#Text=nol satu enam
+27-1	1428-1431	nol	_	_	_	_	_
+27-2	1432-1436	satu	_	_	_	_	_
+27-3	1437-1441	enam	_	_	_	_	_
+
+#Text=sembilan dua enam enam
+28-1	1443-1451	sembilan	_	_	_	_	_
+28-2	1452-1455	dua	_	_	_	_	_
+28-3	1456-1460	enam	_	_	_	_	_
+28-4	1461-1465	enam	_	_	_	_	_
+
+#Text=ya maksud nya internet saya udah melakukan banking
+29-1	1467-1469	ya	_	_	_	_	_
+29-2	1470-1476	maksud	_	_	_	_	_
+29-3	1477-1480	nya	_	_	_	_	_
+29-4	1481-1489	internet	_	_	_	_	_
+29-5	1490-1494	saya	_	_	_	_	_
+29-6	1495-1499	udah	_	_	_	_	_
+29-7	1500-1509	melakukan	_	_	_	_	_
+29-8	1510-1517	banking	_	_	_	_	_
+
+#Text=cuma nih kayak nya ada ada miss atau gimana
+30-1	1519-1523	cuma	_	_	_	_	_
+30-2	1524-1527	nih	_	_	_	_	_
+30-3	1528-1533	kayak	_	_	_	_	_
+30-4	1534-1537	nya	_	_	_	_	_
+30-5	1538-1541	ada	_	_	_	_	_
+30-6	1542-1545	ada	*	[16_19]|negative[19]	_	_	_
+30-7	1546-1550	miss	_	negative[19]	_	_	_
+30-8	1551-1555	atau	_	_	_	_	_
+30-9	1556-1562	gimana	_	_	_	_	_
+
+#Text=< filler > coba deh ibu lihat dulu deh
+31-1	1564-1565	<	_	_	_	_	_
+31-2	1566-1572	filler	_	_	_	_	_
+31-3	1573-1574	>	_	_	_	_	_
+31-4	1575-1579	coba	_	_	_	_	_
+31-5	1580-1583	deh	_	_	_	_	_
+31-6	1584-1587	ibu	_	_	_	_	_
+31-7	1588-1593	lihat	_	_	_	_	_
+31-8	1594-1598	dulu	_	_	_	_	_
+31-9	1599-1602	deh	_	_	_	_	_
+
+#Text=sulistia ningsing atas nama saya sendiri
+32-1	1604-1612	sulistia	_	_	_	_	_
+32-2	1613-1621	ningsing	_	_	_	_	_
+32-3	1622-1626	atas	_	_	_	_	_
+32-4	1627-1631	nama	_	_	_	_	_
+32-5	1632-1636	saya	_	_	_	_	_
+32-6	1637-1644	sendiri	_	_	_	_	_
+
+#Text=sulistia ningsih
+33-1	1646-1654	sulistia	_	_	_	_	_
+33-2	1655-1662	ningsih	_	_	_	_	_
+
+#Text=pemalang tujuh belas sepuluh tujuh satu
+34-1	1664-1672	pemalang	_	_	_	_	_
+34-2	1673-1678	tujuh	_	_	_	_	_
+34-3	1679-1684	belas	_	_	_	_	_
+34-4	1685-1692	sepuluh	_	_	_	_	_
+34-5	1693-1698	tujuh	_	_	_	_	_
+34-6	1699-1703	satu	_	_	_	_	_
+
+#Text=pemalang tujuh belas sepuluh tujuh satu
+35-1	1705-1713	pemalang	_	_	_	_	_
+35-2	1714-1719	tujuh	_	_	_	_	_
+35-3	1720-1725	belas	_	_	_	_	_
+35-4	1726-1733	sepuluh	_	_	_	_	_
+35-5	1734-1739	tujuh	_	_	_	_	_
+35-6	1740-1744	satu	_	_	_	_	_
+
+#Text=johari ningsih
+36-1	1746-1752	johari	_	_	_	_	_
+36-2	1753-1760	ningsih	_	_	_	_	_
+
+#Text=k bandung a satu
+37-1	1762-1763	k	_	_	_	_	_
+37-2	1764-1771	bandung	_	_	_	_	_
+37-3	1772-1773	a	_	_	_	_	_
+37-4	1774-1778	satu	_	_	_	_	_
+
+#Text=k bandung a satu nomor dua satu jawa barat bogor
+38-1	1780-1781	k	_	_	_	_	_
+38-2	1782-1789	bandung	_	_	_	_	_
+38-3	1790-1791	a	_	_	_	_	_
+38-4	1792-1796	satu	_	_	_	_	_
+38-5	1797-1802	nomor	_	_	_	_	_
+38-6	1803-1806	dua	_	_	_	_	_
+38-7	1807-1811	satu	_	_	_	_	_
+38-8	1812-1816	jawa	_	_	_	_	_
+38-9	1817-1822	barat	_	_	_	_	_
+38-10	1823-1828	bogor	_	_	_	_	_
+
+#Text=kosong delapan satu enam satu tujuh dua delapan tiga dua tiga dua
+39-1	1830-1836	kosong	_	_	_	_	_
+39-2	1837-1844	delapan	_	_	_	_	_
+39-3	1845-1849	satu	_	_	_	_	_
+39-4	1850-1854	enam	_	_	_	_	_
+39-5	1855-1859	satu	_	_	_	_	_
+39-6	1860-1865	tujuh	_	_	_	_	_
+39-7	1866-1869	dua	_	_	_	_	_
+39-8	1870-1877	delapan	_	_	_	_	_
+39-9	1878-1882	tiga	_	_	_	_	_
+39-10	1883-1886	dua	_	_	_	_	_
+39-11	1887-1891	tiga	_	_	_	_	_
+39-12	1892-1895	dua	_	_	_	_	_
+
+#Text=gold
+40-1	1897-1901	gold	_	_	_	_	_
+
+#Text=gold
+41-1	1903-1907	gold	_	_	_	_	_
+
+#Text=satu
+42-1	1909-1913	satu	_	_	_	_	_
+
+#Text=ada
+43-1	1915-1918	ada	_	_	_	_	_
+
+#Text=yup
+44-1	1920-1923	yup	_	_	_	_	_
+
+#Text=lima puluh satu ribu biaya admin dua ribu lima ratus jadi lima puluh tiga ribu lima ratus
+45-1	1925-1929	lima	_	_	_	_	_
+45-2	1930-1935	puluh	_	_	_	_	_
+45-3	1936-1940	satu	_	_	_	_	_
+45-4	1941-1945	ribu	_	_	_	_	_
+45-5	1946-1951	biaya	_	_	_	_	_
+45-6	1952-1957	admin	_	_	_	_	_
+45-7	1958-1961	dua	_	_	_	_	_
+45-8	1962-1966	ribu	_	_	_	_	_
+45-9	1967-1971	lima	_	_	_	_	_
+45-10	1972-1977	ratus	_	_	_	_	_
+45-11	1978-1982	jadi	_	_	_	_	_
+45-12	1983-1987	lima	_	_	_	_	_
+45-13	1988-1993	puluh	_	_	_	_	_
+45-14	1994-1998	tiga	_	_	_	_	_
+45-15	1999-2003	ribu	_	_	_	_	_
+45-16	2004-2008	lima	_	_	_	_	_
+45-17	2009-2014	ratus	_	_	_	_	_
+
+#Text=< filler > keberatan ya
+46-1	2016-2017	<	_	_	_	_	_
+46-2	2018-2024	filler	_	_	_	_	_
+46-3	2025-2026	>	_	_	_	_	_
+46-4	2027-2036	keberatan	_	_	_	_	_
+46-5	2037-2039	ya	_	_	_	_	_
+
+#Text=< filler >
+47-1	2041-2042	<	_	_	_	_	_
+47-2	2043-2049	filler	_	_	_	_	_
+47-3	2050-2051	>	_	_	_	_	_
+
+#Text=< filler >
+48-1	2053-2054	<	_	_	_	_	_
+48-2	2055-2061	filler	_	_	_	_	_
+48-3	2062-2063	>	_	_	_	_	_
+
+#Text=oke hari ini aku transfer ke < filler > tilotama lima ratus ribu
+49-1	2065-2068	oke	_	_	_	_	_
+49-2	2069-2073	hari	_	_	_	_	_
+49-3	2074-2077	ini	_	_	_	_	_
+49-4	2078-2081	aku	_	_	_	_	_
+49-5	2082-2090	transfer	_	_	_	_	_
+49-6	2091-2093	ke	_	_	_	_	_
+49-7	2094-2095	<	_	_	_	_	_
+49-8	2096-2102	filler	_	_	_	_	_
+49-9	2103-2104	>	_	_	_	_	_
+49-10	2105-2113	tilotama	_	_	_	_	_
+49-11	2114-2118	lima	_	_	_	_	_
+49-12	2119-2124	ratus	_	_	_	_	_
+49-13	2125-2129	ribu	_	_	_	_	_
+
+#Text=tanggal delapan ya
+50-1	2131-2138	tanggal	_	_	_	_	_
+50-2	2139-2146	delapan	_	_	_	_	_
+50-3	2147-2149	ya	_	_	_	_	_
+
+#Text=< filler >
+51-1	2151-2152	<	_	_	_	_	_
+51-2	2153-2159	filler	_	_	_	_	_
+51-3	2160-2161	>	_	_	_	_	_
+
+#Text=< filler >
+52-1	2163-2164	<	_	_	_	_	_
+52-2	2165-2171	filler	_	_	_	_	_
+52-3	2172-2173	>	_	_	_	_	_
+
+#Text=< filler >
+53-1	2175-2176	<	_	_	_	_	_
+53-2	2177-2183	filler	_	_	_	_	_
+53-3	2184-2185	>	_	_	_	_	_
+
+#Text=< filler >
+54-1	2187-2188	<	_	_	_	_	_
+54-2	2189-2195	filler	_	_	_	_	_
+54-3	2196-2197	>	_	_	_	_	_
+
+#Text=< filler >
+55-1	2199-2200	<	_	_	_	_	_
+55-2	2201-2207	filler	_	_	_	_	_
+55-3	2208-2209	>	_	_	_	_	_
+
+#Text=< filler >
+56-1	2211-2212	<	_	_	_	_	_
+56-2	2213-2219	filler	_	_	_	_	_
+56-3	2220-2221	>	_	_	_	_	_
+
+#Text=< filler >
+57-1	2223-2224	<	_	_	_	_	_
+57-2	2225-2231	filler	_	_	_	_	_
+57-3	2232-2233	>	_	_	_	_	_
+
+#Text=< filler >
+58-1	2235-2236	<	_	_	_	_	_
+58-2	2237-2243	filler	_	_	_	_	_
+58-3	2244-2245	>	_	_	_	_	_
+
+#Text=iya maksud nya saya saya mau nanya itu kenapa gagal ya
+59-1	2247-2250	iya	_	_	_	_	_
+59-2	2251-2257	maksud	_	_	_	_	_
+59-3	2258-2261	nya	_	_	_	_	_
+59-4	2262-2266	saya	_	_	_	_	_
+59-5	2267-2271	saya	_	_	_	_	_
+59-6	2272-2275	mau	_	_	_	_	_
+59-7	2276-2281	nanya	_	_	_	_	_
+59-8	2282-2285	itu	_	_	_	_	_
+59-9	2286-2292	kenapa	_	_	_	_	_
+59-10	2293-2298	gagal	*	[16_20]|negative[20]	_	_	_
+59-11	2299-2301	ya	_	_	_	_	_
+
+#Text=< filler > gitu
+60-1	2303-2304	<	_	_	_	_	_
+60-2	2305-2311	filler	_	_	_	_	_
+60-3	2312-2313	>	_	_	_	_	_
+60-4	2314-2318	gitu	_	_	_	_	_
+
+#Text=mungkin mungkin karena karena sinyal sinyal internet nya kali ya
+61-1	2320-2327	mungkin	_	_	_	_	_
+61-2	2328-2335	mungkin	_	_	_	_	_
+61-3	2336-2342	karena	_	_	_	_	_
+61-4	2343-2349	karena	_	_	_	_	_
+61-5	2350-2356	sinyal	_	_	_	_	_
+61-6	2357-2363	sinyal	_	_	_	_	_
+61-7	2364-2372	internet	_	_	_	_	_
+61-8	2373-2376	nya	_	_	_	_	_
+61-9	2377-2381	kali	_	_	_	_	_
+61-10	2382-2384	ya	_	_	_	_	_
+
+#Text=< filler > tapi kan saya kemudian telepon nih ke bep ke bpjs nih
+62-1	2386-2387	<	_	_	_	_	_
+62-2	2388-2394	filler	_	_	_	_	_
+62-3	2395-2396	>	_	_	_	_	_
+62-4	2397-2401	tapi	_	_	_	_	_
+62-5	2402-2405	kan	_	_	_	_	_
+62-6	2406-2410	saya	_	_	_	_	_
+62-7	2411-2419	kemudian	_	_	_	_	_
+62-8	2420-2427	telepon	_	_	_	_	_
+62-9	2428-2431	nih	_	_	_	_	_
+62-10	2432-2434	ke	_	_	_	_	_
+62-11	2435-2438	bep	_	_	_	_	_
+62-12	2439-2441	ke	_	_	_	_	_
+62-13	2442-2446	bpjs	_	_	_	_	_
+62-14	2447-2450	nih	_	_	_	_	_
+
+#Text=kata nya sudah masuk dana nya bingung saya juga
+63-1	2452-2456	kata	_	_	_	_	_
+63-2	2457-2460	nya	_	_	_	_	_
+63-3	2461-2466	sudah	*	[16_21]|positive[21]	_	_	_
+63-4	2467-2472	masuk	_	positive[21]	_	_	_
+63-5	2473-2477	dana	_	positive[21]	_	_	_
+63-6	2478-2481	nya	_	positive[21]	_	_	_
+63-7	2482-2489	bingung	*	[16_22]|negative[22]	_	_	_
+63-8	2490-2494	saya	_	_	_	_	_
+63-9	2495-2499	juga	_	_	_	_	_
+
+#Text=dan sekarang ini nih
+64-1	2501-2504	dan	_	_	_	_	_
+64-2	2505-2513	sekarang	_	_	_	_	_
+64-3	2514-2517	ini	_	_	_	_	_
+64-4	2518-2521	nih	_	_	_	_	_
+
+#Text=sekarang ini nih saya mau bayar lagi nih mau bayar lagi
+65-1	2523-2531	sekarang	_	_	_	_	_
+65-2	2532-2535	ini	_	_	_	_	_
+65-3	2536-2539	nih	_	_	_	_	_
+65-4	2540-2544	saya	_	_	_	_	_
+65-5	2545-2548	mau	_	_	_	_	_
+65-6	2549-2554	bayar	_	_	_	_	_
+65-7	2555-2559	lagi	_	_	_	_	_
+65-8	2560-2563	nih	_	_	_	_	_
+65-9	2564-2567	mau	_	_	_	_	_
+65-10	2568-2573	bayar	*	[13_23]|concept[23]	_	_	_
+65-11	2574-2578	lagi	_	_	_	_	_
+
+#Text=bilang nya udah udah lunas < ketawa > gu < filler > saya bingung gitu loh
+66-1	2580-2586	bilang	_	_	_	_	_
+66-2	2587-2590	nya	_	_	_	_	_
+66-3	2591-2595	udah	_	_	_	_	_
+66-4	2596-2600	udah	*	[23_24]|positive[24]	_	_	_
+66-5	2601-2606	lunas	_	positive[24]	_	_	_
+66-6	2607-2608	<	_	_	_	_	_
+66-7	2609-2615	ketawa	_	_	_	_	_
+66-8	2616-2617	>	_	_	_	_	_
+66-9	2618-2620	gu	_	_	_	_	_
+66-10	2621-2622	<	_	_	_	_	_
+66-11	2623-2629	filler	_	_	_	_	_
+66-12	2630-2631	>	_	_	_	_	_
+66-13	2632-2636	saya	_	_	_	_	_
+66-14	2637-2644	bingung	*	[23_25]|negative[25]	_	_	_
+66-15	2645-2649	gitu	_	_	_	_	_
+66-16	2650-2653	loh	_	_	_	_	_
+
+#Text=< filler >
+67-1	2655-2656	<	_	_	_	_	_
+67-2	2657-2663	filler	_	_	_	_	_
+67-3	2664-2665	>	_	_	_	_	_
+
+#Text=< filler >
+68-1	2667-2668	<	_	_	_	_	_
+68-2	2669-2675	filler	_	_	_	_	_
+68-3	2676-2677	>	_	_	_	_	_
+
+#Text=< filler > ya sudah nanti saya coba telepon ke bpjs - nya deh
+69-1	2679-2680	<	_	_	_	_	_
+69-2	2681-2687	filler	_	_	_	_	_
+69-3	2688-2689	>	_	_	_	_	_
+69-4	2690-2692	ya	_	_	_	_	_
+69-5	2693-2698	sudah	_	_	_	_	_
+69-6	2699-2704	nanti	_	_	_	_	_
+69-7	2705-2709	saya	_	_	_	_	_
+69-8	2710-2714	coba	_	_	_	_	_
+69-9	2715-2722	telepon	_	_	_	_	_
+69-10	2723-2725	ke	_	_	_	_	_
+69-11	2726-2730	bpjs	_	_	_	_	_
+69-12	2731-2732	-	_	_	_	_	_
+69-13	2733-2736	nya	_	_	_	_	_
+69-14	2737-2740	deh	_	_	_	_	_
+
+#Text=soal nya saya takut < filler >
+70-1	2742-2746	soal	_	_	_	_	_
+70-2	2747-2750	nya	_	_	_	_	_
+70-3	2751-2755	saya	_	_	_	_	_
+70-4	2756-2761	takut	_	_	_	_	_
+70-5	2762-2763	<	_	_	_	_	_
+70-6	2764-2770	filler	_	_	_	_	_
+70-7	2771-2772	>	_	_	_	_	_
+
+#Text=apa
+71-1	2774-2777	apa	_	_	_	_	_
+
+#Text=< filler >
+72-1	2779-2780	<	_	_	_	_	_
+72-2	2781-2787	filler	_	_	_	_	_
+72-3	2788-2789	>	_	_	_	_	_
+
+#Text=terdebit
+73-1	2791-2799	terdebit	_	_	_	_	_
+
+#Text=kalau enggak saya sih saya bisa nge - print di internet bisa saya
+74-1	2801-2806	kalau	_	_	_	_	_
+74-2	2807-2813	enggak	_	_	_	_	_
+74-3	2814-2818	saya	_	_	_	_	_
+74-4	2819-2822	sih	_	_	_	_	_
+74-5	2823-2827	saya	_	_	_	_	_
+74-6	2828-2832	bisa	_	_	_	_	_
+74-7	2833-2836	nge	_	_	_	_	_
+74-8	2837-2838	-	_	_	_	_	_
+74-9	2839-2844	print	_	_	_	_	_
+74-10	2845-2847	di	_	_	_	_	_
+74-11	2848-2856	internet	_	_	_	_	_
+74-12	2857-2861	bisa	_	_	_	_	_
+74-13	2862-2866	saya	_	_	_	_	_
+
+#Text=< filler > ya udah oke oke nanti saya coba infokan dulu ya terima kasih banyak ya itu saja terima kasih
+75-1	2868-2869	<	_	_	_	_	_
+75-2	2870-2876	filler	_	_	_	_	_
+75-3	2877-2878	>	_	_	_	_	_
+75-4	2879-2881	ya	_	_	_	_	_
+75-5	2882-2886	udah	_	_	_	_	_
+75-6	2887-2890	oke	_	_	_	_	_
+75-7	2891-2894	oke	_	_	_	_	_
+75-8	2895-2900	nanti	_	_	_	_	_
+75-9	2901-2905	saya	_	_	_	_	_
+75-10	2906-2910	coba	_	_	_	_	_
+75-11	2911-2918	infokan	_	_	_	_	_
+75-12	2919-2923	dulu	_	_	_	_	_
+75-13	2924-2926	ya	_	_	_	_	_
+75-14	2927-2933	terima	_	_	_	_	_
+75-15	2934-2939	kasih	_	_	_	_	_
+75-16	2940-2946	banyak	_	_	_	_	_
+75-17	2947-2949	ya	_	_	_	_	_
+75-18	2950-2953	itu	_	_	_	_	_
+75-19	2954-2958	saja	_	_	_	_	_
+75-20	2959-2965	terima	_	_	_	_	_
+75-21	2966-2971	kasih	_	_	_	_	_
+
+#Text=selamat siang halo bca dengan lea bisa saya bantu
+76-1	2973-2980	selamat	_	_	_	_	_
+76-2	2981-2986	siang	_	_	_	_	_
+76-3	2987-2991	halo	_	_	_	_	_
+76-4	2992-2995	bca	_	_	_	_	_
+76-5	2996-3002	dengan	_	_	_	_	_
+76-6	3003-3006	lea	_	_	_	_	_
+76-7	3007-3011	bisa	_	_	_	_	_
+76-8	3012-3016	saya	_	_	_	_	_
+76-9	3017-3022	bantu	_	_	_	_	_
+
+#Text=siang kembali bu dengan siapa saya bicara
+77-1	3024-3029	siang	_	_	_	_	_
+77-2	3030-3037	kembali	_	_	_	_	_
+77-3	3038-3040	bu	_	_	_	_	_
+77-4	3041-3047	dengan	_	_	_	_	_
+77-5	3048-3053	siapa	_	_	_	_	_
+77-6	3054-3058	saya	_	_	_	_	_
+77-7	3059-3065	bicara	_	_	_	_	_
+
+#Text=informasi apa yang bisa saya bantu
+78-1	3067-3076	informasi	_	_	_	_	_
+78-2	3077-3080	apa	_	_	_	_	_
+78-3	3081-3085	yang	_	_	_	_	_
+78-4	3086-3090	bisa	_	_	_	_	_
+78-5	3091-3095	saya	_	_	_	_	_
+78-6	3096-3101	bantu	_	_	_	_	_
+
+#Text=iya
+79-1	3103-3106	iya	_	_	_	_	_
+
+#Text=baik bu lilis
+80-1	3108-3112	baik	_	_	_	_	_
+80-2	3113-3115	bu	_	_	_	_	_
+80-3	3116-3121	lilis	_	_	_	_	_
+
+#Text=untuk saat ini ibu tidak perlu khawatir nanti dengan senang hati saya bantu informasikan terkait dengan pembayaran bpjs - nya
+81-1	3123-3128	untuk	_	_	_	_	_
+81-2	3129-3133	saat	_	_	_	_	_
+81-3	3134-3137	ini	_	_	_	_	_
+81-4	3138-3141	ibu	_	_	_	_	_
+81-5	3142-3147	tidak	_	_	_	_	_
+81-6	3148-3153	perlu	_	_	_	_	_
+81-7	3154-3162	khawatir	_	_	_	_	_
+81-8	3163-3168	nanti	_	_	_	_	_
+81-9	3169-3175	dengan	_	_	_	_	_
+81-10	3176-3182	senang	_	_	_	_	_
+81-11	3183-3187	hati	_	_	_	_	_
+81-12	3188-3192	saya	_	_	_	_	_
+81-13	3193-3198	bantu	_	_	_	_	_
+81-14	3199-3211	informasikan	_	_	_	_	_
+81-15	3212-3219	terkait	_	_	_	_	_
+81-16	3220-3226	dengan	_	_	_	_	_
+81-17	3227-3237	pembayaran	_	_	_	_	_
+81-18	3238-3242	bpjs	_	_	_	_	_
+81-19	3243-3244	-	_	_	_	_	_
+81-20	3245-3248	nya	_	_	_	_	_
+
+#Text=dan saat ini untuk pembayaran bpjs melalui fasilitas mobile banking ini belum tersedia seperti itu bu
+82-1	3250-3253	dan	_	_	_	_	_
+82-2	3254-3258	saat	_	_	_	_	_
+82-3	3259-3262	ini	_	_	_	_	_
+82-4	3263-3268	untuk	_	_	_	_	_
+82-5	3269-3279	pembayaran	*|*	concept[26]|[27_26]|[30_26]	_	_	_
+82-6	3280-3284	bpjs	_	concept[26]	_	_	_
+82-7	3285-3292	melalui	_	_	_	_	_
+82-8	3293-3302	fasilitas	_	_	_	_	_
+82-9	3303-3309	mobile	*	[13_27]|concept[27]	_	_	_
+82-10	3310-3317	banking	_	concept[27]	_	_	_
+82-11	3318-3321	ini	_	_	_	_	_
+82-12	3322-3327	belum	*	[26_28]|negative[28]	_	_	_
+82-13	3328-3336	tersedia	_	negative[28]	_	_	_
+82-14	3337-3344	seperti	_	_	_	_	_
+82-15	3345-3348	itu	_	_	_	_	_
+82-16	3349-3351	bu	_	_	_	_	_
+
+#Text=iya baik
+83-1	3353-3356	iya	_	_	_	_	_
+83-2	3357-3361	baik	_	_	_	_	_
+
+#Text=ini kalau boleh tahu untuk < filler > bpjs - nya individu atau perusahaan
+84-1	3363-3366	ini	_	_	_	_	_
+84-2	3367-3372	kalau	_	_	_	_	_
+84-3	3373-3378	boleh	_	_	_	_	_
+84-4	3379-3383	tahu	_	_	_	_	_
+84-5	3384-3389	untuk	_	_	_	_	_
+84-6	3390-3391	<	_	_	_	_	_
+84-7	3392-3398	filler	_	_	_	_	_
+84-8	3399-3400	>	_	_	_	_	_
+84-9	3401-3405	bpjs	_	_	_	_	_
+84-10	3406-3407	-	_	_	_	_	_
+84-11	3408-3411	nya	_	_	_	_	_
+84-12	3412-3420	individu	_	_	_	_	_
+84-13	3421-3425	atau	_	_	_	_	_
+84-14	3426-3436	perusahaan	_	_	_	_	_
+
+#Text=baik nanti jika individu < filler > ibu bisa lakukan di mesin atm seperti itu bu
+85-1	3438-3442	baik	_	_	_	_	_
+85-2	3443-3448	nanti	_	_	_	_	_
+85-3	3449-3453	jika	_	_	_	_	_
+85-4	3454-3462	individu	_	_	_	_	_
+85-5	3463-3464	<	_	_	_	_	_
+85-6	3465-3471	filler	_	_	_	_	_
+85-7	3472-3473	>	_	_	_	_	_
+85-8	3474-3477	ibu	_	_	_	_	_
+85-9	3478-3482	bisa	*	[26_29]|positive[29]	_	_	_
+85-10	3483-3490	lakukan	_	_	_	_	_
+85-11	3491-3493	di	_	_	_	_	_
+85-12	3494-3499	mesin	*	[13_30]|concept[30]	_	_	_
+85-13	3500-3503	atm	_	concept[30]	_	_	_
+85-14	3504-3511	seperti	_	_	_	_	_
+85-15	3512-3515	itu	_	_	_	_	_
+85-16	3516-3518	bu	_	_	_	_	_
+
+#Text=iya
+86-1	3520-3523	iya	_	_	_	_	_
+
+#Text=iya baik
+87-1	3525-3528	iya	_	_	_	_	_
+87-2	3529-3533	baik	_	_	_	_	_
+
+#Text=iya
+88-1	3535-3538	iya	_	_	_	_	_
+
+#Text=iya baik
+89-1	3540-3543	iya	_	_	_	_	_
+89-2	3544-3548	baik	_	_	_	_	_
+
+#Text=baik bu lilis
+90-1	3550-3554	baik	_	_	_	_	_
+90-2	3555-3557	bu	_	_	_	_	_
+90-3	3558-3563	lilis	_	_	_	_	_
+
+#Text=di sini terkait dengan transaksi nya di tanggal berapa bu
+91-1	3565-3567	di	_	_	_	_	_
+91-2	3568-3572	sini	_	_	_	_	_
+91-3	3573-3580	terkait	_	_	_	_	_
+91-4	3581-3587	dengan	_	_	_	_	_
+91-5	3588-3597	transaksi	_	_	_	_	_
+91-6	3598-3601	nya	_	_	_	_	_
+91-7	3602-3604	di	_	_	_	_	_
+91-8	3605-3612	tanggal	_	_	_	_	_
+91-9	3613-3619	berapa	_	_	_	_	_
+91-10	3620-3622	bu	_	_	_	_	_
+
+#Text=lima november
+92-1	3624-3628	lima	_	_	_	_	_
+92-2	3629-3637	november	_	_	_	_	_
+
+#Text=dengan nominal berapa
+93-1	3639-3645	dengan	_	_	_	_	_
+93-2	3646-3653	nominal	_	_	_	_	_
+93-3	3654-3660	berapa	_	_	_	_	_
+
+#Text=ada berapa kali transaksi yang ibu lakukan
+94-1	3662-3665	ada	_	_	_	_	_
+94-2	3666-3672	berapa	_	_	_	_	_
+94-3	3673-3677	kali	_	_	_	_	_
+94-4	3678-3687	transaksi	_	_	_	_	_
+94-5	3688-3692	yang	_	_	_	_	_
+94-6	3693-3696	ibu	_	_	_	_	_
+94-7	3697-3704	lakukan	_	_	_	_	_
+
+#Text=iya
+95-1	3706-3709	iya	_	_	_	_	_
+
+#Text=iya baik < filler > bu lilis
+96-1	3711-3714	iya	_	_	_	_	_
+96-2	3715-3719	baik	_	_	_	_	_
+96-3	3720-3721	<	_	_	_	_	_
+96-4	3722-3728	filler	_	_	_	_	_
+96-5	3729-3730	>	_	_	_	_	_
+96-6	3731-3733	bu	_	_	_	_	_
+96-7	3734-3739	lilis	_	_	_	_	_
+
+#Text=di sini terkait dengan transaksi nya ini
+97-1	3741-3743	di	_	_	_	_	_
+97-2	3744-3748	sini	_	_	_	_	_
+97-3	3749-3756	terkait	_	_	_	_	_
+97-4	3757-3763	dengan	_	_	_	_	_
+97-5	3764-3773	transaksi	_	_	_	_	_
+97-6	3774-3777	nya	_	_	_	_	_
+97-7	3778-3781	ini	_	_	_	_	_
+
+#Text=ketika ibu lakukan transaksi respons nya seperti apa bu pada saat menggunakan klikbca individu nya
+98-1	3783-3789	ketika	_	_	_	_	_
+98-2	3790-3793	ibu	_	_	_	_	_
+98-3	3794-3801	lakukan	_	_	_	_	_
+98-4	3802-3811	transaksi	_	_	_	_	_
+98-5	3812-3819	respons	_	_	_	_	_
+98-6	3820-3823	nya	_	_	_	_	_
+98-7	3824-3831	seperti	_	_	_	_	_
+98-8	3832-3835	apa	_	_	_	_	_
+98-9	3836-3838	bu	_	_	_	_	_
+98-10	3839-3843	pada	_	_	_	_	_
+98-11	3844-3848	saat	_	_	_	_	_
+98-12	3849-3860	menggunakan	_	_	_	_	_
+98-13	3861-3868	klikbca	_	_	_	_	_
+98-14	3869-3877	individu	_	_	_	_	_
+98-15	3878-3881	nya	_	_	_	_	_
+
+#Text=iya
+99-1	3883-3886	iya	_	_	_	_	_
+
+#Text=baik untuk saat ini sebelumnya bu lilis mohon maaf atas kendala yang terjadi namun ibu tidak perlu khawatir nanti dengan senang hati saya bantu lakukan pengecekan nya terlebih dahulu terkait dengan transaksi ibu jadi
+100-1	3888-3892	baik	_	_	_	_	_
+100-2	3893-3898	untuk	_	_	_	_	_
+100-3	3899-3903	saat	_	_	_	_	_
+100-4	3904-3907	ini	_	_	_	_	_
+100-5	3908-3918	sebelumnya	_	_	_	_	_
+100-6	3919-3921	bu	_	_	_	_	_
+100-7	3922-3927	lilis	_	_	_	_	_
+100-8	3928-3933	mohon	_	_	_	_	_
+100-9	3934-3938	maaf	_	_	_	_	_
+100-10	3939-3943	atas	_	_	_	_	_
+100-11	3944-3951	kendala	_	_	_	_	_
+100-12	3952-3956	yang	_	_	_	_	_
+100-13	3957-3964	terjadi	_	_	_	_	_
+100-14	3965-3970	namun	_	_	_	_	_
+100-15	3971-3974	ibu	_	_	_	_	_
+100-16	3975-3980	tidak	_	_	_	_	_
+100-17	3981-3986	perlu	_	_	_	_	_
+100-18	3987-3995	khawatir	_	_	_	_	_
+100-19	3996-4001	nanti	_	_	_	_	_
+100-20	4002-4008	dengan	_	_	_	_	_
+100-21	4009-4015	senang	_	_	_	_	_
+100-22	4016-4020	hati	_	_	_	_	_
+100-23	4021-4025	saya	_	_	_	_	_
+100-24	4026-4031	bantu	_	_	_	_	_
+100-25	4032-4039	lakukan	_	_	_	_	_
+100-26	4040-4050	pengecekan	_	_	_	_	_
+100-27	4051-4054	nya	_	_	_	_	_
+100-28	4055-4063	terlebih	_	_	_	_	_
+100-29	4064-4070	dahulu	_	_	_	_	_
+100-30	4071-4078	terkait	_	_	_	_	_
+100-31	4079-4085	dengan	_	_	_	_	_
+100-32	4086-4095	transaksi	_	_	_	_	_
+100-33	4096-4099	ibu	_	_	_	_	_
+100-34	4100-4104	jadi	_	_	_	_	_
+
+#Text=saat ini bisa dibantu dengan nomor rekening nya atau nomor kartu atm ibu
+101-1	4106-4110	saat	_	_	_	_	_
+101-2	4111-4114	ini	_	_	_	_	_
+101-3	4115-4119	bisa	_	_	_	_	_
+101-4	4120-4127	dibantu	_	_	_	_	_
+101-5	4128-4134	dengan	_	_	_	_	_
+101-6	4135-4140	nomor	_	_	_	_	_
+101-7	4141-4149	rekening	_	_	_	_	_
+101-8	4150-4153	nya	_	_	_	_	_
+101-9	4154-4158	atau	_	_	_	_	_
+101-10	4159-4164	nomor	_	_	_	_	_
+101-11	4165-4170	kartu	_	_	_	_	_
+101-12	4171-4174	atm	_	_	_	_	_
+101-13	4175-4178	ibu	_	_	_	_	_
+
+#Text=kemudian
+102-1	4180-4188	kemudian	_	_	_	_	_
+
+#Text=kemudian
+103-1	4190-4198	kemudian	_	_	_	_	_
+
+#Text=baik sebelumnya untuk saat ini saya ralat ya bu nanti untuk terkait dengan transaksi < filler > pembayaran bpjs - nya ini ibu bisa melalui fasilitas atm dan klik b < filler > internet banking
+104-1	4200-4204	baik	_	_	_	_	_
+104-2	4205-4215	sebelumnya	_	_	_	_	_
+104-3	4216-4221	untuk	_	_	_	_	_
+104-4	4222-4226	saat	_	_	_	_	_
+104-5	4227-4230	ini	_	_	_	_	_
+104-6	4231-4235	saya	_	_	_	_	_
+104-7	4236-4241	ralat	_	_	_	_	_
+104-8	4242-4244	ya	_	_	_	_	_
+104-9	4245-4247	bu	_	_	_	_	_
+104-10	4248-4253	nanti	_	_	_	_	_
+104-11	4254-4259	untuk	_	_	_	_	_
+104-12	4260-4267	terkait	_	_	_	_	_
+104-13	4268-4274	dengan	_	_	_	_	_
+104-14	4275-4284	transaksi	*|*	concept[31]|[34_31]|[35_31]	_	_	_
+104-15	4285-4286	<	_	_	_	_	_
+104-16	4287-4293	filler	_	_	_	_	_
+104-17	4294-4295	>	_	_	_	_	_
+104-18	4296-4306	pembayaran	*	[31_32]|concept[32]	_	_	_
+104-19	4307-4311	bpjs	_	concept[32]	_	_	_
+104-20	4312-4313	-	_	_	_	_	_
+104-21	4314-4317	nya	_	_	_	_	_
+104-22	4318-4321	ini	_	_	_	_	_
+104-23	4322-4325	ibu	_	_	_	_	_
+104-24	4326-4330	bisa	*	[32_33]|positive[33]	_	_	_
+104-25	4331-4338	melalui	_	_	_	_	_
+104-26	4339-4348	fasilitas	_	_	_	_	_
+104-27	4349-4352	atm	_	concept[34]	_	_	_
+104-28	4353-4356	dan	_	_	_	_	_
+104-29	4357-4361	klik	_	_	_	_	_
+104-30	4362-4363	b	_	_	_	_	_
+104-31	4364-4365	<	_	_	_	_	_
+104-32	4366-4372	filler	_	_	_	_	_
+104-33	4373-4374	>	_	_	_	_	_
+104-34	4375-4383	internet	_	concept[35]	_	_	_
+104-35	4384-4391	banking	_	concept[35]	_	_	_
+
+#Text=iya
+105-1	4393-4396	iya	_	_	_	_	_
+
+#Text=iya baik
+106-1	4398-4401	iya	_	_	_	_	_
+106-2	4402-4406	baik	_	_	_	_	_
+
+#Text=iya untuk saat ini saya bantu pastikan kembali lagi untuk nomor rekening ibu atas nama ibu sendiri atau orang lain saat ini
+107-1	4408-4411	iya	_	_	_	_	_
+107-2	4412-4417	untuk	_	_	_	_	_
+107-3	4418-4422	saat	_	_	_	_	_
+107-4	4423-4426	ini	_	_	_	_	_
+107-5	4427-4431	saya	_	_	_	_	_
+107-6	4432-4437	bantu	_	_	_	_	_
+107-7	4438-4446	pastikan	_	_	_	_	_
+107-8	4447-4454	kembali	_	_	_	_	_
+107-9	4455-4459	lagi	_	_	_	_	_
+107-10	4460-4465	untuk	_	_	_	_	_
+107-11	4466-4471	nomor	_	_	_	_	_
+107-12	4472-4480	rekening	_	_	_	_	_
+107-13	4481-4484	ibu	_	_	_	_	_
+107-14	4485-4489	atas	_	_	_	_	_
+107-15	4490-4494	nama	_	_	_	_	_
+107-16	4495-4498	ibu	_	_	_	_	_
+107-17	4499-4506	sendiri	_	_	_	_	_
+107-18	4507-4511	atau	_	_	_	_	_
+107-19	4512-4517	orang	_	_	_	_	_
+107-20	4518-4522	lain	_	_	_	_	_
+107-21	4523-4527	saat	_	_	_	_	_
+107-22	4528-4531	ini	_	_	_	_	_
+
+#Text=baik saya bantu verifikasi data ibu terlebih dahulu bisa tolong disebutkan nama lengkap ibu sesuai ktp
+108-1	4533-4537	baik	_	_	_	_	_
+108-2	4538-4542	saya	_	_	_	_	_
+108-3	4543-4548	bantu	_	_	_	_	_
+108-4	4549-4559	verifikasi	_	_	_	_	_
+108-5	4560-4564	data	_	_	_	_	_
+108-6	4565-4568	ibu	_	_	_	_	_
+108-7	4569-4577	terlebih	_	_	_	_	_
+108-8	4578-4584	dahulu	_	_	_	_	_
+108-9	4585-4589	bisa	_	_	_	_	_
+108-10	4590-4596	tolong	_	_	_	_	_
+108-11	4597-4607	disebutkan	_	_	_	_	_
+108-12	4608-4612	nama	_	_	_	_	_
+108-13	4613-4620	lengkap	_	_	_	_	_
+108-14	4621-4624	ibu	_	_	_	_	_
+108-15	4625-4631	sesuai	_	_	_	_	_
+108-16	4632-4635	ktp	_	_	_	_	_
+
+#Text=tempat tanggal lahir ibu
+109-1	4637-4643	tempat	_	_	_	_	_
+109-2	4644-4651	tanggal	_	_	_	_	_
+109-3	4652-4657	lahir	_	_	_	_	_
+109-4	4658-4661	ibu	_	_	_	_	_
+
+#Text=mohon maaf bu kurang jelas tanggal lahir nya
+110-1	4663-4668	mohon	_	_	_	_	_
+110-2	4669-4673	maaf	_	_	_	_	_
+110-3	4674-4676	bu	_	_	_	_	_
+110-4	4677-4683	kurang	_	_	_	_	_
+110-5	4684-4689	jelas	_	_	_	_	_
+110-6	4690-4697	tanggal	_	_	_	_	_
+110-7	4698-4703	lahir	_	_	_	_	_
+110-8	4704-4707	nya	_	_	_	_	_
+
+#Text=baik nama lengkap ibu kandung ibu
+111-1	4709-4713	baik	_	_	_	_	_
+111-2	4714-4718	nama	_	_	_	_	_
+111-3	4719-4726	lengkap	_	_	_	_	_
+111-4	4727-4730	ibu	_	_	_	_	_
+111-5	4731-4738	kandung	_	_	_	_	_
+111-6	4739-4742	ibu	_	_	_	_	_
+
+#Text=alamat lengkap ibu sesuai ktp di mana
+112-1	4744-4750	alamat	_	_	_	_	_
+112-2	4751-4758	lengkap	_	_	_	_	_
+112-3	4759-4762	ibu	_	_	_	_	_
+112-4	4763-4769	sesuai	_	_	_	_	_
+112-5	4770-4773	ktp	_	_	_	_	_
+112-6	4774-4776	di	_	_	_	_	_
+112-7	4777-4781	mana	_	_	_	_	_
+
+#Text=iya
+113-1	4783-4786	iya	_	_	_	_	_
+
+#Text=nomor hand phone yang didaftarkan di bca di nomor berapa
+114-1	4788-4793	nomor	_	_	_	_	_
+114-2	4794-4798	hand	_	_	_	_	_
+114-3	4799-4804	phone	_	_	_	_	_
+114-4	4805-4809	yang	_	_	_	_	_
+114-5	4810-4821	didaftarkan	_	_	_	_	_
+114-6	4822-4824	di	_	_	_	_	_
+114-7	4825-4828	bca	_	_	_	_	_
+114-8	4829-4831	di	_	_	_	_	_
+114-9	4832-4837	nomor	_	_	_	_	_
+114-10	4838-4844	berapa	_	_	_	_	_
+
+#Text=jenis kartu atm ibu saat ini yang aktif silver gold
+115-1	4846-4851	jenis	_	_	_	_	_
+115-2	4852-4857	kartu	_	_	_	_	_
+115-3	4858-4861	atm	_	_	_	_	_
+115-4	4862-4865	ibu	_	_	_	_	_
+115-5	4866-4870	saat	_	_	_	_	_
+115-6	4871-4874	ini	_	_	_	_	_
+115-7	4875-4879	yang	_	_	_	_	_
+115-8	4880-4885	aktif	_	_	_	_	_
+115-9	4886-4892	silver	_	_	_	_	_
+115-10	4893-4897	gold	_	_	_	_	_
+
+#Text=atau platinum
+116-1	4899-4903	atau	_	_	_	_	_
+116-2	4904-4912	platinum	_	_	_	_	_
+
+#Text=ada berapa rekening yang ibu miliki di bca
+117-1	4914-4917	ada	_	_	_	_	_
+117-2	4918-4924	berapa	_	_	_	_	_
+117-3	4925-4933	rekening	_	_	_	_	_
+117-4	4934-4938	yang	_	_	_	_	_
+117-5	4939-4942	ibu	_	_	_	_	_
+117-6	4943-4949	miliki	_	_	_	_	_
+117-7	4950-4952	di	_	_	_	_	_
+117-8	4953-4956	bca	_	concept[36]	_	_	_
+
+#Text=untuk kartu kredit nya apakah ibu miliki
+118-1	4958-4963	untuk	_	_	_	_	_
+118-2	4964-4969	kartu	_	_	_	_	_
+118-3	4970-4976	kredit	_	_	_	_	_
+118-4	4977-4980	nya	_	_	_	_	_
+118-5	4981-4987	apakah	_	_	_	_	_
+118-6	4988-4991	ibu	_	_	_	_	_
+118-7	4992-4998	miliki	_	_	_	_	_
+
+#Text=baik bu lilis sebelumnya terima kasih atas informasi yang diberikan saat ini saya bantu pengecekan nya terlebih dahulu mohon ditunggu sebentar
+119-1	5000-5004	baik	_	_	_	_	_
+119-2	5005-5007	bu	_	_	_	_	_
+119-3	5008-5013	lilis	_	_	_	_	_
+119-4	5014-5024	sebelumnya	_	_	_	_	_
+119-5	5025-5031	terima	_	_	_	_	_
+119-6	5032-5037	kasih	_	_	_	_	_
+119-7	5038-5042	atas	_	_	_	_	_
+119-8	5043-5052	informasi	_	_	_	_	_
+119-9	5053-5057	yang	_	_	_	_	_
+119-10	5058-5067	diberikan	_	_	_	_	_
+119-11	5068-5072	saat	_	_	_	_	_
+119-12	5073-5076	ini	_	_	_	_	_
+119-13	5077-5081	saya	_	_	_	_	_
+119-14	5082-5087	bantu	_	_	_	_	_
+119-15	5088-5098	pengecekan	_	_	_	_	_
+119-16	5099-5102	nya	_	_	_	_	_
+119-17	5103-5111	terlebih	_	_	_	_	_
+119-18	5112-5118	dahulu	_	_	_	_	_
+119-19	5119-5124	mohon	_	_	_	_	_
+119-20	5125-5133	ditunggu	_	_	_	_	_
+119-21	5134-5142	sebentar	_	_	_	_	_
+
+#Text=ini untuk nominal nya sudah pasti bu dengan nominal < filler > lima puluh satu ribu
+120-1	5144-5147	ini	_	_	_	_	_
+120-2	5148-5153	untuk	_	_	_	_	_
+120-3	5154-5161	nominal	_	_	_	_	_
+120-4	5162-5165	nya	_	_	_	_	_
+120-5	5166-5171	sudah	_	_	_	_	_
+120-6	5172-5177	pasti	_	_	_	_	_
+120-7	5178-5180	bu	_	_	_	_	_
+120-8	5181-5187	dengan	_	_	_	_	_
+120-9	5188-5195	nominal	_	_	_	_	_
+120-10	5196-5197	<	_	_	_	_	_
+120-11	5198-5204	filler	_	_	_	_	_
+120-12	5205-5206	>	_	_	_	_	_
+120-13	5207-5211	lima	_	_	_	_	_
+120-14	5212-5217	puluh	_	_	_	_	_
+120-15	5218-5222	satu	_	_	_	_	_
+120-16	5223-5227	ribu	_	_	_	_	_
+
+#Text=iya baik masih dibantu pengecekan nya bu mohon ditunggu bisa dibantu untuk user id ibu saat ini
+121-1	5229-5232	iya	_	_	_	_	_
+121-2	5233-5237	baik	_	_	_	_	_
+121-3	5238-5243	masih	_	_	_	_	_
+121-4	5244-5251	dibantu	_	_	_	_	_
+121-5	5252-5262	pengecekan	_	_	_	_	_
+121-6	5263-5266	nya	_	_	_	_	_
+121-7	5267-5269	bu	_	_	_	_	_
+121-8	5270-5275	mohon	_	_	_	_	_
+121-9	5276-5284	ditunggu	_	_	_	_	_
+121-10	5285-5289	bisa	_	_	_	_	_
+121-11	5290-5297	dibantu	_	_	_	_	_
+121-12	5298-5303	untuk	_	_	_	_	_
+121-13	5304-5308	user	_	_	_	_	_
+121-14	5309-5311	id	_	_	_	_	_
+121-15	5312-5315	ibu	_	_	_	_	_
+121-16	5316-5320	saat	_	_	_	_	_
+121-17	5321-5324	ini	_	_	_	_	_
+
+#Text=baik mohon ditunggu ya bu masih saya bantu pastikan lagi mohon ditunggu ya bu lilis masih dibantu pengecekan nya baik bu lilis terima kasih atas sabaran ibu menunggu di sini terkait dengan transaksi ibu ini untuk memastikan kembali lagi
+122-1	5326-5330	baik	_	_	_	_	_
+122-2	5331-5336	mohon	_	_	_	_	_
+122-3	5337-5345	ditunggu	_	_	_	_	_
+122-4	5346-5348	ya	_	_	_	_	_
+122-5	5349-5351	bu	_	_	_	_	_
+122-6	5352-5357	masih	_	_	_	_	_
+122-7	5358-5362	saya	_	_	_	_	_
+122-8	5363-5368	bantu	_	_	_	_	_
+122-9	5369-5377	pastikan	_	_	_	_	_
+122-10	5378-5382	lagi	_	_	_	_	_
+122-11	5383-5388	mohon	_	_	_	_	_
+122-12	5389-5397	ditunggu	_	_	_	_	_
+122-13	5398-5400	ya	_	_	_	_	_
+122-14	5401-5403	bu	_	_	_	_	_
+122-15	5404-5409	lilis	_	_	_	_	_
+122-16	5410-5415	masih	_	_	_	_	_
+122-17	5416-5423	dibantu	_	_	_	_	_
+122-18	5424-5434	pengecekan	_	_	_	_	_
+122-19	5435-5438	nya	_	_	_	_	_
+122-20	5439-5443	baik	_	_	_	_	_
+122-21	5444-5446	bu	_	_	_	_	_
+122-22	5447-5452	lilis	_	_	_	_	_
+122-23	5453-5459	terima	_	_	_	_	_
+122-24	5460-5465	kasih	_	_	_	_	_
+122-25	5466-5470	atas	_	_	_	_	_
+122-26	5471-5478	sabaran	_	_	_	_	_
+122-27	5479-5482	ibu	_	_	_	_	_
+122-28	5483-5491	menunggu	_	_	_	_	_
+122-29	5492-5494	di	_	_	_	_	_
+122-30	5495-5499	sini	_	_	_	_	_
+122-31	5500-5507	terkait	_	_	_	_	_
+122-32	5508-5514	dengan	_	_	_	_	_
+122-33	5515-5524	transaksi	_	_	_	_	_
+122-34	5525-5528	ibu	_	_	_	_	_
+122-35	5529-5532	ini	_	_	_	_	_
+122-36	5533-5538	untuk	_	_	_	_	_
+122-37	5539-5549	memastikan	_	_	_	_	_
+122-38	5550-5557	kembali	_	_	_	_	_
+122-39	5558-5562	lagi	_	_	_	_	_
+
+#Text=sebelum saya bantu informasikan < filler > transaksi nya
+123-1	5564-5571	sebelum	_	_	_	_	_
+123-2	5572-5576	saya	_	_	_	_	_
+123-3	5577-5582	bantu	_	_	_	_	_
+123-4	5583-5595	informasikan	_	_	_	_	_
+123-5	5596-5597	<	_	_	_	_	_
+123-6	5598-5604	filler	_	_	_	_	_
+123-7	5605-5606	>	_	_	_	_	_
+123-8	5607-5616	transaksi	_	_	_	_	_
+123-9	5617-5620	nya	_	_	_	_	_
+
+#Text=ini sebelumnya bu lilis menyebutkan terlebih dahulu salah satu dari lima transaksi terakhir keluar ibu saat ini seperti pembayaran pembelian tarikan tunai transfer di tanggal berapa ibu lakukan transaksi terakhir keluar
+124-1	5622-5625	ini	_	_	_	_	_
+124-2	5626-5636	sebelumnya	_	_	_	_	_
+124-3	5637-5639	bu	_	_	_	_	_
+124-4	5640-5645	lilis	_	_	_	_	_
+124-5	5646-5657	menyebutkan	_	_	_	_	_
+124-6	5658-5666	terlebih	_	_	_	_	_
+124-7	5667-5673	dahulu	_	_	_	_	_
+124-8	5674-5679	salah	_	_	_	_	_
+124-9	5680-5684	satu	_	_	_	_	_
+124-10	5685-5689	dari	_	_	_	_	_
+124-11	5690-5694	lima	_	_	_	_	_
+124-12	5695-5704	transaksi	_	_	_	_	_
+124-13	5705-5713	terakhir	_	_	_	_	_
+124-14	5714-5720	keluar	_	_	_	_	_
+124-15	5721-5724	ibu	_	_	_	_	_
+124-16	5725-5729	saat	_	_	_	_	_
+124-17	5730-5733	ini	_	_	_	_	_
+124-18	5734-5741	seperti	_	_	_	_	_
+124-19	5742-5752	pembayaran	_	_	_	_	_
+124-20	5753-5762	pembelian	_	_	_	_	_
+124-21	5763-5770	tarikan	_	_	_	_	_
+124-22	5771-5776	tunai	_	_	_	_	_
+124-23	5777-5785	transfer	_	_	_	_	_
+124-24	5786-5788	di	_	_	_	_	_
+124-25	5789-5796	tanggal	_	_	_	_	_
+124-26	5797-5803	berapa	_	_	_	_	_
+124-27	5804-5807	ibu	_	_	_	_	_
+124-28	5808-5815	lakukan	_	_	_	_	_
+124-29	5816-5825	transaksi	_	_	_	_	_
+124-30	5826-5834	terakhir	_	_	_	_	_
+124-31	5835-5841	keluar	_	_	_	_	_
+
+#Text=< filler > bisa tolong disebutkan tanggal nya bu
+125-1	5843-5844	<	_	_	_	_	_
+125-2	5845-5851	filler	_	_	_	_	_
+125-3	5852-5853	>	_	_	_	_	_
+125-4	5854-5858	bisa	_	_	_	_	_
+125-5	5859-5865	tolong	_	_	_	_	_
+125-6	5866-5876	disebutkan	_	_	_	_	_
+125-7	5877-5884	tanggal	_	_	_	_	_
+125-8	5885-5888	nya	_	_	_	_	_
+125-9	5889-5891	bu	_	_	_	_	_
+
+#Text=baik bu lilis sebelumnya terima kasih atas informasi yang diberikan di sini jika saya bantu cek menurut data yang ada pada kami saat ini transaksi ibu di tanggal lima bulan sebelas dua ribu delapan belas ini ada
+126-1	5893-5897	baik	_	_	_	_	_
+126-2	5898-5900	bu	_	_	_	_	_
+126-3	5901-5906	lilis	_	_	_	_	_
+126-4	5907-5917	sebelumnya	_	_	_	_	_
+126-5	5918-5924	terima	_	_	_	_	_
+126-6	5925-5930	kasih	_	_	_	_	_
+126-7	5931-5935	atas	_	_	_	_	_
+126-8	5936-5945	informasi	_	_	_	_	_
+126-9	5946-5950	yang	_	_	_	_	_
+126-10	5951-5960	diberikan	_	_	_	_	_
+126-11	5961-5963	di	_	_	_	_	_
+126-12	5964-5968	sini	_	_	_	_	_
+126-13	5969-5973	jika	_	_	_	_	_
+126-14	5974-5978	saya	_	_	_	_	_
+126-15	5979-5984	bantu	_	_	_	_	_
+126-16	5985-5988	cek	_	_	_	_	_
+126-17	5989-5996	menurut	_	_	_	_	_
+126-18	5997-6001	data	_	_	_	_	_
+126-19	6002-6006	yang	_	_	_	_	_
+126-20	6007-6010	ada	_	_	_	_	_
+126-21	6011-6015	pada	_	_	_	_	_
+126-22	6016-6020	kami	_	_	_	_	_
+126-23	6021-6025	saat	_	_	_	_	_
+126-24	6026-6029	ini	_	_	_	_	_
+126-25	6030-6039	transaksi	_	_	_	_	_
+126-26	6040-6043	ibu	_	_	_	_	_
+126-27	6044-6046	di	_	_	_	_	_
+126-28	6047-6054	tanggal	_	_	_	_	_
+126-29	6055-6059	lima	_	_	_	_	_
+126-30	6060-6065	bulan	_	_	_	_	_
+126-31	6066-6073	sebelas	_	_	_	_	_
+126-32	6074-6077	dua	_	_	_	_	_
+126-33	6078-6082	ribu	_	_	_	_	_
+126-34	6083-6090	delapan	_	_	_	_	_
+126-35	6091-6096	belas	_	_	_	_	_
+126-36	6097-6100	ini	_	_	_	_	_
+126-37	6101-6104	ada	_	_	_	_	_
+
+#Text=< filler > bu lilis lakukan transaksi transfer e-banking dengan nominal lima puluh tiga ribu lima ratus rupiah
+127-1	6106-6107	<	_	_	_	_	_
+127-2	6108-6114	filler	_	_	_	_	_
+127-3	6115-6116	>	_	_	_	_	_
+127-4	6117-6119	bu	_	_	_	_	_
+127-5	6120-6125	lilis	_	_	_	_	_
+127-6	6126-6133	lakukan	_	_	_	_	_
+127-7	6134-6143	transaksi	_	_	_	_	_
+127-8	6144-6152	transfer	_	_	_	_	_
+127-9	6153-6162	e-banking	*	[36_37]|concept[37]	_	_	_
+127-10	6163-6169	dengan	_	_	_	_	_
+127-11	6170-6177	nominal	_	_	_	_	_
+127-12	6178-6182	lima	_	_	_	_	_
+127-13	6183-6188	puluh	_	_	_	_	_
+127-14	6189-6193	tiga	_	_	_	_	_
+127-15	6194-6198	ribu	_	_	_	_	_
+127-16	6199-6203	lima	_	_	_	_	_
+127-17	6204-6209	ratus	_	_	_	_	_
+127-18	6210-6216	rupiah	_	_	_	_	_
+
+#Text=dan untuk saat ini transaksi nya di data kami < filler > yang ibu lakukan satu kali dengan nominal tersebut bu
+128-1	6218-6221	dan	_	_	_	_	_
+128-2	6222-6227	untuk	_	_	_	_	_
+128-3	6228-6232	saat	_	_	_	_	_
+128-4	6233-6236	ini	_	_	_	_	_
+128-5	6237-6246	transaksi	_	_	_	_	_
+128-6	6247-6250	nya	_	_	_	_	_
+128-7	6251-6253	di	_	_	_	_	_
+128-8	6254-6258	data	_	_	_	_	_
+128-9	6259-6263	kami	_	_	_	_	_
+128-10	6264-6265	<	_	_	_	_	_
+128-11	6266-6272	filler	_	_	_	_	_
+128-12	6273-6274	>	_	_	_	_	_
+128-13	6275-6279	yang	_	_	_	_	_
+128-14	6280-6283	ibu	_	_	_	_	_
+128-15	6284-6291	lakukan	_	_	_	_	_
+128-16	6292-6296	satu	_	_	_	_	_
+128-17	6297-6301	kali	_	_	_	_	_
+128-18	6302-6308	dengan	_	_	_	_	_
+128-19	6309-6316	nominal	_	_	_	_	_
+128-20	6317-6325	tersebut	_	_	_	_	_
+128-21	6326-6328	bu	_	_	_	_	_
+
+#Text=lima tiga lima ratus ribu rupiah namun di sini terkait dengan transaksi yang ibu sampaikan sebelumnya transaksi gagal
+129-1	6330-6334	lima	_	_	_	_	_
+129-2	6335-6339	tiga	_	_	_	_	_
+129-3	6340-6344	lima	_	_	_	_	_
+129-4	6345-6350	ratus	_	_	_	_	_
+129-5	6351-6355	ribu	_	_	_	_	_
+129-6	6356-6362	rupiah	_	_	_	_	_
+129-7	6363-6368	namun	_	_	_	_	_
+129-8	6369-6371	di	_	_	_	_	_
+129-9	6372-6376	sini	_	_	_	_	_
+129-10	6377-6384	terkait	_	_	_	_	_
+129-11	6385-6391	dengan	_	_	_	_	_
+129-12	6392-6401	transaksi	_	_	_	_	_
+129-13	6402-6406	yang	_	_	_	_	_
+129-14	6407-6410	ibu	_	_	_	_	_
+129-15	6411-6420	sampaikan	_	_	_	_	_
+129-16	6421-6431	sebelumnya	_	_	_	_	_
+129-17	6432-6441	transaksi	*	[37_38]|concept[38]	_	_	_
+129-18	6442-6447	gagal	*	[38_39]|negative[39]	_	_	_
+
+#Text=ini sudah ada < filler > dana masuk lagi sudah ada refund dana nya bu di tanggal yang sama
+130-1	6449-6452	ini	_	_	_	_	_
+130-2	6453-6458	sudah	_	_	_	_	_
+130-3	6459-6462	ada	_	_	_	_	_
+130-4	6463-6464	<	_	_	_	_	_
+130-5	6465-6471	filler	_	_	_	_	_
+130-6	6472-6473	>	_	_	_	_	_
+130-7	6474-6478	dana	_	_	_	_	_
+130-8	6479-6484	masuk	_	_	_	_	_
+130-9	6485-6489	lagi	_	_	_	_	_
+130-10	6490-6495	sudah	*	positive[40]|[41_40]	_	_	_
+130-11	6496-6499	ada	_	positive[40]	_	_	_
+130-12	6500-6506	refund	*	[36_41]|concept[41]	_	_	_
+130-13	6507-6511	dana	_	concept[41]	_	_	_
+130-14	6512-6515	nya	_	_	_	_	_
+130-15	6516-6518	bu	_	_	_	_	_
+130-16	6519-6521	di	_	_	_	_	_
+130-17	6522-6529	tanggal	_	_	_	_	_
+130-18	6530-6534	yang	_	_	_	_	_
+130-19	6535-6539	sama	_	_	_	_	_
+
+#Text=di tanggal lima
+131-1	6541-6543	di	_	_	_	_	_
+131-2	6544-6551	tanggal	_	_	_	_	_
+131-3	6552-6556	lima	_	_	_	_	_
+
+#Text=bulan sebelas dua ribu delapan belas
+132-1	6558-6563	bulan	_	_	_	_	_
+132-2	6564-6571	sebelas	_	_	_	_	_
+132-3	6572-6575	dua	_	_	_	_	_
+132-4	6576-6580	ribu	_	_	_	_	_
+132-5	6581-6588	delapan	_	_	_	_	_
+132-6	6589-6594	belas	_	_	_	_	_
+
+#Text=dengan nominal lima puluh tiga ribu lima ratus rupiah seperti itu
+133-1	6596-6602	dengan	_	_	_	_	_
+133-2	6603-6610	nominal	_	_	_	_	_
+133-3	6611-6615	lima	_	_	_	_	_
+133-4	6616-6621	puluh	_	_	_	_	_
+133-5	6622-6626	tiga	_	_	_	_	_
+133-6	6627-6631	ribu	_	_	_	_	_
+133-7	6632-6636	lima	_	_	_	_	_
+133-8	6637-6642	ratus	_	_	_	_	_
+133-9	6643-6649	rupiah	_	_	_	_	_
+133-10	6650-6657	seperti	_	_	_	_	_
+133-11	6658-6661	itu	_	_	_	_	_
+
+#Text=terkait dengan transaksi nya < filler > apakah sudah berhasil di bpjs atau < filler > tidak ini nanti bu sulistia < filler > bu sulis konfirmasi langsung kepada pihak bpjs - nya bu namun jika di data kami di sini sudah ada refund dana nya seperti itu bu iya
+134-1	6663-6670	terkait	_	_	_	_	_
+134-2	6671-6677	dengan	_	_	_	_	_
+134-3	6678-6687	transaksi	_	_	_	_	_
+134-4	6688-6691	nya	_	_	_	_	_
+134-5	6692-6693	<	_	_	_	_	_
+134-6	6694-6700	filler	_	_	_	_	_
+134-7	6701-6702	>	_	_	_	_	_
+134-8	6703-6709	apakah	_	_	_	_	_
+134-9	6710-6715	sudah	_	_	_	_	_
+134-10	6716-6724	berhasil	_	_	_	_	_
+134-11	6725-6727	di	_	_	_	_	_
+134-12	6728-6732	bpjs	_	_	_	_	_
+134-13	6733-6737	atau	_	_	_	_	_
+134-14	6738-6739	<	_	_	_	_	_
+134-15	6740-6746	filler	_	_	_	_	_
+134-16	6747-6748	>	_	_	_	_	_
+134-17	6749-6754	tidak	_	_	_	_	_
+134-18	6755-6758	ini	_	_	_	_	_
+134-19	6759-6764	nanti	_	_	_	_	_
+134-20	6765-6767	bu	_	_	_	_	_
+134-21	6768-6776	sulistia	_	_	_	_	_
+134-22	6777-6778	<	_	_	_	_	_
+134-23	6779-6785	filler	_	_	_	_	_
+134-24	6786-6787	>	_	_	_	_	_
+134-25	6788-6790	bu	_	_	_	_	_
+134-26	6791-6796	sulis	_	_	_	_	_
+134-27	6797-6807	konfirmasi	_	_	_	_	_
+134-28	6808-6816	langsung	_	_	_	_	_
+134-29	6817-6823	kepada	_	_	_	_	_
+134-30	6824-6829	pihak	_	_	_	_	_
+134-31	6830-6834	bpjs	_	_	_	_	_
+134-32	6835-6836	-	_	_	_	_	_
+134-33	6837-6840	nya	_	_	_	_	_
+134-34	6841-6843	bu	_	_	_	_	_
+134-35	6844-6849	namun	_	_	_	_	_
+134-36	6850-6854	jika	_	_	_	_	_
+134-37	6855-6857	di	_	_	_	_	_
+134-38	6858-6862	data	_	_	_	_	_
+134-39	6863-6867	kami	_	_	_	_	_
+134-40	6868-6870	di	_	_	_	_	_
+134-41	6871-6875	sini	_	_	_	_	_
+134-42	6876-6881	sudah	*	positive[42]|[43_42]	_	_	_
+134-43	6882-6885	ada	_	positive[42]	_	_	_
+134-44	6886-6892	refund	*	[36_43]|concept[43]	_	_	_
+134-45	6893-6897	dana	_	concept[43]	_	_	_
+134-46	6898-6901	nya	_	_	_	_	_
+134-47	6902-6909	seperti	_	_	_	_	_
+134-48	6910-6913	itu	_	_	_	_	_
+134-49	6914-6916	bu	_	_	_	_	_
+134-50	6917-6920	iya	_	_	_	_	_
+
+#Text=baik ini terkait dengan gagal nya ini dikhawatirkan dikarenakan ibu menggunakan klikbca individu dikhawatirkan < filler > ibu ada salah penginputan pada saat ibu lakukan pembayaran ibu sudah lakukan pengecekan nya belum bu ada salah penginputan atau tidak pada saat itu bisa juga < filler > dikhawatirkan ini ada kendala pada sistem nya seperti itu bu
+135-1	6922-6926	baik	_	_	_	_	_
+135-2	6927-6930	ini	_	_	_	_	_
+135-3	6931-6938	terkait	_	_	_	_	_
+135-4	6939-6945	dengan	_	_	_	_	_
+135-5	6946-6951	gagal	*	negative[44]|[46_44]	_	_	_
+135-6	6952-6955	nya	_	_	_	_	_
+135-7	6956-6959	ini	_	_	_	_	_
+135-8	6960-6973	dikhawatirkan	_	_	_	_	_
+135-9	6974-6985	dikarenakan	_	_	_	_	_
+135-10	6986-6989	ibu	_	_	_	_	_
+135-11	6990-7001	menggunakan	_	_	_	_	_
+135-12	7002-7009	klikbca	*	[36_45]|concept[45]	_	_	_
+135-13	7010-7018	individu	_	concept[45]	_	_	_
+135-14	7019-7032	dikhawatirkan	_	_	_	_	_
+135-15	7033-7034	<	_	_	_	_	_
+135-16	7035-7041	filler	_	_	_	_	_
+135-17	7042-7043	>	_	_	_	_	_
+135-18	7044-7047	ibu	_	_	_	_	_
+135-19	7048-7051	ada	_	_	_	_	_
+135-20	7052-7057	salah	_	_	_	_	_
+135-21	7058-7069	penginputan	_	_	_	_	_
+135-22	7070-7074	pada	_	_	_	_	_
+135-23	7075-7079	saat	_	_	_	_	_
+135-24	7080-7083	ibu	_	_	_	_	_
+135-25	7084-7091	lakukan	_	_	_	_	_
+135-26	7092-7102	pembayaran	*	[45_46]|concept[46]	_	_	_
+135-27	7103-7106	ibu	_	_	_	_	_
+135-28	7107-7112	sudah	_	_	_	_	_
+135-29	7113-7120	lakukan	_	_	_	_	_
+135-30	7121-7131	pengecekan	_	_	_	_	_
+135-31	7132-7135	nya	_	_	_	_	_
+135-32	7136-7141	belum	_	_	_	_	_
+135-33	7142-7144	bu	_	_	_	_	_
+135-34	7145-7148	ada	_	_	_	_	_
+135-35	7149-7154	salah	_	_	_	_	_
+135-36	7155-7166	penginputan	_	_	_	_	_
+135-37	7167-7171	atau	_	_	_	_	_
+135-38	7172-7177	tidak	_	_	_	_	_
+135-39	7178-7182	pada	_	_	_	_	_
+135-40	7183-7187	saat	_	_	_	_	_
+135-41	7188-7191	itu	_	_	_	_	_
+135-42	7192-7196	bisa	_	_	_	_	_
+135-43	7197-7201	juga	_	_	_	_	_
+135-44	7202-7203	<	_	_	_	_	_
+135-45	7204-7210	filler	_	_	_	_	_
+135-46	7211-7212	>	_	_	_	_	_
+135-47	7213-7226	dikhawatirkan	_	_	_	_	_
+135-48	7227-7230	ini	_	_	_	_	_
+135-49	7231-7234	ada	_	_	_	_	_
+135-50	7235-7242	kendala	_	_	_	_	_
+135-51	7243-7247	pada	_	_	_	_	_
+135-52	7248-7254	sistem	_	_	_	_	_
+135-53	7255-7258	nya	_	_	_	_	_
+135-54	7259-7266	seperti	_	_	_	_	_
+135-55	7267-7270	itu	_	_	_	_	_
+135-56	7271-7273	bu	_	_	_	_	_
+
+#Text=iya betul
+136-1	7275-7278	iya	_	_	_	_	_
+136-2	7279-7284	betul	_	_	_	_	_
+
+#Text=iya baik
+137-1	7286-7289	iya	_	_	_	_	_
+137-2	7290-7294	baik	_	_	_	_	_
+
+#Text=iya
+138-1	7296-7299	iya	_	_	_	_	_
+
+#Text=baik
+139-1	7301-7305	baik	_	_	_	_	_
+
+#Text=iya
+140-1	7307-7310	iya	_	_	_	_	_
+
+#Text=iya baik
+141-1	7312-7315	iya	_	_	_	_	_
+141-2	7316-7320	baik	_	_	_	_	_
+
+#Text=baik < filler > bu sulis
+142-1	7322-7326	baik	_	_	_	_	_
+142-2	7327-7328	<	_	_	_	_	_
+142-3	7329-7335	filler	_	_	_	_	_
+142-4	7336-7337	>	_	_	_	_	_
+142-5	7338-7340	bu	_	_	_	_	_
+142-6	7341-7346	sulis	_	_	_	_	_
+
+#Text=di sini terkait informasi bpjs - nya ini dikarenakan jika dari bca ini < filler > sebagai media pembayaran
+143-1	7348-7350	di	_	_	_	_	_
+143-2	7351-7355	sini	_	_	_	_	_
+143-3	7356-7363	terkait	_	_	_	_	_
+143-4	7364-7373	informasi	_	_	_	_	_
+143-5	7374-7378	bpjs	_	_	_	_	_
+143-6	7379-7380	-	_	_	_	_	_
+143-7	7381-7384	nya	_	_	_	_	_
+143-8	7385-7388	ini	_	_	_	_	_
+143-9	7389-7400	dikarenakan	_	_	_	_	_
+143-10	7401-7405	jika	_	_	_	_	_
+143-11	7406-7410	dari	_	_	_	_	_
+143-12	7411-7414	bca	_	_	_	_	_
+143-13	7415-7418	ini	_	_	_	_	_
+143-14	7419-7420	<	_	_	_	_	_
+143-15	7421-7427	filler	_	_	_	_	_
+143-16	7428-7429	>	_	_	_	_	_
+143-17	7430-7437	sebagai	_	_	_	_	_
+143-18	7438-7443	media	_	_	_	_	_
+143-19	7444-7454	pembayaran	_	_	_	_	_
+
+#Text=namun untuk informasi < filler > terkait dengan < filler > pembayaran ibu ini nanti saya sarankan konfirmasi langsung kepada pihak bpjs - nya seperti itu bu jadi nanti ibu bisa melihatkan bukti kepada pihak bpjs - nya jika memang sebelumnya ini transaksi ibu < filler > gagal dan ada refund dana dari pihak bca seperti itu
+144-1	7456-7461	namun	_	_	_	_	_
+144-2	7462-7467	untuk	_	_	_	_	_
+144-3	7468-7477	informasi	_	_	_	_	_
+144-4	7478-7479	<	_	_	_	_	_
+144-5	7480-7486	filler	_	_	_	_	_
+144-6	7487-7488	>	_	_	_	_	_
+144-7	7489-7496	terkait	_	_	_	_	_
+144-8	7497-7503	dengan	_	_	_	_	_
+144-9	7504-7505	<	_	_	_	_	_
+144-10	7506-7512	filler	_	_	_	_	_
+144-11	7513-7514	>	_	_	_	_	_
+144-12	7515-7525	pembayaran	_	_	_	_	_
+144-13	7526-7529	ibu	_	_	_	_	_
+144-14	7530-7533	ini	_	_	_	_	_
+144-15	7534-7539	nanti	_	_	_	_	_
+144-16	7540-7544	saya	_	_	_	_	_
+144-17	7545-7553	sarankan	_	_	_	_	_
+144-18	7554-7564	konfirmasi	_	_	_	_	_
+144-19	7565-7573	langsung	_	_	_	_	_
+144-20	7574-7580	kepada	_	_	_	_	_
+144-21	7581-7586	pihak	_	_	_	_	_
+144-22	7587-7591	bpjs	_	_	_	_	_
+144-23	7592-7593	-	_	_	_	_	_
+144-24	7594-7597	nya	_	_	_	_	_
+144-25	7598-7605	seperti	_	_	_	_	_
+144-26	7606-7609	itu	_	_	_	_	_
+144-27	7610-7612	bu	_	_	_	_	_
+144-28	7613-7617	jadi	_	_	_	_	_
+144-29	7618-7623	nanti	_	_	_	_	_
+144-30	7624-7627	ibu	_	_	_	_	_
+144-31	7628-7632	bisa	_	_	_	_	_
+144-32	7633-7643	melihatkan	_	_	_	_	_
+144-33	7644-7649	bukti	_	_	_	_	_
+144-34	7650-7656	kepada	_	_	_	_	_
+144-35	7657-7662	pihak	_	_	_	_	_
+144-36	7663-7667	bpjs	_	_	_	_	_
+144-37	7668-7669	-	_	_	_	_	_
+144-38	7670-7673	nya	_	_	_	_	_
+144-39	7674-7678	jika	_	_	_	_	_
+144-40	7679-7685	memang	_	_	_	_	_
+144-41	7686-7696	sebelumnya	_	_	_	_	_
+144-42	7697-7700	ini	_	_	_	_	_
+144-43	7701-7710	transaksi	_	_	_	_	_
+144-44	7711-7714	ibu	_	_	_	_	_
+144-45	7715-7716	<	_	_	_	_	_
+144-46	7717-7723	filler	_	_	_	_	_
+144-47	7724-7725	>	_	_	_	_	_
+144-48	7726-7731	gagal	_	_	_	_	_
+144-49	7732-7735	dan	_	_	_	_	_
+144-50	7736-7739	ada	_	_	_	_	_
+144-51	7740-7746	refund	_	_	_	_	_
+144-52	7747-7751	dana	_	_	_	_	_
+144-53	7752-7756	dari	_	_	_	_	_
+144-54	7757-7762	pihak	_	_	_	_	_
+144-55	7763-7766	bca	_	_	_	_	_
+144-56	7767-7774	seperti	_	_	_	_	_
+144-57	7775-7778	itu	_	_	_	_	_
+
+#Text=baik
+145-1	7780-7784	baik	_	_	_	_	_
+
+#Text=nanti ibu bisa memberikan bukti nya kepada pihak bpjs - nya dikhawatirkan nanti ketika < filler >
+146-1	7786-7791	nanti	_	_	_	_	_
+146-2	7792-7795	ibu	_	_	_	_	_
+146-3	7796-7800	bisa	_	_	_	_	_
+146-4	7801-7811	memberikan	_	_	_	_	_
+146-5	7812-7817	bukti	_	_	_	_	_
+146-6	7818-7821	nya	_	_	_	_	_
+146-7	7822-7828	kepada	_	_	_	_	_
+146-8	7829-7834	pihak	_	_	_	_	_
+146-9	7835-7839	bpjs	_	_	_	_	_
+146-10	7840-7841	-	_	_	_	_	_
+146-11	7842-7845	nya	_	_	_	_	_
+146-12	7846-7859	dikhawatirkan	_	_	_	_	_
+146-13	7860-7865	nanti	_	_	_	_	_
+146-14	7866-7872	ketika	_	_	_	_	_
+146-15	7873-7874	<	_	_	_	_	_
+146-16	7875-7881	filler	_	_	_	_	_
+146-17	7882-7883	>	_	_	_	_	_
+
+#Text=pembayaran di bulan < filler > berikut nya
+147-1	7885-7895	pembayaran	_	_	_	_	_
+147-2	7896-7898	di	_	_	_	_	_
+147-3	7899-7904	bulan	_	_	_	_	_
+147-4	7905-7906	<	_	_	_	_	_
+147-5	7907-7913	filler	_	_	_	_	_
+147-6	7914-7915	>	_	_	_	_	_
+147-7	7916-7923	berikut	_	_	_	_	_
+147-8	7924-7927	nya	_	_	_	_	_
+
+#Text=ini nanti < filler > akan
+148-1	7929-7932	ini	_	_	_	_	_
+148-2	7933-7938	nanti	_	_	_	_	_
+148-3	7939-7940	<	_	_	_	_	_
+148-4	7941-7947	filler	_	_	_	_	_
+148-5	7948-7949	>	_	_	_	_	_
+148-6	7950-7954	akan	_	_	_	_	_
+
+#Text=iya betul bu jadi nanti konfirmasi ibu saya sarankan untuk lebih baiknya ini ibu konfirmasi terlebih dahulu kepada pihak bpjs - nya dan memberikan bukti < filler > rekening ibu mutasi rekening nya nanti ibu bisa lakukan print mutasi rekening nanti ibu bisa datang ke cabang dengan membawa dokumen seperti kartu identitas buku rekening dan kartu atm - nya nanti untuk biaya print - nya dikenakan dua ribu lima ratus per lembar nya
+149-1	7956-7959	iya	_	_	_	_	_
+149-2	7960-7965	betul	_	_	_	_	_
+149-3	7966-7968	bu	_	_	_	_	_
+149-4	7969-7973	jadi	_	_	_	_	_
+149-5	7974-7979	nanti	_	_	_	_	_
+149-6	7980-7990	konfirmasi	_	_	_	_	_
+149-7	7991-7994	ibu	_	_	_	_	_
+149-8	7995-7999	saya	_	_	_	_	_
+149-9	8000-8008	sarankan	_	_	_	_	_
+149-10	8009-8014	untuk	_	_	_	_	_
+149-11	8015-8020	lebih	_	_	_	_	_
+149-12	8021-8028	baiknya	_	_	_	_	_
+149-13	8029-8032	ini	_	_	_	_	_
+149-14	8033-8036	ibu	_	_	_	_	_
+149-15	8037-8047	konfirmasi	_	_	_	_	_
+149-16	8048-8056	terlebih	_	_	_	_	_
+149-17	8057-8063	dahulu	_	_	_	_	_
+149-18	8064-8070	kepada	_	_	_	_	_
+149-19	8071-8076	pihak	_	_	_	_	_
+149-20	8077-8081	bpjs	_	_	_	_	_
+149-21	8082-8083	-	_	_	_	_	_
+149-22	8084-8087	nya	_	_	_	_	_
+149-23	8088-8091	dan	_	_	_	_	_
+149-24	8092-8102	memberikan	_	_	_	_	_
+149-25	8103-8108	bukti	_	_	_	_	_
+149-26	8109-8110	<	_	_	_	_	_
+149-27	8111-8117	filler	_	_	_	_	_
+149-28	8118-8119	>	_	_	_	_	_
+149-29	8120-8128	rekening	_	_	_	_	_
+149-30	8129-8132	ibu	_	_	_	_	_
+149-31	8133-8139	mutasi	_	_	_	_	_
+149-32	8140-8148	rekening	_	_	_	_	_
+149-33	8149-8152	nya	_	_	_	_	_
+149-34	8153-8158	nanti	_	_	_	_	_
+149-35	8159-8162	ibu	_	_	_	_	_
+149-36	8163-8167	bisa	_	_	_	_	_
+149-37	8168-8175	lakukan	_	_	_	_	_
+149-38	8176-8181	print	_	_	_	_	_
+149-39	8182-8188	mutasi	_	_	_	_	_
+149-40	8189-8197	rekening	_	_	_	_	_
+149-41	8198-8203	nanti	_	_	_	_	_
+149-42	8204-8207	ibu	_	_	_	_	_
+149-43	8208-8212	bisa	_	_	_	_	_
+149-44	8213-8219	datang	_	_	_	_	_
+149-45	8220-8222	ke	_	_	_	_	_
+149-46	8223-8229	cabang	_	_	_	_	_
+149-47	8230-8236	dengan	_	_	_	_	_
+149-48	8237-8244	membawa	_	_	_	_	_
+149-49	8245-8252	dokumen	_	_	_	_	_
+149-50	8253-8260	seperti	_	_	_	_	_
+149-51	8261-8266	kartu	_	_	_	_	_
+149-52	8267-8276	identitas	_	_	_	_	_
+149-53	8277-8281	buku	_	_	_	_	_
+149-54	8282-8290	rekening	_	_	_	_	_
+149-55	8291-8294	dan	_	_	_	_	_
+149-56	8295-8300	kartu	_	_	_	_	_
+149-57	8301-8304	atm	_	_	_	_	_
+149-58	8305-8306	-	_	_	_	_	_
+149-59	8307-8310	nya	_	_	_	_	_
+149-60	8311-8316	nanti	_	_	_	_	_
+149-61	8317-8322	untuk	_	_	_	_	_
+149-62	8323-8328	biaya	_	_	_	_	_
+149-63	8329-8334	print	_	_	_	_	_
+149-64	8335-8336	-	_	_	_	_	_
+149-65	8337-8340	nya	_	_	_	_	_
+149-66	8341-8350	dikenakan	_	_	_	_	_
+149-67	8351-8354	dua	_	_	_	_	_
+149-68	8355-8359	ribu	_	_	_	_	_
+149-69	8360-8364	lima	_	_	_	_	_
+149-70	8365-8370	ratus	_	_	_	_	_
+149-71	8371-8374	per	_	_	_	_	_
+149-72	8375-8381	lembar	_	_	_	_	_
+149-73	8382-8385	nya	_	_	_	_	_
+
+#Text=iya baik iya baik bu
+150-1	8387-8390	iya	_	_	_	_	_
+150-2	8391-8395	baik	_	_	_	_	_
+150-3	8396-8399	iya	_	_	_	_	_
+150-4	8400-8404	baik	_	_	_	_	_
+150-5	8405-8407	bu	_	_	_	_	_
+
+#Text=iya baik bu sulis di sini sudah saya bantu informasikan terkait dengan < pengec >
+151-1	8409-8412	iya	_	_	_	_	_
+151-2	8413-8417	baik	_	_	_	_	_
+151-3	8418-8420	bu	_	_	_	_	_
+151-4	8421-8426	sulis	_	_	_	_	_
+151-5	8427-8429	di	_	_	_	_	_
+151-6	8430-8434	sini	_	_	_	_	_
+151-7	8435-8440	sudah	_	_	_	_	_
+151-8	8441-8445	saya	_	_	_	_	_
+151-9	8446-8451	bantu	_	_	_	_	_
+151-10	8452-8464	informasikan	_	_	_	_	_
+151-11	8465-8472	terkait	_	_	_	_	_
+151-12	8473-8479	dengan	_	_	_	_	_
+151-13	8480-8481	<	_	_	_	_	_
+151-14	8482-8488	pengec	_	_	_	_	_
+151-15	8489-8490	>	_	_	_	_	_

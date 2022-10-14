@@ -1,0 +1,264 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=< filler > selamat siang mbak
+1-1	0-1	<	_	_	_	_	_
+1-2	2-8	filler	_	_	_	_	_
+1-3	9-10	>	_	_	_	_	_
+1-4	11-18	selamat	_	_	_	_	_
+1-5	19-24	siang	_	_	_	_	_
+1-6	25-29	mbak	_	_	_	_	_
+
+#Text=saya pemilik rekening dari cv
+2-1	31-35	saya	_	_	_	_	_
+2-2	36-43	pemilik	_	_	_	_	_
+2-3	44-52	rekening	_	_	_	_	_
+2-4	53-57	dari	_	_	_	_	_
+2-5	58-60	cv	_	_	_	_	_
+
+#Text=graha anugrah darsiam nomor nya empat sembilan tujuh
+3-1	62-67	graha	_	_	_	_	_
+3-2	68-75	anugrah	_	_	_	_	_
+3-3	76-83	darsiam	_	_	_	_	_
+3-4	84-89	nomor	_	_	_	_	_
+3-5	90-93	nya	_	_	_	_	_
+3-6	94-99	empat	_	_	_	_	_
+3-7	100-108	sembilan	_	_	_	_	_
+3-8	109-114	tujuh	_	_	_	_	_
+
+#Text=kosong tujuh dua
+4-1	116-122	kosong	_	_	_	_	_
+4-2	123-128	tujuh	_	_	_	_	_
+4-3	129-132	dua	_	_	_	_	_
+
+#Text=triple tujuh empat
+5-1	134-140	triple	_	_	_	_	_
+5-2	141-146	tujuh	_	_	_	_	_
+5-3	147-152	empat	_	_	_	_	_
+
+#Text=pak deni
+6-1	154-157	pak	_	_	_	_	_
+6-2	158-162	deni	_	_	_	_	_
+
+#Text=saya pertama saya mau nanya
+7-1	164-168	saya	_	_	_	_	_
+7-2	169-176	pertama	_	_	_	_	_
+7-3	177-181	saya	_	_	_	_	_
+7-4	182-185	mau	_	_	_	_	_
+7-5	186-191	nanya	_	_	_	_	_
+
+#Text=< filler > saya baru setahu saya ini saya mau nanya mengenai klikbca bisnis
+8-1	193-194	<	_	_	_	_	_
+8-2	195-201	filler	_	_	_	_	_
+8-3	202-203	>	_	_	_	_	_
+8-4	204-208	saya	_	_	_	_	_
+8-5	209-213	baru	_	_	_	_	_
+8-6	214-220	setahu	_	_	_	_	_
+8-7	221-225	saya	_	_	_	_	_
+8-8	226-229	ini	_	_	_	_	_
+8-9	230-234	saya	_	_	_	_	_
+8-10	235-238	mau	_	_	_	_	_
+8-11	239-244	nanya	_	_	_	_	_
+8-12	245-253	mengenai	_	_	_	_	_
+8-13	254-261	klikbca	_	concept[1]	_	_	_
+8-14	262-268	bisnis	_	concept[1]	_	_	_
+
+#Text=itu kan pakai vpn saya udah tahu itu pakai vpn
+9-1	270-273	itu	_	_	_	_	_
+9-2	274-277	kan	_	_	_	_	_
+9-3	278-283	pakai	_	_	_	_	_
+9-4	284-287	vpn	_	_	_	_	_
+9-5	288-292	saya	_	_	_	_	_
+9-6	293-297	udah	_	_	_	_	_
+9-7	298-302	tahu	_	_	_	_	_
+9-8	303-306	itu	_	_	_	_	_
+9-9	307-312	pakai	_	_	_	_	_
+9-10	313-316	vpn	_	_	_	_	_
+
+#Text=cuma kalau kita udah log out memang enggak bisa langsung masuk lagi ya balik ya
+10-1	318-322	cuma	_	_	_	_	_
+10-2	323-328	kalau	_	_	_	_	_
+10-3	329-333	kita	_	_	_	_	_
+10-4	334-338	udah	_	_	_	_	_
+10-5	339-342	log	_	_	_	_	_
+10-6	343-346	out	_	_	_	_	_
+10-7	347-353	memang	_	_	_	_	_
+10-8	354-360	enggak	*	negative[2]|[3_2]	_	_	_
+10-9	361-365	bisa	_	negative[2]	_	_	_
+10-10	366-374	langsung	_	negative[2]	_	_	_
+10-11	375-380	masuk	*	[1_3]|concept[3]	_	_	_
+10-12	381-385	lagi	_	_	_	_	_
+10-13	386-388	ya	_	_	_	_	_
+10-14	389-394	balik	_	_	_	_	_
+10-15	395-397	ya	_	_	_	_	_
+
+#Text=iya iya iya
+11-1	399-402	iya	_	_	_	_	_
+11-2	403-406	iya	_	_	_	_	_
+11-3	407-410	iya	_	_	_	_	_
+
+#Text=udah udah itu aja
+12-1	412-416	udah	_	_	_	_	_
+12-2	417-421	udah	_	_	_	_	_
+12-3	422-425	itu	_	_	_	_	_
+12-4	426-429	aja	_	_	_	_	_
+
+#Text=saya pikir perbankan juga kan sama saya pikir
+13-1	431-435	saya	_	_	_	_	_
+13-2	436-441	pikir	_	_	_	_	_
+13-3	442-451	perbankan	_	_	_	_	_
+13-4	452-456	juga	_	_	_	_	_
+13-5	457-460	kan	_	_	_	_	_
+13-6	461-465	sama	_	_	_	_	_
+13-7	466-470	saya	_	_	_	_	_
+13-8	471-476	pikir	_	_	_	_	_
+
+#Text=oke deh
+14-1	478-481	oke	_	_	_	_	_
+14-2	482-485	deh	_	_	_	_	_
+
+#Text=iya iya
+15-1	487-490	iya	_	_	_	_	_
+15-2	491-494	iya	_	_	_	_	_
+
+#Text=iyo iyo
+16-1	496-499	iyo	_	_	_	_	_
+16-2	500-503	iyo	_	_	_	_	_
+
+#Text=selamat siang halo bca dengan widi bisa saya bantu
+17-1	505-512	selamat	_	_	_	_	_
+17-2	513-518	siang	_	_	_	_	_
+17-3	519-523	halo	_	_	_	_	_
+17-4	524-527	bca	_	_	_	_	_
+17-5	528-534	dengan	_	_	_	_	_
+17-6	535-539	widi	_	_	_	_	_
+17-7	540-544	bisa	_	_	_	_	_
+17-8	545-549	saya	_	_	_	_	_
+17-9	550-555	bantu	_	_	_	_	_
+
+#Text=siang kembali pak
+18-1	557-562	siang	_	_	_	_	_
+18-2	563-570	kembali	_	_	_	_	_
+18-3	571-574	pak	_	_	_	_	_
+
+#Text=iya pak
+19-1	576-579	iya	_	_	_	_	_
+19-2	580-583	pak	_	_	_	_	_
+
+#Text=empat sembilan tujuh
+20-1	585-590	empat	_	_	_	_	_
+20-2	591-599	sembilan	_	_	_	_	_
+20-3	600-605	tujuh	_	_	_	_	_
+
+#Text=kosong tujuh dua
+21-1	607-613	kosong	_	_	_	_	_
+21-2	614-619	tujuh	_	_	_	_	_
+21-3	620-623	dua	_	_	_	_	_
+
+#Text=< unk > iya baik pak sebelumnya dengan siapa saya bicara
+22-1	625-626	<	_	_	_	_	_
+22-2	627-630	unk	_	_	_	_	_
+22-3	631-632	>	_	_	_	_	_
+22-4	633-636	iya	_	_	_	_	_
+22-5	637-641	baik	_	_	_	_	_
+22-6	642-645	pak	_	_	_	_	_
+22-7	646-656	sebelumnya	_	_	_	_	_
+22-8	657-663	dengan	_	_	_	_	_
+22-9	664-669	siapa	_	_	_	_	_
+22-10	670-674	saya	_	_	_	_	_
+22-11	675-681	bicara	_	_	_	_	_
+
+#Text=baik pak deni < unk > informasi apa yang bisa saya bantu
+23-1	683-687	baik	_	_	_	_	_
+23-2	688-691	pak	_	_	_	_	_
+23-3	692-696	deni	_	_	_	_	_
+23-4	697-698	<	_	_	_	_	_
+23-5	699-702	unk	_	_	_	_	_
+23-6	703-704	>	_	_	_	_	_
+23-7	705-714	informasi	_	_	_	_	_
+23-8	715-718	apa	_	_	_	_	_
+23-9	719-723	yang	_	_	_	_	_
+23-10	724-728	bisa	_	_	_	_	_
+23-11	729-733	saya	_	_	_	_	_
+23-12	734-739	bantu	_	_	_	_	_
+
+#Text=iya pak
+24-1	741-744	iya	_	_	_	_	_
+24-2	745-748	pak	_	_	_	_	_
+
+#Text=iya baik pak deni
+25-1	750-753	iya	_	_	_	_	_
+25-2	754-758	baik	_	_	_	_	_
+25-3	759-762	pak	_	_	_	_	_
+25-4	763-767	deni	_	_	_	_	_
+
+#Text=< filler >
+26-1	769-770	<	_	_	_	_	_
+26-2	771-777	filler	_	_	_	_	_
+26-3	778-779	>	_	_	_	_	_
+
+#Text=baik pak deni mohon maaf bapak saat ini terhubung pada layanan perbankan reguler untuk perihal klikbca bisnis nya saya sambungkan ke layanan klikbca bisnis kami ya pak
+27-1	781-785	baik	_	_	_	_	_
+27-2	786-789	pak	_	_	_	_	_
+27-3	790-794	deni	_	_	_	_	_
+27-4	795-800	mohon	_	_	_	_	_
+27-5	801-805	maaf	_	_	_	_	_
+27-6	806-811	bapak	_	_	_	_	_
+27-7	812-816	saat	_	_	_	_	_
+27-8	817-820	ini	_	_	_	_	_
+27-9	821-830	terhubung	_	_	_	_	_
+27-10	831-835	pada	_	_	_	_	_
+27-11	836-843	layanan	_	_	_	_	_
+27-12	844-853	perbankan	_	_	_	_	_
+27-13	854-861	reguler	_	_	_	_	_
+27-14	862-867	untuk	_	_	_	_	_
+27-15	868-875	perihal	_	_	_	_	_
+27-16	876-883	klikbca	_	_	_	_	_
+27-17	884-890	bisnis	_	_	_	_	_
+27-18	891-894	nya	_	_	_	_	_
+27-19	895-899	saya	_	_	_	_	_
+27-20	900-910	sambungkan	_	_	_	_	_
+27-21	911-913	ke	_	_	_	_	_
+27-22	914-921	layanan	_	_	_	_	_
+27-23	922-929	klikbca	_	_	_	_	_
+27-24	930-936	bisnis	_	_	_	_	_
+27-25	937-941	kami	_	_	_	_	_
+27-26	942-944	ya	_	_	_	_	_
+27-27	945-948	pak	_	_	_	_	_
+
+#Text=baik untuk perbankan bca ada lagi yang bisa saya bantu
+28-1	950-954	baik	_	_	_	_	_
+28-2	955-960	untuk	_	_	_	_	_
+28-3	961-970	perbankan	_	_	_	_	_
+28-4	971-974	bca	_	_	_	_	_
+28-5	975-978	ada	_	_	_	_	_
+28-6	979-983	lagi	_	_	_	_	_
+28-7	984-988	yang	_	_	_	_	_
+28-8	989-993	bisa	_	_	_	_	_
+28-9	994-998	saya	_	_	_	_	_
+28-10	999-1004	bantu	_	_	_	_	_
+
+#Text=baik
+29-1	1006-1010	baik	_	_	_	_	_
+
+#Text=iya
+30-1	1012-1015	iya	_	_	_	_	_
+
+#Text=untuk klikbca bisnis beda pak
+31-1	1017-1022	untuk	_	_	_	_	_
+31-2	1023-1030	klikbca	_	_	_	_	_
+31-3	1031-1037	bisnis	_	_	_	_	_
+31-4	1038-1042	beda	_	_	_	_	_
+31-5	1043-1046	pak	_	_	_	_	_
+
+#Text=baik saya buat nada tunggu ya pak terima kasih selamat siang
+32-1	1048-1052	baik	_	_	_	_	_
+32-2	1053-1057	saya	_	_	_	_	_
+32-3	1058-1062	buat	_	_	_	_	_
+32-4	1063-1067	nada	_	_	_	_	_
+32-5	1068-1074	tunggu	_	_	_	_	_
+32-6	1075-1077	ya	_	_	_	_	_
+32-7	1078-1081	pak	_	_	_	_	_
+32-8	1082-1088	terima	_	_	_	_	_
+32-9	1089-1094	kasih	_	_	_	_	_
+32-10	1095-1102	selamat	_	_	_	_	_
+32-11	1103-1108	siang	_	_	_	_	_

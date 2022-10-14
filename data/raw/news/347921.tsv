@@ -1,0 +1,205 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Penyanyi rap Rich Brian dikabarkan akan segera manggung di Jakarta tahun ini .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-35	Penyanyi	_	_	_	_	_
+1-7	36-39	rap	_	_	_	_	_
+1-8	40-44	Rich	_	_	_	_	_
+1-9	45-50	Brian	_	_	_	_	_
+1-10	51-61	dikabarkan	_	_	_	_	_
+1-11	62-66	akan	_	_	_	_	_
+1-12	67-73	segera	_	_	_	_	_
+1-13	74-82	manggung	_	_	_	_	_
+1-14	83-85	di	_	_	_	_	_
+1-15	86-93	Jakarta	_	_	_	_	_
+1-16	94-99	tahun	_	_	_	_	_
+1-17	100-103	ini	_	_	_	_	_
+1-18	104-105	.	_	_	_	_	_
+
+#Text=Meski belum ada jadwal pasti , namun label yang menaungi Rich Brian , 88Rising , baru saja mengumumkan bakal ada nya konser " Head in The Cloud 2022 " di Jakarta .
+2-1	107-112	Meski	_	_	_	_	_
+2-2	113-118	belum	_	_	_	_	_
+2-3	119-122	ada	_	_	_	_	_
+2-4	123-129	jadwal	_	_	_	_	_
+2-5	130-135	pasti	_	_	_	_	_
+2-6	136-137	,	_	_	_	_	_
+2-7	138-143	namun	_	_	_	_	_
+2-8	144-149	label	_	_	_	_	_
+2-9	150-154	yang	_	_	_	_	_
+2-10	155-163	menaungi	_	_	_	_	_
+2-11	164-168	Rich	_	_	_	_	_
+2-12	169-174	Brian	_	_	_	_	_
+2-13	175-176	,	_	_	_	_	_
+2-14	177-185	88Rising	_	_	_	_	_
+2-15	186-187	,	_	_	_	_	_
+2-16	188-192	baru	_	_	_	_	_
+2-17	193-197	saja	_	_	_	_	_
+2-18	198-209	mengumumkan	_	_	_	_	_
+2-19	210-215	bakal	_	_	_	_	_
+2-20	216-219	ada	_	_	_	_	_
+2-21	220-223	nya	_	_	_	_	_
+2-22	224-230	konser	_	_	_	_	_
+2-23	231-232	"	_	_	_	_	_
+2-24	233-237	Head	_	_	_	_	_
+2-25	238-240	in	_	_	_	_	_
+2-26	241-244	The	_	_	_	_	_
+2-27	245-250	Cloud	_	_	_	_	_
+2-28	251-255	2022	_	_	_	_	_
+2-29	256-257	"	_	_	_	_	_
+2-30	258-260	di	_	_	_	_	_
+2-31	261-268	Jakarta	_	_	_	_	_
+2-32	269-270	.	_	_	_	_	_
+
+#Text=" To Jakarta with love . We will be seeing you #HITCJAKARTA2022 , " tulis 88Rising di Twitter , Kamis ( 24 / 2 / 2022 ) .
+3-1	272-273	"	_	_	_	_	_
+3-2	274-276	To	_	_	_	_	_
+3-3	277-284	Jakarta	_	_	_	_	_
+3-4	285-289	with	_	_	_	_	_
+3-5	290-294	love	_	_	_	_	_
+3-6	295-296	.	_	_	_	_	_
+3-7	297-299	We	_	_	_	_	_
+3-8	300-304	will	_	_	_	_	_
+3-9	305-307	be	_	_	_	_	_
+3-10	308-314	seeing	_	_	_	_	_
+3-11	315-318	you	_	_	_	_	_
+3-12	319-335	#HITCJAKARTA2022	_	_	_	_	_
+3-13	336-337	,	_	_	_	_	_
+3-14	338-339	"	_	_	_	_	_
+3-15	340-345	tulis	_	_	_	_	_
+3-16	346-354	88Rising	_	_	_	_	_
+3-17	355-357	di	_	_	_	_	_
+3-18	358-365	Twitter	_	_	_	_	_
+3-19	366-367	,	_	_	_	_	_
+3-20	368-373	Kamis	_	_	_	_	_
+3-21	374-375	(	_	_	_	_	_
+3-22	376-378	24	_	_	_	_	_
+3-23	379-380	/	_	_	_	_	_
+3-24	381-382	2	_	_	_	_	_
+3-25	383-384	/	_	_	_	_	_
+3-26	385-389	2022	_	_	_	_	_
+3-27	390-391	)	_	_	_	_	_
+3-28	392-393	.	_	_	_	_	_
+
+#Text=Dalam unggahan itu , mereka juga menyematkan foto Rich Brian .
+4-1	395-400	Dalam	_	_	_	_	_
+4-2	401-409	unggahan	_	_	_	_	_
+4-3	410-413	itu	_	_	_	_	_
+4-4	414-415	,	_	_	_	_	_
+4-5	416-422	mereka	_	_	_	_	_
+4-6	423-427	juga	_	_	_	_	_
+4-7	428-439	menyematkan	_	_	_	_	_
+4-8	440-444	foto	_	_	_	_	_
+4-9	445-449	Rich	_	_	_	_	_
+4-10	450-455	Brian	_	_	_	_	_
+4-11	456-457	.	_	_	_	_	_
+
+#Text=Sedianya , pelantun lagu New Tooth tersebut dijadwalkan menyapa para penggemar di Indonesia dua tahun lalu di JIEXpo Kemayoran .
+5-1	459-467	Sedianya	_	_	_	_	_
+5-2	468-469	,	_	_	_	_	_
+5-3	470-478	pelantun	_	_	_	_	_
+5-4	479-483	lagu	_	_	_	_	_
+5-5	484-487	New	_	_	_	_	_
+5-6	488-493	Tooth	_	_	_	_	_
+5-7	494-502	tersebut	_	_	_	_	_
+5-8	503-514	dijadwalkan	_	_	_	_	_
+5-9	515-522	menyapa	_	_	_	_	_
+5-10	523-527	para	_	_	_	_	_
+5-11	528-537	penggemar	_	_	_	_	_
+5-12	538-540	di	_	_	_	_	_
+5-13	541-550	Indonesia	_	_	_	_	_
+5-14	551-554	dua	_	_	_	_	_
+5-15	555-560	tahun	_	_	_	_	_
+5-16	561-565	lalu	_	_	_	_	_
+5-17	566-568	di	_	_	_	_	_
+5-18	569-575	JIEXpo	_	_	_	_	_
+5-19	576-585	Kemayoran	_	_	_	_	_
+5-20	586-587	.	_	_	_	_	_
+
+#Text=Namun , jadwal pertunjukan ditunda karena kondisi pandemi .
+6-1	589-594	Namun	_	_	_	_	_
+6-2	595-596	,	_	_	_	_	_
+6-3	597-603	jadwal	_	_	_	_	_
+6-4	604-615	pertunjukan	_	_	_	_	_
+6-5	616-623	ditunda	_	_	_	_	_
+6-6	624-630	karena	_	_	_	_	_
+6-7	631-638	kondisi	_	_	_	_	_
+6-8	639-646	pandemi	_	_	_	_	_
+6-9	647-648	.	_	_	_	_	_
+
+#Text=Selain Rich Brian , penyanyi 88Rising lain yang kabar nya akan tampil dalam konser " Head in The Cloud 2022 " adalah NIKI dan Joji .
+7-1	650-656	Selain	_	_	_	_	_
+7-2	657-661	Rich	_	_	_	_	_
+7-3	662-667	Brian	_	_	_	_	_
+7-4	668-669	,	_	_	_	_	_
+7-5	670-678	penyanyi	_	_	_	_	_
+7-6	679-687	88Rising	_	_	_	_	_
+7-7	688-692	lain	_	_	_	_	_
+7-8	693-697	yang	_	_	_	_	_
+7-9	698-703	kabar	_	_	_	_	_
+7-10	704-707	nya	_	_	_	_	_
+7-11	708-712	akan	_	_	_	_	_
+7-12	713-719	tampil	_	_	_	_	_
+7-13	720-725	dalam	_	_	_	_	_
+7-14	726-732	konser	_	_	_	_	_
+7-15	733-734	"	_	_	_	_	_
+7-16	735-739	Head	_	_	_	_	_
+7-17	740-742	in	_	_	_	_	_
+7-18	743-746	The	_	_	_	_	_
+7-19	747-752	Cloud	_	_	_	_	_
+7-20	753-757	2022	_	_	_	_	_
+7-21	758-759	"	_	_	_	_	_
+7-22	760-766	adalah	_	_	_	_	_
+7-23	767-771	NIKI	_	_	_	_	_
+7-24	772-775	dan	_	_	_	_	_
+7-25	776-780	Joji	_	_	_	_	_
+7-26	781-782	.	_	_	_	_	_
+
+#Text=Brian Immanuel Soewarno , atau lebih dikenal dengan nama panggung Rich Brian , adalah penyanyi rap dan penulis lagu asal Indonesia yang kini berkarir di Amerika Serikat .
+8-1	784-789	Brian	_	_	_	_	_
+8-2	790-798	Immanuel	_	_	_	_	_
+8-3	799-807	Soewarno	_	_	_	_	_
+8-4	808-809	,	_	_	_	_	_
+8-5	810-814	atau	_	_	_	_	_
+8-6	815-820	lebih	_	_	_	_	_
+8-7	821-828	dikenal	_	_	_	_	_
+8-8	829-835	dengan	_	_	_	_	_
+8-9	836-840	nama	_	_	_	_	_
+8-10	841-849	panggung	_	_	_	_	_
+8-11	850-854	Rich	_	_	_	_	_
+8-12	855-860	Brian	_	_	_	_	_
+8-13	861-862	,	_	_	_	_	_
+8-14	863-869	adalah	_	_	_	_	_
+8-15	870-878	penyanyi	_	_	_	_	_
+8-16	879-882	rap	_	_	_	_	_
+8-17	883-886	dan	_	_	_	_	_
+8-18	887-894	penulis	_	_	_	_	_
+8-19	895-899	lagu	_	_	_	_	_
+8-20	900-904	asal	_	_	_	_	_
+8-21	905-914	Indonesia	_	_	_	_	_
+8-22	915-919	yang	_	_	_	_	_
+8-23	920-924	kini	_	_	_	_	_
+8-24	925-933	berkarir	_	_	_	_	_
+8-25	934-936	di	_	_	_	_	_
+8-26	937-944	Amerika	_	_	_	_	_
+8-27	945-952	Serikat	_	_	_	_	_
+8-28	953-954	.	_	_	_	_	_
+
+#Text=Ia dikenal publik luas berkat lagu Dat $tick yang dirilis pada 2016 .
+9-1	956-958	Ia	_	_	_	_	_
+9-2	959-966	dikenal	_	_	_	_	_
+9-3	967-973	publik	_	_	_	_	_
+9-4	974-978	luas	_	_	_	_	_
+9-5	979-985	berkat	_	_	_	_	_
+9-6	986-990	lagu	_	_	_	_	_
+9-7	991-994	Dat	_	_	_	_	_
+9-8	995-1000	$tick	_	_	_	_	_
+9-9	1001-1005	yang	_	_	_	_	_
+9-10	1006-1013	dirilis	_	_	_	_	_
+9-11	1014-1018	pada	_	_	_	_	_
+9-12	1019-1023	2016	_	_	_	_	_
+9-13	1024-1025	.	_	_	_	_	_
+

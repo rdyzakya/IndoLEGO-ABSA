@@ -1,0 +1,402 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=ya hello iya mbak
+1-1	0-2	ya	_	_	_	_	_
+1-2	3-8	hello	_	_	_	_	_
+1-3	9-12	iya	_	_	_	_	_
+1-4	13-17	mbak	_	_	_	_	_
+
+#Text=nurhayati
+2-1	19-28	nurhayati	_	_	_	_	_
+
+#Text=< filler > ini mbak mobile banking itu kan ke uninstall
+3-1	30-31	<	_	_	_	_	_
+3-2	32-38	filler	_	_	_	_	_
+3-3	39-40	>	_	_	_	_	_
+3-4	41-44	ini	_	_	_	_	_
+3-5	45-49	mbak	_	_	_	_	_
+3-6	50-56	mobile	*	concept[1]|[4_1]	_	_	_
+3-7	57-64	banking	_	concept[1]	_	_	_
+3-8	65-68	itu	_	_	_	_	_
+3-9	69-72	kan	_	_	_	_	_
+3-10	73-75	ke	_	_	_	_	_
+3-11	76-85	uninstall	_	_	_	_	_
+
+#Text=terus saya ulang lagi
+4-1	87-92	terus	_	_	_	_	_
+4-2	93-97	saya	_	_	_	_	_
+4-3	98-103	ulang	_	_	_	_	_
+4-4	104-108	lagi	_	_	_	_	_
+
+#Text=tapi enggak bisa masuk harus ke < ate > register ke atm gitu
+5-1	110-114	tapi	_	_	_	_	_
+5-2	115-121	enggak	*	negative[2]|[3_2]	_	_	_
+5-3	122-126	bisa	_	negative[2]	_	_	_
+5-4	127-132	masuk	*	[1_3]|concept[3]	_	_	_
+5-5	133-138	harus	_	_	_	_	_
+5-6	139-141	ke	_	_	_	_	_
+5-7	142-143	<	_	_	_	_	_
+5-8	144-147	ate	_	_	_	_	_
+5-9	148-149	>	_	_	_	_	_
+5-10	150-158	register	_	_	_	_	_
+5-11	159-161	ke	_	_	_	_	_
+5-12	162-165	atm	_	_	_	_	_
+5-13	166-170	gitu	_	_	_	_	_
+
+#Text=nomor rekening nya kosong tujuh
+6-1	172-177	nomor	_	_	_	_	_
+6-2	178-186	rekening	_	_	_	_	_
+6-3	187-190	nya	_	_	_	_	_
+6-4	191-197	kosong	_	_	_	_	_
+6-5	198-203	tujuh	_	_	_	_	_
+
+#Text=triple lima
+7-1	205-211	triple	_	_	_	_	_
+7-2	212-216	lima	_	_	_	_	_
+
+#Text=triple nol
+8-1	218-224	triple	_	_	_	_	_
+8-2	225-228	nol	_	_	_	_	_
+
+#Text=tujuh enam
+9-1	230-235	tujuh	_	_	_	_	_
+9-2	236-240	enam	_	_	_	_	_
+
+#Text=iya
+10-1	242-245	iya	_	_	_	_	_
+
+#Text=iya
+11-1	247-250	iya	_	_	_	_	_
+
+#Text=iya
+12-1	252-255	iya	_	_	_	_	_
+
+#Text=< filler > nurhayati
+13-1	257-258	<	_	_	_	_	_
+13-2	259-265	filler	_	_	_	_	_
+13-3	266-267	>	_	_	_	_	_
+13-4	268-277	nurhayati	_	_	_	_	_
+
+#Text=wonogiri tiga belas september delapan dua < batuk >
+14-1	279-287	wonogiri	_	_	_	_	_
+14-2	288-292	tiga	_	_	_	_	_
+14-3	293-298	belas	_	_	_	_	_
+14-4	299-308	september	_	_	_	_	_
+14-5	309-316	delapan	_	_	_	_	_
+14-6	317-320	dua	_	_	_	_	_
+14-7	321-322	<	_	_	_	_	_
+14-8	323-328	batuk	_	_	_	_	_
+14-9	329-330	>	_	_	_	_	_
+
+#Text=< batuk > sutarmi
+15-1	332-333	<	_	_	_	_	_
+15-2	334-339	batuk	_	_	_	_	_
+15-3	340-341	>	_	_	_	_	_
+15-4	342-349	sutarmi	_	_	_	_	_
+
+#Text=< batuk > jalan kebun mangga empat rt nol nol lima rw nol dua cipulir kebayoran lama jakarta selatan satu dua dua tiga puluh mbak
+16-1	351-352	<	_	_	_	_	_
+16-2	353-358	batuk	_	_	_	_	_
+16-3	359-360	>	_	_	_	_	_
+16-4	361-366	jalan	_	_	_	_	_
+16-5	367-372	kebun	_	_	_	_	_
+16-6	373-379	mangga	_	_	_	_	_
+16-7	380-385	empat	_	_	_	_	_
+16-8	386-388	rt	_	_	_	_	_
+16-9	389-392	nol	_	_	_	_	_
+16-10	393-396	nol	_	_	_	_	_
+16-11	397-401	lima	_	_	_	_	_
+16-12	402-404	rw	_	_	_	_	_
+16-13	405-408	nol	_	_	_	_	_
+16-14	409-412	dua	_	_	_	_	_
+16-15	413-420	cipulir	_	_	_	_	_
+16-16	421-430	kebayoran	_	_	_	_	_
+16-17	431-435	lama	_	_	_	_	_
+16-18	436-443	jakarta	_	_	_	_	_
+16-19	444-451	selatan	_	_	_	_	_
+16-20	452-456	satu	_	_	_	_	_
+16-21	457-460	dua	_	_	_	_	_
+16-22	461-464	dua	_	_	_	_	_
+16-23	465-469	tiga	_	_	_	_	_
+16-24	470-475	puluh	_	_	_	_	_
+16-25	476-480	mbak	_	_	_	_	_
+
+#Text=kosong delapan satu tiga delapan lima tiga delapan lima sembilan kosong enam < batuk > < batuk >
+17-1	482-488	kosong	_	_	_	_	_
+17-2	489-496	delapan	_	_	_	_	_
+17-3	497-501	satu	_	_	_	_	_
+17-4	502-506	tiga	_	_	_	_	_
+17-5	507-514	delapan	_	_	_	_	_
+17-6	515-519	lima	_	_	_	_	_
+17-7	520-524	tiga	_	_	_	_	_
+17-8	525-532	delapan	_	_	_	_	_
+17-9	533-537	lima	_	_	_	_	_
+17-10	538-546	sembilan	_	_	_	_	_
+17-11	547-553	kosong	_	_	_	_	_
+17-12	554-558	enam	_	_	_	_	_
+17-13	559-560	<	_	_	_	_	_
+17-14	561-566	batuk	_	_	_	_	_
+17-15	567-568	>	_	_	_	_	_
+17-16	569-570	<	_	_	_	_	_
+17-17	571-576	batuk	_	_	_	_	_
+17-18	577-578	>	_	_	_	_	_
+
+#Text=< unk > < filler > < filler > empat sih cuma yang terdaftar cuma satu yang kosong tujuh triple lima itu aja
+18-1	580-581	<	_	_	_	_	_
+18-2	582-585	unk	_	_	_	_	_
+18-3	586-587	>	_	_	_	_	_
+18-4	588-589	<	_	_	_	_	_
+18-5	590-596	filler	_	_	_	_	_
+18-6	597-598	>	_	_	_	_	_
+18-7	599-600	<	_	_	_	_	_
+18-8	601-607	filler	_	_	_	_	_
+18-9	608-609	>	_	_	_	_	_
+18-10	610-615	empat	_	_	_	_	_
+18-11	616-619	sih	_	_	_	_	_
+18-12	620-624	cuma	_	_	_	_	_
+18-13	625-629	yang	_	_	_	_	_
+18-14	630-639	terdaftar	_	_	_	_	_
+18-15	640-644	cuma	_	_	_	_	_
+18-16	645-649	satu	_	_	_	_	_
+18-17	650-654	yang	_	_	_	_	_
+18-18	655-661	kosong	_	_	_	_	_
+18-19	662-667	tujuh	_	_	_	_	_
+18-20	668-674	triple	_	_	_	_	_
+18-21	675-679	lima	_	_	_	_	_
+18-22	680-683	itu	_	_	_	_	_
+18-23	684-687	aja	_	_	_	_	_
+
+#Text=iya
+19-1	689-692	iya	_	_	_	_	_
+
+#Text=< unk > selamat siang halo bca dengan < ti > dengan tiga bisa saya bantu
+20-1	694-695	<	_	_	_	_	_
+20-2	696-699	unk	_	_	_	_	_
+20-3	700-701	>	_	_	_	_	_
+20-4	702-709	selamat	_	_	_	_	_
+20-5	710-715	siang	_	_	_	_	_
+20-6	716-720	halo	_	_	_	_	_
+20-7	721-724	bca	_	_	_	_	_
+20-8	725-731	dengan	_	_	_	_	_
+20-9	732-733	<	_	_	_	_	_
+20-10	734-736	ti	_	_	_	_	_
+20-11	737-738	>	_	_	_	_	_
+20-12	739-745	dengan	_	_	_	_	_
+20-13	746-750	tiga	_	_	_	_	_
+20-14	751-755	bisa	_	_	_	_	_
+20-15	756-760	saya	_	_	_	_	_
+20-16	761-766	bantu	_	_	_	_	_
+
+#Text=iya dengan siapa saya bicara
+21-1	768-771	iya	_	_	_	_	_
+21-2	772-778	dengan	_	_	_	_	_
+21-3	779-784	siapa	_	_	_	_	_
+21-4	785-789	saya	_	_	_	_	_
+21-5	790-796	bicara	_	_	_	_	_
+
+#Text=< unk > baik ibu nurhayati informasi apa yang bisa saya bantu
+22-1	798-799	<	_	_	_	_	_
+22-2	800-803	unk	_	_	_	_	_
+22-3	804-805	>	_	_	_	_	_
+22-4	806-810	baik	_	_	_	_	_
+22-5	811-814	ibu	_	_	_	_	_
+22-6	815-824	nurhayati	_	_	_	_	_
+22-7	825-834	informasi	_	_	_	_	_
+22-8	835-838	apa	_	_	_	_	_
+22-9	839-843	yang	_	_	_	_	_
+22-10	844-848	bisa	_	_	_	_	_
+22-11	849-853	saya	_	_	_	_	_
+22-12	854-859	bantu	_	_	_	_	_
+
+#Text=iya
+23-1	861-864	iya	_	_	_	_	_
+
+#Text=iya
+24-1	866-869	iya	_	_	_	_	_
+
+#Text=baik ibu kami turut prihatin atas kendala yang terjadi bisa dibantu dengan nomor rekening nya atau nomor kartu nya ibu
+25-1	871-875	baik	_	_	_	_	_
+25-2	876-879	ibu	_	_	_	_	_
+25-3	880-884	kami	_	_	_	_	_
+25-4	885-890	turut	_	_	_	_	_
+25-5	891-899	prihatin	_	_	_	_	_
+25-6	900-904	atas	_	_	_	_	_
+25-7	905-912	kendala	_	_	_	_	_
+25-8	913-917	yang	_	_	_	_	_
+25-9	918-925	terjadi	_	_	_	_	_
+25-10	926-930	bisa	_	_	_	_	_
+25-11	931-938	dibantu	_	_	_	_	_
+25-12	939-945	dengan	_	_	_	_	_
+25-13	946-951	nomor	_	_	_	_	_
+25-14	952-960	rekening	_	_	_	_	_
+25-15	961-964	nya	_	_	_	_	_
+25-16	965-969	atau	_	_	_	_	_
+25-17	970-975	nomor	_	_	_	_	_
+25-18	976-981	kartu	_	_	_	_	_
+25-19	982-985	nya	_	_	_	_	_
+25-20	986-989	ibu	_	_	_	_	_
+
+#Text=iya
+26-1	991-994	iya	_	_	_	_	_
+
+#Text=iya
+27-1	996-999	iya	_	_	_	_	_
+
+#Text=iya
+28-1	1001-1004	iya	_	_	_	_	_
+
+#Text=baik mohon tunggu sebentar ya ibu
+29-1	1006-1010	baik	_	_	_	_	_
+29-2	1011-1016	mohon	_	_	_	_	_
+29-3	1017-1023	tunggu	_	_	_	_	_
+29-4	1024-1032	sebentar	_	_	_	_	_
+29-5	1033-1035	ya	_	_	_	_	_
+29-6	1036-1039	ibu	_	_	_	_	_
+
+#Text=halo ibu nurhayati
+30-1	1041-1045	halo	_	_	_	_	_
+30-2	1046-1049	ibu	_	_	_	_	_
+30-3	1050-1059	nurhayati	_	_	_	_	_
+
+#Text=sebelumnya akan kami akan menanyakan beberapa hal terlebih dahulu ya ibu
+31-1	1061-1071	sebelumnya	_	_	_	_	_
+31-2	1072-1076	akan	_	_	_	_	_
+31-3	1077-1081	kami	_	_	_	_	_
+31-4	1082-1086	akan	_	_	_	_	_
+31-5	1087-1097	menanyakan	_	_	_	_	_
+31-6	1098-1106	beberapa	_	_	_	_	_
+31-7	1107-1110	hal	_	_	_	_	_
+31-8	1111-1119	terlebih	_	_	_	_	_
+31-9	1120-1126	dahulu	_	_	_	_	_
+31-10	1127-1129	ya	_	_	_	_	_
+31-11	1130-1133	ibu	_	_	_	_	_
+
+#Text=bisa tolong disebutkan nama lengkap sesuai dengan ktp
+32-1	1135-1139	bisa	_	_	_	_	_
+32-2	1140-1146	tolong	_	_	_	_	_
+32-3	1147-1157	disebutkan	_	_	_	_	_
+32-4	1158-1162	nama	_	_	_	_	_
+32-5	1163-1170	lengkap	_	_	_	_	_
+32-6	1171-1177	sesuai	_	_	_	_	_
+32-7	1178-1184	dengan	_	_	_	_	_
+32-8	1185-1188	ktp	_	_	_	_	_
+
+#Text=tempat dan tanggal lahir
+33-1	1190-1196	tempat	_	_	_	_	_
+33-2	1197-1200	dan	_	_	_	_	_
+33-3	1201-1208	tanggal	_	_	_	_	_
+33-4	1209-1214	lahir	_	_	_	_	_
+
+#Text=baik mohon maaf untuk nama gadis ibu kandung
+34-1	1216-1220	baik	_	_	_	_	_
+34-2	1221-1226	mohon	_	_	_	_	_
+34-3	1227-1231	maaf	_	_	_	_	_
+34-4	1232-1237	untuk	_	_	_	_	_
+34-5	1238-1242	nama	_	_	_	_	_
+34-6	1243-1248	gadis	_	_	_	_	_
+34-7	1249-1252	ibu	_	_	_	_	_
+34-8	1253-1260	kandung	_	_	_	_	_
+
+#Text=alamat lengkap sesuai dengan ktp
+35-1	1262-1268	alamat	_	_	_	_	_
+35-2	1269-1276	lengkap	_	_	_	_	_
+35-3	1277-1283	sesuai	_	_	_	_	_
+35-4	1284-1290	dengan	_	_	_	_	_
+35-5	1291-1294	ktp	_	_	_	_	_
+
+#Text=< decak > baik untuk nomor hand phone atau telepon yang terdaftar di bca
+36-1	1296-1297	<	_	_	_	_	_
+36-2	1298-1303	decak	_	_	_	_	_
+36-3	1304-1305	>	_	_	_	_	_
+36-4	1306-1310	baik	_	_	_	_	_
+36-5	1311-1316	untuk	_	_	_	_	_
+36-6	1317-1322	nomor	_	_	_	_	_
+36-7	1323-1327	hand	_	_	_	_	_
+36-8	1328-1333	phone	_	_	_	_	_
+36-9	1334-1338	atau	_	_	_	_	_
+36-10	1339-1346	telepon	_	_	_	_	_
+36-11	1347-1351	yang	_	_	_	_	_
+36-12	1352-1361	terdaftar	_	_	_	_	_
+36-13	1362-1364	di	_	_	_	_	_
+36-14	1365-1368	bca	_	concept[4]	_	_	_
+
+#Text=baik ibu untuk di bca sendiri ibu mempunyai berapa rekening satu atau lebih
+37-1	1370-1374	baik	_	_	_	_	_
+37-2	1375-1378	ibu	_	_	_	_	_
+37-3	1379-1384	untuk	_	_	_	_	_
+37-4	1385-1387	di	_	_	_	_	_
+37-5	1388-1391	bca	_	_	_	_	_
+37-6	1392-1399	sendiri	_	_	_	_	_
+37-7	1400-1403	ibu	_	_	_	_	_
+37-8	1404-1413	mempunyai	_	_	_	_	_
+37-9	1414-1420	berapa	_	_	_	_	_
+37-10	1421-1429	rekening	_	_	_	_	_
+37-11	1430-1434	satu	_	_	_	_	_
+37-12	1435-1439	atau	_	_	_	_	_
+37-13	1440-1445	lebih	_	_	_	_	_
+
+#Text=< filler > baik < un > apakah ibu mempunyai fasilitas kartu kredit
+38-1	1447-1448	<	_	_	_	_	_
+38-2	1449-1455	filler	_	_	_	_	_
+38-3	1456-1457	>	_	_	_	_	_
+38-4	1458-1462	baik	_	_	_	_	_
+38-5	1463-1464	<	_	_	_	_	_
+38-6	1465-1467	un	_	_	_	_	_
+38-7	1468-1469	>	_	_	_	_	_
+38-8	1470-1476	apakah	_	_	_	_	_
+38-9	1477-1480	ibu	_	_	_	_	_
+38-10	1481-1490	mempunyai	_	_	_	_	_
+38-11	1491-1500	fasilitas	_	_	_	_	_
+38-12	1501-1506	kartu	_	_	_	_	_
+38-13	1507-1513	kredit	_	_	_	_	_
+
+#Text=baik terima kasih atas informasi yang diberikan mohon tunggu sebentar ya ibu < unk > halo ibu nurhayati masih di < ter > terhubung di layanan perbankan bca halo ibu nuryat nurhayati masih terhubung di layanan perbankan bca halo ibu nurhayati masih terhubung di layanan perbankan bca baik ibu
+39-1	1515-1519	baik	_	_	_	_	_
+39-2	1520-1526	terima	_	_	_	_	_
+39-3	1527-1532	kasih	_	_	_	_	_
+39-4	1533-1537	atas	_	_	_	_	_
+39-5	1538-1547	informasi	_	_	_	_	_
+39-6	1548-1552	yang	_	_	_	_	_
+39-7	1553-1562	diberikan	_	_	_	_	_
+39-8	1563-1568	mohon	_	_	_	_	_
+39-9	1569-1575	tunggu	_	_	_	_	_
+39-10	1576-1584	sebentar	_	_	_	_	_
+39-11	1585-1587	ya	_	_	_	_	_
+39-12	1588-1591	ibu	_	_	_	_	_
+39-13	1592-1593	<	_	_	_	_	_
+39-14	1594-1597	unk	_	_	_	_	_
+39-15	1598-1599	>	_	_	_	_	_
+39-16	1600-1604	halo	_	_	_	_	_
+39-17	1605-1608	ibu	_	_	_	_	_
+39-18	1609-1618	nurhayati	_	_	_	_	_
+39-19	1619-1624	masih	_	_	_	_	_
+39-20	1625-1627	di	_	_	_	_	_
+39-21	1628-1629	<	_	_	_	_	_
+39-22	1630-1633	ter	_	_	_	_	_
+39-23	1634-1635	>	_	_	_	_	_
+39-24	1636-1645	terhubung	_	_	_	_	_
+39-25	1646-1648	di	_	_	_	_	_
+39-26	1649-1656	layanan	_	_	_	_	_
+39-27	1657-1666	perbankan	_	_	_	_	_
+39-28	1667-1670	bca	_	_	_	_	_
+39-29	1671-1675	halo	_	_	_	_	_
+39-30	1676-1679	ibu	_	_	_	_	_
+39-31	1680-1686	nuryat	_	_	_	_	_
+39-32	1687-1696	nurhayati	_	_	_	_	_
+39-33	1697-1702	masih	_	_	_	_	_
+39-34	1703-1712	terhubung	_	_	_	_	_
+39-35	1713-1715	di	_	_	_	_	_
+39-36	1716-1723	layanan	_	_	_	_	_
+39-37	1724-1733	perbankan	_	_	_	_	_
+39-38	1734-1737	bca	_	_	_	_	_
+39-39	1738-1742	halo	_	_	_	_	_
+39-40	1743-1746	ibu	_	_	_	_	_
+39-41	1747-1756	nurhayati	_	_	_	_	_
+39-42	1757-1762	masih	_	_	_	_	_
+39-43	1763-1772	terhubung	_	_	_	_	_
+39-44	1773-1775	di	_	_	_	_	_
+39-45	1776-1783	layanan	_	_	_	_	_
+39-46	1784-1793	perbankan	_	_	_	_	_
+39-47	1794-1797	bca	_	_	_	_	_
+39-48	1798-1802	baik	_	_	_	_	_
+39-49	1803-1806	ibu	_	_	_	_	_

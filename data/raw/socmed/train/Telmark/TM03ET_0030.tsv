@@ -1,0 +1,151 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo
+1-1	0-4	halo	_	_	_	_	_
+
+#Text=iya halo
+2-1	6-9	iya	_	_	_	_	_
+2-2	10-14	halo	_	_	_	_	_
+
+#Text=iya selamat pagi bapak andrea
+3-1	16-19	iya	_	_	_	_	_
+3-2	20-27	selamat	_	_	_	_	_
+3-3	28-32	pagi	_	_	_	_	_
+3-4	33-38	bapak	_	_	_	_	_
+3-5	39-45	andrea	_	_	_	_	_
+
+#Text=iya halo
+4-1	47-50	iya	_	_	_	_	_
+4-2	51-55	halo	_	_	_	_	_
+
+#Text=iya pak selamat pagi saya sari pak dari bca
+5-1	57-60	iya	_	_	_	_	_
+5-2	61-64	pak	_	_	_	_	_
+5-3	65-72	selamat	_	_	_	_	_
+5-4	73-77	pagi	_	_	_	_	_
+5-5	78-82	saya	_	_	_	_	_
+5-6	83-87	sari	_	_	_	_	_
+5-7	88-91	pak	_	_	_	_	_
+5-8	92-96	dari	_	_	_	_	_
+5-9	97-100	bca	_	_	_	_	_
+
+#Text=iya kemarin kan saya sudah konfirmasi ini saya belum dapat konfirmasi dari bri - nya tunggu < san > tunggu iya
+6-1	102-105	iya	_	_	_	_	_
+6-2	106-113	kemarin	_	_	_	_	_
+6-3	114-117	kan	_	_	_	_	_
+6-4	118-122	saya	_	_	_	_	_
+6-5	123-128	sudah	_	_	_	_	_
+6-6	129-139	konfirmasi	_	_	_	_	_
+6-7	140-143	ini	_	_	_	_	_
+6-8	144-148	saya	_	_	_	_	_
+6-9	149-154	belum	*	negative[1]|[2_1]	_	_	_
+6-10	155-160	dapat	_	negative[1]	_	_	_
+6-11	161-171	konfirmasi	*	concept[2]|[3_2]	_	_	_
+6-12	172-176	dari	_	_	_	_	_
+6-13	177-180	bri	_	concept[3]	_	_	_
+6-14	181-182	-	_	_	_	_	_
+6-15	183-186	nya	_	_	_	_	_
+6-16	187-193	tunggu	_	_	_	_	_
+6-17	194-195	<	_	_	_	_	_
+6-18	196-199	san	_	_	_	_	_
+6-19	200-201	>	_	_	_	_	_
+6-20	202-208	tunggu	_	_	_	_	_
+6-21	209-212	iya	_	_	_	_	_
+
+#Text=iya hanya mengingatkan kembali pak perihal tagihan kartu kredit nya iya pak jangan lupa untuk dibayarkan
+7-1	214-217	iya	_	_	_	_	_
+7-2	218-223	hanya	_	_	_	_	_
+7-3	224-236	mengingatkan	_	_	_	_	_
+7-4	237-244	kembali	_	_	_	_	_
+7-5	245-248	pak	_	_	_	_	_
+7-6	249-256	perihal	_	_	_	_	_
+7-7	257-264	tagihan	_	_	_	_	_
+7-8	265-270	kartu	_	_	_	_	_
+7-9	271-277	kredit	_	_	_	_	_
+7-10	278-281	nya	_	_	_	_	_
+7-11	282-285	iya	_	_	_	_	_
+7-12	286-289	pak	_	_	_	_	_
+7-13	290-296	jangan	_	_	_	_	_
+7-14	297-301	lupa	_	_	_	_	_
+7-15	302-307	untuk	_	_	_	_	_
+7-16	308-318	dibayarkan	_	_	_	_	_
+
+#Text=< oh > bilang kan itu siapa dua hari < unk >
+8-1	320-321	<	_	_	_	_	_
+8-2	322-324	oh	_	_	_	_	_
+8-3	325-326	>	_	_	_	_	_
+8-4	327-333	bilang	_	_	_	_	_
+8-5	334-337	kan	_	_	_	_	_
+8-6	338-341	itu	_	_	_	_	_
+8-7	342-347	siapa	_	_	_	_	_
+8-8	348-351	dua	_	_	_	_	_
+8-9	352-356	hari	_	_	_	_	_
+8-10	357-358	<	_	_	_	_	_
+8-11	359-362	unk	_	_	_	_	_
+8-12	363-364	>	_	_	_	_	_
+
+#Text=iya < napas > baik pak kalau begitu bapak janji nya kalau tidak salah tanggal besok iya pak tanggal tiga belas kalau enggak salah < napas >
+9-1	366-369	iya	_	_	_	_	_
+9-2	370-371	<	_	_	_	_	_
+9-3	372-377	napas	_	_	_	_	_
+9-4	378-379	>	_	_	_	_	_
+9-5	380-384	baik	_	_	_	_	_
+9-6	385-388	pak	_	_	_	_	_
+9-7	389-394	kalau	_	_	_	_	_
+9-8	395-401	begitu	_	_	_	_	_
+9-9	402-407	bapak	_	_	_	_	_
+9-10	408-413	janji	_	_	_	_	_
+9-11	414-417	nya	_	_	_	_	_
+9-12	418-423	kalau	_	_	_	_	_
+9-13	424-429	tidak	_	_	_	_	_
+9-14	430-435	salah	_	_	_	_	_
+9-15	436-443	tanggal	_	_	_	_	_
+9-16	444-449	besok	_	_	_	_	_
+9-17	450-453	iya	_	_	_	_	_
+9-18	454-457	pak	_	_	_	_	_
+9-19	458-465	tanggal	_	_	_	_	_
+9-20	466-470	tiga	_	_	_	_	_
+9-21	471-476	belas	_	_	_	_	_
+9-22	477-482	kalau	_	_	_	_	_
+9-23	483-489	enggak	_	_	_	_	_
+9-24	490-495	salah	_	_	_	_	_
+9-25	496-497	<	_	_	_	_	_
+9-26	498-503	napas	_	_	_	_	_
+9-27	504-505	>	_	_	_	_	_
+
+#Text=< oh > kurang lebih tanggal tiga belas okay kalau begitu pak < wit > nanti kabari saja iya pak melalui whatsapp
+10-1	507-508	<	_	_	_	_	_
+10-2	509-511	oh	_	_	_	_	_
+10-3	512-513	>	_	_	_	_	_
+10-4	514-520	kurang	_	_	_	_	_
+10-5	521-526	lebih	_	_	_	_	_
+10-6	527-534	tanggal	_	_	_	_	_
+10-7	535-539	tiga	_	_	_	_	_
+10-8	540-545	belas	_	_	_	_	_
+10-9	546-550	okay	_	_	_	_	_
+10-10	551-556	kalau	_	_	_	_	_
+10-11	557-563	begitu	_	_	_	_	_
+10-12	564-567	pak	_	_	_	_	_
+10-13	568-569	<	_	_	_	_	_
+10-14	570-573	wit	_	_	_	_	_
+10-15	574-575	>	_	_	_	_	_
+10-16	576-581	nanti	_	_	_	_	_
+10-17	582-588	kabari	_	_	_	_	_
+10-18	589-593	saja	_	_	_	_	_
+10-19	594-597	iya	_	_	_	_	_
+10-20	598-601	pak	_	_	_	_	_
+10-21	602-609	melalui	_	_	_	_	_
+10-22	610-618	whatsapp	_	_	_	_	_
+
+#Text=baik bapak andrea kalau begitu terima kasih banyak pak selamat pagi
+11-1	620-624	baik	_	_	_	_	_
+11-2	625-630	bapak	_	_	_	_	_
+11-3	631-637	andrea	_	_	_	_	_
+11-4	638-643	kalau	_	_	_	_	_
+11-5	644-650	begitu	_	_	_	_	_
+11-6	651-657	terima	_	_	_	_	_
+11-7	658-663	kasih	_	_	_	_	_
+11-8	664-670	banyak	_	_	_	_	_
+11-9	671-674	pak	_	_	_	_	_
+11-10	675-682	selamat	_	_	_	_	_
+11-11	683-687	pagi	_	_	_	_	_

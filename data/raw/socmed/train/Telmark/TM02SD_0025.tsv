@@ -1,0 +1,361 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo
+1-1	0-4	halo	_	_	_	_	_
+
+#Text=halo
+2-1	6-10	halo	_	_	_	_	_
+
+#Text=iya
+3-1	12-15	iya	_	_	_	_	_
+
+#Text=bukan mbak
+4-1	17-22	bukan	_	_	_	_	_
+4-2	23-27	mbak	_	_	_	_	_
+
+#Text=selamat pagi bu
+5-1	29-36	selamat	_	_	_	_	_
+5-2	37-41	pagi	_	_	_	_	_
+5-3	42-44	bu	_	_	_	_	_
+
+#Text=maaf iya sebelumnya ini bukan dwi utari
+6-1	46-50	maaf	_	_	_	_	_
+6-2	51-54	iya	_	_	_	_	_
+6-3	55-65	sebelumnya	_	_	_	_	_
+6-4	66-69	ini	_	_	_	_	_
+6-5	70-75	bukan	_	_	_	_	_
+6-6	76-79	dwi	_	_	_	_	_
+6-7	80-85	utari	_	_	_	_	_
+
+#Text=saya fia dari pusat gadai
+7-1	87-91	saya	_	_	_	_	_
+7-2	92-95	fia	_	_	_	_	_
+7-3	96-100	dari	_	_	_	_	_
+7-4	101-106	pusat	_	_	_	_	_
+7-5	107-112	gadai	_	_	_	_	_
+
+#Text=dan kemarin
+8-1	114-117	dan	_	_	_	_	_
+8-2	118-125	kemarin	_	_	_	_	_
+
+#Text=ini dengan ibu dwi utari
+9-1	127-130	ini	_	_	_	_	_
+9-2	131-137	dengan	_	_	_	_	_
+9-3	138-141	ibu	_	_	_	_	_
+9-4	142-145	dwi	_	_	_	_	_
+9-5	146-151	utari	_	_	_	_	_
+
+#Text=dan setiap hari saya sudah sering ditelepon dan dibilang kalau nomor ini akan dikonfirmasi kalau bukan nasabah dari < ba > apa pusat gadai
+10-1	153-156	dan	_	_	_	_	_
+10-2	157-163	setiap	_	_	_	_	_
+10-3	164-168	hari	_	_	_	_	_
+10-4	169-173	saya	_	_	_	_	_
+10-5	174-179	sudah	_	_	_	_	_
+10-6	180-186	sering	_	_	_	_	_
+10-7	187-196	ditelepon	_	_	_	_	_
+10-8	197-200	dan	_	_	_	_	_
+10-9	201-209	dibilang	_	_	_	_	_
+10-10	210-215	kalau	_	_	_	_	_
+10-11	216-221	nomor	_	_	_	_	_
+10-12	222-225	ini	_	_	_	_	_
+10-13	226-230	akan	_	_	_	_	_
+10-14	231-243	dikonfirmasi	_	_	_	_	_
+10-15	244-249	kalau	_	_	_	_	_
+10-16	250-255	bukan	_	_	_	_	_
+10-17	256-263	nasabah	_	_	_	_	_
+10-18	264-268	dari	_	_	_	_	_
+10-19	269-270	<	_	_	_	_	_
+10-20	271-273	ba	_	_	_	_	_
+10-21	274-275	>	_	_	_	_	_
+10-22	276-279	apa	_	_	_	_	_
+10-23	280-285	pusat	_	concept[1]	_	_	_
+10-24	286-291	gadai	_	concept[1]	_	_	_
+
+#Text=iya
+11-1	293-296	iya	_	_	_	_	_
+
+#Text=terus ini kenapa kok masih ditelepon terus
+12-1	298-303	terus	_	_	_	_	_
+12-2	304-307	ini	_	_	_	_	_
+12-3	308-314	kenapa	_	_	_	_	_
+12-4	315-318	kok	_	_	_	_	_
+12-5	319-324	masih	*	[3_2]|negative[2]	_	_	_
+12-6	325-334	ditelepon	*	[1_3]|negative[2]|concept[3]	_	_	_
+12-7	335-340	terus	_	negative[2]	_	_	_
+
+#Text=< oh > begitu iya bu iya
+13-1	342-343	<	_	_	_	_	_
+13-2	344-346	oh	_	_	_	_	_
+13-3	347-348	>	_	_	_	_	_
+13-4	349-355	begitu	_	_	_	_	_
+13-5	356-359	iya	_	_	_	_	_
+13-6	360-362	bu	_	_	_	_	_
+13-7	363-366	iya	_	_	_	_	_
+
+#Text=sudah banyak banget dan sudah bilang semuanya sama akan dikonfirmasi kalau ini bukan nomor nasabah
+14-1	368-373	sudah	_	_	_	_	_
+14-2	374-380	banyak	_	_	_	_	_
+14-3	381-387	banget	_	_	_	_	_
+14-4	388-391	dan	_	_	_	_	_
+14-5	392-397	sudah	_	_	_	_	_
+14-6	398-404	bilang	_	_	_	_	_
+14-7	405-413	semuanya	_	_	_	_	_
+14-8	414-418	sama	_	_	_	_	_
+14-9	419-423	akan	_	_	_	_	_
+14-10	424-436	dikonfirmasi	_	_	_	_	_
+14-11	437-442	kalau	_	_	_	_	_
+14-12	443-446	ini	_	_	_	_	_
+14-13	447-452	bukan	_	_	_	_	_
+14-14	453-458	nomor	_	_	_	_	_
+14-15	459-466	nasabah	_	_	_	_	_
+
+#Text=kemarin berarti sudah ada yang menelepon iya bu iya
+15-1	468-475	kemarin	_	_	_	_	_
+15-2	476-483	berarti	_	_	_	_	_
+15-3	484-489	sudah	_	_	_	_	_
+15-4	490-493	ada	_	_	_	_	_
+15-5	494-498	yang	_	_	_	_	_
+15-6	499-508	menelepon	_	_	_	_	_
+15-7	509-512	iya	_	_	_	_	_
+15-8	513-515	bu	_	_	_	_	_
+15-9	516-519	iya	_	_	_	_	_
+
+#Text=iya
+16-1	521-524	iya	_	_	_	_	_
+
+#Text=< oh > begitu soal nya ini nomor nya baru masuk ke saya hari ini bu untuk < e >
+17-1	526-527	<	_	_	_	_	_
+17-2	528-530	oh	_	_	_	_	_
+17-3	531-532	>	_	_	_	_	_
+17-4	533-539	begitu	_	_	_	_	_
+17-5	540-544	soal	_	_	_	_	_
+17-6	545-548	nya	_	_	_	_	_
+17-7	549-552	ini	_	_	_	_	_
+17-8	553-558	nomor	_	_	_	_	_
+17-9	559-562	nya	_	_	_	_	_
+17-10	563-567	baru	_	_	_	_	_
+17-11	568-573	masuk	_	_	_	_	_
+17-12	574-576	ke	_	_	_	_	_
+17-13	577-581	saya	_	_	_	_	_
+17-14	582-586	hari	_	_	_	_	_
+17-15	587-590	ini	_	_	_	_	_
+17-16	591-593	bu	_	_	_	_	_
+17-17	594-599	untuk	_	_	_	_	_
+17-18	600-601	<	_	_	_	_	_
+17-19	602-603	e	_	_	_	_	_
+17-20	604-605	>	_	_	_	_	_
+
+#Text=tolong iya
+18-1	607-613	tolong	_	_	_	_	_
+18-2	614-617	iya	_	_	_	_	_
+
+#Text=bagaimana
+19-1	619-628	bagaimana	_	_	_	_	_
+
+#Text=kalau bisa tolong tolong secepatnya iya mbak iya dikonfirmasi ke admin nya untuk memblokir nomor ini saja
+20-1	630-635	kalau	_	_	_	_	_
+20-2	636-640	bisa	_	_	_	_	_
+20-3	641-647	tolong	_	_	_	_	_
+20-4	648-654	tolong	_	_	_	_	_
+20-5	655-665	secepatnya	_	_	_	_	_
+20-6	666-669	iya	_	_	_	_	_
+20-7	670-674	mbak	_	_	_	_	_
+20-8	675-678	iya	_	_	_	_	_
+20-9	679-691	dikonfirmasi	_	_	_	_	_
+20-10	692-694	ke	_	_	_	_	_
+20-11	695-700	admin	_	_	_	_	_
+20-12	701-704	nya	_	_	_	_	_
+20-13	705-710	untuk	_	_	_	_	_
+20-14	711-720	memblokir	_	_	_	_	_
+20-15	721-726	nomor	_	_	_	_	_
+20-16	727-730	ini	_	_	_	_	_
+20-17	731-735	saja	_	_	_	_	_
+
+#Text=< oh > iya ini untuk nomor nya sudah lama bu digunakan
+21-1	737-738	<	_	_	_	_	_
+21-2	739-741	oh	_	_	_	_	_
+21-3	742-743	>	_	_	_	_	_
+21-4	744-747	iya	_	_	_	_	_
+21-5	748-751	ini	_	_	_	_	_
+21-6	752-757	untuk	_	_	_	_	_
+21-7	758-763	nomor	_	_	_	_	_
+21-8	764-767	nya	_	_	_	_	_
+21-9	768-773	sudah	_	_	_	_	_
+21-10	774-778	lama	_	_	_	_	_
+21-11	779-781	bu	_	_	_	_	_
+21-12	782-791	digunakan	_	_	_	_	_
+
+#Text=soal nya sudah tiap hari lo mbak kayak gini
+22-1	793-797	soal	_	_	_	_	_
+22-2	798-801	nya	_	_	_	_	_
+22-3	802-807	sudah	_	_	_	_	_
+22-4	808-812	tiap	_	_	_	_	_
+22-5	813-817	hari	_	_	_	_	_
+22-6	818-820	lo	_	_	_	_	_
+22-7	821-825	mbak	_	_	_	_	_
+22-8	826-831	kayak	_	_	_	_	_
+22-9	832-836	gini	_	_	_	_	_
+
+#Text=okay
+23-1	838-842	okay	_	_	_	_	_
+
+#Text=ini sekitar belum ada setahun mbak
+24-1	844-847	ini	_	_	_	_	_
+24-2	848-855	sekitar	_	_	_	_	_
+24-3	856-861	belum	_	_	_	_	_
+24-4	862-865	ada	_	_	_	_	_
+24-5	866-873	setahun	_	_	_	_	_
+24-6	874-878	mbak	_	_	_	_	_
+
+#Text=< e > ini pendaftaran nya sudah memakai < ka > ktp ibu sendiri iya
+25-1	880-881	<	_	_	_	_	_
+25-2	882-883	e	_	_	_	_	_
+25-3	884-885	>	_	_	_	_	_
+25-4	886-889	ini	_	_	_	_	_
+25-5	890-901	pendaftaran	_	_	_	_	_
+25-6	902-905	nya	_	_	_	_	_
+25-7	906-911	sudah	_	_	_	_	_
+25-8	912-919	memakai	_	_	_	_	_
+25-9	920-921	<	_	_	_	_	_
+25-10	922-924	ka	_	_	_	_	_
+25-11	925-926	>	_	_	_	_	_
+25-12	927-930	ktp	_	_	_	_	_
+25-13	931-934	ibu	_	_	_	_	_
+25-14	935-942	sendiri	_	_	_	_	_
+25-15	943-946	iya	_	_	_	_	_
+
+#Text=ini nomor baru baru banget
+26-1	948-951	ini	_	_	_	_	_
+26-2	952-957	nomor	_	_	_	_	_
+26-3	958-962	baru	_	_	_	_	_
+26-4	963-967	baru	_	_	_	_	_
+26-5	968-974	banget	_	_	_	_	_
+
+#Text=baik ibu
+27-1	976-980	baik	_	_	_	_	_
+27-2	981-984	ibu	_	_	_	_	_
+
+#Text=iya
+28-1	986-989	iya	_	_	_	_	_
+
+#Text=< e > begini karena soal nya kan di tahun dua ribu tujuh belas itu terdaftar nya atas ibu dwi utari
+29-1	991-992	<	_	_	_	_	_
+29-2	993-994	e	_	_	_	_	_
+29-3	995-996	>	_	_	_	_	_
+29-4	997-1003	begini	_	_	_	_	_
+29-5	1004-1010	karena	_	_	_	_	_
+29-6	1011-1015	soal	_	_	_	_	_
+29-7	1016-1019	nya	_	_	_	_	_
+29-8	1020-1023	kan	_	_	_	_	_
+29-9	1024-1026	di	_	_	_	_	_
+29-10	1027-1032	tahun	_	_	_	_	_
+29-11	1033-1036	dua	_	_	_	_	_
+29-12	1037-1041	ribu	_	_	_	_	_
+29-13	1042-1047	tujuh	_	_	_	_	_
+29-14	1048-1053	belas	_	_	_	_	_
+29-15	1054-1057	itu	_	_	_	_	_
+29-16	1058-1067	terdaftar	_	_	_	_	_
+29-17	1068-1071	nya	_	_	_	_	_
+29-18	1072-1076	atas	_	_	_	_	_
+29-19	1077-1080	ibu	_	_	_	_	_
+29-20	1081-1084	dwi	_	_	_	_	_
+29-21	1085-1090	utari	_	_	_	_	_
+
+#Text=okay
+30-1	1092-1096	okay	_	_	_	_	_
+
+#Text=kemungkinan besar ini dari grapari - nya kan diaktifkan kembali untuk nomor nya sehingga nomor nya < alaktu > kami melakukan peneleponan nomor nya masuk ke ibu begitu
+31-1	1098-1109	kemungkinan	_	_	_	_	_
+31-2	1110-1115	besar	_	_	_	_	_
+31-3	1116-1119	ini	_	_	_	_	_
+31-4	1120-1124	dari	_	_	_	_	_
+31-5	1125-1132	grapari	_	_	_	_	_
+31-6	1133-1134	-	_	_	_	_	_
+31-7	1135-1138	nya	_	_	_	_	_
+31-8	1139-1142	kan	_	_	_	_	_
+31-9	1143-1153	diaktifkan	_	_	_	_	_
+31-10	1154-1161	kembali	_	_	_	_	_
+31-11	1162-1167	untuk	_	_	_	_	_
+31-12	1168-1173	nomor	_	_	_	_	_
+31-13	1174-1177	nya	_	_	_	_	_
+31-14	1178-1186	sehingga	_	_	_	_	_
+31-15	1187-1192	nomor	_	_	_	_	_
+31-16	1193-1196	nya	_	_	_	_	_
+31-17	1197-1198	<	_	_	_	_	_
+31-18	1199-1205	alaktu	_	_	_	_	_
+31-19	1206-1207	>	_	_	_	_	_
+31-20	1208-1212	kami	_	_	_	_	_
+31-21	1213-1222	melakukan	_	_	_	_	_
+31-22	1223-1234	peneleponan	_	_	_	_	_
+31-23	1235-1240	nomor	_	_	_	_	_
+31-24	1241-1244	nya	_	_	_	_	_
+31-25	1245-1250	masuk	_	_	_	_	_
+31-26	1251-1253	ke	_	_	_	_	_
+31-27	1254-1257	ibu	_	_	_	_	_
+31-28	1258-1264	begitu	_	_	_	_	_
+
+#Text=pagi
+32-1	1266-1270	pagi	_	_	_	_	_
+
+#Text=peneleponan nya masuk ke ibu begitu bu
+33-1	1272-1283	peneleponan	_	_	_	_	_
+33-2	1284-1287	nya	_	_	_	_	_
+33-3	1288-1293	masuk	_	_	_	_	_
+33-4	1294-1296	ke	_	_	_	_	_
+33-5	1297-1300	ibu	_	_	_	_	_
+33-6	1301-1307	begitu	_	_	_	_	_
+33-7	1308-1310	bu	_	_	_	_	_
+
+#Text=iya ini coba saya konfirmasikan kembali iya bu iya
+34-1	1312-1315	iya	_	_	_	_	_
+34-2	1316-1319	ini	_	_	_	_	_
+34-3	1320-1324	coba	_	_	_	_	_
+34-4	1325-1329	saya	_	_	_	_	_
+34-5	1330-1343	konfirmasikan	_	_	_	_	_
+34-6	1344-1351	kembali	_	_	_	_	_
+34-7	1352-1355	iya	_	_	_	_	_
+34-8	1356-1358	bu	_	_	_	_	_
+34-9	1359-1362	iya	_	_	_	_	_
+
+#Text=tapi mohon bersabar karena kita sistem nya masih manual dan masih menunggu antrean iya karena kejadian seperti ini juga banyak
+35-1	1364-1368	tapi	_	_	_	_	_
+35-2	1369-1374	mohon	_	_	_	_	_
+35-3	1375-1383	bersabar	_	_	_	_	_
+35-4	1384-1390	karena	_	_	_	_	_
+35-5	1391-1395	kita	_	_	_	_	_
+35-6	1396-1402	sistem	*	[1_4]|concept[4]	_	_	_
+35-7	1403-1406	nya	_	_	_	_	_
+35-8	1407-1412	masih	*	[4_5]|negative[5]	_	_	_
+35-9	1413-1419	manual	_	negative[5]	_	_	_
+35-10	1420-1423	dan	_	_	_	_	_
+35-11	1424-1429	masih	*	[4_6]|negative[6]	_	_	_
+35-12	1430-1438	menunggu	_	negative[6]	_	_	_
+35-13	1439-1446	antrean	_	negative[6]	_	_	_
+35-14	1447-1450	iya	_	_	_	_	_
+35-15	1451-1457	karena	_	_	_	_	_
+35-16	1458-1466	kejadian	_	_	_	_	_
+35-17	1467-1474	seperti	_	_	_	_	_
+35-18	1475-1478	ini	_	_	_	_	_
+35-19	1479-1483	juga	_	_	_	_	_
+35-20	1484-1490	banyak	_	_	_	_	_
+
+#Text=begitu iya bu iya
+36-1	1492-1498	begitu	_	_	_	_	_
+36-2	1499-1502	iya	_	_	_	_	_
+36-3	1503-1505	bu	_	_	_	_	_
+36-4	1506-1509	iya	_	_	_	_	_
+
+#Text=baik
+37-1	1511-1515	baik	_	_	_	_	_
+
+#Text=terima kasih ibu untuk waktu nya
+38-1	1517-1523	terima	_	_	_	_	_
+38-2	1524-1529	kasih	_	_	_	_	_
+38-3	1530-1533	ibu	_	_	_	_	_
+38-4	1534-1539	untuk	_	_	_	_	_
+38-5	1540-1545	waktu	_	_	_	_	_
+38-6	1546-1549	nya	_	_	_	_	_
+
+#Text=selamat pagi
+39-1	1551-1558	selamat	_	_	_	_	_
+39-2	1559-1563	pagi	_	_	_	_	_

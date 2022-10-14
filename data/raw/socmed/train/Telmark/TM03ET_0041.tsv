@@ -1,0 +1,196 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo selamat siang bapak topidyana
+1-1	0-4	halo	_	_	_	_	_
+1-2	5-12	selamat	_	_	_	_	_
+1-3	13-18	siang	_	_	_	_	_
+1-4	19-24	bapak	_	_	_	_	_
+1-5	25-34	topidyana	_	_	_	_	_
+
+#Text=iya
+2-1	36-39	iya	_	_	_	_	_
+
+#Text=saya sari pak dari bca
+3-1	41-45	saya	_	_	_	_	_
+3-2	46-50	sari	_	_	_	_	_
+3-3	51-54	pak	_	_	_	_	_
+3-4	55-59	dari	_	_	_	_	_
+3-5	60-63	bca	_	_	_	_	_
+
+#Text=iya iya iya
+4-1	65-68	iya	_	_	_	_	_
+4-2	69-72	iya	_	_	_	_	_
+4-3	73-76	iya	_	_	_	_	_
+
+#Text=iya < napas > iya bapak bagaimana mau di bulan ini
+5-1	78-81	iya	_	_	_	_	_
+5-2	82-83	<	_	_	_	_	_
+5-3	84-89	napas	_	_	_	_	_
+5-4	90-91	>	_	_	_	_	_
+5-5	92-95	iya	_	_	_	_	_
+5-6	96-101	bapak	_	_	_	_	_
+5-7	102-111	bagaimana	_	_	_	_	_
+5-8	112-115	mau	_	_	_	_	_
+5-9	116-118	di	_	_	_	_	_
+5-10	119-124	bulan	_	_	_	_	_
+5-11	125-128	ini	_	_	_	_	_
+
+#Text=< e > silakan silakan kenapa kenapa untuk < e > bulan ini bulan terakhir iya
+6-1	130-131	<	_	_	_	_	_
+6-2	132-133	e	_	_	_	_	_
+6-3	134-135	>	_	_	_	_	_
+6-4	136-143	silakan	_	_	_	_	_
+6-5	144-151	silakan	_	_	_	_	_
+6-6	152-158	kenapa	_	_	_	_	_
+6-7	159-165	kenapa	_	_	_	_	_
+6-8	166-171	untuk	_	_	_	_	_
+6-9	172-173	<	_	_	_	_	_
+6-10	174-175	e	_	_	_	_	_
+6-11	176-177	>	_	_	_	_	_
+6-12	178-183	bulan	_	_	_	_	_
+6-13	184-187	ini	_	_	_	_	_
+6-14	188-193	bulan	_	_	_	_	_
+6-15	194-202	terakhir	_	_	_	_	_
+6-16	203-206	iya	_	_	_	_	_
+
+#Text=iya terakhir hanya tinggal sisa < penga > pelunasan nya saja
+7-1	208-211	iya	_	_	_	_	_
+7-2	212-220	terakhir	_	_	_	_	_
+7-3	221-226	hanya	_	_	_	_	_
+7-4	227-234	tinggal	_	_	_	_	_
+7-5	235-239	sisa	_	_	_	_	_
+7-6	240-241	<	_	_	_	_	_
+7-7	242-247	penga	_	_	_	_	_
+7-8	248-249	>	_	_	_	_	_
+7-9	250-259	pelunasan	_	_	_	_	_
+7-10	260-263	nya	_	_	_	_	_
+7-11	264-268	saja	_	_	_	_	_
+
+#Text=pelunasan doang iya
+8-1	270-279	pelunasan	_	_	_	_	_
+8-2	280-285	doang	_	_	_	_	_
+8-3	286-289	iya	_	_	_	_	_
+
+#Text=< bis > bapak tanggal dua delapan iya maksimal nya < pat > pihak closing - nya di dua < lapan > soal nya bulan ini
+9-1	291-292	<	_	_	_	_	_
+9-2	293-296	bis	_	_	_	_	_
+9-3	297-298	>	_	_	_	_	_
+9-4	299-304	bapak	_	_	_	_	_
+9-5	305-312	tanggal	_	_	_	_	_
+9-6	313-316	dua	_	_	_	_	_
+9-7	317-324	delapan	_	_	_	_	_
+9-8	325-328	iya	_	_	_	_	_
+9-9	329-337	maksimal	_	_	_	_	_
+9-10	338-341	nya	_	_	_	_	_
+9-11	342-343	<	_	_	_	_	_
+9-12	344-347	pat	_	_	_	_	_
+9-13	348-349	>	_	_	_	_	_
+9-14	350-355	pihak	_	_	_	_	_
+9-15	356-363	closing	_	_	_	_	_
+9-16	364-365	-	_	_	_	_	_
+9-17	366-369	nya	_	_	_	_	_
+9-18	370-372	di	_	_	_	_	_
+9-19	373-376	dua	_	_	_	_	_
+9-20	377-378	<	_	_	_	_	_
+9-21	379-384	lapan	_	_	_	_	_
+9-22	385-386	>	_	_	_	_	_
+9-23	387-391	soal	_	_	_	_	_
+9-24	392-395	nya	_	_	_	_	_
+9-25	396-401	bulan	_	_	_	_	_
+9-26	402-405	ini	_	_	_	_	_
+
+#Text=seperti biasa paling akhir bulan saya
+10-1	407-414	seperti	_	_	_	_	_
+10-2	415-420	biasa	_	_	_	_	_
+10-3	421-427	paling	_	_	_	_	_
+10-4	428-433	akhir	_	_	_	_	_
+10-5	434-439	bulan	_	_	_	_	_
+10-6	440-444	saya	_	_	_	_	_
+
+#Text=iya di dua < bia > bulan kemarin itu di tanggal dua tujuh iya
+11-1	446-449	iya	_	_	_	_	_
+11-2	450-452	di	_	_	_	_	_
+11-3	453-456	dua	_	_	_	_	_
+11-4	457-458	<	_	_	_	_	_
+11-5	459-462	bia	_	_	_	_	_
+11-6	463-464	>	_	_	_	_	_
+11-7	465-470	bulan	_	_	_	_	_
+11-8	471-478	kemarin	_	_	_	_	_
+11-9	479-482	itu	_	_	_	_	_
+11-10	483-485	di	_	_	_	_	_
+11-11	486-493	tanggal	_	_	_	_	_
+11-12	494-497	dua	_	_	_	_	_
+11-13	498-503	tujuh	_	_	_	_	_
+11-14	504-507	iya	_	_	_	_	_
+
+#Text=iya enggak papa akhir bulan saja biasa kayak biasa kok biasanya akhir bulan iya
+12-1	509-512	iya	_	_	_	_	_
+12-2	513-519	enggak	_	_	_	_	_
+12-3	520-524	papa	_	_	_	_	_
+12-4	525-530	akhir	_	_	_	_	_
+12-5	531-536	bulan	_	_	_	_	_
+12-6	537-541	saja	_	_	_	_	_
+12-7	542-547	biasa	_	_	_	_	_
+12-8	548-553	kayak	_	_	_	_	_
+12-9	554-559	biasa	_	_	_	_	_
+12-10	560-563	kok	_	_	_	_	_
+12-11	564-572	biasanya	_	_	_	_	_
+12-12	573-578	akhir	_	_	_	_	_
+12-13	579-584	bulan	_	_	_	_	_
+12-14	585-588	iya	_	_	_	_	_
+
+#Text=iya < napas > soal nya cuma dikasih tahu saja sih pak closing - nya di bulan ini dua delapan iya bapak iya
+13-1	590-593	iya	_	_	_	_	_
+13-2	594-595	<	_	_	_	_	_
+13-3	596-601	napas	_	_	_	_	_
+13-4	602-603	>	_	_	_	_	_
+13-5	604-608	soal	_	_	_	_	_
+13-6	609-612	nya	_	_	_	_	_
+13-7	613-617	cuma	_	_	_	_	_
+13-8	618-625	dikasih	_	_	_	_	_
+13-9	626-630	tahu	_	_	_	_	_
+13-10	631-635	saja	_	_	_	_	_
+13-11	636-639	sih	_	_	_	_	_
+13-12	640-643	pak	_	_	_	_	_
+13-13	644-651	closing	_	_	_	_	_
+13-14	652-653	-	_	_	_	_	_
+13-15	654-657	nya	_	_	_	_	_
+13-16	658-660	di	_	_	_	_	_
+13-17	661-666	bulan	_	_	_	_	_
+13-18	667-670	ini	_	_	_	_	_
+13-19	671-674	dua	_	_	_	_	_
+13-20	675-682	delapan	_	_	_	_	_
+13-21	683-686	iya	_	_	_	_	_
+13-22	687-692	bapak	_	_	_	_	_
+13-23	693-696	iya	_	_	_	_	_
+
+#Text=kurang lebih sebegitu lah karena gajian nya kan akhir bulan
+14-1	698-704	kurang	_	_	_	_	_
+14-2	705-710	lebih	_	_	_	_	_
+14-3	711-719	sebegitu	_	_	_	_	_
+14-4	720-723	lah	_	_	_	_	_
+14-5	724-730	karena	_	_	_	_	_
+14-6	731-737	gajian	_	_	_	_	_
+14-7	738-741	nya	_	_	_	_	_
+14-8	742-745	kan	_	_	_	_	_
+14-9	746-751	akhir	_	_	_	_	_
+14-10	752-757	bulan	_	_	_	_	_
+
+#Text=taufik terima kasih banyak
+15-1	759-765	taufik	_	_	_	_	_
+15-2	766-772	terima	_	_	_	_	_
+15-3	773-778	kasih	_	_	_	_	_
+15-4	779-785	banyak	_	_	_	_	_
+
+#Text=okay
+16-1	787-791	okay	_	_	_	_	_
+
+#Text=selamat siang bapak taufik
+17-1	793-800	selamat	_	_	_	_	_
+17-2	801-806	siang	_	_	_	_	_
+17-3	807-812	bapak	_	_	_	_	_
+17-4	813-819	taufik	_	_	_	_	_
+
+#Text=iya waalaikumsalam
+18-1	821-824	iya	_	_	_	_	_
+18-2	825-839	waalaikumsalam	_	_	_	_	_

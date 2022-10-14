@@ -1,0 +1,217 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo selamat sore
+1-1	0-4	halo	_	_	_	_	_
+1-2	5-12	selamat	_	_	_	_	_
+1-3	13-17	sore	_	_	_	_	_
+
+#Text=iya
+2-1	19-22	iya	_	_	_	_	_
+
+#Text=benar dengan ahmad muntoha
+3-1	24-29	benar	_	_	_	_	_
+3-2	30-36	dengan	_	_	_	_	_
+3-3	37-42	ahmad	_	_	_	_	_
+3-4	43-50	muntoha	_	_	_	_	_
+
+#Text=< oh > < oh > iya mbak nanti iya mbak
+4-1	52-53	<	_	_	_	_	_
+4-2	54-56	oh	_	_	_	_	_
+4-3	57-58	>	_	_	_	_	_
+4-4	59-60	<	_	_	_	_	_
+4-5	61-63	oh	_	_	_	_	_
+4-6	64-65	>	_	_	_	_	_
+4-7	66-69	iya	_	_	_	_	_
+4-8	70-74	mbak	_	_	_	_	_
+4-9	75-80	nanti	_	_	_	_	_
+4-10	81-84	iya	_	_	_	_	_
+4-11	85-89	mbak	_	_	_	_	_
+
+#Text=baik bapak ahmad saya ristin dari pt telmark rekanan dari penagihan gojek paylater
+5-1	91-95	baik	_	_	_	_	_
+5-2	96-101	bapak	_	_	_	_	_
+5-3	102-107	ahmad	_	_	_	_	_
+5-4	108-112	saya	_	_	_	_	_
+5-5	113-119	ristin	_	_	_	_	_
+5-6	120-124	dari	_	_	_	_	_
+5-7	125-127	pt	_	_	_	_	_
+5-8	128-135	telmark	_	_	_	_	_
+5-9	136-143	rekanan	_	_	_	_	_
+5-10	144-148	dari	_	_	_	_	_
+5-11	149-158	penagihan	_	_	_	_	_
+5-12	159-164	gojek	_	_	_	_	_
+5-13	165-173	paylater	_	_	_	_	_
+
+#Text=maaf pelupa
+6-1	175-179	maaf	_	_	_	_	_
+6-2	180-186	pelupa	_	_	_	_	_
+
+#Text=hari ini bisa dibayarkan jam berapa
+7-1	188-192	hari	_	_	_	_	_
+7-2	193-196	ini	_	_	_	_	_
+7-3	197-201	bisa	_	_	_	_	_
+7-4	202-212	dibayarkan	_	_	_	_	_
+7-5	213-216	jam	_	_	_	_	_
+7-6	217-223	berapa	_	_	_	_	_
+
+#Text=palingan malam iya mbak
+8-1	225-233	palingan	_	_	_	_	_
+8-2	234-239	malam	_	_	_	_	_
+8-3	240-243	iya	_	_	_	_	_
+8-4	244-248	mbak	_	_	_	_	_
+
+#Text=berapa pak
+9-1	250-256	berapa	_	_	_	_	_
+9-2	257-260	pak	_	_	_	_	_
+
+#Text=ini lagi di jalan sih
+10-1	262-265	ini	_	_	_	_	_
+10-2	266-270	lagi	_	_	_	_	_
+10-3	271-273	di	_	_	_	_	_
+10-4	274-279	jalan	_	_	_	_	_
+10-5	280-283	sih	_	_	_	_	_
+
+#Text=baik di jam tujuh iya
+11-1	285-289	baik	_	_	_	_	_
+11-2	290-292	di	_	_	_	_	_
+11-3	293-296	jam	_	_	_	_	_
+11-4	297-302	tujuh	_	_	_	_	_
+11-5	303-306	iya	_	_	_	_	_
+
+#Text=jam tujuh
+12-1	308-311	jam	_	_	_	_	_
+12-2	312-317	tujuh	_	_	_	_	_
+
+#Text=ini kami berikan laporan untuk pembayaran bapak hari ini di jam tujuh malam iya pak
+13-1	319-322	ini	_	_	_	_	_
+13-2	323-327	kami	_	_	_	_	_
+13-3	328-335	berikan	_	_	_	_	_
+13-4	336-343	laporan	_	_	_	_	_
+13-5	344-349	untuk	_	_	_	_	_
+13-6	350-360	pembayaran	_	_	_	_	_
+13-7	361-366	bapak	_	_	_	_	_
+13-8	367-371	hari	_	_	_	_	_
+13-9	372-375	ini	_	_	_	_	_
+13-10	376-378	di	_	_	_	_	_
+13-11	379-382	jam	_	_	_	_	_
+13-12	383-388	tujuh	_	_	_	_	_
+13-13	389-394	malam	_	_	_	_	_
+13-14	395-398	iya	_	_	_	_	_
+13-15	399-402	pak	_	_	_	_	_
+
+#Text=iya iya siap siap
+14-1	404-407	iya	_	_	_	_	_
+14-2	408-411	iya	_	_	_	_	_
+14-3	412-416	siap	_	_	_	_	_
+14-4	417-421	siap	_	_	_	_	_
+
+#Text=ini < u > untuk dana nya sudah ada iya
+15-1	423-426	ini	_	_	_	_	_
+15-2	427-428	<	_	_	_	_	_
+15-3	429-430	u	_	_	_	_	_
+15-4	431-432	>	_	_	_	_	_
+15-5	433-438	untuk	_	_	_	_	_
+15-6	439-443	dana	_	_	_	_	_
+15-7	444-447	nya	_	_	_	_	_
+15-8	448-453	sudah	_	_	_	_	_
+15-9	454-457	ada	_	_	_	_	_
+15-10	458-461	iya	_	_	_	_	_
+
+#Text=iya baik baik
+16-1	463-466	iya	_	_	_	_	_
+16-2	467-471	baik	_	_	_	_	_
+16-3	472-476	baik	_	_	_	_	_
+
+#Text=sekitaran lima puluh dua ribu
+17-1	478-487	sekitaran	_	_	_	_	_
+17-2	488-492	lima	_	_	_	_	_
+17-3	493-498	puluh	_	_	_	_	_
+17-4	499-502	dua	_	_	_	_	_
+17-5	503-507	ribu	_	_	_	_	_
+
+#Text=iya berapa ibu berapa mbak
+18-1	509-512	iya	_	_	_	_	_
+18-2	513-519	berapa	_	_	_	_	_
+18-3	520-523	ibu	_	_	_	_	_
+18-4	524-530	berapa	_	_	_	_	_
+18-5	531-535	mbak	_	_	_	_	_
+
+#Text=nanti untuk
+19-1	537-542	nanti	_	_	_	_	_
+19-2	543-548	untuk	_	_	_	_	_
+
+#Text=lama enggak buka
+20-1	550-554	lama	_	_	_	_	_
+20-2	555-561	enggak	_	_	_	_	_
+20-3	562-566	buka	_	_	_	_	_
+
+#Text=bisa dicek langsung saja iya melalui aplikasi nya
+21-1	568-572	bisa	_	_	_	_	_
+21-2	573-578	dicek	_	_	_	_	_
+21-3	579-587	langsung	_	_	_	_	_
+21-4	588-592	saja	_	_	_	_	_
+21-5	593-596	iya	_	_	_	_	_
+21-6	597-604	melalui	_	_	_	_	_
+21-7	605-613	aplikasi	_	_	_	_	_
+21-8	614-617	nya	_	_	_	_	_
+
+#Text=< oh > iya iya iya siap siap
+22-1	619-620	<	_	_	_	_	_
+22-2	621-623	oh	_	_	_	_	_
+22-3	624-625	>	_	_	_	_	_
+22-4	626-629	iya	_	_	_	_	_
+22-5	630-633	iya	_	_	_	_	_
+22-6	634-637	iya	_	_	_	_	_
+22-7	638-642	siap	_	_	_	_	_
+22-8	643-647	siap	_	_	_	_	_
+
+#Text=baik ini kami tunggu pembayaran bapak hari ini di jam tujuh malam
+23-1	649-653	baik	_	_	_	_	_
+23-2	654-657	ini	_	_	_	_	_
+23-3	658-662	kami	_	_	_	_	_
+23-4	663-669	tunggu	_	_	_	_	_
+23-5	670-680	pembayaran	_	_	_	_	_
+23-6	681-686	bapak	_	_	_	_	_
+23-7	687-691	hari	_	_	_	_	_
+23-8	692-695	ini	_	_	_	_	_
+23-9	696-698	di	_	_	_	_	_
+23-10	699-702	jam	_	_	_	_	_
+23-11	703-708	tujuh	_	_	_	_	_
+23-12	709-714	malam	_	_	_	_	_
+
+#Text=< oh > iya siap siap
+24-1	716-717	<	_	_	_	_	_
+24-2	718-720	oh	_	_	_	_	_
+24-3	721-722	>	_	_	_	_	_
+24-4	723-726	iya	_	_	_	_	_
+24-5	727-731	siap	_	_	_	_	_
+24-6	732-736	siap	_	_	_	_	_
+
+#Text=< em > ada pembayaran nanti kami akan menghubungi kembali via telepon
+25-1	738-739	<	_	_	_	_	_
+25-2	740-742	em	_	_	_	_	_
+25-3	743-744	>	_	_	_	_	_
+25-4	745-748	ada	_	_	_	_	_
+25-5	749-759	pembayaran	_	_	_	_	_
+25-6	760-765	nanti	_	_	_	_	_
+25-7	766-770	kami	_	_	_	_	_
+25-8	771-775	akan	_	_	_	_	_
+25-9	776-787	menghubungi	_	_	_	_	_
+25-10	788-795	kembali	_	_	_	_	_
+25-11	796-799	via	_	_	_	_	_
+25-12	800-807	telepon	_	_	_	_	_
+
+#Text=selamat sore
+26-1	809-816	selamat	_	_	_	_	_
+26-2	817-821	sore	_	_	_	_	_
+
+#Text=baik terima < kas >
+27-1	823-827	baik	_	_	_	_	_
+27-2	828-834	terima	_	_	_	_	_
+27-3	835-836	<	_	_	_	_	_
+27-4	837-840	kas	_	_	_	_	_
+27-5	841-842	>	_	_	_	_	_
+
+#Text=selamat sore
+28-1	844-851	selamat	_	_	_	_	_
+28-2	852-856	sore	_	_	_	_	_

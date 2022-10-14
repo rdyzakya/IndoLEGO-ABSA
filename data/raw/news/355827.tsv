@@ -1,0 +1,1372 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Investasi pada instrumen saham sangat menjanjikan sekaligus menantang .
+1-1	0-9	Investasi	_	concept[1]	_	_	_
+1-2	10-14	pada	_	_	_	_	_
+1-3	15-24	instrumen	_	_	_	_	_
+1-4	25-30	saham	_	_	_	_	_
+1-5	31-37	sangat	_	positive[2]	_	_	_
+1-6	38-49	menjanjikan	_	positive[2]	_	_	_
+1-7	50-59	sekaligus	_	_	_	_	_
+1-8	60-69	menantang	_	positive[3]	_	_	_
+1-9	70-71	.	_	_	_	_	_
+
+#Text=Ada banyak peluang untuk meraup keuntungan namun banyak pula jebakan yang bisa membuat investor kehilangan uang seketika .
+2-1	73-76	Ada	_	_	_	_	_
+2-2	77-83	banyak	_	_	_	_	_
+2-3	84-91	peluang	_	_	_	_	_
+2-4	92-97	untuk	_	_	_	_	_
+2-5	98-104	meraup	_	_	_	_	_
+2-6	105-115	keuntungan	_	_	_	_	_
+2-7	116-121	namun	_	_	_	_	_
+2-8	122-128	banyak	_	_	_	_	_
+2-9	129-133	pula	_	_	_	_	_
+2-10	134-141	jebakan	_	_	_	_	_
+2-11	142-146	yang	_	_	_	_	_
+2-12	147-151	bisa	_	_	_	_	_
+2-13	152-159	membuat	_	_	_	_	_
+2-14	160-168	investor	_	_	_	_	_
+2-15	169-179	kehilangan	_	_	_	_	_
+2-16	180-184	uang	_	_	_	_	_
+2-17	185-193	seketika	_	_	_	_	_
+2-18	194-195	.	_	_	_	_	_
+
+#Text=Ketika melakukan pembelian saham , seharusnya tidak serta merta mengikuti tren pasar saham saja .
+3-1	197-203	Ketika	_	_	_	_	_
+3-2	204-213	melakukan	_	_	_	_	_
+3-3	214-223	pembelian	_	_	_	_	_
+3-4	224-229	saham	_	_	_	_	_
+3-5	230-231	,	_	_	_	_	_
+3-6	232-242	seharusnya	_	_	_	_	_
+3-7	243-248	tidak	_	_	_	_	_
+3-8	249-254	serta	_	_	_	_	_
+3-9	255-260	merta	_	_	_	_	_
+3-10	261-270	mengikuti	_	_	_	_	_
+3-11	271-275	tren	_	_	_	_	_
+3-12	276-281	pasar	_	_	_	_	_
+3-13	282-287	saham	_	_	_	_	_
+3-14	288-292	saja	_	_	_	_	_
+3-15	293-294	.	_	_	_	_	_
+
+#Text=Beberapa orang percaya dengan tren sehingga tak masalah membeli saham dengan harga tinggi karena dinilai menjanjikan .
+4-1	296-304	Beberapa	_	_	_	_	_
+4-2	305-310	orang	_	_	_	_	_
+4-3	311-318	percaya	_	_	_	_	_
+4-4	319-325	dengan	_	_	_	_	_
+4-5	326-330	tren	_	_	_	_	_
+4-6	331-339	sehingga	_	_	_	_	_
+4-7	340-343	tak	_	_	_	_	_
+4-8	344-351	masalah	_	_	_	_	_
+4-9	352-359	membeli	_	_	_	_	_
+4-10	360-365	saham	_	_	_	_	_
+4-11	366-372	dengan	_	_	_	_	_
+4-12	373-378	harga	_	_	_	_	_
+4-13	379-385	tinggi	_	_	_	_	_
+4-14	386-392	karena	_	_	_	_	_
+4-15	393-400	dinilai	_	_	_	_	_
+4-16	401-412	menjanjikan	_	_	_	_	_
+4-17	413-414	.	_	_	_	_	_
+
+#Text=Sejumlah investor bisa menganggap harga pembelian yang tinggi tak menjadi masalah karena emiten tersebut bisa di jual kembali dengan nilai nominal tinggi alias capital gain besar .
+5-1	416-424	Sejumlah	_	_	_	_	_
+5-2	425-433	investor	_	_	_	_	_
+5-3	434-438	bisa	_	_	_	_	_
+5-4	439-449	menganggap	_	_	_	_	_
+5-5	450-455	harga	_	_	_	_	_
+5-6	456-465	pembelian	_	_	_	_	_
+5-7	466-470	yang	_	_	_	_	_
+5-8	471-477	tinggi	_	_	_	_	_
+5-9	478-481	tak	_	_	_	_	_
+5-10	482-489	menjadi	_	_	_	_	_
+5-11	490-497	masalah	_	_	_	_	_
+5-12	498-504	karena	_	_	_	_	_
+5-13	505-511	emiten	_	_	_	_	_
+5-14	512-520	tersebut	_	_	_	_	_
+5-15	521-525	bisa	_	_	_	_	_
+5-16	526-528	di	_	_	_	_	_
+5-17	529-533	jual	_	_	_	_	_
+5-18	534-541	kembali	_	_	_	_	_
+5-19	542-548	dengan	_	_	_	_	_
+5-20	549-554	nilai	_	_	_	_	_
+5-21	555-562	nominal	_	_	_	_	_
+5-22	563-569	tinggi	_	_	_	_	_
+5-23	570-575	alias	_	_	_	_	_
+5-24	576-583	capital	_	_	_	_	_
+5-25	584-588	gain	_	_	_	_	_
+5-26	589-594	besar	_	_	_	_	_
+5-27	595-596	.	_	_	_	_	_
+
+#Text=Belum lagi potensi keuntungan perusahaan yang bisa didapatkan setiap kali dilaksanakan Rapat Umum Pemegang Saham ( RUPS ) .
+6-1	598-603	Belum	_	_	_	_	_
+6-2	604-608	lagi	_	_	_	_	_
+6-3	609-616	potensi	_	_	_	_	_
+6-4	617-627	keuntungan	_	_	_	_	_
+6-5	628-638	perusahaan	_	_	_	_	_
+6-6	639-643	yang	_	_	_	_	_
+6-7	644-648	bisa	_	_	_	_	_
+6-8	649-659	didapatkan	_	_	_	_	_
+6-9	660-666	setiap	_	_	_	_	_
+6-10	667-671	kali	_	_	_	_	_
+6-11	672-684	dilaksanakan	_	_	_	_	_
+6-12	685-690	Rapat	_	_	_	_	_
+6-13	691-695	Umum	_	_	_	_	_
+6-14	696-704	Pemegang	_	_	_	_	_
+6-15	705-710	Saham	_	_	_	_	_
+6-16	711-712	(	_	_	_	_	_
+6-17	713-717	RUPS	_	_	_	_	_
+6-18	718-719	)	_	_	_	_	_
+6-19	720-721	.	_	_	_	_	_
+
+#Text=Namun , fluktuasi pasar bisa saja menjebak .
+7-1	723-728	Namun	_	_	_	_	_
+7-2	729-730	,	_	_	_	_	_
+7-3	731-740	fluktuasi	_	concept[4]	_	_	_
+7-4	741-746	pasar	_	concept[4]	_	_	_
+7-5	747-751	bisa	_	negative[5]	_	_	_
+7-6	752-756	saja	_	negative[5]	_	_	_
+7-7	757-765	menjebak	_	negative[5]	_	_	_
+7-8	766-767	.	_	_	_	_	_
+
+#Text=Sehingga , ketika harga jatuh maka seorang investor akan jatuh bersama dengan kepemilikan saham milik nya pula .
+8-1	769-777	Sehingga	_	_	_	_	_
+8-2	778-779	,	_	_	_	_	_
+8-3	780-786	ketika	_	_	_	_	_
+8-4	787-792	harga	_	_	_	_	_
+8-5	793-798	jatuh	_	_	_	_	_
+8-6	799-803	maka	_	_	_	_	_
+8-7	804-811	seorang	_	_	_	_	_
+8-8	812-820	investor	_	_	_	_	_
+8-9	821-825	akan	_	_	_	_	_
+8-10	826-831	jatuh	_	_	_	_	_
+8-11	832-839	bersama	_	_	_	_	_
+8-12	840-846	dengan	_	_	_	_	_
+8-13	847-858	kepemilikan	_	_	_	_	_
+8-14	859-864	saham	_	_	_	_	_
+8-15	865-870	milik	_	_	_	_	_
+8-16	871-874	nya	_	_	_	_	_
+8-17	875-879	pula	_	_	_	_	_
+8-18	880-881	.	_	_	_	_	_
+
+#Text=Pergerakan harga saham berjalan dengan cepat , sehingga mungkin sulit diikuti apabila tidak menguasai berbagai istilah saham yang kerap dipakai .
+9-1	883-893	Pergerakan	_	concept[6]	_	_	_
+9-2	894-899	harga	_	concept[6]	_	_	_
+9-3	900-905	saham	_	concept[6]	_	_	_
+9-4	906-914	berjalan	_	_	_	_	_
+9-5	915-921	dengan	_	_	_	_	_
+9-6	922-927	cepat	_	positive[7]	_	_	_
+9-7	928-929	,	_	_	_	_	_
+9-8	930-938	sehingga	_	_	_	_	_
+9-9	939-946	mungkin	_	_	_	_	_
+9-10	947-952	sulit	_	negative[8]	_	_	_
+9-11	953-960	diikuti	_	negative[8]	_	_	_
+9-12	961-968	apabila	_	_	_	_	_
+9-13	969-974	tidak	_	_	_	_	_
+9-14	975-984	menguasai	_	_	_	_	_
+9-15	985-993	berbagai	_	_	_	_	_
+9-16	994-1001	istilah	_	_	_	_	_
+9-17	1002-1007	saham	_	_	_	_	_
+9-18	1008-1012	yang	_	_	_	_	_
+9-19	1013-1018	kerap	_	_	_	_	_
+9-20	1019-1026	dipakai	_	_	_	_	_
+9-21	1027-1028	.	_	_	_	_	_
+
+#Text=Bagi investor pemula yang masih minim pengetahuan soal seluk-beluk pasar modal , paling tidak ada berbagai istilah saham yang harus diketahui terlebih dahulu .
+10-1	1030-1034	Bagi	_	_	_	_	_
+10-2	1035-1043	investor	_	_	_	_	_
+10-3	1044-1050	pemula	_	_	_	_	_
+10-4	1051-1055	yang	_	_	_	_	_
+10-5	1056-1061	masih	_	_	_	_	_
+10-6	1062-1067	minim	_	_	_	_	_
+10-7	1068-1079	pengetahuan	_	_	_	_	_
+10-8	1080-1084	soal	_	_	_	_	_
+10-9	1085-1096	seluk-beluk	_	_	_	_	_
+10-10	1097-1102	pasar	_	_	_	_	_
+10-11	1103-1108	modal	_	_	_	_	_
+10-12	1109-1110	,	_	_	_	_	_
+10-13	1111-1117	paling	_	_	_	_	_
+10-14	1118-1123	tidak	_	_	_	_	_
+10-15	1124-1127	ada	_	_	_	_	_
+10-16	1128-1136	berbagai	_	_	_	_	_
+10-17	1137-1144	istilah	_	_	_	_	_
+10-18	1145-1150	saham	_	_	_	_	_
+10-19	1151-1155	yang	_	_	_	_	_
+10-20	1156-1161	harus	_	_	_	_	_
+10-21	1162-1171	diketahui	_	_	_	_	_
+10-22	1172-1180	terlebih	_	_	_	_	_
+10-23	1181-1187	dahulu	_	_	_	_	_
+10-24	1188-1189	.	_	_	_	_	_
+
+#Text=Selain bisa membaca laporan keuangan suatu perusahaan dan menghitung kinerja saham perusahaan tertentu , pemahaman ini penting sebagai pengetahuan dasar .
+11-1	1191-1197	Selain	_	_	_	_	_
+11-2	1198-1202	bisa	_	_	_	_	_
+11-3	1203-1210	membaca	_	_	_	_	_
+11-4	1211-1218	laporan	_	_	_	_	_
+11-5	1219-1227	keuangan	_	_	_	_	_
+11-6	1228-1233	suatu	_	_	_	_	_
+11-7	1234-1244	perusahaan	_	_	_	_	_
+11-8	1245-1248	dan	_	_	_	_	_
+11-9	1249-1259	menghitung	_	_	_	_	_
+11-10	1260-1267	kinerja	_	_	_	_	_
+11-11	1268-1273	saham	_	_	_	_	_
+11-12	1274-1284	perusahaan	_	_	_	_	_
+11-13	1285-1293	tertentu	_	_	_	_	_
+11-14	1294-1295	,	_	_	_	_	_
+11-15	1296-1305	pemahaman	_	_	_	_	_
+11-16	1306-1309	ini	_	_	_	_	_
+11-17	1310-1317	penting	_	_	_	_	_
+11-18	1318-1325	sebagai	_	_	_	_	_
+11-19	1326-1337	pengetahuan	_	_	_	_	_
+11-20	1338-1343	dasar	_	_	_	_	_
+11-21	1344-1345	.	_	_	_	_	_
+
+#Text=Dalam sejumlah kasus , investor lebih suka membeli saham yang diprediksi akan naik namun dengan harga lebih murah .
+12-1	1347-1352	Dalam	_	_	_	_	_
+12-2	1353-1361	sejumlah	_	_	_	_	_
+12-3	1362-1367	kasus	_	_	_	_	_
+12-4	1368-1369	,	_	_	_	_	_
+12-5	1370-1378	investor	_	_	_	_	_
+12-6	1379-1384	lebih	_	_	_	_	_
+12-7	1385-1389	suka	_	_	_	_	_
+12-8	1390-1397	membeli	_	_	_	_	_
+12-9	1398-1403	saham	_	_	_	_	_
+12-10	1404-1408	yang	_	_	_	_	_
+12-11	1409-1419	diprediksi	_	_	_	_	_
+12-12	1420-1424	akan	_	_	_	_	_
+12-13	1425-1429	naik	_	_	_	_	_
+12-14	1430-1435	namun	_	_	_	_	_
+12-15	1436-1442	dengan	_	_	_	_	_
+12-16	1443-1448	harga	_	_	_	_	_
+12-17	1449-1454	lebih	_	_	_	_	_
+12-18	1455-1460	murah	_	_	_	_	_
+12-19	1461-1462	.	_	_	_	_	_
+
+#Text=Dengan demikian jumlah saham nya akan lebih banyak sehingga potensial untuk cuan lebih besar .
+13-1	1464-1470	Dengan	_	_	_	_	_
+13-2	1471-1479	demikian	_	_	_	_	_
+13-3	1480-1486	jumlah	_	concept[9]	_	_	_
+13-4	1487-1492	saham	_	concept[9]	_	_	_
+13-5	1493-1496	nya	_	concept[9]	_	_	_
+13-6	1497-1501	akan	_	_	_	_	_
+13-7	1502-1507	lebih	_	positive[10]	_	_	_
+13-8	1508-1514	banyak	_	positive[10]	_	_	_
+13-9	1515-1523	sehingga	_	_	_	_	_
+13-10	1524-1533	potensial	_	_	_	_	_
+13-11	1534-1539	untuk	_	_	_	_	_
+13-12	1540-1544	cuan	_	_	_	_	_
+13-13	1545-1550	lebih	_	_	_	_	_
+13-14	1551-1556	besar	_	_	_	_	_
+13-15	1557-1558	.	_	_	_	_	_
+
+#Text=Namun tentu saja hal ini dibarengi dengan risiko capital loss ketika saham non blue chip tersebut harga nya ambruk .
+14-1	1560-1565	Namun	_	_	_	_	_
+14-2	1566-1571	tentu	_	_	_	_	_
+14-3	1572-1576	saja	_	_	_	_	_
+14-4	1577-1580	hal	_	_	_	_	_
+14-5	1581-1584	ini	_	_	_	_	_
+14-6	1585-1594	dibarengi	_	_	_	_	_
+14-7	1595-1601	dengan	_	_	_	_	_
+14-8	1602-1608	risiko	_	_	_	_	_
+14-9	1609-1616	capital	_	_	_	_	_
+14-10	1617-1621	loss	_	_	_	_	_
+14-11	1622-1628	ketika	_	_	_	_	_
+14-12	1629-1634	saham	_	_	_	_	_
+14-13	1635-1638	non	_	_	_	_	_
+14-14	1639-1643	blue	_	_	_	_	_
+14-15	1644-1648	chip	_	_	_	_	_
+14-16	1649-1657	tersebut	_	_	_	_	_
+14-17	1658-1663	harga	_	_	_	_	_
+14-18	1664-1667	nya	_	_	_	_	_
+14-19	1668-1674	ambruk	_	_	_	_	_
+14-20	1675-1676	.	_	_	_	_	_
+
+#Text=Ketika inilah kamu disarankan untuk menerapkan cut loss agar tak menderita kerugian lebih banyak lagi .
+15-1	1678-1684	Ketika	_	_	_	_	_
+15-2	1685-1691	inilah	_	_	_	_	_
+15-3	1692-1696	kamu	_	_	_	_	_
+15-4	1697-1707	disarankan	_	_	_	_	_
+15-5	1708-1713	untuk	_	_	_	_	_
+15-6	1714-1724	menerapkan	_	_	_	_	_
+15-7	1725-1728	cut	_	_	_	_	_
+15-8	1729-1733	loss	_	_	_	_	_
+15-9	1734-1738	agar	_	_	_	_	_
+15-10	1739-1742	tak	_	_	_	_	_
+15-11	1743-1752	menderita	_	_	_	_	_
+15-12	1753-1761	kerugian	_	_	_	_	_
+15-13	1762-1767	lebih	_	_	_	_	_
+15-14	1768-1774	banyak	_	_	_	_	_
+15-15	1775-1779	lagi	_	_	_	_	_
+15-16	1780-1781	.	_	_	_	_	_
+
+#Text=Berbagai strategi dunia saham inilah yang kerap tidak dipahami dengan mudah oleh para investor pemula .
+16-1	1783-1791	Berbagai	_	_	_	_	_
+16-2	1792-1800	strategi	_	concept[11]	_	_	_
+16-3	1801-1806	dunia	_	concept[11]	_	_	_
+16-4	1807-1812	saham	_	concept[11]	_	_	_
+16-5	1813-1819	inilah	_	_	_	_	_
+16-6	1820-1824	yang	_	_	_	_	_
+16-7	1825-1830	kerap	_	negative[12]	_	_	_
+16-8	1831-1836	tidak	_	negative[12]	_	_	_
+16-9	1837-1845	dipahami	_	negative[12]	_	_	_
+16-10	1846-1852	dengan	_	negative[12]	_	_	_
+16-11	1853-1858	mudah	_	negative[12]	_	_	_
+16-12	1859-1863	oleh	_	_	_	_	_
+16-13	1864-1868	para	_	_	_	_	_
+16-14	1869-1877	investor	_	_	_	_	_
+16-15	1878-1884	pemula	_	_	_	_	_
+16-16	1885-1886	.	_	_	_	_	_
+
+#Text=Hal ini tentu tak akan terjadi jika kamu menguasai pengetahuan dasar pasar modal , dimulai dengan paham benar akan berbagai istilah saham .
+17-1	1888-1891	Hal	_	_	_	_	_
+17-2	1892-1895	ini	_	_	_	_	_
+17-3	1896-1901	tentu	_	_	_	_	_
+17-4	1902-1905	tak	_	_	_	_	_
+17-5	1906-1910	akan	_	_	_	_	_
+17-6	1911-1918	terjadi	_	_	_	_	_
+17-7	1919-1923	jika	_	_	_	_	_
+17-8	1924-1928	kamu	_	_	_	_	_
+17-9	1929-1938	menguasai	_	_	_	_	_
+17-10	1939-1950	pengetahuan	_	_	_	_	_
+17-11	1951-1956	dasar	_	_	_	_	_
+17-12	1957-1962	pasar	_	_	_	_	_
+17-13	1963-1968	modal	_	_	_	_	_
+17-14	1969-1970	,	_	_	_	_	_
+17-15	1971-1978	dimulai	_	_	_	_	_
+17-16	1979-1985	dengan	_	_	_	_	_
+17-17	1986-1991	paham	_	_	_	_	_
+17-18	1992-1997	benar	_	_	_	_	_
+17-19	1998-2002	akan	_	_	_	_	_
+17-20	2003-2011	berbagai	_	_	_	_	_
+17-21	2012-2019	istilah	_	_	_	_	_
+17-22	2020-2025	saham	_	_	_	_	_
+17-23	2026-2027	.	_	_	_	_	_
+
+#Text=Bagian Analisis Teknikal Investasi Saham Berinvestasi di pasar saham adalah soal memahami pasar dengan cara paling baik agar bisa memprediksi kenaikan maupun penurunan harga yang terjadi .
+18-1	2029-2035	Bagian	_	_	_	_	_
+18-2	2036-2044	Analisis	_	_	_	_	_
+18-3	2045-2053	Teknikal	_	_	_	_	_
+18-4	2054-2063	Investasi	_	_	_	_	_
+18-5	2064-2069	Saham	_	_	_	_	_
+18-6	2070-2082	Berinvestasi	_	_	_	_	_
+18-7	2083-2085	di	_	_	_	_	_
+18-8	2086-2091	pasar	_	_	_	_	_
+18-9	2092-2097	saham	_	_	_	_	_
+18-10	2098-2104	adalah	_	_	_	_	_
+18-11	2105-2109	soal	_	_	_	_	_
+18-12	2110-2118	memahami	_	_	_	_	_
+18-13	2119-2124	pasar	_	_	_	_	_
+18-14	2125-2131	dengan	_	_	_	_	_
+18-15	2132-2136	cara	_	_	_	_	_
+18-16	2137-2143	paling	_	_	_	_	_
+18-17	2144-2148	baik	_	_	_	_	_
+18-18	2149-2153	agar	_	_	_	_	_
+18-19	2154-2158	bisa	_	_	_	_	_
+18-20	2159-2170	memprediksi	_	_	_	_	_
+18-21	2171-2179	kenaikan	_	_	_	_	_
+18-22	2180-2186	maupun	_	_	_	_	_
+18-23	2187-2196	penurunan	_	_	_	_	_
+18-24	2197-2202	harga	_	_	_	_	_
+18-25	2203-2207	yang	_	_	_	_	_
+18-26	2208-2215	terjadi	_	_	_	_	_
+18-27	2216-2217	.	_	_	_	_	_
+
+#Text=Dengan berbagai aspek yang terlibat , sulit memastikan benar mana emiten yang akan naik atau turun .
+19-1	2219-2225	Dengan	_	_	_	_	_
+19-2	2226-2234	berbagai	_	_	_	_	_
+19-3	2235-2240	aspek	_	_	_	_	_
+19-4	2241-2245	yang	_	_	_	_	_
+19-5	2246-2254	terlibat	_	_	_	_	_
+19-6	2255-2256	,	_	_	_	_	_
+19-7	2257-2262	sulit	_	_	_	_	_
+19-8	2263-2273	memastikan	_	_	_	_	_
+19-9	2274-2279	benar	_	_	_	_	_
+19-10	2280-2284	mana	_	_	_	_	_
+19-11	2285-2291	emiten	_	_	_	_	_
+19-12	2292-2296	yang	_	_	_	_	_
+19-13	2297-2301	akan	_	_	_	_	_
+19-14	2302-2306	naik	_	_	_	_	_
+19-15	2307-2311	atau	_	_	_	_	_
+19-16	2312-2317	turun	_	_	_	_	_
+19-17	2318-2319	.	_	_	_	_	_
+
+#Text=Namun banyak pelaku pasar saham mencoba melakukan nya dengan menerapkan berbagai teknis analisis .
+20-1	2321-2326	Namun	_	_	_	_	_
+20-2	2327-2333	banyak	_	_	_	_	_
+20-3	2334-2340	pelaku	_	_	_	_	_
+20-4	2341-2346	pasar	_	_	_	_	_
+20-5	2347-2352	saham	_	_	_	_	_
+20-6	2353-2360	mencoba	_	_	_	_	_
+20-7	2361-2370	melakukan	_	_	_	_	_
+20-8	2371-2374	nya	_	_	_	_	_
+20-9	2375-2381	dengan	_	_	_	_	_
+20-10	2382-2392	menerapkan	_	_	_	_	_
+20-11	2393-2401	berbagai	_	_	_	_	_
+20-12	2402-2408	teknis	_	_	_	_	_
+20-13	2409-2417	analisis	_	_	_	_	_
+20-14	2418-2419	.	_	_	_	_	_
+
+#Text=Analisis teknikal merupakan salah satu cara dalam dunia keuangan untuk mengetahui fluktuasi berbagai harga instrumen keuangan lewat grafis .
+21-1	2421-2429	Analisis	_	_	_	_	_
+21-2	2430-2438	teknikal	_	_	_	_	_
+21-3	2439-2448	merupakan	_	_	_	_	_
+21-4	2449-2454	salah	_	_	_	_	_
+21-5	2455-2459	satu	_	_	_	_	_
+21-6	2460-2464	cara	_	_	_	_	_
+21-7	2465-2470	dalam	_	_	_	_	_
+21-8	2471-2476	dunia	_	_	_	_	_
+21-9	2477-2485	keuangan	_	_	_	_	_
+21-10	2486-2491	untuk	_	_	_	_	_
+21-11	2492-2502	mengetahui	_	_	_	_	_
+21-12	2503-2512	fluktuasi	_	_	_	_	_
+21-13	2513-2521	berbagai	_	_	_	_	_
+21-14	2522-2527	harga	_	_	_	_	_
+21-15	2528-2537	instrumen	_	_	_	_	_
+21-16	2538-2546	keuangan	_	_	_	_	_
+21-17	2547-2552	lewat	_	_	_	_	_
+21-18	2553-2559	grafis	_	_	_	_	_
+21-19	2560-2561	.	_	_	_	_	_
+
+#Text=Hasil nya memang tidak pasti dan terjamin , tetapi paling tidak para investor bisa menjadikan nya pegangan untuk menerapkan strategi menghadapi pasar .
+22-1	2563-2568	Hasil	_	concept[13]	_	_	_
+22-2	2569-2572	nya	_	concept[13]	_	_	_
+22-3	2573-2579	memang	_	_	_	_	_
+22-4	2580-2585	tidak	_	negative[14]	_	_	_
+22-5	2586-2591	pasti	_	negative[14]	_	_	_
+22-6	2592-2595	dan	_	negative[14]	_	_	_
+22-7	2596-2604	terjamin	_	negative[14]	_	_	_
+22-8	2605-2606	,	_	_	_	_	_
+22-9	2607-2613	tetapi	_	_	_	_	_
+22-10	2614-2620	paling	_	_	_	_	_
+22-11	2621-2626	tidak	_	_	_	_	_
+22-12	2627-2631	para	_	_	_	_	_
+22-13	2632-2640	investor	_	_	_	_	_
+22-14	2641-2645	bisa	_	_	_	_	_
+22-15	2646-2656	menjadikan	_	_	_	_	_
+22-16	2657-2660	nya	_	_	_	_	_
+22-17	2661-2669	pegangan	_	_	_	_	_
+22-18	2670-2675	untuk	_	_	_	_	_
+22-19	2676-2686	menerapkan	_	_	_	_	_
+22-20	2687-2695	strategi	_	_	_	_	_
+22-21	2696-2706	menghadapi	_	_	_	_	_
+22-22	2707-2712	pasar	_	_	_	_	_
+22-23	2713-2714	.	_	_	_	_	_
+
+#Text=Mungkin bagi investor yang masih baru di dalam dunia saham , mekanisme ini terlihat terlalu rumit .
+23-1	2716-2723	Mungkin	_	_	_	_	_
+23-2	2724-2728	bagi	_	_	_	_	_
+23-3	2729-2737	investor	_	_	_	_	_
+23-4	2738-2742	yang	_	_	_	_	_
+23-5	2743-2748	masih	_	_	_	_	_
+23-6	2749-2753	baru	_	_	_	_	_
+23-7	2754-2756	di	_	_	_	_	_
+23-8	2757-2762	dalam	_	_	_	_	_
+23-9	2763-2768	dunia	_	_	_	_	_
+23-10	2769-2774	saham	_	_	_	_	_
+23-11	2775-2776	,	_	_	_	_	_
+23-12	2777-2786	mekanisme	_	concept[15]	_	_	_
+23-13	2787-2790	ini	_	_	_	_	_
+23-14	2791-2799	terlihat	_	_	_	_	_
+23-15	2800-2807	terlalu	_	negative[16]	_	_	_
+23-16	2808-2813	rumit	_	negative[16]	_	_	_
+23-17	2814-2815	.	_	_	_	_	_
+
+#Text=Namun , paling tidak dengan memahami analisis teknikal , seorang investor akan mendapatkan gambaran lebih jelas ketika akan membeli saham dari emiten yang diincar .
+24-1	2817-2822	Namun	_	_	_	_	_
+24-2	2823-2824	,	_	_	_	_	_
+24-3	2825-2831	paling	_	_	_	_	_
+24-4	2832-2837	tidak	_	_	_	_	_
+24-5	2838-2844	dengan	_	_	_	_	_
+24-6	2845-2853	memahami	_	_	_	_	_
+24-7	2854-2862	analisis	_	_	_	_	_
+24-8	2863-2871	teknikal	_	_	_	_	_
+24-9	2872-2873	,	_	_	_	_	_
+24-10	2874-2881	seorang	_	_	_	_	_
+24-11	2882-2890	investor	_	_	_	_	_
+24-12	2891-2895	akan	_	_	_	_	_
+24-13	2896-2907	mendapatkan	_	_	_	_	_
+24-14	2908-2916	gambaran	_	_	_	_	_
+24-15	2917-2922	lebih	_	_	_	_	_
+24-16	2923-2928	jelas	_	_	_	_	_
+24-17	2929-2935	ketika	_	_	_	_	_
+24-18	2936-2940	akan	_	_	_	_	_
+24-19	2941-2948	membeli	_	_	_	_	_
+24-20	2949-2954	saham	_	_	_	_	_
+24-21	2955-2959	dari	_	_	_	_	_
+24-22	2960-2966	emiten	_	_	_	_	_
+24-23	2967-2971	yang	_	_	_	_	_
+24-24	2972-2979	diincar	_	_	_	_	_
+24-25	2980-2981	.	_	_	_	_	_
+
+#Text=Salah satu cara mengaplikasikan analisis teknikal ini adalah dengan memahami benar istilah dalam dunia saham .
+25-1	2983-2988	Salah	_	_	_	_	_
+25-2	2989-2993	satu	_	_	_	_	_
+25-3	2994-2998	cara	_	_	_	_	_
+25-4	2999-3014	mengaplikasikan	_	_	_	_	_
+25-5	3015-3023	analisis	_	_	_	_	_
+25-6	3024-3032	teknikal	_	_	_	_	_
+25-7	3033-3036	ini	_	_	_	_	_
+25-8	3037-3043	adalah	_	_	_	_	_
+25-9	3044-3050	dengan	_	_	_	_	_
+25-10	3051-3059	memahami	_	_	_	_	_
+25-11	3060-3065	benar	_	_	_	_	_
+25-12	3066-3073	istilah	_	_	_	_	_
+25-13	3074-3079	dalam	_	_	_	_	_
+25-14	3080-3085	dunia	_	_	_	_	_
+25-15	3086-3091	saham	_	_	_	_	_
+25-16	3092-3093	.	_	_	_	_	_
+
+#Text=Indikator yang sering dipakai adalah harga dan volume saham yang berlaku di pasar pada masa sebelumnya .
+26-1	3095-3104	Indikator	_	_	_	_	_
+26-2	3105-3109	yang	_	_	_	_	_
+26-3	3110-3116	sering	_	_	_	_	_
+26-4	3117-3124	dipakai	_	_	_	_	_
+26-5	3125-3131	adalah	_	_	_	_	_
+26-6	3132-3137	harga	_	_	_	_	_
+26-7	3138-3141	dan	_	_	_	_	_
+26-8	3142-3148	volume	_	_	_	_	_
+26-9	3149-3154	saham	_	_	_	_	_
+26-10	3155-3159	yang	_	_	_	_	_
+26-11	3160-3167	berlaku	_	_	_	_	_
+26-12	3168-3170	di	_	_	_	_	_
+26-13	3171-3176	pasar	_	_	_	_	_
+26-14	3177-3181	pada	_	_	_	_	_
+26-15	3182-3186	masa	_	_	_	_	_
+26-16	3187-3197	sebelumnya	_	_	_	_	_
+26-17	3198-3199	.	_	_	_	_	_
+
+#Text=Agar bisa menjadi investor jempolan , langkah penting selanjutnya adalah memahami istilah finansial atau investasi .
+27-1	3201-3205	Agar	_	_	_	_	_
+27-2	3206-3210	bisa	_	_	_	_	_
+27-3	3211-3218	menjadi	_	_	_	_	_
+27-4	3219-3227	investor	_	_	_	_	_
+27-5	3228-3236	jempolan	_	_	_	_	_
+27-6	3237-3238	,	_	_	_	_	_
+27-7	3239-3246	langkah	_	_	_	_	_
+27-8	3247-3254	penting	_	_	_	_	_
+27-9	3255-3266	selanjutnya	_	_	_	_	_
+27-10	3267-3273	adalah	_	_	_	_	_
+27-11	3274-3282	memahami	_	_	_	_	_
+27-12	3283-3290	istilah	_	_	_	_	_
+27-13	3291-3300	finansial	_	_	_	_	_
+27-14	3301-3305	atau	_	_	_	_	_
+27-15	3306-3315	investasi	_	_	_	_	_
+27-16	3316-3317	.	_	_	_	_	_
+
+#Text=Ada beberapa istilah dasar yang populer digunakan di dunia investasi antara lain : 1 .
+28-1	3319-3322	Ada	_	_	_	_	_
+28-2	3323-3331	beberapa	_	_	_	_	_
+28-3	3332-3339	istilah	_	_	_	_	_
+28-4	3340-3345	dasar	_	_	_	_	_
+28-5	3346-3350	yang	_	_	_	_	_
+28-6	3351-3358	populer	_	_	_	_	_
+28-7	3359-3368	digunakan	_	_	_	_	_
+28-8	3369-3371	di	_	_	_	_	_
+28-9	3372-3377	dunia	_	_	_	_	_
+28-10	3378-3387	investasi	_	_	_	_	_
+28-11	3388-3394	antara	_	_	_	_	_
+28-12	3395-3399	lain	_	_	_	_	_
+28-13	3400-3401	:	_	_	_	_	_
+28-14	3402-3403	1	_	_	_	_	_
+28-15	3404-3405	.	_	_	_	_	_
+
+#Text=Candle Stick .
+29-1	3407-3413	Candle	_	_	_	_	_
+29-2	3414-3419	Stick	_	_	_	_	_
+29-3	3420-3421	.	_	_	_	_	_
+
+#Text=Seperti nama nya , candle stick adalah bagian dasar dari sebuah saham .
+30-1	3423-3430	Seperti	_	_	_	_	_
+30-2	3431-3435	nama	_	_	_	_	_
+30-3	3436-3439	nya	_	_	_	_	_
+30-4	3440-3441	,	_	_	_	_	_
+30-5	3442-3448	candle	_	_	_	_	_
+30-6	3449-3454	stick	_	_	_	_	_
+30-7	3455-3461	adalah	_	_	_	_	_
+30-8	3462-3468	bagian	_	_	_	_	_
+30-9	3469-3474	dasar	_	_	_	_	_
+30-10	3475-3479	dari	_	_	_	_	_
+30-11	3480-3486	sebuah	_	_	_	_	_
+30-12	3487-3492	saham	_	_	_	_	_
+30-13	3493-3494	.	_	_	_	_	_
+
+#Text=Nama ini mengacu kepada batang-batang yang ada di tampilan grafik pergerakan .
+31-1	3496-3500	Nama	_	_	_	_	_
+31-2	3501-3504	ini	_	_	_	_	_
+31-3	3505-3512	mengacu	_	_	_	_	_
+31-4	3513-3519	kepada	_	_	_	_	_
+31-5	3520-3533	batang-batang	_	_	_	_	_
+31-6	3534-3538	yang	_	_	_	_	_
+31-7	3539-3542	ada	_	_	_	_	_
+31-8	3543-3545	di	_	_	_	_	_
+31-9	3546-3554	tampilan	_	_	_	_	_
+31-10	3555-3561	grafik	_	_	_	_	_
+31-11	3562-3572	pergerakan	_	_	_	_	_
+31-12	3573-3574	.	_	_	_	_	_
+
+#Text=Jika candle stick berwarna merah , maka harga saham sedang turun .
+32-1	3576-3580	Jika	_	_	_	_	_
+32-2	3581-3587	candle	_	_	_	_	_
+32-3	3588-3593	stick	_	_	_	_	_
+32-4	3594-3602	berwarna	_	_	_	_	_
+32-5	3603-3608	merah	_	_	_	_	_
+32-6	3609-3610	,	_	_	_	_	_
+32-7	3611-3615	maka	_	_	_	_	_
+32-8	3616-3621	harga	_	_	_	_	_
+32-9	3622-3627	saham	_	_	_	_	_
+32-10	3628-3634	sedang	_	_	_	_	_
+32-11	3635-3640	turun	_	_	_	_	_
+32-12	3641-3642	.	_	_	_	_	_
+
+#Text=Jika candle stick berwarna hijau maka grafik cenderung naik .
+33-1	3644-3648	Jika	_	_	_	_	_
+33-2	3649-3655	candle	_	_	_	_	_
+33-3	3656-3661	stick	_	_	_	_	_
+33-4	3662-3670	berwarna	_	_	_	_	_
+33-5	3671-3676	hijau	_	_	_	_	_
+33-6	3677-3681	maka	_	_	_	_	_
+33-7	3682-3688	grafik	_	concept[17]	_	_	_
+33-8	3689-3698	cenderung	_	negative[18]	_	_	_
+33-9	3699-3703	naik	_	negative[18]	_	_	_
+33-10	3704-3705	.	_	_	_	_	_
+
+#Text=2 .
+34-1	3707-3708	2	_	_	_	_	_
+34-2	3709-3710	.	_	_	_	_	_
+
+#Text=Buy & Sell .
+35-1	3712-3715	Buy	_	_	_	_	_
+35-2	3716-3717	&	_	_	_	_	_
+35-3	3718-3722	Sell	_	_	_	_	_
+35-4	3723-3724	.	_	_	_	_	_
+
+#Text=Buy dan sell adalah proses membeli atau menjual lembar saham , yang dilakukan pada periode waktu tertentu .
+36-1	3726-3729	Buy	_	_	_	_	_
+36-2	3730-3733	dan	_	_	_	_	_
+36-3	3734-3738	sell	_	_	_	_	_
+36-4	3739-3745	adalah	_	_	_	_	_
+36-5	3746-3752	proses	_	_	_	_	_
+36-6	3753-3760	membeli	_	_	_	_	_
+36-7	3761-3765	atau	_	_	_	_	_
+36-8	3766-3773	menjual	_	_	_	_	_
+36-9	3774-3780	lembar	_	_	_	_	_
+36-10	3781-3786	saham	_	_	_	_	_
+36-11	3787-3788	,	_	_	_	_	_
+36-12	3789-3793	yang	_	_	_	_	_
+36-13	3794-3803	dilakukan	_	_	_	_	_
+36-14	3804-3808	pada	_	_	_	_	_
+36-15	3809-3816	periode	_	_	_	_	_
+36-16	3817-3822	waktu	_	_	_	_	_
+36-17	3823-3831	tertentu	_	_	_	_	_
+36-18	3832-3833	.	_	_	_	_	_
+
+#Text=Melakukan buy berarti kamu membeli saham dengan nilai nominal tertentu .
+37-1	3835-3844	Melakukan	_	_	_	_	_
+37-2	3845-3848	buy	_	_	_	_	_
+37-3	3849-3856	berarti	_	_	_	_	_
+37-4	3857-3861	kamu	_	_	_	_	_
+37-5	3862-3869	membeli	_	_	_	_	_
+37-6	3870-3875	saham	_	_	_	_	_
+37-7	3876-3882	dengan	_	_	_	_	_
+37-8	3883-3888	nilai	_	_	_	_	_
+37-9	3889-3896	nominal	_	_	_	_	_
+37-10	3897-3905	tertentu	_	_	_	_	_
+37-11	3906-3907	.	_	_	_	_	_
+
+#Text=Sedangkan sell yakni melepas kepemilikan mu dengan menjual saham karena berbagai alasan mulai karena butuh dana cair atau tren nya menurun .
+38-1	3909-3918	Sedangkan	_	_	_	_	_
+38-2	3919-3923	sell	_	_	_	_	_
+38-3	3924-3929	yakni	_	_	_	_	_
+38-4	3930-3937	melepas	_	_	_	_	_
+38-5	3938-3949	kepemilikan	_	_	_	_	_
+38-6	3950-3952	mu	_	_	_	_	_
+38-7	3953-3959	dengan	_	_	_	_	_
+38-8	3960-3967	menjual	_	_	_	_	_
+38-9	3968-3973	saham	_	_	_	_	_
+38-10	3974-3980	karena	_	_	_	_	_
+38-11	3981-3989	berbagai	_	_	_	_	_
+38-12	3990-3996	alasan	_	_	_	_	_
+38-13	3997-4002	mulai	_	_	_	_	_
+38-14	4003-4009	karena	_	_	_	_	_
+38-15	4010-4015	butuh	_	_	_	_	_
+38-16	4016-4020	dana	_	_	_	_	_
+38-17	4021-4025	cair	_	_	_	_	_
+38-18	4026-4030	atau	_	_	_	_	_
+38-19	4031-4035	tren	_	_	_	_	_
+38-20	4036-4039	nya	_	_	_	_	_
+38-21	4040-4047	menurun	_	_	_	_	_
+38-22	4048-4049	.	_	_	_	_	_
+
+#Text=3 .
+39-1	4051-4052	3	_	_	_	_	_
+39-2	4053-4054	.	_	_	_	_	_
+
+#Text=Amend Order .
+40-1	4056-4061	Amend	_	_	_	_	_
+40-2	4062-4067	Order	_	_	_	_	_
+40-3	4068-4069	.	_	_	_	_	_
+
+#Text=Amend order adalah istilah yang mengacu kepada pengaturan untuk mengurangi atau menambahkan pembelian atau penjualan setelah kita melakukan konfirmasi .
+41-1	4071-4076	Amend	_	_	_	_	_
+41-2	4077-4082	order	_	_	_	_	_
+41-3	4083-4089	adalah	_	_	_	_	_
+41-4	4090-4097	istilah	_	_	_	_	_
+41-5	4098-4102	yang	_	_	_	_	_
+41-6	4103-4110	mengacu	_	_	_	_	_
+41-7	4111-4117	kepada	_	_	_	_	_
+41-8	4118-4128	pengaturan	_	_	_	_	_
+41-9	4129-4134	untuk	_	_	_	_	_
+41-10	4135-4145	mengurangi	_	_	_	_	_
+41-11	4146-4150	atau	_	_	_	_	_
+41-12	4151-4162	menambahkan	_	_	_	_	_
+41-13	4163-4172	pembelian	_	_	_	_	_
+41-14	4173-4177	atau	_	_	_	_	_
+41-15	4178-4187	penjualan	_	_	_	_	_
+41-16	4188-4195	setelah	_	_	_	_	_
+41-17	4196-4200	kita	_	_	_	_	_
+41-18	4201-4210	melakukan	_	_	_	_	_
+41-19	4211-4221	konfirmasi	_	_	_	_	_
+41-20	4222-4223	.	_	_	_	_	_
+
+#Text=Pengaturan ini biasanya dilakukan pada saat proses mengantre setelah melakukan pembelian atau penjualan .
+42-1	4225-4235	Pengaturan	_	_	_	_	_
+42-2	4236-4239	ini	_	_	_	_	_
+42-3	4240-4248	biasanya	_	_	_	_	_
+42-4	4249-4258	dilakukan	_	_	_	_	_
+42-5	4259-4263	pada	_	_	_	_	_
+42-6	4264-4268	saat	_	_	_	_	_
+42-7	4269-4275	proses	_	_	_	_	_
+42-8	4276-4285	mengantre	_	_	_	_	_
+42-9	4286-4293	setelah	_	_	_	_	_
+42-10	4294-4303	melakukan	_	_	_	_	_
+42-11	4304-4313	pembelian	_	_	_	_	_
+42-12	4314-4318	atau	_	_	_	_	_
+42-13	4319-4328	penjualan	_	_	_	_	_
+42-14	4329-4330	.	_	_	_	_	_
+
+#Text=4 .
+43-1	4332-4333	4	_	_	_	_	_
+43-2	4334-4335	.	_	_	_	_	_
+
+#Text=Withdraw Order .
+44-1	4337-4345	Withdraw	_	_	_	_	_
+44-2	4346-4351	Order	_	_	_	_	_
+44-3	4352-4353	.	_	_	_	_	_
+
+#Text=Jika amend order adalah proses pengubahan jumlah lembar saham ketika sedang mengantre untuk menjual / membeli , withdraw order adalah proses pembatalan atau penarikan kembali ketika mengantre untuk menjual / membeli .
+45-1	4355-4359	Jika	_	_	_	_	_
+45-2	4360-4365	amend	_	_	_	_	_
+45-3	4366-4371	order	_	_	_	_	_
+45-4	4372-4378	adalah	_	_	_	_	_
+45-5	4379-4385	proses	_	_	_	_	_
+45-6	4386-4396	pengubahan	_	_	_	_	_
+45-7	4397-4403	jumlah	_	_	_	_	_
+45-8	4404-4410	lembar	_	_	_	_	_
+45-9	4411-4416	saham	_	_	_	_	_
+45-10	4417-4423	ketika	_	_	_	_	_
+45-11	4424-4430	sedang	_	_	_	_	_
+45-12	4431-4440	mengantre	_	_	_	_	_
+45-13	4441-4446	untuk	_	_	_	_	_
+45-14	4447-4454	menjual	_	_	_	_	_
+45-15	4455-4456	/	_	_	_	_	_
+45-16	4457-4464	membeli	_	_	_	_	_
+45-17	4465-4466	,	_	_	_	_	_
+45-18	4467-4475	withdraw	_	_	_	_	_
+45-19	4476-4481	order	_	_	_	_	_
+45-20	4482-4488	adalah	_	_	_	_	_
+45-21	4489-4495	proses	_	_	_	_	_
+45-22	4496-4506	pembatalan	_	_	_	_	_
+45-23	4507-4511	atau	_	_	_	_	_
+45-24	4512-4521	penarikan	_	_	_	_	_
+45-25	4522-4529	kembali	_	_	_	_	_
+45-26	4530-4536	ketika	_	_	_	_	_
+45-27	4537-4546	mengantre	_	_	_	_	_
+45-28	4547-4552	untuk	_	_	_	_	_
+45-29	4553-4560	menjual	_	_	_	_	_
+45-30	4561-4562	/	_	_	_	_	_
+45-31	4563-4570	membeli	_	_	_	_	_
+45-32	4571-4572	.	_	_	_	_	_
+
+#Text=5 .
+46-1	4574-4575	5	_	_	_	_	_
+46-2	4576-4577	.	_	_	_	_	_
+
+#Text=Deposit .
+47-1	4579-4586	Deposit	_	_	_	_	_
+47-2	4587-4588	.	_	_	_	_	_
+
+#Text=Istilah deposit di dunia saham hampir sama pengertian nya dengan di dunia perbankan .
+48-1	4590-4597	Istilah	_	_	_	_	_
+48-2	4598-4605	deposit	_	_	_	_	_
+48-3	4606-4608	di	_	_	_	_	_
+48-4	4609-4614	dunia	_	_	_	_	_
+48-5	4615-4620	saham	_	_	_	_	_
+48-6	4621-4627	hampir	_	_	_	_	_
+48-7	4628-4632	sama	_	_	_	_	_
+48-8	4633-4643	pengertian	_	_	_	_	_
+48-9	4644-4647	nya	_	_	_	_	_
+48-10	4648-4654	dengan	_	_	_	_	_
+48-11	4655-4657	di	_	_	_	_	_
+48-12	4658-4663	dunia	_	_	_	_	_
+48-13	4664-4673	perbankan	_	_	_	_	_
+48-14	4674-4675	.	_	_	_	_	_
+
+#Text=Dikatakan deposit , apabila kita menyetor sejumlah uang ke rekening saham .
+49-1	4677-4686	Dikatakan	_	_	_	_	_
+49-2	4687-4694	deposit	_	_	_	_	_
+49-3	4695-4696	,	_	_	_	_	_
+49-4	4697-4704	apabila	_	_	_	_	_
+49-5	4705-4709	kita	_	_	_	_	_
+49-6	4710-4718	menyetor	_	_	_	_	_
+49-7	4719-4727	sejumlah	_	_	_	_	_
+49-8	4728-4732	uang	_	_	_	_	_
+49-9	4733-4735	ke	_	_	_	_	_
+49-10	4736-4744	rekening	_	_	_	_	_
+49-11	4745-4750	saham	_	_	_	_	_
+49-12	4751-4752	.	_	_	_	_	_
+
+#Text=Perlu dicatat bahwa hal pertama yang harus dilakukan ketika ingin terjun ke dunia saham adalah membuat rekening saham atau dikenal juga dengan nama RDN ( rekening dana nasabah ) .
+50-1	4754-4759	Perlu	_	_	_	_	_
+50-2	4760-4767	dicatat	_	_	_	_	_
+50-3	4768-4773	bahwa	_	_	_	_	_
+50-4	4774-4777	hal	_	_	_	_	_
+50-5	4778-4785	pertama	_	_	_	_	_
+50-6	4786-4790	yang	_	_	_	_	_
+50-7	4791-4796	harus	_	_	_	_	_
+50-8	4797-4806	dilakukan	_	_	_	_	_
+50-9	4807-4813	ketika	_	_	_	_	_
+50-10	4814-4819	ingin	_	_	_	_	_
+50-11	4820-4826	terjun	_	_	_	_	_
+50-12	4827-4829	ke	_	_	_	_	_
+50-13	4830-4835	dunia	_	_	_	_	_
+50-14	4836-4841	saham	_	_	_	_	_
+50-15	4842-4848	adalah	_	_	_	_	_
+50-16	4849-4856	membuat	_	_	_	_	_
+50-17	4857-4865	rekening	_	_	_	_	_
+50-18	4866-4871	saham	_	_	_	_	_
+50-19	4872-4876	atau	_	_	_	_	_
+50-20	4877-4884	dikenal	_	_	_	_	_
+50-21	4885-4889	juga	_	_	_	_	_
+50-22	4890-4896	dengan	_	_	_	_	_
+50-23	4897-4901	nama	_	_	_	_	_
+50-24	4902-4905	RDN	_	_	_	_	_
+50-25	4906-4907	(	_	_	_	_	_
+50-26	4908-4916	rekening	_	_	_	_	_
+50-27	4917-4921	dana	_	_	_	_	_
+50-28	4922-4929	nasabah	_	_	_	_	_
+50-29	4930-4931	)	_	_	_	_	_
+50-30	4932-4933	.	_	_	_	_	_
+
+#Text=6 .
+51-1	4935-4936	6	_	_	_	_	_
+51-2	4937-4938	.	_	_	_	_	_
+
+#Text=Bid .
+52-1	4940-4943	Bid	_	_	_	_	_
+52-2	4944-4945	.	_	_	_	_	_
+
+#Text=Istilah bid akan dapat ditemukan pada aplikasi untuk bertransaksi saham .
+53-1	4947-4954	Istilah	_	_	_	_	_
+53-2	4955-4958	bid	_	_	_	_	_
+53-3	4959-4963	akan	_	_	_	_	_
+53-4	4964-4969	dapat	_	_	_	_	_
+53-5	4970-4979	ditemukan	_	_	_	_	_
+53-6	4980-4984	pada	_	_	_	_	_
+53-7	4985-4993	aplikasi	_	_	_	_	_
+53-8	4994-4999	untuk	_	_	_	_	_
+53-9	5000-5012	bertransaksi	_	_	_	_	_
+53-10	5013-5018	saham	_	_	_	_	_
+53-11	5019-5020	.	_	_	_	_	_
+
+#Text=Letak persis bid berada di bawah nama dan harga saham .
+54-1	5022-5027	Letak	_	_	_	_	_
+54-2	5028-5034	persis	_	_	_	_	_
+54-3	5035-5038	bid	_	_	_	_	_
+54-4	5039-5045	berada	_	_	_	_	_
+54-5	5046-5048	di	_	_	_	_	_
+54-6	5049-5054	bawah	_	_	_	_	_
+54-7	5055-5059	nama	_	_	_	_	_
+54-8	5060-5063	dan	_	_	_	_	_
+54-9	5064-5069	harga	_	_	_	_	_
+54-10	5070-5075	saham	_	_	_	_	_
+54-11	5076-5077	.	_	_	_	_	_
+
+#Text=Bid sendiri berguna untuk melihat berapa banyak jumlah antrean untuk membeli saham .
+55-1	5079-5082	Bid	_	_	_	_	_
+55-2	5083-5090	sendiri	_	_	_	_	_
+55-3	5091-5098	berguna	_	_	_	_	_
+55-4	5099-5104	untuk	_	_	_	_	_
+55-5	5105-5112	melihat	_	_	_	_	_
+55-6	5113-5119	berapa	_	_	_	_	_
+55-7	5120-5126	banyak	_	_	_	_	_
+55-8	5127-5133	jumlah	_	_	_	_	_
+55-9	5134-5141	antrean	_	_	_	_	_
+55-10	5142-5147	untuk	_	_	_	_	_
+55-11	5148-5155	membeli	_	_	_	_	_
+55-12	5156-5161	saham	_	_	_	_	_
+55-13	5162-5163	.	_	_	_	_	_
+
+#Text=7 .
+56-1	5165-5166	7	_	_	_	_	_
+56-2	5167-5168	.	_	_	_	_	_
+
+#Text=Ask .
+57-1	5170-5173	Ask	_	_	_	_	_
+57-2	5174-5175	.	_	_	_	_	_
+
+#Text=Berlawanan dengan bid offer , istilah offer / ask mengacu kepada jumlah antrean untuk menjual saham .
+58-1	5177-5187	Berlawanan	_	_	_	_	_
+58-2	5188-5194	dengan	_	_	_	_	_
+58-3	5195-5198	bid	_	_	_	_	_
+58-4	5199-5204	offer	_	_	_	_	_
+58-5	5205-5206	,	_	_	_	_	_
+58-6	5207-5214	istilah	_	_	_	_	_
+58-7	5215-5220	offer	_	_	_	_	_
+58-8	5221-5222	/	_	_	_	_	_
+58-9	5223-5226	ask	_	_	_	_	_
+58-10	5227-5234	mengacu	_	_	_	_	_
+58-11	5235-5241	kepada	_	_	_	_	_
+58-12	5242-5248	jumlah	_	_	_	_	_
+58-13	5249-5256	antrean	_	_	_	_	_
+58-14	5257-5262	untuk	_	_	_	_	_
+58-15	5263-5270	menjual	_	_	_	_	_
+58-16	5271-5276	saham	_	_	_	_	_
+58-17	5277-5278	.	_	_	_	_	_
+
+#Text=Sistem antre inilah yang menyebabkan seorang investor bisa saja tidak langsung mendapatkan saham pilihan pada harga yang ditentukan .
+59-1	5280-5286	Sistem	_	_	_	_	_
+59-2	5287-5292	antre	_	_	_	_	_
+59-3	5293-5299	inilah	_	_	_	_	_
+59-4	5300-5304	yang	_	_	_	_	_
+59-5	5305-5316	menyebabkan	_	_	_	_	_
+59-6	5317-5324	seorang	_	_	_	_	_
+59-7	5325-5333	investor	_	_	_	_	_
+59-8	5334-5338	bisa	_	_	_	_	_
+59-9	5339-5343	saja	_	_	_	_	_
+59-10	5344-5349	tidak	_	_	_	_	_
+59-11	5350-5358	langsung	_	_	_	_	_
+59-12	5359-5370	mendapatkan	_	_	_	_	_
+59-13	5371-5376	saham	_	_	_	_	_
+59-14	5377-5384	pilihan	_	_	_	_	_
+59-15	5385-5389	pada	_	_	_	_	_
+59-16	5390-5395	harga	_	_	_	_	_
+59-17	5396-5400	yang	_	_	_	_	_
+59-18	5401-5411	ditentukan	_	_	_	_	_
+59-19	5412-5413	.	_	_	_	_	_
+
+#Text=Di pasar saham siapa yang paling cepat mengirimkan bid / ask , dia yang dapat .
+60-1	5415-5417	Di	_	_	_	_	_
+60-2	5418-5423	pasar	_	_	_	_	_
+60-3	5424-5429	saham	_	_	_	_	_
+60-4	5430-5435	siapa	_	_	_	_	_
+60-5	5436-5440	yang	_	_	_	_	_
+60-6	5441-5447	paling	_	_	_	_	_
+60-7	5448-5453	cepat	_	_	_	_	_
+60-8	5454-5465	mengirimkan	_	_	_	_	_
+60-9	5466-5469	bid	_	_	_	_	_
+60-10	5470-5471	/	_	_	_	_	_
+60-11	5472-5475	ask	_	_	_	_	_
+60-12	5476-5477	,	_	_	_	_	_
+60-13	5478-5481	dia	_	_	_	_	_
+60-14	5482-5486	yang	_	_	_	_	_
+60-15	5487-5492	dapat	_	_	_	_	_
+60-16	5493-5494	.	_	_	_	_	_
+
+#Text=8 .
+61-1	5496-5497	8	_	_	_	_	_
+61-2	5498-5499	.	_	_	_	_	_
+
+#Text=Margin Trading .
+62-1	5501-5507	Margin	_	_	_	_	_
+62-2	5508-5515	Trading	_	_	_	_	_
+62-3	5516-5517	.	_	_	_	_	_
+
+#Text=Margin trading adalah ketika seorang investor melakukan pembelian saham dengan uang pinjaman dari broker alias perusahaan sekuritas .
+63-1	5519-5525	Margin	_	_	_	_	_
+63-2	5526-5533	trading	_	_	_	_	_
+63-3	5534-5540	adalah	_	_	_	_	_
+63-4	5541-5547	ketika	_	_	_	_	_
+63-5	5548-5555	seorang	_	_	_	_	_
+63-6	5556-5564	investor	_	_	_	_	_
+63-7	5565-5574	melakukan	_	_	_	_	_
+63-8	5575-5584	pembelian	_	_	_	_	_
+63-9	5585-5590	saham	_	_	_	_	_
+63-10	5591-5597	dengan	_	_	_	_	_
+63-11	5598-5602	uang	_	_	_	_	_
+63-12	5603-5611	pinjaman	_	_	_	_	_
+63-13	5612-5616	dari	_	_	_	_	_
+63-14	5617-5623	broker	_	_	_	_	_
+63-15	5624-5629	alias	_	_	_	_	_
+63-16	5630-5640	perusahaan	_	_	_	_	_
+63-17	5641-5650	sekuritas	_	_	_	_	_
+63-18	5651-5652	.	_	_	_	_	_
+
+#Text=Pinjaman tersebut didapatkan dengan jaminan berupa saham milik investor tersebut .
+64-1	5654-5662	Pinjaman	_	_	_	_	_
+64-2	5663-5671	tersebut	_	_	_	_	_
+64-3	5672-5682	didapatkan	_	_	_	_	_
+64-4	5683-5689	dengan	_	_	_	_	_
+64-5	5690-5697	jaminan	_	_	_	_	_
+64-6	5698-5704	berupa	_	_	_	_	_
+64-7	5705-5710	saham	_	_	_	_	_
+64-8	5711-5716	milik	_	_	_	_	_
+64-9	5717-5725	investor	_	_	_	_	_
+64-10	5726-5734	tersebut	_	_	_	_	_
+64-11	5735-5736	.	_	_	_	_	_
+
+#Text=Tidak semua saham yang beredar di Bursa Efek Indonesia ( BEI ) bisa dibeli dengan sistem margin trading .
+65-1	5738-5743	Tidak	_	_	_	_	_
+65-2	5744-5749	semua	_	_	_	_	_
+65-3	5750-5755	saham	_	concept[19]	_	_	_
+65-4	5756-5760	yang	_	_	_	_	_
+65-5	5761-5768	beredar	_	_	_	_	_
+65-6	5769-5771	di	_	_	_	_	_
+65-7	5772-5777	Bursa	_	_	_	_	_
+65-8	5778-5782	Efek	_	_	_	_	_
+65-9	5783-5792	Indonesia	_	_	_	_	_
+65-10	5793-5794	(	_	_	_	_	_
+65-11	5795-5798	BEI	_	_	_	_	_
+65-12	5799-5800	)	_	_	_	_	_
+65-13	5801-5805	bisa	_	negative[20]	_	_	_
+65-14	5806-5812	dibeli	_	negative[20]	_	_	_
+65-15	5813-5819	dengan	_	_	_	_	_
+65-16	5820-5826	sistem	_	_	_	_	_
+65-17	5827-5833	margin	_	_	_	_	_
+65-18	5834-5841	trading	_	_	_	_	_
+65-19	5842-5843	.	_	_	_	_	_
+
+#Text=Sampai saat ini hanya ada 61 emiten yang bisa dibeli dengan pinjaman tersebut .
+66-1	5845-5851	Sampai	_	_	_	_	_
+66-2	5852-5856	saat	_	_	_	_	_
+66-3	5857-5860	ini	_	_	_	_	_
+66-4	5861-5866	hanya	_	_	_	_	_
+66-5	5867-5870	ada	_	_	_	_	_
+66-6	5871-5873	61	_	_	_	_	_
+66-7	5874-5880	emiten	_	_	_	_	_
+66-8	5881-5885	yang	_	_	_	_	_
+66-9	5886-5890	bisa	_	_	_	_	_
+66-10	5891-5897	dibeli	_	_	_	_	_
+66-11	5898-5904	dengan	_	_	_	_	_
+66-12	5905-5913	pinjaman	_	_	_	_	_
+66-13	5914-5922	tersebut	_	_	_	_	_
+66-14	5923-5924	.	_	_	_	_	_
+
+#Text=Sebetulnya , masih banyak istilah saham lainnya yang perlu dikuasai oleh seorang investor jika ingin menjadi investor saham kelas kakap .
+67-1	5926-5936	Sebetulnya	_	_	_	_	_
+67-2	5937-5938	,	_	_	_	_	_
+67-3	5939-5944	masih	_	_	_	_	_
+67-4	5945-5951	banyak	_	_	_	_	_
+67-5	5952-5959	istilah	_	_	_	_	_
+67-6	5960-5965	saham	_	_	_	_	_
+67-7	5966-5973	lainnya	_	_	_	_	_
+67-8	5974-5978	yang	_	_	_	_	_
+67-9	5979-5984	perlu	_	_	_	_	_
+67-10	5985-5993	dikuasai	_	_	_	_	_
+67-11	5994-5998	oleh	_	_	_	_	_
+67-12	5999-6006	seorang	_	_	_	_	_
+67-13	6007-6015	investor	_	_	_	_	_
+67-14	6016-6020	jika	_	_	_	_	_
+67-15	6021-6026	ingin	_	_	_	_	_
+67-16	6027-6034	menjadi	_	_	_	_	_
+67-17	6035-6043	investor	_	_	_	_	_
+67-18	6044-6049	saham	_	_	_	_	_
+67-19	6050-6055	kelas	_	_	_	_	_
+67-20	6056-6061	kakap	_	_	_	_	_
+67-21	6062-6063	.	_	_	_	_	_
+
+#Text=Namun paling tidak delapan istilah di atas dapat menjadi awal perjalanan untuk memahami lebih jauh seluk beluk dunia saham .
+68-1	6065-6070	Namun	_	_	_	_	_
+68-2	6071-6077	paling	_	_	_	_	_
+68-3	6078-6083	tidak	_	_	_	_	_
+68-4	6084-6091	delapan	_	_	_	_	_
+68-5	6092-6099	istilah	_	_	_	_	_
+68-6	6100-6102	di	_	_	_	_	_
+68-7	6103-6107	atas	_	_	_	_	_
+68-8	6108-6113	dapat	_	_	_	_	_
+68-9	6114-6121	menjadi	_	_	_	_	_
+68-10	6122-6126	awal	_	_	_	_	_
+68-11	6127-6137	perjalanan	_	_	_	_	_
+68-12	6138-6143	untuk	_	_	_	_	_
+68-13	6144-6152	memahami	_	_	_	_	_
+68-14	6153-6158	lebih	_	_	_	_	_
+68-15	6159-6163	jauh	_	_	_	_	_
+68-16	6164-6169	seluk	_	_	_	_	_
+68-17	6170-6175	beluk	_	_	_	_	_
+68-18	6176-6181	dunia	_	_	_	_	_
+68-19	6182-6187	saham	_	_	_	_	_
+68-20	6188-6189	.	_	_	_	_	_
+
+#Text=Selain memahami istilah-istilah dalam dunia saham , seorang investor juga harus paham tentang mekanisme perdagangan instrumen yang ada di sana serta platform sekuritas terpercaya untuk melakukan mekanisme tersebut .
+69-1	6191-6197	Selain	_	_	_	_	_
+69-2	6198-6206	memahami	_	_	_	_	_
+69-3	6207-6222	istilah-istilah	_	_	_	_	_
+69-4	6223-6228	dalam	_	_	_	_	_
+69-5	6229-6234	dunia	_	_	_	_	_
+69-6	6235-6240	saham	_	_	_	_	_
+69-7	6241-6242	,	_	_	_	_	_
+69-8	6243-6250	seorang	_	_	_	_	_
+69-9	6251-6259	investor	_	_	_	_	_
+69-10	6260-6264	juga	_	_	_	_	_
+69-11	6265-6270	harus	_	_	_	_	_
+69-12	6271-6276	paham	_	_	_	_	_
+69-13	6277-6284	tentang	_	_	_	_	_
+69-14	6285-6294	mekanisme	_	_	_	_	_
+69-15	6295-6306	perdagangan	_	_	_	_	_
+69-16	6307-6316	instrumen	_	_	_	_	_
+69-17	6317-6321	yang	_	_	_	_	_
+69-18	6322-6325	ada	_	_	_	_	_
+69-19	6326-6328	di	_	_	_	_	_
+69-20	6329-6333	sana	_	_	_	_	_
+69-21	6334-6339	serta	_	_	_	_	_
+69-22	6340-6348	platform	_	_	_	_	_
+69-23	6349-6358	sekuritas	_	_	_	_	_
+69-24	6359-6369	terpercaya	_	_	_	_	_
+69-25	6370-6375	untuk	_	_	_	_	_
+69-26	6376-6385	melakukan	_	_	_	_	_
+69-27	6386-6395	mekanisme	_	_	_	_	_
+69-28	6396-6404	tersebut	_	_	_	_	_
+69-29	6405-6406	.	_	_	_	_	_
+
+#Text=Memilih platform sekuritas terpercaya menjadi hal yang sangat penting , karena di platform itu lah kita akan menitipkan dana investasi kita dan melakukan transaksi .
+70-1	6408-6415	Memilih	_	_	_	_	_
+70-2	6416-6424	platform	_	_	_	_	_
+70-3	6425-6434	sekuritas	_	_	_	_	_
+70-4	6435-6445	terpercaya	_	_	_	_	_
+70-5	6446-6453	menjadi	_	_	_	_	_
+70-6	6454-6457	hal	_	_	_	_	_
+70-7	6458-6462	yang	_	_	_	_	_
+70-8	6463-6469	sangat	_	_	_	_	_
+70-9	6470-6477	penting	_	_	_	_	_
+70-10	6478-6479	,	_	_	_	_	_
+70-11	6480-6486	karena	_	_	_	_	_
+70-12	6487-6489	di	_	_	_	_	_
+70-13	6490-6498	platform	_	_	_	_	_
+70-14	6499-6502	itu	_	_	_	_	_
+70-15	6503-6506	lah	_	_	_	_	_
+70-16	6507-6511	kita	_	_	_	_	_
+70-17	6512-6516	akan	_	_	_	_	_
+70-18	6517-6527	menitipkan	_	_	_	_	_
+70-19	6528-6532	dana	_	_	_	_	_
+70-20	6533-6542	investasi	_	_	_	_	_
+70-21	6543-6547	kita	_	_	_	_	_
+70-22	6548-6551	dan	_	_	_	_	_
+70-23	6552-6561	melakukan	_	_	_	_	_
+70-24	6562-6571	transaksi	_	_	_	_	_
+70-25	6572-6573	.	_	_	_	_	_
+
+#Text=Seperti di Ajaib , yang memiliki komitmen untuk membuka pintu akses terhadap intrumen investasi yang aman , terpercaya , dan terjangkau , khusus nya untuk investor ritel .
+71-1	6575-6582	Seperti	_	_	_	_	_
+71-2	6583-6585	di	_	_	_	_	_
+71-3	6586-6591	Ajaib	_	_	_	_	_
+71-4	6592-6593	,	_	_	_	_	_
+71-5	6594-6598	yang	_	_	_	_	_
+71-6	6599-6607	memiliki	_	_	_	_	_
+71-7	6608-6616	komitmen	_	_	_	_	_
+71-8	6617-6622	untuk	_	_	_	_	_
+71-9	6623-6630	membuka	_	_	_	_	_
+71-10	6631-6636	pintu	_	_	_	_	_
+71-11	6637-6642	akses	_	_	_	_	_
+71-12	6643-6651	terhadap	_	_	_	_	_
+71-13	6652-6660	intrumen	_	_	_	_	_
+71-14	6661-6670	investasi	_	_	_	_	_
+71-15	6671-6675	yang	_	_	_	_	_
+71-16	6676-6680	aman	_	_	_	_	_
+71-17	6681-6682	,	_	_	_	_	_
+71-18	6683-6693	terpercaya	_	_	_	_	_
+71-19	6694-6695	,	_	_	_	_	_
+71-20	6696-6699	dan	_	_	_	_	_
+71-21	6700-6710	terjangkau	_	_	_	_	_
+71-22	6711-6712	,	_	_	_	_	_
+71-23	6713-6719	khusus	_	_	_	_	_
+71-24	6720-6723	nya	_	_	_	_	_
+71-25	6724-6729	untuk	_	_	_	_	_
+71-26	6730-6738	investor	_	_	_	_	_
+71-27	6739-6744	ritel	_	_	_	_	_
+71-28	6745-6746	.	_	_	_	_	_
+
+#Text=Sebagai perusahaan investasi dengan layanan mobile dan online trading yang terbaik di Asia Tenggara , Ajaib diminati oleh investor saham ritel dari kalangan milenial dan kini telah dipercaya oleh lebih dari 1 juta pengguna di Indonesia .
+72-1	6748-6755	Sebagai	_	_	_	_	_
+72-2	6756-6766	perusahaan	_	_	_	_	_
+72-3	6767-6776	investasi	_	_	_	_	_
+72-4	6777-6783	dengan	_	_	_	_	_
+72-5	6784-6791	layanan	_	concept[21]	_	_	_
+72-6	6792-6798	mobile	_	concept[21]	_	_	_
+72-7	6799-6802	dan	_	_	_	_	_
+72-8	6803-6809	online	_	concept[22]	_	_	_
+72-9	6810-6817	trading	_	concept[22]	_	_	_
+72-10	6818-6822	yang	_	_	_	_	_
+72-11	6823-6830	terbaik	_	positive[23]	_	_	_
+72-12	6831-6833	di	_	_	_	_	_
+72-13	6834-6838	Asia	_	_	_	_	_
+72-14	6839-6847	Tenggara	_	_	_	_	_
+72-15	6848-6849	,	_	_	_	_	_
+72-16	6850-6855	Ajaib	_	_	_	_	_
+72-17	6856-6864	diminati	*	[21_24]|positive[24]	_	_	_
+72-18	6865-6869	oleh	_	_	_	_	_
+72-19	6870-6878	investor	_	_	_	_	_
+72-20	6879-6884	saham	_	_	_	_	_
+72-21	6885-6890	ritel	_	_	_	_	_
+72-22	6891-6895	dari	_	_	_	_	_
+72-23	6896-6904	kalangan	_	_	_	_	_
+72-24	6905-6913	milenial	_	_	_	_	_
+72-25	6914-6917	dan	_	_	_	_	_
+72-26	6918-6922	kini	_	_	_	_	_
+72-27	6923-6928	telah	_	_	_	_	_
+72-28	6929-6938	dipercaya	_	_	_	_	_
+72-29	6939-6943	oleh	_	_	_	_	_
+72-30	6944-6949	lebih	_	_	_	_	_
+72-31	6950-6954	dari	_	_	_	_	_
+72-32	6955-6956	1	_	_	_	_	_
+72-33	6957-6961	juta	_	_	_	_	_
+72-34	6962-6970	pengguna	_	_	_	_	_
+72-35	6971-6973	di	_	_	_	_	_
+72-36	6974-6983	Indonesia	_	_	_	_	_
+72-37	6984-6985	.	_	_	_	_	_
+
+#Text=Aplikasi Ajaib juga cocok untuk pemula karena selain mudah , Ajaib memberikan banyak materi pembelajaran untuk bermain saham .
+73-1	6987-6995	Aplikasi	_	_	_	_	_
+73-2	6996-7001	Ajaib	_	_	_	_	_
+73-3	7002-7006	juga	_	_	_	_	_
+73-4	7007-7012	cocok	_	_	_	_	_
+73-5	7013-7018	untuk	_	_	_	_	_
+73-6	7019-7025	pemula	_	_	_	_	_
+73-7	7026-7032	karena	_	_	_	_	_
+73-8	7033-7039	selain	_	_	_	_	_
+73-9	7040-7045	mudah	_	_	_	_	_
+73-10	7046-7047	,	_	_	_	_	_
+73-11	7048-7053	Ajaib	_	_	_	_	_
+73-12	7054-7064	memberikan	_	_	_	_	_
+73-13	7065-7071	banyak	_	_	_	_	_
+73-14	7072-7078	materi	_	_	_	_	_
+73-15	7079-7091	pembelajaran	_	_	_	_	_
+73-16	7092-7097	untuk	_	_	_	_	_
+73-17	7098-7105	bermain	_	_	_	_	_
+73-18	7106-7111	saham	_	_	_	_	_
+73-19	7112-7113	.	_	_	_	_	_
+
+#Text=Ada dua macam investasi yang dapat dilakukan dalam satu aplikasi Ajaib , yakni saham dan reksa dana .
+74-1	7115-7118	Ada	_	_	_	_	_
+74-2	7119-7122	dua	_	_	_	_	_
+74-3	7123-7128	macam	_	_	_	_	_
+74-4	7129-7138	investasi	_	_	_	_	_
+74-5	7139-7143	yang	_	_	_	_	_
+74-6	7144-7149	dapat	_	_	_	_	_
+74-7	7150-7159	dilakukan	_	_	_	_	_
+74-8	7160-7165	dalam	_	_	_	_	_
+74-9	7166-7170	satu	_	_	_	_	_
+74-10	7171-7179	aplikasi	_	_	_	_	_
+74-11	7180-7185	Ajaib	_	_	_	_	_
+74-12	7186-7187	,	_	_	_	_	_
+74-13	7188-7193	yakni	_	_	_	_	_
+74-14	7194-7199	saham	_	_	_	_	_
+74-15	7200-7203	dan	_	_	_	_	_
+74-16	7204-7209	reksa	_	_	_	_	_
+74-17	7210-7214	dana	_	_	_	_	_
+74-18	7215-7216	.	_	_	_	_	_
+
+#Text=Atas inovasi dan upaya Ajaib , terutama dalam menjaring investor ritel , perusahaan ini telah meraih berbagai macam penghargaan .
+75-1	7218-7222	Atas	_	_	_	_	_
+75-2	7223-7230	inovasi	_	concept[25]	_	_	_
+75-3	7231-7234	dan	_	_	_	_	_
+75-4	7235-7240	upaya	_	concept[26]	_	_	_
+75-5	7241-7246	Ajaib	_	positive[27]	_	_	_
+75-6	7247-7248	,	_	_	_	_	_
+75-7	7249-7257	terutama	_	_	_	_	_
+75-8	7258-7263	dalam	_	_	_	_	_
+75-9	7264-7273	menjaring	_	_	_	_	_
+75-10	7274-7282	investor	_	_	_	_	_
+75-11	7283-7288	ritel	_	_	_	_	_
+75-12	7289-7290	,	_	_	_	_	_
+75-13	7291-7301	perusahaan	_	concept[28]	_	_	_
+75-14	7302-7305	ini	_	_	_	_	_
+75-15	7306-7311	telah	_	_	_	_	_
+75-16	7312-7318	meraih	_	positive[29]	_	_	_
+75-17	7319-7327	berbagai	_	positive[29]	_	_	_
+75-18	7328-7333	macam	_	positive[29]	_	_	_
+75-19	7334-7345	penghargaan	_	positive[29]	_	_	_
+75-20	7346-7347	.	_	_	_	_	_
+
+#Text=Di antara nya sebagai Top 10 Fintech StartUp in Indonesia dari FintechNews Singapore , Top 10 StartUp from Y Combinators dari TechCrunch , StartUp Investasi Reksadana Online Terbaik dari Dunia Fintech , 30 Under 30 Award Asia dari Forbes , serta The Most Innovative Brokerage House 2021 dan The Most Inspiring Securities Company 2021 di ajang CNBC Indonesia Awards yang belum lama ini digelar .
+76-1	7349-7351	Di	_	_	_	_	_
+76-2	7352-7358	antara	_	_	_	_	_
+76-3	7359-7362	nya	_	_	_	_	_
+76-4	7363-7370	sebagai	_	_	_	_	_
+76-5	7371-7374	Top	_	_	_	_	_
+76-6	7375-7377	10	_	_	_	_	_
+76-7	7378-7385	Fintech	_	_	_	_	_
+76-8	7386-7393	StartUp	_	_	_	_	_
+76-9	7394-7396	in	_	_	_	_	_
+76-10	7397-7406	Indonesia	_	_	_	_	_
+76-11	7407-7411	dari	_	_	_	_	_
+76-12	7412-7423	FintechNews	_	_	_	_	_
+76-13	7424-7433	Singapore	_	_	_	_	_
+76-14	7434-7435	,	_	_	_	_	_
+76-15	7436-7439	Top	_	_	_	_	_
+76-16	7440-7442	10	_	_	_	_	_
+76-17	7443-7450	StartUp	_	_	_	_	_
+76-18	7451-7455	from	_	_	_	_	_
+76-19	7456-7457	Y	_	_	_	_	_
+76-20	7458-7469	Combinators	_	_	_	_	_
+76-21	7470-7474	dari	_	_	_	_	_
+76-22	7475-7485	TechCrunch	_	_	_	_	_
+76-23	7486-7487	,	_	_	_	_	_
+76-24	7488-7495	StartUp	_	_	_	_	_
+76-25	7496-7505	Investasi	_	_	_	_	_
+76-26	7506-7515	Reksadana	_	_	_	_	_
+76-27	7516-7522	Online	_	_	_	_	_
+76-28	7523-7530	Terbaik	_	_	_	_	_
+76-29	7531-7535	dari	_	_	_	_	_
+76-30	7536-7541	Dunia	_	_	_	_	_
+76-31	7542-7549	Fintech	_	_	_	_	_
+76-32	7550-7551	,	_	_	_	_	_
+76-33	7552-7554	30	_	_	_	_	_
+76-34	7555-7560	Under	_	_	_	_	_
+76-35	7561-7563	30	_	_	_	_	_
+76-36	7564-7569	Award	_	_	_	_	_
+76-37	7570-7574	Asia	_	_	_	_	_
+76-38	7575-7579	dari	_	_	_	_	_
+76-39	7580-7586	Forbes	_	_	_	_	_
+76-40	7587-7588	,	_	_	_	_	_
+76-41	7589-7594	serta	_	_	_	_	_
+76-42	7595-7598	The	_	_	_	_	_
+76-43	7599-7603	Most	_	_	_	_	_
+76-44	7604-7614	Innovative	_	_	_	_	_
+76-45	7615-7624	Brokerage	_	_	_	_	_
+76-46	7625-7630	House	_	_	_	_	_
+76-47	7631-7635	2021	_	_	_	_	_
+76-48	7636-7639	dan	_	_	_	_	_
+76-49	7640-7643	The	_	_	_	_	_
+76-50	7644-7648	Most	_	_	_	_	_
+76-51	7649-7658	Inspiring	_	_	_	_	_
+76-52	7659-7669	Securities	_	_	_	_	_
+76-53	7670-7677	Company	_	_	_	_	_
+76-54	7678-7682	2021	_	_	_	_	_
+76-55	7683-7685	di	_	_	_	_	_
+76-56	7686-7691	ajang	_	_	_	_	_
+76-57	7692-7696	CNBC	_	_	_	_	_
+76-58	7697-7706	Indonesia	_	_	_	_	_
+76-59	7707-7713	Awards	_	_	_	_	_
+76-60	7714-7718	yang	_	_	_	_	_
+76-61	7719-7724	belum	_	_	_	_	_
+76-62	7725-7729	lama	_	_	_	_	_
+76-63	7730-7733	ini	_	_	_	_	_
+76-64	7734-7741	digelar	_	_	_	_	_
+76-65	7742-7743	.	_	_	_	_	_
+
+#Text=Jika sudah mempunyai RDN di Ajaib , investor bisa langsung melakukan pembelian melalui RDN - nya .
+77-1	7745-7749	Jika	_	_	_	_	_
+77-2	7750-7755	sudah	_	_	_	_	_
+77-3	7756-7765	mempunyai	_	_	_	_	_
+77-4	7766-7769	RDN	_	_	_	_	_
+77-5	7770-7772	di	_	_	_	_	_
+77-6	7773-7778	Ajaib	_	_	_	_	_
+77-7	7779-7780	,	_	_	_	_	_
+77-8	7781-7789	investor	_	_	_	_	_
+77-9	7790-7794	bisa	_	_	_	_	_
+77-10	7795-7803	langsung	_	_	_	_	_
+77-11	7804-7813	melakukan	_	_	_	_	_
+77-12	7814-7823	pembelian	_	_	_	_	_
+77-13	7824-7831	melalui	_	_	_	_	_
+77-14	7832-7835	RDN	_	_	_	_	_
+77-15	7836-7837	-	_	_	_	_	_
+77-16	7838-7841	nya	_	_	_	_	_
+77-17	7842-7843	.	_	_	_	_	_
+

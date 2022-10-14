@@ -1,0 +1,420 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Bioskop Trans TV pekan ini bakal menayangkan dua film yang premier tayang pertama kali di layar kaca Indonesia : Wonder Woman dan Birdman .
+1-1	0-7	Bioskop	_	_	_	_	_
+1-2	8-13	Trans	_	_	_	_	_
+1-3	14-16	TV	_	_	_	_	_
+1-4	17-22	pekan	_	_	_	_	_
+1-5	23-26	ini	_	_	_	_	_
+1-6	27-32	bakal	_	_	_	_	_
+1-7	33-44	menayangkan	_	_	_	_	_
+1-8	45-48	dua	_	_	_	_	_
+1-9	49-53	film	_	_	_	_	_
+1-10	54-58	yang	_	_	_	_	_
+1-11	59-66	premier	_	_	_	_	_
+1-12	67-73	tayang	_	_	_	_	_
+1-13	74-81	pertama	_	_	_	_	_
+1-14	82-86	kali	_	_	_	_	_
+1-15	87-89	di	_	_	_	_	_
+1-16	90-95	layar	_	_	_	_	_
+1-17	96-100	kaca	_	_	_	_	_
+1-18	101-110	Indonesia	_	_	_	_	_
+1-19	111-112	:	_	_	_	_	_
+1-20	113-119	Wonder	_	_	_	_	_
+1-21	120-125	Woman	_	_	_	_	_
+1-22	126-129	dan	_	_	_	_	_
+1-23	130-137	Birdman	_	_	_	_	_
+1-24	138-139	.	_	_	_	_	_
+
+#Text=Wonder Woman ( 2017 ) yang dibintangi Gal Gadot bakal tayang pada 1 Februari 2022 , bertepatan dengan perayaan Imlek 2022 .
+2-1	141-147	Wonder	_	_	_	_	_
+2-2	148-153	Woman	_	_	_	_	_
+2-3	154-155	(	_	_	_	_	_
+2-4	156-160	2017	_	_	_	_	_
+2-5	161-162	)	_	_	_	_	_
+2-6	163-167	yang	_	_	_	_	_
+2-7	168-178	dibintangi	_	_	_	_	_
+2-8	179-182	Gal	_	_	_	_	_
+2-9	183-188	Gadot	_	_	_	_	_
+2-10	189-194	bakal	_	_	_	_	_
+2-11	195-201	tayang	_	_	_	_	_
+2-12	202-206	pada	_	_	_	_	_
+2-13	207-208	1	_	_	_	_	_
+2-14	209-217	Februari	_	_	_	_	_
+2-15	218-222	2022	_	_	_	_	_
+2-16	223-224	,	_	_	_	_	_
+2-17	225-235	bertepatan	_	_	_	_	_
+2-18	236-242	dengan	_	_	_	_	_
+2-19	243-251	perayaan	_	_	_	_	_
+2-20	252-257	Imlek	_	_	_	_	_
+2-21	258-262	2022	_	_	_	_	_
+2-22	263-264	.	_	_	_	_	_
+
+#Text=Film ini menjadi salah satu film terlaris dan menuai banyak pujian .
+3-1	266-270	Film	_	concept[1]	_	_	_
+3-2	271-274	ini	_	_	_	_	_
+3-3	275-282	menjadi	_	_	_	_	_
+3-4	283-288	salah	_	_	_	_	_
+3-5	289-293	satu	_	_	_	_	_
+3-6	294-298	film	_	_	_	_	_
+3-7	299-307	terlaris	_	positive[2]	_	_	_
+3-8	308-311	dan	_	_	_	_	_
+3-9	312-318	menuai	_	positive[3]	_	_	_
+3-10	319-325	banyak	_	positive[3]	_	_	_
+3-11	326-332	pujian	_	positive[3]	_	_	_
+3-12	333-334	.	_	_	_	_	_
+
+#Text=Sementara itu , Birdman ( 2014 ) yang dibintangi Michael Keaton merupakan karya sutradara Alejandro G Inarritu dan pemenang film terbaik dalam ajang Piala Oscar 2015 .
+4-1	336-345	Sementara	_	_	_	_	_
+4-2	346-349	itu	_	_	_	_	_
+4-3	350-351	,	_	_	_	_	_
+4-4	352-359	Birdman	_	_	_	_	_
+4-5	360-361	(	_	_	_	_	_
+4-6	362-366	2014	_	_	_	_	_
+4-7	367-368	)	_	_	_	_	_
+4-8	369-373	yang	_	_	_	_	_
+4-9	374-384	dibintangi	_	_	_	_	_
+4-10	385-392	Michael	_	_	_	_	_
+4-11	393-399	Keaton	_	_	_	_	_
+4-12	400-409	merupakan	_	_	_	_	_
+4-13	410-415	karya	_	_	_	_	_
+4-14	416-425	sutradara	_	_	_	_	_
+4-15	426-435	Alejandro	_	_	_	_	_
+4-16	436-437	G	_	_	_	_	_
+4-17	438-446	Inarritu	_	_	_	_	_
+4-18	447-450	dan	_	_	_	_	_
+4-19	451-459	pemenang	_	_	_	_	_
+4-20	460-464	film	_	_	_	_	_
+4-21	465-472	terbaik	_	_	_	_	_
+4-22	473-478	dalam	_	_	_	_	_
+4-23	479-484	ajang	_	_	_	_	_
+4-24	485-490	Piala	_	_	_	_	_
+4-25	491-496	Oscar	_	_	_	_	_
+4-26	497-501	2015	_	_	_	_	_
+4-27	502-503	.	_	_	_	_	_
+
+#Text=Selain dua film tersebut , sejumlah film laga seru juga bisa disaksikan pada pekan ini , mulai dari The Foreigner yang menampilkan Jackie Chan , The Matrix yang dibintangi Keanu Reeves , hingga kisah sejarah King Arthur .
+5-1	505-511	Selain	_	_	_	_	_
+5-2	512-515	dua	_	_	_	_	_
+5-3	516-520	film	_	_	_	_	_
+5-4	521-529	tersebut	_	_	_	_	_
+5-5	530-531	,	_	_	_	_	_
+5-6	532-540	sejumlah	_	_	_	_	_
+5-7	541-545	film	_	_	_	_	_
+5-8	546-550	laga	_	_	_	_	_
+5-9	551-555	seru	_	_	_	_	_
+5-10	556-560	juga	_	_	_	_	_
+5-11	561-565	bisa	_	_	_	_	_
+5-12	566-576	disaksikan	_	_	_	_	_
+5-13	577-581	pada	_	_	_	_	_
+5-14	582-587	pekan	_	_	_	_	_
+5-15	588-591	ini	_	_	_	_	_
+5-16	592-593	,	_	_	_	_	_
+5-17	594-599	mulai	_	_	_	_	_
+5-18	600-604	dari	_	_	_	_	_
+5-19	605-608	The	_	_	_	_	_
+5-20	609-618	Foreigner	_	_	_	_	_
+5-21	619-623	yang	_	_	_	_	_
+5-22	624-635	menampilkan	_	_	_	_	_
+5-23	636-642	Jackie	_	_	_	_	_
+5-24	643-647	Chan	_	_	_	_	_
+5-25	648-649	,	_	_	_	_	_
+5-26	650-653	The	_	_	_	_	_
+5-27	654-660	Matrix	_	_	_	_	_
+5-28	661-665	yang	_	_	_	_	_
+5-29	666-676	dibintangi	_	_	_	_	_
+5-30	677-682	Keanu	_	_	_	_	_
+5-31	683-689	Reeves	_	_	_	_	_
+5-32	690-691	,	_	_	_	_	_
+5-33	692-698	hingga	_	_	_	_	_
+5-34	699-704	kisah	_	_	_	_	_
+5-35	705-712	sejarah	_	_	_	_	_
+5-36	713-717	King	_	_	_	_	_
+5-37	718-724	Arthur	_	_	_	_	_
+5-38	725-726	.	_	_	_	_	_
+
+#Text=Seorang pedagang sederhana dengan masa lalu misterius berusaha mencari keadilan ketika putri nya terbunuh akibat aksi terorisme .
+6-1	728-735	Seorang	_	_	_	_	_
+6-2	736-744	pedagang	_	concept[4]	_	_	_
+6-3	745-754	sederhana	_	_	_	_	_
+6-4	755-761	dengan	_	_	_	_	_
+6-5	762-766	masa	_	concept[5]	_	_	_
+6-6	767-771	lalu	_	concept[5]	_	_	_
+6-7	772-781	misterius	_	negative[6]	_	_	_
+6-8	782-790	berusaha	_	_	_	_	_
+6-9	791-798	mencari	_	_	_	_	_
+6-10	799-807	keadilan	_	_	_	_	_
+6-11	808-814	ketika	_	_	_	_	_
+6-12	815-820	putri	_	_	_	_	_
+6-13	821-824	nya	_	_	_	_	_
+6-14	825-833	terbunuh	_	_	_	_	_
+6-15	834-840	akibat	_	_	_	_	_
+6-16	841-845	aksi	_	_	_	_	_
+6-17	846-855	terorisme	_	_	_	_	_
+6-18	856-857	.	_	_	_	_	_
+
+#Text=Ketika ia merasa kinerja kepolisian setempat tidak memuaskan bagi nya , ia berusaha mengungkapkan kebenaran menggunakan kemampuan nya sendiri .
+7-1	859-865	Ketika	_	_	_	_	_
+7-2	866-868	ia	_	_	_	_	_
+7-3	869-875	merasa	_	_	_	_	_
+7-4	876-883	kinerja	_	concept[7]	_	_	_
+7-5	884-894	kepolisian	_	concept[7]	_	_	_
+7-6	895-903	setempat	_	_	_	_	_
+7-7	904-909	tidak	_	negative[8]	_	_	_
+7-8	910-919	memuaskan	_	negative[8]	_	_	_
+7-9	920-924	bagi	_	_	_	_	_
+7-10	925-928	nya	_	_	_	_	_
+7-11	929-930	,	_	_	_	_	_
+7-12	931-933	ia	_	_	_	_	_
+7-13	934-942	berusaha	_	_	_	_	_
+7-14	943-956	mengungkapkan	_	_	_	_	_
+7-15	957-966	kebenaran	_	_	_	_	_
+7-16	967-978	menggunakan	_	_	_	_	_
+7-17	979-988	kemampuan	_	_	_	_	_
+7-18	989-992	nya	_	_	_	_	_
+7-19	993-1000	sendiri	_	_	_	_	_
+7-20	1001-1002	.	_	_	_	_	_
+
+#Text=Film ini tayang pukul 21.30 WIB .
+8-1	1004-1008	Film	_	_	_	_	_
+8-2	1009-1012	ini	_	_	_	_	_
+8-3	1013-1019	tayang	_	_	_	_	_
+8-4	1020-1025	pukul	_	_	_	_	_
+8-5	1026-1031	21.30	_	_	_	_	_
+8-6	1032-1035	WIB	_	_	_	_	_
+8-7	1036-1037	.	_	_	_	_	_
+
+#Text=Seorang sarjana tengah mencari cinta sejati dan menyamar sebagai pelayan .
+9-1	1039-1046	Seorang	_	_	_	_	_
+9-2	1047-1054	sarjana	_	_	_	_	_
+9-3	1055-1061	tengah	_	_	_	_	_
+9-4	1062-1069	mencari	_	_	_	_	_
+9-5	1070-1075	cinta	_	_	_	_	_
+9-6	1076-1082	sejati	_	_	_	_	_
+9-7	1083-1086	dan	_	_	_	_	_
+9-8	1087-1095	menyamar	_	_	_	_	_
+9-9	1096-1103	sebagai	_	_	_	_	_
+9-10	1104-1111	pelayan	_	_	_	_	_
+9-11	1112-1113	.	_	_	_	_	_
+
+#Text=Ia bekerja di keluarga kaya demi mengejar hati seorang gadis pelayan .
+10-1	1115-1117	Ia	_	_	_	_	_
+10-2	1118-1125	bekerja	_	_	_	_	_
+10-3	1126-1128	di	_	_	_	_	_
+10-4	1129-1137	keluarga	_	_	_	_	_
+10-5	1138-1142	kaya	_	_	_	_	_
+10-6	1143-1147	demi	_	_	_	_	_
+10-7	1148-1156	mengejar	_	_	_	_	_
+10-8	1157-1161	hati	_	_	_	_	_
+10-9	1162-1169	seorang	_	_	_	_	_
+10-10	1170-1175	gadis	_	_	_	_	_
+10-11	1176-1183	pelayan	_	_	_	_	_
+10-12	1184-1185	.	_	_	_	_	_
+
+#Text=Film ini tayang pukul 23.30 WIB .
+11-1	1187-1191	Film	_	_	_	_	_
+11-2	1192-1195	ini	_	_	_	_	_
+11-3	1196-1202	tayang	_	_	_	_	_
+11-4	1203-1208	pukul	_	_	_	_	_
+11-5	1209-1214	23.30	_	_	_	_	_
+11-6	1215-1218	WIB	_	_	_	_	_
+11-7	1219-1220	.	_	_	_	_	_
+
+#Text=[ Gambas : Youtube ] Diana dari suku Amazon menyelamatkan seorang pilot terdampar bernama Steve .
+12-1	1222-1223	[	_	_	_	_	_
+12-2	1224-1230	Gambas	_	_	_	_	_
+12-3	1231-1232	:	_	_	_	_	_
+12-4	1233-1240	Youtube	_	_	_	_	_
+12-5	1241-1242	]	_	_	_	_	_
+12-6	1243-1248	Diana	_	_	_	_	_
+12-7	1249-1253	dari	_	_	_	_	_
+12-8	1254-1258	suku	_	_	_	_	_
+12-9	1259-1265	Amazon	_	_	_	_	_
+12-10	1266-1279	menyelamatkan	_	_	_	_	_
+12-11	1280-1287	seorang	_	_	_	_	_
+12-12	1288-1293	pilot	_	_	_	_	_
+12-13	1294-1303	terdampar	_	_	_	_	_
+12-14	1304-1311	bernama	_	_	_	_	_
+12-15	1312-1317	Steve	_	_	_	_	_
+12-16	1318-1319	.	_	_	_	_	_
+
+#Text=Bersama sang pilot , Diana memulai petualangan untuk menghentikan Ares yang ingin menghancurkan kehidupan umat manusia .
+13-1	1321-1328	Bersama	_	_	_	_	_
+13-2	1329-1333	sang	_	_	_	_	_
+13-3	1334-1339	pilot	_	_	_	_	_
+13-4	1340-1341	,	_	_	_	_	_
+13-5	1342-1347	Diana	_	_	_	_	_
+13-6	1348-1355	memulai	_	_	_	_	_
+13-7	1356-1367	petualangan	_	_	_	_	_
+13-8	1368-1373	untuk	_	_	_	_	_
+13-9	1374-1386	menghentikan	_	_	_	_	_
+13-10	1387-1391	Ares	_	_	_	_	_
+13-11	1392-1396	yang	_	_	_	_	_
+13-12	1397-1402	ingin	_	_	_	_	_
+13-13	1403-1416	menghancurkan	_	_	_	_	_
+13-14	1417-1426	kehidupan	_	_	_	_	_
+13-15	1427-1431	umat	_	_	_	_	_
+13-16	1432-1439	manusia	_	_	_	_	_
+13-17	1440-1441	.	_	_	_	_	_
+
+#Text=Film ini tayang pukul 21.30 WIB .
+14-1	1443-1447	Film	_	_	_	_	_
+14-2	1448-1451	ini	_	_	_	_	_
+14-3	1452-1458	tayang	_	_	_	_	_
+14-4	1459-1464	pukul	_	_	_	_	_
+14-5	1465-1470	21.30	_	_	_	_	_
+14-6	1471-1474	WIB	_	_	_	_	_
+14-7	1475-1476	.	_	_	_	_	_
+
+#Text=Pao Lung Sing adalah keturunan Pao Ching yang dibenci publik karena cara nya mencari uang .
+15-1	1478-1481	Pao	_	concept[9]	_	_	_
+15-2	1482-1486	Lung	_	concept[9]	_	_	_
+15-3	1487-1491	Sing	_	concept[9]	_	_	_
+15-4	1492-1498	adalah	_	_	_	_	_
+15-5	1499-1508	keturunan	_	_	_	_	_
+15-6	1509-1512	Pao	_	_	_	_	_
+15-7	1513-1518	Ching	_	_	_	_	_
+15-8	1519-1523	yang	_	_	_	_	_
+15-9	1524-1531	dibenci	_	negative[10]	_	_	_
+15-10	1532-1538	publik	_	negative[10]	_	_	_
+15-11	1539-1545	karena	_	_	_	_	_
+15-12	1546-1550	cara	_	_	_	_	_
+15-13	1551-1554	nya	_	_	_	_	_
+15-14	1555-1562	mencari	_	_	_	_	_
+15-15	1563-1567	uang	_	_	_	_	_
+15-16	1568-1569	.	_	_	_	_	_
+
+#Text=Dia berubah pikiran ketika melihat korban pelecehan seksual yang dijebak atas pembunuhan massal .
+16-1	1571-1574	Dia	_	_	_	_	_
+16-2	1575-1582	berubah	_	_	_	_	_
+16-3	1583-1590	pikiran	_	_	_	_	_
+16-4	1591-1597	ketika	_	_	_	_	_
+16-5	1598-1605	melihat	_	_	_	_	_
+16-6	1606-1612	korban	_	_	_	_	_
+16-7	1613-1622	pelecehan	_	_	_	_	_
+16-8	1623-1630	seksual	_	_	_	_	_
+16-9	1631-1635	yang	_	_	_	_	_
+16-10	1636-1643	dijebak	_	_	_	_	_
+16-11	1644-1648	atas	_	_	_	_	_
+16-12	1649-1659	pembunuhan	_	_	_	_	_
+16-13	1660-1666	massal	_	_	_	_	_
+16-14	1667-1668	.	_	_	_	_	_
+
+#Text=Film ini tayang pukul 23.30 WIB .
+17-1	1670-1674	Film	_	_	_	_	_
+17-2	1675-1678	ini	_	_	_	_	_
+17-3	1679-1685	tayang	_	_	_	_	_
+17-4	1686-1691	pukul	_	_	_	_	_
+17-5	1692-1697	23.30	_	_	_	_	_
+17-6	1698-1701	WIB	_	_	_	_	_
+17-7	1702-1703	.	_	_	_	_	_
+
+#Text=[ Gambas : Youtube ] Ketika sebuah pesawat siap landas , seorang petugas US Air menerima sebuah pesan ancaman yang mengharuskan ia mengirimkan sejumlah uang atau seluruh penumpang di pesawat tersebut akan dibunuh .
+18-1	1705-1706	[	_	_	_	_	_
+18-2	1707-1713	Gambas	_	_	_	_	_
+18-3	1714-1715	:	_	_	_	_	_
+18-4	1716-1723	Youtube	_	_	_	_	_
+18-5	1724-1725	]	_	_	_	_	_
+18-6	1726-1732	Ketika	_	_	_	_	_
+18-7	1733-1739	sebuah	_	_	_	_	_
+18-8	1740-1747	pesawat	_	_	_	_	_
+18-9	1748-1752	siap	_	_	_	_	_
+18-10	1753-1759	landas	_	_	_	_	_
+18-11	1760-1761	,	_	_	_	_	_
+18-12	1762-1769	seorang	_	_	_	_	_
+18-13	1770-1777	petugas	_	_	_	_	_
+18-14	1778-1780	US	_	_	_	_	_
+18-15	1781-1784	Air	_	_	_	_	_
+18-16	1785-1793	menerima	_	_	_	_	_
+18-17	1794-1800	sebuah	_	_	_	_	_
+18-18	1801-1806	pesan	_	_	_	_	_
+18-19	1807-1814	ancaman	_	_	_	_	_
+18-20	1815-1819	yang	_	_	_	_	_
+18-21	1820-1832	mengharuskan	_	_	_	_	_
+18-22	1833-1835	ia	_	_	_	_	_
+18-23	1836-1847	mengirimkan	_	_	_	_	_
+18-24	1848-1856	sejumlah	_	_	_	_	_
+18-25	1857-1861	uang	_	_	_	_	_
+18-26	1862-1866	atau	_	_	_	_	_
+18-27	1867-1874	seluruh	_	_	_	_	_
+18-28	1875-1884	penumpang	_	_	_	_	_
+18-29	1885-1887	di	_	_	_	_	_
+18-30	1888-1895	pesawat	_	_	_	_	_
+18-31	1896-1904	tersebut	_	_	_	_	_
+18-32	1905-1909	akan	_	_	_	_	_
+18-33	1910-1917	dibunuh	_	_	_	_	_
+18-34	1918-1919	.	_	_	_	_	_
+
+#Text=Film ini tayang pukul 21.30 WIB .
+19-1	1921-1925	Film	_	_	_	_	_
+19-2	1926-1929	ini	_	_	_	_	_
+19-3	1930-1936	tayang	_	_	_	_	_
+19-4	1937-1942	pukul	_	_	_	_	_
+19-5	1943-1948	21.30	_	_	_	_	_
+19-6	1949-1952	WIB	_	_	_	_	_
+19-7	1953-1954	.	_	_	_	_	_
+
+#Text=Seorang agen FBI berada di sebuah pesawat yang dipenuhi ular beracun mematikan yang sengaja dilepas dengan tujuan untuk membunuh seorang saksi yang akan melawan bos mafia di Los Angeles dan merupakan penumpang dari pesawat tersebut .
+20-1	1956-1963	Seorang	_	_	_	_	_
+20-2	1964-1968	agen	_	_	_	_	_
+20-3	1969-1972	FBI	_	_	_	_	_
+20-4	1973-1979	berada	_	_	_	_	_
+20-5	1980-1982	di	_	_	_	_	_
+20-6	1983-1989	sebuah	_	_	_	_	_
+20-7	1990-1997	pesawat	_	_	_	_	_
+20-8	1998-2002	yang	_	_	_	_	_
+20-9	2003-2011	dipenuhi	_	_	_	_	_
+20-10	2012-2016	ular	_	_	_	_	_
+20-11	2017-2024	beracun	_	_	_	_	_
+20-12	2025-2034	mematikan	_	_	_	_	_
+20-13	2035-2039	yang	_	_	_	_	_
+20-14	2040-2047	sengaja	_	_	_	_	_
+20-15	2048-2055	dilepas	_	_	_	_	_
+20-16	2056-2062	dengan	_	_	_	_	_
+20-17	2063-2069	tujuan	_	_	_	_	_
+20-18	2070-2075	untuk	_	_	_	_	_
+20-19	2076-2084	membunuh	_	_	_	_	_
+20-20	2085-2092	seorang	_	_	_	_	_
+20-21	2093-2098	saksi	_	_	_	_	_
+20-22	2099-2103	yang	_	_	_	_	_
+20-23	2104-2108	akan	_	_	_	_	_
+20-24	2109-2116	melawan	_	_	_	_	_
+20-25	2117-2120	bos	_	_	_	_	_
+20-26	2121-2126	mafia	_	_	_	_	_
+20-27	2127-2129	di	_	_	_	_	_
+20-28	2130-2133	Los	_	_	_	_	_
+20-29	2134-2141	Angeles	_	_	_	_	_
+20-30	2142-2145	dan	_	_	_	_	_
+20-31	2146-2155	merupakan	_	_	_	_	_
+20-32	2156-2165	penumpang	_	_	_	_	_
+20-33	2166-2170	dari	_	_	_	_	_
+20-34	2171-2178	pesawat	_	_	_	_	_
+20-35	2179-2187	tersebut	_	_	_	_	_
+20-36	2188-2189	.	_	_	_	_	_
+
+#Text=Film ini tayang pukul 23.30 WIB .
+21-1	2191-2195	Film	_	_	_	_	_
+21-2	2196-2199	ini	_	_	_	_	_
+21-3	2200-2206	tayang	_	_	_	_	_
+21-4	2207-2212	pukul	_	_	_	_	_
+21-5	2213-2218	23.30	_	_	_	_	_
+21-6	2219-2222	WIB	_	_	_	_	_
+21-7	2223-2224	.	_	_	_	_	_
+
+#Text=[ Gambas : Youtube ] Jadwal Bioskop Trans TV pekan ini lanjut ke sebelah ..
+22-1	2226-2227	[	_	_	_	_	_
+22-2	2228-2234	Gambas	_	_	_	_	_
+22-3	2235-2236	:	_	_	_	_	_
+22-4	2237-2244	Youtube	_	_	_	_	_
+22-5	2245-2246	]	_	_	_	_	_
+22-6	2247-2253	Jadwal	_	_	_	_	_
+22-7	2254-2261	Bioskop	_	_	_	_	_
+22-8	2262-2267	Trans	_	_	_	_	_
+22-9	2268-2270	TV	_	_	_	_	_
+22-10	2271-2276	pekan	_	_	_	_	_
+22-11	2277-2280	ini	_	_	_	_	_
+22-12	2281-2287	lanjut	_	_	_	_	_
+22-13	2288-2290	ke	_	_	_	_	_
+22-14	2291-2298	sebelah	_	_	_	_	_
+22-15	2299-2301	..	_	_	_	_	_
+

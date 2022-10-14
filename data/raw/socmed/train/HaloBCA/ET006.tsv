@@ -1,0 +1,454 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=< filler > siang mbak
+1-1	0-1	<	_	_	_	_	_
+1-2	2-8	filler	_	_	_	_	_
+1-3	9-10	>	_	_	_	_	_
+1-4	11-16	siang	_	_	_	_	_
+1-5	17-21	mbak	_	_	_	_	_
+
+#Text=< filler > mbak saya mau tanya saya pemegang kartu kredit bca visa signature
+2-1	23-24	<	_	_	_	_	_
+2-2	25-31	filler	_	_	_	_	_
+2-3	32-33	>	_	_	_	_	_
+2-4	34-38	mbak	_	_	_	_	_
+2-5	39-43	saya	_	_	_	_	_
+2-6	44-47	mau	_	_	_	_	_
+2-7	48-53	tanya	_	_	_	_	_
+2-8	54-58	saya	_	_	_	_	_
+2-9	59-67	pemegang	_	_	_	_	_
+2-10	68-73	kartu	_	_	_	_	_
+2-11	74-80	kredit	_	_	_	_	_
+2-12	81-84	bca	*	concept[1]|[5_1]	_	_	_
+2-13	85-89	visa	_	concept[1]	_	_	_
+2-14	90-99	signature	_	concept[1]	_	_	_
+
+#Text=saya mau tanya saya mau transaksi sepuluh juta hari ini
+3-1	101-105	saya	_	_	_	_	_
+3-2	106-109	mau	_	_	_	_	_
+3-3	110-115	tanya	_	_	_	_	_
+3-4	116-120	saya	_	_	_	_	_
+3-5	121-124	mau	_	_	_	_	_
+3-6	125-134	transaksi	*	[1_2]|concept[2]	_	_	_
+3-7	135-142	sepuluh	_	_	_	_	_
+3-8	143-147	juta	_	_	_	_	_
+3-9	148-152	hari	_	_	_	_	_
+3-10	153-156	ini	_	_	_	_	_
+
+#Text=tapi bisa cicilan simple pay enggak yang nol persen
+4-1	158-162	tapi	_	_	_	_	_
+4-2	163-167	bisa	_	_	_	_	_
+4-3	168-175	cicilan	*	[2_3]|concept[3]	_	_	_
+4-4	176-182	simple	_	concept[3]	_	_	_
+4-5	183-186	pay	_	concept[3]	_	_	_
+4-6	187-193	enggak	_	_	_	_	_
+4-7	194-198	yang	_	_	_	_	_
+4-8	199-202	nol	_	_	_	_	_
+4-9	203-209	persen	_	_	_	_	_
+
+#Text=< filler > untuk bayar uang sekolah sih
+5-1	211-212	<	_	_	_	_	_
+5-2	213-219	filler	_	_	_	_	_
+5-3	220-221	>	_	_	_	_	_
+5-4	222-227	untuk	_	_	_	_	_
+5-5	228-233	bayar	_	_	_	_	_
+5-6	234-238	uang	_	_	_	_	_
+5-7	239-246	sekolah	_	_	_	_	_
+5-8	247-250	sih	_	_	_	_	_
+
+#Text=< filler > saya dengan jessica
+6-1	252-253	<	_	_	_	_	_
+6-2	254-260	filler	_	_	_	_	_
+6-3	261-262	>	_	_	_	_	_
+6-4	263-267	saya	_	_	_	_	_
+6-5	268-274	dengan	_	_	_	_	_
+6-6	275-282	jessica	_	_	_	_	_
+
+#Text=< filler > enggak nol persen ya
+7-1	284-285	<	_	_	_	_	_
+7-2	286-292	filler	_	_	_	_	_
+7-3	293-294	>	_	_	_	_	_
+7-4	295-301	enggak	*	[3_4]|negative[4]	_	_	_
+7-5	302-305	nol	_	negative[4]	_	_	_
+7-6	306-312	persen	_	negative[4]	_	_	_
+7-7	313-315	ya	_	_	_	_	_
+
+#Text=< filler > gitu berapa persen ya mbak
+8-1	317-318	<	_	_	_	_	_
+8-2	319-325	filler	_	_	_	_	_
+8-3	326-327	>	_	_	_	_	_
+8-4	328-332	gitu	_	_	_	_	_
+8-5	333-339	berapa	_	_	_	_	_
+8-6	340-346	persen	_	_	_	_	_
+8-7	347-349	ya	_	_	_	_	_
+8-8	350-354	mbak	_	_	_	_	_
+
+#Text=< filler >
+9-1	356-357	<	_	_	_	_	_
+9-2	358-364	filler	_	_	_	_	_
+9-3	365-366	>	_	_	_	_	_
+
+#Text=< filler >
+10-1	368-369	<	_	_	_	_	_
+10-2	370-376	filler	_	_	_	_	_
+10-3	377-378	>	_	_	_	_	_
+
+#Text=< filler > oke oke kalau gitu makasih ya mbak
+11-1	380-381	<	_	_	_	_	_
+11-2	382-388	filler	_	_	_	_	_
+11-3	389-390	>	_	_	_	_	_
+11-4	391-394	oke	_	_	_	_	_
+11-5	395-398	oke	_	_	_	_	_
+11-6	399-404	kalau	_	_	_	_	_
+11-7	405-409	gitu	_	_	_	_	_
+11-8	410-417	makasih	_	_	_	_	_
+11-9	418-420	ya	_	_	_	_	_
+11-10	421-425	mbak	_	_	_	_	_
+
+#Text=iya
+12-1	427-430	iya	_	_	_	_	_
+
+#Text=iya oke
+13-1	432-435	iya	_	_	_	_	_
+13-2	436-439	oke	_	_	_	_	_
+
+#Text=< filler > sudah jelas iya terima kasih ya
+14-1	441-442	<	_	_	_	_	_
+14-2	443-449	filler	_	_	_	_	_
+14-3	450-451	>	_	_	_	_	_
+14-4	452-457	sudah	_	_	_	_	_
+14-5	458-463	jelas	_	_	_	_	_
+14-6	464-467	iya	_	_	_	_	_
+14-7	468-474	terima	_	_	_	_	_
+14-8	475-480	kasih	_	_	_	_	_
+14-9	481-483	ya	_	_	_	_	_
+
+#Text=< filler > cukup terima kasih
+15-1	485-486	<	_	_	_	_	_
+15-2	487-493	filler	_	_	_	_	_
+15-3	494-495	>	_	_	_	_	_
+15-4	496-501	cukup	_	_	_	_	_
+15-5	502-508	terima	_	_	_	_	_
+15-6	509-514	kasih	_	_	_	_	_
+
+#Text=iya
+16-1	516-519	iya	_	_	_	_	_
+
+#Text=siang siang
+17-1	521-526	siang	_	_	_	_	_
+17-2	527-532	siang	_	_	_	_	_
+
+#Text=selamat siang halo bca dengan suki bisa saya bantu
+18-1	534-541	selamat	_	_	_	_	_
+18-2	542-547	siang	_	_	_	_	_
+18-3	548-552	halo	_	_	_	_	_
+18-4	553-556	bca	_	_	_	_	_
+18-5	557-563	dengan	_	_	_	_	_
+18-6	564-568	suki	_	_	_	_	_
+18-7	569-573	bisa	_	_	_	_	_
+18-8	574-578	saya	_	_	_	_	_
+18-9	579-584	bantu	_	_	_	_	_
+
+#Text=siang
+19-1	586-591	siang	_	_	_	_	_
+
+#Text=baik
+20-1	593-597	baik	_	_	_	_	_
+
+#Text=iya
+21-1	599-602	iya	_	_	_	_	_
+
+#Text=baik untuk pembelian apa ibu untuk sepuluh juta nya
+22-1	604-608	baik	_	_	_	_	_
+22-2	609-614	untuk	_	_	_	_	_
+22-3	615-624	pembelian	_	_	_	_	_
+22-4	625-628	apa	_	_	_	_	_
+22-5	629-632	ibu	_	_	_	_	_
+22-6	633-638	untuk	_	_	_	_	_
+22-7	639-646	sepuluh	_	_	_	_	_
+22-8	647-651	juta	_	_	_	_	_
+22-9	652-655	nya	_	_	_	_	_
+
+#Text=baik kondisi nya saat ini saya bantu sampaikan tadi mohon maaf dengan siapa saya bicara
+23-1	657-661	baik	_	_	_	_	_
+23-2	662-669	kondisi	_	_	_	_	_
+23-3	670-673	nya	_	_	_	_	_
+23-4	674-678	saat	_	_	_	_	_
+23-5	679-682	ini	_	_	_	_	_
+23-6	683-687	saya	_	_	_	_	_
+23-7	688-693	bantu	_	_	_	_	_
+23-8	694-703	sampaikan	_	_	_	_	_
+23-9	704-708	tadi	_	_	_	_	_
+23-10	709-714	mohon	_	_	_	_	_
+23-11	715-719	maaf	_	_	_	_	_
+23-12	720-726	dengan	_	_	_	_	_
+23-13	727-732	siapa	_	_	_	_	_
+23-14	733-737	saya	_	_	_	_	_
+23-15	738-744	bicara	_	_	_	_	_
+
+#Text=baik bu jessica selama dari tempat ibu lakukan pembelanjaan menyediakan promo cicilan nol persen ibu bisa ikuti syarat dan ketentuan yang berlaku di toko nya tapi kalau misalnya memang tidak promo nol persen ibu tetap bisa cicilan tapi mengikuti suku bunga reguler yang berlaku di bca bu jadi tidak nol persen
+24-1	746-750	baik	_	_	_	_	_
+24-2	751-753	bu	_	_	_	_	_
+24-3	754-761	jessica	_	_	_	_	_
+24-4	762-768	selama	_	_	_	_	_
+24-5	769-773	dari	_	_	_	_	_
+24-6	774-780	tempat	_	_	_	_	_
+24-7	781-784	ibu	_	_	_	_	_
+24-8	785-792	lakukan	_	_	_	_	_
+24-9	793-805	pembelanjaan	_	_	_	_	_
+24-10	806-817	menyediakan	_	_	_	_	_
+24-11	818-823	promo	_	_	_	_	_
+24-12	824-831	cicilan	_	_	_	_	_
+24-13	832-835	nol	_	_	_	_	_
+24-14	836-842	persen	_	_	_	_	_
+24-15	843-846	ibu	_	_	_	_	_
+24-16	847-851	bisa	_	_	_	_	_
+24-17	852-857	ikuti	_	_	_	_	_
+24-18	858-864	syarat	_	_	_	_	_
+24-19	865-868	dan	_	_	_	_	_
+24-20	869-878	ketentuan	_	_	_	_	_
+24-21	879-883	yang	_	_	_	_	_
+24-22	884-891	berlaku	_	_	_	_	_
+24-23	892-894	di	_	_	_	_	_
+24-24	895-899	toko	_	_	_	_	_
+24-25	900-903	nya	_	_	_	_	_
+24-26	904-908	tapi	_	_	_	_	_
+24-27	909-914	kalau	_	_	_	_	_
+24-28	915-923	misalnya	_	_	_	_	_
+24-29	924-930	memang	_	_	_	_	_
+24-30	931-936	tidak	_	_	_	_	_
+24-31	937-942	promo	_	_	_	_	_
+24-32	943-946	nol	_	_	_	_	_
+24-33	947-953	persen	_	_	_	_	_
+24-34	954-957	ibu	_	_	_	_	_
+24-35	958-963	tetap	_	_	_	_	_
+24-36	964-968	bisa	_	_	_	_	_
+24-37	969-976	cicilan	_	_	_	_	_
+24-38	977-981	tapi	_	_	_	_	_
+24-39	982-991	mengikuti	_	_	_	_	_
+24-40	992-996	suku	_	_	_	_	_
+24-41	997-1002	bunga	_	_	_	_	_
+24-42	1003-1010	reguler	_	_	_	_	_
+24-43	1011-1015	yang	_	_	_	_	_
+24-44	1016-1023	berlaku	_	_	_	_	_
+24-45	1024-1026	di	_	_	_	_	_
+24-46	1027-1030	bca	_	concept[5]	_	_	_
+24-47	1031-1033	bu	_	_	_	_	_
+24-48	1034-1038	jadi	_	_	_	_	_
+24-49	1039-1044	tidak	_	_	_	_	_
+24-50	1045-1048	nol	_	_	_	_	_
+24-51	1049-1055	persen	_	_	_	_	_
+
+#Text=iya
+25-1	1057-1060	iya	_	_	_	_	_
+
+#Text=baik saat ini kita punya dua suku bunga reguler yang berlaku ya bu ya untuk tenor waktu tiga enam dan sembilan bulan itu kita kenakan satu koma dua puluh lima persen
+26-1	1062-1066	baik	_	_	_	_	_
+26-2	1067-1071	saat	_	_	_	_	_
+26-3	1072-1075	ini	_	_	_	_	_
+26-4	1076-1080	kita	_	_	_	_	_
+26-5	1081-1086	punya	_	_	_	_	_
+26-6	1087-1090	dua	_	_	_	_	_
+26-7	1091-1095	suku	*	[1_6]|concept[6]	_	_	_
+26-8	1096-1101	bunga	_	concept[6]	_	_	_
+26-9	1102-1109	reguler	_	concept[6]	_	_	_
+26-10	1110-1114	yang	_	_	_	_	_
+26-11	1115-1122	berlaku	_	_	_	_	_
+26-12	1123-1125	ya	_	_	_	_	_
+26-13	1126-1128	bu	_	_	_	_	_
+26-14	1129-1131	ya	_	_	_	_	_
+26-15	1132-1137	untuk	_	_	_	_	_
+26-16	1138-1143	tenor	_	_	_	_	_
+26-17	1144-1149	waktu	_	_	_	_	_
+26-18	1150-1154	tiga	_	_	_	_	_
+26-19	1155-1159	enam	_	_	_	_	_
+26-20	1160-1163	dan	_	_	_	_	_
+26-21	1164-1172	sembilan	_	_	_	_	_
+26-22	1173-1178	bulan	_	_	_	_	_
+26-23	1179-1182	itu	_	_	_	_	_
+26-24	1183-1187	kita	_	_	_	_	_
+26-25	1188-1195	kenakan	_	_	_	_	_
+26-26	1196-1200	satu	_	_	_	_	_
+26-27	1201-1205	koma	_	_	_	_	_
+26-28	1206-1209	dua	_	_	_	_	_
+26-29	1210-1215	puluh	_	_	_	_	_
+26-30	1216-1220	lima	_	_	_	_	_
+26-31	1221-1227	persen	_	_	_	_	_
+
+#Text=sedangkan untuk dua belas lima belas delapan belas dua satu dua empat dan maksimal tiga puluh enam bulan itu nol koma tujuh puluh lima persen khusus tiga puluh enam bulan nol koma tujuh puluh lima persen minimal transaksi lima juta rupiah dalam satu struk pembelanjaan dan < filler > kondisi nya tidak berlaku untuk di merchant seperti resto restoran cafe ataupun bistro seperti itu
+27-1	1229-1238	sedangkan	_	_	_	_	_
+27-2	1239-1244	untuk	_	_	_	_	_
+27-3	1245-1248	dua	_	_	_	_	_
+27-4	1249-1254	belas	_	_	_	_	_
+27-5	1255-1259	lima	_	_	_	_	_
+27-6	1260-1265	belas	_	_	_	_	_
+27-7	1266-1273	delapan	_	_	_	_	_
+27-8	1274-1279	belas	_	_	_	_	_
+27-9	1280-1283	dua	_	_	_	_	_
+27-10	1284-1288	satu	_	_	_	_	_
+27-11	1289-1292	dua	_	_	_	_	_
+27-12	1293-1298	empat	_	_	_	_	_
+27-13	1299-1302	dan	_	_	_	_	_
+27-14	1303-1311	maksimal	_	_	_	_	_
+27-15	1312-1316	tiga	_	_	_	_	_
+27-16	1317-1322	puluh	_	_	_	_	_
+27-17	1323-1327	enam	_	_	_	_	_
+27-18	1328-1333	bulan	_	_	_	_	_
+27-19	1334-1337	itu	_	_	_	_	_
+27-20	1338-1341	nol	_	_	_	_	_
+27-21	1342-1346	koma	_	_	_	_	_
+27-22	1347-1352	tujuh	_	_	_	_	_
+27-23	1353-1358	puluh	_	_	_	_	_
+27-24	1359-1363	lima	_	_	_	_	_
+27-25	1364-1370	persen	_	_	_	_	_
+27-26	1371-1377	khusus	_	_	_	_	_
+27-27	1378-1382	tiga	_	_	_	_	_
+27-28	1383-1388	puluh	_	_	_	_	_
+27-29	1389-1393	enam	_	_	_	_	_
+27-30	1394-1399	bulan	_	_	_	_	_
+27-31	1400-1403	nol	_	_	_	_	_
+27-32	1404-1408	koma	_	_	_	_	_
+27-33	1409-1414	tujuh	_	_	_	_	_
+27-34	1415-1420	puluh	_	_	_	_	_
+27-35	1421-1425	lima	_	_	_	_	_
+27-36	1426-1432	persen	_	_	_	_	_
+27-37	1433-1440	minimal	_	_	_	_	_
+27-38	1441-1450	transaksi	_	_	_	_	_
+27-39	1451-1455	lima	_	_	_	_	_
+27-40	1456-1460	juta	_	_	_	_	_
+27-41	1461-1467	rupiah	_	_	_	_	_
+27-42	1468-1473	dalam	_	_	_	_	_
+27-43	1474-1478	satu	_	_	_	_	_
+27-44	1479-1484	struk	_	_	_	_	_
+27-45	1485-1497	pembelanjaan	_	_	_	_	_
+27-46	1498-1501	dan	_	_	_	_	_
+27-47	1502-1503	<	_	_	_	_	_
+27-48	1504-1510	filler	_	_	_	_	_
+27-49	1511-1512	>	_	_	_	_	_
+27-50	1513-1520	kondisi	_	_	_	_	_
+27-51	1521-1524	nya	_	_	_	_	_
+27-52	1525-1530	tidak	*	[6_7]|negative[7]	_	_	_
+27-53	1531-1538	berlaku	_	negative[7]	_	_	_
+27-54	1539-1544	untuk	_	negative[7]	_	_	_
+27-55	1545-1547	di	_	negative[7]	_	_	_
+27-56	1548-1556	merchant	_	negative[7]	_	_	_
+27-57	1557-1564	seperti	_	_	_	_	_
+27-58	1565-1570	resto	_	_	_	_	_
+27-59	1571-1579	restoran	_	_	_	_	_
+27-60	1580-1584	cafe	_	_	_	_	_
+27-61	1585-1592	ataupun	_	_	_	_	_
+27-62	1593-1599	bistro	_	_	_	_	_
+27-63	1600-1607	seperti	_	_	_	_	_
+27-64	1608-1611	itu	_	_	_	_	_
+
+#Text=jadi suku bunga regular yang saya sebutkan yang berlaku satu koma dua puluh lima persen dan nol koma tujuh puluh lima persen ibu
+28-1	1613-1617	jadi	_	_	_	_	_
+28-2	1618-1622	suku	_	_	_	_	_
+28-3	1623-1628	bunga	_	_	_	_	_
+28-4	1629-1636	regular	_	_	_	_	_
+28-5	1637-1641	yang	_	_	_	_	_
+28-6	1642-1646	saya	_	_	_	_	_
+28-7	1647-1655	sebutkan	_	_	_	_	_
+28-8	1656-1660	yang	_	_	_	_	_
+28-9	1661-1668	berlaku	_	_	_	_	_
+28-10	1669-1673	satu	_	_	_	_	_
+28-11	1674-1678	koma	_	_	_	_	_
+28-12	1679-1682	dua	_	_	_	_	_
+28-13	1683-1688	puluh	_	_	_	_	_
+28-14	1689-1693	lima	_	_	_	_	_
+28-15	1694-1700	persen	_	_	_	_	_
+28-16	1701-1704	dan	_	_	_	_	_
+28-17	1705-1708	nol	_	_	_	_	_
+28-18	1709-1713	koma	_	_	_	_	_
+28-19	1714-1719	tujuh	_	_	_	_	_
+28-20	1720-1725	puluh	_	_	_	_	_
+28-21	1726-1730	lima	_	_	_	_	_
+28-22	1731-1737	persen	_	_	_	_	_
+28-23	1738-1741	ibu	_	_	_	_	_
+
+#Text=iya terima kasih kembali bu jessica informasi mengenai cicilan nya sudah saya bantu sampaikan ya
+29-1	1743-1746	iya	_	_	_	_	_
+29-2	1747-1753	terima	_	_	_	_	_
+29-3	1754-1759	kasih	_	_	_	_	_
+29-4	1760-1767	kembali	_	_	_	_	_
+29-5	1768-1770	bu	_	_	_	_	_
+29-6	1771-1778	jessica	_	_	_	_	_
+29-7	1779-1788	informasi	_	_	_	_	_
+29-8	1789-1797	mengenai	_	_	_	_	_
+29-9	1798-1805	cicilan	_	_	_	_	_
+29-10	1806-1809	nya	_	_	_	_	_
+29-11	1810-1815	sudah	_	_	_	_	_
+29-12	1816-1820	saya	_	_	_	_	_
+29-13	1821-1826	bantu	_	_	_	_	_
+29-14	1827-1836	sampaikan	_	_	_	_	_
+29-15	1837-1839	ya	_	_	_	_	_
+
+#Text=kalau ibu sudah transaksi dan ingin mengajukan cicilan dapat menghubungi kami di layanan halo bca maupun melalui sms ya
+30-1	1841-1846	kalau	_	_	_	_	_
+30-2	1847-1850	ibu	_	_	_	_	_
+30-3	1851-1856	sudah	_	_	_	_	_
+30-4	1857-1866	transaksi	_	_	_	_	_
+30-5	1867-1870	dan	_	_	_	_	_
+30-6	1871-1876	ingin	_	_	_	_	_
+30-7	1877-1887	mengajukan	_	_	_	_	_
+30-8	1888-1895	cicilan	_	_	_	_	_
+30-9	1896-1901	dapat	_	_	_	_	_
+30-10	1902-1913	menghubungi	_	_	_	_	_
+30-11	1914-1918	kami	_	_	_	_	_
+30-12	1919-1921	di	_	_	_	_	_
+30-13	1922-1929	layanan	_	_	_	_	_
+30-14	1930-1934	halo	_	_	_	_	_
+30-15	1935-1938	bca	_	_	_	_	_
+30-16	1939-1945	maupun	_	_	_	_	_
+30-17	1946-1953	melalui	_	_	_	_	_
+30-18	1954-1957	sms	_	_	_	_	_
+30-19	1958-1960	ya	_	_	_	_	_
+
+#Text=apakah informasi yang saya sampaikan sudah jelas
+31-1	1962-1968	apakah	_	_	_	_	_
+31-2	1969-1978	informasi	_	_	_	_	_
+31-3	1979-1983	yang	_	_	_	_	_
+31-4	1984-1988	saya	_	_	_	_	_
+31-5	1989-1998	sampaikan	_	_	_	_	_
+31-6	1999-2004	sudah	_	_	_	_	_
+31-7	2005-2010	jelas	_	_	_	_	_
+
+#Text=ada lagi yang bisa saya bantu
+32-1	2012-2015	ada	_	_	_	_	_
+32-2	2016-2020	lagi	_	_	_	_	_
+32-3	2021-2025	yang	_	_	_	_	_
+32-4	2026-2030	bisa	_	_	_	_	_
+32-5	2031-2035	saya	_	_	_	_	_
+32-6	2036-2041	bantu	_	_	_	_	_
+
+#Text=baik semoga nanti untuk transaksi berjalan lancar jika ada hal lain yang ingin ditanyakan silakan hubungi kami kembali
+33-1	2043-2047	baik	_	_	_	_	_
+33-2	2048-2054	semoga	_	_	_	_	_
+33-3	2055-2060	nanti	_	_	_	_	_
+33-4	2061-2066	untuk	_	_	_	_	_
+33-5	2067-2076	transaksi	_	_	_	_	_
+33-6	2077-2085	berjalan	_	_	_	_	_
+33-7	2086-2092	lancar	_	_	_	_	_
+33-8	2093-2097	jika	_	_	_	_	_
+33-9	2098-2101	ada	_	_	_	_	_
+33-10	2102-2105	hal	_	_	_	_	_
+33-11	2106-2110	lain	_	_	_	_	_
+33-12	2111-2115	yang	_	_	_	_	_
+33-13	2116-2121	ingin	_	_	_	_	_
+33-14	2122-2132	ditanyakan	_	_	_	_	_
+33-15	2133-2140	silakan	_	_	_	_	_
+33-16	2141-2148	hubungi	_	_	_	_	_
+33-17	2149-2153	kami	_	_	_	_	_
+33-18	2154-2161	kembali	_	_	_	_	_
+
+#Text=terima kasih telah menghubungi halo bca bu jessica selamat siang
+34-1	2163-2169	terima	_	_	_	_	_
+34-2	2170-2175	kasih	_	_	_	_	_
+34-3	2176-2181	telah	_	_	_	_	_
+34-4	2182-2193	menghubungi	_	_	_	_	_
+34-5	2194-2198	halo	_	_	_	_	_
+34-6	2199-2202	bca	_	_	_	_	_
+34-7	2203-2205	bu	_	_	_	_	_
+34-8	2206-2213	jessica	_	_	_	_	_
+34-9	2214-2221	selamat	_	_	_	_	_
+34-10	2222-2227	siang	_	_	_	_	_

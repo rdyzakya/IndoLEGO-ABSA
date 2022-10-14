@@ -1,0 +1,915 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Sudah bukan rahasia lagi pengusaha Rusia yang masuk ' lingkaran dalam ' Vladimir Putin bisnis nya bakal moncer .
+1-1	0-5	Sudah	_	_	_	_	_
+1-2	6-11	bukan	_	_	_	_	_
+1-3	12-19	rahasia	_	_	_	_	_
+1-4	20-24	lagi	_	_	_	_	_
+1-5	25-34	pengusaha	_	_	_	_	_
+1-6	35-40	Rusia	_	_	_	_	_
+1-7	41-45	yang	_	_	_	_	_
+1-8	46-51	masuk	_	_	_	_	_
+1-9	52-53	'	_	_	_	_	_
+1-10	54-63	lingkaran	_	_	_	_	_
+1-11	64-69	dalam	_	_	_	_	_
+1-12	70-71	'	_	_	_	_	_
+1-13	72-80	Vladimir	_	_	_	_	_
+1-14	81-86	Putin	_	_	_	_	_
+1-15	87-93	bisnis	_	_	_	_	_
+1-16	94-97	nya	_	_	_	_	_
+1-17	98-103	bakal	_	_	_	_	_
+1-18	104-110	moncer	_	_	_	_	_
+1-19	111-112	.	_	_	_	_	_
+
+#Text=Hal itu dibuktikan oleh Leonid Mikhelson .
+2-1	114-117	Hal	_	_	_	_	_
+2-2	118-121	itu	_	_	_	_	_
+2-3	122-132	dibuktikan	_	_	_	_	_
+2-4	133-137	oleh	_	_	_	_	_
+2-5	138-144	Leonid	_	_	_	_	_
+2-6	145-154	Mikhelson	_	_	_	_	_
+2-7	155-156	.	_	_	_	_	_
+
+#Text=Mikhelson lahir di Kaspiysk , Republik Dagestan , Rusia pada 11 Agustus 1955 silam .
+3-1	158-167	Mikhelson	_	_	_	_	_
+3-2	168-173	lahir	_	_	_	_	_
+3-3	174-176	di	_	_	_	_	_
+3-4	177-185	Kaspiysk	_	_	_	_	_
+3-5	186-187	,	_	_	_	_	_
+3-6	188-196	Republik	_	_	_	_	_
+3-7	197-205	Dagestan	_	_	_	_	_
+3-8	206-207	,	_	_	_	_	_
+3-9	208-213	Rusia	_	_	_	_	_
+3-10	214-218	pada	_	_	_	_	_
+3-11	219-221	11	_	_	_	_	_
+3-12	222-229	Agustus	_	_	_	_	_
+3-13	230-234	1955	_	_	_	_	_
+3-14	235-240	silam	_	_	_	_	_
+3-15	241-242	.	_	_	_	_	_
+
+#Text=Ia dibesarkan di keluarga keturunan Yahudi .
+4-1	244-246	Ia	_	_	_	_	_
+4-2	247-257	dibesarkan	_	_	_	_	_
+4-3	258-260	di	_	_	_	_	_
+4-4	261-269	keluarga	_	_	_	_	_
+4-5	270-279	keturunan	_	_	_	_	_
+4-6	280-286	Yahudi	_	_	_	_	_
+4-7	287-288	.	_	_	_	_	_
+
+#Text=Ayah nya , Viktor Mikhelson , merupakan kepala pembangunan utama pipa gas Uni Soviet .
+5-1	290-294	Ayah	_	_	_	_	_
+5-2	295-298	nya	_	_	_	_	_
+5-3	299-300	,	_	_	_	_	_
+5-4	301-307	Viktor	_	_	_	_	_
+5-5	308-317	Mikhelson	_	_	_	_	_
+5-6	318-319	,	_	_	_	_	_
+5-7	320-329	merupakan	_	_	_	_	_
+5-8	330-336	kepala	_	_	_	_	_
+5-9	337-348	pembangunan	_	_	_	_	_
+5-10	349-354	utama	_	_	_	_	_
+5-11	355-359	pipa	_	_	_	_	_
+5-12	360-363	gas	_	_	_	_	_
+5-13	364-367	Uni	_	_	_	_	_
+5-14	368-374	Soviet	_	_	_	_	_
+5-15	375-376	.	_	_	_	_	_
+
+#Text=Pada 1977 , Mikhelson mendapatkan gelar Insinyur Teknik Sipil Industri dari Institut Teknik Sipil Samara .
+6-1	378-382	Pada	_	_	_	_	_
+6-2	383-387	1977	_	_	_	_	_
+6-3	388-389	,	_	_	_	_	_
+6-4	390-399	Mikhelson	_	_	_	_	_
+6-5	400-411	mendapatkan	_	_	_	_	_
+6-6	412-417	gelar	_	_	_	_	_
+6-7	418-426	Insinyur	_	_	_	_	_
+6-8	427-433	Teknik	_	_	_	_	_
+6-9	434-439	Sipil	_	_	_	_	_
+6-10	440-448	Industri	_	_	_	_	_
+6-11	449-453	dari	_	_	_	_	_
+6-12	454-462	Institut	_	_	_	_	_
+6-13	463-469	Teknik	_	_	_	_	_
+6-14	470-475	Sipil	_	_	_	_	_
+6-15	476-482	Samara	_	_	_	_	_
+6-16	483-484	.	_	_	_	_	_
+
+#Text=Setelah itu , ia bekerja sebagai mandor di sebuah perusahaan konstruksi dan perakitan pipa gas Ryazantruboprovodstroy di Tyumen , Siberia .
+7-1	486-493	Setelah	_	_	_	_	_
+7-2	494-497	itu	_	_	_	_	_
+7-3	498-499	,	_	_	_	_	_
+7-4	500-502	ia	_	_	_	_	_
+7-5	503-510	bekerja	_	_	_	_	_
+7-6	511-518	sebagai	_	_	_	_	_
+7-7	519-525	mandor	_	_	_	_	_
+7-8	526-528	di	_	_	_	_	_
+7-9	529-535	sebuah	_	_	_	_	_
+7-10	536-546	perusahaan	_	_	_	_	_
+7-11	547-557	konstruksi	_	_	_	_	_
+7-12	558-561	dan	_	_	_	_	_
+7-13	562-571	perakitan	_	_	_	_	_
+7-14	572-576	pipa	_	_	_	_	_
+7-15	577-580	gas	_	_	_	_	_
+7-16	581-603	Ryazantruboprovodstroy	_	_	_	_	_
+7-17	604-606	di	_	_	_	_	_
+7-18	607-613	Tyumen	_	_	_	_	_
+7-19	614-615	,	_	_	_	_	_
+7-20	616-623	Siberia	_	_	_	_	_
+7-21	624-625	.	_	_	_	_	_
+
+#Text=Ia dipercaya untuk mengawasi proyek pipa gas Urengoi - Chelyabinsk .
+8-1	627-629	Ia	_	_	_	_	_
+8-2	630-639	dipercaya	_	_	_	_	_
+8-3	640-645	untuk	_	_	_	_	_
+8-4	646-655	mengawasi	_	_	_	_	_
+8-5	656-662	proyek	_	_	_	_	_
+8-6	663-667	pipa	_	_	_	_	_
+8-7	668-671	gas	_	_	_	_	_
+8-8	672-679	Urengoi	_	_	_	_	_
+8-9	680-681	-	_	_	_	_	_
+8-10	682-693	Chelyabinsk	_	_	_	_	_
+8-11	694-695	.	_	_	_	_	_
+
+#Text=Karir nya terus menanjak hingga diangkat sebagai kepala bagian teknik Ryazantruboprovodstroy pada 1985 .
+9-1	697-702	Karir	_	_	_	_	_
+9-2	703-706	nya	_	_	_	_	_
+9-3	707-712	terus	_	_	_	_	_
+9-4	713-721	menanjak	_	_	_	_	_
+9-5	722-728	hingga	_	_	_	_	_
+9-6	729-737	diangkat	_	_	_	_	_
+9-7	738-745	sebagai	_	_	_	_	_
+9-8	746-752	kepala	_	_	_	_	_
+9-9	753-759	bagian	_	_	_	_	_
+9-10	760-766	teknik	_	_	_	_	_
+9-11	767-789	Ryazantruboprovodstroy	_	_	_	_	_
+9-12	790-794	pada	_	_	_	_	_
+9-13	795-799	1985	_	_	_	_	_
+9-14	800-801	.	_	_	_	_	_
+
+#Text=Setelah itu , ia bekerja di Ku ibishevtruboprovodstroy sebagai direktur umum pada 1987 .
+10-1	803-810	Setelah	_	_	_	_	_
+10-2	811-814	itu	_	_	_	_	_
+10-3	815-816	,	_	_	_	_	_
+10-4	817-819	ia	_	_	_	_	_
+10-5	820-827	bekerja	_	_	_	_	_
+10-6	828-830	di	_	_	_	_	_
+10-7	831-833	Ku	_	_	_	_	_
+10-8	834-857	ibishevtruboprovodstroy	_	_	_	_	_
+10-9	858-865	sebagai	_	_	_	_	_
+10-10	866-874	direktur	_	_	_	_	_
+10-11	875-879	umum	_	_	_	_	_
+10-12	880-884	pada	_	_	_	_	_
+10-13	885-889	1987	_	_	_	_	_
+10-14	890-891	.	_	_	_	_	_
+
+#Text=Saat Uni Soviet pecah , Ku ibishevtruboprovodstroy menjadi perusahaan pertama yang mengalami privatisasi dan berganti nama menjadi AO SNP NOVA .
+11-1	893-897	Saat	_	_	_	_	_
+11-2	898-901	Uni	_	_	_	_	_
+11-3	902-908	Soviet	_	_	_	_	_
+11-4	909-914	pecah	_	_	_	_	_
+11-5	915-916	,	_	_	_	_	_
+11-6	917-919	Ku	_	_	_	_	_
+11-7	920-943	ibishevtruboprovodstroy	_	_	_	_	_
+11-8	944-951	menjadi	_	_	_	_	_
+11-9	952-962	perusahaan	_	_	_	_	_
+11-10	963-970	pertama	_	_	_	_	_
+11-11	971-975	yang	_	_	_	_	_
+11-12	976-985	mengalami	_	_	_	_	_
+11-13	986-997	privatisasi	_	_	_	_	_
+11-14	998-1001	dan	_	_	_	_	_
+11-15	1002-1010	berganti	_	_	_	_	_
+11-16	1011-1015	nama	_	_	_	_	_
+11-17	1016-1023	menjadi	_	_	_	_	_
+11-18	1024-1026	AO	_	_	_	_	_
+11-19	1027-1030	SNP	_	_	_	_	_
+11-20	1031-1035	NOVA	_	_	_	_	_
+11-21	1036-1037	.	_	_	_	_	_
+
+#Text=Puas menimba pengalaman di perusahaan gas , Mikhelson memutuskan untuk mendirikan perusahaan investasi eksplorasi gas alam , Novainvest , pada 1994 .
+12-1	1039-1043	Puas	_	_	_	_	_
+12-2	1044-1051	menimba	_	_	_	_	_
+12-3	1052-1062	pengalaman	_	_	_	_	_
+12-4	1063-1065	di	_	_	_	_	_
+12-5	1066-1076	perusahaan	_	_	_	_	_
+12-6	1077-1080	gas	_	_	_	_	_
+12-7	1081-1082	,	_	_	_	_	_
+12-8	1083-1092	Mikhelson	_	_	_	_	_
+12-9	1093-1103	memutuskan	_	_	_	_	_
+12-10	1104-1109	untuk	_	_	_	_	_
+12-11	1110-1120	mendirikan	_	_	_	_	_
+12-12	1121-1131	perusahaan	_	_	_	_	_
+12-13	1132-1141	investasi	_	_	_	_	_
+12-14	1142-1152	eksplorasi	_	_	_	_	_
+12-15	1153-1156	gas	_	_	_	_	_
+12-16	1157-1161	alam	_	_	_	_	_
+12-17	1162-1163	,	_	_	_	_	_
+12-18	1164-1174	Novainvest	_	_	_	_	_
+12-19	1175-1176	,	_	_	_	_	_
+12-20	1177-1181	pada	_	_	_	_	_
+12-21	1182-1186	1994	_	_	_	_	_
+12-22	1187-1188	.	_	_	_	_	_
+
+#Text=Perusahaan itu diklaim sebagai perusahaan swasta pertama yang dapat bersaing dengan BUMN Rusia , Gazprom .
+13-1	1190-1200	Perusahaan	_	_	_	_	_
+13-2	1201-1204	itu	_	_	_	_	_
+13-3	1205-1212	diklaim	_	_	_	_	_
+13-4	1213-1220	sebagai	_	_	_	_	_
+13-5	1221-1231	perusahaan	_	_	_	_	_
+13-6	1232-1238	swasta	_	_	_	_	_
+13-7	1239-1246	pertama	_	_	_	_	_
+13-8	1247-1251	yang	_	_	_	_	_
+13-9	1252-1257	dapat	_	positive[1]	_	_	_
+13-10	1258-1266	bersaing	_	positive[1]	_	_	_
+13-11	1267-1273	dengan	_	_	_	_	_
+13-12	1274-1278	BUMN	_	_	_	_	_
+13-13	1279-1284	Rusia	_	_	_	_	_
+13-14	1285-1286	,	_	_	_	_	_
+13-15	1287-1294	Gazprom	_	concept[2]	_	_	_
+13-16	1295-1296	.	_	_	_	_	_
+
+#Text=Selang sembilan tahun , Mikhelson mengubah nama perusahaan menjadi Novatek dan menjadikan nya sebagai produsen gas alam kedua terbesar di Rusia .
+14-1	1298-1304	Selang	_	_	_	_	_
+14-2	1305-1313	sembilan	_	_	_	_	_
+14-3	1314-1319	tahun	_	_	_	_	_
+14-4	1320-1321	,	_	_	_	_	_
+14-5	1322-1331	Mikhelson	_	_	_	_	_
+14-6	1332-1340	mengubah	_	_	_	_	_
+14-7	1341-1345	nama	_	_	_	_	_
+14-8	1346-1356	perusahaan	_	_	_	_	_
+14-9	1357-1364	menjadi	_	_	_	_	_
+14-10	1365-1372	Novatek	_	_	_	_	_
+14-11	1373-1376	dan	_	_	_	_	_
+14-12	1377-1387	menjadikan	_	_	_	_	_
+14-13	1388-1391	nya	_	_	_	_	_
+14-14	1392-1399	sebagai	_	_	_	_	_
+14-15	1400-1408	produsen	_	_	_	_	_
+14-16	1409-1412	gas	_	_	_	_	_
+14-17	1413-1417	alam	_	_	_	_	_
+14-18	1418-1423	kedua	_	_	_	_	_
+14-19	1424-1432	terbesar	_	_	_	_	_
+14-20	1433-1435	di	_	_	_	_	_
+14-21	1436-1441	Rusia	_	_	_	_	_
+14-22	1442-1443	.	_	_	_	_	_
+
+#Text=Ia memegang saham mayoritas perusahaan yang diperdagangkan di bursa London dan Moskow sebesar 28 persen .
+15-1	1445-1447	Ia	_	_	_	_	_
+15-2	1448-1456	memegang	_	_	_	_	_
+15-3	1457-1462	saham	_	_	_	_	_
+15-4	1463-1472	mayoritas	_	_	_	_	_
+15-5	1473-1483	perusahaan	_	_	_	_	_
+15-6	1484-1488	yang	_	_	_	_	_
+15-7	1489-1503	diperdagangkan	_	_	_	_	_
+15-8	1504-1506	di	_	_	_	_	_
+15-9	1507-1512	bursa	_	_	_	_	_
+15-10	1513-1519	London	_	_	_	_	_
+15-11	1520-1523	dan	_	_	_	_	_
+15-12	1524-1530	Moskow	_	_	_	_	_
+15-13	1531-1538	sebesar	_	_	_	_	_
+15-14	1539-1541	28	_	_	_	_	_
+15-15	1542-1548	persen	_	_	_	_	_
+15-16	1549-1550	.	_	_	_	_	_
+
+#Text=Tahun lalu , Novatek meraup pendapatan bersih US$ 6,26 miliar dan mempekerjakan sekitar 5.997 orang .
+16-1	1552-1557	Tahun	_	_	_	_	_
+16-2	1558-1562	lalu	_	_	_	_	_
+16-3	1563-1564	,	_	_	_	_	_
+16-4	1565-1572	Novatek	_	_	_	_	_
+16-5	1573-1579	meraup	_	_	_	_	_
+16-6	1580-1590	pendapatan	_	_	_	_	_
+16-7	1591-1597	bersih	_	_	_	_	_
+16-8	1598-1601	US$	_	_	_	_	_
+16-9	1602-1606	6,26	_	_	_	_	_
+16-10	1607-1613	miliar	_	_	_	_	_
+16-11	1614-1617	dan	_	_	_	_	_
+16-12	1618-1631	mempekerjakan	_	_	_	_	_
+16-13	1632-1639	sekitar	_	_	_	_	_
+16-14	1640-1645	5.997	_	_	_	_	_
+16-15	1646-1651	orang	_	_	_	_	_
+16-16	1652-1653	.	_	_	_	_	_
+
+#Text=Salah satu proyek yang dikerjakan adalah proyek gas alam di Samudra Arktik .
+17-1	1655-1660	Salah	_	_	_	_	_
+17-2	1661-1665	satu	_	_	_	_	_
+17-3	1666-1672	proyek	_	_	_	_	_
+17-4	1673-1677	yang	_	_	_	_	_
+17-5	1678-1688	dikerjakan	_	_	_	_	_
+17-6	1689-1695	adalah	_	_	_	_	_
+17-7	1696-1702	proyek	_	_	_	_	_
+17-8	1703-1706	gas	_	_	_	_	_
+17-9	1707-1711	alam	_	_	_	_	_
+17-10	1712-1714	di	_	_	_	_	_
+17-11	1715-1722	Samudra	_	_	_	_	_
+17-12	1723-1729	Arktik	_	_	_	_	_
+17-13	1730-1731	.	_	_	_	_	_
+
+#Text=Selain Novatek , Mikhelson juga berinvestasi pada perusahaan petrokimia Sibur .
+18-1	1733-1739	Selain	_	_	_	_	_
+18-2	1740-1747	Novatek	_	_	_	_	_
+18-3	1748-1749	,	_	_	_	_	_
+18-4	1750-1759	Mikhelson	_	_	_	_	_
+18-5	1760-1764	juga	_	_	_	_	_
+18-6	1765-1777	berinvestasi	_	_	_	_	_
+18-7	1778-1782	pada	_	_	_	_	_
+18-8	1783-1793	perusahaan	_	_	_	_	_
+18-9	1794-1804	petrokimia	_	_	_	_	_
+18-10	1805-1810	Sibur	_	_	_	_	_
+18-11	1811-1812	.	_	_	_	_	_
+
+#Text=Pada 2017 , Forbes melaporkan Mikhelson mengakuisisi saham milik mantan menantu Putin , Kirill Shamalov , sebesar 17 persen , sehingga porsi kepemilikan nya meningkat menjadi 48 persen .
+19-1	1814-1818	Pada	_	_	_	_	_
+19-2	1819-1823	2017	_	_	_	_	_
+19-3	1824-1825	,	_	_	_	_	_
+19-4	1826-1832	Forbes	_	_	_	_	_
+19-5	1833-1843	melaporkan	_	_	_	_	_
+19-6	1844-1853	Mikhelson	_	_	_	_	_
+19-7	1854-1866	mengakuisisi	_	_	_	_	_
+19-8	1867-1872	saham	_	_	_	_	_
+19-9	1873-1878	milik	_	_	_	_	_
+19-10	1879-1885	mantan	_	_	_	_	_
+19-11	1886-1893	menantu	_	_	_	_	_
+19-12	1894-1899	Putin	_	_	_	_	_
+19-13	1900-1901	,	_	_	_	_	_
+19-14	1902-1908	Kirill	_	_	_	_	_
+19-15	1909-1917	Shamalov	_	_	_	_	_
+19-16	1918-1919	,	_	_	_	_	_
+19-17	1920-1927	sebesar	_	_	_	_	_
+19-18	1928-1930	17	_	_	_	_	_
+19-19	1931-1937	persen	_	_	_	_	_
+19-20	1938-1939	,	_	_	_	_	_
+19-21	1940-1948	sehingga	_	_	_	_	_
+19-22	1949-1954	porsi	_	_	_	_	_
+19-23	1955-1966	kepemilikan	_	_	_	_	_
+19-24	1967-1970	nya	_	_	_	_	_
+19-25	1971-1980	meningkat	_	_	_	_	_
+19-26	1981-1988	menjadi	_	_	_	_	_
+19-27	1989-1991	48	_	_	_	_	_
+19-28	1992-1998	persen	_	_	_	_	_
+19-29	1999-2000	.	_	_	_	_	_
+
+#Text=Pada kedua perusahaan itu , Mikhelson bermitra dengan Gennady Timchenko yang juga dikenal dekat dengan Putin .
+20-1	2002-2006	Pada	_	_	_	_	_
+20-2	2007-2012	kedua	_	_	_	_	_
+20-3	2013-2023	perusahaan	_	_	_	_	_
+20-4	2024-2027	itu	_	_	_	_	_
+20-5	2028-2029	,	_	_	_	_	_
+20-6	2030-2039	Mikhelson	_	_	_	_	_
+20-7	2040-2048	bermitra	_	_	_	_	_
+20-8	2049-2055	dengan	_	_	_	_	_
+20-9	2056-2063	Gennady	_	_	_	_	_
+20-10	2064-2073	Timchenko	_	_	_	_	_
+20-11	2074-2078	yang	_	_	_	_	_
+20-12	2079-2083	juga	_	_	_	_	_
+20-13	2084-2091	dikenal	_	_	_	_	_
+20-14	2092-2097	dekat	_	_	_	_	_
+20-15	2098-2104	dengan	_	_	_	_	_
+20-16	2105-2110	Putin	_	_	_	_	_
+20-17	2111-2112	.	_	_	_	_	_
+
+#Text=Sepak terjang Mikhelson di dunia migas membuat nya mampu mengumpulkan kekayaan hingga US$ 20,4 miliar atau sekitar Rp 293,76 triliun ( asumsi kurs Rp 14.400 per dolar AS ) dan menjadi salah satu taipan di Rusia .
+21-1	2114-2119	Sepak	_	concept[3]	_	_	_
+21-2	2120-2127	terjang	_	concept[3]	_	_	_
+21-3	2128-2137	Mikhelson	_	concept[3]	_	_	_
+21-4	2138-2140	di	_	_	_	_	_
+21-5	2141-2146	dunia	_	_	_	_	_
+21-6	2147-2152	migas	_	_	_	_	_
+21-7	2153-2160	membuat	_	_	_	_	_
+21-8	2161-2164	nya	_	_	_	_	_
+21-9	2165-2170	mampu	_	positive[4]	_	_	_
+21-10	2171-2183	mengumpulkan	_	positive[4]	_	_	_
+21-11	2184-2192	kekayaan	_	positive[4]	_	_	_
+21-12	2193-2199	hingga	_	positive[4]	_	_	_
+21-13	2200-2203	US$	_	positive[4]	_	_	_
+21-14	2204-2208	20,4	_	positive[4]	_	_	_
+21-15	2209-2215	miliar	_	_	_	_	_
+21-16	2216-2220	atau	_	_	_	_	_
+21-17	2221-2228	sekitar	_	_	_	_	_
+21-18	2229-2231	Rp	_	_	_	_	_
+21-19	2232-2238	293,76	_	_	_	_	_
+21-20	2239-2246	triliun	_	_	_	_	_
+21-21	2247-2248	(	_	_	_	_	_
+21-22	2249-2255	asumsi	_	_	_	_	_
+21-23	2256-2260	kurs	_	_	_	_	_
+21-24	2261-2263	Rp	_	_	_	_	_
+21-25	2264-2270	14.400	_	_	_	_	_
+21-26	2271-2274	per	_	_	_	_	_
+21-27	2275-2280	dolar	_	_	_	_	_
+21-28	2281-2283	AS	_	_	_	_	_
+21-29	2284-2285	)	_	_	_	_	_
+21-30	2286-2289	dan	_	_	_	_	_
+21-31	2290-2297	menjadi	_	_	_	_	_
+21-32	2298-2303	salah	_	_	_	_	_
+21-33	2304-2308	satu	_	_	_	_	_
+21-34	2309-2315	taipan	_	_	_	_	_
+21-35	2316-2318	di	_	_	_	_	_
+21-36	2319-2324	Rusia	_	_	_	_	_
+21-37	2325-2326	.	_	_	_	_	_
+
+#Text=Forbes menempatkan nya di peringkat ke-66 pada Daftar Orang Terkaya Dunia 2021 .
+22-1	2328-2334	Forbes	_	_	_	_	_
+22-2	2335-2346	menempatkan	_	_	_	_	_
+22-3	2347-2350	nya	_	_	_	_	_
+22-4	2351-2353	di	_	_	_	_	_
+22-5	2354-2363	peringkat	_	_	_	_	_
+22-6	2364-2369	ke-66	_	_	_	_	_
+22-7	2370-2374	pada	_	_	_	_	_
+22-8	2375-2381	Daftar	_	_	_	_	_
+22-9	2382-2387	Orang	_	_	_	_	_
+22-10	2388-2395	Terkaya	_	_	_	_	_
+22-11	2396-2401	Dunia	_	_	_	_	_
+22-12	2402-2406	2021	_	_	_	_	_
+22-13	2407-2408	.	_	_	_	_	_
+
+#Text=Kendati demikian , jumlah kekayaan Mikhelson dilaporkan susut sekitar 16,5 persen atau US$ 4,5 miliar karena invasi Rusia terhadap Ukraina menekan saham Novatek pada Kamis ( 24 / 2 ) lalu .
+23-1	2410-2417	Kendati	_	_	_	_	_
+23-2	2418-2426	demikian	_	_	_	_	_
+23-3	2427-2428	,	_	_	_	_	_
+23-4	2429-2435	jumlah	_	_	_	_	_
+23-5	2436-2444	kekayaan	_	_	_	_	_
+23-6	2445-2454	Mikhelson	_	_	_	_	_
+23-7	2455-2465	dilaporkan	_	_	_	_	_
+23-8	2466-2471	susut	_	_	_	_	_
+23-9	2472-2479	sekitar	_	_	_	_	_
+23-10	2480-2484	16,5	_	_	_	_	_
+23-11	2485-2491	persen	_	_	_	_	_
+23-12	2492-2496	atau	_	_	_	_	_
+23-13	2497-2500	US$	_	_	_	_	_
+23-14	2501-2504	4,5	_	_	_	_	_
+23-15	2505-2511	miliar	_	_	_	_	_
+23-16	2512-2518	karena	_	_	_	_	_
+23-17	2519-2525	invasi	_	_	_	_	_
+23-18	2526-2531	Rusia	_	_	_	_	_
+23-19	2532-2540	terhadap	_	_	_	_	_
+23-20	2541-2548	Ukraina	_	_	_	_	_
+23-21	2549-2556	menekan	_	_	_	_	_
+23-22	2557-2562	saham	_	_	_	_	_
+23-23	2563-2570	Novatek	_	_	_	_	_
+23-24	2571-2575	pada	_	_	_	_	_
+23-25	2576-2581	Kamis	_	_	_	_	_
+23-26	2582-2583	(	_	_	_	_	_
+23-27	2584-2586	24	_	_	_	_	_
+23-28	2587-2588	/	_	_	_	_	_
+23-29	2589-2590	2	_	_	_	_	_
+23-30	2591-2592	)	_	_	_	_	_
+23-31	2593-2597	lalu	_	_	_	_	_
+23-32	2598-2599	.	_	_	_	_	_
+
+#Text=Kantor berita Rusia TASS , melaporkan ia menjadi satu dari setidaknya 13 konglomerat yang dipanggil Putin ke Kremlin pada Februari lalu .
+24-1	2601-2607	Kantor	_	_	_	_	_
+24-2	2608-2614	berita	_	_	_	_	_
+24-3	2615-2620	Rusia	_	_	_	_	_
+24-4	2621-2625	TASS	_	_	_	_	_
+24-5	2626-2627	,	_	_	_	_	_
+24-6	2628-2638	melaporkan	_	_	_	_	_
+24-7	2639-2641	ia	_	_	_	_	_
+24-8	2642-2649	menjadi	_	_	_	_	_
+24-9	2650-2654	satu	_	_	_	_	_
+24-10	2655-2659	dari	_	_	_	_	_
+24-11	2660-2670	setidaknya	_	_	_	_	_
+24-12	2671-2673	13	_	_	_	_	_
+24-13	2674-2685	konglomerat	_	_	_	_	_
+24-14	2686-2690	yang	_	_	_	_	_
+24-15	2691-2700	dipanggil	_	_	_	_	_
+24-16	2701-2706	Putin	_	_	_	_	_
+24-17	2707-2709	ke	_	_	_	_	_
+24-18	2710-2717	Kremlin	_	_	_	_	_
+24-19	2718-2722	pada	_	_	_	_	_
+24-20	2723-2731	Februari	_	_	_	_	_
+24-21	2732-2736	lalu	_	_	_	_	_
+24-22	2737-2738	.	_	_	_	_	_
+
+#Text=Putin mengundang mereka untuk berbicara soal serangan terhadap ekonomi Negeri Beruang Merah .
+25-1	2740-2745	Putin	_	_	_	_	_
+25-2	2746-2756	mengundang	_	_	_	_	_
+25-3	2757-2763	mereka	_	_	_	_	_
+25-4	2764-2769	untuk	_	_	_	_	_
+25-5	2770-2779	berbicara	_	_	_	_	_
+25-6	2780-2784	soal	_	_	_	_	_
+25-7	2785-2793	serangan	_	_	_	_	_
+25-8	2794-2802	terhadap	_	_	_	_	_
+25-9	2803-2810	ekonomi	_	_	_	_	_
+25-10	2811-2817	Negeri	_	_	_	_	_
+25-11	2818-2825	Beruang	_	_	_	_	_
+25-12	2826-2831	Merah	_	_	_	_	_
+25-13	2832-2833	.	_	_	_	_	_
+
+#Text=Ia juga menjadi salah satu konglomerat Rusia yang harta nya terancam disita oleh Amerika Serikat di bawah Presiden Joe Biden .
+26-1	2835-2837	Ia	_	_	_	_	_
+26-2	2838-2842	juga	_	_	_	_	_
+26-3	2843-2850	menjadi	_	_	_	_	_
+26-4	2851-2856	salah	_	_	_	_	_
+26-5	2857-2861	satu	_	_	_	_	_
+26-6	2862-2873	konglomerat	_	_	_	_	_
+26-7	2874-2879	Rusia	_	_	_	_	_
+26-8	2880-2884	yang	_	_	_	_	_
+26-9	2885-2890	harta	_	_	_	_	_
+26-10	2891-2894	nya	_	_	_	_	_
+26-11	2895-2903	terancam	_	_	_	_	_
+26-12	2904-2910	disita	_	_	_	_	_
+26-13	2911-2915	oleh	_	_	_	_	_
+26-14	2916-2923	Amerika	_	_	_	_	_
+26-15	2924-2931	Serikat	_	_	_	_	_
+26-16	2932-2934	di	_	_	_	_	_
+26-17	2935-2940	bawah	_	_	_	_	_
+26-18	2941-2949	Presiden	_	_	_	_	_
+26-19	2950-2953	Joe	_	_	_	_	_
+26-20	2954-2959	Biden	_	_	_	_	_
+26-21	2960-2961	.	_	_	_	_	_
+
+#Text=Hal itu dilakukan sebagai bentuk sanksi AS atas invasi Rusia ke Ukraina .
+27-1	2963-2966	Hal	_	_	_	_	_
+27-2	2967-2970	itu	_	_	_	_	_
+27-3	2971-2980	dilakukan	_	_	_	_	_
+27-4	2981-2988	sebagai	_	_	_	_	_
+27-5	2989-2995	bentuk	_	_	_	_	_
+27-6	2996-3002	sanksi	_	_	_	_	_
+27-7	3003-3005	AS	_	_	_	_	_
+27-8	3006-3010	atas	_	_	_	_	_
+27-9	3011-3017	invasi	_	_	_	_	_
+27-10	3018-3023	Rusia	_	_	_	_	_
+27-11	3024-3026	ke	_	_	_	_	_
+27-12	3027-3034	Ukraina	_	_	_	_	_
+27-13	3035-3036	.	_	_	_	_	_
+
+#Text=Pada Rabu ( 2 / 3 ) lalu , Biden mengumumkan AS akan bergabung dengan sekutu negara Eropa untuk menemukan dan merebut kapal pesiar , apartemen mewah , hingga jet pribadi milik taipan Rusia yang dianggap korup .
+28-1	3038-3042	Pada	_	_	_	_	_
+28-2	3043-3047	Rabu	_	_	_	_	_
+28-3	3048-3049	(	_	_	_	_	_
+28-4	3050-3051	2	_	_	_	_	_
+28-5	3052-3053	/	_	_	_	_	_
+28-6	3054-3055	3	_	_	_	_	_
+28-7	3056-3057	)	_	_	_	_	_
+28-8	3058-3062	lalu	_	_	_	_	_
+28-9	3063-3064	,	_	_	_	_	_
+28-10	3065-3070	Biden	_	_	_	_	_
+28-11	3071-3082	mengumumkan	_	_	_	_	_
+28-12	3083-3085	AS	_	_	_	_	_
+28-13	3086-3090	akan	_	_	_	_	_
+28-14	3091-3100	bergabung	_	_	_	_	_
+28-15	3101-3107	dengan	_	_	_	_	_
+28-16	3108-3114	sekutu	_	_	_	_	_
+28-17	3115-3121	negara	_	_	_	_	_
+28-18	3122-3127	Eropa	_	_	_	_	_
+28-19	3128-3133	untuk	_	_	_	_	_
+28-20	3134-3143	menemukan	_	_	_	_	_
+28-21	3144-3147	dan	_	_	_	_	_
+28-22	3148-3155	merebut	_	_	_	_	_
+28-23	3156-3161	kapal	_	_	_	_	_
+28-24	3162-3168	pesiar	_	_	_	_	_
+28-25	3169-3170	,	_	_	_	_	_
+28-26	3171-3180	apartemen	_	_	_	_	_
+28-27	3181-3186	mewah	_	_	_	_	_
+28-28	3187-3188	,	_	_	_	_	_
+28-29	3189-3195	hingga	_	_	_	_	_
+28-30	3196-3199	jet	_	_	_	_	_
+28-31	3200-3207	pribadi	_	_	_	_	_
+28-32	3208-3213	milik	_	_	_	_	_
+28-33	3214-3220	taipan	_	_	_	_	_
+28-34	3221-3226	Rusia	_	_	_	_	_
+28-35	3227-3231	yang	_	_	_	_	_
+28-36	3232-3240	dianggap	_	_	_	_	_
+28-37	3241-3246	korup	_	_	_	_	_
+28-38	3247-3248	.	_	_	_	_	_
+
+#Text=" Malam ini saya katakan kepada oligarki Rusia dan para pemimpin korup yang telah menipu miliaran dolar dari rezim yang kejam ini : tidak ada lagi , " kata Biden yang mendapat tepuk tangan meriah baik dari partai Demokrat atau pun Republik , dikutip dari CNN.com .
+29-1	3250-3251	"	_	_	_	_	_
+29-2	3252-3257	Malam	_	_	_	_	_
+29-3	3258-3261	ini	_	_	_	_	_
+29-4	3262-3266	saya	_	_	_	_	_
+29-5	3267-3274	katakan	_	_	_	_	_
+29-6	3275-3281	kepada	_	_	_	_	_
+29-7	3282-3290	oligarki	_	_	_	_	_
+29-8	3291-3296	Rusia	_	_	_	_	_
+29-9	3297-3300	dan	_	_	_	_	_
+29-10	3301-3305	para	_	_	_	_	_
+29-11	3306-3314	pemimpin	_	_	_	_	_
+29-12	3315-3320	korup	_	_	_	_	_
+29-13	3321-3325	yang	_	_	_	_	_
+29-14	3326-3331	telah	_	_	_	_	_
+29-15	3332-3338	menipu	_	_	_	_	_
+29-16	3339-3347	miliaran	_	_	_	_	_
+29-17	3348-3353	dolar	_	_	_	_	_
+29-18	3354-3358	dari	_	_	_	_	_
+29-19	3359-3364	rezim	_	_	_	_	_
+29-20	3365-3369	yang	_	_	_	_	_
+29-21	3370-3375	kejam	_	_	_	_	_
+29-22	3376-3379	ini	_	_	_	_	_
+29-23	3380-3381	:	_	_	_	_	_
+29-24	3382-3387	tidak	_	_	_	_	_
+29-25	3388-3391	ada	_	_	_	_	_
+29-26	3392-3396	lagi	_	_	_	_	_
+29-27	3397-3398	,	_	_	_	_	_
+29-28	3399-3400	"	_	_	_	_	_
+29-29	3401-3405	kata	_	_	_	_	_
+29-30	3406-3411	Biden	_	_	_	_	_
+29-31	3412-3416	yang	_	_	_	_	_
+29-32	3417-3425	mendapat	_	_	_	_	_
+29-33	3426-3431	tepuk	_	_	_	_	_
+29-34	3432-3438	tangan	_	_	_	_	_
+29-35	3439-3445	meriah	_	_	_	_	_
+29-36	3446-3450	baik	_	_	_	_	_
+29-37	3451-3455	dari	_	_	_	_	_
+29-38	3456-3462	partai	_	_	_	_	_
+29-39	3463-3471	Demokrat	_	_	_	_	_
+29-40	3472-3476	atau	_	_	_	_	_
+29-41	3477-3480	pun	_	_	_	_	_
+29-42	3481-3489	Republik	_	_	_	_	_
+29-43	3490-3491	,	_	_	_	_	_
+29-44	3492-3499	dikutip	_	_	_	_	_
+29-45	3500-3504	dari	_	_	_	_	_
+29-46	3505-3512	CNN.com	_	_	_	_	_
+29-47	3513-3514	.	_	_	_	_	_
+
+#Text=Saat ini , Mikhelson tercatat memiliki kapal pesiar bernama " Pacific " .
+30-1	3516-3520	Saat	_	_	_	_	_
+30-2	3521-3524	ini	_	_	_	_	_
+30-3	3525-3526	,	_	_	_	_	_
+30-4	3527-3536	Mikhelson	_	_	_	_	_
+30-5	3537-3545	tercatat	_	_	_	_	_
+30-6	3546-3554	memiliki	_	_	_	_	_
+30-7	3555-3560	kapal	_	_	_	_	_
+30-8	3561-3567	pesiar	_	_	_	_	_
+30-9	3568-3575	bernama	_	_	_	_	_
+30-10	3576-3577	"	_	_	_	_	_
+30-11	3578-3585	Pacific	_	_	_	_	_
+30-12	3586-3587	"	_	_	_	_	_
+30-13	3588-3589	.	_	_	_	_	_
+
+#Text=Kapal pesiar sepanjang 280 kaki itu terdaftar di Kepulauan Cayman senilai US$ 115 juta .
+31-1	3591-3596	Kapal	_	_	_	_	_
+31-2	3597-3603	pesiar	_	_	_	_	_
+31-3	3604-3613	sepanjang	_	_	_	_	_
+31-4	3614-3617	280	_	_	_	_	_
+31-5	3618-3622	kaki	_	_	_	_	_
+31-6	3623-3626	itu	_	_	_	_	_
+31-7	3627-3636	terdaftar	_	_	_	_	_
+31-8	3637-3639	di	_	_	_	_	_
+31-9	3640-3649	Kepulauan	_	_	_	_	_
+31-10	3650-3656	Cayman	_	_	_	_	_
+31-11	3657-3664	senilai	_	_	_	_	_
+31-12	3665-3668	US$	_	_	_	_	_
+31-13	3669-3672	115	_	_	_	_	_
+31-14	3673-3677	juta	_	_	_	_	_
+31-15	3678-3679	.	_	_	_	_	_
+
+#Text=Ini bukan kali pertama bisnis Mikhelson terdampak sengketa Rusia dan Ukraina .
+32-1	3681-3684	Ini	_	_	_	_	_
+32-2	3685-3690	bukan	_	_	_	_	_
+32-3	3691-3695	kali	_	_	_	_	_
+32-4	3696-3703	pertama	_	_	_	_	_
+32-5	3704-3710	bisnis	_	concept[5]	_	_	_
+32-6	3711-3720	Mikhelson	_	concept[5]	_	_	_
+32-7	3721-3730	terdampak	_	negative[6]	_	_	_
+32-8	3731-3739	sengketa	_	negative[6]	_	_	_
+32-9	3740-3745	Rusia	_	negative[6]	_	_	_
+32-10	3746-3749	dan	_	negative[6]	_	_	_
+32-11	3750-3757	Ukraina	_	negative[6]	_	_	_
+32-12	3758-3759	.	_	_	_	_	_
+
+#Text=Pada 2014 lalu , Novatek juga masuk ke daftar perusahaan yang terkena sanksi AS karena upaya Rusia mengganggu stabilitas Ukraina .
+33-1	3761-3765	Pada	_	_	_	_	_
+33-2	3766-3770	2014	_	_	_	_	_
+33-3	3771-3775	lalu	_	_	_	_	_
+33-4	3776-3777	,	_	_	_	_	_
+33-5	3778-3785	Novatek	_	concept[7]	_	_	_
+33-6	3786-3790	juga	_	_	_	_	_
+33-7	3791-3796	masuk	_	_	_	_	_
+33-8	3797-3799	ke	_	_	_	_	_
+33-9	3800-3806	daftar	_	_	_	_	_
+33-10	3807-3817	perusahaan	_	_	_	_	_
+33-11	3818-3822	yang	_	_	_	_	_
+33-12	3823-3830	terkena	_	negative[8]	_	_	_
+33-13	3831-3837	sanksi	_	negative[8]	_	_	_
+33-14	3838-3840	AS	_	_	_	_	_
+33-15	3841-3847	karena	_	_	_	_	_
+33-16	3848-3853	upaya	_	_	_	_	_
+33-17	3854-3859	Rusia	_	_	_	_	_
+33-18	3860-3870	mengganggu	_	_	_	_	_
+33-19	3871-3881	stabilitas	_	negative[9]	_	_	_
+33-20	3882-3889	Ukraina	_	negative[9]	_	_	_
+33-21	3890-3891	.	_	_	_	_	_
+
+#Text=Namun , Mikhelson mendapatkan dukungan Putin lewat National Wealth Fund untuk tetap menjalankan berbagai proyek gas alam .
+34-1	3893-3898	Namun	_	_	_	_	_
+34-2	3899-3900	,	_	_	_	_	_
+34-3	3901-3910	Mikhelson	_	_	_	_	_
+34-4	3911-3922	mendapatkan	_	_	_	_	_
+34-5	3923-3931	dukungan	_	_	_	_	_
+34-6	3932-3937	Putin	_	_	_	_	_
+34-7	3938-3943	lewat	_	_	_	_	_
+34-8	3944-3952	National	_	_	_	_	_
+34-9	3953-3959	Wealth	_	_	_	_	_
+34-10	3960-3964	Fund	_	_	_	_	_
+34-11	3965-3970	untuk	_	_	_	_	_
+34-12	3971-3976	tetap	_	_	_	_	_
+34-13	3977-3988	menjalankan	_	_	_	_	_
+34-14	3989-3997	berbagai	_	_	_	_	_
+34-15	3998-4004	proyek	_	_	_	_	_
+34-16	4005-4008	gas	_	_	_	_	_
+34-17	4009-4013	alam	_	_	_	_	_
+34-18	4014-4015	.	_	_	_	_	_
+
+#Text=" Dukungan Anda ( Putin ) dalam mendapatkan pendanaan dari National Wealth Fund sangat membantu proyek kamu . Khusus nya , selama periode sanksi di mana tidak ada pendanaan eksternal yang tepat waktu , dukungan ini membuat proyek tetap dapat dilakukan tepat waktu , " ujar Mikhelson saat bertemu dengan Putin lewat kanal Youtube Ruptly pada November 2016 lalu .
+35-1	4017-4018	"	_	_	_	_	_
+35-2	4019-4027	Dukungan	_	_	_	_	_
+35-3	4028-4032	Anda	_	_	_	_	_
+35-4	4033-4034	(	_	_	_	_	_
+35-5	4035-4040	Putin	_	_	_	_	_
+35-6	4041-4042	)	_	_	_	_	_
+35-7	4043-4048	dalam	_	_	_	_	_
+35-8	4049-4060	mendapatkan	_	_	_	_	_
+35-9	4061-4070	pendanaan	_	_	_	_	_
+35-10	4071-4075	dari	_	_	_	_	_
+35-11	4076-4084	National	_	_	_	_	_
+35-12	4085-4091	Wealth	_	_	_	_	_
+35-13	4092-4096	Fund	_	_	_	_	_
+35-14	4097-4103	sangat	_	_	_	_	_
+35-15	4104-4112	membantu	_	_	_	_	_
+35-16	4113-4119	proyek	_	_	_	_	_
+35-17	4120-4124	kamu	_	_	_	_	_
+35-18	4125-4126	.	_	_	_	_	_
+35-19	4127-4133	Khusus	_	_	_	_	_
+35-20	4134-4137	nya	_	_	_	_	_
+35-21	4138-4139	,	_	_	_	_	_
+35-22	4140-4146	selama	_	_	_	_	_
+35-23	4147-4154	periode	_	_	_	_	_
+35-24	4155-4161	sanksi	_	_	_	_	_
+35-25	4162-4164	di	_	_	_	_	_
+35-26	4165-4169	mana	_	_	_	_	_
+35-27	4170-4175	tidak	_	_	_	_	_
+35-28	4176-4179	ada	_	_	_	_	_
+35-29	4180-4189	pendanaan	_	_	_	_	_
+35-30	4190-4199	eksternal	_	_	_	_	_
+35-31	4200-4204	yang	_	_	_	_	_
+35-32	4205-4210	tepat	_	_	_	_	_
+35-33	4211-4216	waktu	_	_	_	_	_
+35-34	4217-4218	,	_	_	_	_	_
+35-35	4219-4227	dukungan	_	_	_	_	_
+35-36	4228-4231	ini	_	_	_	_	_
+35-37	4232-4239	membuat	_	_	_	_	_
+35-38	4240-4246	proyek	_	_	_	_	_
+35-39	4247-4252	tetap	_	_	_	_	_
+35-40	4253-4258	dapat	_	_	_	_	_
+35-41	4259-4268	dilakukan	_	_	_	_	_
+35-42	4269-4274	tepat	_	_	_	_	_
+35-43	4275-4280	waktu	_	_	_	_	_
+35-44	4281-4282	,	_	_	_	_	_
+35-45	4283-4284	"	_	_	_	_	_
+35-46	4285-4289	ujar	_	_	_	_	_
+35-47	4290-4299	Mikhelson	_	_	_	_	_
+35-48	4300-4304	saat	_	_	_	_	_
+35-49	4305-4312	bertemu	_	_	_	_	_
+35-50	4313-4319	dengan	_	_	_	_	_
+35-51	4320-4325	Putin	_	_	_	_	_
+35-52	4326-4331	lewat	_	_	_	_	_
+35-53	4332-4337	kanal	_	_	_	_	_
+35-54	4338-4345	Youtube	_	_	_	_	_
+35-55	4346-4352	Ruptly	_	_	_	_	_
+35-56	4353-4357	pada	_	_	_	_	_
+35-57	4358-4366	November	_	_	_	_	_
+35-58	4367-4371	2016	_	_	_	_	_
+35-59	4372-4376	lalu	_	_	_	_	_
+35-60	4377-4378	.	_	_	_	_	_
+
+#Text=Selain berbisnis , Mikhelson juga menaruh minat besar pada dunia seni .
+36-1	4380-4386	Selain	_	_	_	_	_
+36-2	4387-4396	berbisnis	_	_	_	_	_
+36-3	4397-4398	,	_	_	_	_	_
+36-4	4399-4408	Mikhelson	_	_	_	_	_
+36-5	4409-4413	juga	_	_	_	_	_
+36-6	4414-4421	menaruh	_	_	_	_	_
+36-7	4422-4427	minat	_	_	_	_	_
+36-8	4428-4433	besar	_	_	_	_	_
+36-9	4434-4438	pada	_	_	_	_	_
+36-10	4439-4444	dunia	_	_	_	_	_
+36-11	4445-4449	seni	_	_	_	_	_
+36-12	4450-4451	.	_	_	_	_	_
+
+#Text=Ia dikenal sebagai kolektor barang seni dan kerap mendanai pameran seni internasional .
+37-1	4453-4455	Ia	_	_	_	_	_
+37-2	4456-4463	dikenal	_	_	_	_	_
+37-3	4464-4471	sebagai	_	_	_	_	_
+37-4	4472-4480	kolektor	_	_	_	_	_
+37-5	4481-4487	barang	_	_	_	_	_
+37-6	4488-4492	seni	_	_	_	_	_
+37-7	4493-4496	dan	_	_	_	_	_
+37-8	4497-4502	kerap	_	_	_	_	_
+37-9	4503-4511	mendanai	_	_	_	_	_
+37-10	4512-4519	pameran	_	_	_	_	_
+37-11	4520-4524	seni	_	_	_	_	_
+37-12	4525-4538	internasional	_	_	_	_	_
+37-13	4539-4540	.	_	_	_	_	_
+
+#Text=Untuk memfasilitasi hobi nya , ia bersama sesama kolektor seni Teresa Iarocci Mavica mendirikan organisasi nirlaba VAC Foundation pada 2009 .
+38-1	4542-4547	Untuk	_	_	_	_	_
+38-2	4548-4561	memfasilitasi	_	_	_	_	_
+38-3	4562-4566	hobi	_	_	_	_	_
+38-4	4567-4570	nya	_	_	_	_	_
+38-5	4571-4572	,	_	_	_	_	_
+38-6	4573-4575	ia	_	_	_	_	_
+38-7	4576-4583	bersama	_	_	_	_	_
+38-8	4584-4590	sesama	_	_	_	_	_
+38-9	4591-4599	kolektor	_	_	_	_	_
+38-10	4600-4604	seni	_	_	_	_	_
+38-11	4605-4611	Teresa	_	_	_	_	_
+38-12	4612-4619	Iarocci	_	_	_	_	_
+38-13	4620-4626	Mavica	_	_	_	_	_
+38-14	4627-4637	mendirikan	_	_	_	_	_
+38-15	4638-4648	organisasi	_	_	_	_	_
+38-16	4649-4656	nirlaba	_	_	_	_	_
+38-17	4657-4660	VAC	_	_	_	_	_
+38-18	4661-4671	Foundation	_	_	_	_	_
+38-19	4672-4676	pada	_	_	_	_	_
+38-20	4677-4681	2009	_	_	_	_	_
+38-21	4682-4683	.	_	_	_	_	_
+
+#Text=Yayasan ini mendukung pameran dan proyek seni kontemporer di Rusia dan negara pecahan Uni Soviet .
+39-1	4685-4692	Yayasan	_	_	_	_	_
+39-2	4693-4696	ini	_	_	_	_	_
+39-3	4697-4706	mendukung	_	_	_	_	_
+39-4	4707-4714	pameran	_	_	_	_	_
+39-5	4715-4718	dan	_	_	_	_	_
+39-6	4719-4725	proyek	_	_	_	_	_
+39-7	4726-4730	seni	_	_	_	_	_
+39-8	4731-4742	kontemporer	_	_	_	_	_
+39-9	4743-4745	di	_	_	_	_	_
+39-10	4746-4751	Rusia	_	_	_	_	_
+39-11	4752-4755	dan	_	_	_	_	_
+39-12	4756-4762	negara	_	_	_	_	_
+39-13	4763-4770	pecahan	_	_	_	_	_
+39-14	4771-4774	Uni	_	_	_	_	_
+39-15	4775-4781	Soviet	_	_	_	_	_
+39-16	4782-4783	.	_	_	_	_	_
+
+#Text=Tak hanya seni , Mikhelson juga mensponsori berbagai tim olahraga Rusia .
+40-1	4785-4788	Tak	_	_	_	_	_
+40-2	4789-4794	hanya	_	_	_	_	_
+40-3	4795-4799	seni	_	_	_	_	_
+40-4	4800-4801	,	_	_	_	_	_
+40-5	4802-4811	Mikhelson	_	_	_	_	_
+40-6	4812-4816	juga	_	_	_	_	_
+40-7	4817-4828	mensponsori	_	_	_	_	_
+40-8	4829-4837	berbagai	_	_	_	_	_
+40-9	4838-4841	tim	_	_	_	_	_
+40-10	4842-4850	olahraga	_	_	_	_	_
+40-11	4851-4856	Rusia	_	_	_	_	_
+40-12	4857-4858	.	_	_	_	_	_
+
+#Text=Lewat Novatek , Mikhelson mendukung Serikat Sepakbola Nasional Rusia .
+41-1	4860-4865	Lewat	_	_	_	_	_
+41-2	4866-4873	Novatek	_	_	_	_	_
+41-3	4874-4875	,	_	_	_	_	_
+41-4	4876-4885	Mikhelson	_	_	_	_	_
+41-5	4886-4895	mendukung	_	_	_	_	_
+41-6	4896-4903	Serikat	_	_	_	_	_
+41-7	4904-4913	Sepakbola	_	_	_	_	_
+41-8	4914-4922	Nasional	_	_	_	_	_
+41-9	4923-4928	Rusia	_	_	_	_	_
+41-10	4929-4930	.	_	_	_	_	_
+
+#Text=Kemudian , melalui Sibur , Mikhelson mendanai program bekerja sama dengan NBA untuk mempromosikan bola basket di negara nya .
+42-1	4932-4940	Kemudian	_	_	_	_	_
+42-2	4941-4942	,	_	_	_	_	_
+42-3	4943-4950	melalui	_	_	_	_	_
+42-4	4951-4956	Sibur	_	_	_	_	_
+42-5	4957-4958	,	_	_	_	_	_
+42-6	4959-4968	Mikhelson	_	_	_	_	_
+42-7	4969-4977	mendanai	_	_	_	_	_
+42-8	4978-4985	program	_	_	_	_	_
+42-9	4986-4993	bekerja	_	_	_	_	_
+42-10	4994-4998	sama	_	_	_	_	_
+42-11	4999-5005	dengan	_	_	_	_	_
+42-12	5006-5009	NBA	_	_	_	_	_
+42-13	5010-5015	untuk	_	_	_	_	_
+42-14	5016-5029	mempromosikan	_	_	_	_	_
+42-15	5030-5034	bola	_	_	_	_	_
+42-16	5035-5041	basket	_	_	_	_	_
+42-17	5042-5044	di	_	_	_	_	_
+42-18	5045-5051	negara	_	_	_	_	_
+42-19	5052-5055	nya	_	_	_	_	_
+42-20	5056-5057	.	_	_	_	_	_
+
+#Text=Saat ini Mikhelson tinggal bersama istri dan dua orang anak di kediaman nya di Moskow , Rusia .
+43-1	5059-5063	Saat	_	_	_	_	_
+43-2	5064-5067	ini	_	_	_	_	_
+43-3	5068-5077	Mikhelson	_	_	_	_	_
+43-4	5078-5085	tinggal	_	_	_	_	_
+43-5	5086-5093	bersama	_	_	_	_	_
+43-6	5094-5099	istri	_	_	_	_	_
+43-7	5100-5103	dan	_	_	_	_	_
+43-8	5104-5107	dua	_	_	_	_	_
+43-9	5108-5113	orang	_	_	_	_	_
+43-10	5114-5118	anak	_	_	_	_	_
+43-11	5119-5121	di	_	_	_	_	_
+43-12	5122-5130	kediaman	_	_	_	_	_
+43-13	5131-5134	nya	_	_	_	_	_
+43-14	5135-5137	di	_	_	_	_	_
+43-15	5138-5144	Moskow	_	_	_	_	_
+43-16	5145-5146	,	_	_	_	_	_
+43-17	5147-5152	Rusia	_	_	_	_	_
+43-18	5153-5154	.	_	_	_	_	_
+
+#Text=[ Gambas : Video CNN ]
+44-1	5156-5157	[	_	_	_	_	_
+44-2	5158-5164	Gambas	_	_	_	_	_
+44-3	5165-5166	:	_	_	_	_	_
+44-4	5167-5172	Video	_	_	_	_	_
+44-5	5173-5176	CNN	_	_	_	_	_
+44-6	5177-5178	]	_	_	_	_	_
+

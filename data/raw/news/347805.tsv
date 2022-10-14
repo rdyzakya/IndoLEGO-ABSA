@@ -1,0 +1,594 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Berbagai komoditas mengukir rekor harga baru karena situasi konflik di Ukraina yang memanas .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-35	Berbagai	_	_	_	_	_
+1-7	36-45	komoditas	_	concept[1]	_	_	_
+1-8	46-54	mengukir	_	positive[2]	_	_	_
+1-9	55-60	rekor	_	positive[2]	_	_	_
+1-10	61-66	harga	_	positive[2]|concept[3]	_	_	_
+1-11	67-71	baru	_	positive[2]	_	_	_
+1-12	72-78	karena	_	_	_	_	_
+1-13	79-86	situasi	_	_	_	_	_
+1-14	87-94	konflik	_	_	_	_	_
+1-15	95-97	di	_	_	_	_	_
+1-16	98-105	Ukraina	_	_	_	_	_
+1-17	106-110	yang	_	_	_	_	_
+1-18	111-118	memanas	_	_	_	_	_
+1-19	119-120	.	_	_	_	_	_
+
+#Text=Komoditas energi yang jadi andalan Rusia seperti minyak , batu bara , dan gas terus melaju memecahkan rekor sebelumnya karena kekhawatiran pasokan yang akan semakin langka .
+2-1	122-131	Komoditas	_	concept[4]	_	_	_
+2-2	132-138	energi	_	concept[4]	_	_	_
+2-3	139-143	yang	_	_	_	_	_
+2-4	144-148	jadi	_	_	_	_	_
+2-5	149-156	andalan	*	positive[5]|[8_5]	_	_	_
+2-6	157-162	Rusia	_	_	_	_	_
+2-7	163-170	seperti	_	_	_	_	_
+2-8	171-177	minyak	_	concept[6]	_	_	_
+2-9	178-179	,	_	_	_	_	_
+2-10	180-184	batu	_	concept[7]	_	_	_
+2-11	185-189	bara	_	concept[7]	_	_	_
+2-12	190-191	,	_	_	_	_	_
+2-13	192-195	dan	_	_	_	_	_
+2-14	196-199	gas	_	concept[8]	_	_	_
+2-15	200-205	terus	_	_	_	_	_
+2-16	206-212	melaju	*	[6_9]|positive[9]	_	_	_
+2-17	213-223	memecahkan	_	_	_	_	_
+2-18	224-229	rekor	_	_	_	_	_
+2-19	230-240	sebelumnya	_	_	_	_	_
+2-20	241-247	karena	_	_	_	_	_
+2-21	248-260	kekhawatiran	_	_	_	_	_
+2-22	261-268	pasokan	_	_	_	_	_
+2-23	269-273	yang	_	_	_	_	_
+2-24	274-278	akan	_	_	_	_	_
+2-25	279-286	semakin	_	_	_	_	_
+2-26	287-293	langka	_	_	_	_	_
+2-27	294-295	.	_	_	_	_	_
+
+#Text=Sementara komoditas pertanian seperti gandum , kedelai , dan CPO turut tersengat karena mahal nya harga komoditas energi .
+3-1	297-306	Sementara	_	_	_	_	_
+3-2	307-316	komoditas	_	_	_	_	_
+3-3	317-326	pertanian	_	_	_	_	_
+3-4	327-334	seperti	_	_	_	_	_
+3-5	335-341	gandum	_	concept[10]	_	_	_
+3-6	342-343	,	_	_	_	_	_
+3-7	344-351	kedelai	_	concept[11]	_	_	_
+3-8	352-353	,	_	_	_	_	_
+3-9	354-357	dan	_	_	_	_	_
+3-10	358-361	CPO	_	concept[12]	_	_	_
+3-11	362-367	turut	_	_	_	_	_
+3-12	368-377	tersengat	*|*	[10_13]|[11_13]|negative[13]	_	_	_
+3-13	378-384	karena	_	_	_	_	_
+3-14	385-390	mahal	_	negative[14]	_	_	_
+3-15	391-394	nya	_	negative[14]	_	_	_
+3-16	395-400	harga	_	concept[15]	_	_	_
+3-17	401-410	komoditas	_	concept[15]	_	_	_
+3-18	411-417	energi	_	concept[15]	_	_	_
+3-19	418-419	.	_	_	_	_	_
+
+#Text=Selain itu , komoditas logam baik dasar maupun mulia pun ikut menguat .
+4-1	421-427	Selain	_	_	_	_	_
+4-2	428-431	itu	_	_	_	_	_
+4-3	432-433	,	_	_	_	_	_
+4-4	434-443	komoditas	_	concept[16]	_	_	_
+4-5	444-449	logam	_	concept[16]	_	_	_
+4-6	450-454	baik	_	_	_	_	_
+4-7	455-460	dasar	_	_	_	_	_
+4-8	461-467	maupun	_	_	_	_	_
+4-9	468-473	mulia	_	_	_	_	_
+4-10	474-477	pun	_	_	_	_	_
+4-11	478-482	ikut	_	positive[17]	_	_	_
+4-12	483-490	menguat	_	positive[17]	_	_	_
+4-13	491-492	.	_	_	_	_	_
+
+#Text=Harga nikel mencapai rekor tertinggi sejak satu dekade .
+5-1	494-499	Harga	_	concept[18]	_	_	_
+5-2	500-505	nikel	_	concept[18]	_	_	_
+5-3	506-514	mencapai	_	negative[19]	_	_	_
+5-4	515-520	rekor	_	negative[19]	_	_	_
+5-5	521-530	tertinggi	_	negative[19]	_	_	_
+5-6	531-536	sejak	_	_	_	_	_
+5-7	537-541	satu	_	_	_	_	_
+5-8	542-548	dekade	_	_	_	_	_
+5-9	549-550	.	_	_	_	_	_
+
+#Text=Kemudian logam mulia yaitu emas dan perak menguat karena investor memilih safe haven untuk mengamankan nilai aset nya .
+6-1	552-560	Kemudian	_	_	_	_	_
+6-2	561-566	logam	_	_	_	_	_
+6-3	567-572	mulia	_	_	_	_	_
+6-4	573-578	yaitu	_	_	_	_	_
+6-5	579-583	emas	_	concept[20]	_	_	_
+6-6	584-587	dan	_	_	_	_	_
+6-7	588-593	perak	_	concept[21]	_	_	_
+6-8	594-601	menguat	*	[20_22]|positive[22]	_	_	_
+6-9	602-608	karena	_	_	_	_	_
+6-10	609-617	investor	_	_	_	_	_
+6-11	618-625	memilih	_	_	_	_	_
+6-12	626-630	safe	_	_	_	_	_
+6-13	631-636	haven	_	_	_	_	_
+6-14	637-642	untuk	_	_	_	_	_
+6-15	643-654	mengamankan	_	_	_	_	_
+6-16	655-660	nilai	_	_	_	_	_
+6-17	661-665	aset	_	_	_	_	_
+6-18	666-669	nya	_	_	_	_	_
+6-19	670-671	.	_	_	_	_	_
+
+#Text=Berikut perkembangan harga komoditas dunia yang telah dihimpun tim riset CNBC Indonesia : Minyak Mentah Tak hanya gas alam , harga minyak mentah dunia pun melesat hingga di atas US$ 110 / barel .
+7-1	673-680	Berikut	_	_	_	_	_
+7-2	681-693	perkembangan	_	_	_	_	_
+7-3	694-699	harga	_	_	_	_	_
+7-4	700-709	komoditas	_	_	_	_	_
+7-5	710-715	dunia	_	_	_	_	_
+7-6	716-720	yang	_	_	_	_	_
+7-7	721-726	telah	_	_	_	_	_
+7-8	727-735	dihimpun	_	_	_	_	_
+7-9	736-739	tim	_	_	_	_	_
+7-10	740-745	riset	_	_	_	_	_
+7-11	746-750	CNBC	_	_	_	_	_
+7-12	751-760	Indonesia	_	_	_	_	_
+7-13	761-762	:	_	_	_	_	_
+7-14	763-769	Minyak	_	_	_	_	_
+7-15	770-776	Mentah	_	_	_	_	_
+7-16	777-780	Tak	_	_	_	_	_
+7-17	781-786	hanya	_	_	_	_	_
+7-18	787-790	gas	_	_	_	_	_
+7-19	791-795	alam	_	_	_	_	_
+7-20	796-797	,	_	_	_	_	_
+7-21	798-803	harga	_	concept[23]	_	_	_
+7-22	804-810	minyak	_	concept[23]	_	_	_
+7-23	811-817	mentah	_	concept[23]	_	_	_
+7-24	818-823	dunia	_	concept[23]	_	_	_
+7-25	824-827	pun	_	_	_	_	_
+7-26	828-835	melesat	*	[23_24]|negative[24]	_	_	_
+7-27	836-842	hingga	_	_	_	_	_
+7-28	843-845	di	_	_	_	_	_
+7-29	846-850	atas	_	_	_	_	_
+7-30	851-854	US$	_	_	_	_	_
+7-31	855-858	110	_	_	_	_	_
+7-32	859-860	/	_	_	_	_	_
+7-33	861-866	barel	_	_	_	_	_
+7-34	867-868	.	_	_	_	_	_
+
+#Text=Pada Rabu ( 2 / 3 / 2022 ) pukul 14:30 WIB , harga minyak jenis brent berada di US$ 111,40 / barel .
+8-1	870-874	Pada	_	_	_	_	_
+8-2	875-879	Rabu	_	_	_	_	_
+8-3	880-881	(	_	_	_	_	_
+8-4	882-883	2	_	_	_	_	_
+8-5	884-885	/	_	_	_	_	_
+8-6	886-887	3	_	_	_	_	_
+8-7	888-889	/	_	_	_	_	_
+8-8	890-894	2022	_	_	_	_	_
+8-9	895-896	)	_	_	_	_	_
+8-10	897-902	pukul	_	_	_	_	_
+8-11	903-908	14:30	_	_	_	_	_
+8-12	909-912	WIB	_	_	_	_	_
+8-13	913-914	,	_	_	_	_	_
+8-14	915-920	harga	_	_	_	_	_
+8-15	921-927	minyak	_	_	_	_	_
+8-16	928-933	jenis	_	_	_	_	_
+8-17	934-939	brent	_	_	_	_	_
+8-18	940-946	berada	_	_	_	_	_
+8-19	947-949	di	_	_	_	_	_
+8-20	950-953	US$	_	_	_	_	_
+8-21	954-960	111,40	_	_	_	_	_
+8-22	961-962	/	_	_	_	_	_
+8-23	963-968	barel	_	_	_	_	_
+8-24	969-970	.	_	_	_	_	_
+
+#Text=Melonjak 6,13 % dan menjadi rekor tertinggi sejak Juli 2014 .
+9-1	972-980	Melonjak	_	_	_	_	_
+9-2	981-985	6,13	_	_	_	_	_
+9-3	986-987	%	_	_	_	_	_
+9-4	988-991	dan	_	_	_	_	_
+9-5	992-999	menjadi	_	_	_	_	_
+9-6	1000-1005	rekor	_	_	_	_	_
+9-7	1006-1015	tertinggi	_	_	_	_	_
+9-8	1016-1021	sejak	_	_	_	_	_
+9-9	1022-1026	Juli	_	_	_	_	_
+9-10	1027-1031	2014	_	_	_	_	_
+9-11	1032-1033	.	_	_	_	_	_
+
+#Text=Sementara yang jenis light sweet atau West Texas Intermediate ( WTI ) harga nya US$ 109,82 / barel .
+10-1	1035-1044	Sementara	_	_	_	_	_
+10-2	1045-1049	yang	_	_	_	_	_
+10-3	1050-1055	jenis	_	_	_	_	_
+10-4	1056-1061	light	_	_	_	_	_
+10-5	1062-1067	sweet	_	_	_	_	_
+10-6	1068-1072	atau	_	_	_	_	_
+10-7	1073-1077	West	_	_	_	_	_
+10-8	1078-1083	Texas	_	_	_	_	_
+10-9	1084-1096	Intermediate	_	_	_	_	_
+10-10	1097-1098	(	_	_	_	_	_
+10-11	1099-1102	WTI	_	_	_	_	_
+10-12	1103-1104	)	_	_	_	_	_
+10-13	1105-1110	harga	_	_	_	_	_
+10-14	1111-1114	nya	_	_	_	_	_
+10-15	1115-1118	US$	_	_	_	_	_
+10-16	1119-1125	109,82	_	_	_	_	_
+10-17	1126-1127	/	_	_	_	_	_
+10-18	1128-1133	barel	_	_	_	_	_
+10-19	1134-1135	.	_	_	_	_	_
+
+#Text=Melesat 6,41 % dan merupakan yang termahal sejak April 2011 .
+11-1	1137-1144	Melesat	_	_	_	_	_
+11-2	1145-1149	6,41	_	_	_	_	_
+11-3	1150-1151	%	_	_	_	_	_
+11-4	1152-1155	dan	_	_	_	_	_
+11-5	1156-1165	merupakan	_	_	_	_	_
+11-6	1166-1170	yang	_	_	_	_	_
+11-7	1171-1179	termahal	_	_	_	_	_
+11-8	1180-1185	sejak	_	_	_	_	_
+11-9	1186-1191	April	_	_	_	_	_
+11-10	1192-1196	2011	_	_	_	_	_
+11-11	1197-1198	.	_	_	_	_	_
+
+#Text=Kenaikan ini membawa kinerja minyak mentah dunia sejak awal tahun 2022 mencapai 47 % .
+12-1	1200-1208	Kenaikan	*	positive[25]|[26_25]	_	_	_
+12-2	1209-1212	ini	_	_	_	_	_
+12-3	1213-1220	membawa	_	_	_	_	_
+12-4	1221-1228	kinerja	_	concept[26]	_	_	_
+12-5	1229-1235	minyak	_	concept[26]	_	_	_
+12-6	1236-1242	mentah	_	concept[26]	_	_	_
+12-7	1243-1248	dunia	_	concept[26]	_	_	_
+12-8	1249-1254	sejak	_	_	_	_	_
+12-9	1255-1259	awal	_	_	_	_	_
+12-10	1260-1265	tahun	_	_	_	_	_
+12-11	1266-1270	2022	_	_	_	_	_
+12-12	1271-1279	mencapai	_	_	_	_	_
+12-13	1280-1282	47	_	_	_	_	_
+12-14	1283-1284	%	_	_	_	_	_
+12-15	1285-1286	.	_	_	_	_	_
+
+#Text=Kecemasan investor terhadap pasokan akibat konflik menjadi booster bagi laju harga minyak dunia .
+13-1	1288-1297	Kecemasan	_	_	_	_	_
+13-2	1298-1306	investor	_	_	_	_	_
+13-3	1307-1315	terhadap	_	_	_	_	_
+13-4	1316-1323	pasokan	_	_	_	_	_
+13-5	1324-1330	akibat	_	_	_	_	_
+13-6	1331-1338	konflik	_	_	_	_	_
+13-7	1339-1346	menjadi	_	_	_	_	_
+13-8	1347-1354	booster	_	_	_	_	_
+13-9	1355-1359	bagi	_	_	_	_	_
+13-10	1360-1364	laju	_	_	_	_	_
+13-11	1365-1370	harga	_	_	_	_	_
+13-12	1371-1377	minyak	_	_	_	_	_
+13-13	1378-1383	dunia	_	_	_	_	_
+13-14	1384-1385	.	_	_	_	_	_
+
+#Text=Hukuman yang diterima oleh Rusia diperkirakan bisa menghambat ekspor minyak Rusia .
+14-1	1387-1394	Hukuman	_	_	_	_	_
+14-2	1395-1399	yang	_	_	_	_	_
+14-3	1400-1408	diterima	_	_	_	_	_
+14-4	1409-1413	oleh	_	_	_	_	_
+14-5	1414-1419	Rusia	_	_	_	_	_
+14-6	1420-1432	diperkirakan	_	_	_	_	_
+14-7	1433-1437	bisa	_	_	_	_	_
+14-8	1438-1448	menghambat	_	_	_	_	_
+14-9	1449-1455	ekspor	_	_	_	_	_
+14-10	1456-1462	minyak	_	_	_	_	_
+14-11	1463-1468	Rusia	_	_	_	_	_
+14-12	1469-1470	.	_	_	_	_	_
+
+#Text=Pasalnya Rusia adalah negara nomor empat eksportir terbesar minyak mentah di dunia dengan pangsa pasar 11,4 % terhadap total pasokan minyak dengan rata-rata ekspor 8 juta barel per hari ( bph ) selama sepuluh tahun terakhir , mengutip data BP Statistic .
+15-1	1472-1480	Pasalnya	_	_	_	_	_
+15-2	1481-1486	Rusia	_	concept[27]	_	_	_
+15-3	1487-1493	adalah	_	_	_	_	_
+15-4	1494-1500	negara	_	_	_	_	_
+15-5	1501-1506	nomor	*	[27_28]|positive[28]	_	_	_
+15-6	1507-1512	empat	_	positive[28]	_	_	_
+15-7	1513-1522	eksportir	_	_	_	_	_
+15-8	1523-1531	terbesar	_	_	_	_	_
+15-9	1532-1538	minyak	_	_	_	_	_
+15-10	1539-1545	mentah	_	_	_	_	_
+15-11	1546-1548	di	_	_	_	_	_
+15-12	1549-1554	dunia	_	_	_	_	_
+15-13	1555-1561	dengan	_	_	_	_	_
+15-14	1562-1568	pangsa	_	_	_	_	_
+15-15	1569-1574	pasar	_	_	_	_	_
+15-16	1575-1579	11,4	_	_	_	_	_
+15-17	1580-1581	%	_	_	_	_	_
+15-18	1582-1590	terhadap	_	_	_	_	_
+15-19	1591-1596	total	_	_	_	_	_
+15-20	1597-1604	pasokan	_	_	_	_	_
+15-21	1605-1611	minyak	_	_	_	_	_
+15-22	1612-1618	dengan	_	_	_	_	_
+15-23	1619-1628	rata-rata	_	_	_	_	_
+15-24	1629-1635	ekspor	_	_	_	_	_
+15-25	1636-1637	8	_	_	_	_	_
+15-26	1638-1642	juta	_	_	_	_	_
+15-27	1643-1648	barel	_	_	_	_	_
+15-28	1649-1652	per	_	_	_	_	_
+15-29	1653-1657	hari	_	_	_	_	_
+15-30	1658-1659	(	_	_	_	_	_
+15-31	1660-1663	bph	_	_	_	_	_
+15-32	1664-1665	)	_	_	_	_	_
+15-33	1666-1672	selama	_	_	_	_	_
+15-34	1673-1680	sepuluh	_	_	_	_	_
+15-35	1681-1686	tahun	_	_	_	_	_
+15-36	1687-1695	terakhir	_	_	_	_	_
+15-37	1696-1697	,	_	_	_	_	_
+15-38	1698-1706	mengutip	_	_	_	_	_
+15-39	1707-1711	data	_	_	_	_	_
+15-40	1712-1714	BP	_	_	_	_	_
+15-41	1715-1724	Statistic	_	_	_	_	_
+15-42	1725-1726	.	_	_	_	_	_
+
+#Text=Paling banyak ekspor minyak Rusia ke Eropa .
+16-1	1728-1734	Paling	*	positive[29]|[30_29]	_	_	_
+16-2	1735-1741	banyak	_	positive[29]	_	_	_
+16-3	1742-1748	ekspor	_	concept[30]	_	_	_
+16-4	1749-1755	minyak	_	concept[30]	_	_	_
+16-5	1756-1761	Rusia	_	concept[30]	_	_	_
+16-6	1762-1764	ke	_	_	_	_	_
+16-7	1765-1770	Eropa	_	_	_	_	_
+16-8	1771-1772	.	_	_	_	_	_
+
+#Text=Besaran nya adalah 138,2 juta ton pada tahun 2020 .
+17-1	1774-1781	Besaran	_	_	_	_	_
+17-2	1782-1785	nya	_	_	_	_	_
+17-3	1786-1792	adalah	_	_	_	_	_
+17-4	1793-1798	138,2	_	_	_	_	_
+17-5	1799-1803	juta	_	_	_	_	_
+17-6	1804-1807	ton	_	_	_	_	_
+17-7	1808-1812	pada	_	_	_	_	_
+17-8	1813-1818	tahun	_	_	_	_	_
+17-9	1819-1823	2020	_	_	_	_	_
+17-10	1824-1825	.	_	_	_	_	_
+
+#Text=Jumlah ini setara 29 % total impor minyak Eropa yaitu 475,9 juta ton setahun .
+18-1	1827-1833	Jumlah	_	_	_	_	_
+18-2	1834-1837	ini	_	_	_	_	_
+18-3	1838-1844	setara	_	_	_	_	_
+18-4	1845-1847	29	_	_	_	_	_
+18-5	1848-1849	%	_	_	_	_	_
+18-6	1850-1855	total	_	_	_	_	_
+18-7	1856-1861	impor	_	_	_	_	_
+18-8	1862-1868	minyak	_	_	_	_	_
+18-9	1869-1874	Eropa	_	_	_	_	_
+18-10	1875-1880	yaitu	_	_	_	_	_
+18-11	1881-1886	475,9	_	_	_	_	_
+18-12	1887-1891	juta	_	_	_	_	_
+18-13	1892-1895	ton	_	_	_	_	_
+18-14	1896-1903	setahun	_	_	_	_	_
+18-15	1904-1905	.	_	_	_	_	_
+
+#Text=Gas Alam Rusia adalah raja gas alam dunia .
+19-1	1907-1910	Gas	_	concept[31]	_	_	_
+19-2	1911-1915	Alam	_	concept[31]	_	_	_
+19-3	1916-1921	Rusia	_	concept[31]	_	_	_
+19-4	1922-1928	adalah	_	_	_	_	_
+19-5	1929-1933	raja	*	[31_32]|positive[32]	_	_	_
+19-6	1934-1937	gas	_	positive[32]	_	_	_
+19-7	1938-1942	alam	_	positive[32]	_	_	_
+19-8	1943-1948	dunia	_	positive[32]	_	_	_
+19-9	1949-1950	.	_	_	_	_	_
+
+#Text=Jika Rusia tidak bisa memenuhi kebutuhan dunia akan minyak dan gas akibat perang , maka pasokan dunia bisa langka .
+20-1	1952-1956	Jika	_	_	_	_	_
+20-2	1957-1962	Rusia	_	_	_	_	_
+20-3	1963-1968	tidak	_	_	_	_	_
+20-4	1969-1973	bisa	_	_	_	_	_
+20-5	1974-1982	memenuhi	_	_	_	_	_
+20-6	1983-1992	kebutuhan	_	_	_	_	_
+20-7	1993-1998	dunia	_	_	_	_	_
+20-8	1999-2003	akan	_	_	_	_	_
+20-9	2004-2010	minyak	_	_	_	_	_
+20-10	2011-2014	dan	_	_	_	_	_
+20-11	2015-2018	gas	_	_	_	_	_
+20-12	2019-2025	akibat	_	_	_	_	_
+20-13	2026-2032	perang	_	_	_	_	_
+20-14	2033-2034	,	_	_	_	_	_
+20-15	2035-2039	maka	_	_	_	_	_
+20-16	2040-2047	pasokan	_	_	_	_	_
+20-17	2048-2053	dunia	_	_	_	_	_
+20-18	2054-2058	bisa	_	_	_	_	_
+20-19	2059-2065	langka	_	_	_	_	_
+20-20	2066-2067	.	_	_	_	_	_
+
+#Text=Sebab Rusia memegang peran strategis terhadap ketersediaan migas dunia .
+21-1	2069-2074	Sebab	_	_	_	_	_
+21-2	2075-2080	Rusia	_	concept[33]	_	_	_
+21-3	2081-2089	memegang	*	[33_34]|positive[34]	_	_	_
+21-4	2090-2095	peran	_	positive[34]	_	_	_
+21-5	2096-2105	strategis	_	positive[34]	_	_	_
+21-6	2106-2114	terhadap	_	_	_	_	_
+21-7	2115-2127	ketersediaan	_	_	_	_	_
+21-8	2128-2133	migas	_	_	_	_	_
+21-9	2134-2139	dunia	_	_	_	_	_
+21-10	2140-2141	.	_	_	_	_	_
+
+#Text=Rusia terancam tidak bisa ekspor gas alam karena hukuman SWIFT membuat harga gas alam menguat .
+22-1	2143-2148	Rusia	_	_	_	_	_
+22-2	2149-2157	terancam	_	_	_	_	_
+22-3	2158-2163	tidak	_	_	_	_	_
+22-4	2164-2168	bisa	_	_	_	_	_
+22-5	2169-2175	ekspor	_	_	_	_	_
+22-6	2176-2179	gas	_	_	_	_	_
+22-7	2180-2184	alam	_	_	_	_	_
+22-8	2185-2191	karena	_	_	_	_	_
+22-9	2192-2199	hukuman	_	_	_	_	_
+22-10	2200-2205	SWIFT	_	_	_	_	_
+22-11	2206-2213	membuat	_	_	_	_	_
+22-12	2214-2219	harga	_	concept[35]	_	_	_
+22-13	2220-2223	gas	_	concept[35]	_	_	_
+22-14	2224-2228	alam	_	concept[35]	_	_	_
+22-15	2229-2236	menguat	*	[35_36]|negative[36]	_	_	_
+22-16	2237-2238	.	_	_	_	_	_
+
+#Text=Pada Rabu ( 2 / 3 / 2022 ) pukul 14:30 WIB , harga minyak jenis brent berada di US$ 4,67 / MMBtu .
+23-1	2240-2244	Pada	_	_	_	_	_
+23-2	2245-2249	Rabu	_	_	_	_	_
+23-3	2250-2251	(	_	_	_	_	_
+23-4	2252-2253	2	_	_	_	_	_
+23-5	2254-2255	/	_	_	_	_	_
+23-6	2256-2257	3	_	_	_	_	_
+23-7	2258-2259	/	_	_	_	_	_
+23-8	2260-2264	2022	_	_	_	_	_
+23-9	2265-2266	)	_	_	_	_	_
+23-10	2267-2272	pukul	_	_	_	_	_
+23-11	2273-2278	14:30	_	_	_	_	_
+23-12	2279-2282	WIB	_	_	_	_	_
+23-13	2283-2284	,	_	_	_	_	_
+23-14	2285-2290	harga	_	_	_	_	_
+23-15	2291-2297	minyak	_	_	_	_	_
+23-16	2298-2303	jenis	_	_	_	_	_
+23-17	2304-2309	brent	_	_	_	_	_
+23-18	2310-2316	berada	_	_	_	_	_
+23-19	2317-2319	di	_	_	_	_	_
+23-20	2320-2323	US$	_	_	_	_	_
+23-21	2324-2328	4,67	_	_	_	_	_
+23-22	2329-2330	/	_	_	_	_	_
+23-23	2331-2336	MMBtu	_	_	_	_	_
+23-24	2337-2338	.	_	_	_	_	_
+
+#Text=Melonjak 1,65 % .
+24-1	2340-2348	Melonjak	_	_	_	_	_
+24-2	2349-2353	1,65	_	_	_	_	_
+24-3	2354-2355	%	_	_	_	_	_
+24-4	2356-2357	.	_	_	_	_	_
+
+#Text=Sepanjang 2022 , harga gas alam dunia melonjak 25,34 % .
+25-1	2359-2368	Sepanjang	_	_	_	_	_
+25-2	2369-2373	2022	_	_	_	_	_
+25-3	2374-2375	,	_	_	_	_	_
+25-4	2376-2381	harga	_	concept[37]	_	_	_
+25-5	2382-2385	gas	_	concept[37]	_	_	_
+25-6	2386-2390	alam	_	concept[37]	_	_	_
+25-7	2391-2396	dunia	_	concept[37]	_	_	_
+25-8	2397-2405	melonjak	*	[37_38]|negative[38]	_	_	_
+25-9	2406-2411	25,34	_	_	_	_	_
+25-10	2412-2413	%	_	_	_	_	_
+25-11	2414-2415	.	_	_	_	_	_
+
+#Text=Menurut BP Statistics Review , seperempat lebih kebutuhan gas dunia dipasok oleh Rusia .
+26-1	2417-2424	Menurut	_	_	_	_	_
+26-2	2425-2427	BP	_	_	_	_	_
+26-3	2428-2438	Statistics	_	_	_	_	_
+26-4	2439-2445	Review	_	_	_	_	_
+26-5	2446-2447	,	_	_	_	_	_
+26-6	2448-2458	seperempat	_	_	_	_	_
+26-7	2459-2464	lebih	_	_	_	_	_
+26-8	2465-2474	kebutuhan	_	_	_	_	_
+26-9	2475-2478	gas	_	_	_	_	_
+26-10	2479-2484	dunia	_	_	_	_	_
+26-11	2485-2492	dipasok	_	_	_	_	_
+26-12	2493-2497	oleh	_	_	_	_	_
+26-13	2498-2503	Rusia	_	_	_	_	_
+26-14	2504-2505	.	_	_	_	_	_
+
+#Text=Tepat nya , Rusia memiliki 26,2 % pangsa ekspor di seluruh dunia dengan jumlah 197,7 miliar meter kubik .
+27-1	2507-2512	Tepat	_	_	_	_	_
+27-2	2513-2516	nya	_	_	_	_	_
+27-3	2517-2518	,	_	_	_	_	_
+27-4	2519-2524	Rusia	_	_	_	_	_
+27-5	2525-2533	memiliki	_	_	_	_	_
+27-6	2534-2538	26,2	_	_	_	_	_
+27-7	2539-2540	%	_	_	_	_	_
+27-8	2541-2547	pangsa	_	_	_	_	_
+27-9	2548-2554	ekspor	_	_	_	_	_
+27-10	2555-2557	di	_	_	_	_	_
+27-11	2558-2565	seluruh	_	_	_	_	_
+27-12	2566-2571	dunia	_	_	_	_	_
+27-13	2572-2578	dengan	_	_	_	_	_
+27-14	2579-2585	jumlah	_	_	_	_	_
+27-15	2586-2591	197,7	_	_	_	_	_
+27-16	2592-2598	miliar	_	_	_	_	_
+27-17	2599-2604	meter	_	_	_	_	_
+27-18	2605-2610	kubik	_	_	_	_	_
+27-19	2611-2612	.	_	_	_	_	_
+
+#Text=Rusia adalah produsen gas alam terbesar kedua di dunia dengan kontribusi mencapai 16,6 % produksi gas alam pada tahun 2020 dengan jumlah 638,5 miliar meter kubik .
+28-1	2614-2619	Rusia	_	_	_	_	_
+28-2	2620-2626	adalah	_	_	_	_	_
+28-3	2627-2635	produsen	_	_	_	_	_
+28-4	2636-2639	gas	_	_	_	_	_
+28-5	2640-2644	alam	_	_	_	_	_
+28-6	2645-2653	terbesar	_	_	_	_	_
+28-7	2654-2659	kedua	_	_	_	_	_
+28-8	2660-2662	di	_	_	_	_	_
+28-9	2663-2668	dunia	_	_	_	_	_
+28-10	2669-2675	dengan	_	_	_	_	_
+28-11	2676-2686	kontribusi	_	_	_	_	_
+28-12	2687-2695	mencapai	_	_	_	_	_
+28-13	2696-2700	16,6	_	_	_	_	_
+28-14	2701-2702	%	_	_	_	_	_
+28-15	2703-2711	produksi	_	_	_	_	_
+28-16	2712-2715	gas	_	_	_	_	_
+28-17	2716-2720	alam	_	_	_	_	_
+28-18	2721-2725	pada	_	_	_	_	_
+28-19	2726-2731	tahun	_	_	_	_	_
+28-20	2732-2736	2020	_	_	_	_	_
+28-21	2737-2743	dengan	_	_	_	_	_
+28-22	2744-2750	jumlah	_	_	_	_	_
+28-23	2751-2756	638,5	_	_	_	_	_
+28-24	2757-2763	miliar	_	_	_	_	_
+28-25	2764-2769	meter	_	_	_	_	_
+28-26	2770-2775	kubik	_	_	_	_	_
+28-27	2776-2777	.	_	_	_	_	_
+
+#Text=Cadangan nya mencapai 1.320,5 miliar meter kubik , setara dengan 19,9 % cadangan dunia .
+29-1	2779-2787	Cadangan	_	_	_	_	_
+29-2	2788-2791	nya	_	_	_	_	_
+29-3	2792-2800	mencapai	_	_	_	_	_
+29-4	2801-2808	1.320,5	_	_	_	_	_
+29-5	2809-2815	miliar	_	_	_	_	_
+29-6	2816-2821	meter	_	_	_	_	_
+29-7	2822-2827	kubik	_	_	_	_	_
+29-8	2828-2829	,	_	_	_	_	_
+29-9	2830-2836	setara	_	_	_	_	_
+29-10	2837-2843	dengan	_	_	_	_	_
+29-11	2844-2848	19,9	_	_	_	_	_
+29-12	2849-2850	%	_	_	_	_	_
+29-13	2851-2859	cadangan	_	_	_	_	_
+29-14	2860-2865	dunia	_	_	_	_	_
+29-15	2866-2867	.	_	_	_	_	_
+
+#Text=Gas Rusia banyak mengalir ke Eropa dengan besaran 167,7 miliar meter kubik pada tahun 2020 .
+30-1	2869-2872	Gas	_	_	_	_	_
+30-2	2873-2878	Rusia	_	_	_	_	_
+30-3	2879-2885	banyak	_	_	_	_	_
+30-4	2886-2894	mengalir	_	_	_	_	_
+30-5	2895-2897	ke	_	_	_	_	_
+30-6	2898-2903	Eropa	_	_	_	_	_
+30-7	2904-2910	dengan	_	_	_	_	_
+30-8	2911-2918	besaran	_	_	_	_	_
+30-9	2919-2924	167,7	_	_	_	_	_
+30-10	2925-2931	miliar	_	_	_	_	_
+30-11	2932-2937	meter	_	_	_	_	_
+30-12	2938-2943	kubik	_	_	_	_	_
+30-13	2944-2948	pada	_	_	_	_	_
+30-14	2949-2954	tahun	_	_	_	_	_
+30-15	2955-2959	2020	_	_	_	_	_
+30-16	2960-2961	.	_	_	_	_	_
+
+#Text=Jumlah ini setara 37,5 % total impor gas alam Eropa .
+31-1	2963-2969	Jumlah	_	_	_	_	_
+31-2	2970-2973	ini	_	_	_	_	_
+31-3	2974-2980	setara	_	_	_	_	_
+31-4	2981-2985	37,5	_	_	_	_	_
+31-5	2986-2987	%	_	_	_	_	_
+31-6	2988-2993	total	_	_	_	_	_
+31-7	2994-2999	impor	_	_	_	_	_
+31-8	3000-3003	gas	_	_	_	_	_
+31-9	3004-3008	alam	_	_	_	_	_
+31-10	3009-3014	Eropa	_	_	_	_	_
+31-11	3015-3016	.	_	_	_	_	_
+
+#Text=Halaman Selanjutnya -- > Energi Alternatif : Batu Bara dan CPO
+32-1	3018-3025	Halaman	_	_	_	_	_
+32-2	3026-3037	Selanjutnya	_	_	_	_	_
+32-3	3038-3040	--	_	_	_	_	_
+32-4	3041-3042	>	_	_	_	_	_
+32-5	3043-3049	Energi	_	_	_	_	_
+32-6	3050-3060	Alternatif	_	_	_	_	_
+32-7	3061-3062	:	_	_	_	_	_
+32-8	3063-3067	Batu	_	_	_	_	_
+32-9	3068-3072	Bara	_	_	_	_	_
+32-10	3073-3076	dan	_	_	_	_	_
+32-11	3077-3080	CPO	_	_	_	_	_
+

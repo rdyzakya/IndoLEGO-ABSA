@@ -1,0 +1,477 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=halo selamat siang
+1-1	0-4	halo	_	_	_	_	_
+1-2	5-12	selamat	_	_	_	_	_
+1-3	13-18	siang	_	_	_	_	_
+
+#Text=sore sore
+2-1	20-24	sore	_	_	_	_	_
+2-2	25-29	sore	_	_	_	_	_
+
+#Text=< mat > siang
+3-1	31-32	<	_	_	_	_	_
+3-2	33-36	mat	_	_	_	_	_
+3-3	37-38	>	_	_	_	_	_
+3-4	39-44	siang	_	_	_	_	_
+
+#Text=iya < heeh >
+4-1	46-49	iya	_	_	_	_	_
+4-2	50-51	<	_	_	_	_	_
+4-3	52-56	heeh	_	_	_	_	_
+4-4	57-58	>	_	_	_	_	_
+
+#Text=< oh > iya halo selamat sore ibu mohon maaf iya
+5-1	60-61	<	_	_	_	_	_
+5-2	62-64	oh	_	_	_	_	_
+5-3	65-66	>	_	_	_	_	_
+5-4	67-70	iya	_	_	_	_	_
+5-5	71-75	halo	_	_	_	_	_
+5-6	76-83	selamat	_	_	_	_	_
+5-7	84-88	sore	_	_	_	_	_
+5-8	89-92	ibu	_	_	_	_	_
+5-9	93-98	mohon	_	_	_	_	_
+5-10	99-103	maaf	_	_	_	_	_
+5-11	104-107	iya	_	_	_	_	_
+
+#Text=maksud nya
+6-1	109-115	maksud	_	_	_	_	_
+6-2	116-119	nya	_	_	_	_	_
+
+#Text=saya vita bu dari pusat gadai indonesia
+7-1	121-125	saya	_	_	_	_	_
+7-2	126-130	vita	_	_	_	_	_
+7-3	131-133	bu	_	_	_	_	_
+7-4	134-138	dari	_	_	_	_	_
+7-5	139-144	pusat	_	concept[1]	_	_	_
+7-6	145-150	gadai	_	concept[1]	_	_	_
+7-7	151-160	indonesia	_	concept[1]	_	_	_
+
+#Text=kan tanggal setiap tanggal dua tujuh saya bayar
+8-1	162-165	kan	_	_	_	_	_
+8-2	166-173	tanggal	_	_	_	_	_
+8-3	174-180	setiap	_	_	_	_	_
+8-4	181-188	tanggal	_	_	_	_	_
+8-5	189-192	dua	_	_	_	_	_
+8-6	193-198	tujuh	_	_	_	_	_
+8-7	199-203	saya	_	_	_	_	_
+8-8	204-209	bayar	_	_	_	_	_
+
+#Text=dengan ibu niwayan supriti iya
+9-1	211-217	dengan	_	_	_	_	_
+9-2	218-221	ibu	_	_	_	_	_
+9-3	222-229	niwayan	_	_	_	_	_
+9-4	230-237	supriti	_	_	_	_	_
+9-5	238-241	iya	_	_	_	_	_
+
+#Text=sambil saya
+10-1	243-249	sambil	_	_	_	_	_
+10-2	250-254	saya	_	_	_	_	_
+
+#Text=iya < e > konfirmasi sebentar bu
+11-1	256-259	iya	_	_	_	_	_
+11-2	260-261	<	_	_	_	_	_
+11-3	262-263	e	_	_	_	_	_
+11-4	264-265	>	_	_	_	_	_
+11-5	266-276	konfirmasi	_	_	_	_	_
+11-6	277-285	sebentar	_	_	_	_	_
+11-7	286-288	bu	_	_	_	_	_
+
+#Text=maksud nya
+12-1	290-296	maksud	_	_	_	_	_
+12-2	297-300	nya	_	_	_	_	_
+
+#Text=ini untuk tagihan ibu kan sudah keterlambatan iya
+13-1	302-305	ini	_	_	_	_	_
+13-2	306-311	untuk	_	_	_	_	_
+13-3	312-319	tagihan	*	[1_2]|concept[2]	_	_	_
+13-4	320-323	ibu	_	_	_	_	_
+13-5	324-327	kan	_	_	_	_	_
+13-6	328-333	sudah	*	[2_3]|negative[3]	_	_	_
+13-7	334-347	keterlambatan	_	negative[3]	_	_	_
+13-8	348-351	iya	_	_	_	_	_
+
+#Text=< nya > bayar bayar cicilan tujuh ratus lima puluh
+14-1	353-354	<	_	_	_	_	_
+14-2	355-358	nya	_	_	_	_	_
+14-3	359-360	>	_	_	_	_	_
+14-4	361-366	bayar	_	_	_	_	_
+14-5	367-372	bayar	_	_	_	_	_
+14-6	373-380	cicilan	_	_	_	_	_
+14-7	381-386	tujuh	_	_	_	_	_
+14-8	387-392	ratus	_	_	_	_	_
+14-9	393-397	lima	_	_	_	_	_
+14-10	398-403	puluh	_	_	_	_	_
+
+#Text=ini tagihan ibu di pusat gadai itu kan < e > belum dibayarkan lagi benar
+15-1	405-408	ini	_	_	_	_	_
+15-2	409-416	tagihan	*	concept[4]|[5_4]	_	_	_
+15-3	417-420	ibu	_	_	_	_	_
+15-4	421-423	di	_	_	_	_	_
+15-5	424-429	pusat	_	concept[5]	_	_	_
+15-6	430-435	gadai	_	concept[5]	_	_	_
+15-7	436-439	itu	_	_	_	_	_
+15-8	440-443	kan	_	_	_	_	_
+15-9	444-445	<	_	_	_	_	_
+15-10	446-447	e	_	_	_	_	_
+15-11	448-449	>	_	_	_	_	_
+15-12	450-455	belum	*	[4_6]|negative[6]	_	_	_
+15-13	456-466	dibayarkan	_	negative[6]	_	_	_
+15-14	467-471	lagi	_	_	_	_	_
+15-15	472-477	benar	_	_	_	_	_
+
+#Text=iya sama miss siska
+16-1	479-482	iya	_	_	_	_	_
+16-2	483-487	sama	_	_	_	_	_
+16-3	488-492	miss	_	_	_	_	_
+16-4	493-498	siska	_	_	_	_	_
+
+#Text=< oh > iya ibu pembayaran nya setiap tanggal dua puluh tujuh iya
+17-1	500-501	<	_	_	_	_	_
+17-2	502-504	oh	_	_	_	_	_
+17-3	505-506	>	_	_	_	_	_
+17-4	507-510	iya	_	_	_	_	_
+17-5	511-514	ibu	_	_	_	_	_
+17-6	515-525	pembayaran	_	_	_	_	_
+17-7	526-529	nya	_	_	_	_	_
+17-8	530-536	setiap	_	_	_	_	_
+17-9	537-544	tanggal	_	_	_	_	_
+17-10	545-548	dua	_	_	_	_	_
+17-11	549-554	puluh	_	_	_	_	_
+17-12	555-560	tujuh	_	_	_	_	_
+17-13	561-564	iya	_	_	_	_	_
+
+#Text=enggak tahu saya jam berapa mungkin kan paling lambat sore kan jam lima
+18-1	566-572	enggak	_	_	_	_	_
+18-2	573-577	tahu	_	_	_	_	_
+18-3	578-582	saya	_	_	_	_	_
+18-4	583-586	jam	_	_	_	_	_
+18-5	587-593	berapa	_	_	_	_	_
+18-6	594-601	mungkin	_	_	_	_	_
+18-7	602-605	kan	_	_	_	_	_
+18-8	606-612	paling	_	_	_	_	_
+18-9	613-619	lambat	_	_	_	_	_
+18-10	620-624	sore	_	_	_	_	_
+18-11	625-628	kan	_	_	_	_	_
+18-12	629-632	jam	_	_	_	_	_
+18-13	633-637	lima	_	_	_	_	_
+
+#Text=baik
+19-1	639-643	baik	_	_	_	_	_
+
+#Text=tujuh ratus lima puluh
+20-1	645-650	tujuh	_	_	_	_	_
+20-2	651-656	ratus	_	_	_	_	_
+20-3	657-661	lima	_	_	_	_	_
+20-4	662-667	puluh	_	_	_	_	_
+
+#Text=ini < e > untuk di tanggal dua puluh tujuh itu ibu mau pembayaran apa
+21-1	669-672	ini	_	_	_	_	_
+21-2	673-674	<	_	_	_	_	_
+21-3	675-676	e	_	_	_	_	_
+21-4	677-678	>	_	_	_	_	_
+21-5	679-684	untuk	_	_	_	_	_
+21-6	685-687	di	_	_	_	_	_
+21-7	688-695	tanggal	_	_	_	_	_
+21-8	696-699	dua	_	_	_	_	_
+21-9	700-705	puluh	_	_	_	_	_
+21-10	706-711	tujuh	_	_	_	_	_
+21-11	712-715	itu	_	_	_	_	_
+21-12	716-719	ibu	_	_	_	_	_
+21-13	720-723	mau	_	_	_	_	_
+21-14	724-734	pembayaran	_	_	_	_	_
+21-15	735-738	apa	_	_	_	_	_
+
+#Text=iya
+22-1	740-743	iya	_	_	_	_	_
+
+#Text=iya
+23-1	745-748	iya	_	_	_	_	_
+
+#Text=iya terhubung bu
+24-1	750-753	iya	_	_	_	_	_
+24-2	754-763	terhubung	_	_	_	_	_
+24-3	764-766	bu	_	_	_	_	_
+
+#Text=untuk di < i > gini bu
+25-1	768-773	untuk	_	_	_	_	_
+25-2	774-776	di	_	_	_	_	_
+25-3	777-778	<	_	_	_	_	_
+25-4	779-780	i	_	_	_	_	_
+25-5	781-782	>	_	_	_	_	_
+25-6	783-787	gini	_	_	_	_	_
+25-7	788-790	bu	_	_	_	_	_
+
+#Text=makanya saya dari tadi dengar musik terus sampai matiin matiin lagi kelamaan saya nunggu
+26-1	792-799	makanya	_	_	_	_	_
+26-2	800-804	saya	_	_	_	_	_
+26-3	805-809	dari	_	_	_	_	_
+26-4	810-814	tadi	_	_	_	_	_
+26-5	815-821	dengar	_	_	_	_	_
+26-6	822-827	musik	_	_	_	_	_
+26-7	828-833	terus	_	_	_	_	_
+26-8	834-840	sampai	_	_	_	_	_
+26-9	841-847	matiin	_	_	_	_	_
+26-10	848-854	matiin	_	_	_	_	_
+26-11	855-859	lagi	_	_	_	_	_
+26-12	860-868	kelamaan	*	negative[7]|[8_7]	_	_	_
+26-13	869-873	saya	_	_	_	_	_
+26-14	874-880	nunggu	*	[1_8]|concept[8]	_	_	_
+
+#Text=untuk pembayaran di tanggal dua puluh tujuh itu ibu mau pembayaran < e > sisa pembayaran atau mau pelunasan
+27-1	882-887	untuk	_	_	_	_	_
+27-2	888-898	pembayaran	_	_	_	_	_
+27-3	899-901	di	_	_	_	_	_
+27-4	902-909	tanggal	_	_	_	_	_
+27-5	910-913	dua	_	_	_	_	_
+27-6	914-919	puluh	_	_	_	_	_
+27-7	920-925	tujuh	_	_	_	_	_
+27-8	926-929	itu	_	_	_	_	_
+27-9	930-933	ibu	_	_	_	_	_
+27-10	934-937	mau	_	_	_	_	_
+27-11	938-948	pembayaran	_	_	_	_	_
+27-12	949-950	<	_	_	_	_	_
+27-13	951-952	e	_	_	_	_	_
+27-14	953-954	>	_	_	_	_	_
+27-15	955-959	sisa	_	_	_	_	_
+27-16	960-970	pembayaran	_	_	_	_	_
+27-17	971-975	atau	_	_	_	_	_
+27-18	976-979	mau	_	_	_	_	_
+27-19	980-989	pelunasan	_	_	_	_	_
+
+#Text=saya nyatat nya yang keempat kayak nya
+28-1	991-995	saya	_	_	_	_	_
+28-2	996-1002	nyatat	_	_	_	_	_
+28-3	1003-1006	nya	_	_	_	_	_
+28-4	1007-1011	yang	_	_	_	_	_
+28-5	1012-1019	keempat	_	_	_	_	_
+28-6	1020-1025	kayak	_	_	_	_	_
+28-7	1026-1029	nya	_	_	_	_	_
+
+#Text=< oh > sama bu siska
+29-1	1031-1032	<	_	_	_	_	_
+29-2	1033-1035	oh	_	_	_	_	_
+29-3	1036-1037	>	_	_	_	_	_
+29-4	1038-1042	sama	_	_	_	_	_
+29-5	1043-1045	bu	_	_	_	_	_
+29-6	1046-1051	siska	_	_	_	_	_
+
+#Text=kumpul bukti transfer nya kok
+30-1	1053-1059	kumpul	_	_	_	_	_
+30-2	1060-1065	bukti	_	_	_	_	_
+30-3	1066-1074	transfer	_	_	_	_	_
+30-4	1075-1078	nya	_	_	_	_	_
+30-5	1079-1082	kok	_	_	_	_	_
+
+#Text=baik
+31-1	1084-1088	baik	_	_	_	_	_
+
+#Text=di sana kan ada catatan mbak
+32-1	1090-1092	di	_	_	_	_	_
+32-2	1093-1097	sana	_	_	_	_	_
+32-3	1098-1101	kan	_	_	_	_	_
+32-4	1102-1105	ada	_	_	_	_	_
+32-5	1106-1113	catatan	_	_	_	_	_
+32-6	1114-1118	mbak	_	_	_	_	_
+
+#Text=< oh > berarti besok juga akan membayarkan sebesar tujuh ratus ribu
+33-1	1120-1121	<	_	_	_	_	_
+33-2	1122-1124	oh	_	_	_	_	_
+33-3	1125-1126	>	_	_	_	_	_
+33-4	1127-1134	berarti	_	_	_	_	_
+33-5	1135-1140	besok	_	_	_	_	_
+33-6	1141-1145	juga	_	_	_	_	_
+33-7	1146-1150	akan	_	_	_	_	_
+33-8	1151-1162	membayarkan	_	_	_	_	_
+33-9	1163-1170	sebesar	_	_	_	_	_
+33-10	1171-1176	tujuh	_	_	_	_	_
+33-11	1177-1182	ratus	_	_	_	_	_
+33-12	1183-1187	ribu	_	_	_	_	_
+
+#Text=yang < keem >
+34-1	1189-1193	yang	_	_	_	_	_
+34-2	1194-1195	<	_	_	_	_	_
+34-3	1196-1200	keem	_	_	_	_	_
+34-4	1201-1202	>	_	_	_	_	_
+
+#Text=di tanggal dua puluh tujuh
+35-1	1204-1206	di	_	_	_	_	_
+35-2	1207-1214	tanggal	_	_	_	_	_
+35-3	1215-1218	dua	_	_	_	_	_
+35-4	1219-1224	puluh	_	_	_	_	_
+35-5	1225-1230	tujuh	_	_	_	_	_
+
+#Text=inggih inggih inggih inggih
+36-1	1232-1238	inggih	_	_	_	_	_
+36-2	1239-1245	inggih	_	_	_	_	_
+36-3	1246-1252	inggih	_	_	_	_	_
+36-4	1253-1259	inggih	_	_	_	_	_
+
+#Text=itu mau dibayarkan jam berapa bu
+37-1	1261-1264	itu	_	_	_	_	_
+37-2	1265-1268	mau	_	_	_	_	_
+37-3	1269-1279	dibayarkan	_	_	_	_	_
+37-4	1280-1283	jam	_	_	_	_	_
+37-5	1284-1290	berapa	_	_	_	_	_
+37-6	1291-1293	bu	_	_	_	_	_
+
+#Text=sore
+38-1	1295-1299	sore	_	_	_	_	_
+
+#Text=jam lima benar
+39-1	1301-1304	jam	_	_	_	_	_
+39-2	1305-1309	lima	_	_	_	_	_
+39-3	1310-1315	benar	_	_	_	_	_
+
+#Text=berarti ini bisa saya report pembayaran nya di tanggal dua puluh tujuh di jam lima sore iya
+40-1	1317-1324	berarti	_	_	_	_	_
+40-2	1325-1328	ini	_	_	_	_	_
+40-3	1329-1333	bisa	_	_	_	_	_
+40-4	1334-1338	saya	_	_	_	_	_
+40-5	1339-1345	report	_	_	_	_	_
+40-6	1346-1356	pembayaran	_	_	_	_	_
+40-7	1357-1360	nya	_	_	_	_	_
+40-8	1361-1363	di	_	_	_	_	_
+40-9	1364-1371	tanggal	_	_	_	_	_
+40-10	1372-1375	dua	_	_	_	_	_
+40-11	1376-1381	puluh	_	_	_	_	_
+40-12	1382-1387	tujuh	_	_	_	_	_
+40-13	1388-1390	di	_	_	_	_	_
+40-14	1391-1394	jam	_	_	_	_	_
+40-15	1395-1399	lima	_	_	_	_	_
+40-16	1400-1404	sore	_	_	_	_	_
+40-17	1405-1408	iya	_	_	_	_	_
+
+#Text=untuk < unk > yang dibayarkan mau sebesar tujuh ratus ribu iya
+41-1	1410-1415	untuk	_	_	_	_	_
+41-2	1416-1417	<	_	_	_	_	_
+41-3	1418-1421	unk	_	_	_	_	_
+41-4	1422-1423	>	_	_	_	_	_
+41-5	1424-1428	yang	_	_	_	_	_
+41-6	1429-1439	dibayarkan	_	_	_	_	_
+41-7	1440-1443	mau	_	_	_	_	_
+41-8	1444-1451	sebesar	_	_	_	_	_
+41-9	1452-1457	tujuh	_	_	_	_	_
+41-10	1458-1463	ratus	_	_	_	_	_
+41-11	1464-1468	ribu	_	_	_	_	_
+41-12	1469-1472	iya	_	_	_	_	_
+
+#Text=< oh > tujuh ratus lima puluh
+42-1	1474-1475	<	_	_	_	_	_
+42-2	1476-1478	oh	_	_	_	_	_
+42-3	1479-1480	>	_	_	_	_	_
+42-4	1481-1486	tujuh	_	_	_	_	_
+42-5	1487-1492	ratus	_	_	_	_	_
+42-6	1493-1497	lima	_	_	_	_	_
+42-7	1498-1503	puluh	_	_	_	_	_
+
+#Text=okay
+43-1	1505-1509	okay	_	_	_	_	_
+
+#Text=ini nomor ibu terhubung dengan whatsapp
+44-1	1511-1514	ini	_	_	_	_	_
+44-2	1515-1520	nomor	_	_	_	_	_
+44-3	1521-1524	ibu	_	_	_	_	_
+44-4	1525-1534	terhubung	_	_	_	_	_
+44-5	1535-1541	dengan	_	_	_	_	_
+44-6	1542-1550	whatsapp	_	_	_	_	_
+
+#Text=okay baik
+45-1	1552-1556	okay	_	_	_	_	_
+45-2	1557-1561	baik	_	_	_	_	_
+
+#Text=ini < e > untuk pembayaran yang ke berapa iya bu iya
+46-1	1563-1566	ini	_	_	_	_	_
+46-2	1567-1568	<	_	_	_	_	_
+46-3	1569-1570	e	_	_	_	_	_
+46-4	1571-1572	>	_	_	_	_	_
+46-5	1573-1578	untuk	_	_	_	_	_
+46-6	1579-1589	pembayaran	_	_	_	_	_
+46-7	1590-1594	yang	_	_	_	_	_
+46-8	1595-1597	ke	_	_	_	_	_
+46-9	1598-1604	berapa	_	_	_	_	_
+46-10	1605-1608	iya	_	_	_	_	_
+46-11	1609-1611	bu	_	_	_	_	_
+46-12	1612-1615	iya	_	_	_	_	_
+
+#Text=di sini ibu kemarin baru pembayaran yang ketiga kali iya bu
+47-1	1617-1619	di	_	_	_	_	_
+47-2	1620-1624	sini	_	_	_	_	_
+47-3	1625-1628	ibu	_	_	_	_	_
+47-4	1629-1636	kemarin	_	_	_	_	_
+47-5	1637-1641	baru	_	_	_	_	_
+47-6	1642-1652	pembayaran	_	_	_	_	_
+47-7	1653-1657	yang	_	_	_	_	_
+47-8	1658-1664	ketiga	_	_	_	_	_
+47-9	1665-1669	kali	_	_	_	_	_
+47-10	1670-1673	iya	_	_	_	_	_
+47-11	1674-1676	bu	_	_	_	_	_
+
+#Text=berarti besok di tanggal dua puluh tujuh itu yang keempat
+48-1	1678-1685	berarti	_	_	_	_	_
+48-2	1686-1691	besok	_	_	_	_	_
+48-3	1692-1694	di	_	_	_	_	_
+48-4	1695-1702	tanggal	_	_	_	_	_
+48-5	1703-1706	dua	_	_	_	_	_
+48-6	1707-1712	puluh	_	_	_	_	_
+48-7	1713-1718	tujuh	_	_	_	_	_
+48-8	1719-1722	itu	_	_	_	_	_
+48-9	1723-1727	yang	_	_	_	_	_
+48-10	1728-1735	keempat	_	_	_	_	_
+
+#Text=iya ini saya tunggu pembayaran nya < e > di tanggal dua puluh tujuh di jam lima sore iya bu iya
+49-1	1737-1740	iya	_	_	_	_	_
+49-2	1741-1744	ini	_	_	_	_	_
+49-3	1745-1749	saya	_	_	_	_	_
+49-4	1750-1756	tunggu	_	_	_	_	_
+49-5	1757-1767	pembayaran	_	_	_	_	_
+49-6	1768-1771	nya	_	_	_	_	_
+49-7	1772-1773	<	_	_	_	_	_
+49-8	1774-1775	e	_	_	_	_	_
+49-9	1776-1777	>	_	_	_	_	_
+49-10	1778-1780	di	_	_	_	_	_
+49-11	1781-1788	tanggal	_	_	_	_	_
+49-12	1789-1792	dua	_	_	_	_	_
+49-13	1793-1798	puluh	_	_	_	_	_
+49-14	1799-1804	tujuh	_	_	_	_	_
+49-15	1805-1807	di	_	_	_	_	_
+49-16	1808-1811	jam	_	_	_	_	_
+49-17	1812-1816	lima	_	_	_	_	_
+49-18	1817-1821	sore	_	_	_	_	_
+49-19	1822-1825	iya	_	_	_	_	_
+49-20	1826-1828	bu	_	_	_	_	_
+49-21	1829-1832	iya	_	_	_	_	_
+
+#Text=baik kalau begitu
+50-1	1834-1838	baik	_	_	_	_	_
+50-2	1839-1844	kalau	_	_	_	_	_
+50-3	1845-1851	begitu	_	_	_	_	_
+
+#Text=terima kasih ibu untuk
+51-1	1853-1859	terima	_	_	_	_	_
+51-2	1860-1865	kasih	_	_	_	_	_
+51-3	1866-1869	ibu	_	_	_	_	_
+51-4	1870-1875	untuk	_	_	_	_	_
+
+#Text=akan wa ibu iya
+52-1	1877-1881	akan	_	_	_	_	_
+52-2	1882-1884	wa	_	_	_	_	_
+52-3	1885-1888	ibu	_	_	_	_	_
+52-4	1889-1892	iya	_	_	_	_	_
+
+#Text=nama
+53-1	1894-1898	nama	_	_	_	_	_
+
+#Text=kalau begitu terima kasih ibu untuk waktu nya
+54-1	1900-1905	kalau	_	_	_	_	_
+54-2	1906-1912	begitu	_	_	_	_	_
+54-3	1913-1919	terima	_	_	_	_	_
+54-4	1920-1925	kasih	_	_	_	_	_
+54-5	1926-1929	ibu	_	_	_	_	_
+54-6	1930-1935	untuk	_	_	_	_	_
+54-7	1936-1941	waktu	_	_	_	_	_
+54-8	1942-1945	nya	_	_	_	_	_
+
+#Text=selamat sore
+55-1	1947-1954	selamat	_	_	_	_	_
+55-2	1955-1959	sore	_	_	_	_	_

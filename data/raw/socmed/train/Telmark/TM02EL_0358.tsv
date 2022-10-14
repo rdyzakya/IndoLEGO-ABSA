@@ -1,0 +1,285 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=selamat siang
+1-1	0-7	selamat	_	_	_	_	_
+1-2	8-13	siang	_	_	_	_	_
+
+#Text=iya halo
+2-1	15-18	iya	_	_	_	_	_
+2-2	19-23	halo	_	_	_	_	_
+
+#Text=iya pak hardial
+3-1	25-28	iya	_	_	_	_	_
+3-2	29-32	pak	_	_	_	_	_
+3-3	33-40	hardial	_	_	_	_	_
+
+#Text=iya
+4-1	42-45	iya	_	_	_	_	_
+
+#Text=iya saya dengan jesica ini pak hardiang dari bank bca
+5-1	47-50	iya	_	_	_	_	_
+5-2	51-55	saya	_	_	_	_	_
+5-3	56-62	dengan	_	_	_	_	_
+5-4	63-69	jesica	_	_	_	_	_
+5-5	70-73	ini	_	_	_	_	_
+5-6	74-77	pak	_	_	_	_	_
+5-7	78-86	hardiang	_	_	_	_	_
+5-8	87-91	dari	_	_	_	_	_
+5-9	92-96	bank	_	_	_	_	_
+5-10	97-100	bca	_	_	_	_	_
+
+#Text=iya
+6-1	102-105	iya	_	_	_	_	_
+
+#Text=pak dial
+7-1	107-110	pak	_	_	_	_	_
+7-2	111-115	dial	_	_	_	_	_
+
+#Text=iya halo
+8-1	117-120	iya	_	_	_	_	_
+8-2	121-125	halo	_	_	_	_	_
+
+#Text=iya bagaimana ini pak bca - nya waktu nya sudah berjalan terus ini pak hardial
+9-1	127-130	iya	_	_	_	_	_
+9-2	131-140	bagaimana	_	_	_	_	_
+9-3	141-144	ini	_	_	_	_	_
+9-4	145-148	pak	_	_	_	_	_
+9-5	149-152	bca	_	concept[1]	_	_	_
+9-6	153-154	-	_	_	_	_	_
+9-7	155-158	nya	_	_	_	_	_
+9-8	159-164	waktu	_	_	_	_	_
+9-9	165-168	nya	_	_	_	_	_
+9-10	169-174	sudah	_	_	_	_	_
+9-11	175-183	berjalan	_	_	_	_	_
+9-12	184-189	terus	_	_	_	_	_
+9-13	190-193	ini	_	_	_	_	_
+9-14	194-197	pak	_	_	_	_	_
+9-15	198-205	hardial	_	_	_	_	_
+
+#Text=iya belum ada mbak seperti < e > pembicaraan saya kemarin
+10-1	207-210	iya	_	_	_	_	_
+10-2	211-216	belum	*	negative[2]|[3_2]	_	_	_
+10-3	217-220	ada	_	negative[2]	_	_	_
+10-4	221-225	mbak	_	_	_	_	_
+10-5	226-233	seperti	_	_	_	_	_
+10-6	234-235	<	_	_	_	_	_
+10-7	236-237	e	_	_	_	_	_
+10-8	238-239	>	_	_	_	_	_
+10-9	240-251	pembicaraan	_	_	_	_	_
+10-10	252-256	saya	_	_	_	_	_
+10-11	257-264	kemarin	_	_	_	_	_
+
+#Text=kita minta dicicil saja pak
+11-1	266-270	kita	_	_	_	_	_
+11-2	271-276	minta	_	_	_	_	_
+11-3	277-284	dicicil	_	_	_	_	_
+11-4	285-289	saja	_	_	_	_	_
+11-5	290-293	pak	_	_	_	_	_
+
+#Text=cicil apaan
+12-1	295-300	cicil	_	_	_	_	_
+12-2	301-306	apaan	_	_	_	_	_
+
+#Text=kita minta dicicil saja pembayaran nya kalau memang enggak bisa lunas
+13-1	308-312	kita	_	_	_	_	_
+13-2	313-318	minta	_	_	_	_	_
+13-3	319-326	dicicil	_	_	_	_	_
+13-4	327-331	saja	_	_	_	_	_
+13-5	332-342	pembayaran	*	[1_3]|concept[3]	_	_	_
+13-6	343-346	nya	_	_	_	_	_
+13-7	347-352	kalau	_	_	_	_	_
+13-8	353-359	memang	_	_	_	_	_
+13-9	360-366	enggak	_	_	_	_	_
+13-10	367-371	bisa	_	_	_	_	_
+13-11	372-377	lunas	_	_	_	_	_
+
+#Text=iya nanti saya < unk > dibayar
+14-1	379-382	iya	_	_	_	_	_
+14-2	383-388	nanti	_	_	_	_	_
+14-3	389-393	saya	_	_	_	_	_
+14-4	394-395	<	_	_	_	_	_
+14-5	396-399	unk	_	_	_	_	_
+14-6	400-401	>	_	_	_	_	_
+14-7	402-409	dibayar	_	_	_	_	_
+
+#Text=< unk > itu pak cukup
+15-1	411-412	<	_	_	_	_	_
+15-2	413-416	unk	_	_	_	_	_
+15-3	417-418	>	_	_	_	_	_
+15-4	419-422	itu	_	_	_	_	_
+15-5	423-426	pak	_	_	_	_	_
+15-6	427-432	cukup	_	_	_	_	_
+
+#Text=iya nanti < e >
+16-1	434-437	iya	_	_	_	_	_
+16-2	438-443	nanti	_	_	_	_	_
+16-3	444-445	<	_	_	_	_	_
+16-4	446-447	e	_	_	_	_	_
+16-5	448-449	>	_	_	_	_	_
+
+#Text=gini pak juli nya juli ini saya tunggu sampai tanggal dua lima minimal dua juta dulu pak dibayarin
+17-1	451-455	gini	_	_	_	_	_
+17-2	456-459	pak	_	_	_	_	_
+17-3	460-464	juli	_	_	_	_	_
+17-4	465-468	nya	_	_	_	_	_
+17-5	469-473	juli	_	_	_	_	_
+17-6	474-477	ini	_	_	_	_	_
+17-7	478-482	saya	_	_	_	_	_
+17-8	483-489	tunggu	_	_	_	_	_
+17-9	490-496	sampai	_	_	_	_	_
+17-10	497-504	tanggal	_	_	_	_	_
+17-11	505-508	dua	_	_	_	_	_
+17-12	509-513	lima	_	_	_	_	_
+17-13	514-521	minimal	_	_	_	_	_
+17-14	522-525	dua	_	_	_	_	_
+17-15	526-530	juta	_	_	_	_	_
+17-16	531-535	dulu	_	_	_	_	_
+17-17	536-539	pak	_	_	_	_	_
+17-18	540-549	dibayarin	_	_	_	_	_
+
+#Text=diusahakan dulu lah < heeh > < heeh >
+18-1	551-561	diusahakan	_	_	_	_	_
+18-2	562-566	dulu	_	_	_	_	_
+18-3	567-570	lah	_	_	_	_	_
+18-4	571-572	<	_	_	_	_	_
+18-5	573-577	heeh	_	_	_	_	_
+18-6	578-579	>	_	_	_	_	_
+18-7	580-581	<	_	_	_	_	_
+18-8	582-586	heeh	_	_	_	_	_
+18-9	587-588	>	_	_	_	_	_
+
+#Text=kemarin kan saya minta itu tiga atau dua kali cicilan < napas > untuk < unk > outstanding bapak < napas > ini saya bantu ini pak untuk juli nya tanggal dua lima < napas > saya minta dua juta dulu saja dibayarin pak
+19-1	590-597	kemarin	_	_	_	_	_
+19-2	598-601	kan	_	_	_	_	_
+19-3	602-606	saya	_	_	_	_	_
+19-4	607-612	minta	_	_	_	_	_
+19-5	613-616	itu	_	_	_	_	_
+19-6	617-621	tiga	_	_	_	_	_
+19-7	622-626	atau	_	_	_	_	_
+19-8	627-630	dua	_	_	_	_	_
+19-9	631-635	kali	_	_	_	_	_
+19-10	636-643	cicilan	_	_	_	_	_
+19-11	644-645	<	_	_	_	_	_
+19-12	646-651	napas	_	_	_	_	_
+19-13	652-653	>	_	_	_	_	_
+19-14	654-659	untuk	_	_	_	_	_
+19-15	660-661	<	_	_	_	_	_
+19-16	662-665	unk	_	_	_	_	_
+19-17	666-667	>	_	_	_	_	_
+19-18	668-679	outstanding	_	_	_	_	_
+19-19	680-685	bapak	_	_	_	_	_
+19-20	686-687	<	_	_	_	_	_
+19-21	688-693	napas	_	_	_	_	_
+19-22	694-695	>	_	_	_	_	_
+19-23	696-699	ini	_	_	_	_	_
+19-24	700-704	saya	_	_	_	_	_
+19-25	705-710	bantu	_	_	_	_	_
+19-26	711-714	ini	_	_	_	_	_
+19-27	715-718	pak	_	_	_	_	_
+19-28	719-724	untuk	_	_	_	_	_
+19-29	725-729	juli	_	_	_	_	_
+19-30	730-733	nya	_	_	_	_	_
+19-31	734-741	tanggal	_	_	_	_	_
+19-32	742-745	dua	_	_	_	_	_
+19-33	746-750	lima	_	_	_	_	_
+19-34	751-752	<	_	_	_	_	_
+19-35	753-758	napas	_	_	_	_	_
+19-36	759-760	>	_	_	_	_	_
+19-37	761-765	saya	_	_	_	_	_
+19-38	766-771	minta	_	_	_	_	_
+19-39	772-775	dua	_	_	_	_	_
+19-40	776-780	juta	_	_	_	_	_
+19-41	781-785	dulu	_	_	_	_	_
+19-42	786-790	saja	_	_	_	_	_
+19-43	791-800	dibayarin	_	_	_	_	_
+19-44	801-804	pak	_	_	_	_	_
+
+#Text=iya mbak
+20-1	806-809	iya	_	_	_	_	_
+20-2	810-814	mbak	_	_	_	_	_
+
+#Text=pak hardial
+21-1	816-819	pak	_	_	_	_	_
+21-2	820-827	hardial	_	_	_	_	_
+
+#Text=iya tar saya buka
+22-1	829-832	iya	_	_	_	_	_
+22-2	833-836	tar	_	_	_	_	_
+22-3	837-841	saya	_	_	_	_	_
+22-4	842-846	buka	_	_	_	_	_
+
+#Text=bagaimana
+23-1	848-857	bagaimana	_	_	_	_	_
+
+#Text=iya mbak
+24-1	859-862	iya	_	_	_	_	_
+24-2	863-867	mbak	_	_	_	_	_
+
+#Text=iya tolong di-press iya pak dana nya
+25-1	869-872	iya	_	_	_	_	_
+25-2	873-879	tolong	_	_	_	_	_
+25-3	880-888	di-press	_	_	_	_	_
+25-4	889-892	iya	_	_	_	_	_
+25-5	893-896	pak	_	_	_	_	_
+25-6	897-901	dana	_	_	_	_	_
+25-7	902-905	nya	_	_	_	_	_
+
+#Text=saya spare waktu satu minggu jadi tanggal dua lima < napas > bisa dibayarkan dua juta dulu saja
+26-1	907-911	saya	_	_	_	_	_
+26-2	912-917	spare	_	_	_	_	_
+26-3	918-923	waktu	_	_	_	_	_
+26-4	924-928	satu	_	_	_	_	_
+26-5	929-935	minggu	_	_	_	_	_
+26-6	936-940	jadi	_	_	_	_	_
+26-7	941-948	tanggal	_	_	_	_	_
+26-8	949-952	dua	_	_	_	_	_
+26-9	953-957	lima	_	_	_	_	_
+26-10	958-959	<	_	_	_	_	_
+26-11	960-965	napas	_	_	_	_	_
+26-12	966-967	>	_	_	_	_	_
+26-13	968-972	bisa	_	_	_	_	_
+26-14	973-983	dibayarkan	_	_	_	_	_
+26-15	984-987	dua	_	_	_	_	_
+26-16	988-992	juta	_	_	_	_	_
+26-17	993-997	dulu	_	_	_	_	_
+26-18	998-1002	saja	_	_	_	_	_
+
+#Text=iya pak
+27-1	1004-1007	iya	_	_	_	_	_
+27-2	1008-1011	pak	_	_	_	_	_
+
+#Text=iya bapak < e > tolong wa saya dibuka lagi iya pak kemarin sempat di-block iya pak
+28-1	1013-1016	iya	_	_	_	_	_
+28-2	1017-1022	bapak	_	_	_	_	_
+28-3	1023-1024	<	_	_	_	_	_
+28-4	1025-1026	e	_	_	_	_	_
+28-5	1027-1028	>	_	_	_	_	_
+28-6	1029-1035	tolong	_	_	_	_	_
+28-7	1036-1038	wa	_	_	_	_	_
+28-8	1039-1043	saya	_	_	_	_	_
+28-9	1044-1050	dibuka	_	_	_	_	_
+28-10	1051-1055	lagi	_	_	_	_	_
+28-11	1056-1059	iya	_	_	_	_	_
+28-12	1060-1063	pak	_	_	_	_	_
+28-13	1064-1071	kemarin	_	_	_	_	_
+28-14	1072-1078	sempat	_	_	_	_	_
+28-15	1079-1087	di-block	_	_	_	_	_
+28-16	1088-1091	iya	_	_	_	_	_
+28-17	1092-1095	pak	_	_	_	_	_
+
+#Text=iya sudah nanti tolong dibuka iya pak
+29-1	1097-1100	iya	_	_	_	_	_
+29-2	1101-1106	sudah	_	_	_	_	_
+29-3	1107-1112	nanti	_	_	_	_	_
+29-4	1113-1119	tolong	_	_	_	_	_
+29-5	1120-1126	dibuka	_	_	_	_	_
+29-6	1127-1130	iya	_	_	_	_	_
+29-7	1131-1134	pak	_	_	_	_	_
+
+#Text=iya terima kasih selamat siang pak
+30-1	1136-1139	iya	_	_	_	_	_
+30-2	1140-1146	terima	_	_	_	_	_
+30-3	1147-1152	kasih	_	_	_	_	_
+30-4	1153-1160	selamat	_	_	_	_	_
+30-5	1161-1166	siang	_	_	_	_	_
+30-6	1167-1170	pak	_	_	_	_	_
