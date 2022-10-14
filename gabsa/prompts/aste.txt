@@ -1,0 +1,8 @@
+ekstraksi triplet aste :
+ekstraksi triplet aspek - opini - sentimen :
+ekstraksi kombinasi aspek - opini - sentimen :
+ekstrak kombinasi aspek - opini - sentimen :
+ekstrak triplet aste :
+ekstrak triplet aspek - opini - sentimen :
+ekstraksi triplet ( aspek , opini , sentimen ) :
+ekstrak triplet ( aspek , opini , sentimen ) :

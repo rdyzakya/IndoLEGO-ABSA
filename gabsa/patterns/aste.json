@@ -1,0 +1,6 @@
+{
+    "open_bracket" : "(",
+    "close_bracket" : ")",
+    "intra_sep" : "|",
+    "inter_sep" : ","
+}
