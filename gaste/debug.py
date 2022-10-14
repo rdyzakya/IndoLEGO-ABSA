@@ -67,7 +67,7 @@ def debug4():
     print("Inverse stringified result :",inverse_stringified_target)
 
 def debug5():
-    base_path = "/srv/nas_data1/text/randy/aste/facebook-aste/data/interim/gaste_format/"
+    base_path = "/srv/nas_data1/text/randy/aste/facebook-absa/data/interim/gaste_format/"
     train_paths = [base_path + "train_news_annotator.txt", base_path + "train_news_student.txt", base_path + "train_socmed_twenty_percent.txt"]
     dev_paths = [base_path + "test_news.txt"]
     test_paths = [base_path + "test_news.txt"]
@@ -78,9 +78,10 @@ def debug5():
     # dataset["dev"]["prompt"] = "ekstraksi triplet aste :"
     # dataset["test"]["prompt"] = "ekstraksi triplet aste :"
     # print(dataset)
-    train = pd.DataFrame(dataset["train"])
-    train["prompt"] = "ekstraksi triplet aste :"
-    print(train)
+    prompter = preprocessing.Prompter("/srv/nas_data1/text/randy/aste/facebook-absa/gaste/prompts/aste.txt")
+    result_text, result_prompts = prompter.add_prompt(dataset["dev"]["text"],prompt_side="right",option="random")
+    print("Result text :",result_text[:5])
+    print("Result prompts :",result_prompts[:5])
 if __name__ == "__main__":
     # debug1()
     # debug2()

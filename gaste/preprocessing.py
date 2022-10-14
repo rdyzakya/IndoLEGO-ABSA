@@ -27,7 +27,7 @@ special_char = {
 class Prompter:
     def __init__(self,prompt_path):
         with open(prompt_path,'r',encoding="utf-8") as f:
-            self.prompts = f.readlines()
+            self.prompts = [el.strip() for el in f.readlines()]
         self.available_option = list(range(len(self.prompts))) + ["random"]
     
     def add_prompt(self,texts,prompt_side="left",option=0):
@@ -36,15 +36,18 @@ class Prompter:
         if prompt_side != "left" and prompt_side != "right":
             raise ValueError(f"Prompt side should only be 'left' or 'right'")
         chosen_prompt = None
+        prompts = []
         if isinstance(option,int):
             chosen_prompt = self.prompts[option]
+            prompts = [chosen_prompt for _ in texts]
         result = []
         for t in texts:
             if option == "random":
                 chosen_prompt = random.choice(self.prompts)
+                prompts.append(chosen_prompt)
             t = chosen_prompt + ' ' + t if prompt_side == "left" else t + ' ' + chosen_prompt
             result.append(t)
-        return result
+        return result, prompts
 
 class Pattern:
     def __init__(self,task,open_bracket='(',close_bracket=')',intra_sep='|',inter_sep=','):
@@ -146,7 +149,7 @@ def post_process_lm_result(texts_without_target,texts_with_target,tokenizer,enco
     decoded_texts_without_target = tokenizer.batch_decode(encoded_texts_without_target["input_ids"],**decoding_args)
     
     result = [
-        t1[len(t2):] for t1, t2 in zip(texts_with_target,decoded_texts_without_target)
+        t1[len(t2):].strip() for t1, t2 in zip(texts_with_target,decoded_texts_without_target)
     ]
 
     return result
