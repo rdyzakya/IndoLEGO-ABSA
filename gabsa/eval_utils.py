@@ -59,7 +59,7 @@ def one_row_edit_score(y_true : List[Dict], y_pred : List[Dict]) -> float:
     len_y_pred = len(y_pred)
 
     if len_y_true == 0 or len_y_pred == 0:
-        return 0
+        return {"recall" : 0, "precision" : 0}
 
     score_matrix = []
     for i in range(len_y_true):
@@ -111,7 +111,7 @@ def evaluate(pred_pt : List[List[Dict]], gold_pt : List[List[Dict]]) -> Dict[str
 def compute_metrics(eval_preds,dataset,model_type,paradigm,pattern,tokenizer,encoding_args,decoding_args):
     if model_type not in model_types.seq2seq and model_type not in model_types.lm:
         raise ValueError(f"Model types available : {model_types.seq2seq + model_types.lm}")
-    print("Computing evaluation metrics..")
+    print("\nComputing evaluation metrics..")
     preds, labels = eval_preds
 
     # In case the model returns more than the prediction logits
@@ -122,14 +122,18 @@ def compute_metrics(eval_preds,dataset,model_type,paradigm,pattern,tokenizer,enc
 
     inputs = dataset["input"]
     targets = [eval(el) for el in dataset["target"]]
-
     decoded_preds = tokenizer.batch_decode(preds, **decoding_args)
     if model_type in model_types.lm:
         decoded_preds = post_process_lm_result(inputs,decoded_preds,tokenizer,encoding_args,decoding_args)
 
-    inverse_stringified_preds = batch_inverse_stringify_target(decoded_preds,paradigm,pattern)
+    inverse_stringified_preds = batch_inverse_stringify_target(batch_stringified_target=decoded_preds,batch_task=dataset["task"],paradigm=paradigm,pattern=pattern)
     print("Prediction sample:",inverse_stringified_preds[0])
     print("Target sample:",targets[0])
+
+    print("Inverse stringified preds :",inverse_stringified_preds[7:12])
+    print("Targets :",targets[7:12])
+
+    print("Not blank stringified preds : ",len([el for el in inverse_stringified_preds if len(el) > 0]))
 
     metrics = evaluate(inverse_stringified_preds,targets)
     

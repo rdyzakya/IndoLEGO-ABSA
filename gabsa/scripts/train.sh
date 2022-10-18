@@ -21,3 +21,4 @@ CUDA_VISIBLE_DEVICES=1,3 python main.py --do_train \
             --random_state 42 \
             --output_dir /srv/nas_data1/text/randy/absa/models/generative \
             --per_device_predict_batch_size 48
+            # --trains "train_socmed_twenty_percent train_news_annotator train_news_student" \

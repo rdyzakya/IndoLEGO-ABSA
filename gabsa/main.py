@@ -1,5 +1,7 @@
 import torch
 
+import gpu
+
 import argparse
 import json
 import os
@@ -134,6 +136,7 @@ def train_gabsa_model(args,dataset):
     train_args = TrainingArgumentsClass(**train_args)
 
     print("GPU used in training:",train_args.n_gpu)
+    gpu.print_all_gpu_utilization()
 
     TrainerClass = Seq2SeqTrainer if args.model_type in model_types.seq2seq else Trainer
     tokenized_train = dataset["train"].map(
@@ -155,7 +158,7 @@ def train_gabsa_model(args,dataset):
 
         def eval_metrics(eval_preds):
             dev_dataset = dataset["dev"]
-            tokenizer = model_and_tokenizer["tokenizer"],
+            tokenizer = model_and_tokenizer["tokenizer"]
 
             return compute_metrics(eval_preds=eval_preds,
                                 dataset=dev_dataset,
