@@ -127,13 +127,23 @@ def compute_metrics(eval_preds,dataset,model_type,paradigm,pattern,tokenizer,enc
         decoded_preds = post_process_lm_result(inputs,decoded_preds,tokenizer,encoding_args,decoding_args)
 
     inverse_stringified_preds = batch_inverse_stringify_target(batch_stringified_target=decoded_preds,batch_task=dataset["task"],paradigm=paradigm,pattern=pattern)
-    print("Prediction sample:",inverse_stringified_preds[0])
-    print("Target sample:",targets[0])
+    # print("Prediction sample:",inverse_stringified_preds[0])
+    # print("Target sample:",targets[0])
 
-    print("Inverse stringified preds :",inverse_stringified_preds[7:12])
-    print("Targets :",targets[7:12])
+    no_blank_index = []
+    for i,t in enumerate(targets):
+        if len(t) > 0:
+            no_blank_index.append(i)
+        if len(no_blank_index) == 5:
+            break
+    print("Inverse stringified preds :",[inverse_stringified_preds[i] for i in no_blank_index])
+    print("Decoded preds :",[decoded_preds[i] for i in no_blank_index])
+    print("Targets :",[targets[i] for i in no_blank_index])
+    print("Tasks :",[dataset["task"][i] for i in no_blank_index])
 
-    print("Not blank stringified preds : ",len([el for el in inverse_stringified_preds if len(el) > 0]))
+    # print("Not blank stringified preds : ",len([el for el in inverse_stringified_preds if len(el) > 0]))
+
+    # print("Not blank decoded preds :",len([el for el in decoded_preds if el != "NONE"]))
 
     metrics = evaluate(inverse_stringified_preds,targets)
     

@@ -76,12 +76,13 @@ class Pattern:
             if t not in available_task:
                 raise ValueError(f"Task only can be from {available_task}, combine it by using spaces. Your task(s) : {task}")
             self.pattern[t] = []
-            if task != "ote":
+            if t != "ote":
                 self.pattern[t].append(pattern_token["aspect"])
-            if task == "ote" or task == "aope" or task == "aste":
+            if t == "ote" or t == "aope" or t == "aste":
                 self.pattern[t].append(pattern_token["opinion"])
-            if task != "ate" and task != "ote":
+            if t == "uabsa" or t =="aste":
                 self.pattern[t].append(pattern_token["sentiment"])
+            # print(t)
             self.pattern[t] = f"{open_bracket} " + f" {intra_sep.strip()} ".join(self.pattern[t]) + f" {close_bracket}"
             self.pattern[t] = self.pattern[t].strip()
     

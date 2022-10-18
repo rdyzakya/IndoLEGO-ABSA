@@ -20,7 +20,7 @@ from eval_utils import EvaluationCallback, compute_metrics, evaluate
 
 from data_utils import build_gabsa_dataset
 from model import get_gabsa_tokenizer_and_model
-from preprocessing import batch_inverse_stringify_target, Prompter, Pattern, batch_stringify_target, post_process_lm_result
+from preprocessing import batch_inverse_stringify_target, Prompter, Pattern, batch_stringify_target, post_process_lm_result, available_task, available_paradigm, no_target
 from tqdm import tqdm
 logger = logging.getLogger(__name__)
 
@@ -74,11 +74,12 @@ def init_args():
 def batch_encode(x,args,tokenizer,encoding_args):
     text_target = batch_stringify_target(x["text"],x["num_target"],x["target"],x["task"],args.paradigm,args.pattern)
     if args.model_type in model_types.lm:
-        return tokenizer(x["input"] + " " + text_target, **encoding_args)
+        res = tokenizer(x["input"] + " " + text_target, **encoding_args)
     elif args.model_type in model_types.seq2seq:
-        return tokenizer(x["input"], text_target=text_target, **encoding_args)
+        res = tokenizer(x["input"], text_target=text_target, **encoding_args)
     else:
         raise NotImplementedError
+    return res
 
 def train_gabsa_model(args,dataset):
     tokenizer_args = {}
@@ -90,6 +91,8 @@ def train_gabsa_model(args,dataset):
     model_name_or_path=args.model_name_or_path,
     model_args=model_args,
     tokenizer_args=tokenizer_args)
+
+    add_new_terminology(model_and_tokenizer["tokenizer"])
     
     # Prepare encoding arguments
     encoding_args = {
@@ -189,6 +192,7 @@ def train_gabsa_model(args,dataset):
     model_and_tokenizer["model"].save_pretrained(save_directory=args.output_dir)
 
     print("Saving arguments...")
+    args.pattern = args.pattern.pattern
     json.dump(vars(args),open(os.path.join(args.output_dir,"arguments.json"),'w',encoding="utf-8"))
 
     # for predicting
@@ -227,26 +231,20 @@ def predict_gabsa_model(args,dataset):
     # Setup device
     device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
 
-    # Tokenize the input
-    tokenized_test = test_dataset.map(
-        lambda x : batch_encode(x=x,args=args,tokenizer=tokenizer,encoding_args=encoding_args),
-        batched=True,
-        removed_columns=test_dataset.column_names
-    )
-
+    tokenized_test = batch_encode(x=test_dataset,args=args,tokenizer=tokenizer,encoding_args=encoding_args)
     # Generate the predictions
     model.to(device)
-    tokenized_test = tokenized_test.to(device)
+    # tokenized_test = tokenized_test.to(device)
 
     # Data loader
-    data_loader = torch.utils.data.DataLoader(tokenized_test,
+    data_loader = torch.utils.data.DataLoader(tokenized_test["input_ids"],
                         batch_size=args.per_device_predict_batch_size,shuffle=False)
     
     # Predict
     preds = []
     with torch.no_grad():
         for batch in tqdm(data_loader):
-            preds.extend(model.generate(input_ids=batch,max_length=args.max_len))
+            preds.extend(model.generate(input_ids=batch.to(device),max_length=args.max_len))
     preds = tokenizer.batch_decode(preds,**decoding_args)
     
     if args.model_type in model_types.lm:
@@ -255,13 +253,13 @@ def predict_gabsa_model(args,dataset):
         decoding_args=decoding_args)
     
     preds = batch_inverse_stringify_target(batch_stringified_target=preds,
-                                        batch_task=dataset["task"],
+                                        batch_task=test_dataset["task"],
                                         paradigm=args.paradigm,
                                         pattern=args.pattern)
     
     # Calculate metrics
-    evaluation_metrics = evaluate(pred_pt=preds,gold_pt=test_dataset["target"])
-
+    evaluation_metrics = evaluate(pred_pt=preds,gold_pt=[eval(el) for el in test_dataset["target"]])
+    print(evaluation_metrics)
     # Save dataset and metrics
     result_dataset = pd.DataFrame({
         "text" : test_dataset["text"],
@@ -274,6 +272,16 @@ def predict_gabsa_model(args,dataset):
     result_dataset.to_csv(os.path.join(args.output_dir,"prediction.csv"),index=False)
     # save metric
     json.dump(evaluation_metrics,open(os.path.join(args.output_dir,"prediction_metrics.json"),'w',encoding="utf-8"))
+
+def add_new_terminology(tokenizer):
+    vocab = tokenizer.get_vocab()
+    terms = available_task + available_paradigm + ["aspect",
+            "aspek", "sentiment", "sentimen", "opinion",
+            "opini", "polarity", "polaritas", no_target, "triplet", "duplet"] + [el.upper() for el in available_task]
+    for t in terms:
+        if t not in vocab:
+            tokenizer.add_tokens(t)
+    
 
 def main():
     # Setup the arguments of the script
@@ -317,7 +325,9 @@ def main():
         if size in args.model_name_or_path:
             model_size = size
 
-    output_dir = os.path.join(args.output_dir,args.model_type,f"{args.model_type}_pabsa_S{args.max_len}_{model_size}")
+    tasks = args.task.split()
+    task_name = "pabsa" if len(tasks) > 1 else tasks[0]
+    output_dir = os.path.join(args.output_dir,args.model_type,f"{args.model_type}_{task_name}_S{args.max_len}_{model_size}_blank={args.blank_frac}")
     if not os.path.exists(output_dir):
         os.makedirs(os.path.join(output_dir,"data"))
     
