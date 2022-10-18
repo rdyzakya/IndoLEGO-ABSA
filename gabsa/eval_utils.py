@@ -121,7 +121,7 @@ def compute_metrics(eval_preds,dataset,model_type,paradigm,pattern,tokenizer,enc
     preds = np.argmax(preds,axis=-1) if len(preds.shape) == 3 else preds # in case not predict with generate
 
     inputs = dataset["input"]
-    targets = dataset["target"]
+    targets = [eval(el) for el in dataset["target"]]
 
     decoded_preds = tokenizer.batch_decode(preds, **decoding_args)
     if model_type in model_types.lm:

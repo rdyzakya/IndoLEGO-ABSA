@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 
 from datasets import Dataset, DatasetDict
@@ -40,10 +41,36 @@ def read_files(paths,task):
     res = pd.DataFrame(result)
     return res
 
-def build_gabsa_dataset(train_paths,dev_paths,test_paths,task="aste",blank_frac=None,random_state=None,prompter=None):
-    train = read_files(train_paths,task=task)
-    dev = read_files(dev_paths,task=task)
-    test = read_files(test_paths,task=task)
+def build_gabsa_dataset(train_paths,dev_paths,test_paths,task="aste",blank_frac=None,random_state=None,prompter=None,prompt_option_path=None,shuffle=True):
+    tasks = task.split()
+    train = pd.DataFrame()
+    dev = pd.DataFrame()
+    test = pd.DataFrame()
+    prompt_option = json.load(open(prompt_option_path,'r',encoding="utf-8"))
+    for t in tasks:
+        train_ = read_files(train_paths,task=t)
+        dev_ = read_files(dev_paths,task=t)
+        test_ = read_files(test_paths,task=t)
+        train_["task"] = t
+        dev_["task"] = t
+        test_["task"] = t
+
+        if prompter != None:
+            train_["input"], train_["prompt"] = prompter.add_prompt(t,train_.text.values,prompt_option[t])
+            dev_["input"], dev_["prompt"] = prompter.add_prompt(t,dev_.text.values,prompt_option[t])
+            test_["input"], test_["prompt"] = prompter.add_prompt(t,test_.text.values,prompt_option[t])
+        else:
+            train_["input"] = train_["text"]
+            dev_["input"] = dev_["text"]
+            test_["input"] = test_["text"]
+
+            train_["prompt"] = ""
+            dev_["prompt"] = ""
+            test_["prompt"] = ""
+
+        train = pd.concat([train,train_])
+        dev = pd.concat([dev,dev_])
+        test = pd.concat([test,test_])
 
     blank_frac = 1.0 if blank_frac == None else blank_frac
     if blank_frac < 1.0:
@@ -68,26 +95,47 @@ def build_gabsa_dataset(train_paths,dev_paths,test_paths,task="aste",blank_frac=
             dev = pd.concat([no_blank_dev,blank_dev])
             test = pd.concat([no_blank_test,blank_test])
     
-    if prompter != None:
-        train["input"], train["prompt"] = prompter.add_prompt(train.text.values)
-        dev["input"], dev["prompt"] = prompter.add_prompt(dev.text.values)
-        test["input"], test["prompt"] = prompter.add_prompt(test.text.values)
-    else:
-        train["input"] = train["text"]
-        dev["input"] = dev["text"]
-        test["input"] = test["text"]
-
-        train["prompt"] = ""
-        dev["prompt"] = ""
-        test["prompt"] = ""
+    if shuffle:
+        train = train.sample(frac=1,random_state=random_state).reset_index(drop=True)
+        dev = dev.sample(frac=1,random_state=random_state).reset_index(drop=True)
+        test = test.sample(frac=1,random_state=random_state).reset_index(drop=True)
     
     try:
+        train["target"] = train.target.astype(str)
+        dev["target"] = dev.target.astype(str)
+        test["target"] = test.target.astype(str)
+
+        train["num_target"] = train.num_target.astype(str)
+        dev["num_target"] = dev.num_target.astype(str)
+        test["num_target"] = test.num_target.astype(str)
+
         train = Dataset.from_pandas(train)
         dev = Dataset.from_pandas(dev)
         test = Dataset.from_pandas(test)
     except Exception as e:
         print(train.info())
         raise e
+    
+    # def batch_eval(x,colnames):
+    #     result = {}
+    #     for col in colnames:
+    #         if col == "target" or col == "num_target":
+    #             continue
+    #         result[col] = x[col]
+    #     result["target"] = [eval(el) for el in x["target"]]
+    #     result["num_target"] = [eval(el) for el in x["num_target"]]
+    #     return result
+    
+    # train = train.map(lambda x : batch_eval(x,train.column_names),batched=True)
+    # dev = dev.map(lambda x : batch_eval(x,dev.column_names),batched=True)
+    # test = test.map(lambda x : batch_eval(x,test.column_names),batched=True)
+    # train["target"] = train["target"].map(eval)
+    # dev["target"] = dev["target"].map(eval)
+    # test["target"] = test["target"].map(eval)
+
+    # train["num_target"] = train["num_target"].map(eval)
+    # dev["num_target"] = dev["num_target"].map(eval)
+    # test["num_target"] = test["num_target"].map(eval)
 
     sample_train = train[0]
     sample_dev = dev[0]

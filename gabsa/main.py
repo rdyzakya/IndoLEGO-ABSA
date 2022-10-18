@@ -1,3 +1,5 @@
+import torch
+
 import argparse
 import json
 import os
@@ -13,7 +15,6 @@ from datasets import load_metric
 import model_types
 
 from eval_utils import EvaluationCallback, compute_metrics, evaluate
-import torch
 
 from data_utils import build_gabsa_dataset
 from model import get_gabsa_tokenizer_and_model
@@ -31,7 +32,7 @@ def init_args():
     parser.add_argument("--do_eval",action="store_true",help="Do evaluation phase (validation)")
     parser.add_argument("--do_predict",action="store_true",help="Do testing phase (predict)")
     parser.add_argument("--train_args",type=str,help="Training argument (json)",required=False)
-    parser.add_argument("--n_gpu",type=str,help="GPU device this script will use",required=False)
+    # parser.add_argument("--n_gpu",type=str,help="GPU device this script will use",required=False)
     
     # Model options
     parser.add_argument("--model_type",type=str,help="Model type",required=False)
@@ -41,7 +42,7 @@ def init_args():
     # ABSA options
     parser.add_argument("--task",type=str,help="ABSA task",required=True)
     parser.add_argument("--paradigm",type=str,help="Paradigm (extraction,annotation)",default="extraction")
-    parser.add_argument("--prompt_option",help="Prompt option",default=0)
+    parser.add_argument("--prompt_option_path",help="Prompt option path",required=False)
     parser.add_argument("--prompt_path",help="Path to prompt file (txt)",required=False)
     parser.add_argument("--pattern",help="Pattern file (json)",required=False)
 
@@ -69,11 +70,11 @@ def init_args():
     return args
 
 def batch_encode(x,args,tokenizer,encoding_args):
-    text_target = batch_stringify_target(x["text"],x["num_target"],x["target"],args.paradigm,args.pattern)
+    text_target = batch_stringify_target(x["text"],x["num_target"],x["target"],x["task"],args.paradigm,args.pattern)
     if args.model_type in model_types.lm:
-        return tokenizer.batch_encode(x["input"] + " " + text_target, **encoding_args)
+        return tokenizer(x["input"] + " " + text_target, **encoding_args)
     elif args.model_type in model_types.seq2seq:
-        return tokenizer.batch_encode(x["input"], text_target=text_target, **encoding_args)
+        return tokenizer(x["input"], text_target=text_target, **encoding_args)
     else:
         raise NotImplementedError
 
@@ -138,7 +139,7 @@ def train_gabsa_model(args,dataset):
     tokenized_train = dataset["train"].map(
         lambda x : batch_encode(x=x,args=args,tokenizer=model_and_tokenizer["tokenizer"],encoding_args=encoding_args),
         batched=True,
-        removed_columns=dataset["train"].column_names
+        remove_columns=dataset["train"].column_names
     )
 
     trainer_args = {
@@ -159,6 +160,7 @@ def train_gabsa_model(args,dataset):
             return compute_metrics(eval_preds=eval_preds,
                                 dataset=dev_dataset,
                                 model_type=args.model_type,
+                                paradigm=args.paradigm,
                                 pattern=args.pattern,tokenizer=tokenizer,
                                 encoding_args=encoding_args,decoding_args=decoding_args
                                 )
@@ -166,7 +168,7 @@ def train_gabsa_model(args,dataset):
         tokenized_dev = dataset["dev"].map(
                 lambda x : batch_encode(x=x,args=args,tokenizer=model_and_tokenizer["tokenizer"],encoding_args=encoding_args),
                 batched=True,
-                removed_columns=dataset["dev"].column_names
+                remove_columns=dataset["dev"].column_names
             )
 
         trainer_args.update({
@@ -249,7 +251,9 @@ def predict_gabsa_model(args,dataset):
         texts_with_target=preds,tokenizer=tokenizer,encoding_args=encoding_args,
         decoding_args=decoding_args)
     
-    preds = batch_inverse_stringify_target(batch=preds,paradigm=args.paradigm,
+    preds = batch_inverse_stringify_target(batch_stringified_target=preds,
+                                        batch_task=dataset["task"],
+                                        paradigm=args.paradigm,
                                         pattern=args.pattern)
     
     # Calculate metrics
@@ -275,9 +279,6 @@ def main():
     if not args.do_train and not args.do_eval and not args.do_predict:
         logger.info("do_train is False, do_eval is False, do_eval_best is False, do_predict is False too. WHAT DO YOU WANT TO DO THEN???")
         return
-    
-    # Setup device
-    os.environ['CUDA_VISIBLE_DEVICES'] = args.n_gpu
 
     # Load the dataset
     # Prepare the dataset paths
@@ -295,13 +296,16 @@ def main():
             fname += ".txt"
         test_paths.append(os.path.join(args.data_dir,fname))
     
+    prompter = Prompter(args.prompt_path,args.prompt_side) if args.prompt_path != None else None
+    
     dataset = build_gabsa_dataset(train_paths=train_paths,
                                 dev_paths=dev_paths,
                                 test_paths=test_paths,
                                 task = args.task,
                                 blank_frac=args.blank_frac,
                                 random_state=args.random_state,
-                                prompter=Prompter(args.prompt_path,args.prompt_side,args.prompt_option))
+                                prompter=prompter,
+                                prompt_option_path=args.prompt_option_path)
     
     # Prepare output dir
     model_size = "nosize"
@@ -310,9 +314,9 @@ def main():
         if size in args.model_name_or_path:
             model_size = size
 
-    output_dir = os.path.join(args.output_dir,args.model_type,f"{args.model_type}_{args.task}_S{args.max_len}_{model_size}")
+    output_dir = os.path.join(args.output_dir,args.model_type,f"{args.model_type}_pabsa_S{args.max_len}_{model_size}")
     if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+        os.makedirs(os.path.join(output_dir,"data"))
     
     args.output_dir = output_dir
 
