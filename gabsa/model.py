@@ -10,6 +10,9 @@ from transformers import BartForConditionalGeneration, BartTokenizer, MBartForCo
 # GPT
 from transformers import GPT2Tokenizer, GPT2Model
 
+
+# https://huggingface.co/models?pipeline_tag=text2text-generation&sort=downloads&search=indo
+# https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads&search=indo
 def get_gabsa_tokenizer_and_model(model_type,model_name_or_path,model_args,tokenizer_args):
     tokenizer = None
     model = None

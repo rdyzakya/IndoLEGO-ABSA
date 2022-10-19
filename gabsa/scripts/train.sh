@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-CUDA_VISIBLE_DEVICES=1,2,3,4 python main.py --do_train \
+CUDA_VISIBLE_DEVICES=1,3 python main.py --do_train \
             --do_eval \
             --do_predict \
             --train_args /srv/nas_data1/text/randy/absa/facebook-absa/gabsa/train_args/train_args.json \
-            --model_type gpt2 \
-            --model_name_or_path cahya/gpt2-small-indonesian-522M \
+            --model_type mt5 \
+            --model_name_or_path munggok/mt5-translate-en-id \
             --max_len 256 \
             --task "aste" \
             --paradigm extraction \

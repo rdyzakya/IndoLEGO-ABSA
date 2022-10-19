@@ -93,7 +93,10 @@ def train_gabsa_model(args,dataset):
     model_args=model_args,
     tokenizer_args=tokenizer_args)
 
-    add_new_terminology(model_and_tokenizer["tokenizer"])
+    if model_and_tokenizer["tokenizer"].pad_token is None:
+        model_and_tokenizer["tokenizer"].add_special_tokens({'pad_token': '[PAD]'})
+
+    # add_new_terminology(model_and_tokenizer["tokenizer"])
     
     # Prepare encoding arguments
     encoding_args = {
