@@ -279,13 +279,16 @@ def predict_gabsa_model(args,dataset):
     # save metric
     json.dump(evaluation_metrics,open(os.path.join(args.output_dir,"prediction_metrics.json"),'w',encoding="utf-8"))
 
-def add_new_terminology(tokenizer,pattern):
+def add_new_terminology(tokenizer,pattern,prompter):
     vocab = tokenizer.get_vocab()
-    terms = available_task + available_paradigm + ["aspect",
-            "aspek", "sentiment", "sentimen", "opinion",
-            "opini", "polarity", "polaritas", no_target,
-            "triplet", "duplet"] + [el.upper() for el in available_task] + [pattern.open_bracket,
-            pattern.close_bracket, pattern.intra_sep, pattern.inter_sep]
+    terms = available_task + available_paradigm + [pattern.open_bracket,
+        pattern.close_bracket, pattern.intra_sep, pattern.inter_sep]
+    all_prompts = []
+    for task in prompter.prompts.keys():
+        prompts = prompter.prompts[task]
+        all_prompts.extend(prompts.split())
+    prompter_term = list(set(all_prompts))
+    terms.extend(prompter_term)
     for t in terms:
         if t not in vocab:
             tokenizer.add_tokens(t)
@@ -332,21 +335,26 @@ def main():
     for size in available_size:
         if size in args.model_name_or_path:
             model_size = size
-
-    tasks = args.task.split()
-    task_name = "pabsa" if len(tasks) > 1 else tasks[0]
-    output_dir = os.path.join(args.output_dir,args.model_type,f"{args.model_type}_{task_name}_S{args.max_len}_{model_size}_blank={args.blank_frac}")
-    if not os.path.exists(output_dir):
-        os.makedirs(os.path.join(output_dir,"data"))
     
-    args.output_dir = output_dir
-
-    dataset["train"].to_csv(os.path.join(args.output_dir,"data","train.csv"),index=False)
-    dataset["dev"].to_csv(os.path.join(args.output_dir,"data","dev.csv"),index=False)
-    dataset["test"].to_csv(os.path.join(args.output_dir,"data","test.csv"),index=False)
+    base_output_dir = args.output_dir
+    
     if args.do_train:
+        tasks = args.task.split()
+        task_name = "pabsa" if len(tasks) > 1 else tasks[0]
+        model_src = args.model_name_or_path.replace('/','_')
+        dataset_name = os.path.split(args.data_dir)[-1]
+        output_dir = os.path.join(args.output_dir,args.model_type,model_src,dataset_name,f"{args.model_type}_{task_name}_S{args.max_len}_{model_size}_blank={args.blank_frac}")
+        if not os.path.exists(output_dir):
+            os.makedirs(os.path.join(output_dir,"data"))
+        
+        args.output_dir = output_dir
+
+        dataset["train"].to_csv(os.path.join(args.output_dir,"data","train.csv"),index=False)
+        dataset["dev"].to_csv(os.path.join(args.output_dir,"data","dev.csv"),index=False)
         train_gabsa_model(args=args,dataset=dataset)
     if args.do_predict:
+        dataset["test"].to_csv(os.path.join(args.output_dir,"data","test.csv"),index=False)
+        args.output_dir = base_output_dir
         predict_gabsa_model(args=args,dataset=dataset)
 
 if __name__ == "__main__":

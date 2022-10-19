@@ -13,7 +13,7 @@ CUDA_VISIBLE_DEVICES=1,3 python main.py --do_train \
             --prompt_path /srv/nas_data1/text/randy/absa/facebook-absa/gabsa/prompts/prompt.json \
             --prompt_option_path /srv/nas_data1/text/randy/absa/facebook-absa/gabsa/prompts/option.json \
             --pattern /srv/nas_data1/text/randy/absa/facebook-absa/gabsa/patterns/default.json \
-            --data_dir /srv/nas_data1/text/randy/absa/facebook-absa/data/interim/gaste_format \
+            --data_dir /srv/nas_data1/text/randy/absa/facebook-absa/data/interim/gaste_format/prosa \
             --trains "train_socmed_twenty_percent train_news_annotator train_news_student" \
             --devs "test_news" \
             --tests "test_news" \
