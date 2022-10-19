@@ -96,7 +96,7 @@ def train_gabsa_model(args,dataset):
     if model_and_tokenizer["tokenizer"].pad_token is None:
         model_and_tokenizer["tokenizer"].add_special_tokens({'pad_token': '[PAD]'})
 
-    add_new_terminology(model_and_tokenizer["tokenizer"])
+    add_new_terminology(model_and_tokenizer["tokenizer"],args.pattern)
     model_and_tokenizer["model"].resize_token_embeddings(len(model_and_tokenizer["tokenizer"]))
     
     # Prepare encoding arguments
@@ -279,11 +279,13 @@ def predict_gabsa_model(args,dataset):
     # save metric
     json.dump(evaluation_metrics,open(os.path.join(args.output_dir,"prediction_metrics.json"),'w',encoding="utf-8"))
 
-def add_new_terminology(tokenizer):
+def add_new_terminology(tokenizer,pattern):
     vocab = tokenizer.get_vocab()
     terms = available_task + available_paradigm + ["aspect",
             "aspek", "sentiment", "sentimen", "opinion",
-            "opini", "polarity", "polaritas", no_target, "triplet", "duplet"] + [el.upper() for el in available_task]
+            "opini", "polarity", "polaritas", no_target,
+            "triplet", "duplet"] + [el.upper() for el in available_task] + [pattern.open_bracket,
+            pattern.close_bracket, pattern.intra_sep, pattern.inter_sep]
     for t in terms:
         if t not in vocab:
             tokenizer.add_tokens(t)

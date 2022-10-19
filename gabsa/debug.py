@@ -98,13 +98,13 @@ def debug6():
 def debug7():
     tokenizer = T5Tokenizer.from_pretrained('Wikidepia/IndoT5-small')
     preds = [[], [], [], [], []]                                                                
-    decoded_preds = ['( Pemerintah Inggris )', '( A  S )', '( A  S )', '( A  S )', '( A  S )']                                    
-    targets = [[{'aspect': 'Pemerintah Inggris'}], [], [], [], []]                                                  
+    decoded_preds = ['( Pemerintah Inggris )', '( A  S )', '( Kamu | disukai | positive )', '( A  S )', '( A  S )']                                    
+    targets = [[{'aspect': 'Pemerintah Inggris'}], [], [{'aspect' : 'Kamu', 'opinion' : 'disukai', 'sentiment' : 'positive'}], [], []]                                                  
     tasks = ['ate', 'ote', 'aste', 'aope', 'ote']
     # metr = eval_utils.compute_metrics((decoded_preds),)
     pattern = preprocessing.Pattern(' '.join(preprocessing.available_task))
-    # inversed = preprocessing.batch_inverse_stringify_target(batch_stringified_target=decoded_preds,
-    # batch_task=tasks,paradigm="extraction")
+    inversed = preprocessing.batch_inverse_stringify_target(batch_stringified_target=decoded_preds,
+    batch_task=tasks,paradigm="extraction")
     # print(pattern.regex('ate'))
     # print(pattern.regex('ote'))
     # print(pattern.regex('aste'))
@@ -113,6 +113,7 @@ def debug7():
     # for k in pattern.pattern.keys():
     #     print("kocak",pattern.pattern[k])
     # print(inversed)
+    print(inversed)
 
 
 if __name__ == "__main__":
