@@ -13,6 +13,9 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 # https://huggingface.co/models?pipeline_tag=text2text-generation&sort=downloads&search=indo
 # https://huggingface.co/models?pipeline_tag=text-generation&sort=downloads&search=indo
+
+# https://huggingface.co/docs/transformers/model_summary#seq-to-seq-models
+# https://huggingface.co/docs/transformers/model_summary#autoregressive-models
 def get_gabsa_tokenizer_and_model(model_type,model_name_or_path,model_args,tokenizer_args):
     tokenizer = None
     model = None

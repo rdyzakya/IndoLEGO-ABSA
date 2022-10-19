@@ -98,7 +98,7 @@ def debug6():
 def debug7():
     tokenizer = T5Tokenizer.from_pretrained('Wikidepia/IndoT5-small')
     preds = [[], [], [], [], []]                                                                
-    decoded_preds = ['( Pemerintah Inggris )', '( A  S )', '( Kamu | disukai | positive )', '( A  S )', '( A  S )']                                    
+    decoded_preds = ['( Pemerintah Inggris )', '( A  S )', '( Kamu | disukai | positive ) , ( Cinta | bersemi | positive )', '( A  S )', '( A  S )']                                    
     targets = [[{'aspect': 'Pemerintah Inggris'}], [], [{'aspect' : 'Kamu', 'opinion' : 'disukai', 'sentiment' : 'positive'}], [], []]                                                  
     tasks = ['ate', 'ote', 'aste', 'aope', 'ote']
     # metr = eval_utils.compute_metrics((decoded_preds),)
