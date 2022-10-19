@@ -8,7 +8,7 @@ from transformers import XGLMTokenizer, XGLMForCausalLM
 from transformers import BartForConditionalGeneration, BartTokenizer, MBartForConditionalGeneration, MBartTokenizer
 
 # GPT
-from transformers import GPT2Tokenizer, GPT2Model
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
 
 # https://huggingface.co/models?pipeline_tag=text2text-generation&sort=downloads&search=indo
@@ -35,7 +35,7 @@ def get_gabsa_tokenizer_and_model(model_type,model_name_or_path,model_args,token
         model = MBartForConditionalGeneration.from_pretrained(model_name_or_path,**model_args)
         tokenizer = MBartTokenizer.from_pretrained(model_name_or_path,**tokenizer_args)
     elif model_type == "gpt2":
-        model = GPT2Model.from_pretrained(model_name_or_path,**model_args)
+        model = GPT2LMHeadModel.from_pretrained(model_name_or_path,**model_args)
         tokenizer = GPT2Tokenizer.from_pretrained(model_name_or_path,**tokenizer_args)
     else:
         raise NotImplementedError

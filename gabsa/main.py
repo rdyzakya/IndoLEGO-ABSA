@@ -96,7 +96,8 @@ def train_gabsa_model(args,dataset):
     if model_and_tokenizer["tokenizer"].pad_token is None:
         model_and_tokenizer["tokenizer"].add_special_tokens({'pad_token': '[PAD]'})
 
-    # add_new_terminology(model_and_tokenizer["tokenizer"])
+    add_new_terminology(model_and_tokenizer["tokenizer"])
+    model_and_tokenizer["model"].resize_token_embeddings(len(model_and_tokenizer["tokenizer"]))
     
     # Prepare encoding arguments
     encoding_args = {
