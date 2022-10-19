@@ -7,6 +7,9 @@ from transformers import XGLMTokenizer, XGLMForCausalLM
 # BART
 from transformers import BartForConditionalGeneration, BartTokenizer, MBartForConditionalGeneration, MBartTokenizer
 
+# GPT
+from transformers import GPT2Tokenizer, GPT2Model
+
 def get_gabsa_tokenizer_and_model(model_type,model_name_or_path,model_args,tokenizer_args):
     tokenizer = None
     model = None
@@ -28,6 +31,9 @@ def get_gabsa_tokenizer_and_model(model_type,model_name_or_path,model_args,token
     elif model_type == "mbart":
         model = MBartForConditionalGeneration.from_pretrained(model_name_or_path,**model_args)
         tokenizer = MBartTokenizer.from_pretrained(model_name_or_path,**tokenizer_args)
+    elif model_type == "gpt2":
+        model = GPT2Model.from_pretrained(model_name_or_path,**model_args)
+        tokenizer = GPT2Tokenizer.from_pretrained(model_name_or_path,**tokenizer_args)
     else:
         raise NotImplementedError
     return {"model" : model, "tokenizer" : tokenizer, "type" : model_type, "model_name_or_path" : model_name_or_path}

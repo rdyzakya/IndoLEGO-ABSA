@@ -3,9 +3,9 @@
 CUDA_VISIBLE_DEVICES=1,3 python main.py --do_predict \
             --train_args /srv/nas_data1/text/randy/absa/facebook-absa/gabsa/train_args/train_args.json \
             --model_type t5 \
-            --model_name_or_path /srv/nas_data1/text/randy/absa/models/generative/t5/t5_pabsa_S256_small \
+            --model_name_or_path /srv/nas_data1/text/randy/absa/models/generative/t5/t5_pabsa_S256_small_blank=0.5 \
             --max_len 256 \
-            --task "aste" \
+            --task "aste ate ote uabsa aope" \
             --paradigm extraction \
             --prompt_option 0 \
             --prompt_path /srv/nas_data1/text/randy/absa/facebook-absa/gabsa/prompts/prompt.json \
@@ -17,6 +17,6 @@ CUDA_VISIBLE_DEVICES=1,3 python main.py --do_predict \
             --tests "test_news" \
             --blank_frac 1.0 \
             --random_state 42 \
-            --output_dir /srv/nas_data1/text/randy/absa/models/generative/test \
+            --output_dir /srv/nas_data1/text/randy/absa/models/generative/t5/t5_pabsa_S256_small_blank=0.5 \
             --per_device_predict_batch_size 48
             # --trains "train_socmed_twenty_percent train_news_annotator train_news_student" \

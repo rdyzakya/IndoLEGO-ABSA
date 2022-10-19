@@ -74,7 +74,8 @@ def init_args():
 def batch_encode(x,args,tokenizer,encoding_args):
     text_target = batch_stringify_target(x["text"],x["num_target"],x["target"],x["task"],args.paradigm,args.pattern)
     if args.model_type in model_types.lm:
-        res = tokenizer(x["input"] + " " + text_target, **encoding_args)
+        inputs = [i + " " + t for i,t in zip(x["input"],text_target)]
+        res = tokenizer(inputs, **encoding_args)
     elif args.model_type in model_types.seq2seq:
         res = tokenizer(x["input"], text_target=text_target, **encoding_args)
     else:
@@ -192,9 +193,10 @@ def train_gabsa_model(args,dataset):
     model_and_tokenizer["model"].save_pretrained(save_directory=args.output_dir)
 
     print("Saving arguments...")
+    temp_pattern = args.pattern
     args.pattern = args.pattern.pattern
     json.dump(vars(args),open(os.path.join(args.output_dir,"arguments.json"),'w',encoding="utf-8"))
-
+    args.pattern = temp_pattern
     # for predicting
     args.model_name_or_path = args.output_dir
 
