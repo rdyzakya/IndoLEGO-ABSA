@@ -64,7 +64,7 @@ class Prompter:
         return result, prompts
 
 class Pattern:
-    def __init__(self,task,open_bracket='(',close_bracket=')',intra_sep='|',inter_sep=','):
+    def __init__(self,task,open_bracket='(',close_bracket=')',intra_sep=',',inter_sep=';'):
         self.task = task.split()
         self.open_bracket = open_bracket.strip()
         self.close_bracket = close_bracket.strip()
@@ -89,6 +89,7 @@ class Pattern:
     def regex(self,task):
         regex_pattern = self.pattern[task]
         intra_sep = self.intra_sep
+        inter_sep = self.inter_sep
         for k,v in special_char.items():
             regex_pattern = regex_pattern.replace(k,v)
             intra_sep = intra_sep.replace(k,v)
@@ -96,7 +97,7 @@ class Pattern:
             if k == "sentiment":
                 regex_pattern = regex_pattern.replace(v,f"(?P<sentiment>{'|'.join(senttag2word.values())})")
             else:
-                regex_pattern = regex_pattern.replace(v,f"(?P<{k}>[^{intra_sep}]+)")
+                regex_pattern = regex_pattern.replace(v,f"(?P<{k}>[^{intra_sep}{inter_sep}]+)")
         regex_pattern = regex_pattern.replace(' ',r'\s*')
         return regex_pattern
 

@@ -4,6 +4,7 @@ import preprocessing
 from transformers import XGLMTokenizer, T5Tokenizer
 # import pandas as pd
 # import eval_utils
+import re
 
 def debug1():
 
@@ -96,11 +97,11 @@ def debug6():
     print("Contoh :",dataset["train"]["target"][:5])
 
 def debug7():
-    tokenizer = T5Tokenizer.from_pretrained('Wikidepia/IndoT5-small')
-    preds = [[], [], [], [], []]                                                                
-    decoded_preds = ['( Pemerintah Inggris )', '( A  S )', '( Kamu | disukai | positive ) , ( Cinta | bersemi | positive )', '( A  S )', '( A  S )']                                    
-    targets = [[{'aspect': 'Pemerintah Inggris'}], [], [{'aspect' : 'Kamu', 'opinion' : 'disukai', 'sentiment' : 'positive'}], [], []]                                                  
-    tasks = ['ate', 'ote', 'aste', 'aope', 'ote']
+    # tokenizer = T5Tokenizer.from_pretrained('Wikidepia/IndoT5-small')
+    # preds = [[], [], [], [], []]                                                                
+    decoded_preds = ["( aren't bad ), ( easily capable )", '( repairs | expedited | neutral )', '( Netbooks | well designed | positive )', '( wish )', '( mouse keys | change )']                                    
+    targets = [[{'aspect': 'graphics'}], [{'aspect': 'Senior Tech', 'opinion': 'supposed to be fixed', 'sentiment': 'negative'}], [{'aspect': 'designed', 'opinion': 'well', 'sentiment': 'positive'}], [{'opinion': 'wish'}, {'opinion': 'deta$led'}], [{'aspect': 'mouse keys', 'sentiment': 'negative'}]]
+    tasks = ['ate', 'aste', 'aste', 'ote', 'uabsa']
     # metr = eval_utils.compute_metrics((decoded_preds),)
     pattern = preprocessing.Pattern(' '.join(preprocessing.available_task))
     inversed = preprocessing.batch_inverse_stringify_target(batch_stringified_target=decoded_preds,

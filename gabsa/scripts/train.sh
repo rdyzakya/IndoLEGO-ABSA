@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-CUDA_VISIBLE_DEVICES=1,3 python main.py --do_train \
+CUDA_VISIBLE_DEVICES=0 python main.py --do_train \
             --do_eval \
             --do_predict \
             --train_args /srv/nas_data1/text/randy/absa/facebook-absa/gabsa/train_args/train_args.json \
             --model_type t5 \
-            --model_name_or_path t5-small \
+            --model_name_or_path t5-base \
             --max_len 256 \
             --task "aste aope ate ote uabsa" \
             --paradigm extraction \

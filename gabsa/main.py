@@ -353,7 +353,10 @@ def main():
         dataset["dev"].to_csv(os.path.join(args.output_dir,"data","dev.csv"),index=False)
         train_gabsa_model(args=args,dataset=dataset,prompter=prompter)
     if args.do_predict:
-        dataset["test"].to_csv(os.path.join(args.output_dir,"data","test.csv"),index=False)
+        data_dir = os.path.join(args.output_dir,"data")
+        if not os.path.exists(data_dir):
+            os.makedirs(data_dir)
+        dataset["test"].to_csv(os.path.join(data_dir,"test.csv"),index=False)
         args.output_dir = base_output_dir
         predict_gabsa_model(args=args,dataset=dataset)
 
