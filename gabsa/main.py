@@ -82,7 +82,7 @@ def batch_encode(x,args,tokenizer,encoding_args):
         raise NotImplementedError
     return res
 
-def train_gabsa_model(args,dataset):
+def train_gabsa_model(args,dataset,prompter):
     tokenizer_args = {}
     model_args = {}
     tokenizer_args["padding_side"] = "left" if args.model_type in model_types.lm else "right"
@@ -96,7 +96,7 @@ def train_gabsa_model(args,dataset):
     if model_and_tokenizer["tokenizer"].pad_token is None:
         model_and_tokenizer["tokenizer"].add_special_tokens({'pad_token': '[PAD]'})
 
-    add_new_terminology(model_and_tokenizer["tokenizer"],args.pattern)
+    add_new_terminology(model_and_tokenizer["tokenizer"],args.pattern,prompter)
     model_and_tokenizer["model"].resize_token_embeddings(len(model_and_tokenizer["tokenizer"]))
     
     # Prepare encoding arguments
@@ -285,7 +285,7 @@ def add_new_terminology(tokenizer,pattern,prompter):
         pattern.close_bracket, pattern.intra_sep, pattern.inter_sep]
     all_prompts = []
     for task in prompter.prompts.keys():
-        prompts = prompter.prompts[task]
+        prompts = " ".join(prompter.prompts[task])
         all_prompts.extend(prompts.split())
     prompter_term = list(set(all_prompts))
     terms.extend(prompter_term)
@@ -351,7 +351,7 @@ def main():
 
         dataset["train"].to_csv(os.path.join(args.output_dir,"data","train.csv"),index=False)
         dataset["dev"].to_csv(os.path.join(args.output_dir,"data","dev.csv"),index=False)
-        train_gabsa_model(args=args,dataset=dataset)
+        train_gabsa_model(args=args,dataset=dataset,prompter=prompter)
     if args.do_predict:
         dataset["test"].to_csv(os.path.join(args.output_dir,"data","test.csv"),index=False)
         args.output_dir = base_output_dir
