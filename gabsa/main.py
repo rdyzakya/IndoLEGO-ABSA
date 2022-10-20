@@ -247,31 +247,32 @@ def predict_gabsa_model(args,dataset):
                         batch_size=args.per_device_predict_batch_size,shuffle=False)
     
     # Predict
-    preds = []
+    tensor_preds = []
     with torch.no_grad():
         for batch in tqdm(data_loader):
-            preds.extend(model.generate(input_ids=batch.to(device),max_length=args.max_len))
-    preds = tokenizer.batch_decode(preds,**decoding_args)
+            tensor_preds.extend(model.generate(input_ids=batch.to(device),max_length=args.max_len))
+    decoded_preds = tokenizer.batch_decode(tensor_preds,**decoding_args)
     
     if args.model_type in model_types.lm:
-        preds = post_process_lm_result(texts_without_target=test_dataset["input"],
-        texts_with_target=preds,tokenizer=tokenizer,encoding_args=encoding_args,
+        decoded_preds = post_process_lm_result(texts_without_target=test_dataset["input"],
+        texts_with_target=decoded_preds,tokenizer=tokenizer,encoding_args=encoding_args,
         decoding_args=decoding_args)
     
-    preds = batch_inverse_stringify_target(batch_stringified_target=preds,
+    inverse_stringified_preds = batch_inverse_stringify_target(batch_stringified_target=preds,
                                         batch_task=test_dataset["task"],
                                         paradigm=args.paradigm,
                                         pattern=args.pattern)
     
     # Calculate metrics
-    evaluation_metrics = evaluate(pred_pt=preds,gold_pt=[eval(el) for el in test_dataset["target"]])
+    evaluation_metrics = evaluate(pred_pt=inverse_stringified_preds,gold_pt=[eval(el) for el in test_dataset["target"]])
     print(evaluation_metrics)
     # Save dataset and metrics
     result_dataset = pd.DataFrame({
         "text" : test_dataset["text"],
         "prompt" : test_dataset["prompt"],
         "target" : test_dataset["target"],
-        "prediction" : preds
+        "prediction" : inverse_stringified_preds,
+        "string_preds" : decoded_preds
     })
 
     # save prediction dataset
