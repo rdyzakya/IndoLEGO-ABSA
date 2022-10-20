@@ -61,10 +61,6 @@ def init_args():
     parser.add_argument("--per_device_predict_batch_size",type=int,help="Batch size per device for prediction phase",default=16)
     args = parser.parse_args()
 
-    try:
-        args.prompt_option = int(args.prompt_option)
-    except:
-        pass
     args.prompt_side = "left" if args.model_type in model_types.seq2seq else "right"
     if args.pattern != None:
         pattern_args = json.load(open(args.pattern,'r',encoding="utf-8"))
@@ -258,7 +254,7 @@ def predict_gabsa_model(args,dataset):
         texts_with_target=decoded_preds,tokenizer=tokenizer,encoding_args=encoding_args,
         decoding_args=decoding_args)
     
-    inverse_stringified_preds = batch_inverse_stringify_target(batch_stringified_target=preds,
+    inverse_stringified_preds = batch_inverse_stringify_target(batch_stringified_target=decoded_preds,
                                         batch_task=test_dataset["task"],
                                         paradigm=args.paradigm,
                                         pattern=args.pattern)
