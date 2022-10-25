@@ -1,0 +1,547 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Parapuan.co - Liburan adalah salah satu cara ampuh untuk meredakan stres atau healing bagi sebagian orang .
+1-1	0-11	Parapuan.co	_	_	_	_	_
+1-2	12-13	-	_	_	_	_	_
+1-3	14-21	Liburan	_	_	_	_	_
+1-4	22-28	adalah	_	_	_	_	_
+1-5	29-34	salah	_	_	_	_	_
+1-6	35-39	satu	_	_	_	_	_
+1-7	40-44	cara	_	_	_	_	_
+1-8	45-50	ampuh	_	_	_	_	_
+1-9	51-56	untuk	_	_	_	_	_
+1-10	57-66	meredakan	_	_	_	_	_
+1-11	67-72	stres	_	_	_	_	_
+1-12	73-77	atau	_	_	_	_	_
+1-13	78-85	healing	_	_	_	_	_
+1-14	86-90	bagi	_	_	_	_	_
+1-15	91-99	sebagian	_	_	_	_	_
+1-16	100-105	orang	_	_	_	_	_
+1-17	106-107	.	_	_	_	_	_
+
+#Text=Apakah Kawan Puan salah satu nya ?
+2-1	109-115	Apakah	_	_	_	_	_
+2-2	116-121	Kawan	_	_	_	_	_
+2-3	122-126	Puan	_	_	_	_	_
+2-4	127-132	salah	_	_	_	_	_
+2-5	133-137	satu	_	_	_	_	_
+2-6	138-141	nya	_	_	_	_	_
+2-7	142-143	?	_	_	_	_	_
+
+#Text=Pasalnya , liburan atau jalan-jalan dan menjelajah tempat baru secukupnya memang terbukti bisa meningkatkan kesehatan mental .
+3-1	145-153	Pasalnya	_	_	_	_	_
+3-2	154-155	,	_	_	_	_	_
+3-3	156-163	liburan	_	_	_	_	_
+3-4	164-168	atau	_	_	_	_	_
+3-5	169-180	jalan-jalan	_	_	_	_	_
+3-6	181-184	dan	_	_	_	_	_
+3-7	185-195	menjelajah	_	_	_	_	_
+3-8	196-202	tempat	_	_	_	_	_
+3-9	203-207	baru	_	_	_	_	_
+3-10	208-218	secukupnya	_	_	_	_	_
+3-11	219-225	memang	_	_	_	_	_
+3-12	226-234	terbukti	_	_	_	_	_
+3-13	235-239	bisa	_	_	_	_	_
+3-14	240-252	meningkatkan	_	_	_	_	_
+3-15	253-262	kesehatan	_	_	_	_	_
+3-16	263-269	mental	_	_	_	_	_
+3-17	270-271	.	_	_	_	_	_
+
+#Text=Menarik nya lagi , kamu tidak perlu bepergian dengan banyak orang atau pergi ke tempat mewah untuk mendapatkan manfaat liburan .
+4-1	273-280	Menarik	_	_	_	_	_
+4-2	281-284	nya	_	_	_	_	_
+4-3	285-289	lagi	_	_	_	_	_
+4-4	290-291	,	_	_	_	_	_
+4-5	292-296	kamu	_	_	_	_	_
+4-6	297-302	tidak	_	_	_	_	_
+4-7	303-308	perlu	_	_	_	_	_
+4-8	309-318	bepergian	_	_	_	_	_
+4-9	319-325	dengan	_	_	_	_	_
+4-10	326-332	banyak	_	_	_	_	_
+4-11	333-338	orang	_	_	_	_	_
+4-12	339-343	atau	_	_	_	_	_
+4-13	344-349	pergi	_	_	_	_	_
+4-14	350-352	ke	_	_	_	_	_
+4-15	353-359	tempat	_	_	_	_	_
+4-16	360-365	mewah	_	_	_	_	_
+4-17	366-371	untuk	_	_	_	_	_
+4-18	372-383	mendapatkan	_	_	_	_	_
+4-19	384-391	manfaat	_	_	_	_	_
+4-20	392-399	liburan	_	_	_	_	_
+4-21	400-401	.	_	_	_	_	_
+
+#Text=Kamu bisa liburan sendiri atau sekadar jalan-jalan keliling taman dan staycation di hotel terdekat untuk meredakan stres kamu .
+5-1	403-407	Kamu	_	_	_	_	_
+5-2	408-412	bisa	_	_	_	_	_
+5-3	413-420	liburan	_	_	_	_	_
+5-4	421-428	sendiri	_	_	_	_	_
+5-5	429-433	atau	_	_	_	_	_
+5-6	434-441	sekadar	_	_	_	_	_
+5-7	442-453	jalan-jalan	_	_	_	_	_
+5-8	454-462	keliling	_	_	_	_	_
+5-9	463-468	taman	_	_	_	_	_
+5-10	469-472	dan	_	_	_	_	_
+5-11	473-483	staycation	_	_	_	_	_
+5-12	484-486	di	_	_	_	_	_
+5-13	487-492	hotel	_	_	_	_	_
+5-14	493-501	terdekat	_	_	_	_	_
+5-15	502-507	untuk	_	_	_	_	_
+5-16	508-517	meredakan	_	_	_	_	_
+5-17	518-523	stres	_	_	_	_	_
+5-18	524-528	kamu	_	_	_	_	_
+5-19	529-530	.	_	_	_	_	_
+
+#Text=Pasalnya , melansir WebMD , PARAPUAN telah merangkum 5 manfaat liburan untuk kesehatan mental .
+6-1	532-540	Pasalnya	_	_	_	_	_
+6-2	541-542	,	_	_	_	_	_
+6-3	543-551	melansir	_	_	_	_	_
+6-4	552-557	WebMD	_	_	_	_	_
+6-5	558-559	,	_	_	_	_	_
+6-6	560-568	PARAPUAN	_	_	_	_	_
+6-7	569-574	telah	_	_	_	_	_
+6-8	575-584	merangkum	_	_	_	_	_
+6-9	585-586	5	_	_	_	_	_
+6-10	587-594	manfaat	_	_	_	_	_
+6-11	595-602	liburan	_	_	_	_	_
+6-12	603-608	untuk	_	_	_	_	_
+6-13	609-618	kesehatan	_	_	_	_	_
+6-14	619-625	mental	_	_	_	_	_
+6-15	626-627	.	_	_	_	_	_
+
+#Text=Yuk , simak apa saja !
+7-1	629-632	Yuk	_	_	_	_	_
+7-2	633-634	,	_	_	_	_	_
+7-3	635-640	simak	_	_	_	_	_
+7-4	641-644	apa	_	_	_	_	_
+7-5	645-649	saja	_	_	_	_	_
+7-6	650-651	!	_	_	_	_	_
+
+#Text=1 .
+8-1	653-654	1	_	_	_	_	_
+8-2	655-656	.	_	_	_	_	_
+
+#Text=Meningkatkan kreativitas Bepergian ke tempat baru dapat meningkatkan kreativitas mu , tentu saja mengetahui banyak sudut pandang di tempat lain .
+9-1	658-670	Meningkatkan	_	_	_	_	_
+9-2	671-682	kreativitas	_	_	_	_	_
+9-3	683-692	Bepergian	_	_	_	_	_
+9-4	693-695	ke	_	_	_	_	_
+9-5	696-702	tempat	_	_	_	_	_
+9-6	703-707	baru	_	_	_	_	_
+9-7	708-713	dapat	_	_	_	_	_
+9-8	714-726	meningkatkan	_	_	_	_	_
+9-9	727-738	kreativitas	_	_	_	_	_
+9-10	739-741	mu	_	_	_	_	_
+9-11	742-743	,	_	_	_	_	_
+9-12	744-749	tentu	_	_	_	_	_
+9-13	750-754	saja	_	_	_	_	_
+9-14	755-765	mengetahui	_	_	_	_	_
+9-15	766-772	banyak	_	_	_	_	_
+9-16	773-778	sudut	_	_	_	_	_
+9-17	779-786	pandang	_	_	_	_	_
+9-18	787-789	di	_	_	_	_	_
+9-19	790-796	tempat	_	_	_	_	_
+9-20	797-801	lain	_	_	_	_	_
+9-21	802-803	.	_	_	_	_	_
+
+#Text=Dengan liburan , kamu dapat terinspirasi dengan sesuatu di sana dan memunculkan ide-ide beragam .
+10-1	805-811	Dengan	_	_	_	_	_
+10-2	812-819	liburan	_	_	_	_	_
+10-3	820-821	,	_	_	_	_	_
+10-4	822-826	kamu	_	_	_	_	_
+10-5	827-832	dapat	_	_	_	_	_
+10-6	833-845	terinspirasi	_	_	_	_	_
+10-7	846-852	dengan	_	_	_	_	_
+10-8	853-860	sesuatu	_	_	_	_	_
+10-9	861-863	di	_	_	_	_	_
+10-10	864-868	sana	_	_	_	_	_
+10-11	869-872	dan	_	_	_	_	_
+10-12	873-884	memunculkan	_	_	_	_	_
+10-13	885-892	ide-ide	_	_	_	_	_
+10-14	893-900	beragam	_	_	_	_	_
+10-15	901-902	.	_	_	_	_	_
+
+#Text=Paparan budaya baru , berteman dengan orang baru , serta menikmati berbagai jenis makanan dan musik sangat baik untuk kesehatan mental mu .
+11-1	904-911	Paparan	_	_	_	_	_
+11-2	912-918	budaya	_	_	_	_	_
+11-3	919-923	baru	_	_	_	_	_
+11-4	924-925	,	_	_	_	_	_
+11-5	926-934	berteman	_	_	_	_	_
+11-6	935-941	dengan	_	_	_	_	_
+11-7	942-947	orang	_	_	_	_	_
+11-8	948-952	baru	_	_	_	_	_
+11-9	953-954	,	_	_	_	_	_
+11-10	955-960	serta	_	_	_	_	_
+11-11	961-970	menikmati	_	_	_	_	_
+11-12	971-979	berbagai	_	_	_	_	_
+11-13	980-985	jenis	_	_	_	_	_
+11-14	986-993	makanan	_	_	_	_	_
+11-15	994-997	dan	_	_	_	_	_
+11-16	998-1003	musik	_	_	_	_	_
+11-17	1004-1010	sangat	_	_	_	_	_
+11-18	1011-1015	baik	_	_	_	_	_
+11-19	1016-1021	untuk	_	_	_	_	_
+11-20	1022-1031	kesehatan	_	_	_	_	_
+11-21	1032-1038	mental	_	_	_	_	_
+11-22	1039-1041	mu	_	_	_	_	_
+11-23	1042-1043	.	_	_	_	_	_
+
+#Text=6 Manfaat Menyendiri untuk Kesehatan Mental , Salah Satu nya Tingkatkan Kreativitas 2 .
+12-1	1045-1046	6	_	_	_	_	_
+12-2	1047-1054	Manfaat	_	_	_	_	_
+12-3	1055-1065	Menyendiri	_	_	_	_	_
+12-4	1066-1071	untuk	_	_	_	_	_
+12-5	1072-1081	Kesehatan	_	_	_	_	_
+12-6	1082-1088	Mental	_	_	_	_	_
+12-7	1089-1090	,	_	_	_	_	_
+12-8	1091-1096	Salah	_	_	_	_	_
+12-9	1097-1101	Satu	_	_	_	_	_
+12-10	1102-1105	nya	_	_	_	_	_
+12-11	1106-1116	Tingkatkan	_	_	_	_	_
+12-12	1117-1128	Kreativitas	_	_	_	_	_
+12-13	1129-1130	2	_	_	_	_	_
+12-14	1131-1132	.	_	_	_	_	_
+
+#Text=Menenangkan pikiran Meluangkan waktu dari pekerjaan untuk melihat tempat-tempat baru dapat melepaskan stres yang selama ini kamu tahan .
+13-1	1134-1145	Menenangkan	_	_	_	_	_
+13-2	1146-1153	pikiran	_	_	_	_	_
+13-3	1154-1164	Meluangkan	_	_	_	_	_
+13-4	1165-1170	waktu	_	_	_	_	_
+13-5	1171-1175	dari	_	_	_	_	_
+13-6	1176-1185	pekerjaan	_	_	_	_	_
+13-7	1186-1191	untuk	_	_	_	_	_
+13-8	1192-1199	melihat	_	_	_	_	_
+13-9	1200-1213	tempat-tempat	_	_	_	_	_
+13-10	1214-1218	baru	_	_	_	_	_
+13-11	1219-1224	dapat	_	_	_	_	_
+13-12	1225-1235	melepaskan	_	_	_	_	_
+13-13	1236-1241	stres	_	_	_	_	_
+13-14	1242-1246	yang	_	_	_	_	_
+13-15	1247-1253	selama	_	_	_	_	_
+13-16	1254-1257	ini	_	_	_	_	_
+13-17	1258-1262	kamu	_	_	_	_	_
+13-18	1263-1268	tahan	_	_	_	_	_
+13-19	1269-1270	.	_	_	_	_	_
+
+#Text=Menghilangkan ketegangan dan stres dari kehidupan pekerjaan mu dapat membuat pikiran menjadi relaks .
+14-1	1272-1285	Menghilangkan	_	_	_	_	_
+14-2	1286-1296	ketegangan	_	_	_	_	_
+14-3	1297-1300	dan	_	_	_	_	_
+14-4	1301-1306	stres	_	_	_	_	_
+14-5	1307-1311	dari	_	_	_	_	_
+14-6	1312-1321	kehidupan	_	_	_	_	_
+14-7	1322-1331	pekerjaan	_	_	_	_	_
+14-8	1332-1334	mu	_	_	_	_	_
+14-9	1335-1340	dapat	_	_	_	_	_
+14-10	1341-1348	membuat	_	_	_	_	_
+14-11	1349-1356	pikiran	_	_	_	_	_
+14-12	1357-1364	menjadi	_	_	_	_	_
+14-13	1365-1371	relaks	_	_	_	_	_
+14-14	1372-1373	.	_	_	_	_	_
+
+#Text=Pasalnya , berada di bawah tekanan pekerjaan tidak hanya membuat pikiran dan tubuh mu stres , tetapi juga mengganggu kesehatan fisik mu .
+15-1	1375-1383	Pasalnya	_	_	_	_	_
+15-2	1384-1385	,	_	_	_	_	_
+15-3	1386-1392	berada	_	_	_	_	_
+15-4	1393-1395	di	_	_	_	_	_
+15-5	1396-1401	bawah	_	_	_	_	_
+15-6	1402-1409	tekanan	_	_	_	_	_
+15-7	1410-1419	pekerjaan	_	concept[1]	_	_	_
+15-8	1420-1425	tidak	_	_	_	_	_
+15-9	1426-1431	hanya	_	_	_	_	_
+15-10	1432-1439	membuat	_	_	_	_	_
+15-11	1440-1447	pikiran	_	negative[2]	_	_	_
+15-12	1448-1451	dan	_	negative[2]	_	_	_
+15-13	1452-1457	tubuh	_	negative[2]	_	_	_
+15-14	1458-1460	mu	_	negative[2]	_	_	_
+15-15	1461-1466	stres	_	negative[2]	_	_	_
+15-16	1467-1468	,	_	_	_	_	_
+15-17	1469-1475	tetapi	_	_	_	_	_
+15-18	1476-1480	juga	_	_	_	_	_
+15-19	1481-1491	mengganggu	_	negative[3]	_	_	_
+15-20	1492-1501	kesehatan	_	negative[3]	_	_	_
+15-21	1502-1507	fisik	_	negative[3]	_	_	_
+15-22	1508-1510	mu	_	negative[3]	_	_	_
+15-23	1511-1512	.	_	_	_	_	_
+
+#Text=3 .
+16-1	1514-1515	3	_	_	_	_	_
+16-2	1516-1517	.	_	_	_	_	_
+
+#Text=Mengurangi gejala kecemasan dan depresi Memiliki pengalaman baru bermanfaat untuk meningkatkan fungsi otak dan meningkatkan kesehatan mental mu .
+17-1	1519-1529	Mengurangi	_	_	_	_	_
+17-2	1530-1536	gejala	_	_	_	_	_
+17-3	1537-1546	kecemasan	_	_	_	_	_
+17-4	1547-1550	dan	_	_	_	_	_
+17-5	1551-1558	depresi	_	_	_	_	_
+17-6	1559-1567	Memiliki	_	_	_	_	_
+17-7	1568-1578	pengalaman	_	_	_	_	_
+17-8	1579-1583	baru	_	_	_	_	_
+17-9	1584-1594	bermanfaat	_	_	_	_	_
+17-10	1595-1600	untuk	_	_	_	_	_
+17-11	1601-1613	meningkatkan	_	_	_	_	_
+17-12	1614-1620	fungsi	_	_	_	_	_
+17-13	1621-1625	otak	_	_	_	_	_
+17-14	1626-1629	dan	_	_	_	_	_
+17-15	1630-1642	meningkatkan	_	_	_	_	_
+17-16	1643-1652	kesehatan	_	_	_	_	_
+17-17	1653-1659	mental	_	_	_	_	_
+17-18	1660-1662	mu	_	_	_	_	_
+17-19	1663-1664	.	_	_	_	_	_
+
+#Text=Liburan tak hanya berkaitan dengan pengurangan stres , melainkan juga dapat mengurangi gejala kecemasan dan depresi .
+18-1	1666-1673	Liburan	_	concept[4]	_	_	_
+18-2	1674-1677	tak	_	_	_	_	_
+18-3	1678-1683	hanya	_	_	_	_	_
+18-4	1684-1693	berkaitan	_	_	_	_	_
+18-5	1694-1700	dengan	_	_	_	_	_
+18-6	1701-1712	pengurangan	_	positive[5]	_	_	_
+18-7	1713-1718	stres	_	positive[5]	_	_	_
+18-8	1719-1720	,	_	_	_	_	_
+18-9	1721-1730	melainkan	_	_	_	_	_
+18-10	1731-1735	juga	_	_	_	_	_
+18-11	1736-1741	dapat	*	[4_6]|positive[6]	_	_	_
+18-12	1742-1752	mengurangi	_	positive[6]	_	_	_
+18-13	1753-1759	gejala	_	positive[6]	_	_	_
+18-14	1760-1769	kecemasan	_	positive[6]	_	_	_
+18-15	1770-1773	dan	_	positive[6]	_	_	_
+18-16	1774-1781	depresi	_	positive[6]	_	_	_
+18-17	1782-1783	.	_	_	_	_	_
+
+#Text=Entah pergi ke negara lain atau menghabiskan waktu di kota terdekat , liburan dapat berdampak kuat pada kesehatan mental kamu .
+19-1	1785-1790	Entah	_	_	_	_	_
+19-2	1791-1796	pergi	_	_	_	_	_
+19-3	1797-1799	ke	_	_	_	_	_
+19-4	1800-1806	negara	_	_	_	_	_
+19-5	1807-1811	lain	_	_	_	_	_
+19-6	1812-1816	atau	_	_	_	_	_
+19-7	1817-1829	menghabiskan	_	_	_	_	_
+19-8	1830-1835	waktu	_	_	_	_	_
+19-9	1836-1838	di	_	_	_	_	_
+19-10	1839-1843	kota	_	_	_	_	_
+19-11	1844-1852	terdekat	_	_	_	_	_
+19-12	1853-1854	,	_	_	_	_	_
+19-13	1855-1862	liburan	_	_	_	_	_
+19-14	1863-1868	dapat	_	_	_	_	_
+19-15	1869-1878	berdampak	_	_	_	_	_
+19-16	1879-1883	kuat	_	_	_	_	_
+19-17	1884-1888	pada	_	_	_	_	_
+19-18	1889-1898	kesehatan	_	_	_	_	_
+19-19	1899-1905	mental	_	_	_	_	_
+19-20	1906-1910	kamu	_	_	_	_	_
+19-21	1911-1912	.	_	_	_	_	_
+
+#Text=4 .
+20-1	1914-1915	4	_	_	_	_	_
+20-2	1916-1917	.	_	_	_	_	_
+
+#Text=Meningkatkan kekuatan mental 3 Manfat Kickboxing untuk Kesehatan Mental , Bisa Perbaiki Suasana Hati Jika kamu sangat stres , memori dan kemampuan menetapkan tujuan dan keputusan akan terpengaruh secara negatif .
+21-1	1919-1931	Meningkatkan	_	positive[7]	_	_	_
+21-2	1932-1940	kekuatan	_	positive[7]	_	_	_
+21-3	1941-1947	mental	_	positive[7]	_	_	_
+21-4	1948-1949	3	_	_	_	_	_
+21-5	1950-1956	Manfat	_	_	_	_	_
+21-6	1957-1967	Kickboxing	_	concept[8]	_	_	_
+21-7	1968-1973	untuk	_	_	_	_	_
+21-8	1974-1983	Kesehatan	_	_	_	_	_
+21-9	1984-1990	Mental	_	_	_	_	_
+21-10	1991-1992	,	_	_	_	_	_
+21-11	1993-1997	Bisa	_	positive[9]	_	_	_
+21-12	1998-2006	Perbaiki	_	positive[9]	_	_	_
+21-13	2007-2014	Suasana	_	positive[9]	_	_	_
+21-14	2015-2019	Hati	_	positive[9]	_	_	_
+21-15	2020-2024	Jika	_	_	_	_	_
+21-16	2025-2029	kamu	_	_	_	_	_
+21-17	2030-2036	sangat	_	_	_	_	_
+21-18	2037-2042	stres	_	_	_	_	_
+21-19	2043-2044	,	_	_	_	_	_
+21-20	2045-2051	memori	_	_	_	_	_
+21-21	2052-2055	dan	_	_	_	_	_
+21-22	2056-2065	kemampuan	_	_	_	_	_
+21-23	2066-2076	menetapkan	_	_	_	_	_
+21-24	2077-2083	tujuan	_	_	_	_	_
+21-25	2084-2087	dan	_	_	_	_	_
+21-26	2088-2097	keputusan	_	_	_	_	_
+21-27	2098-2102	akan	_	_	_	_	_
+21-28	2103-2114	terpengaruh	_	_	_	_	_
+21-29	2115-2121	secara	_	_	_	_	_
+21-30	2122-2129	negatif	_	_	_	_	_
+21-31	2130-2131	.	_	_	_	_	_
+
+#Text=Meluangkan waktu untuk liburan dan meninggalkan pekerjaan sejenak dapat membantu mu lebih produktif ketika kembali .
+22-1	2133-2143	Meluangkan	_	_	_	_	_
+22-2	2144-2149	waktu	_	_	_	_	_
+22-3	2150-2155	untuk	_	_	_	_	_
+22-4	2156-2163	liburan	_	_	_	_	_
+22-5	2164-2167	dan	_	_	_	_	_
+22-6	2168-2180	meninggalkan	_	_	_	_	_
+22-7	2181-2190	pekerjaan	_	_	_	_	_
+22-8	2191-2198	sejenak	_	_	_	_	_
+22-9	2199-2204	dapat	_	_	_	_	_
+22-10	2205-2213	membantu	_	_	_	_	_
+22-11	2214-2216	mu	_	_	_	_	_
+22-12	2217-2222	lebih	_	_	_	_	_
+22-13	2223-2232	produktif	_	_	_	_	_
+22-14	2233-2239	ketika	_	_	_	_	_
+22-15	2240-2247	kembali	_	_	_	_	_
+22-16	2248-2249	.	_	_	_	_	_
+
+#Text=5 .
+23-1	2251-2252	5	_	_	_	_	_
+23-2	2253-2254	.	_	_	_	_	_
+
+#Text=Waktu berkualitas dengan orang tercinta Jika kamu liburan dengan keluarga , pasangan , teman , atau anak-anak , inilah yang dimaksud waktu berkualitas dengan orang tercinta .
+24-1	2256-2261	Waktu	_	_	_	_	_
+24-2	2262-2273	berkualitas	_	_	_	_	_
+24-3	2274-2280	dengan	_	_	_	_	_
+24-4	2281-2286	orang	_	_	_	_	_
+24-5	2287-2295	tercinta	_	_	_	_	_
+24-6	2296-2300	Jika	_	_	_	_	_
+24-7	2301-2305	kamu	_	_	_	_	_
+24-8	2306-2313	liburan	_	_	_	_	_
+24-9	2314-2320	dengan	_	_	_	_	_
+24-10	2321-2329	keluarga	_	_	_	_	_
+24-11	2330-2331	,	_	_	_	_	_
+24-12	2332-2340	pasangan	_	_	_	_	_
+24-13	2341-2342	,	_	_	_	_	_
+24-14	2343-2348	teman	_	_	_	_	_
+24-15	2349-2350	,	_	_	_	_	_
+24-16	2351-2355	atau	_	_	_	_	_
+24-17	2356-2365	anak-anak	_	_	_	_	_
+24-18	2366-2367	,	_	_	_	_	_
+24-19	2368-2374	inilah	_	_	_	_	_
+24-20	2375-2379	yang	_	_	_	_	_
+24-21	2380-2388	dimaksud	_	_	_	_	_
+24-22	2389-2394	waktu	_	_	_	_	_
+24-23	2395-2406	berkualitas	_	_	_	_	_
+24-24	2407-2413	dengan	_	_	_	_	_
+24-25	2414-2419	orang	_	_	_	_	_
+24-26	2420-2428	tercinta	_	_	_	_	_
+24-27	2429-2430	.	_	_	_	_	_
+
+#Text=Menghabiskan waktu bersama keluarga saat liburan juga dapat meningkatkan suasana hati mu , terutama rasa bahagia .
+25-1	2432-2444	Menghabiskan	_	_	_	_	_
+25-2	2445-2450	waktu	_	_	_	_	_
+25-3	2451-2458	bersama	_	_	_	_	_
+25-4	2459-2467	keluarga	_	_	_	_	_
+25-5	2468-2472	saat	_	_	_	_	_
+25-6	2473-2480	liburan	_	_	_	_	_
+25-7	2481-2485	juga	_	_	_	_	_
+25-8	2486-2491	dapat	_	_	_	_	_
+25-9	2492-2504	meningkatkan	_	_	_	_	_
+25-10	2505-2512	suasana	_	_	_	_	_
+25-11	2513-2517	hati	_	_	_	_	_
+25-12	2518-2520	mu	_	_	_	_	_
+25-13	2521-2522	,	_	_	_	_	_
+25-14	2523-2531	terutama	_	_	_	_	_
+25-15	2532-2536	rasa	_	_	_	_	_
+25-16	2537-2544	bahagia	_	_	_	_	_
+25-17	2545-2546	.	_	_	_	_	_
+
+#Text=Saat kamu bahagia , kesehatan mental mu berangsur-angsur membaik karena melihat orang tercinta menikmati liburan bersama mu .
+26-1	2548-2552	Saat	_	_	_	_	_
+26-2	2553-2557	kamu	_	_	_	_	_
+26-3	2558-2565	bahagia	_	_	_	_	_
+26-4	2566-2567	,	_	_	_	_	_
+26-5	2568-2577	kesehatan	_	_	_	_	_
+26-6	2578-2584	mental	_	_	_	_	_
+26-7	2585-2587	mu	_	_	_	_	_
+26-8	2588-2604	berangsur-angsur	_	_	_	_	_
+26-9	2605-2612	membaik	_	_	_	_	_
+26-10	2613-2619	karena	_	_	_	_	_
+26-11	2620-2627	melihat	_	_	_	_	_
+26-12	2628-2633	orang	_	_	_	_	_
+26-13	2634-2642	tercinta	_	_	_	_	_
+26-14	2643-2652	menikmati	_	_	_	_	_
+26-15	2653-2660	liburan	_	_	_	_	_
+26-16	2661-2668	bersama	_	_	_	_	_
+26-17	2669-2671	mu	_	_	_	_	_
+26-18	2672-2673	.	_	_	_	_	_
+
+#Text=Terlebih , jika kamu memiliki pekerjaan yang mengurangi waktu mu bersama mereka , liburan menjadi pilihan tepat untuk waktu berkualitas mu .
+27-1	2675-2683	Terlebih	_	_	_	_	_
+27-2	2684-2685	,	_	_	_	_	_
+27-3	2686-2690	jika	_	_	_	_	_
+27-4	2691-2695	kamu	_	_	_	_	_
+27-5	2696-2704	memiliki	_	_	_	_	_
+27-6	2705-2714	pekerjaan	_	_	_	_	_
+27-7	2715-2719	yang	_	_	_	_	_
+27-8	2720-2730	mengurangi	_	_	_	_	_
+27-9	2731-2736	waktu	_	_	_	_	_
+27-10	2737-2739	mu	_	_	_	_	_
+27-11	2740-2747	bersama	_	_	_	_	_
+27-12	2748-2754	mereka	_	_	_	_	_
+27-13	2755-2756	,	_	_	_	_	_
+27-14	2757-2764	liburan	_	_	_	_	_
+27-15	2765-2772	menjadi	_	_	_	_	_
+27-16	2773-2780	pilihan	_	_	_	_	_
+27-17	2781-2786	tepat	_	_	_	_	_
+27-18	2787-2792	untuk	_	_	_	_	_
+27-19	2793-2798	waktu	_	_	_	_	_
+27-20	2799-2810	berkualitas	_	_	_	_	_
+27-21	2811-2813	mu	_	_	_	_	_
+27-22	2814-2815	.	_	_	_	_	_
+
+#Text=Nah , itulah setidaknya 5 manfaat liburan untuk kesehatan mental .
+28-1	2817-2820	Nah	_	_	_	_	_
+28-2	2821-2822	,	_	_	_	_	_
+28-3	2823-2829	itulah	_	_	_	_	_
+28-4	2830-2840	setidaknya	_	_	_	_	_
+28-5	2841-2842	5	_	_	_	_	_
+28-6	2843-2850	manfaat	_	_	_	_	_
+28-7	2851-2858	liburan	_	_	_	_	_
+28-8	2859-2864	untuk	_	_	_	_	_
+28-9	2865-2874	kesehatan	_	_	_	_	_
+28-10	2875-2881	mental	_	_	_	_	_
+28-11	2882-2883	.	_	_	_	_	_
+
+#Text=Namun , pastikan untuk tidak berlebihan hingga mengganggu aktivitas dan keuangan kamu , ya .
+29-1	2885-2890	Namun	_	_	_	_	_
+29-2	2891-2892	,	_	_	_	_	_
+29-3	2893-2901	pastikan	_	_	_	_	_
+29-4	2902-2907	untuk	_	_	_	_	_
+29-5	2908-2913	tidak	_	_	_	_	_
+29-6	2914-2924	berlebihan	_	_	_	_	_
+29-7	2925-2931	hingga	_	_	_	_	_
+29-8	2932-2942	mengganggu	_	_	_	_	_
+29-9	2943-2952	aktivitas	_	_	_	_	_
+29-10	2953-2956	dan	_	_	_	_	_
+29-11	2957-2965	keuangan	_	_	_	_	_
+29-12	2966-2970	kamu	_	_	_	_	_
+29-13	2971-2972	,	_	_	_	_	_
+29-14	2973-2975	ya	_	_	_	_	_
+29-15	2976-2977	.	_	_	_	_	_
+
+#Text=5 Manfaat Membersihkan Rumah bagi Kesehatan Mental , seperti Kang Tae Moo di A Business Proposal Lantas , sudah liburan ke mana saja kamu di akhir pekan ini ?
+30-1	2979-2980	5	_	_	_	_	_
+30-2	2981-2988	Manfaat	_	_	_	_	_
+30-3	2989-3001	Membersihkan	_	_	_	_	_
+30-4	3002-3007	Rumah	_	_	_	_	_
+30-5	3008-3012	bagi	_	_	_	_	_
+30-6	3013-3022	Kesehatan	_	_	_	_	_
+30-7	3023-3029	Mental	_	_	_	_	_
+30-8	3030-3031	,	_	_	_	_	_
+30-9	3032-3039	seperti	_	_	_	_	_
+30-10	3040-3044	Kang	_	_	_	_	_
+30-11	3045-3048	Tae	_	_	_	_	_
+30-12	3049-3052	Moo	_	_	_	_	_
+30-13	3053-3055	di	_	_	_	_	_
+30-14	3056-3057	A	_	_	_	_	_
+30-15	3058-3066	Business	_	_	_	_	_
+30-16	3067-3075	Proposal	_	_	_	_	_
+30-17	3076-3082	Lantas	_	_	_	_	_
+30-18	3083-3084	,	_	_	_	_	_
+30-19	3085-3090	sudah	_	_	_	_	_
+30-20	3091-3098	liburan	_	_	_	_	_
+30-21	3099-3101	ke	_	_	_	_	_
+30-22	3102-3106	mana	_	_	_	_	_
+30-23	3107-3111	saja	_	_	_	_	_
+30-24	3112-3116	kamu	_	_	_	_	_
+30-25	3117-3119	di	_	_	_	_	_
+30-26	3120-3125	akhir	_	_	_	_	_
+30-27	3126-3131	pekan	_	_	_	_	_
+30-28	3132-3135	ini	_	_	_	_	_
+30-29	3136-3137	?	_	_	_	_	_
+
+#Text=(*)
+31-1	3139-3142	(*)	_	_	_	_	_
+

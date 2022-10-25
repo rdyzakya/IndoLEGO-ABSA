@@ -1,0 +1,585 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=KOMPAS.com - BIGHIT Music telah mengumumkan jadwal konser terbaru BTS tahun 2022 .
+1-1	0-10	KOMPAS.com	_	_	_	_	_
+1-2	11-12	-	_	_	_	_	_
+1-3	13-19	BIGHIT	_	_	_	_	_
+1-4	20-25	Music	_	_	_	_	_
+1-5	26-31	telah	_	_	_	_	_
+1-6	32-43	mengumumkan	_	_	_	_	_
+1-7	44-50	jadwal	_	_	_	_	_
+1-8	51-57	konser	_	_	_	_	_
+1-9	58-65	terbaru	_	_	_	_	_
+1-10	66-69	BTS	_	_	_	_	_
+1-11	70-75	tahun	_	_	_	_	_
+1-12	76-80	2022	_	_	_	_	_
+1-13	81-82	.	_	_	_	_	_
+
+#Text=Setelah dijadwalkan konser di Korea Selatan pada 10 , 12 , dan 13 Maret 2022 di Seoul Olympic Stadium , BTS kembali dijadwalkan konser di Los Angeles pada 8 dan 9 , serta 15 dan 16 April 2022 .
+2-1	84-91	Setelah	_	_	_	_	_
+2-2	92-103	dijadwalkan	_	_	_	_	_
+2-3	104-110	konser	_	_	_	_	_
+2-4	111-113	di	_	_	_	_	_
+2-5	114-119	Korea	_	_	_	_	_
+2-6	120-127	Selatan	_	_	_	_	_
+2-7	128-132	pada	_	_	_	_	_
+2-8	133-135	10	_	_	_	_	_
+2-9	136-137	,	_	_	_	_	_
+2-10	138-140	12	_	_	_	_	_
+2-11	141-142	,	_	_	_	_	_
+2-12	143-146	dan	_	_	_	_	_
+2-13	147-149	13	_	_	_	_	_
+2-14	150-155	Maret	_	_	_	_	_
+2-15	156-160	2022	_	_	_	_	_
+2-16	161-163	di	_	_	_	_	_
+2-17	164-169	Seoul	_	_	_	_	_
+2-18	170-177	Olympic	_	_	_	_	_
+2-19	178-185	Stadium	_	_	_	_	_
+2-20	186-187	,	_	_	_	_	_
+2-21	188-191	BTS	_	_	_	_	_
+2-22	192-199	kembali	_	_	_	_	_
+2-23	200-211	dijadwalkan	_	_	_	_	_
+2-24	212-218	konser	_	_	_	_	_
+2-25	219-221	di	_	_	_	_	_
+2-26	222-225	Los	_	_	_	_	_
+2-27	226-233	Angeles	_	_	_	_	_
+2-28	234-238	pada	_	_	_	_	_
+2-29	239-240	8	_	_	_	_	_
+2-30	241-244	dan	_	_	_	_	_
+2-31	245-246	9	_	_	_	_	_
+2-32	247-248	,	_	_	_	_	_
+2-33	249-254	serta	_	_	_	_	_
+2-34	255-257	15	_	_	_	_	_
+2-35	258-261	dan	_	_	_	_	_
+2-36	262-264	16	_	_	_	_	_
+2-37	265-270	April	_	_	_	_	_
+2-38	271-275	2022	_	_	_	_	_
+2-39	276-277	.	_	_	_	_	_
+
+#Text=Konser BTS Permission To Dance On Stage , Las Vegas , digelar di Allegiant Stadium berkapasitas 65.000 penonton .
+3-1	279-285	Konser	_	_	_	_	_
+3-2	286-289	BTS	_	_	_	_	_
+3-3	290-300	Permission	_	_	_	_	_
+3-4	301-303	To	_	_	_	_	_
+3-5	304-309	Dance	_	_	_	_	_
+3-6	310-312	On	_	_	_	_	_
+3-7	313-318	Stage	_	_	_	_	_
+3-8	319-320	,	_	_	_	_	_
+3-9	321-324	Las	_	_	_	_	_
+3-10	325-330	Vegas	_	_	_	_	_
+3-11	331-332	,	_	_	_	_	_
+3-12	333-340	digelar	_	_	_	_	_
+3-13	341-343	di	_	_	_	_	_
+3-14	344-353	Allegiant	_	_	_	_	_
+3-15	354-361	Stadium	_	_	_	_	_
+3-16	362-374	berkapasitas	_	_	_	_	_
+3-17	375-381	65.000	_	_	_	_	_
+3-18	382-390	penonton	_	_	_	_	_
+3-19	391-392	.	_	_	_	_	_
+
+#Text=Allegiant Stadium adalah rumah bagi Las Vegas Raiders dan tim sepak bola Universitas Nevada Las Vegas yang mulai beroperasi pada 2020 .
+4-1	394-403	Allegiant	_	_	_	_	_
+4-2	404-411	Stadium	_	_	_	_	_
+4-3	412-418	adalah	_	_	_	_	_
+4-4	419-424	rumah	_	_	_	_	_
+4-5	425-429	bagi	_	_	_	_	_
+4-6	430-433	Las	_	_	_	_	_
+4-7	434-439	Vegas	_	_	_	_	_
+4-8	440-447	Raiders	_	_	_	_	_
+4-9	448-451	dan	_	_	_	_	_
+4-10	452-455	tim	_	_	_	_	_
+4-11	456-461	sepak	_	_	_	_	_
+4-12	462-466	bola	_	_	_	_	_
+4-13	467-478	Universitas	_	_	_	_	_
+4-14	479-485	Nevada	_	_	_	_	_
+4-15	486-489	Las	_	_	_	_	_
+4-16	490-495	Vegas	_	_	_	_	_
+4-17	496-500	yang	_	_	_	_	_
+4-18	501-506	mulai	_	_	_	_	_
+4-19	507-517	beroperasi	_	_	_	_	_
+4-20	518-522	pada	_	_	_	_	_
+4-21	523-527	2020	_	_	_	_	_
+4-22	528-529	.	_	_	_	_	_
+
+#Text=Respons BTS Saat Tahu Peraturan Penonton Dilarang Teriak Selama Konser Berikut fakta Allegiant Stadium sebagaimana dirangkum Kompas.com , Rabu ( 23 / 2 / 2022 ) .
+5-1	531-538	Respons	_	_	_	_	_
+5-2	539-542	BTS	_	_	_	_	_
+5-3	543-547	Saat	_	_	_	_	_
+5-4	548-552	Tahu	_	_	_	_	_
+5-5	553-562	Peraturan	_	_	_	_	_
+5-6	563-571	Penonton	_	_	_	_	_
+5-7	572-580	Dilarang	_	_	_	_	_
+5-8	581-587	Teriak	_	_	_	_	_
+5-9	588-594	Selama	_	_	_	_	_
+5-10	595-601	Konser	_	_	_	_	_
+5-11	602-609	Berikut	_	_	_	_	_
+5-12	610-615	fakta	_	_	_	_	_
+5-13	616-625	Allegiant	_	_	_	_	_
+5-14	626-633	Stadium	_	_	_	_	_
+5-15	634-645	sebagaimana	_	_	_	_	_
+5-16	646-655	dirangkum	_	_	_	_	_
+5-17	656-666	Kompas.com	_	_	_	_	_
+5-18	667-668	,	_	_	_	_	_
+5-19	669-673	Rabu	_	_	_	_	_
+5-20	674-675	(	_	_	_	_	_
+5-21	676-678	23	_	_	_	_	_
+5-22	679-680	/	_	_	_	_	_
+5-23	681-682	2	_	_	_	_	_
+5-24	683-684	/	_	_	_	_	_
+5-25	685-689	2022	_	_	_	_	_
+5-26	690-691	)	_	_	_	_	_
+5-27	692-693	.	_	_	_	_	_
+
+#Text=Dilansir stadiumsofprofootbal.com , pembangunan Allegiant Stadium memakan dana 1,9 miliar dollar US atau setara Rp 27,2 triliun .
+6-1	695-703	Dilansir	_	_	_	_	_
+6-2	704-728	stadiumsofprofootbal.com	_	_	_	_	_
+6-3	729-730	,	_	_	_	_	_
+6-4	731-742	pembangunan	_	_	_	_	_
+6-5	743-752	Allegiant	_	_	_	_	_
+6-6	753-760	Stadium	_	_	_	_	_
+6-7	761-768	memakan	_	_	_	_	_
+6-8	769-773	dana	_	_	_	_	_
+6-9	774-777	1,9	_	_	_	_	_
+6-10	778-784	miliar	_	_	_	_	_
+6-11	785-791	dollar	_	_	_	_	_
+6-12	792-794	US	_	_	_	_	_
+6-13	795-799	atau	_	_	_	_	_
+6-14	800-806	setara	_	_	_	_	_
+6-15	807-809	Rp	_	_	_	_	_
+6-16	810-814	27,2	_	_	_	_	_
+6-17	815-822	triliun	_	_	_	_	_
+6-18	823-824	.	_	_	_	_	_
+
+#Text=Dana yang dipakai untuk membangun stadion tersebut berasal dari publik berupa pajak hotel dan dana swasta .
+7-1	826-830	Dana	_	_	_	_	_
+7-2	831-835	yang	_	_	_	_	_
+7-3	836-843	dipakai	_	_	_	_	_
+7-4	844-849	untuk	_	_	_	_	_
+7-5	850-859	membangun	_	_	_	_	_
+7-6	860-867	stadion	_	_	_	_	_
+7-7	868-876	tersebut	_	_	_	_	_
+7-8	877-884	berasal	_	_	_	_	_
+7-9	885-889	dari	_	_	_	_	_
+7-10	890-896	publik	_	_	_	_	_
+7-11	897-903	berupa	_	_	_	_	_
+7-12	904-909	pajak	_	_	_	_	_
+7-13	910-915	hotel	_	_	_	_	_
+7-14	916-919	dan	_	_	_	_	_
+7-15	920-924	dana	_	_	_	_	_
+7-16	925-931	swasta	_	_	_	_	_
+7-17	932-933	.	_	_	_	_	_
+
+#Text=Sebanyak 750 juta dollar atau setara Rp 10,7 triliun berasal dari pajak , sementara beberapa bagian dikumpulkan dari Raiders dan NFL .
+8-1	935-943	Sebanyak	_	_	_	_	_
+8-2	944-947	750	_	_	_	_	_
+8-3	948-952	juta	_	_	_	_	_
+8-4	953-959	dollar	_	_	_	_	_
+8-5	960-964	atau	_	_	_	_	_
+8-6	965-971	setara	_	_	_	_	_
+8-7	972-974	Rp	_	_	_	_	_
+8-8	975-979	10,7	_	_	_	_	_
+8-9	980-987	triliun	_	_	_	_	_
+8-10	988-995	berasal	_	_	_	_	_
+8-11	996-1000	dari	_	_	_	_	_
+8-12	1001-1006	pajak	_	_	_	_	_
+8-13	1007-1008	,	_	_	_	_	_
+8-14	1009-1018	sementara	_	_	_	_	_
+8-15	1019-1027	beberapa	_	_	_	_	_
+8-16	1028-1034	bagian	_	_	_	_	_
+8-17	1035-1046	dikumpulkan	_	_	_	_	_
+8-18	1047-1051	dari	_	_	_	_	_
+8-19	1052-1059	Raiders	_	_	_	_	_
+8-20	1060-1063	dan	_	_	_	_	_
+8-21	1064-1067	NFL	_	_	_	_	_
+8-22	1068-1069	.	_	_	_	_	_
+
+#Text=Dilansir dari casinocitytimes.com , Sheldon Adelson sempat menarik dana 650 juta dollar dari pembangunan stadion , kekurangan dana tersebut kemudian ditutupi oleh pinjaman Bank of America dengan nominal yang sama .
+9-1	1071-1079	Dilansir	_	_	_	_	_
+9-2	1080-1084	dari	_	_	_	_	_
+9-3	1085-1104	casinocitytimes.com	_	_	_	_	_
+9-4	1105-1106	,	_	_	_	_	_
+9-5	1107-1114	Sheldon	_	_	_	_	_
+9-6	1115-1122	Adelson	_	_	_	_	_
+9-7	1123-1129	sempat	_	_	_	_	_
+9-8	1130-1137	menarik	_	_	_	_	_
+9-9	1138-1142	dana	_	_	_	_	_
+9-10	1143-1146	650	_	_	_	_	_
+9-11	1147-1151	juta	_	_	_	_	_
+9-12	1152-1158	dollar	_	_	_	_	_
+9-13	1159-1163	dari	_	_	_	_	_
+9-14	1164-1175	pembangunan	_	_	_	_	_
+9-15	1176-1183	stadion	_	_	_	_	_
+9-16	1184-1185	,	_	_	_	_	_
+9-17	1186-1196	kekurangan	_	_	_	_	_
+9-18	1197-1201	dana	_	_	_	_	_
+9-19	1202-1210	tersebut	_	_	_	_	_
+9-20	1211-1219	kemudian	_	_	_	_	_
+9-21	1220-1228	ditutupi	_	_	_	_	_
+9-22	1229-1233	oleh	_	_	_	_	_
+9-23	1234-1242	pinjaman	_	_	_	_	_
+9-24	1243-1247	Bank	_	_	_	_	_
+9-25	1248-1250	of	_	_	_	_	_
+9-26	1251-1258	America	_	_	_	_	_
+9-27	1259-1265	dengan	_	_	_	_	_
+9-28	1266-1273	nominal	_	_	_	_	_
+9-29	1274-1278	yang	_	_	_	_	_
+9-30	1279-1283	sama	_	_	_	_	_
+9-31	1284-1285	.	_	_	_	_	_
+
+#Text=V BTS Sembuh dari Covid - 19 Allegiant Stadium memiliki kapasitas 65.000 kursi yang bisa diperluas menjadi maksimal 75.000 kursi untuk acara tertentu .
+10-1	1287-1288	V	_	_	_	_	_
+10-2	1289-1292	BTS	_	_	_	_	_
+10-3	1293-1299	Sembuh	_	_	_	_	_
+10-4	1300-1304	dari	_	_	_	_	_
+10-5	1305-1310	Covid	_	_	_	_	_
+10-6	1311-1312	-	_	_	_	_	_
+10-7	1313-1315	19	_	_	_	_	_
+10-8	1316-1325	Allegiant	_	_	_	_	_
+10-9	1326-1333	Stadium	_	_	_	_	_
+10-10	1334-1342	memiliki	_	_	_	_	_
+10-11	1343-1352	kapasitas	_	_	_	_	_
+10-12	1353-1359	65.000	_	_	_	_	_
+10-13	1360-1365	kursi	_	_	_	_	_
+10-14	1366-1370	yang	_	_	_	_	_
+10-15	1371-1375	bisa	_	_	_	_	_
+10-16	1376-1385	diperluas	_	_	_	_	_
+10-17	1386-1393	menjadi	_	_	_	_	_
+10-18	1394-1402	maksimal	_	_	_	_	_
+10-19	1403-1409	75.000	_	_	_	_	_
+10-20	1410-1415	kursi	_	_	_	_	_
+10-21	1416-1421	untuk	_	_	_	_	_
+10-22	1422-1427	acara	_	_	_	_	_
+10-23	1428-1436	tertentu	_	_	_	_	_
+10-24	1437-1438	.	_	_	_	_	_
+
+#Text=Adapun tempat parkir yang luas mampu menampung 2.725 kendaraan .
+11-1	1440-1446	Adapun	_	_	_	_	_
+11-2	1447-1453	tempat	_	concept[1]	_	_	_
+11-3	1454-1460	parkir	_	concept[1]	_	_	_
+11-4	1461-1465	yang	_	_	_	_	_
+11-5	1466-1470	luas	_	positive[2]	_	_	_
+11-6	1471-1476	mampu	_	_	_	_	_
+11-7	1477-1486	menampung	_	_	_	_	_
+11-8	1487-1492	2.725	_	_	_	_	_
+11-9	1493-1502	kendaraan	_	_	_	_	_
+11-10	1503-1504	.	_	_	_	_	_
+
+#Text=Dilansir dari sportsnaut.com , Allegiant Stadium berada di peringkat lima sebagai stadium National Football League terbaik .
+12-1	1506-1514	Dilansir	_	_	_	_	_
+12-2	1515-1519	dari	_	_	_	_	_
+12-3	1520-1534	sportsnaut.com	_	_	_	_	_
+12-4	1535-1536	,	_	_	_	_	_
+12-5	1537-1546	Allegiant	_	_	_	_	_
+12-6	1547-1554	Stadium	_	_	_	_	_
+12-7	1555-1561	berada	_	_	_	_	_
+12-8	1562-1564	di	_	_	_	_	_
+12-9	1565-1574	peringkat	_	_	_	_	_
+12-10	1575-1579	lima	_	_	_	_	_
+12-11	1580-1587	sebagai	_	_	_	_	_
+12-12	1588-1595	stadium	_	_	_	_	_
+12-13	1596-1604	National	_	_	_	_	_
+12-14	1605-1613	Football	_	_	_	_	_
+12-15	1614-1620	League	_	_	_	_	_
+12-16	1621-1628	terbaik	_	_	_	_	_
+12-17	1629-1630	.	_	_	_	_	_
+
+#Text=Mengalahkan peringkat SoFi Stadium di posisi keenam .
+13-1	1632-1643	Mengalahkan	_	_	_	_	_
+13-2	1644-1653	peringkat	_	_	_	_	_
+13-3	1654-1658	SoFi	_	_	_	_	_
+13-4	1659-1666	Stadium	_	_	_	_	_
+13-5	1667-1669	di	_	_	_	_	_
+13-6	1670-1676	posisi	_	_	_	_	_
+13-7	1677-1683	keenam	_	_	_	_	_
+13-8	1684-1685	.	_	_	_	_	_
+
+#Text=Allegiant Stadium beralamat di Paradise , Nevada , Amerika Serikat .
+14-1	1687-1696	Allegiant	_	_	_	_	_
+14-2	1697-1704	Stadium	_	_	_	_	_
+14-3	1705-1714	beralamat	_	_	_	_	_
+14-4	1715-1717	di	_	_	_	_	_
+14-5	1718-1726	Paradise	_	_	_	_	_
+14-6	1727-1728	,	_	_	_	_	_
+14-7	1729-1735	Nevada	_	_	_	_	_
+14-8	1736-1737	,	_	_	_	_	_
+14-9	1738-1745	Amerika	_	_	_	_	_
+14-10	1746-1753	Serikat	_	_	_	_	_
+14-11	1754-1755	.	_	_	_	_	_
+
+#Text=Lokasi ini dinilai sangat stategis karena dekat dengan Mandalay Bay Resort and Casino di Las Vegas Strip .
+15-1	1757-1763	Lokasi	_	concept[3]	_	_	_
+15-2	1764-1767	ini	_	_	_	_	_
+15-3	1768-1775	dinilai	_	_	_	_	_
+15-4	1776-1782	sangat	_	positive[4]	_	_	_
+15-5	1783-1791	stategis	_	positive[4]	_	_	_
+15-6	1792-1798	karena	_	_	_	_	_
+15-7	1799-1804	dekat	_	_	_	_	_
+15-8	1805-1811	dengan	_	_	_	_	_
+15-9	1812-1820	Mandalay	_	_	_	_	_
+15-10	1821-1824	Bay	_	_	_	_	_
+15-11	1825-1831	Resort	_	_	_	_	_
+15-12	1832-1835	and	_	_	_	_	_
+15-13	1836-1842	Casino	_	_	_	_	_
+15-14	1843-1845	di	_	_	_	_	_
+15-15	1846-1849	Las	_	_	_	_	_
+15-16	1850-1855	Vegas	_	_	_	_	_
+15-17	1856-1861	Strip	_	_	_	_	_
+15-18	1862-1863	.	_	_	_	_	_
+
+#Text=Konser BTS di Seoul Olympic Stadium Diizinkan Ditonton oleh Total 45.000 Orang Allegiant Stadium juga menyediakan kelas VIP bagi mereka yang ingin menonton pertandingan Las Vegas Raiders maupun pertunjukkan lainnya .
+16-1	1865-1871	Konser	_	_	_	_	_
+16-2	1872-1875	BTS	_	_	_	_	_
+16-3	1876-1878	di	_	_	_	_	_
+16-4	1879-1884	Seoul	_	_	_	_	_
+16-5	1885-1892	Olympic	_	_	_	_	_
+16-6	1893-1900	Stadium	_	_	_	_	_
+16-7	1901-1910	Diizinkan	_	_	_	_	_
+16-8	1911-1919	Ditonton	_	_	_	_	_
+16-9	1920-1924	oleh	_	_	_	_	_
+16-10	1925-1930	Total	_	_	_	_	_
+16-11	1931-1937	45.000	_	_	_	_	_
+16-12	1938-1943	Orang	_	_	_	_	_
+16-13	1944-1953	Allegiant	_	_	_	_	_
+16-14	1954-1961	Stadium	_	_	_	_	_
+16-15	1962-1966	juga	_	_	_	_	_
+16-16	1967-1978	menyediakan	_	_	_	_	_
+16-17	1979-1984	kelas	_	_	_	_	_
+16-18	1985-1988	VIP	_	_	_	_	_
+16-19	1989-1993	bagi	_	_	_	_	_
+16-20	1994-2000	mereka	_	_	_	_	_
+16-21	2001-2005	yang	_	_	_	_	_
+16-22	2006-2011	ingin	_	_	_	_	_
+16-23	2012-2020	menonton	_	_	_	_	_
+16-24	2021-2033	pertandingan	_	_	_	_	_
+16-25	2034-2037	Las	_	_	_	_	_
+16-26	2038-2043	Vegas	_	_	_	_	_
+16-27	2044-2051	Raiders	_	_	_	_	_
+16-28	2052-2058	maupun	_	_	_	_	_
+16-29	2059-2071	pertunjukkan	_	_	_	_	_
+16-30	2072-2079	lainnya	_	_	_	_	_
+16-31	2080-2081	.	_	_	_	_	_
+
+#Text=terdapat 127 kursi khusus yang terbagi lagi dalam beberapa kelas .
+17-1	2083-2091	terdapat	_	_	_	_	_
+17-2	2092-2095	127	_	_	_	_	_
+17-3	2096-2101	kursi	_	_	_	_	_
+17-4	2102-2108	khusus	_	_	_	_	_
+17-5	2109-2113	yang	_	_	_	_	_
+17-6	2114-2121	terbagi	_	_	_	_	_
+17-7	2122-2126	lagi	_	_	_	_	_
+17-8	2127-2132	dalam	_	_	_	_	_
+17-9	2133-2141	beberapa	_	_	_	_	_
+17-10	2142-2147	kelas	_	_	_	_	_
+17-11	2148-2149	.	_	_	_	_	_
+
+#Text=Salah satu kursi pribadi menawarkan tiket VIP , termpat parkir VIP , minuman dan makanan kelas atas , serta banyak fasilitas lainnya .
+18-1	2151-2156	Salah	_	_	_	_	_
+18-2	2157-2161	satu	_	_	_	_	_
+18-3	2162-2167	kursi	_	_	_	_	_
+18-4	2168-2175	pribadi	_	_	_	_	_
+18-5	2176-2186	menawarkan	_	_	_	_	_
+18-6	2187-2192	tiket	_	_	_	_	_
+18-7	2193-2196	VIP	_	_	_	_	_
+18-8	2197-2198	,	_	_	_	_	_
+18-9	2199-2206	termpat	_	_	_	_	_
+18-10	2207-2213	parkir	_	_	_	_	_
+18-11	2214-2217	VIP	_	_	_	_	_
+18-12	2218-2219	,	_	_	_	_	_
+18-13	2220-2227	minuman	_	_	_	_	_
+18-14	2228-2231	dan	_	_	_	_	_
+18-15	2232-2239	makanan	_	_	_	_	_
+18-16	2240-2245	kelas	_	_	_	_	_
+18-17	2246-2250	atas	_	_	_	_	_
+18-18	2251-2252	,	_	_	_	_	_
+18-19	2253-2258	serta	_	_	_	_	_
+18-20	2259-2265	banyak	_	_	_	_	_
+18-21	2266-2275	fasilitas	_	_	_	_	_
+18-22	2276-2283	lainnya	_	_	_	_	_
+18-23	2284-2285	.	_	_	_	_	_
+
+#Text=Pemilik Raiders , Mark Davis , tertarik memindahkan markas tim pada 2016 .
+19-1	2287-2294	Pemilik	_	_	_	_	_
+19-2	2295-2302	Raiders	_	_	_	_	_
+19-3	2303-2304	,	_	_	_	_	_
+19-4	2305-2309	Mark	_	_	_	_	_
+19-5	2310-2315	Davis	_	_	_	_	_
+19-6	2316-2317	,	_	_	_	_	_
+19-7	2318-2326	tertarik	_	_	_	_	_
+19-8	2327-2338	memindahkan	_	_	_	_	_
+19-9	2339-2345	markas	_	_	_	_	_
+19-10	2346-2349	tim	_	_	_	_	_
+19-11	2350-2354	pada	_	_	_	_	_
+19-12	2355-2359	2016	_	_	_	_	_
+19-13	2360-2361	.	_	_	_	_	_
+
+#Text=NFL pun menyetujui relokasi tim ke Las Vegas pada 2017 .
+20-1	2363-2366	NFL	_	_	_	_	_
+20-2	2367-2370	pun	_	_	_	_	_
+20-3	2371-2381	menyetujui	_	_	_	_	_
+20-4	2382-2390	relokasi	_	_	_	_	_
+20-5	2391-2394	tim	_	_	_	_	_
+20-6	2395-2397	ke	_	_	_	_	_
+20-7	2398-2401	Las	_	_	_	_	_
+20-8	2402-2407	Vegas	_	_	_	_	_
+20-9	2408-2412	pada	_	_	_	_	_
+20-10	2413-2417	2017	_	_	_	_	_
+20-11	2418-2419	.	_	_	_	_	_
+
+#Text=Pembangunan berlangsung pada 2017 sampai 2020 .
+21-1	2421-2432	Pembangunan	_	_	_	_	_
+21-2	2433-2444	berlangsung	_	_	_	_	_
+21-3	2445-2449	pada	_	_	_	_	_
+21-4	2450-2454	2017	_	_	_	_	_
+21-5	2455-2461	sampai	_	_	_	_	_
+21-6	2462-2466	2020	_	_	_	_	_
+21-7	2467-2468	.	_	_	_	_	_
+
+#Text=Pertandingan pertama di Allegiant Stadium digelar pada September 2020 saat Raiders melawan New Orleans Saints .
+22-1	2470-2482	Pertandingan	_	_	_	_	_
+22-2	2483-2490	pertama	_	_	_	_	_
+22-3	2491-2493	di	_	_	_	_	_
+22-4	2494-2503	Allegiant	_	_	_	_	_
+22-5	2504-2511	Stadium	_	_	_	_	_
+22-6	2512-2519	digelar	_	_	_	_	_
+22-7	2520-2524	pada	_	_	_	_	_
+22-8	2525-2534	September	_	_	_	_	_
+22-9	2535-2539	2020	_	_	_	_	_
+22-10	2540-2544	saat	_	_	_	_	_
+22-11	2545-2552	Raiders	_	_	_	_	_
+22-12	2553-2560	melawan	_	_	_	_	_
+22-13	2561-2564	New	_	_	_	_	_
+22-14	2565-2572	Orleans	_	_	_	_	_
+22-15	2573-2579	Saints	_	_	_	_	_
+22-16	2580-2581	.	_	_	_	_	_
+
+#Text=BTS dan TXT Terima Penghargaan Emas dari TikTok Allegiant Stadium memiliki kubah bening tembus pandang yang memungkinkan cahaya matahari menerangi bagian dalam stadion di siang hari .
+23-1	2583-2586	BTS	_	_	_	_	_
+23-2	2587-2590	dan	_	_	_	_	_
+23-3	2591-2594	TXT	_	_	_	_	_
+23-4	2595-2601	Terima	_	_	_	_	_
+23-5	2602-2613	Penghargaan	_	_	_	_	_
+23-6	2614-2618	Emas	_	_	_	_	_
+23-7	2619-2623	dari	_	_	_	_	_
+23-8	2624-2630	TikTok	_	_	_	_	_
+23-9	2631-2640	Allegiant	_	_	_	_	_
+23-10	2641-2648	Stadium	_	_	_	_	_
+23-11	2649-2657	memiliki	_	_	_	_	_
+23-12	2658-2663	kubah	_	_	_	_	_
+23-13	2664-2670	bening	_	_	_	_	_
+23-14	2671-2677	tembus	_	_	_	_	_
+23-15	2678-2685	pandang	_	_	_	_	_
+23-16	2686-2690	yang	_	_	_	_	_
+23-17	2691-2703	memungkinkan	_	_	_	_	_
+23-18	2704-2710	cahaya	_	_	_	_	_
+23-19	2711-2719	matahari	_	_	_	_	_
+23-20	2720-2729	menerangi	_	_	_	_	_
+23-21	2730-2736	bagian	_	_	_	_	_
+23-22	2737-2742	dalam	_	_	_	_	_
+23-23	2743-2750	stadion	_	_	_	_	_
+23-24	2751-2753	di	_	_	_	_	_
+23-25	2754-2759	siang	_	_	_	_	_
+23-26	2760-2764	hari	_	_	_	_	_
+23-27	2765-2766	.	_	_	_	_	_
+
+#Text=Stadion itu memiliki bukaan sebesar 80 x 215 kaki di zona utara .
+24-1	2768-2775	Stadion	_	_	_	_	_
+24-2	2776-2779	itu	_	_	_	_	_
+24-3	2780-2788	memiliki	_	_	_	_	_
+24-4	2789-2795	bukaan	_	_	_	_	_
+24-5	2796-2803	sebesar	_	_	_	_	_
+24-6	2804-2806	80	_	_	_	_	_
+24-7	2807-2808	x	_	_	_	_	_
+24-8	2809-2812	215	_	_	_	_	_
+24-9	2813-2817	kaki	_	_	_	_	_
+24-10	2818-2820	di	_	_	_	_	_
+24-11	2821-2825	zona	_	_	_	_	_
+24-12	2826-2831	utara	_	_	_	_	_
+24-13	2832-2833	.	_	_	_	_	_
+
+#Text=Situs resmi Allegiant Stadium telah merilis jadwal acara yang akan digelar di sana .
+25-1	2835-2840	Situs	_	_	_	_	_
+25-2	2841-2846	resmi	_	_	_	_	_
+25-3	2847-2856	Allegiant	_	_	_	_	_
+25-4	2857-2864	Stadium	_	_	_	_	_
+25-5	2865-2870	telah	_	_	_	_	_
+25-6	2871-2878	merilis	_	_	_	_	_
+25-7	2879-2885	jadwal	_	_	_	_	_
+25-8	2886-2891	acara	_	_	_	_	_
+25-9	2892-2896	yang	_	_	_	_	_
+25-10	2897-2901	akan	_	_	_	_	_
+25-11	2902-2909	digelar	_	_	_	_	_
+25-12	2910-2912	di	_	_	_	_	_
+25-13	2913-2917	sana	_	_	_	_	_
+25-14	2918-2919	.	_	_	_	_	_
+
+#Text=Selama Februari terdapat tiga konser musik dari Metalica and Billy Joel , Mettalica dan bintang tamu spesial Greta Van Fleet , dan Billy Joel .
+26-1	2921-2927	Selama	_	_	_	_	_
+26-2	2928-2936	Februari	_	_	_	_	_
+26-3	2937-2945	terdapat	_	_	_	_	_
+26-4	2946-2950	tiga	_	_	_	_	_
+26-5	2951-2957	konser	_	_	_	_	_
+26-6	2958-2963	musik	_	_	_	_	_
+26-7	2964-2968	dari	_	_	_	_	_
+26-8	2969-2977	Metalica	_	_	_	_	_
+26-9	2978-2981	and	_	_	_	_	_
+26-10	2982-2987	Billy	_	_	_	_	_
+26-11	2988-2992	Joel	_	_	_	_	_
+26-12	2993-2994	,	_	_	_	_	_
+26-13	2995-3004	Mettalica	_	_	_	_	_
+26-14	3005-3008	dan	_	_	_	_	_
+26-15	3009-3016	bintang	_	_	_	_	_
+26-16	3017-3021	tamu	_	_	_	_	_
+26-17	3022-3029	spesial	_	_	_	_	_
+26-18	3030-3035	Greta	_	_	_	_	_
+26-19	3036-3039	Van	_	_	_	_	_
+26-20	3040-3045	Fleet	_	_	_	_	_
+26-21	3046-3047	,	_	_	_	_	_
+26-22	3048-3051	dan	_	_	_	_	_
+26-23	3052-3057	Billy	_	_	_	_	_
+26-24	3058-3062	Joel	_	_	_	_	_
+26-25	3063-3064	.	_	_	_	_	_
+
+#Text=Sementara pada April , BTS akan menguasai Allegiant Stadium selama empat malam pada 8 dan 9 , serta 15 dan 16 April 2022 .
+27-1	3066-3075	Sementara	_	_	_	_	_
+27-2	3076-3080	pada	_	_	_	_	_
+27-3	3081-3086	April	_	_	_	_	_
+27-4	3087-3088	,	_	_	_	_	_
+27-5	3089-3092	BTS	_	_	_	_	_
+27-6	3093-3097	akan	_	_	_	_	_
+27-7	3098-3107	menguasai	_	_	_	_	_
+27-8	3108-3117	Allegiant	_	_	_	_	_
+27-9	3118-3125	Stadium	_	_	_	_	_
+27-10	3126-3132	selama	_	_	_	_	_
+27-11	3133-3138	empat	_	_	_	_	_
+27-12	3139-3144	malam	_	_	_	_	_
+27-13	3145-3149	pada	_	_	_	_	_
+27-14	3150-3151	8	_	_	_	_	_
+27-15	3152-3155	dan	_	_	_	_	_
+27-16	3156-3157	9	_	_	_	_	_
+27-17	3158-3159	,	_	_	_	_	_
+27-18	3160-3165	serta	_	_	_	_	_
+27-19	3166-3168	15	_	_	_	_	_
+27-20	3169-3172	dan	_	_	_	_	_
+27-21	3173-3175	16	_	_	_	_	_
+27-22	3176-3181	April	_	_	_	_	_
+27-23	3182-3186	2022	_	_	_	_	_
+27-24	3187-3188	.	_	_	_	_	_
+
+#Text=Sebelumnya Academy of Country Music Awards akan digelar di Allegiant Stadium pada 7 Maret 2022 .
+28-1	3190-3200	Sebelumnya	_	_	_	_	_
+28-2	3201-3208	Academy	_	_	_	_	_
+28-3	3209-3211	of	_	_	_	_	_
+28-4	3212-3219	Country	_	_	_	_	_
+28-5	3220-3225	Music	_	_	_	_	_
+28-6	3226-3232	Awards	_	_	_	_	_
+28-7	3233-3237	akan	_	_	_	_	_
+28-8	3238-3245	digelar	_	_	_	_	_
+28-9	3246-3248	di	_	_	_	_	_
+28-10	3249-3258	Allegiant	_	_	_	_	_
+28-11	3259-3266	Stadium	_	_	_	_	_
+28-12	3267-3271	pada	_	_	_	_	_
+28-13	3272-3273	7	_	_	_	_	_
+28-14	3274-3279	Maret	_	_	_	_	_
+28-15	3280-3284	2022	_	_	_	_	_
+28-16	3285-3286	.	_	_	_	_	_
+

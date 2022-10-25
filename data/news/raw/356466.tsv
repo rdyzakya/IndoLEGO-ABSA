@@ -1,0 +1,906 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Ketika memutuskan untuk liburan ke daerah Jawa bagian tengah , pasti salah satu yang ada dipikiran kita Yogyakarta .
+1-1	0-6	Ketika	_	_	_	_	_
+1-2	7-17	memutuskan	_	_	_	_	_
+1-3	18-23	untuk	_	_	_	_	_
+1-4	24-31	liburan	_	_	_	_	_
+1-5	32-34	ke	_	_	_	_	_
+1-6	35-41	daerah	_	_	_	_	_
+1-7	42-46	Jawa	_	_	_	_	_
+1-8	47-53	bagian	_	_	_	_	_
+1-9	54-60	tengah	_	_	_	_	_
+1-10	61-62	,	_	_	_	_	_
+1-11	63-68	pasti	_	_	_	_	_
+1-12	69-74	salah	_	_	_	_	_
+1-13	75-79	satu	_	_	_	_	_
+1-14	80-84	yang	_	_	_	_	_
+1-15	85-88	ada	_	_	_	_	_
+1-16	89-98	dipikiran	_	_	_	_	_
+1-17	99-103	kita	_	_	_	_	_
+1-18	104-114	Yogyakarta	_	_	_	_	_
+1-19	115-116	.	_	_	_	_	_
+
+#Text=Ya , Yogyakarta merupakan salah satu daerah di Jawa bagian tengah yang banyak didatangi wisatawan untuk berlibur .
+2-1	118-120	Ya	_	_	_	_	_
+2-2	121-122	,	_	_	_	_	_
+2-3	123-133	Yogyakarta	_	concept[1]	_	_	_
+2-4	134-143	merupakan	_	_	_	_	_
+2-5	144-149	salah	_	_	_	_	_
+2-6	150-154	satu	_	_	_	_	_
+2-7	155-161	daerah	_	_	_	_	_
+2-8	162-164	di	_	_	_	_	_
+2-9	165-169	Jawa	_	_	_	_	_
+2-10	170-176	bagian	_	_	_	_	_
+2-11	177-183	tengah	_	_	_	_	_
+2-12	184-188	yang	_	_	_	_	_
+2-13	189-195	banyak	_	positive[2]	_	_	_
+2-14	196-205	didatangi	_	positive[2]	_	_	_
+2-15	206-215	wisatawan	_	positive[2]	_	_	_
+2-16	216-221	untuk	_	_	_	_	_
+2-17	222-230	berlibur	_	_	_	_	_
+2-18	231-232	.	_	_	_	_	_
+
+#Text=Selain banyak nya tempat wisata , di Yogyakarta juga banyak tersedia penginapan yang membuat wisatawan betah berlibur di sana .
+3-1	234-240	Selain	_	_	_	_	_
+3-2	241-247	banyak	_	positive[3]	_	_	_
+3-3	248-251	nya	_	positive[3]	_	_	_
+3-4	252-258	tempat	_	concept[4]	_	_	_
+3-5	259-265	wisata	_	concept[4]	_	_	_
+3-6	266-267	,	_	_	_	_	_
+3-7	268-270	di	_	_	_	_	_
+3-8	271-281	Yogyakarta	_	_	_	_	_
+3-9	282-286	juga	_	_	_	_	_
+3-10	287-293	banyak	_	positive[5]	_	_	_
+3-11	294-302	tersedia	_	positive[5]	_	_	_
+3-12	303-313	penginapan	_	concept[6]	_	_	_
+3-13	314-318	yang	_	_	_	_	_
+3-14	319-326	membuat	_	positive[7]	_	_	_
+3-15	327-336	wisatawan	_	positive[7]	_	_	_
+3-16	337-342	betah	_	positive[7]	_	_	_
+3-17	343-351	berlibur	_	_	_	_	_
+3-18	352-354	di	_	_	_	_	_
+3-19	355-359	sana	_	_	_	_	_
+3-20	360-361	.	_	_	_	_	_
+
+#Text=Villa di Yogya menjadi salah satu penginapan yang sering dipilih ketika liburan ke K ota P elajar tersebut .
+4-1	363-368	Villa	_	_	_	_	_
+4-2	369-371	di	_	_	_	_	_
+4-3	372-377	Yogya	_	_	_	_	_
+4-4	378-385	menjadi	_	_	_	_	_
+4-5	386-391	salah	_	_	_	_	_
+4-6	392-396	satu	_	_	_	_	_
+4-7	397-407	penginapan	_	_	_	_	_
+4-8	408-412	yang	_	_	_	_	_
+4-9	413-419	sering	_	_	_	_	_
+4-10	420-427	dipilih	_	_	_	_	_
+4-11	428-434	ketika	_	_	_	_	_
+4-12	435-442	liburan	_	_	_	_	_
+4-13	443-445	ke	_	_	_	_	_
+4-14	446-447	K	_	_	_	_	_
+4-15	448-451	ota	_	_	_	_	_
+4-16	452-453	P	_	_	_	_	_
+4-17	454-460	elajar	_	_	_	_	_
+4-18	461-469	tersebut	_	_	_	_	_
+4-19	470-471	.	_	_	_	_	_
+
+#Text=Selain Yogyakarta , daerah Jawa Tengah lainnya juga sering menjadi pilihan wisatawan ketika hendak liburan .
+5-1	473-479	Selain	_	_	_	_	_
+5-2	480-490	Yogyakarta	_	_	_	_	_
+5-3	491-492	,	_	_	_	_	_
+5-4	493-499	daerah	_	_	_	_	_
+5-5	500-504	Jawa	_	_	_	_	_
+5-6	505-511	Tengah	_	_	_	_	_
+5-7	512-519	lainnya	_	_	_	_	_
+5-8	520-524	juga	_	_	_	_	_
+5-9	525-531	sering	_	_	_	_	_
+5-10	532-539	menjadi	_	_	_	_	_
+5-11	540-547	pilihan	_	_	_	_	_
+5-12	548-557	wisatawan	_	_	_	_	_
+5-13	558-564	ketika	_	_	_	_	_
+5-14	565-571	hendak	_	_	_	_	_
+5-15	572-579	liburan	_	_	_	_	_
+5-16	580-581	.	_	_	_	_	_
+
+#Text=Ada banyak destinasi wisata menarik di Jawa Tengah .
+6-1	583-586	Ada	_	_	_	_	_
+6-2	587-593	banyak	_	_	_	_	_
+6-3	594-603	destinasi	_	_	_	_	_
+6-4	604-610	wisata	_	_	_	_	_
+6-5	611-618	menarik	_	_	_	_	_
+6-6	619-621	di	_	_	_	_	_
+6-7	622-626	Jawa	_	_	_	_	_
+6-8	627-633	Tengah	_	_	_	_	_
+6-9	634-635	.	_	_	_	_	_
+
+#Text=Mulai dari wisata sejarah , wisata edukasi , hingga tempat wisata yang kental dengan nuansa alam .
+7-1	637-642	Mulai	_	_	_	_	_
+7-2	643-647	dari	_	_	_	_	_
+7-3	648-654	wisata	_	_	_	_	_
+7-4	655-662	sejarah	_	_	_	_	_
+7-5	663-664	,	_	_	_	_	_
+7-6	665-671	wisata	_	_	_	_	_
+7-7	672-679	edukasi	_	_	_	_	_
+7-8	680-681	,	_	_	_	_	_
+7-9	682-688	hingga	_	_	_	_	_
+7-10	689-695	tempat	_	_	_	_	_
+7-11	696-702	wisata	_	_	_	_	_
+7-12	703-707	yang	_	_	_	_	_
+7-13	708-714	kental	_	|positive[8]	_	_	_
+7-14	715-721	dengan	_	|positive[8]	_	_	_
+7-15	722-728	nuansa	_	positive[8]|concept[9]	_	_	_
+7-16	729-733	alam	_	positive[8]|concept[9]	_	_	_
+7-17	734-735	.	_	_	_	_	_
+
+#Text=Jika kamu berkesempatan liburan ke Jawa Tengah , destinasi wisata berikut bisa menjadi opsi untuk kamu menghabiskan waktu liburan .
+8-1	737-741	Jika	_	_	_	_	_
+8-2	742-746	kamu	_	_	_	_	_
+8-3	747-760	berkesempatan	_	_	_	_	_
+8-4	761-768	liburan	_	_	_	_	_
+8-5	769-771	ke	_	_	_	_	_
+8-6	772-776	Jawa	_	_	_	_	_
+8-7	777-783	Tengah	_	_	_	_	_
+8-8	784-785	,	_	_	_	_	_
+8-9	786-795	destinasi	_	_	_	_	_
+8-10	796-802	wisata	_	_	_	_	_
+8-11	803-810	berikut	_	_	_	_	_
+8-12	811-815	bisa	_	_	_	_	_
+8-13	816-823	menjadi	_	_	_	_	_
+8-14	824-828	opsi	_	_	_	_	_
+8-15	829-834	untuk	_	_	_	_	_
+8-16	835-839	kamu	_	_	_	_	_
+8-17	840-852	menghabiskan	_	_	_	_	_
+8-18	853-858	waktu	_	_	_	_	_
+8-19	859-866	liburan	_	_	_	_	_
+8-20	867-868	.	_	_	_	_	_
+
+#Text=Candi Borobudur Ikon wisata paling populer di Jawa Tengah ini berlokasi di Magelang , Jawa Tengah .
+9-1	870-875	Candi	_	_	_	_	_
+9-2	876-885	Borobudur	_	_	_	_	_
+9-3	886-890	Ikon	_	_	_	_	_
+9-4	891-897	wisata	_	_	_	_	_
+9-5	898-904	paling	_	_	_	_	_
+9-6	905-912	populer	_	_	_	_	_
+9-7	913-915	di	_	_	_	_	_
+9-8	916-920	Jawa	_	_	_	_	_
+9-9	921-927	Tengah	_	_	_	_	_
+9-10	928-931	ini	_	_	_	_	_
+9-11	932-941	berlokasi	_	_	_	_	_
+9-12	942-944	di	_	_	_	_	_
+9-13	945-953	Magelang	_	_	_	_	_
+9-14	954-955	,	_	_	_	_	_
+9-15	956-960	Jawa	_	_	_	_	_
+9-16	961-967	Tengah	_	_	_	_	_
+9-17	968-969	.	_	_	_	_	_
+
+#Text=Candi Borobudur merupakan bangunan peninggalan agama Buddha pada zaman dahulu .
+10-1	971-976	Candi	_	_	_	_	_
+10-2	977-986	Borobudur	_	_	_	_	_
+10-3	987-996	merupakan	_	_	_	_	_
+10-4	997-1005	bangunan	_	_	_	_	_
+10-5	1006-1017	peninggalan	_	_	_	_	_
+10-6	1018-1023	agama	_	_	_	_	_
+10-7	1024-1030	Buddha	_	_	_	_	_
+10-8	1031-1035	pada	_	_	_	_	_
+10-9	1036-1041	zaman	_	_	_	_	_
+10-10	1042-1048	dahulu	_	_	_	_	_
+10-11	1049-1050	.	_	_	_	_	_
+
+#Text=Candi Borobudur juga merupakan candi Buddha terbesar di dunia dan dinobatkan sebagai salah satu dari 7 keajaiban dunia .
+11-1	1052-1057	Candi	_	concept[10]	_	_	_
+11-2	1058-1067	Borobudur	_	concept[10]	_	_	_
+11-3	1068-1072	juga	_	_	_	_	_
+11-4	1073-1082	merupakan	_	_	_	_	_
+11-5	1083-1088	candi	_	_	_	_	_
+11-6	1089-1095	Buddha	_	_	_	_	_
+11-7	1096-1104	terbesar	_	positive[11]	_	_	_
+11-8	1105-1107	di	_	_	_	_	_
+11-9	1108-1113	dunia	_	_	_	_	_
+11-10	1114-1117	dan	_	_	_	_	_
+11-11	1118-1128	dinobatkan	_	positive[12]	_	_	_
+11-12	1129-1136	sebagai	_	positive[12]	_	_	_
+11-13	1137-1142	salah	_	positive[12]	_	_	_
+11-14	1143-1147	satu	_	positive[12]	_	_	_
+11-15	1148-1152	dari	_	positive[12]	_	_	_
+11-16	1153-1154	7	_	positive[12]	_	_	_
+11-17	1155-1164	keajaiban	_	positive[12]	_	_	_
+11-18	1165-1170	dunia	_	positive[12]	_	_	_
+11-19	1171-1172	.	_	_	_	_	_
+
+#Text=Di kompleks Candi Borobudur terdapat 1.460 relief dan 504 stupa yang sampai sekarang masih terjaga keaslian nya .
+12-1	1174-1176	Di	_	_	_	_	_
+12-2	1177-1185	kompleks	_	_	_	_	_
+12-3	1186-1191	Candi	_	concept[13]	_	_	_
+12-4	1192-1201	Borobudur	_	concept[13]	_	_	_
+12-5	1202-1210	terdapat	_	_	_	_	_
+12-6	1211-1216	1.460	_	_	_	_	_
+12-7	1217-1223	relief	_	concept[14]	_	_	_
+12-8	1224-1227	dan	_	_	_	_	_
+12-9	1228-1231	504	_	_	_	_	_
+12-10	1232-1237	stupa	_	concept[15]	_	_	_
+12-11	1238-1242	yang	_	_	_	_	_
+12-12	1243-1249	sampai	_	_	_	_	_
+12-13	1250-1258	sekarang	_	_	_	_	_
+12-14	1259-1264	masih	_	positive[16]	_	_	_
+12-15	1265-1272	terjaga	_	positive[16]	_	_	_
+12-16	1273-1281	keaslian	_	positive[16]	_	_	_
+12-17	1282-1285	nya	_	positive[16]	_	_	_
+12-18	1286-1287	.	_	_	_	_	_
+
+#Text=Destinasi wisata ini bisa menjadi wisata edukasi yang tepat untuk kamu yang ingin wisata bersama keluarga .
+13-1	1289-1298	Destinasi	_	_	_	_	_
+13-2	1299-1305	wisata	_	_	_	_	_
+13-3	1306-1309	ini	_	_	_	_	_
+13-4	1310-1314	bisa	_	_	_	_	_
+13-5	1315-1322	menjadi	_	_	_	_	_
+13-6	1323-1329	wisata	_	_	_	_	_
+13-7	1330-1337	edukasi	_	_	_	_	_
+13-8	1338-1342	yang	_	_	_	_	_
+13-9	1343-1348	tepat	_	_	_	_	_
+13-10	1349-1354	untuk	_	_	_	_	_
+13-11	1355-1359	kamu	_	_	_	_	_
+13-12	1360-1364	yang	_	_	_	_	_
+13-13	1365-1370	ingin	_	_	_	_	_
+13-14	1371-1377	wisata	_	_	_	_	_
+13-15	1378-1385	bersama	_	_	_	_	_
+13-16	1386-1394	keluarga	_	_	_	_	_
+13-17	1395-1396	.	_	_	_	_	_
+
+#Text=Untuk bisa menikmati jejak sejarah Candi Borobudur , pengunjung hanya perlu membeli tiket masuk seharga Rp 15.000 untuk wisatawan lokal dan US $ 20 untuk wisatawan mancanegara .
+14-1	1398-1403	Untuk	_	_	_	_	_
+14-2	1404-1408	bisa	_	_	_	_	_
+14-3	1409-1418	menikmati	_	_	_	_	_
+14-4	1419-1424	jejak	_	_	_	_	_
+14-5	1425-1432	sejarah	_	_	_	_	_
+14-6	1433-1438	Candi	_	_	_	_	_
+14-7	1439-1448	Borobudur	_	_	_	_	_
+14-8	1449-1450	,	_	_	_	_	_
+14-9	1451-1461	pengunjung	_	_	_	_	_
+14-10	1462-1467	hanya	_	_	_	_	_
+14-11	1468-1473	perlu	_	_	_	_	_
+14-12	1474-1481	membeli	_	_	_	_	_
+14-13	1482-1487	tiket	_	_	_	_	_
+14-14	1488-1493	masuk	_	_	_	_	_
+14-15	1494-1501	seharga	_	_	_	_	_
+14-16	1502-1504	Rp	_	_	_	_	_
+14-17	1505-1511	15.000	_	_	_	_	_
+14-18	1512-1517	untuk	_	_	_	_	_
+14-19	1518-1527	wisatawan	_	_	_	_	_
+14-20	1528-1533	lokal	_	_	_	_	_
+14-21	1534-1537	dan	_	_	_	_	_
+14-22	1538-1540	US	_	_	_	_	_
+14-23	1541-1542	$	_	_	_	_	_
+14-24	1543-1545	20	_	_	_	_	_
+14-25	1546-1551	untuk	_	_	_	_	_
+14-26	1552-1561	wisatawan	_	_	_	_	_
+14-27	1562-1573	mancanegara	_	_	_	_	_
+14-28	1574-1575	.	_	_	_	_	_
+
+#Text=The Lawu Park The Lawu Park resort merupakan destinasi wisata yang kental dengan nuansa alam .
+15-1	1577-1580	The	_	_	_	_	_
+15-2	1581-1585	Lawu	_	_	_	_	_
+15-3	1586-1590	Park	_	_	_	_	_
+15-4	1591-1594	The	_	concept[17]	_	_	_
+15-5	1595-1599	Lawu	_	concept[17]	_	_	_
+15-6	1600-1604	Park	_	concept[17]	_	_	_
+15-7	1605-1611	resort	_	concept[17]	_	_	_
+15-8	1612-1621	merupakan	_	_	_	_	_
+15-9	1622-1631	destinasi	_	_	_	_	_
+15-10	1632-1638	wisata	_	_	_	_	_
+15-11	1639-1643	yang	_	_	_	_	_
+15-12	1644-1650	kental	_	positive[18]	_	_	_
+15-13	1651-1657	dengan	_	positive[18]	_	_	_
+15-14	1658-1664	nuansa	_	positive[18]	_	_	_
+15-15	1665-1669	alam	_	positive[18]	_	_	_
+15-16	1670-1671	.	_	_	_	_	_
+
+#Text=Tempat wisata ini berlokasi di Tawangmangu , Karanganyar , Jawa Tengah .
+16-1	1673-1679	Tempat	_	_	_	_	_
+16-2	1680-1686	wisata	_	_	_	_	_
+16-3	1687-1690	ini	_	_	_	_	_
+16-4	1691-1700	berlokasi	_	_	_	_	_
+16-5	1701-1703	di	_	_	_	_	_
+16-6	1704-1715	Tawangmangu	_	_	_	_	_
+16-7	1716-1717	,	_	_	_	_	_
+16-8	1718-1729	Karanganyar	_	_	_	_	_
+16-9	1730-1731	,	_	_	_	_	_
+16-10	1732-1736	Jawa	_	_	_	_	_
+16-11	1737-1743	Tengah	_	_	_	_	_
+16-12	1744-1745	.	_	_	_	_	_
+
+#Text=Ketika memasuki The Lawu Park , pengunjung akan disuguhkan dengan pemandangan alam yang indah berupa jajaran pohon pinus .
+17-1	1747-1753	Ketika	_	_	_	_	_
+17-2	1754-1762	memasuki	_	_	_	_	_
+17-3	1763-1766	The	_	_	_	_	_
+17-4	1767-1771	Lawu	_	_	_	_	_
+17-5	1772-1776	Park	_	_	_	_	_
+17-6	1777-1778	,	_	_	_	_	_
+17-7	1779-1789	pengunjung	_	_	_	_	_
+17-8	1790-1794	akan	_	_	_	_	_
+17-9	1795-1805	disuguhkan	_	_	_	_	_
+17-10	1806-1812	dengan	_	_	_	_	_
+17-11	1813-1824	pemandangan	_	concept[19]	_	_	_
+17-12	1825-1829	alam	_	concept[19]	_	_	_
+17-13	1830-1834	yang	_	_	_	_	_
+17-14	1835-1840	indah	_	positive[20]	_	_	_
+17-15	1841-1847	berupa	_	_	_	_	_
+17-16	1848-1855	jajaran	_	_	_	_	_
+17-17	1856-1861	pohon	_	_	_	_	_
+17-18	1862-1867	pinus	_	_	_	_	_
+17-19	1868-1869	.	_	_	_	_	_
+
+#Text=Selain itu , di sini pengunjung juga bisa melakukan aktivitas outbond bersama keluarga .
+18-1	1871-1877	Selain	_	_	_	_	_
+18-2	1878-1881	itu	_	_	_	_	_
+18-3	1882-1883	,	_	_	_	_	_
+18-4	1884-1886	di	_	_	_	_	_
+18-5	1887-1891	sini	_	_	_	_	_
+18-6	1892-1902	pengunjung	_	_	_	_	_
+18-7	1903-1907	juga	_	_	_	_	_
+18-8	1908-1912	bisa	_	_	_	_	_
+18-9	1913-1922	melakukan	_	_	_	_	_
+18-10	1923-1932	aktivitas	_	_	_	_	_
+18-11	1933-1940	outbond	_	_	_	_	_
+18-12	1941-1948	bersama	_	_	_	_	_
+18-13	1949-1957	keluarga	_	_	_	_	_
+18-14	1958-1959	.	_	_	_	_	_
+
+#Text=Tidak hanya menawarkan tempat rekreasi , The Lawu Park juga menyediakan tempat menginap dan restoran .
+19-1	1961-1966	Tidak	_	_	_	_	_
+19-2	1967-1972	hanya	_	_	_	_	_
+19-3	1973-1983	menawarkan	_	_	_	_	_
+19-4	1984-1990	tempat	_	_	_	_	_
+19-5	1991-1999	rekreasi	_	_	_	_	_
+19-6	2000-2001	,	_	_	_	_	_
+19-7	2002-2005	The	_	_	_	_	_
+19-8	2006-2010	Lawu	_	_	_	_	_
+19-9	2011-2015	Park	_	_	_	_	_
+19-10	2016-2020	juga	_	_	_	_	_
+19-11	2021-2032	menyediakan	_	_	_	_	_
+19-12	2033-2039	tempat	_	_	_	_	_
+19-13	2040-2048	menginap	_	_	_	_	_
+19-14	2049-2052	dan	_	_	_	_	_
+19-15	2053-2061	restoran	_	_	_	_	_
+19-16	2062-2063	.	_	_	_	_	_
+
+#Text=Ada tiga jenis penginapan yang tersedia di The Lawu Park , yakni cottage , glamping , dan super glamping .
+20-1	2065-2068	Ada	_	_	_	_	_
+20-2	2069-2073	tiga	_	_	_	_	_
+20-3	2074-2079	jenis	_	_	_	_	_
+20-4	2080-2090	penginapan	_	_	_	_	_
+20-5	2091-2095	yang	_	_	_	_	_
+20-6	2096-2104	tersedia	_	_	_	_	_
+20-7	2105-2107	di	_	_	_	_	_
+20-8	2108-2111	The	_	_	_	_	_
+20-9	2112-2116	Lawu	_	_	_	_	_
+20-10	2117-2121	Park	_	_	_	_	_
+20-11	2122-2123	,	_	_	_	_	_
+20-12	2124-2129	yakni	_	_	_	_	_
+20-13	2130-2137	cottage	_	_	_	_	_
+20-14	2138-2139	,	_	_	_	_	_
+20-15	2140-2148	glamping	_	_	_	_	_
+20-16	2149-2150	,	_	_	_	_	_
+20-17	2151-2154	dan	_	_	_	_	_
+20-18	2155-2160	super	_	_	_	_	_
+20-19	2161-2169	glamping	_	_	_	_	_
+20-20	2170-2171	.	_	_	_	_	_
+
+#Text=Taman Nasional Karimunjawa Taman Nasional Karimunjawa merupakan destinasi wisata laut yang paling populer di Jawa Tengah .
+21-1	2173-2178	Taman	_	_	_	_	_
+21-2	2179-2187	Nasional	_	_	_	_	_
+21-3	2188-2199	Karimunjawa	_	_	_	_	_
+21-4	2200-2205	Taman	_	_	_	_	_
+21-5	2206-2214	Nasional	_	_	_	_	_
+21-6	2215-2226	Karimunjawa	_	_	_	_	_
+21-7	2227-2236	merupakan	_	_	_	_	_
+21-8	2237-2246	destinasi	_	_	_	_	_
+21-9	2247-2253	wisata	_	_	_	_	_
+21-10	2254-2258	laut	_	_	_	_	_
+21-11	2259-2263	yang	_	_	_	_	_
+21-12	2264-2270	paling	_	_	_	_	_
+21-13	2271-2278	populer	_	_	_	_	_
+21-14	2279-2281	di	_	_	_	_	_
+21-15	2282-2286	Jawa	_	_	_	_	_
+21-16	2287-2293	Tengah	_	_	_	_	_
+21-17	2294-2295	.	_	_	_	_	_
+
+#Text=Bahkan keindahan tempat ini sudah terdengar hingga ke luar negeri .
+22-1	2297-2303	Bahkan	_	_	_	_	_
+22-2	2304-2313	keindahan	_	_	_	_	_
+22-3	2314-2320	tempat	_	_	_	_	_
+22-4	2321-2324	ini	_	_	_	_	_
+22-5	2325-2330	sudah	_	_	_	_	_
+22-6	2331-2340	terdengar	_	_	_	_	_
+22-7	2341-2347	hingga	_	_	_	_	_
+22-8	2348-2350	ke	_	_	_	_	_
+22-9	2351-2355	luar	_	_	_	_	_
+22-10	2356-2362	negeri	_	_	_	_	_
+22-11	2363-2364	.	_	_	_	_	_
+
+#Text=Banyak wisatawan mancanegara yang menghabiskan waktu liburan mereka ke Jawa Tengah bagian utara ini .
+23-1	2366-2372	Banyak	_	_	_	_	_
+23-2	2373-2382	wisatawan	_	_	_	_	_
+23-3	2383-2394	mancanegara	_	_	_	_	_
+23-4	2395-2399	yang	_	_	_	_	_
+23-5	2400-2412	menghabiskan	_	_	_	_	_
+23-6	2413-2418	waktu	_	_	_	_	_
+23-7	2419-2426	liburan	_	_	_	_	_
+23-8	2427-2433	mereka	_	_	_	_	_
+23-9	2434-2436	ke	_	_	_	_	_
+23-10	2437-2441	Jawa	_	_	_	_	_
+23-11	2442-2448	Tengah	_	_	_	_	_
+23-12	2449-2455	bagian	_	_	_	_	_
+23-13	2456-2461	utara	_	_	_	_	_
+23-14	2462-2465	ini	_	_	_	_	_
+23-15	2466-2467	.	_	_	_	_	_
+
+#Text=Destinasi ini sebenarnya merupakan sebuah cagar alam laut yang dilindungi Dinas Pariwisata s etempat .
+24-1	2469-2478	Destinasi	_	_	_	_	_
+24-2	2479-2482	ini	_	_	_	_	_
+24-3	2483-2493	sebenarnya	_	_	_	_	_
+24-4	2494-2503	merupakan	_	_	_	_	_
+24-5	2504-2510	sebuah	_	_	_	_	_
+24-6	2511-2516	cagar	_	_	_	_	_
+24-7	2517-2521	alam	_	_	_	_	_
+24-8	2522-2526	laut	_	_	_	_	_
+24-9	2527-2531	yang	_	_	_	_	_
+24-10	2532-2542	dilindungi	_	_	_	_	_
+24-11	2543-2548	Dinas	_	_	_	_	_
+24-12	2549-2559	Pariwisata	_	_	_	_	_
+24-13	2560-2561	s	_	_	_	_	_
+24-14	2562-2569	etempat	_	_	_	_	_
+24-15	2570-2571	.	_	_	_	_	_
+
+#Text=Tempat wisata ini mempunyai garis pantai yang indah dan memiliki kekayaan laut yang luar biasa , seperti ikan dan terumbu karang yang indah .
+25-1	2573-2579	Tempat	_	_	_	_	_
+25-2	2580-2586	wisata	_	_	_	_	_
+25-3	2587-2590	ini	_	_	_	_	_
+25-4	2591-2600	mempunyai	_	_	_	_	_
+25-5	2601-2606	garis	_	_	_	_	_
+25-6	2607-2613	pantai	_	_	_	_	_
+25-7	2614-2618	yang	_	_	_	_	_
+25-8	2619-2624	indah	_	_	_	_	_
+25-9	2625-2628	dan	_	_	_	_	_
+25-10	2629-2637	memiliki	_	_	_	_	_
+25-11	2638-2646	kekayaan	_	_	_	_	_
+25-12	2647-2651	laut	_	_	_	_	_
+25-13	2652-2656	yang	_	_	_	_	_
+25-14	2657-2661	luar	_	positive[21]	_	_	_
+25-15	2662-2667	biasa	_	positive[21]	_	_	_
+25-16	2668-2669	,	_	_	_	_	_
+25-17	2670-2677	seperti	_	_	_	_	_
+25-18	2678-2682	ikan	_	concept[22]	_	_	_
+25-19	2683-2686	dan	_	_	_	_	_
+25-20	2687-2694	terumbu	_	_	_	_	_
+25-21	2695-2701	karang	_	_	_	_	_
+25-22	2702-2706	yang	_	_	_	_	_
+25-23	2707-2712	indah	_	_	_	_	_
+25-24	2713-2714	.	_	_	_	_	_
+
+#Text=Pengunjung bisa melakukan banyak hal seperti menyelam , berenang , memancing , dan snorkeling .
+26-1	2716-2726	Pengunjung	_	_	_	_	_
+26-2	2727-2731	bisa	_	_	_	_	_
+26-3	2732-2741	melakukan	_	_	_	_	_
+26-4	2742-2748	banyak	_	_	_	_	_
+26-5	2749-2752	hal	_	_	_	_	_
+26-6	2753-2760	seperti	_	_	_	_	_
+26-7	2761-2769	menyelam	_	_	_	_	_
+26-8	2770-2771	,	_	_	_	_	_
+26-9	2772-2780	berenang	_	_	_	_	_
+26-10	2781-2782	,	_	_	_	_	_
+26-11	2783-2792	memancing	_	_	_	_	_
+26-12	2793-2794	,	_	_	_	_	_
+26-13	2795-2798	dan	_	_	_	_	_
+26-14	2799-2809	snorkeling	_	_	_	_	_
+26-15	2810-2811	.	_	_	_	_	_
+
+#Text=Dataran Tinggi Dieng Tidak hanya wisata laut , di Jawa Tengah juga terdapat destinasi wisata yang berada di dataran tinggi , yakni Dieng .
+27-1	2813-2820	Dataran	_	_	_	_	_
+27-2	2821-2827	Tinggi	_	_	_	_	_
+27-3	2828-2833	Dieng	_	_	_	_	_
+27-4	2834-2839	Tidak	_	_	_	_	_
+27-5	2840-2845	hanya	_	_	_	_	_
+27-6	2846-2852	wisata	_	_	_	_	_
+27-7	2853-2857	laut	_	_	_	_	_
+27-8	2858-2859	,	_	_	_	_	_
+27-9	2860-2862	di	_	_	_	_	_
+27-10	2863-2867	Jawa	_	_	_	_	_
+27-11	2868-2874	Tengah	_	_	_	_	_
+27-12	2875-2879	juga	_	_	_	_	_
+27-13	2880-2888	terdapat	_	_	_	_	_
+27-14	2889-2898	destinasi	_	_	_	_	_
+27-15	2899-2905	wisata	_	_	_	_	_
+27-16	2906-2910	yang	_	_	_	_	_
+27-17	2911-2917	berada	_	_	_	_	_
+27-18	2918-2920	di	_	_	_	_	_
+27-19	2921-2928	dataran	_	_	_	_	_
+27-20	2929-2935	tinggi	_	_	_	_	_
+27-21	2936-2937	,	_	_	_	_	_
+27-22	2938-2943	yakni	_	_	_	_	_
+27-23	2944-2949	Dieng	_	_	_	_	_
+27-24	2950-2951	.	_	_	_	_	_
+
+#Text=Objek wisata yang satu ini menawarkan pemandangan alam yang indah dan asri .
+28-1	2953-2958	Objek	_	_	_	_	_
+28-2	2959-2965	wisata	_	_	_	_	_
+28-3	2966-2970	yang	_	_	_	_	_
+28-4	2971-2975	satu	_	_	_	_	_
+28-5	2976-2979	ini	_	_	_	_	_
+28-6	2980-2990	menawarkan	_	_	_	_	_
+28-7	2991-3002	pemandangan	_	concept[23]	_	_	_
+28-8	3003-3007	alam	_	concept[23]	_	_	_
+28-9	3008-3012	yang	_	_	_	_	_
+28-10	3013-3018	indah	_	_	_	_	_
+28-11	3019-3022	dan	_	_	_	_	_
+28-12	3023-3027	asri	_	positive[24]	_	_	_
+28-13	3028-3029	.	_	_	_	_	_
+
+#Text=Di sana ada banyak tempat wisata menarik , di antara nya Telaga Warna , Bukit Sikunir , dan Sumur Jalatunda .
+29-1	3031-3033	Di	_	_	_	_	_
+29-2	3034-3038	sana	_	_	_	_	_
+29-3	3039-3042	ada	_	_	_	_	_
+29-4	3043-3049	banyak	_	_	_	_	_
+29-5	3050-3056	tempat	_	_	_	_	_
+29-6	3057-3063	wisata	_	_	_	_	_
+29-7	3064-3071	menarik	_	_	_	_	_
+29-8	3072-3073	,	_	_	_	_	_
+29-9	3074-3076	di	_	_	_	_	_
+29-10	3077-3083	antara	_	_	_	_	_
+29-11	3084-3087	nya	_	_	_	_	_
+29-12	3088-3094	Telaga	_	_	_	_	_
+29-13	3095-3100	Warna	_	_	_	_	_
+29-14	3101-3102	,	_	_	_	_	_
+29-15	3103-3108	Bukit	_	_	_	_	_
+29-16	3109-3116	Sikunir	_	_	_	_	_
+29-17	3117-3118	,	_	_	_	_	_
+29-18	3119-3122	dan	_	_	_	_	_
+29-19	3123-3128	Sumur	_	_	_	_	_
+29-20	3129-3138	Jalatunda	_	_	_	_	_
+29-21	3139-3140	.	_	_	_	_	_
+
+#Text=Banyak yang bilang kalau dataran tinggi Dieng mirip dengan Plitvice Lake di Kroasia , objek wisata yang juga menawarkan keindahan alam di kawasan dataran tinggi .
+30-1	3142-3148	Banyak	_	_	_	_	_
+30-2	3149-3153	yang	_	_	_	_	_
+30-3	3154-3160	bilang	_	_	_	_	_
+30-4	3161-3166	kalau	_	_	_	_	_
+30-5	3167-3174	dataran	_	_	_	_	_
+30-6	3175-3181	tinggi	_	_	_	_	_
+30-7	3182-3187	Dieng	_	_	_	_	_
+30-8	3188-3193	mirip	_	_	_	_	_
+30-9	3194-3200	dengan	_	_	_	_	_
+30-10	3201-3209	Plitvice	_	_	_	_	_
+30-11	3210-3214	Lake	_	_	_	_	_
+30-12	3215-3217	di	_	_	_	_	_
+30-13	3218-3225	Kroasia	_	_	_	_	_
+30-14	3226-3227	,	_	_	_	_	_
+30-15	3228-3233	objek	_	_	_	_	_
+30-16	3234-3240	wisata	_	_	_	_	_
+30-17	3241-3245	yang	_	_	_	_	_
+30-18	3246-3250	juga	_	_	_	_	_
+30-19	3251-3261	menawarkan	_	_	_	_	_
+30-20	3262-3271	keindahan	_	_	_	_	_
+30-21	3272-3276	alam	_	_	_	_	_
+30-22	3277-3279	di	_	_	_	_	_
+30-23	3280-3287	kawasan	_	_	_	_	_
+30-24	3288-3295	dataran	_	_	_	_	_
+30-25	3296-3302	tinggi	_	_	_	_	_
+30-26	3303-3304	.	_	_	_	_	_
+
+#Text=Umbul Ponggok Berlokasi di Klaten , Umbul Ponggok menjadi salah satu destinasi wisata yang saat ini cukup digandrungi oleh wisatawan .
+31-1	3306-3311	Umbul	_	concept[25]	_	_	_
+31-2	3312-3319	Ponggok	_	concept[25]	_	_	_
+31-3	3320-3329	Berlokasi	_	_	_	_	_
+31-4	3330-3332	di	_	_	_	_	_
+31-5	3333-3339	Klaten	_	_	_	_	_
+31-6	3340-3341	,	_	_	_	_	_
+31-7	3342-3347	Umbul	_	_	_	_	_
+31-8	3348-3355	Ponggok	_	_	_	_	_
+31-9	3356-3363	menjadi	_	_	_	_	_
+31-10	3364-3369	salah	_	_	_	_	_
+31-11	3370-3374	satu	_	_	_	_	_
+31-12	3375-3384	destinasi	_	_	_	_	_
+31-13	3385-3391	wisata	_	_	_	_	_
+31-14	3392-3396	yang	_	_	_	_	_
+31-15	3397-3401	saat	_	_	_	_	_
+31-16	3402-3405	ini	_	_	_	_	_
+31-17	3406-3411	cukup	_	positive[26]	_	_	_
+31-18	3412-3423	digandrungi	_	positive[26]	_	_	_
+31-19	3424-3428	oleh	_	_	_	_	_
+31-20	3429-3438	wisatawan	_	_	_	_	_
+31-21	3439-3440	.	_	_	_	_	_
+
+#Text=Umbul Ponggok merupakan kolam renang raksasa yang didesain mirip lautan , lengkap dengan ikan , batu karang , pernak - pernik laut lainnya .
+32-1	3442-3447	Umbul	_	_	_	_	_
+32-2	3448-3455	Ponggok	_	_	_	_	_
+32-3	3456-3465	merupakan	_	_	_	_	_
+32-4	3466-3471	kolam	_	_	_	_	_
+32-5	3472-3478	renang	_	_	_	_	_
+32-6	3479-3486	raksasa	_	_	_	_	_
+32-7	3487-3491	yang	_	_	_	_	_
+32-8	3492-3500	didesain	_	_	_	_	_
+32-9	3501-3506	mirip	_	_	_	_	_
+32-10	3507-3513	lautan	_	_	_	_	_
+32-11	3514-3515	,	_	_	_	_	_
+32-12	3516-3523	lengkap	_	_	_	_	_
+32-13	3524-3530	dengan	_	_	_	_	_
+32-14	3531-3535	ikan	_	_	_	_	_
+32-15	3536-3537	,	_	_	_	_	_
+32-16	3538-3542	batu	_	_	_	_	_
+32-17	3543-3549	karang	_	_	_	_	_
+32-18	3550-3551	,	_	_	_	_	_
+32-19	3552-3567	pernak - pernik	_	_	_	_	_
+32-20	3568-3572	laut	_	_	_	_	_
+32-21	3573-3580	lainnya	_	_	_	_	_
+32-22	3581-3582	.	_	_	_	_	_
+
+#Text=Di sini pengunjung bisa menyelam sambil berfoto di dalam air .
+33-1	3584-3586	Di	_	_	_	_	_
+33-2	3587-3591	sini	_	_	_	_	_
+33-3	3592-3602	pengunjung	_	_	_	_	_
+33-4	3603-3607	bisa	_	_	_	_	_
+33-5	3608-3616	menyelam	_	_	_	_	_
+33-6	3617-3623	sambil	_	_	_	_	_
+33-7	3624-3631	berfoto	_	_	_	_	_
+33-8	3632-3634	di	_	_	_	_	_
+33-9	3635-3640	dalam	_	_	_	_	_
+33-10	3641-3644	air	_	_	_	_	_
+33-11	3645-3646	.	_	_	_	_	_
+
+#Text=Keindahan dan keunikan yang ditawarkan Umbul Ponggok , membuat banyak orang menjadikan tempat ini sebagai lokasi prewedding .
+34-1	3648-3657	Keindahan	*	positive[27]|[29_27]	_	_	_
+34-2	3658-3661	dan	_	_	_	_	_
+34-3	3662-3670	keunikan	*	positive[28]|[29_28]	_	_	_
+34-4	3671-3675	yang	_	_	_	_	_
+34-5	3676-3686	ditawarkan	_	_	_	_	_
+34-6	3687-3692	Umbul	_	concept[29]	_	_	_
+34-7	3693-3700	Ponggok	_	concept[29]	_	_	_
+34-8	3701-3702	,	_	_	_	_	_
+34-9	3703-3710	membuat	_	_	_	_	_
+34-10	3711-3717	banyak	_	_	_	_	_
+34-11	3718-3723	orang	_	_	_	_	_
+34-12	3724-3734	menjadikan	_	_	_	_	_
+34-13	3735-3741	tempat	_	_	_	_	_
+34-14	3742-3745	ini	_	_	_	_	_
+34-15	3746-3753	sebagai	_	_	_	_	_
+34-16	3754-3760	lokasi	_	_	_	_	_
+34-17	3761-3771	prewedding	_	_	_	_	_
+34-18	3772-3773	.	_	_	_	_	_
+
+#Text=Menarik nya , untuk berpose di kolam raksasa ini pengunjung tidak usah repot - repot bawa properti , pihak pengelola sudah menyediakan semuanya .
+35-1	3775-3782	Menarik	_	_	_	_	_
+35-2	3783-3786	nya	_	_	_	_	_
+35-3	3787-3788	,	_	_	_	_	_
+35-4	3789-3794	untuk	_	_	_	_	_
+35-5	3795-3802	berpose	_	_	_	_	_
+35-6	3803-3805	di	_	_	_	_	_
+35-7	3806-3811	kolam	_	_	_	_	_
+35-8	3812-3819	raksasa	_	_	_	_	_
+35-9	3820-3823	ini	_	_	_	_	_
+35-10	3824-3834	pengunjung	_	_	_	_	_
+35-11	3835-3840	tidak	_	_	_	_	_
+35-12	3841-3845	usah	_	_	_	_	_
+35-13	3846-3859	repot - repot	_	_	_	_	_
+35-14	3860-3864	bawa	_	_	_	_	_
+35-15	3865-3873	properti	_	_	_	_	_
+35-16	3874-3875	,	_	_	_	_	_
+35-17	3876-3881	pihak	_	_	_	_	_
+35-18	3882-3891	pengelola	_	_	_	_	_
+35-19	3892-3897	sudah	_	_	_	_	_
+35-20	3898-3909	menyediakan	_	_	_	_	_
+35-21	3910-3918	semuanya	_	_	_	_	_
+35-22	3919-3920	.	_	_	_	_	_
+
+#Text=Lawang Sewu Lawang Sewu merupakan destinasi wisata yang cukup populer di Ibu K ota P rovinsi Jawa Tengah , Semarang .
+36-1	3922-3928	Lawang	_	_	_	_	_
+36-2	3929-3933	Sewu	_	_	_	_	_
+36-3	3934-3940	Lawang	_	_	_	_	_
+36-4	3941-3945	Sewu	_	_	_	_	_
+36-5	3946-3955	merupakan	_	_	_	_	_
+36-6	3956-3965	destinasi	_	_	_	_	_
+36-7	3966-3972	wisata	_	_	_	_	_
+36-8	3973-3977	yang	_	_	_	_	_
+36-9	3978-3983	cukup	_	_	_	_	_
+36-10	3984-3991	populer	_	_	_	_	_
+36-11	3992-3994	di	_	_	_	_	_
+36-12	3995-3998	Ibu	_	_	_	_	_
+36-13	3999-4000	K	_	_	_	_	_
+36-14	4001-4004	ota	_	_	_	_	_
+36-15	4005-4006	P	_	_	_	_	_
+36-16	4007-4014	rovinsi	_	_	_	_	_
+36-17	4015-4019	Jawa	_	_	_	_	_
+36-18	4020-4026	Tengah	_	_	_	_	_
+36-19	4027-4028	,	_	_	_	_	_
+36-20	4029-4037	Semarang	_	_	_	_	_
+36-21	4038-4039	.	_	_	_	_	_
+
+#Text=Tempat ini disebut Lawang Sewu bukan karena mempunyai seribu pintu , hanya saja memang bangunan ini memiliki banyak pintu .
+37-1	4041-4047	Tempat	_	_	_	_	_
+37-2	4048-4051	ini	_	_	_	_	_
+37-3	4052-4059	disebut	_	_	_	_	_
+37-4	4060-4066	Lawang	_	_	_	_	_
+37-5	4067-4071	Sewu	_	_	_	_	_
+37-6	4072-4077	bukan	_	_	_	_	_
+37-7	4078-4084	karena	_	_	_	_	_
+37-8	4085-4094	mempunyai	_	_	_	_	_
+37-9	4095-4101	seribu	_	_	_	_	_
+37-10	4102-4107	pintu	_	_	_	_	_
+37-11	4108-4109	,	_	_	_	_	_
+37-12	4110-4115	hanya	_	_	_	_	_
+37-13	4116-4120	saja	_	_	_	_	_
+37-14	4121-4127	memang	_	_	_	_	_
+37-15	4128-4136	bangunan	_	_	_	_	_
+37-16	4137-4140	ini	_	_	_	_	_
+37-17	4141-4149	memiliki	_	_	_	_	_
+37-18	4150-4156	banyak	_	_	_	_	_
+37-19	4157-4162	pintu	_	_	_	_	_
+37-20	4163-4164	.	_	_	_	_	_
+
+#Text=Dahulu nya Lawang Sewu merupakan kantor pusat perkeretaapian di wilayah Semarang .
+38-1	4166-4172	Dahulu	_	_	_	_	_
+38-2	4173-4176	nya	_	_	_	_	_
+38-3	4177-4183	Lawang	_	_	_	_	_
+38-4	4184-4188	Sewu	_	_	_	_	_
+38-5	4189-4198	merupakan	_	_	_	_	_
+38-6	4199-4205	kantor	_	_	_	_	_
+38-7	4206-4211	pusat	_	_	_	_	_
+38-8	4212-4226	perkeretaapian	_	_	_	_	_
+38-9	4227-4229	di	_	_	_	_	_
+38-10	4230-4237	wilayah	_	_	_	_	_
+38-11	4238-4246	Semarang	_	_	_	_	_
+38-12	4247-4248	.	_	_	_	_	_
+
+#Text=Makanya tidak heran kalau disini banyak pajangan miniatur kereta .
+39-1	4250-4257	Makanya	_	_	_	_	_
+39-2	4258-4263	tidak	_	_	_	_	_
+39-3	4264-4269	heran	_	_	_	_	_
+39-4	4270-4275	kalau	_	_	_	_	_
+39-5	4276-4282	disini	_	_	_	_	_
+39-6	4283-4289	banyak	_	_	_	_	_
+39-7	4290-4298	pajangan	_	_	_	_	_
+39-8	4299-4307	miniatur	_	_	_	_	_
+39-9	4308-4314	kereta	_	_	_	_	_
+39-10	4315-4316	.	_	_	_	_	_
+
+#Text=Satu hal yang menarik dari Lawang Sewu adalah aura mistis yang muncul ketika malam hari .
+40-1	4318-4322	Satu	_	_	_	_	_
+40-2	4323-4326	hal	_	_	_	_	_
+40-3	4327-4331	yang	_	_	_	_	_
+40-4	4332-4339	menarik	_	_	_	_	_
+40-5	4340-4344	dari	_	_	_	_	_
+40-6	4345-4351	Lawang	_	_	_	_	_
+40-7	4352-4356	Sewu	_	_	_	_	_
+40-8	4357-4363	adalah	_	_	_	_	_
+40-9	4364-4368	aura	_	_	_	_	_
+40-10	4369-4375	mistis	_	_	_	_	_
+40-11	4376-4380	yang	_	_	_	_	_
+40-12	4381-4387	muncul	_	_	_	_	_
+40-13	4388-4394	ketika	_	_	_	_	_
+40-14	4395-4400	malam	_	_	_	_	_
+40-15	4401-4405	hari	_	_	_	_	_
+40-16	4406-4407	.	_	_	_	_	_
+
+#Text=Buat kamu yang tertarik dengan dunia mistis , silahkan mencoba untuk datang ke sini pada malam hari .
+41-1	4409-4413	Buat	_	_	_	_	_
+41-2	4414-4418	kamu	_	_	_	_	_
+41-3	4419-4423	yang	_	_	_	_	_
+41-4	4424-4432	tertarik	_	_	_	_	_
+41-5	4433-4439	dengan	_	_	_	_	_
+41-6	4440-4445	dunia	_	_	_	_	_
+41-7	4446-4452	mistis	_	_	_	_	_
+41-8	4453-4454	,	_	_	_	_	_
+41-9	4455-4463	silahkan	_	_	_	_	_
+41-10	4464-4471	mencoba	_	_	_	_	_
+41-11	4472-4477	untuk	_	_	_	_	_
+41-12	4478-4484	datang	_	_	_	_	_
+41-13	4485-4487	ke	_	_	_	_	_
+41-14	4488-4492	sini	_	_	_	_	_
+41-15	4493-4497	pada	_	_	_	_	_
+41-16	4498-4503	malam	_	_	_	_	_
+41-17	4504-4508	hari	_	_	_	_	_
+41-18	4509-4510	.	_	_	_	_	_
+
+#Text=Selain itu , nuansa klasik pada bangunan Lawang Sewu seringkali dijadikan sebagai latar fotografi , shooting film , dan sejenis nya .
+42-1	4512-4518	Selain	_	_	_	_	_
+42-2	4519-4522	itu	_	_	_	_	_
+42-3	4523-4524	,	_	_	_	_	_
+42-4	4525-4531	nuansa	_	_	_	_	_
+42-5	4532-4538	klasik	_	_	_	_	_
+42-6	4539-4543	pada	_	_	_	_	_
+42-7	4544-4552	bangunan	_	_	_	_	_
+42-8	4553-4559	Lawang	_	_	_	_	_
+42-9	4560-4564	Sewu	_	_	_	_	_
+42-10	4565-4575	seringkali	_	_	_	_	_
+42-11	4576-4585	dijadikan	_	_	_	_	_
+42-12	4586-4593	sebagai	_	_	_	_	_
+42-13	4594-4599	latar	_	_	_	_	_
+42-14	4600-4609	fotografi	_	_	_	_	_
+42-15	4610-4611	,	_	_	_	_	_
+42-16	4612-4620	shooting	_	_	_	_	_
+42-17	4621-4625	film	_	_	_	_	_
+42-18	4626-4627	,	_	_	_	_	_
+42-19	4628-4631	dan	_	_	_	_	_
+42-20	4632-4639	sejenis	_	_	_	_	_
+42-21	4640-4643	nya	_	_	_	_	_
+42-22	4644-4645	.	_	_	_	_	_
+
+#Text=Selain tempat-tempat wisata di atas , ada banyak lagi destinasi wisata menarik di Jawa Tengah .
+43-1	4647-4653	Selain	_	_	_	_	_
+43-2	4654-4667	tempat-tempat	_	_	_	_	_
+43-3	4668-4674	wisata	_	_	_	_	_
+43-4	4675-4677	di	_	_	_	_	_
+43-5	4678-4682	atas	_	_	_	_	_
+43-6	4683-4684	,	_	_	_	_	_
+43-7	4685-4688	ada	_	_	_	_	_
+43-8	4689-4695	banyak	_	_	_	_	_
+43-9	4696-4700	lagi	_	_	_	_	_
+43-10	4701-4710	destinasi	_	_	_	_	_
+43-11	4711-4717	wisata	_	_	_	_	_
+43-12	4718-4725	menarik	_	_	_	_	_
+43-13	4726-4728	di	_	_	_	_	_
+43-14	4729-4733	Jawa	_	_	_	_	_
+43-15	4734-4740	Tengah	_	_	_	_	_
+43-16	4741-4742	.	_	_	_	_	_
+
+#Text=Namun sebelum berkunjung ke tempat wisata tersebut , jangan lupa mencari penginapan yang nyaman untuk kamu beristirahat .
+44-1	4744-4749	Namun	_	_	_	_	_
+44-2	4750-4757	sebelum	_	_	_	_	_
+44-3	4758-4768	berkunjung	_	_	_	_	_
+44-4	4769-4771	ke	_	_	_	_	_
+44-5	4772-4778	tempat	_	_	_	_	_
+44-6	4779-4785	wisata	_	_	_	_	_
+44-7	4786-4794	tersebut	_	_	_	_	_
+44-8	4795-4796	,	_	_	_	_	_
+44-9	4797-4803	jangan	_	_	_	_	_
+44-10	4804-4808	lupa	_	_	_	_	_
+44-11	4809-4816	mencari	_	_	_	_	_
+44-12	4817-4827	penginapan	_	_	_	_	_
+44-13	4828-4832	yang	_	_	_	_	_
+44-14	4833-4839	nyaman	_	_	_	_	_
+44-15	4840-4845	untuk	_	_	_	_	_
+44-16	4846-4850	kamu	_	_	_	_	_
+44-17	4851-4863	beristirahat	_	_	_	_	_
+44-18	4864-4865	.	_	_	_	_	_
+
+#Text=Kamu bisa menggunakan aplikasi Traveloka untuk mencari penginapan terbaik di Jawa Tengah .
+45-1	4867-4871	Kamu	_	_	_	_	_
+45-2	4872-4876	bisa	_	_	_	_	_
+45-3	4877-4888	menggunakan	_	_	_	_	_
+45-4	4889-4897	aplikasi	_	_	_	_	_
+45-5	4898-4907	Traveloka	_	_	_	_	_
+45-6	4908-4913	untuk	_	_	_	_	_
+45-7	4914-4921	mencari	_	_	_	_	_
+45-8	4922-4932	penginapan	_	_	_	_	_
+45-9	4933-4940	terbaik	_	_	_	_	_
+45-10	4941-4943	di	_	_	_	_	_
+45-11	4944-4948	Jawa	_	_	_	_	_
+45-12	4949-4955	Tengah	_	_	_	_	_
+45-13	4956-4957	.	_	_	_	_	_
+
+#Text=Traveloka , #TemanHidup untuk lifestyle - mu yang menyediakan clean accommodation , bisa bayar saat check - in , dan hotel online check - in .
+46-1	4959-4968	Traveloka	_	concept[30]	_	_	_
+46-2	4969-4970	,	_	_	_	_	_
+46-3	4971-4982	#TemanHidup	_	_	_	_	_
+46-4	4983-4988	untuk	_	_	_	_	_
+46-5	4989-4998	lifestyle	_	_	_	_	_
+46-6	4999-5000	-	_	_	_	_	_
+46-7	5001-5003	mu	_	_	_	_	_
+46-8	5004-5008	yang	_	_	_	_	_
+46-9	5009-5020	menyediakan	_	_	_	_	_
+46-10	5021-5026	clean	_	positive[31]	_	_	_
+46-11	5027-5040	accommodation	_	_	_	_	_
+46-12	5041-5042	,	_	_	_	_	_
+46-13	5043-5047	bisa	_	_	_	_	_
+46-14	5048-5053	bayar	_	_	_	_	_
+46-15	5054-5058	saat	_	_	_	_	_
+46-16	5059-5064	check	_	_	_	_	_
+46-17	5065-5066	-	_	_	_	_	_
+46-18	5067-5069	in	_	_	_	_	_
+46-19	5070-5071	,	_	_	_	_	_
+46-20	5072-5075	dan	_	_	_	_	_
+46-21	5076-5081	hotel	_	_	_	_	_
+46-22	5082-5088	online	_	_	_	_	_
+46-23	5089-5094	check	_	_	_	_	_
+46-24	5095-5096	-	_	_	_	_	_
+46-25	5097-5099	in	_	_	_	_	_
+46-26	5100-5101	.	_	_	_	_	_
+

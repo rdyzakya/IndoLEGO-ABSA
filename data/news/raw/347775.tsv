@@ -1,0 +1,523 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Warren Buffett adalah salah satu pengusaha paling kaya dan sukses di dunia , tetapi masih menjalani hidup hemat dalam banyak aspek di kehidupan nya .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-33	Warren	_	concept[1]	_	_	_
+1-7	34-41	Buffett	_	concept[1]	_	_	_
+1-8	42-48	adalah	_	_	_	_	_
+1-9	49-54	salah	_	_	_	_	_
+1-10	55-59	satu	_	_	_	_	_
+1-11	60-69	pengusaha	_	_	_	_	_
+1-12	70-76	paling	_	positive[2]	_	_	_
+1-13	77-81	kaya	_	positive[2]	_	_	_
+1-14	82-85	dan	_	_	_	_	_
+1-15	86-92	sukses	_	positive[3]	_	_	_
+1-16	93-95	di	_	_	_	_	_
+1-17	96-101	dunia	_	_	_	_	_
+1-18	102-103	,	_	_	_	_	_
+1-19	104-110	tetapi	_	_	_	_	_
+1-20	111-116	masih	_	_	_	_	_
+1-21	117-126	menjalani	_	_	_	_	_
+1-22	127-132	hidup	_	_	_	_	_
+1-23	133-138	hemat	_	_	_	_	_
+1-24	139-144	dalam	_	_	_	_	_
+1-25	145-151	banyak	_	_	_	_	_
+1-26	152-157	aspek	_	_	_	_	_
+1-27	158-160	di	_	_	_	_	_
+1-28	161-170	kehidupan	_	_	_	_	_
+1-29	171-174	nya	_	_	_	_	_
+1-30	175-176	.	_	_	_	_	_
+
+#Text=Meski demikian , triliuner satu ini tidak menyebut diri nya sebagai orang yang hemat , hanya seorang pria dengan selera sederhana .
+2-1	178-183	Meski	_	_	_	_	_
+2-2	184-192	demikian	_	_	_	_	_
+2-3	193-194	,	_	_	_	_	_
+2-4	195-204	triliuner	_	_	_	_	_
+2-5	205-209	satu	_	_	_	_	_
+2-6	210-213	ini	_	_	_	_	_
+2-7	214-219	tidak	_	_	_	_	_
+2-8	220-228	menyebut	_	_	_	_	_
+2-9	229-233	diri	_	_	_	_	_
+2-10	234-237	nya	_	_	_	_	_
+2-11	238-245	sebagai	_	_	_	_	_
+2-12	246-251	orang	_	_	_	_	_
+2-13	252-256	yang	_	_	_	_	_
+2-14	257-262	hemat	_	_	_	_	_
+2-15	263-264	,	_	_	_	_	_
+2-16	265-270	hanya	_	_	_	_	_
+2-17	271-278	seorang	_	_	_	_	_
+2-18	279-283	pria	_	_	_	_	_
+2-19	284-290	dengan	_	_	_	_	_
+2-20	291-297	selera	_	concept[4]	_	_	_
+2-21	298-307	sederhana	_	positive[5]	_	_	_
+2-22	308-309	.	_	_	_	_	_
+
+#Text=1 .
+3-1	311-312	1	_	_	_	_	_
+3-2	313-314	.	_	_	_	_	_
+
+#Text=Tetap tinggal di rumah yang sama Mengutip Yahoo Finance , Buffett sudah tinggal di rumah nya di Omaha , Nebraska , selama lebih dari 60 tahun .
+4-1	316-321	Tetap	_	_	_	_	_
+4-2	322-329	tinggal	_	_	_	_	_
+4-3	330-332	di	_	_	_	_	_
+4-4	333-338	rumah	_	_	_	_	_
+4-5	339-343	yang	_	_	_	_	_
+4-6	344-348	sama	_	_	_	_	_
+4-7	349-357	Mengutip	_	_	_	_	_
+4-8	358-363	Yahoo	_	_	_	_	_
+4-9	364-371	Finance	_	_	_	_	_
+4-10	372-373	,	_	_	_	_	_
+4-11	374-381	Buffett	_	_	_	_	_
+4-12	382-387	sudah	_	_	_	_	_
+4-13	388-395	tinggal	_	_	_	_	_
+4-14	396-398	di	_	_	_	_	_
+4-15	399-404	rumah	_	_	_	_	_
+4-16	405-408	nya	_	_	_	_	_
+4-17	409-411	di	_	_	_	_	_
+4-18	412-417	Omaha	_	_	_	_	_
+4-19	418-419	,	_	_	_	_	_
+4-20	420-428	Nebraska	_	_	_	_	_
+4-21	429-430	,	_	_	_	_	_
+4-22	431-437	selama	_	_	_	_	_
+4-23	438-443	lebih	_	_	_	_	_
+4-24	444-448	dari	_	_	_	_	_
+4-25	449-451	60	_	_	_	_	_
+4-26	452-457	tahun	_	_	_	_	_
+4-27	458-459	.	_	_	_	_	_
+
+#Text=Meski nilai kekayaan nya sudah naik berkali-kali lipat , ia tidak serta-merta pindah ke villa mewah berharga ratusan miliar .
+5-1	461-466	Meski	_	_	_	_	_
+5-2	467-472	nilai	_	_	_	_	_
+5-3	473-481	kekayaan	_	_	_	_	_
+5-4	482-485	nya	_	_	_	_	_
+5-5	486-491	sudah	_	_	_	_	_
+5-6	492-496	naik	_	_	_	_	_
+5-7	497-509	berkali-kali	_	_	_	_	_
+5-8	510-515	lipat	_	_	_	_	_
+5-9	516-517	,	_	_	_	_	_
+5-10	518-520	ia	_	_	_	_	_
+5-11	521-526	tidak	_	_	_	_	_
+5-12	527-538	serta-merta	_	_	_	_	_
+5-13	539-545	pindah	_	_	_	_	_
+5-14	546-548	ke	_	_	_	_	_
+5-15	549-554	villa	_	_	_	_	_
+5-16	555-560	mewah	_	_	_	_	_
+5-17	561-569	berharga	_	_	_	_	_
+5-18	570-577	ratusan	_	_	_	_	_
+5-19	578-584	miliar	_	_	_	_	_
+5-20	585-586	.	_	_	_	_	_
+
+#Text=Rumah nya di Omaha memang sangat luas , namun rumah itu termasuk ' sederhana ' untuk ukuran triliuner seperti dia .
+6-1	588-593	Rumah	_	concept[6]	_	_	_
+6-2	594-597	nya	_	concept[6]	_	_	_
+6-3	598-600	di	_	_	_	_	_
+6-4	601-606	Omaha	_	_	_	_	_
+6-5	607-613	memang	_	_	_	_	_
+6-6	614-620	sangat	_	positive[7]	_	_	_
+6-7	621-625	luas	_	positive[7]	_	_	_
+6-8	626-627	,	_	_	_	_	_
+6-9	628-633	namun	_	_	_	_	_
+6-10	634-639	rumah	_	_	_	_	_
+6-11	640-643	itu	_	_	_	_	_
+6-12	644-652	termasuk	_	_	_	_	_
+6-13	653-654	'	_	_	_	_	_
+6-14	655-664	sederhana	_	_	_	_	_
+6-15	665-666	'	_	_	_	_	_
+6-16	667-672	untuk	_	_	_	_	_
+6-17	673-679	ukuran	_	_	_	_	_
+6-18	680-689	triliuner	_	_	_	_	_
+6-19	690-697	seperti	_	_	_	_	_
+6-20	698-701	dia	_	_	_	_	_
+6-21	702-703	.	_	_	_	_	_
+
+#Text=Buffett tidak berencana untuk pindah rumah .
+7-1	705-712	Buffett	_	_	_	_	_
+7-2	713-718	tidak	_	_	_	_	_
+7-3	719-728	berencana	_	_	_	_	_
+7-4	729-734	untuk	_	_	_	_	_
+7-5	735-741	pindah	_	_	_	_	_
+7-6	742-747	rumah	_	_	_	_	_
+7-7	748-749	.	_	_	_	_	_
+
+#Text=Justru , ia menyebut rumah nya sebagai investasi terbaik ketiga yang pernah ia buat .
+8-1	751-757	Justru	_	_	_	_	_
+8-2	758-759	,	_	_	_	_	_
+8-3	760-762	ia	_	_	_	_	_
+8-4	763-771	menyebut	_	_	_	_	_
+8-5	772-777	rumah	_	_	_	_	_
+8-6	778-781	nya	_	_	_	_	_
+8-7	782-789	sebagai	_	_	_	_	_
+8-8	790-799	investasi	_	_	_	_	_
+8-9	800-807	terbaik	_	_	_	_	_
+8-10	808-814	ketiga	_	_	_	_	_
+8-11	815-819	yang	_	_	_	_	_
+8-12	820-826	pernah	_	_	_	_	_
+8-13	827-829	ia	_	_	_	_	_
+8-14	830-834	buat	_	_	_	_	_
+8-15	835-836	.	_	_	_	_	_
+
+#Text=2 .
+9-1	838-839	2	_	_	_	_	_
+9-2	840-841	.	_	_	_	_	_
+
+#Text=Jarang berutang Satu-satunya utang Buffett adalah KPR untuk sebuah rumah liburan di Laguna Beach , California , yang dia beli pada tahun 1971 .
+10-1	843-849	Jarang	_	_	_	_	_
+10-2	850-858	berutang	_	_	_	_	_
+10-3	859-871	Satu-satunya	_	_	_	_	_
+10-4	872-877	utang	_	_	_	_	_
+10-5	878-885	Buffett	_	_	_	_	_
+10-6	886-892	adalah	_	_	_	_	_
+10-7	893-896	KPR	_	_	_	_	_
+10-8	897-902	untuk	_	_	_	_	_
+10-9	903-909	sebuah	_	_	_	_	_
+10-10	910-915	rumah	_	_	_	_	_
+10-11	916-923	liburan	_	_	_	_	_
+10-12	924-926	di	_	_	_	_	_
+10-13	927-933	Laguna	_	_	_	_	_
+10-14	934-939	Beach	_	_	_	_	_
+10-15	940-941	,	_	_	_	_	_
+10-16	942-952	California	_	_	_	_	_
+10-17	953-954	,	_	_	_	_	_
+10-18	955-959	yang	_	_	_	_	_
+10-19	960-963	dia	_	_	_	_	_
+10-20	964-968	beli	_	_	_	_	_
+10-21	969-973	pada	_	_	_	_	_
+10-22	974-979	tahun	_	_	_	_	_
+10-23	980-984	1971	_	_	_	_	_
+10-24	985-986	.	_	_	_	_	_
+
+#Text=Meski membeli rumah itu dengan cicilan , Buffet sebenarnya juga memiliki uang tunai untuk membeli properti tepi pantai yang sekarang harga nya ditaksir US$ 150.000 atau sekitar Rp 21 miliar ( kurs Rp 14.358 / USD ) Buffet mengatakan kepada CNBC bahwa dia mengambil pinjaman KPR dengan tenor 30 tahun karena " Saya pikir , mungkin saya bisa menggunakan uang itu dengan lebih baik daripada untuk membeli rumah secara cash . " 3 .
+11-1	988-993	Meski	_	_	_	_	_
+11-2	994-1001	membeli	_	_	_	_	_
+11-3	1002-1007	rumah	_	_	_	_	_
+11-4	1008-1011	itu	_	_	_	_	_
+11-5	1012-1018	dengan	_	_	_	_	_
+11-6	1019-1026	cicilan	_	_	_	_	_
+11-7	1027-1028	,	_	_	_	_	_
+11-8	1029-1035	Buffet	_	_	_	_	_
+11-9	1036-1046	sebenarnya	_	_	_	_	_
+11-10	1047-1051	juga	_	_	_	_	_
+11-11	1052-1060	memiliki	_	_	_	_	_
+11-12	1061-1065	uang	_	_	_	_	_
+11-13	1066-1071	tunai	_	_	_	_	_
+11-14	1072-1077	untuk	_	_	_	_	_
+11-15	1078-1085	membeli	_	_	_	_	_
+11-16	1086-1094	properti	_	_	_	_	_
+11-17	1095-1099	tepi	_	_	_	_	_
+11-18	1100-1106	pantai	_	_	_	_	_
+11-19	1107-1111	yang	_	_	_	_	_
+11-20	1112-1120	sekarang	_	_	_	_	_
+11-21	1121-1126	harga	_	_	_	_	_
+11-22	1127-1130	nya	_	_	_	_	_
+11-23	1131-1139	ditaksir	_	_	_	_	_
+11-24	1140-1143	US$	_	_	_	_	_
+11-25	1144-1151	150.000	_	_	_	_	_
+11-26	1152-1156	atau	_	_	_	_	_
+11-27	1157-1164	sekitar	_	_	_	_	_
+11-28	1165-1167	Rp	_	_	_	_	_
+11-29	1168-1170	21	_	_	_	_	_
+11-30	1171-1177	miliar	_	_	_	_	_
+11-31	1178-1179	(	_	_	_	_	_
+11-32	1180-1184	kurs	_	_	_	_	_
+11-33	1185-1187	Rp	_	_	_	_	_
+11-34	1188-1194	14.358	_	_	_	_	_
+11-35	1195-1196	/	_	_	_	_	_
+11-36	1197-1200	USD	_	_	_	_	_
+11-37	1201-1202	)	_	_	_	_	_
+11-38	1203-1209	Buffet	_	_	_	_	_
+11-39	1210-1220	mengatakan	_	_	_	_	_
+11-40	1221-1227	kepada	_	_	_	_	_
+11-41	1228-1232	CNBC	_	_	_	_	_
+11-42	1233-1238	bahwa	_	_	_	_	_
+11-43	1239-1242	dia	_	_	_	_	_
+11-44	1243-1252	mengambil	_	_	_	_	_
+11-45	1253-1261	pinjaman	_	_	_	_	_
+11-46	1262-1265	KPR	_	_	_	_	_
+11-47	1266-1272	dengan	_	_	_	_	_
+11-48	1273-1278	tenor	_	_	_	_	_
+11-49	1279-1281	30	_	_	_	_	_
+11-50	1282-1287	tahun	_	_	_	_	_
+11-51	1288-1294	karena	_	_	_	_	_
+11-52	1295-1296	"	_	_	_	_	_
+11-53	1297-1301	Saya	_	_	_	_	_
+11-54	1302-1307	pikir	_	_	_	_	_
+11-55	1308-1309	,	_	_	_	_	_
+11-56	1310-1317	mungkin	_	_	_	_	_
+11-57	1318-1322	saya	_	_	_	_	_
+11-58	1323-1327	bisa	_	_	_	_	_
+11-59	1328-1339	menggunakan	_	_	_	_	_
+11-60	1340-1344	uang	_	_	_	_	_
+11-61	1345-1348	itu	_	_	_	_	_
+11-62	1349-1355	dengan	_	_	_	_	_
+11-63	1356-1361	lebih	_	_	_	_	_
+11-64	1362-1366	baik	_	_	_	_	_
+11-65	1367-1375	daripada	_	_	_	_	_
+11-66	1376-1381	untuk	_	_	_	_	_
+11-67	1382-1389	membeli	_	_	_	_	_
+11-68	1390-1395	rumah	_	_	_	_	_
+11-69	1396-1402	secara	_	_	_	_	_
+11-70	1403-1407	cash	_	_	_	_	_
+11-71	1408-1409	.	_	_	_	_	_
+11-72	1410-1411	"	_	_	_	_	_
+11-73	1412-1413	3	_	_	_	_	_
+11-74	1414-1415	.	_	_	_	_	_
+
+#Text=Menggunakan mobil murah Ketika banyak triliuner memiliki koleksi mobil sport mewah , Buffett lebih memilih memakai mobil murah .
+12-1	1417-1428	Menggunakan	_	_	_	_	_
+12-2	1429-1434	mobil	_	_	_	_	_
+12-3	1435-1440	murah	_	_	_	_	_
+12-4	1441-1447	Ketika	_	_	_	_	_
+12-5	1448-1454	banyak	_	_	_	_	_
+12-6	1455-1464	triliuner	_	_	_	_	_
+12-7	1465-1473	memiliki	_	_	_	_	_
+12-8	1474-1481	koleksi	_	_	_	_	_
+12-9	1482-1487	mobil	_	_	_	_	_
+12-10	1488-1493	sport	_	_	_	_	_
+12-11	1494-1499	mewah	_	_	_	_	_
+12-12	1500-1501	,	_	_	_	_	_
+12-13	1502-1509	Buffett	_	_	_	_	_
+12-14	1510-1515	lebih	_	_	_	_	_
+12-15	1516-1523	memilih	_	_	_	_	_
+12-16	1524-1531	memakai	_	_	_	_	_
+12-17	1532-1537	mobil	_	_	_	_	_
+12-18	1538-1543	murah	_	_	_	_	_
+12-19	1544-1545	.	_	_	_	_	_
+
+#Text=Mobil terbaru nya adalah Cadillac XTS yang dibeli pada tahun 2014 .
+13-1	1547-1552	Mobil	_	_	_	_	_
+13-2	1553-1560	terbaru	_	_	_	_	_
+13-3	1561-1564	nya	_	_	_	_	_
+13-4	1565-1571	adalah	_	_	_	_	_
+13-5	1572-1580	Cadillac	_	_	_	_	_
+13-6	1581-1584	XTS	_	_	_	_	_
+13-7	1585-1589	yang	_	_	_	_	_
+13-8	1590-1596	dibeli	_	_	_	_	_
+13-9	1597-1601	pada	_	_	_	_	_
+13-10	1602-1607	tahun	_	_	_	_	_
+13-11	1608-1612	2014	_	_	_	_	_
+13-12	1613-1614	.	_	_	_	_	_
+
+#Text=" Sebenarnya , saya hanya berkendara sekitar 3.500 mil setahun , jadi saya akan sangat jarang membeli mobil baru , " kata nya kepada Forbes .
+14-1	1616-1617	"	_	_	_	_	_
+14-2	1618-1628	Sebenarnya	_	_	_	_	_
+14-3	1629-1630	,	_	_	_	_	_
+14-4	1631-1635	saya	_	_	_	_	_
+14-5	1636-1641	hanya	_	_	_	_	_
+14-6	1642-1652	berkendara	_	_	_	_	_
+14-7	1653-1660	sekitar	_	_	_	_	_
+14-8	1661-1666	3.500	_	_	_	_	_
+14-9	1667-1670	mil	_	_	_	_	_
+14-10	1671-1678	setahun	_	_	_	_	_
+14-11	1679-1680	,	_	_	_	_	_
+14-12	1681-1685	jadi	_	_	_	_	_
+14-13	1686-1690	saya	_	_	_	_	_
+14-14	1691-1695	akan	_	_	_	_	_
+14-15	1696-1702	sangat	_	_	_	_	_
+14-16	1703-1709	jarang	_	_	_	_	_
+14-17	1710-1717	membeli	_	_	_	_	_
+14-18	1718-1723	mobil	_	_	_	_	_
+14-19	1724-1728	baru	_	_	_	_	_
+14-20	1729-1730	,	_	_	_	_	_
+14-21	1731-1732	"	_	_	_	_	_
+14-22	1733-1737	kata	_	_	_	_	_
+14-23	1738-1741	nya	_	_	_	_	_
+14-24	1742-1748	kepada	_	_	_	_	_
+14-25	1749-1755	Forbes	_	_	_	_	_
+14-26	1756-1757	.	_	_	_	_	_
+
+#Text=Jika Anda ingin berhemat , tiru kebiasaan Buffett yang hanya membelanjakan uang sesuai batas kemampuan .
+15-1	1759-1763	Jika	_	_	_	_	_
+15-2	1764-1768	Anda	_	_	_	_	_
+15-3	1769-1774	ingin	_	_	_	_	_
+15-4	1775-1783	berhemat	_	_	_	_	_
+15-5	1784-1785	,	_	_	_	_	_
+15-6	1786-1790	tiru	_	_	_	_	_
+15-7	1791-1800	kebiasaan	_	concept[8]	_	_	_
+15-8	1801-1808	Buffett	_	concept[8]	_	_	_
+15-9	1809-1813	yang	_	_	_	_	_
+15-10	1814-1819	hanya	_	positive[9]	_	_	_
+15-11	1820-1833	membelanjakan	_	positive[9]	_	_	_
+15-12	1834-1838	uang	_	positive[9]	_	_	_
+15-13	1839-1845	sesuai	_	positive[9]	_	_	_
+15-14	1846-1851	batas	_	positive[9]	_	_	_
+15-15	1852-1861	kemampuan	_	positive[9]	_	_	_
+15-16	1862-1863	.	_	_	_	_	_
+
+#Text=4 .
+16-1	1865-1866	4	_	_	_	_	_
+16-2	1867-1868	.	_	_	_	_	_
+
+#Text=Menghindari pengeluaran yang tidak perlu Warren Buffett tidak terlalu peduli dengan baju rancangan desainer ternama atau model iPhone terbaru .
+17-1	1870-1881	Menghindari	_	_	_	_	_
+17-2	1882-1893	pengeluaran	_	_	_	_	_
+17-3	1894-1898	yang	_	_	_	_	_
+17-4	1899-1904	tidak	_	_	_	_	_
+17-5	1905-1910	perlu	_	_	_	_	_
+17-6	1911-1917	Warren	_	_	_	_	_
+17-7	1918-1925	Buffett	_	_	_	_	_
+17-8	1926-1931	tidak	_	_	_	_	_
+17-9	1932-1939	terlalu	_	_	_	_	_
+17-10	1940-1946	peduli	_	_	_	_	_
+17-11	1947-1953	dengan	_	_	_	_	_
+17-12	1954-1958	baju	_	_	_	_	_
+17-13	1959-1968	rancangan	_	_	_	_	_
+17-14	1969-1977	desainer	_	_	_	_	_
+17-15	1978-1985	ternama	_	_	_	_	_
+17-16	1986-1990	atau	_	_	_	_	_
+17-17	1991-1996	model	_	_	_	_	_
+17-18	1997-2003	iPhone	_	_	_	_	_
+17-19	2004-2011	terbaru	_	_	_	_	_
+17-20	2012-2013	.	_	_	_	_	_
+
+#Text=Dia hanya memakai ponsel murah selama bertahun-tahun sebelum akhirnya menggunakan smartphone Apple pada tahun 2020 .
+18-1	2015-2018	Dia	_	_	_	_	_
+18-2	2019-2024	hanya	_	_	_	_	_
+18-3	2025-2032	memakai	_	_	_	_	_
+18-4	2033-2039	ponsel	_	_	_	_	_
+18-5	2040-2045	murah	_	_	_	_	_
+18-6	2046-2052	selama	_	_	_	_	_
+18-7	2053-2067	bertahun-tahun	_	_	_	_	_
+18-8	2068-2075	sebelum	_	_	_	_	_
+18-9	2076-2084	akhirnya	_	_	_	_	_
+18-10	2085-2096	menggunakan	_	_	_	_	_
+18-11	2097-2107	smartphone	_	_	_	_	_
+18-12	2108-2113	Apple	_	_	_	_	_
+18-13	2114-2118	pada	_	_	_	_	_
+18-14	2119-2124	tahun	_	_	_	_	_
+18-15	2125-2129	2020	_	_	_	_	_
+18-16	2130-2131	.	_	_	_	_	_
+
+#Text=Buffett menghindari pengeluaran yang tidak perlu dan pernah berkata , " Jangan menabung apa yang tersisa setelah dibelanjakan , tetapi habiskan apa yang tersisa setelah menabung . " 5 .
+19-1	2133-2140	Buffett	_	_	_	_	_
+19-2	2141-2152	menghindari	_	_	_	_	_
+19-3	2153-2164	pengeluaran	_	_	_	_	_
+19-4	2165-2169	yang	_	_	_	_	_
+19-5	2170-2175	tidak	_	_	_	_	_
+19-6	2176-2181	perlu	_	_	_	_	_
+19-7	2182-2185	dan	_	_	_	_	_
+19-8	2186-2192	pernah	_	_	_	_	_
+19-9	2193-2200	berkata	_	_	_	_	_
+19-10	2201-2202	,	_	_	_	_	_
+19-11	2203-2204	"	_	_	_	_	_
+19-12	2205-2211	Jangan	_	_	_	_	_
+19-13	2212-2220	menabung	_	_	_	_	_
+19-14	2221-2224	apa	_	_	_	_	_
+19-15	2225-2229	yang	_	_	_	_	_
+19-16	2230-2237	tersisa	_	_	_	_	_
+19-17	2238-2245	setelah	_	_	_	_	_
+19-18	2246-2258	dibelanjakan	_	_	_	_	_
+19-19	2259-2260	,	_	_	_	_	_
+19-20	2261-2267	tetapi	_	_	_	_	_
+19-21	2268-2276	habiskan	_	_	_	_	_
+19-22	2277-2280	apa	_	_	_	_	_
+19-23	2281-2285	yang	_	_	_	_	_
+19-24	2286-2293	tersisa	_	_	_	_	_
+19-25	2294-2301	setelah	_	_	_	_	_
+19-26	2302-2310	menabung	_	_	_	_	_
+19-27	2311-2312	.	_	_	_	_	_
+19-28	2313-2314	"	_	_	_	_	_
+19-29	2315-2316	5	_	_	_	_	_
+19-30	2317-2318	.	_	_	_	_	_
+
+#Text=Tidak berinvestasi dari uang pinjaman Buffett muda pernah meminjam uang untuk dibelikan saham , namun dia memperingatkan investor agar tidak mengulangi kesalahan yang sama .
+20-1	2320-2325	Tidak	_	_	_	_	_
+20-2	2326-2338	berinvestasi	_	_	_	_	_
+20-3	2339-2343	dari	_	_	_	_	_
+20-4	2344-2348	uang	_	_	_	_	_
+20-5	2349-2357	pinjaman	_	_	_	_	_
+20-6	2358-2365	Buffett	_	_	_	_	_
+20-7	2366-2370	muda	_	_	_	_	_
+20-8	2371-2377	pernah	_	_	_	_	_
+20-9	2378-2386	meminjam	_	_	_	_	_
+20-10	2387-2391	uang	_	_	_	_	_
+20-11	2392-2397	untuk	_	_	_	_	_
+20-12	2398-2407	dibelikan	_	_	_	_	_
+20-13	2408-2413	saham	_	_	_	_	_
+20-14	2414-2415	,	_	_	_	_	_
+20-15	2416-2421	namun	_	_	_	_	_
+20-16	2422-2425	dia	_	_	_	_	_
+20-17	2426-2440	memperingatkan	_	_	_	_	_
+20-18	2441-2449	investor	_	_	_	_	_
+20-19	2450-2454	agar	_	_	_	_	_
+20-20	2455-2460	tidak	_	_	_	_	_
+20-21	2461-2471	mengulangi	_	_	_	_	_
+20-22	2472-2481	kesalahan	_	_	_	_	_
+20-23	2482-2486	yang	_	_	_	_	_
+20-24	2487-2491	sama	_	_	_	_	_
+20-25	2492-2493	.	_	_	_	_	_
+
+#Text=Berdasarkan pengalaman Buffet , meminjam untuk berinvestasi bisa sangat berisiko .
+21-1	2495-2506	Berdasarkan	_	_	_	_	_
+21-2	2507-2517	pengalaman	_	_	_	_	_
+21-3	2518-2524	Buffet	_	_	_	_	_
+21-4	2525-2526	,	_	_	_	_	_
+21-5	2527-2535	meminjam	_	concept[10]	_	_	_
+21-6	2536-2541	untuk	_	_	_	_	_
+21-7	2542-2554	berinvestasi	_	_	_	_	_
+21-8	2555-2559	bisa	_	negative[11]	_	_	_
+21-9	2560-2566	sangat	_	negative[11]	_	_	_
+21-10	2567-2575	berisiko	_	negative[11]	_	_	_
+21-11	2576-2577	.	_	_	_	_	_
+
+#Text=6 .
+22-1	2579-2580	6	_	_	_	_	_
+22-2	2581-2582	.	_	_	_	_	_
+
+#Text=Temukan cara kreatif untuk berhemat Ketika anak pertama Buffett lahir , dia mengubah laci meja rias menjadi tempat tidur bayi .
+23-1	2584-2591	Temukan	_	_	_	_	_
+23-2	2592-2596	cara	_	_	_	_	_
+23-3	2597-2604	kreatif	_	_	_	_	_
+23-4	2605-2610	untuk	_	_	_	_	_
+23-5	2611-2619	berhemat	_	_	_	_	_
+23-6	2620-2626	Ketika	_	_	_	_	_
+23-7	2627-2631	anak	_	_	_	_	_
+23-8	2632-2639	pertama	_	_	_	_	_
+23-9	2640-2647	Buffett	_	_	_	_	_
+23-10	2648-2653	lahir	_	_	_	_	_
+23-11	2654-2655	,	_	_	_	_	_
+23-12	2656-2659	dia	_	_	_	_	_
+23-13	2660-2668	mengubah	_	_	_	_	_
+23-14	2669-2673	laci	_	_	_	_	_
+23-15	2674-2678	meja	_	_	_	_	_
+23-16	2679-2683	rias	_	_	_	_	_
+23-17	2684-2691	menjadi	_	_	_	_	_
+23-18	2692-2698	tempat	_	_	_	_	_
+23-19	2699-2704	tidur	_	_	_	_	_
+23-20	2705-2709	bayi	_	_	_	_	_
+23-21	2710-2711	.	_	_	_	_	_
+
+#Text=Kemudian , ketika anak kedua nya lahir , dia menyewa tempat tidur bayi , alih-alih membeli yang baru .
+24-1	2713-2721	Kemudian	_	_	_	_	_
+24-2	2722-2723	,	_	_	_	_	_
+24-3	2724-2730	ketika	_	_	_	_	_
+24-4	2731-2735	anak	_	_	_	_	_
+24-5	2736-2741	kedua	_	_	_	_	_
+24-6	2742-2745	nya	_	_	_	_	_
+24-7	2746-2751	lahir	_	_	_	_	_
+24-8	2752-2753	,	_	_	_	_	_
+24-9	2754-2757	dia	_	_	_	_	_
+24-10	2758-2765	menyewa	_	_	_	_	_
+24-11	2766-2772	tempat	_	_	_	_	_
+24-12	2773-2778	tidur	_	_	_	_	_
+24-13	2779-2783	bayi	_	_	_	_	_
+24-14	2784-2785	,	_	_	_	_	_
+24-15	2786-2795	alih-alih	_	_	_	_	_
+24-16	2796-2803	membeli	_	_	_	_	_
+24-17	2804-2808	yang	_	_	_	_	_
+24-18	2809-2813	baru	_	_	_	_	_
+24-19	2814-2815	.	_	_	_	_	_
+
+#Text=Dia selalu menemukan cara-cara kreatif untuk berhemat .
+25-1	2817-2820	Dia	_	_	_	_	_
+25-2	2821-2827	selalu	_	_	_	_	_
+25-3	2828-2837	menemukan	_	_	_	_	_
+25-4	2838-2847	cara-cara	_	_	_	_	_
+25-5	2848-2855	kreatif	_	_	_	_	_
+25-6	2856-2861	untuk	_	_	_	_	_
+25-7	2862-2870	berhemat	_	_	_	_	_
+25-8	2871-2872	.	_	_	_	_	_
+

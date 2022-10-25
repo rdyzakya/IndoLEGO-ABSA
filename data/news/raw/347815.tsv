@@ -1,0 +1,469 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=KOMPAS.com - Indonesia adalah negara kepulauan tropis yang memiliki kekayaan alam berlimpah .
+1-1	0-10	KOMPAS.com	_	_	_	_	_
+1-2	11-12	-	_	_	_	_	_
+1-3	13-22	Indonesia	_	_	_	_	_
+1-4	23-29	adalah	_	_	_	_	_
+1-5	30-36	negara	_	_	_	_	_
+1-6	37-46	kepulauan	_	_	_	_	_
+1-7	47-53	tropis	_	_	_	_	_
+1-8	54-58	yang	_	_	_	_	_
+1-9	59-67	memiliki	_	_	_	_	_
+1-10	68-76	kekayaan	_	_	_	_	_
+1-11	77-81	alam	_	_	_	_	_
+1-12	82-91	berlimpah	_	_	_	_	_
+1-13	92-93	.	_	_	_	_	_
+
+#Text=Namun , Indonesia juga berada di wilayah yang rawan terhadap bencana alam .
+2-1	95-100	Namun	_	_	_	_	_
+2-2	101-102	,	_	_	_	_	_
+2-3	103-112	Indonesia	_	_	_	_	_
+2-4	113-117	juga	_	_	_	_	_
+2-5	118-124	berada	_	_	_	_	_
+2-6	125-127	di	_	_	_	_	_
+2-7	128-135	wilayah	_	_	_	_	_
+2-8	136-140	yang	_	_	_	_	_
+2-9	141-146	rawan	_	_	_	_	_
+2-10	147-155	terhadap	_	_	_	_	_
+2-11	156-163	bencana	_	_	_	_	_
+2-12	164-168	alam	_	_	_	_	_
+2-13	169-170	.	_	_	_	_	_
+
+#Text=Apa yang menyebabkan Indonesia menjadi wilayah yang rawan bencana ?
+3-1	172-175	Apa	_	_	_	_	_
+3-2	176-180	yang	_	_	_	_	_
+3-3	181-192	menyebabkan	_	_	_	_	_
+3-4	193-202	Indonesia	_	_	_	_	_
+3-5	203-210	menjadi	_	_	_	_	_
+3-6	211-218	wilayah	_	_	_	_	_
+3-7	219-223	yang	_	_	_	_	_
+3-8	224-229	rawan	_	_	_	_	_
+3-9	230-237	bencana	_	_	_	_	_
+3-10	238-239	?	_	_	_	_	_
+
+#Text=Alasan pertama yang menyebabkan Indonesia menjadi wilayah rawan bencana adalah karena dilalui oleh Sirkum Pasifik atau yang lebih dikenal dengan Cincin Api Pasifik .
+4-1	241-247	Alasan	_	_	_	_	_
+4-2	248-255	pertama	_	_	_	_	_
+4-3	256-260	yang	_	_	_	_	_
+4-4	261-272	menyebabkan	_	_	_	_	_
+4-5	273-282	Indonesia	_	_	_	_	_
+4-6	283-290	menjadi	_	_	_	_	_
+4-7	291-298	wilayah	_	_	_	_	_
+4-8	299-304	rawan	_	_	_	_	_
+4-9	305-312	bencana	_	_	_	_	_
+4-10	313-319	adalah	_	_	_	_	_
+4-11	320-326	karena	_	_	_	_	_
+4-12	327-334	dilalui	_	_	_	_	_
+4-13	335-339	oleh	_	_	_	_	_
+4-14	340-346	Sirkum	_	_	_	_	_
+4-15	347-354	Pasifik	_	_	_	_	_
+4-16	355-359	atau	_	_	_	_	_
+4-17	360-364	yang	_	_	_	_	_
+4-18	365-370	lebih	_	_	_	_	_
+4-19	371-378	dikenal	_	_	_	_	_
+4-20	379-385	dengan	_	_	_	_	_
+4-21	386-392	Cincin	_	_	_	_	_
+4-22	393-396	Api	_	_	_	_	_
+4-23	397-404	Pasifik	_	_	_	_	_
+4-24	405-406	.	_	_	_	_	_
+
+#Text=Sirkum Pasifik adalah sabuk seismik tempat bertemu nya banyak lempeng tektonik .
+5-1	408-414	Sirkum	_	_	_	_	_
+5-2	415-422	Pasifik	_	_	_	_	_
+5-3	423-429	adalah	_	_	_	_	_
+5-4	430-435	sabuk	_	_	_	_	_
+5-5	436-443	seismik	_	_	_	_	_
+5-6	444-450	tempat	_	_	_	_	_
+5-7	451-458	bertemu	_	_	_	_	_
+5-8	459-462	nya	_	_	_	_	_
+5-9	463-469	banyak	_	_	_	_	_
+5-10	470-477	lempeng	_	_	_	_	_
+5-11	478-486	tektonik	_	_	_	_	_
+5-12	487-488	.	_	_	_	_	_
+
+#Text=Sirkum pasifik membentuk sekitar 75 persen gunung berapi di dunia .
+6-1	490-496	Sirkum	_	_	_	_	_
+6-2	497-504	pasifik	_	_	_	_	_
+6-3	505-514	membentuk	_	_	_	_	_
+6-4	515-522	sekitar	_	_	_	_	_
+6-5	523-525	75	_	_	_	_	_
+6-6	526-532	persen	_	_	_	_	_
+6-7	533-539	gunung	_	_	_	_	_
+6-8	540-546	berapi	_	_	_	_	_
+6-9	547-549	di	_	_	_	_	_
+6-10	550-555	dunia	_	_	_	_	_
+6-11	556-557	.	_	_	_	_	_
+
+#Text=Dari 40 gunung berapi yang ada di Sirkum Pasifik , sekitar 127 - nya berada di wilayah Indonesia .
+7-1	559-563	Dari	_	_	_	_	_
+7-2	564-566	40	_	_	_	_	_
+7-3	567-573	gunung	_	_	_	_	_
+7-4	574-580	berapi	_	_	_	_	_
+7-5	581-585	yang	_	_	_	_	_
+7-6	586-589	ada	_	_	_	_	_
+7-7	590-592	di	_	_	_	_	_
+7-8	593-599	Sirkum	_	_	_	_	_
+7-9	600-607	Pasifik	_	_	_	_	_
+7-10	608-609	,	_	_	_	_	_
+7-11	610-617	sekitar	_	_	_	_	_
+7-12	618-621	127	_	_	_	_	_
+7-13	622-623	-	_	_	_	_	_
+7-14	624-627	nya	_	_	_	_	_
+7-15	628-634	berada	_	_	_	_	_
+7-16	635-637	di	_	_	_	_	_
+7-17	638-645	wilayah	_	_	_	_	_
+7-18	646-655	Indonesia	_	_	_	_	_
+7-19	656-657	.	_	_	_	_	_
+
+#Text=Dilansir dari National Geographic , 90 persen gempa bumi di dunia berasal dari Sirkum Pasifik .
+8-1	659-667	Dilansir	_	_	_	_	_
+8-2	668-672	dari	_	_	_	_	_
+8-3	673-681	National	_	_	_	_	_
+8-4	682-692	Geographic	_	_	_	_	_
+8-5	693-694	,	_	_	_	_	_
+8-6	695-697	90	_	_	_	_	_
+8-7	698-704	persen	_	_	_	_	_
+8-8	705-710	gempa	_	_	_	_	_
+8-9	711-715	bumi	_	_	_	_	_
+8-10	716-718	di	_	_	_	_	_
+8-11	719-724	dunia	_	_	_	_	_
+8-12	725-732	berasal	_	_	_	_	_
+8-13	733-737	dari	_	_	_	_	_
+8-14	738-744	Sirkum	_	_	_	_	_
+8-15	745-752	Pasifik	_	_	_	_	_
+8-16	753-754	.	_	_	_	_	_
+
+#Text=Sehingga , wilayah Indonesia rentan akan bencana gempa bumi , gunung berapi , juga bencana alam lainnya akibat aktivitas vulkanis .
+9-1	756-764	Sehingga	_	_	_	_	_
+9-2	765-766	,	_	_	_	_	_
+9-3	767-774	wilayah	_	_	_	_	_
+9-4	775-784	Indonesia	_	_	_	_	_
+9-5	785-791	rentan	_	_	_	_	_
+9-6	792-796	akan	_	_	_	_	_
+9-7	797-804	bencana	_	_	_	_	_
+9-8	805-810	gempa	_	_	_	_	_
+9-9	811-815	bumi	_	_	_	_	_
+9-10	816-817	,	_	_	_	_	_
+9-11	818-824	gunung	_	_	_	_	_
+9-12	825-831	berapi	_	_	_	_	_
+9-13	832-833	,	_	_	_	_	_
+9-14	834-838	juga	_	_	_	_	_
+9-15	839-846	bencana	_	_	_	_	_
+9-16	847-851	alam	_	_	_	_	_
+9-17	852-859	lainnya	_	_	_	_	_
+9-18	860-866	akibat	_	_	_	_	_
+9-19	867-876	aktivitas	_	_	_	_	_
+9-20	877-885	vulkanis	_	_	_	_	_
+9-21	886-887	.	_	_	_	_	_
+
+#Text=Proses Terbentuk nya Pegunungan Sirkum Mediterania dan Sirkum Pasifik Alasan selanjutnya yang menyebabkan Indonesia rawan terhadap bencana alam adalah wilayah nya yang dilewati sabuk Alpide .
+10-1	889-895	Proses	_	_	_	_	_
+10-2	896-905	Terbentuk	_	_	_	_	_
+10-3	906-909	nya	_	_	_	_	_
+10-4	910-920	Pegunungan	_	_	_	_	_
+10-5	921-927	Sirkum	_	_	_	_	_
+10-6	928-939	Mediterania	_	_	_	_	_
+10-7	940-943	dan	_	_	_	_	_
+10-8	944-950	Sirkum	_	_	_	_	_
+10-9	951-958	Pasifik	_	_	_	_	_
+10-10	959-965	Alasan	_	_	_	_	_
+10-11	966-977	selanjutnya	_	_	_	_	_
+10-12	978-982	yang	_	_	_	_	_
+10-13	983-994	menyebabkan	_	_	_	_	_
+10-14	995-1004	Indonesia	_	_	_	_	_
+10-15	1005-1010	rawan	_	_	_	_	_
+10-16	1011-1019	terhadap	_	_	_	_	_
+10-17	1020-1027	bencana	_	_	_	_	_
+10-18	1028-1032	alam	_	_	_	_	_
+10-19	1033-1039	adalah	_	_	_	_	_
+10-20	1040-1047	wilayah	_	_	_	_	_
+10-21	1048-1051	nya	_	_	_	_	_
+10-22	1052-1056	yang	_	_	_	_	_
+10-23	1057-1065	dilewati	_	_	_	_	_
+10-24	1066-1071	sabuk	_	_	_	_	_
+10-25	1072-1078	Alpide	_	_	_	_	_
+10-26	1079-1080	.	_	_	_	_	_
+
+#Text=Sabuk Alpide adalah sabuk seismik yang terbentuk dari bertemu nya lempeng lempeng Eurasia , Lempeng India , dan Lempeng Australia .
+11-1	1082-1087	Sabuk	_	_	_	_	_
+11-2	1088-1094	Alpide	_	_	_	_	_
+11-3	1095-1101	adalah	_	_	_	_	_
+11-4	1102-1107	sabuk	_	_	_	_	_
+11-5	1108-1115	seismik	_	_	_	_	_
+11-6	1116-1120	yang	_	_	_	_	_
+11-7	1121-1130	terbentuk	_	_	_	_	_
+11-8	1131-1135	dari	_	_	_	_	_
+11-9	1136-1143	bertemu	_	_	_	_	_
+11-10	1144-1147	nya	_	_	_	_	_
+11-11	1148-1155	lempeng	_	_	_	_	_
+11-12	1156-1163	lempeng	_	_	_	_	_
+11-13	1164-1171	Eurasia	_	_	_	_	_
+11-14	1172-1173	,	_	_	_	_	_
+11-15	1174-1181	Lempeng	_	_	_	_	_
+11-16	1182-1187	India	_	_	_	_	_
+11-17	1188-1189	,	_	_	_	_	_
+11-18	1190-1193	dan	_	_	_	_	_
+11-19	1194-1201	Lempeng	_	_	_	_	_
+11-20	1202-1211	Australia	_	_	_	_	_
+11-21	1212-1213	.	_	_	_	_	_
+
+#Text=Hal tersebut membuat sabuk Alpide menjadi wilayah kedua paling rawan gempa bumi di dunia .
+12-1	1215-1218	Hal	_	_	_	_	_
+12-2	1219-1227	tersebut	_	_	_	_	_
+12-3	1228-1235	membuat	_	_	_	_	_
+12-4	1236-1241	sabuk	_	_	_	_	_
+12-5	1242-1248	Alpide	_	_	_	_	_
+12-6	1249-1256	menjadi	_	_	_	_	_
+12-7	1257-1264	wilayah	_	_	_	_	_
+12-8	1265-1270	kedua	_	_	_	_	_
+12-9	1271-1277	paling	_	_	_	_	_
+12-10	1278-1283	rawan	_	_	_	_	_
+12-11	1284-1289	gempa	_	_	_	_	_
+12-12	1290-1294	bumi	_	_	_	_	_
+12-13	1295-1297	di	_	_	_	_	_
+12-14	1298-1303	dunia	_	_	_	_	_
+12-15	1304-1305	.	_	_	_	_	_
+
+#Text=Dilansir dari Encyclopedia Britannica , Sabuk Alpide membentang melewati kawasan Mediterania kea rah timur melalui Asia .
+13-1	1307-1315	Dilansir	_	_	_	_	_
+13-2	1316-1320	dari	_	_	_	_	_
+13-3	1321-1333	Encyclopedia	_	_	_	_	_
+13-4	1334-1344	Britannica	_	_	_	_	_
+13-5	1345-1346	,	_	_	_	_	_
+13-6	1347-1352	Sabuk	_	_	_	_	_
+13-7	1353-1359	Alpide	_	_	_	_	_
+13-8	1360-1370	membentang	_	_	_	_	_
+13-9	1371-1379	melewati	_	_	_	_	_
+13-10	1380-1387	kawasan	_	_	_	_	_
+13-11	1388-1399	Mediterania	_	_	_	_	_
+13-12	1400-1403	kea	_	_	_	_	_
+13-13	1404-1407	rah	_	_	_	_	_
+13-14	1408-1413	timur	_	_	_	_	_
+13-15	1414-1421	melalui	_	_	_	_	_
+13-16	1422-1426	Asia	_	_	_	_	_
+13-17	1427-1428	.	_	_	_	_	_
+
+#Text=Kemudian melewati Sumatera juga Jawa , dan bertemu dengan sirkum pasifik atau ring of fire .
+14-1	1430-1438	Kemudian	_	_	_	_	_
+14-2	1439-1447	melewati	_	_	_	_	_
+14-3	1448-1456	Sumatera	_	_	_	_	_
+14-4	1457-1461	juga	_	_	_	_	_
+14-5	1462-1466	Jawa	_	_	_	_	_
+14-6	1467-1468	,	_	_	_	_	_
+14-7	1469-1472	dan	_	_	_	_	_
+14-8	1473-1480	bertemu	_	_	_	_	_
+14-9	1481-1487	dengan	_	_	_	_	_
+14-10	1488-1494	sirkum	_	_	_	_	_
+14-11	1495-1502	pasifik	_	_	_	_	_
+14-12	1503-1507	atau	_	_	_	_	_
+14-13	1508-1512	ring	_	_	_	_	_
+14-14	1513-1515	of	_	_	_	_	_
+14-15	1516-1520	fire	_	_	_	_	_
+14-16	1521-1522	.	_	_	_	_	_
+
+#Text=Hal tersebut membuat wilayah Indonesia , dilewati oleh dua sabuk seismik yaitu Sirkum Pasifik dan Sabuk Alpide .
+15-1	1524-1527	Hal	_	_	_	_	_
+15-2	1528-1536	tersebut	_	_	_	_	_
+15-3	1537-1544	membuat	_	_	_	_	_
+15-4	1545-1552	wilayah	_	_	_	_	_
+15-5	1553-1562	Indonesia	_	_	_	_	_
+15-6	1563-1564	,	_	_	_	_	_
+15-7	1565-1573	dilewati	_	_	_	_	_
+15-8	1574-1578	oleh	_	_	_	_	_
+15-9	1579-1582	dua	_	_	_	_	_
+15-10	1583-1588	sabuk	_	_	_	_	_
+15-11	1589-1596	seismik	_	_	_	_	_
+15-12	1597-1602	yaitu	_	_	_	_	_
+15-13	1603-1609	Sirkum	_	_	_	_	_
+15-14	1610-1617	Pasifik	_	_	_	_	_
+15-15	1618-1621	dan	_	_	_	_	_
+15-16	1622-1627	Sabuk	_	_	_	_	_
+15-17	1628-1634	Alpide	_	_	_	_	_
+15-18	1635-1636	.	_	_	_	_	_
+
+#Text=Sehingga , rawan akan gempa bumi , tsunami , tanah longsor , juga erupsi gunung berapi .
+16-1	1638-1646	Sehingga	_	_	_	_	_
+16-2	1647-1648	,	_	_	_	_	_
+16-3	1649-1654	rawan	_	_	_	_	_
+16-4	1655-1659	akan	_	_	_	_	_
+16-5	1660-1665	gempa	_	_	_	_	_
+16-6	1666-1670	bumi	_	_	_	_	_
+16-7	1671-1672	,	_	_	_	_	_
+16-8	1673-1680	tsunami	_	_	_	_	_
+16-9	1681-1682	,	_	_	_	_	_
+16-10	1683-1688	tanah	_	_	_	_	_
+16-11	1689-1696	longsor	_	_	_	_	_
+16-12	1697-1698	,	_	_	_	_	_
+16-13	1699-1703	juga	_	_	_	_	_
+16-14	1704-1710	erupsi	_	_	_	_	_
+16-15	1711-1717	gunung	_	_	_	_	_
+16-16	1718-1724	berapi	_	_	_	_	_
+16-17	1725-1726	.	_	_	_	_	_
+
+#Text=6 Faktor Kerentanan Bencana Alam di Indonesia Alasan yang menyebabkan Indonesia menjadi wilayah yang rawan bencana selanjutnya adalah daerah nya yang berada di wilayah tropis ( garis khatulistiwa ) .
+17-1	1728-1729	6	_	_	_	_	_
+17-2	1730-1736	Faktor	_	_	_	_	_
+17-3	1737-1747	Kerentanan	_	_	_	_	_
+17-4	1748-1755	Bencana	_	_	_	_	_
+17-5	1756-1760	Alam	_	_	_	_	_
+17-6	1761-1763	di	_	_	_	_	_
+17-7	1764-1773	Indonesia	_	_	_	_	_
+17-8	1774-1780	Alasan	_	_	_	_	_
+17-9	1781-1785	yang	_	_	_	_	_
+17-10	1786-1797	menyebabkan	_	_	_	_	_
+17-11	1798-1807	Indonesia	_	_	_	_	_
+17-12	1808-1815	menjadi	_	_	_	_	_
+17-13	1816-1823	wilayah	_	_	_	_	_
+17-14	1824-1828	yang	_	_	_	_	_
+17-15	1829-1834	rawan	_	_	_	_	_
+17-16	1835-1842	bencana	_	_	_	_	_
+17-17	1843-1854	selanjutnya	_	_	_	_	_
+17-18	1855-1861	adalah	_	_	_	_	_
+17-19	1862-1868	daerah	_	_	_	_	_
+17-20	1869-1872	nya	_	_	_	_	_
+17-21	1873-1877	yang	_	_	_	_	_
+17-22	1878-1884	berada	_	_	_	_	_
+17-23	1885-1887	di	_	_	_	_	_
+17-24	1888-1895	wilayah	_	_	_	_	_
+17-25	1896-1902	tropis	_	_	_	_	_
+17-26	1903-1904	(	_	_	_	_	_
+17-27	1905-1910	garis	_	_	_	_	_
+17-28	1911-1923	khatulistiwa	_	_	_	_	_
+17-29	1924-1925	)	_	_	_	_	_
+17-30	1926-1927	.	_	_	_	_	_
+
+#Text=Hal tersebut membuat wilayah Indonesia rentan terkena badai , topan , dan juga siklon tropis yang kerap terjadi di wilayah khatulistiwa terutama yang dekat dengan Samudra Pasifik .
+18-1	1929-1932	Hal	_	_	_	_	_
+18-2	1933-1941	tersebut	_	_	_	_	_
+18-3	1942-1949	membuat	_	_	_	_	_
+18-4	1950-1957	wilayah	_	_	_	_	_
+18-5	1958-1967	Indonesia	_	_	_	_	_
+18-6	1968-1974	rentan	_	_	_	_	_
+18-7	1975-1982	terkena	_	_	_	_	_
+18-8	1983-1988	badai	_	_	_	_	_
+18-9	1989-1990	,	_	_	_	_	_
+18-10	1991-1996	topan	_	_	_	_	_
+18-11	1997-1998	,	_	_	_	_	_
+18-12	1999-2002	dan	_	_	_	_	_
+18-13	2003-2007	juga	_	_	_	_	_
+18-14	2008-2014	siklon	_	_	_	_	_
+18-15	2015-2021	tropis	_	_	_	_	_
+18-16	2022-2026	yang	_	_	_	_	_
+18-17	2027-2032	kerap	_	_	_	_	_
+18-18	2033-2040	terjadi	_	_	_	_	_
+18-19	2041-2043	di	_	_	_	_	_
+18-20	2044-2051	wilayah	_	_	_	_	_
+18-21	2052-2064	khatulistiwa	_	_	_	_	_
+18-22	2065-2073	terutama	_	_	_	_	_
+18-23	2074-2078	yang	_	_	_	_	_
+18-24	2079-2084	dekat	_	_	_	_	_
+18-25	2085-2091	dengan	_	_	_	_	_
+18-26	2092-2099	Samudra	_	_	_	_	_
+18-27	2100-2107	Pasifik	_	_	_	_	_
+18-28	2108-2109	.	_	_	_	_	_
+
+#Text=Wilayah Indonesia memiliki curah hujan yang tinggi , sekitar 1.000 hingga 4.000 per tahun nya .
+19-1	2111-2118	Wilayah	_	_	_	_	_
+19-2	2119-2128	Indonesia	_	_	_	_	_
+19-3	2129-2137	memiliki	_	_	_	_	_
+19-4	2138-2143	curah	_	_	_	_	_
+19-5	2144-2149	hujan	_	_	_	_	_
+19-6	2150-2154	yang	_	_	_	_	_
+19-7	2155-2161	tinggi	_	_	_	_	_
+19-8	2162-2163	,	_	_	_	_	_
+19-9	2164-2171	sekitar	_	_	_	_	_
+19-10	2172-2177	1.000	_	_	_	_	_
+19-11	2178-2184	hingga	_	_	_	_	_
+19-12	2185-2190	4.000	_	_	_	_	_
+19-13	2191-2194	per	_	_	_	_	_
+19-14	2195-2200	tahun	_	_	_	_	_
+19-15	2201-2204	nya	_	_	_	_	_
+19-16	2205-2206	.	_	_	_	_	_
+
+#Text=Curah hujan yang tinggi membuat Indonesia rentan akan banjir dan juga longsor .
+20-1	2208-2213	Curah	_	_	_	_	_
+20-2	2214-2219	hujan	_	_	_	_	_
+20-3	2220-2224	yang	_	_	_	_	_
+20-4	2225-2231	tinggi	_	_	_	_	_
+20-5	2232-2239	membuat	_	_	_	_	_
+20-6	2240-2249	Indonesia	_	_	_	_	_
+20-7	2250-2256	rentan	_	_	_	_	_
+20-8	2257-2261	akan	_	_	_	_	_
+20-9	2262-2268	banjir	_	_	_	_	_
+20-10	2269-2272	dan	_	_	_	_	_
+20-11	2273-2277	juga	_	_	_	_	_
+20-12	2278-2285	longsor	_	_	_	_	_
+20-13	2286-2287	.	_	_	_	_	_
+
+#Text=Apalagi , sebagian Indonesia memiliki banyak gunung dan dataran miring tidak stabil yang rentan mengalami longsor .
+21-1	2289-2296	Apalagi	_	_	_	_	_
+21-2	2297-2298	,	_	_	_	_	_
+21-3	2299-2307	sebagian	_	_	_	_	_
+21-4	2308-2317	Indonesia	_	_	_	_	_
+21-5	2318-2326	memiliki	_	_	_	_	_
+21-6	2327-2333	banyak	_	_	_	_	_
+21-7	2334-2340	gunung	_	_	_	_	_
+21-8	2341-2344	dan	_	_	_	_	_
+21-9	2345-2352	dataran	_	_	_	_	_
+21-10	2353-2359	miring	_	_	_	_	_
+21-11	2360-2365	tidak	_	_	_	_	_
+21-12	2366-2372	stabil	_	_	_	_	_
+21-13	2373-2377	yang	_	_	_	_	_
+21-14	2378-2384	rentan	_	_	_	_	_
+21-15	2385-2394	mengalami	_	_	_	_	_
+21-16	2395-2402	longsor	_	_	_	_	_
+21-17	2403-2404	.	_	_	_	_	_
+
+#Text=Curah hujan yang tinggi disebabkan oleh wilayah Indonesia yang berada di khatulistiwa .
+22-1	2406-2411	Curah	_	_	_	_	_
+22-2	2412-2417	hujan	_	_	_	_	_
+22-3	2418-2422	yang	_	_	_	_	_
+22-4	2423-2429	tinggi	_	_	_	_	_
+22-5	2430-2440	disebabkan	_	_	_	_	_
+22-6	2441-2445	oleh	_	_	_	_	_
+22-7	2446-2453	wilayah	_	_	_	_	_
+22-8	2454-2463	Indonesia	_	_	_	_	_
+22-9	2464-2468	yang	_	_	_	_	_
+22-10	2469-2475	berada	_	_	_	_	_
+22-11	2476-2478	di	_	_	_	_	_
+22-12	2479-2491	khatulistiwa	_	_	_	_	_
+22-13	2492-2493	.	_	_	_	_	_
+
+#Text=Dilansir dari NASA Global Precipitation Measurement , daerah khatulistiwa menerima sebagian besar energi matahari langsung yang menyebabkan lebih banyak penguapan .
+23-1	2495-2503	Dilansir	_	_	_	_	_
+23-2	2504-2508	dari	_	_	_	_	_
+23-3	2509-2513	NASA	_	_	_	_	_
+23-4	2514-2520	Global	_	_	_	_	_
+23-5	2521-2534	Precipitation	_	_	_	_	_
+23-6	2535-2546	Measurement	_	_	_	_	_
+23-7	2547-2548	,	_	_	_	_	_
+23-8	2549-2555	daerah	_	_	_	_	_
+23-9	2556-2568	khatulistiwa	_	_	_	_	_
+23-10	2569-2577	menerima	_	_	_	_	_
+23-11	2578-2586	sebagian	_	_	_	_	_
+23-12	2587-2592	besar	_	_	_	_	_
+23-13	2593-2599	energi	_	_	_	_	_
+23-14	2600-2608	matahari	_	_	_	_	_
+23-15	2609-2617	langsung	_	_	_	_	_
+23-16	2618-2622	yang	_	_	_	_	_
+23-17	2623-2634	menyebabkan	_	_	_	_	_
+23-18	2635-2640	lebih	_	_	_	_	_
+23-19	2641-2647	banyak	_	_	_	_	_
+23-20	2648-2657	penguapan	_	_	_	_	_
+23-21	2658-2659	.	_	_	_	_	_
+
+#Text=Sehingga , menghasilkan lebih banyak curah hujan yang mengguyur wilayah Indonesia .
+24-1	2661-2669	Sehingga	_	_	_	_	_
+24-2	2670-2671	,	_	_	_	_	_
+24-3	2672-2684	menghasilkan	_	_	_	_	_
+24-4	2685-2690	lebih	_	_	_	_	_
+24-5	2691-2697	banyak	_	_	_	_	_
+24-6	2698-2703	curah	_	_	_	_	_
+24-7	2704-2709	hujan	_	_	_	_	_
+24-8	2710-2714	yang	_	_	_	_	_
+24-9	2715-2724	mengguyur	_	_	_	_	_
+24-10	2725-2732	wilayah	_	_	_	_	_
+24-11	2733-2742	Indonesia	_	_	_	_	_
+24-12	2743-2744	.	_	_	_	_	_
+

@@ -1,0 +1,328 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Celine Dion membatalkan sisa tur dunia nya di Amerika Utara karena harus menjalani pemulihan akibat cedera otot .
+1-1	0-6	Celine	_	_	_	_	_
+1-2	7-11	Dion	_	_	_	_	_
+1-3	12-23	membatalkan	_	_	_	_	_
+1-4	24-28	sisa	_	_	_	_	_
+1-5	29-32	tur	_	_	_	_	_
+1-6	33-38	dunia	_	_	_	_	_
+1-7	39-42	nya	_	_	_	_	_
+1-8	43-45	di	_	_	_	_	_
+1-9	46-53	Amerika	_	_	_	_	_
+1-10	54-59	Utara	_	_	_	_	_
+1-11	60-66	karena	_	_	_	_	_
+1-12	67-72	harus	_	_	_	_	_
+1-13	73-82	menjalani	_	_	_	_	_
+1-14	83-92	pemulihan	_	_	_	_	_
+1-15	93-99	akibat	_	_	_	_	_
+1-16	100-106	cedera	_	_	_	_	_
+1-17	107-111	otot	_	_	_	_	_
+1-18	112-113	.	_	_	_	_	_
+
+#Text=Kabar tersebut diumumkan penyanyi 53 tahun itu melalui situs resmi nya pada Sabtu ( 15 / 1 ) .
+2-1	115-120	Kabar	_	_	_	_	_
+2-2	121-129	tersebut	_	_	_	_	_
+2-3	130-139	diumumkan	_	_	_	_	_
+2-4	140-148	penyanyi	_	_	_	_	_
+2-5	149-151	53	_	_	_	_	_
+2-6	152-157	tahun	_	_	_	_	_
+2-7	158-161	itu	_	_	_	_	_
+2-8	162-169	melalui	_	_	_	_	_
+2-9	170-175	situs	_	_	_	_	_
+2-10	176-181	resmi	_	_	_	_	_
+2-11	182-185	nya	_	_	_	_	_
+2-12	186-190	pada	_	_	_	_	_
+2-13	191-196	Sabtu	_	_	_	_	_
+2-14	197-198	(	_	_	_	_	_
+2-15	199-201	15	_	_	_	_	_
+2-16	202-203	/	_	_	_	_	_
+2-17	204-205	1	_	_	_	_	_
+2-18	206-207	)	_	_	_	_	_
+2-19	208-209	.	_	_	_	_	_
+
+#Text=Celine Dion membatalkan 16 konser yang semula dijadwalkan akan berlangsung pada 9 Maret hingga 22 April 2022 .
+3-1	211-217	Celine	_	_	_	_	_
+3-2	218-222	Dion	_	_	_	_	_
+3-3	223-234	membatalkan	_	_	_	_	_
+3-4	235-237	16	_	_	_	_	_
+3-5	238-244	konser	_	_	_	_	_
+3-6	245-249	yang	_	_	_	_	_
+3-7	250-256	semula	_	_	_	_	_
+3-8	257-268	dijadwalkan	_	_	_	_	_
+3-9	269-273	akan	_	_	_	_	_
+3-10	274-285	berlangsung	_	_	_	_	_
+3-11	286-290	pada	_	_	_	_	_
+3-12	291-292	9	_	_	_	_	_
+3-13	293-298	Maret	_	_	_	_	_
+3-14	299-305	hingga	_	_	_	_	_
+3-15	306-308	22	_	_	_	_	_
+3-16	309-314	April	_	_	_	_	_
+3-17	315-319	2022	_	_	_	_	_
+3-18	320-321	.	_	_	_	_	_
+
+#Text=Konser dalam tur bertajuk Courage itu seharusnya diselenggarakan di sejumlah lokasi , diantara nya Denver , Winnipeg , Saskatoon , Edmontoon , San Francisco , Los Angeles , dan Pittsburgh .
+4-1	323-329	Konser	_	_	_	_	_
+4-2	330-335	dalam	_	_	_	_	_
+4-3	336-339	tur	_	_	_	_	_
+4-4	340-348	bertajuk	_	_	_	_	_
+4-5	349-356	Courage	_	_	_	_	_
+4-6	357-360	itu	_	_	_	_	_
+4-7	361-371	seharusnya	_	_	_	_	_
+4-8	372-387	diselenggarakan	_	_	_	_	_
+4-9	388-390	di	_	_	_	_	_
+4-10	391-399	sejumlah	_	_	_	_	_
+4-11	400-406	lokasi	_	_	_	_	_
+4-12	407-408	,	_	_	_	_	_
+4-13	409-417	diantara	_	_	_	_	_
+4-14	418-421	nya	_	_	_	_	_
+4-15	422-428	Denver	_	_	_	_	_
+4-16	429-430	,	_	_	_	_	_
+4-17	431-439	Winnipeg	_	_	_	_	_
+4-18	440-441	,	_	_	_	_	_
+4-19	442-451	Saskatoon	_	_	_	_	_
+4-20	452-453	,	_	_	_	_	_
+4-21	454-463	Edmontoon	_	_	_	_	_
+4-22	464-465	,	_	_	_	_	_
+4-23	466-469	San	_	_	_	_	_
+4-24	470-479	Francisco	_	_	_	_	_
+4-25	480-481	,	_	_	_	_	_
+4-26	482-485	Los	_	_	_	_	_
+4-27	486-493	Angeles	_	_	_	_	_
+4-28	494-495	,	_	_	_	_	_
+4-29	496-499	dan	_	_	_	_	_
+4-30	500-510	Pittsburgh	_	_	_	_	_
+4-31	511-512	.	_	_	_	_	_
+
+#Text=Namun , pemulihan dari cedera otot tampaknya memerlukan lebih banyak waktu dari yang diperkirakan .
+5-1	514-519	Namun	_	_	_	_	_
+5-2	520-521	,	_	_	_	_	_
+5-3	522-531	pemulihan	_	_	_	_	_
+5-4	532-536	dari	_	_	_	_	_
+5-5	537-543	cedera	_	_	_	_	_
+5-6	544-548	otot	_	_	_	_	_
+5-7	549-558	tampaknya	_	_	_	_	_
+5-8	559-569	memerlukan	_	_	_	_	_
+5-9	570-575	lebih	_	_	_	_	_
+5-10	576-582	banyak	_	_	_	_	_
+5-11	583-588	waktu	_	_	_	_	_
+5-12	589-593	dari	_	_	_	_	_
+5-13	594-598	yang	_	_	_	_	_
+5-14	599-611	diperkirakan	_	_	_	_	_
+5-15	612-613	.	_	_	_	_	_
+
+#Text=Tim medis akan terus memantau dan mengevaluasi kondisi Celine Dion .
+6-1	615-618	Tim	_	_	_	_	_
+6-2	619-624	medis	_	_	_	_	_
+6-3	625-629	akan	_	_	_	_	_
+6-4	630-635	terus	_	_	_	_	_
+6-5	636-644	memantau	_	_	_	_	_
+6-6	645-648	dan	_	_	_	_	_
+6-7	649-661	mengevaluasi	_	_	_	_	_
+6-8	662-669	kondisi	_	_	_	_	_
+6-9	670-676	Celine	_	_	_	_	_
+6-10	677-681	Dion	_	_	_	_	_
+6-11	682-683	.	_	_	_	_	_
+
+#Text=" Saya benar-benar berharap bahwa saya akan baik-baik saja sekarang , tetapi saya kira saya hanya harus lebih sabar dan mengikuti saran dokter , " ujar Celine Dion dalam sebuah pernyataan , melalui situs resmi nya .
+7-1	685-686	"	_	_	_	_	_
+7-2	687-691	Saya	_	_	_	_	_
+7-3	692-703	benar-benar	_	_	_	_	_
+7-4	704-712	berharap	_	_	_	_	_
+7-5	713-718	bahwa	_	_	_	_	_
+7-6	719-723	saya	_	_	_	_	_
+7-7	724-728	akan	_	_	_	_	_
+7-8	729-738	baik-baik	_	_	_	_	_
+7-9	739-743	saja	_	_	_	_	_
+7-10	744-752	sekarang	_	_	_	_	_
+7-11	753-754	,	_	_	_	_	_
+7-12	755-761	tetapi	_	_	_	_	_
+7-13	762-766	saya	_	_	_	_	_
+7-14	767-771	kira	_	_	_	_	_
+7-15	772-776	saya	_	_	_	_	_
+7-16	777-782	hanya	_	_	_	_	_
+7-17	783-788	harus	_	_	_	_	_
+7-18	789-794	lebih	_	_	_	_	_
+7-19	795-800	sabar	_	_	_	_	_
+7-20	801-804	dan	_	_	_	_	_
+7-21	805-814	mengikuti	_	_	_	_	_
+7-22	815-820	saran	_	_	_	_	_
+7-23	821-827	dokter	_	_	_	_	_
+7-24	828-829	,	_	_	_	_	_
+7-25	830-831	"	_	_	_	_	_
+7-26	832-836	ujar	_	_	_	_	_
+7-27	837-843	Celine	_	_	_	_	_
+7-28	844-848	Dion	_	_	_	_	_
+7-29	849-854	dalam	_	_	_	_	_
+7-30	855-861	sebuah	_	_	_	_	_
+7-31	862-872	pernyataan	_	_	_	_	_
+7-32	873-874	,	_	_	_	_	_
+7-33	875-882	melalui	_	_	_	_	_
+7-34	883-888	situs	_	_	_	_	_
+7-35	889-894	resmi	_	_	_	_	_
+7-36	895-898	nya	_	_	_	_	_
+7-37	899-900	.	_	_	_	_	_
+
+#Text=Celine Dion berharap segera pulih sehingga dapat kembali tampil di atas panggung .
+8-1	902-908	Celine	_	_	_	_	_
+8-2	909-913	Dion	_	_	_	_	_
+8-3	914-922	berharap	_	_	_	_	_
+8-4	923-929	segera	_	_	_	_	_
+8-5	930-935	pulih	_	_	_	_	_
+8-6	936-944	sehingga	_	_	_	_	_
+8-7	945-950	dapat	_	_	_	_	_
+8-8	951-958	kembali	_	_	_	_	_
+8-9	959-965	tampil	_	_	_	_	_
+8-10	966-968	di	_	_	_	_	_
+8-11	969-973	atas	_	_	_	_	_
+8-12	974-982	panggung	_	_	_	_	_
+8-13	983-984	.	_	_	_	_	_
+
+#Text=Ia juga berterima kasih kepada penggemar yang telah memberikan nya semangat melalui media sosial .
+9-1	986-988	Ia	_	_	_	_	_
+9-2	989-993	juga	_	_	_	_	_
+9-3	994-1003	berterima	_	_	_	_	_
+9-4	1004-1009	kasih	_	_	_	_	_
+9-5	1010-1016	kepada	_	_	_	_	_
+9-6	1017-1026	penggemar	_	_	_	_	_
+9-7	1027-1031	yang	_	_	_	_	_
+9-8	1032-1037	telah	_	_	_	_	_
+9-9	1038-1048	memberikan	_	_	_	_	_
+9-10	1049-1052	nya	_	_	_	_	_
+9-11	1053-1061	semangat	_	_	_	_	_
+9-12	1062-1069	melalui	_	_	_	_	_
+9-13	1070-1075	media	_	_	_	_	_
+9-14	1076-1082	sosial	_	_	_	_	_
+9-15	1083-1084	.	_	_	_	_	_
+
+#Text=Sementara itu , tiket konser Celine Dion yang telah dibeli melalui gerai tiket resmi akan dikembalikan secara otomatis .
+10-1	1086-1095	Sementara	_	_	_	_	_
+10-2	1096-1099	itu	_	_	_	_	_
+10-3	1100-1101	,	_	_	_	_	_
+10-4	1102-1107	tiket	_	_	_	_	_
+10-5	1108-1114	konser	_	_	_	_	_
+10-6	1115-1121	Celine	_	_	_	_	_
+10-7	1122-1126	Dion	_	_	_	_	_
+10-8	1127-1131	yang	_	_	_	_	_
+10-9	1132-1137	telah	_	_	_	_	_
+10-10	1138-1144	dibeli	_	_	_	_	_
+10-11	1145-1152	melalui	_	_	_	_	_
+10-12	1153-1158	gerai	_	_	_	_	_
+10-13	1159-1164	tiket	_	_	_	_	_
+10-14	1165-1170	resmi	_	_	_	_	_
+10-15	1171-1175	akan	_	_	_	_	_
+10-16	1176-1188	dikembalikan	_	_	_	_	_
+10-17	1189-1195	secara	_	_	_	_	_
+10-18	1196-1204	otomatis	_	_	_	_	_
+10-19	1205-1206	.	_	_	_	_	_
+
+#Text=Pembeli tiket akan langsung menerima surat elektronik ( surel ) pemberitahuan untuk informasi lebih detail .
+11-1	1208-1215	Pembeli	_	_	_	_	_
+11-2	1216-1221	tiket	_	_	_	_	_
+11-3	1222-1226	akan	_	_	_	_	_
+11-4	1227-1235	langsung	_	_	_	_	_
+11-5	1236-1244	menerima	_	_	_	_	_
+11-6	1245-1250	surat	_	_	_	_	_
+11-7	1251-1261	elektronik	_	_	_	_	_
+11-8	1262-1263	(	_	_	_	_	_
+11-9	1264-1269	surel	_	_	_	_	_
+11-10	1270-1271	)	_	_	_	_	_
+11-11	1272-1285	pemberitahuan	_	_	_	_	_
+11-12	1286-1291	untuk	_	_	_	_	_
+11-13	1292-1301	informasi	_	_	_	_	_
+11-14	1302-1307	lebih	_	_	_	_	_
+11-15	1308-1314	detail	_	_	_	_	_
+11-16	1315-1316	.	_	_	_	_	_
+
+#Text=Sementara itu , tur dunia Courage Celine Dion di Eropa masih dijadwalkan akan berlangsung pada 25 Mei 2022 di Birmingham , Inggris .
+12-1	1318-1327	Sementara	_	_	_	_	_
+12-2	1328-1331	itu	_	_	_	_	_
+12-3	1332-1333	,	_	_	_	_	_
+12-4	1334-1337	tur	_	_	_	_	_
+12-5	1338-1343	dunia	_	_	_	_	_
+12-6	1344-1351	Courage	_	_	_	_	_
+12-7	1352-1358	Celine	_	_	_	_	_
+12-8	1359-1363	Dion	_	_	_	_	_
+12-9	1364-1366	di	_	_	_	_	_
+12-10	1367-1372	Eropa	_	_	_	_	_
+12-11	1373-1378	masih	_	_	_	_	_
+12-12	1379-1390	dijadwalkan	_	_	_	_	_
+12-13	1391-1395	akan	_	_	_	_	_
+12-14	1396-1407	berlangsung	_	_	_	_	_
+12-15	1408-1412	pada	_	_	_	_	_
+12-16	1413-1415	25	_	_	_	_	_
+12-17	1416-1419	Mei	_	_	_	_	_
+12-18	1420-1424	2022	_	_	_	_	_
+12-19	1425-1427	di	_	_	_	_	_
+12-20	1428-1438	Birmingham	_	_	_	_	_
+12-21	1439-1440	,	_	_	_	_	_
+12-22	1441-1448	Inggris	_	_	_	_	_
+12-23	1449-1450	.	_	_	_	_	_
+
+#Text=Seperti diberitakan ET , Celine Dion sebelumnya menunda konser di Las Vegas karena kejang otot parah yang berlangsung secara terus menerus pada Oktober 2021 lalu .
+13-1	1452-1459	Seperti	_	_	_	_	_
+13-2	1460-1471	diberitakan	_	_	_	_	_
+13-3	1472-1474	ET	_	_	_	_	_
+13-4	1475-1476	,	_	_	_	_	_
+13-5	1477-1483	Celine	_	_	_	_	_
+13-6	1484-1488	Dion	_	_	_	_	_
+13-7	1489-1499	sebelumnya	_	_	_	_	_
+13-8	1500-1507	menunda	_	_	_	_	_
+13-9	1508-1514	konser	_	_	_	_	_
+13-10	1515-1517	di	_	_	_	_	_
+13-11	1518-1521	Las	_	_	_	_	_
+13-12	1522-1527	Vegas	_	_	_	_	_
+13-13	1528-1534	karena	_	_	_	_	_
+13-14	1535-1541	kejang	_	_	_	_	_
+13-15	1542-1546	otot	_	_	_	_	_
+13-16	1547-1552	parah	_	_	_	_	_
+13-17	1553-1557	yang	_	_	_	_	_
+13-18	1558-1569	berlangsung	_	_	_	_	_
+13-19	1570-1576	secara	_	_	_	_	_
+13-20	1577-1582	terus	_	_	_	_	_
+13-21	1583-1590	menerus	_	_	_	_	_
+13-22	1591-1595	pada	_	_	_	_	_
+13-23	1596-1603	Oktober	_	_	_	_	_
+13-24	1604-1608	2021	_	_	_	_	_
+13-25	1609-1613	lalu	_	_	_	_	_
+13-26	1614-1615	.	_	_	_	_	_
+
+#Text=Pada Maret 2021 , Celine Dion juga menunda dua konser setelah mengidap flu dan menjalani tes Covid - 19 .
+14-1	1617-1621	Pada	_	_	_	_	_
+14-2	1622-1627	Maret	_	_	_	_	_
+14-3	1628-1632	2021	_	_	_	_	_
+14-4	1633-1634	,	_	_	_	_	_
+14-5	1635-1641	Celine	_	_	_	_	_
+14-6	1642-1646	Dion	_	_	_	_	_
+14-7	1647-1651	juga	_	_	_	_	_
+14-8	1652-1659	menunda	_	_	_	_	_
+14-9	1660-1663	dua	_	_	_	_	_
+14-10	1664-1670	konser	_	_	_	_	_
+14-11	1671-1678	setelah	_	_	_	_	_
+14-12	1679-1687	mengidap	_	_	_	_	_
+14-13	1688-1691	flu	_	_	_	_	_
+14-14	1692-1695	dan	_	_	_	_	_
+14-15	1696-1705	menjalani	_	_	_	_	_
+14-16	1706-1709	tes	_	_	_	_	_
+14-17	1710-1715	Covid	_	_	_	_	_
+14-18	1716-1717	-	_	_	_	_	_
+14-19	1718-1720	19	_	_	_	_	_
+14-20	1721-1722	.	_	_	_	_	_
+
+#Text=Meski negatif , ia memilih rehat sejenak dari kegiatan musik sampai kondisi nya pulih .
+15-1	1724-1729	Meski	_	_	_	_	_
+15-2	1730-1737	negatif	_	_	_	_	_
+15-3	1738-1739	,	_	_	_	_	_
+15-4	1740-1742	ia	_	_	_	_	_
+15-5	1743-1750	memilih	_	_	_	_	_
+15-6	1751-1756	rehat	_	_	_	_	_
+15-7	1757-1764	sejenak	_	_	_	_	_
+15-8	1765-1769	dari	_	_	_	_	_
+15-9	1770-1778	kegiatan	_	_	_	_	_
+15-10	1779-1784	musik	_	_	_	_	_
+15-11	1785-1791	sampai	_	_	_	_	_
+15-12	1792-1799	kondisi	_	_	_	_	_
+15-13	1800-1803	nya	_	_	_	_	_
+15-14	1804-1809	pulih	_	_	_	_	_
+15-15	1810-1811	.	_	_	_	_	_
+

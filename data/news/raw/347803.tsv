@@ -1,0 +1,424 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Harga gas Eropa meroket sepanjang 2022 seiring dengan sanksi internasional untuk Rusia .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-32	Harga	_	_	_	_	_
+1-7	33-36	gas	_	_	_	_	_
+1-8	37-42	Eropa	_	_	_	_	_
+1-9	43-50	meroket	_	_	_	_	_
+1-10	51-60	sepanjang	_	_	_	_	_
+1-11	61-65	2022	_	_	_	_	_
+1-12	66-73	seiring	_	_	_	_	_
+1-13	74-80	dengan	_	_	_	_	_
+1-14	81-87	sanksi	_	_	_	_	_
+1-15	88-101	internasional	_	_	_	_	_
+1-16	102-107	untuk	_	_	_	_	_
+1-17	108-113	Rusia	_	_	_	_	_
+1-18	114-115	.	_	_	_	_	_
+
+#Text=Kemarin , harga gas Eropa acuan Belanda tercatat Euro 148,5 / megawatt hour , turun 9,1 % dibandingkan posisi kemarin .
+2-1	117-124	Kemarin	_	_	_	_	_
+2-2	125-126	,	_	_	_	_	_
+2-3	127-132	harga	_	concept[1]	_	_	_
+2-4	133-136	gas	_	concept[1]	_	_	_
+2-5	137-142	Eropa	_	concept[1]	_	_	_
+2-6	143-148	acuan	_	_	_	_	_
+2-7	149-156	Belanda	_	_	_	_	_
+2-8	157-165	tercatat	_	_	_	_	_
+2-9	166-170	Euro	_	_	_	_	_
+2-10	171-176	148,5	_	_	_	_	_
+2-11	177-178	/	_	_	_	_	_
+2-12	179-187	megawatt	_	_	_	_	_
+2-13	188-192	hour	_	_	_	_	_
+2-14	193-194	,	_	_	_	_	_
+2-15	195-200	turun	_	negative[2]	_	_	_
+2-16	201-204	9,1	_	_	_	_	_
+2-17	205-206	%	_	_	_	_	_
+2-18	207-219	dibandingkan	_	_	_	_	_
+2-19	220-226	posisi	_	_	_	_	_
+2-20	227-234	kemarin	_	_	_	_	_
+2-21	235-236	.	_	_	_	_	_
+
+#Text=Akan tetapi , sepanjang tahun 2022 harga gas Eropa telah meroket 114,49 % .
+3-1	238-242	Akan	_	_	_	_	_
+3-2	243-249	tetapi	_	_	_	_	_
+3-3	250-251	,	_	_	_	_	_
+3-4	252-261	sepanjang	_	_	_	_	_
+3-5	262-267	tahun	_	_	_	_	_
+3-6	268-272	2022	_	_	_	_	_
+3-7	273-278	harga	_	_	_	_	_
+3-8	279-282	gas	_	_	_	_	_
+3-9	283-288	Eropa	_	_	_	_	_
+3-10	289-294	telah	_	_	_	_	_
+3-11	295-302	meroket	_	_	_	_	_
+3-12	303-309	114,49	_	_	_	_	_
+3-13	310-311	%	_	_	_	_	_
+3-14	312-313	.	_	_	_	_	_
+
+#Text=Hal ini disebabkan kecemasan para pelaku pasar atas sanksi yang diterapkan oleh dunia barat terhadap Rusia dapat mempengaruhi pasokan gas di Eropa .
+4-1	315-318	Hal	_	_	_	_	_
+4-2	319-322	ini	_	_	_	_	_
+4-3	323-333	disebabkan	_	_	_	_	_
+4-4	334-343	kecemasan	_	_	_	_	_
+4-5	344-348	para	_	_	_	_	_
+4-6	349-355	pelaku	_	_	_	_	_
+4-7	356-361	pasar	_	_	_	_	_
+4-8	362-366	atas	_	_	_	_	_
+4-9	367-373	sanksi	_	_	_	_	_
+4-10	374-378	yang	_	_	_	_	_
+4-11	379-389	diterapkan	_	_	_	_	_
+4-12	390-394	oleh	_	_	_	_	_
+4-13	395-400	dunia	_	_	_	_	_
+4-14	401-406	barat	_	_	_	_	_
+4-15	407-415	terhadap	_	_	_	_	_
+4-16	416-421	Rusia	_	_	_	_	_
+4-17	422-427	dapat	_	_	_	_	_
+4-18	428-440	mempengaruhi	_	_	_	_	_
+4-19	441-448	pasokan	_	_	_	_	_
+4-20	449-452	gas	_	_	_	_	_
+4-21	453-455	di	_	_	_	_	_
+4-22	456-461	Eropa	_	_	_	_	_
+4-23	462-463	.	_	_	_	_	_
+
+#Text=Rusia membantah menggunakan gas sebagai senjata .
+5-1	465-470	Rusia	_	_	_	_	_
+5-2	471-480	membantah	_	_	_	_	_
+5-3	481-492	menggunakan	_	_	_	_	_
+5-4	493-496	gas	_	_	_	_	_
+5-5	497-504	sebagai	_	_	_	_	_
+5-6	505-512	senjata	_	_	_	_	_
+5-7	513-514	.	_	_	_	_	_
+
+#Text=Gazprom , perusahaan gas milik negara Rusia , mengatakan telah memenuhi semua kontrak jangka panjang nya dan telah dikonfirmasi oleh klien .
+6-1	516-523	Gazprom	_	_	_	_	_
+6-2	524-525	,	_	_	_	_	_
+6-3	526-536	perusahaan	_	_	_	_	_
+6-4	537-540	gas	_	_	_	_	_
+6-5	541-546	milik	_	_	_	_	_
+6-6	547-553	negara	_	_	_	_	_
+6-7	554-559	Rusia	_	_	_	_	_
+6-8	560-561	,	_	_	_	_	_
+6-9	562-572	mengatakan	_	_	_	_	_
+6-10	573-578	telah	_	_	_	_	_
+6-11	579-587	memenuhi	_	positive[3]	_	_	_
+6-12	588-593	semua	_	positive[3]	_	_	_
+6-13	594-601	kontrak	_	concept[4]	_	_	_
+6-14	602-608	jangka	_	concept[4]	_	_	_
+6-15	609-616	panjang	_	concept[4]	_	_	_
+6-16	617-620	nya	_	concept[4]	_	_	_
+6-17	621-624	dan	_	_	_	_	_
+6-18	625-630	telah	_	_	_	_	_
+6-19	631-643	dikonfirmasi	_	_	_	_	_
+6-20	644-648	oleh	_	_	_	_	_
+6-21	649-654	klien	_	_	_	_	_
+6-22	655-656	.	_	_	_	_	_
+
+#Text=Ini mungkin akan meredakan sentimen hanya untuk sementara .
+7-1	658-661	Ini	_	_	_	_	_
+7-2	662-669	mungkin	_	_	_	_	_
+7-3	670-674	akan	_	_	_	_	_
+7-4	675-684	meredakan	_	_	_	_	_
+7-5	685-693	sentimen	_	_	_	_	_
+7-6	694-699	hanya	_	_	_	_	_
+7-7	700-705	untuk	_	_	_	_	_
+7-8	706-715	sementara	_	_	_	_	_
+7-9	716-717	.	_	_	_	_	_
+
+#Text=Sanksi yang dicermati oleh para pelaku pasar adalah upaya untuk menendang Rusia dari jejaring informasi perbankan internasional yang dikenal sebagai SWIFT .
+8-1	719-725	Sanksi	_	_	_	_	_
+8-2	726-730	yang	_	_	_	_	_
+8-3	731-740	dicermati	_	_	_	_	_
+8-4	741-745	oleh	_	_	_	_	_
+8-5	746-750	para	_	_	_	_	_
+8-6	751-757	pelaku	_	_	_	_	_
+8-7	758-763	pasar	_	_	_	_	_
+8-8	764-770	adalah	_	_	_	_	_
+8-9	771-776	upaya	_	_	_	_	_
+8-10	777-782	untuk	_	_	_	_	_
+8-11	783-792	menendang	_	_	_	_	_
+8-12	793-798	Rusia	_	_	_	_	_
+8-13	799-803	dari	_	_	_	_	_
+8-14	804-812	jejaring	_	_	_	_	_
+8-15	813-822	informasi	_	_	_	_	_
+8-16	823-832	perbankan	_	_	_	_	_
+8-17	833-846	internasional	_	_	_	_	_
+8-18	847-851	yang	_	_	_	_	_
+8-19	852-859	dikenal	_	_	_	_	_
+8-20	860-867	sebagai	_	_	_	_	_
+8-21	868-873	SWIFT	_	_	_	_	_
+8-22	874-875	.	_	_	_	_	_
+
+#Text=Alexandra Vacroux Direktur Eksekutif di Davis Center for Russian and Eurasian Studies di Harvard University mengatakan bahwa Rusia sangat bergantung pada ekspor migas dalam transaksi keuangan internasional .
+9-1	877-886	Alexandra	_	_	_	_	_
+9-2	887-894	Vacroux	_	_	_	_	_
+9-3	895-903	Direktur	_	_	_	_	_
+9-4	904-913	Eksekutif	_	_	_	_	_
+9-5	914-916	di	_	_	_	_	_
+9-6	917-922	Davis	_	_	_	_	_
+9-7	923-929	Center	_	_	_	_	_
+9-8	930-933	for	_	_	_	_	_
+9-9	934-941	Russian	_	_	_	_	_
+9-10	942-945	and	_	_	_	_	_
+9-11	946-954	Eurasian	_	_	_	_	_
+9-12	955-962	Studies	_	_	_	_	_
+9-13	963-965	di	_	_	_	_	_
+9-14	966-973	Harvard	_	_	_	_	_
+9-15	974-984	University	_	_	_	_	_
+9-16	985-995	mengatakan	_	_	_	_	_
+9-17	996-1001	bahwa	_	_	_	_	_
+9-18	1002-1007	Rusia	_	_	_	_	_
+9-19	1008-1014	sangat	_	_	_	_	_
+9-20	1015-1025	bergantung	_	_	_	_	_
+9-21	1026-1030	pada	_	_	_	_	_
+9-22	1031-1037	ekspor	_	_	_	_	_
+9-23	1038-1043	migas	_	_	_	_	_
+9-24	1044-1049	dalam	_	_	_	_	_
+9-25	1050-1059	transaksi	_	_	_	_	_
+9-26	1060-1068	keuangan	_	_	_	_	_
+9-27	1069-1082	internasional	_	_	_	_	_
+9-28	1083-1084	.	_	_	_	_	_
+
+#Text=Sehingga dengan " menendang " Rusia dari SWIFT akan berdampak pada sulit nya ekspor migas dari Rusia ke dunia dan selama ini pendapatan negara Rusia berasal dari ekspor migas .
+10-1	1086-1094	Sehingga	_	_	_	_	_
+10-2	1095-1101	dengan	_	_	_	_	_
+10-3	1102-1103	"	_	_	_	_	_
+10-4	1104-1113	menendang	_	_	_	_	_
+10-5	1114-1115	"	_	_	_	_	_
+10-6	1116-1121	Rusia	_	_	_	_	_
+10-7	1122-1126	dari	_	_	_	_	_
+10-8	1127-1132	SWIFT	_	_	_	_	_
+10-9	1133-1137	akan	_	_	_	_	_
+10-10	1138-1147	berdampak	_	_	_	_	_
+10-11	1148-1152	pada	_	_	_	_	_
+10-12	1153-1158	sulit	_	negative[5]	_	_	_
+10-13	1159-1162	nya	_	negative[5]	_	_	_
+10-14	1163-1169	ekspor	_	concept[6]	_	_	_
+10-15	1170-1175	migas	_	concept[6]	_	_	_
+10-16	1176-1180	dari	_	_	_	_	_
+10-17	1181-1186	Rusia	_	_	_	_	_
+10-18	1187-1189	ke	_	_	_	_	_
+10-19	1190-1195	dunia	_	_	_	_	_
+10-20	1196-1199	dan	_	_	_	_	_
+10-21	1200-1206	selama	_	_	_	_	_
+10-22	1207-1210	ini	_	_	_	_	_
+10-23	1211-1221	pendapatan	_	_	_	_	_
+10-24	1222-1228	negara	_	_	_	_	_
+10-25	1229-1234	Rusia	_	_	_	_	_
+10-26	1235-1242	berasal	_	_	_	_	_
+10-27	1243-1247	dari	_	_	_	_	_
+10-28	1248-1254	ekspor	_	_	_	_	_
+10-29	1255-1260	migas	_	_	_	_	_
+10-30	1261-1262	.	_	_	_	_	_
+
+#Text=Masalah nya ketergantungan Eropa terhadap pasokan gas dari Rusia sangat tinggi .
+11-1	1264-1271	Masalah	_	_	_	_	_
+11-2	1272-1275	nya	_	_	_	_	_
+11-3	1276-1290	ketergantungan	_	_	_	_	_
+11-4	1291-1296	Eropa	_	_	_	_	_
+11-5	1297-1305	terhadap	_	_	_	_	_
+11-6	1306-1313	pasokan	_	concept[7]	_	_	_
+11-7	1314-1317	gas	_	concept[7]	_	_	_
+11-8	1318-1322	dari	_	_	_	_	_
+11-9	1323-1328	Rusia	_	_	_	_	_
+11-10	1329-1335	sangat	_	negative[8]	_	_	_
+11-11	1336-1342	tinggi	_	negative[8]	_	_	_
+11-12	1343-1344	.	_	_	_	_	_
+
+#Text=Gas Rusia banyak mengalir ke Eropa dengan besaran 167,7 miliar meter kubik pada tahun 2020 .
+12-1	1346-1349	Gas	_	_	_	_	_
+12-2	1350-1355	Rusia	_	_	_	_	_
+12-3	1356-1362	banyak	_	_	_	_	_
+12-4	1363-1371	mengalir	_	_	_	_	_
+12-5	1372-1374	ke	_	_	_	_	_
+12-6	1375-1380	Eropa	_	_	_	_	_
+12-7	1381-1387	dengan	_	_	_	_	_
+12-8	1388-1395	besaran	_	_	_	_	_
+12-9	1396-1401	167,7	_	_	_	_	_
+12-10	1402-1408	miliar	_	_	_	_	_
+12-11	1409-1414	meter	_	_	_	_	_
+12-12	1415-1420	kubik	_	_	_	_	_
+12-13	1421-1425	pada	_	_	_	_	_
+12-14	1426-1431	tahun	_	_	_	_	_
+12-15	1432-1436	2020	_	_	_	_	_
+12-16	1437-1438	.	_	_	_	_	_
+
+#Text=Jumlah ini setara 37,5 % total impor gas alam Eropa .
+13-1	1440-1446	Jumlah	_	_	_	_	_
+13-2	1447-1450	ini	_	_	_	_	_
+13-3	1451-1457	setara	_	_	_	_	_
+13-4	1458-1462	37,5	_	_	_	_	_
+13-5	1463-1464	%	_	_	_	_	_
+13-6	1465-1470	total	_	_	_	_	_
+13-7	1471-1476	impor	_	_	_	_	_
+13-8	1477-1480	gas	_	_	_	_	_
+13-9	1481-1485	alam	_	_	_	_	_
+13-10	1486-1491	Eropa	_	_	_	_	_
+13-11	1492-1493	.	_	_	_	_	_
+
+#Text=Investor menjadi cemas aliran gas Rusia ke Eropa akan macet .
+14-1	1495-1503	Investor	_	_	_	_	_
+14-2	1504-1511	menjadi	_	_	_	_	_
+14-3	1512-1517	cemas	_	_	_	_	_
+14-4	1518-1524	aliran	_	concept[9]	_	_	_
+14-5	1525-1528	gas	_	concept[9]	_	_	_
+14-6	1529-1534	Rusia	_	concept[9]	_	_	_
+14-7	1535-1537	ke	_	_	_	_	_
+14-8	1538-1543	Eropa	_	_	_	_	_
+14-9	1544-1548	akan	_	negative[10]	_	_	_
+14-10	1549-1554	macet	_	negative[10]	_	_	_
+14-11	1555-1556	.	_	_	_	_	_
+
+#Text=Hal ini yang membuat gas alam Eropa saat ini meroket dan berpotensi untuk berlanjut .
+15-1	1558-1561	Hal	_	_	_	_	_
+15-2	1562-1565	ini	_	_	_	_	_
+15-3	1566-1570	yang	_	_	_	_	_
+15-4	1571-1578	membuat	_	_	_	_	_
+15-5	1579-1582	gas	_	concept[11]	_	_	_
+15-6	1583-1587	alam	_	concept[11]	_	_	_
+15-7	1588-1593	Eropa	_	concept[11]	_	_	_
+15-8	1594-1598	saat	_	_	_	_	_
+15-9	1599-1602	ini	_	_	_	_	_
+15-10	1603-1610	meroket	_	negative[12]	_	_	_
+15-11	1611-1614	dan	_	_	_	_	_
+15-12	1615-1625	berpotensi	_	_	_	_	_
+15-13	1626-1631	untuk	_	_	_	_	_
+15-14	1632-1641	berlanjut	_	_	_	_	_
+15-15	1642-1643	.	_	_	_	_	_
+
+#Text=" Situasi geopolitik yang sangat tidak terduga dan risiko eskalasi lebih lanjut dan sanksi baru kemungkinan akan mendukung harga lebih lanjut , " kata analis di Refinitiv dalam laporan pagi .
+16-1	1645-1646	"	_	_	_	_	_
+16-2	1647-1654	Situasi	_	_	_	_	_
+16-3	1655-1665	geopolitik	_	_	_	_	_
+16-4	1666-1670	yang	_	_	_	_	_
+16-5	1671-1677	sangat	_	_	_	_	_
+16-6	1678-1683	tidak	_	_	_	_	_
+16-7	1684-1691	terduga	_	_	_	_	_
+16-8	1692-1695	dan	_	_	_	_	_
+16-9	1696-1702	risiko	_	_	_	_	_
+16-10	1703-1711	eskalasi	_	_	_	_	_
+16-11	1712-1717	lebih	_	_	_	_	_
+16-12	1718-1724	lanjut	_	_	_	_	_
+16-13	1725-1728	dan	_	_	_	_	_
+16-14	1729-1735	sanksi	_	_	_	_	_
+16-15	1736-1740	baru	_	_	_	_	_
+16-16	1741-1752	kemungkinan	_	_	_	_	_
+16-17	1753-1757	akan	_	_	_	_	_
+16-18	1758-1767	mendukung	_	_	_	_	_
+16-19	1768-1773	harga	_	_	_	_	_
+16-20	1774-1779	lebih	_	_	_	_	_
+16-21	1780-1786	lanjut	_	_	_	_	_
+16-22	1787-1788	,	_	_	_	_	_
+16-23	1789-1790	"	_	_	_	_	_
+16-24	1791-1795	kata	_	_	_	_	_
+16-25	1796-1802	analis	_	_	_	_	_
+16-26	1803-1805	di	_	_	_	_	_
+16-27	1806-1815	Refinitiv	_	_	_	_	_
+16-28	1816-1821	dalam	_	_	_	_	_
+16-29	1822-1829	laporan	_	_	_	_	_
+16-30	1830-1834	pagi	_	_	_	_	_
+16-31	1835-1836	.	_	_	_	_	_
+
+#Text=Menurut kabar , Uni Eropa sedang mempertimbangkan untuk melarang kapal Rusia dari pelabuhan .
+17-1	1838-1845	Menurut	_	_	_	_	_
+17-2	1846-1851	kabar	_	_	_	_	_
+17-3	1852-1853	,	_	_	_	_	_
+17-4	1854-1857	Uni	_	_	_	_	_
+17-5	1858-1863	Eropa	_	_	_	_	_
+17-6	1864-1870	sedang	_	_	_	_	_
+17-7	1871-1887	mempertimbangkan	_	_	_	_	_
+17-8	1888-1893	untuk	_	_	_	_	_
+17-9	1894-1902	melarang	_	_	_	_	_
+17-10	1903-1908	kapal	_	_	_	_	_
+17-11	1909-1914	Rusia	_	_	_	_	_
+17-12	1915-1919	dari	_	_	_	_	_
+17-13	1920-1929	pelabuhan	_	_	_	_	_
+17-14	1930-1931	.	_	_	_	_	_
+
+#Text=Ini akan menjadi sentimen yang kuat untuk harga gas , tambah mereka .
+18-1	1933-1936	Ini	_	_	_	_	_
+18-2	1937-1941	akan	_	_	_	_	_
+18-3	1942-1949	menjadi	_	_	_	_	_
+18-4	1950-1958	sentimen	_	_	_	_	_
+18-5	1959-1963	yang	_	_	_	_	_
+18-6	1964-1968	kuat	_	_	_	_	_
+18-7	1969-1974	untuk	_	_	_	_	_
+18-8	1975-1980	harga	_	_	_	_	_
+18-9	1981-1984	gas	_	_	_	_	_
+18-10	1985-1986	,	_	_	_	_	_
+18-11	1987-1993	tambah	_	_	_	_	_
+18-12	1994-2000	mereka	_	_	_	_	_
+18-13	2001-2002	.	_	_	_	_	_
+
+#Text=Selain itu risiko kerusakan pipa minyak dan gas di Ukraina karena perang yang sedang berlangsung masih tinggi .
+19-1	2004-2010	Selain	_	_	_	_	_
+19-2	2011-2014	itu	_	_	_	_	_
+19-3	2015-2021	risiko	_	_	_	_	_
+19-4	2022-2031	kerusakan	_	_	_	_	_
+19-5	2032-2036	pipa	_	_	_	_	_
+19-6	2037-2043	minyak	_	_	_	_	_
+19-7	2044-2047	dan	_	_	_	_	_
+19-8	2048-2051	gas	_	_	_	_	_
+19-9	2052-2054	di	_	_	_	_	_
+19-10	2055-2062	Ukraina	_	_	_	_	_
+19-11	2063-2069	karena	_	_	_	_	_
+19-12	2070-2076	perang	_	_	_	_	_
+19-13	2077-2081	yang	_	_	_	_	_
+19-14	2082-2088	sedang	_	_	_	_	_
+19-15	2089-2100	berlangsung	_	_	_	_	_
+19-16	2101-2106	masih	_	_	_	_	_
+19-17	2107-2113	tinggi	_	_	_	_	_
+19-18	2114-2115	.	_	_	_	_	_
+
+#Text=Jika harga gas tetap melambung , krisis energi di Eropa bisa terjadi .
+20-1	2117-2121	Jika	_	_	_	_	_
+20-2	2122-2127	harga	_	_	_	_	_
+20-3	2128-2131	gas	_	_	_	_	_
+20-4	2132-2137	tetap	_	_	_	_	_
+20-5	2138-2147	melambung	_	_	_	_	_
+20-6	2148-2149	,	_	_	_	_	_
+20-7	2150-2156	krisis	_	_	_	_	_
+20-8	2157-2163	energi	_	_	_	_	_
+20-9	2164-2166	di	_	_	_	_	_
+20-10	2167-2172	Eropa	_	_	_	_	_
+20-11	2173-2177	bisa	_	_	_	_	_
+20-12	2178-2185	terjadi	_	_	_	_	_
+20-13	2186-2187	.	_	_	_	_	_
+
+#Text=Sebab sumber energi Eropa saat ini banyak berasal dari gas alam dan mulai meninggalkan energi fosil , terutama untuk pembangkit listrik dan kebutuhan rumah tangga .
+21-1	2189-2194	Sebab	_	_	_	_	_
+21-2	2195-2201	sumber	_	_	_	_	_
+21-3	2202-2208	energi	_	_	_	_	_
+21-4	2209-2214	Eropa	_	_	_	_	_
+21-5	2215-2219	saat	_	_	_	_	_
+21-6	2220-2223	ini	_	_	_	_	_
+21-7	2224-2230	banyak	_	_	_	_	_
+21-8	2231-2238	berasal	_	_	_	_	_
+21-9	2239-2243	dari	_	_	_	_	_
+21-10	2244-2247	gas	_	_	_	_	_
+21-11	2248-2252	alam	_	_	_	_	_
+21-12	2253-2256	dan	_	_	_	_	_
+21-13	2257-2262	mulai	_	_	_	_	_
+21-14	2263-2275	meninggalkan	_	_	_	_	_
+21-15	2276-2282	energi	_	_	_	_	_
+21-16	2283-2288	fosil	_	_	_	_	_
+21-17	2289-2290	,	_	_	_	_	_
+21-18	2291-2299	terutama	_	_	_	_	_
+21-19	2300-2305	untuk	_	_	_	_	_
+21-20	2306-2316	pembangkit	_	_	_	_	_
+21-21	2317-2324	listrik	_	_	_	_	_
+21-22	2325-2328	dan	_	_	_	_	_
+21-23	2329-2338	kebutuhan	_	_	_	_	_
+21-24	2339-2344	rumah	_	_	_	_	_
+21-25	2345-2351	tangga	_	_	_	_	_
+21-26	2352-2353	.	_	_	_	_	_
+
+#Text=TIM RISET CNBC INDONESIA
+22-1	2355-2358	TIM	_	_	_	_	_
+22-2	2359-2364	RISET	_	_	_	_	_
+22-3	2365-2369	CNBC	_	_	_	_	_
+22-4	2370-2379	INDONESIA	_	_	_	_	_
+

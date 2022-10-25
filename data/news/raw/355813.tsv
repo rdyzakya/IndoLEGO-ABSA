@@ -1,0 +1,276 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Presiden Amerika Serikat ( AS ) Joe Biden akan melepas cadangan minyak sebanyak 1 juta barel minyak per hari .
+1-1	0-8	Presiden	_	_	_	_	_
+1-2	9-16	Amerika	_	_	_	_	_
+1-3	17-24	Serikat	_	_	_	_	_
+1-4	25-26	(	_	_	_	_	_
+1-5	27-29	AS	_	_	_	_	_
+1-6	30-31	)	_	_	_	_	_
+1-7	32-35	Joe	_	_	_	_	_
+1-8	36-41	Biden	_	_	_	_	_
+1-9	42-46	akan	_	_	_	_	_
+1-10	47-54	melepas	_	_	_	_	_
+1-11	55-63	cadangan	_	_	_	_	_
+1-12	64-70	minyak	_	_	_	_	_
+1-13	71-79	sebanyak	_	_	_	_	_
+1-14	80-81	1	_	_	_	_	_
+1-15	82-86	juta	_	_	_	_	_
+1-16	87-92	barel	_	_	_	_	_
+1-17	93-99	minyak	_	_	_	_	_
+1-18	100-103	per	_	_	_	_	_
+1-19	104-108	hari	_	_	_	_	_
+1-20	109-110	.	_	_	_	_	_
+
+#Text=Hal ini ia lakukan karena harga gas terus melonjak beberapa hari terakhir .
+2-1	112-115	Hal	_	_	_	_	_
+2-2	116-119	ini	_	_	_	_	_
+2-3	120-122	ia	_	_	_	_	_
+2-4	123-130	lakukan	_	_	_	_	_
+2-5	131-137	karena	_	_	_	_	_
+2-6	138-143	harga	_	concept[1]	_	_	_
+2-7	144-147	gas	_	concept[1]	_	_	_
+2-8	148-153	terus	_	negative[2]	_	_	_
+2-9	154-162	melonjak	_	negative[2]	_	_	_
+2-10	163-171	beberapa	_	_	_	_	_
+2-11	172-176	hari	_	_	_	_	_
+2-12	177-185	terakhir	_	_	_	_	_
+2-13	186-187	.	_	_	_	_	_
+
+#Text=Mengutip CNN , Kamis ( 31 / 3 ) , pelepasan 1 juta minyak barel per hari akan dilakukan dalam beberapa bulan mendatang .
+3-1	189-197	Mengutip	_	_	_	_	_
+3-2	198-201	CNN	_	_	_	_	_
+3-3	202-203	,	_	_	_	_	_
+3-4	204-209	Kamis	_	_	_	_	_
+3-5	210-211	(	_	_	_	_	_
+3-6	212-214	31	_	_	_	_	_
+3-7	215-216	/	_	_	_	_	_
+3-8	217-218	3	_	_	_	_	_
+3-9	219-220	)	_	_	_	_	_
+3-10	221-222	,	_	_	_	_	_
+3-11	223-232	pelepasan	_	_	_	_	_
+3-12	233-234	1	_	_	_	_	_
+3-13	235-239	juta	_	_	_	_	_
+3-14	240-246	minyak	_	_	_	_	_
+3-15	247-252	barel	_	_	_	_	_
+3-16	253-256	per	_	_	_	_	_
+3-17	257-261	hari	_	_	_	_	_
+3-18	262-266	akan	_	_	_	_	_
+3-19	267-276	dilakukan	_	_	_	_	_
+3-20	277-282	dalam	_	_	_	_	_
+3-21	283-291	beberapa	_	_	_	_	_
+3-22	292-297	bulan	_	_	_	_	_
+3-23	298-307	mendatang	_	_	_	_	_
+3-24	308-309	.	_	_	_	_	_
+
+#Text=Menurut sumber , Bidan akan segera mengumumkan keputusan tersebut .
+4-1	311-318	Menurut	_	_	_	_	_
+4-2	319-325	sumber	_	_	_	_	_
+4-3	326-327	,	_	_	_	_	_
+4-4	328-333	Bidan	_	_	_	_	_
+4-5	334-338	akan	_	_	_	_	_
+4-6	339-345	segera	_	_	_	_	_
+4-7	346-357	mengumumkan	_	_	_	_	_
+4-8	358-367	keputusan	_	_	_	_	_
+4-9	368-376	tersebut	_	_	_	_	_
+4-10	377-378	.	_	_	_	_	_
+
+#Text=Biden dijadwalkan untuk berpidato dari Gedung Putih tentang harga gas dalam waktu dekat .
+5-1	380-385	Biden	_	_	_	_	_
+5-2	386-397	dijadwalkan	_	_	_	_	_
+5-3	398-403	untuk	_	_	_	_	_
+5-4	404-413	berpidato	_	_	_	_	_
+5-5	414-418	dari	_	_	_	_	_
+5-6	419-425	Gedung	_	_	_	_	_
+5-7	426-431	Putih	_	_	_	_	_
+5-8	432-439	tentang	_	_	_	_	_
+5-9	440-445	harga	_	_	_	_	_
+5-10	446-449	gas	_	_	_	_	_
+5-11	450-455	dalam	_	_	_	_	_
+5-12	456-461	waktu	_	_	_	_	_
+5-13	462-467	dekat	_	_	_	_	_
+5-14	468-469	.	_	_	_	_	_
+
+#Text=Awal bulan ini , Biden mengumumkan pelepasan minyak secara terkoordinasi dari cadangan bersama dengan negara lain .
+6-1	471-475	Awal	_	_	_	_	_
+6-2	476-481	bulan	_	_	_	_	_
+6-3	482-485	ini	_	_	_	_	_
+6-4	486-487	,	_	_	_	_	_
+6-5	488-493	Biden	_	_	_	_	_
+6-6	494-505	mengumumkan	_	_	_	_	_
+6-7	506-515	pelepasan	_	_	_	_	_
+6-8	516-522	minyak	_	_	_	_	_
+6-9	523-529	secara	_	_	_	_	_
+6-10	530-543	terkoordinasi	_	_	_	_	_
+6-11	544-548	dari	_	_	_	_	_
+6-12	549-557	cadangan	_	_	_	_	_
+6-13	558-565	bersama	_	_	_	_	_
+6-14	566-572	dengan	_	_	_	_	_
+6-15	573-579	negara	_	_	_	_	_
+6-16	580-584	lain	_	_	_	_	_
+6-17	585-586	.	_	_	_	_	_
+
+#Text=Ia mengatakan AS telah melepaskan minyak mentah sekitar 60 juta barel dari stok cadangan pada November 2021 lalu .
+7-1	588-590	Ia	_	_	_	_	_
+7-2	591-601	mengatakan	_	_	_	_	_
+7-3	602-604	AS	_	_	_	_	_
+7-4	605-610	telah	_	_	_	_	_
+7-5	611-621	melepaskan	_	_	_	_	_
+7-6	622-628	minyak	_	_	_	_	_
+7-7	629-635	mentah	_	_	_	_	_
+7-8	636-643	sekitar	_	_	_	_	_
+7-9	644-646	60	_	_	_	_	_
+7-10	647-651	juta	_	_	_	_	_
+7-11	652-657	barel	_	_	_	_	_
+7-12	658-662	dari	_	_	_	_	_
+7-13	663-667	stok	_	_	_	_	_
+7-14	668-676	cadangan	_	_	_	_	_
+7-15	677-681	pada	_	_	_	_	_
+7-16	682-690	November	_	_	_	_	_
+7-17	691-695	2021	_	_	_	_	_
+7-18	696-700	lalu	_	_	_	_	_
+7-19	701-702	.	_	_	_	_	_
+
+#Text=Hal itu menjadi pelepasan terbesar dari stok cadangan dalam sejarah AS .
+8-1	704-707	Hal	_	_	_	_	_
+8-2	708-711	itu	_	_	_	_	_
+8-3	712-719	menjadi	_	_	_	_	_
+8-4	720-729	pelepasan	_	_	_	_	_
+8-5	730-738	terbesar	_	_	_	_	_
+8-6	739-743	dari	_	_	_	_	_
+8-7	744-748	stok	_	_	_	_	_
+8-8	749-757	cadangan	_	_	_	_	_
+8-9	758-763	dalam	_	_	_	_	_
+8-10	764-771	sejarah	_	_	_	_	_
+8-11	772-774	AS	_	_	_	_	_
+8-12	775-776	.	_	_	_	_	_
+
+#Text=Beberapa pihak mengatakan penggunaan cadangan minyak yang disimpan di gua-gua bawah tanah di Louisana dan Texas tak berdampak besar terhadap harga gas .
+9-1	778-786	Beberapa	_	_	_	_	_
+9-2	787-792	pihak	_	_	_	_	_
+9-3	793-803	mengatakan	_	_	_	_	_
+9-4	804-814	penggunaan	_	concept[3]	_	_	_
+9-5	815-823	cadangan	_	concept[3]	_	_	_
+9-6	824-830	minyak	_	concept[3]	_	_	_
+9-7	831-835	yang	_	_	_	_	_
+9-8	836-844	disimpan	_	_	_	_	_
+9-9	845-847	di	_	_	_	_	_
+9-10	848-855	gua-gua	_	_	_	_	_
+9-11	856-861	bawah	_	_	_	_	_
+9-12	862-867	tanah	_	_	_	_	_
+9-13	868-870	di	_	_	_	_	_
+9-14	871-879	Louisana	_	_	_	_	_
+9-15	880-883	dan	_	_	_	_	_
+9-16	884-889	Texas	_	_	_	_	_
+9-17	890-893	tak	_	negative[4]	_	_	_
+9-18	894-903	berdampak	_	negative[4]	_	_	_
+9-19	904-909	besar	_	negative[4]	_	_	_
+9-20	910-918	terhadap	_	_	_	_	_
+9-21	919-924	harga	_	_	_	_	_
+9-22	925-928	gas	_	_	_	_	_
+9-23	929-930	.	_	_	_	_	_
+
+#Text=Setelah invasi Rusia ke Ukraina , harga bensin reguler AS melonjak hingga ke rekor tertinggi , yakni US$ 4,33 per galon pada awal Maret 2022 .
+10-1	932-939	Setelah	_	_	_	_	_
+10-2	940-946	invasi	_	_	_	_	_
+10-3	947-952	Rusia	_	_	_	_	_
+10-4	953-955	ke	_	_	_	_	_
+10-5	956-963	Ukraina	_	_	_	_	_
+10-6	964-965	,	_	_	_	_	_
+10-7	966-971	harga	_	concept[5]	_	_	_
+10-8	972-978	bensin	_	concept[5]	_	_	_
+10-9	979-986	reguler	_	concept[5]	_	_	_
+10-10	987-989	AS	_	concept[5]	_	_	_
+10-11	990-998	melonjak	_	negative[6]	_	_	_
+10-12	999-1005	hingga	_	_	_	_	_
+10-13	1006-1008	ke	_	_	_	_	_
+10-14	1009-1014	rekor	_	negative[7]	_	_	_
+10-15	1015-1024	tertinggi	_	negative[7]	_	_	_
+10-16	1025-1026	,	_	_	_	_	_
+10-17	1027-1032	yakni	_	_	_	_	_
+10-18	1033-1036	US$	_	_	_	_	_
+10-19	1037-1041	4,33	_	_	_	_	_
+10-20	1042-1045	per	_	_	_	_	_
+10-21	1046-1051	galon	_	_	_	_	_
+10-22	1052-1056	pada	_	_	_	_	_
+10-23	1057-1061	awal	_	_	_	_	_
+10-24	1062-1067	Maret	_	_	_	_	_
+10-25	1068-1072	2022	_	_	_	_	_
+10-26	1073-1074	.	_	_	_	_	_
+
+#Text=" Jangan salah , lonjakan harga gas saat ini sebagian besar adalah kesalahan ( Presiden Rusia ) Vladimir Putin , " ucap Biden dalam pidato awal Maret 2022 .
+11-1	1076-1077	"	_	_	_	_	_
+11-2	1078-1084	Jangan	_	_	_	_	_
+11-3	1085-1090	salah	_	_	_	_	_
+11-4	1091-1092	,	_	_	_	_	_
+11-5	1093-1101	lonjakan	_	_	_	_	_
+11-6	1102-1107	harga	_	_	_	_	_
+11-7	1108-1111	gas	_	_	_	_	_
+11-8	1112-1116	saat	_	_	_	_	_
+11-9	1117-1120	ini	_	_	_	_	_
+11-10	1121-1129	sebagian	_	_	_	_	_
+11-11	1130-1135	besar	_	_	_	_	_
+11-12	1136-1142	adalah	_	_	_	_	_
+11-13	1143-1152	kesalahan	_	_	_	_	_
+11-14	1153-1154	(	_	_	_	_	_
+11-15	1155-1163	Presiden	_	_	_	_	_
+11-16	1164-1169	Rusia	_	_	_	_	_
+11-17	1170-1171	)	_	_	_	_	_
+11-18	1172-1180	Vladimir	_	_	_	_	_
+11-19	1181-1186	Putin	_	_	_	_	_
+11-20	1187-1188	,	_	_	_	_	_
+11-21	1189-1190	"	_	_	_	_	_
+11-22	1191-1195	ucap	_	_	_	_	_
+11-23	1196-1201	Biden	_	_	_	_	_
+11-24	1202-1207	dalam	_	_	_	_	_
+11-25	1208-1214	pidato	_	_	_	_	_
+11-26	1215-1219	awal	_	_	_	_	_
+11-27	1220-1225	Maret	_	_	_	_	_
+11-28	1226-1230	2022	_	_	_	_	_
+11-29	1231-1232	.	_	_	_	_	_
+
+#Text=Sementara , Gubernur Demokrat California Gavin Newsom meluncurkan proposal US$9 miliar untuk membagikan kartu debit US$ 400 kepada pengemudi .
+12-1	1234-1243	Sementara	_	_	_	_	_
+12-2	1244-1245	,	_	_	_	_	_
+12-3	1246-1254	Gubernur	_	_	_	_	_
+12-4	1255-1263	Demokrat	_	_	_	_	_
+12-5	1264-1274	California	_	_	_	_	_
+12-6	1275-1280	Gavin	_	_	_	_	_
+12-7	1281-1287	Newsom	_	_	_	_	_
+12-8	1288-1299	meluncurkan	_	_	_	_	_
+12-9	1300-1308	proposal	_	_	_	_	_
+12-10	1309-1313	US$9	_	_	_	_	_
+12-11	1314-1320	miliar	_	_	_	_	_
+12-12	1321-1326	untuk	_	_	_	_	_
+12-13	1327-1337	membagikan	_	_	_	_	_
+12-14	1338-1343	kartu	_	_	_	_	_
+12-15	1344-1349	debit	_	_	_	_	_
+12-16	1350-1353	US$	_	_	_	_	_
+12-17	1354-1357	400	_	_	_	_	_
+12-18	1358-1364	kepada	_	_	_	_	_
+12-19	1365-1374	pengemudi	_	_	_	_	_
+12-20	1375-1376	.	_	_	_	_	_
+
+#Text=Hal ini dilakukan demi mengurangi beban pengemudi di tengah lonjakan harga gas .
+13-1	1378-1381	Hal	_	_	_	_	_
+13-2	1382-1385	ini	_	_	_	_	_
+13-3	1386-1395	dilakukan	_	_	_	_	_
+13-4	1396-1400	demi	_	_	_	_	_
+13-5	1401-1411	mengurangi	_	_	_	_	_
+13-6	1412-1417	beban	_	_	_	_	_
+13-7	1418-1427	pengemudi	_	_	_	_	_
+13-8	1428-1430	di	_	_	_	_	_
+13-9	1431-1437	tengah	_	_	_	_	_
+13-10	1438-1446	lonjakan	_	_	_	_	_
+13-11	1447-1452	harga	_	_	_	_	_
+13-12	1453-1456	gas	_	_	_	_	_
+13-13	1457-1458	.	_	_	_	_	_
+
+#Text=[ Gambas : Video CNN ]
+14-1	1460-1461	[	_	_	_	_	_
+14-2	1462-1468	Gambas	_	_	_	_	_
+14-3	1469-1470	:	_	_	_	_	_
+14-4	1471-1476	Video	_	_	_	_	_
+14-5	1477-1480	CNN	_	_	_	_	_
+14-6	1481-1482	]	_	_	_	_	_
+

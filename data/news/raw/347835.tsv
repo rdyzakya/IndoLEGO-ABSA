@@ -1,0 +1,362 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Ada 15 aplikasi Android yang sebaiknya dihapus dari ponsel Anda .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-30	Ada	_	_	_	_	_
+1-7	31-33	15	_	_	_	_	_
+1-8	34-42	aplikasi	_	_	_	_	_
+1-9	43-50	Android	_	_	_	_	_
+1-10	51-55	yang	_	_	_	_	_
+1-11	56-65	sebaiknya	_	_	_	_	_
+1-12	66-73	dihapus	_	_	_	_	_
+1-13	74-78	dari	_	_	_	_	_
+1-14	79-85	ponsel	_	_	_	_	_
+1-15	86-90	Anda	_	_	_	_	_
+1-16	91-92	.	_	_	_	_	_
+
+#Text=Jika tidak segera dihapus , ada kemungkinan data Anda bisa dicuri .
+2-1	94-98	Jika	_	_	_	_	_
+2-2	99-104	tidak	_	_	_	_	_
+2-3	105-111	segera	_	_	_	_	_
+2-4	112-119	dihapus	_	_	_	_	_
+2-5	120-121	,	_	_	_	_	_
+2-6	122-125	ada	_	_	_	_	_
+2-7	126-137	kemungkinan	_	_	_	_	_
+2-8	138-142	data	_	_	_	_	_
+2-9	143-147	Anda	_	_	_	_	_
+2-10	148-152	bisa	_	_	_	_	_
+2-11	153-159	dicuri	_	_	_	_	_
+2-12	160-161	.	_	_	_	_	_
+
+#Text=Aplikasi tersebut ditemukan Tatyana Shishkova , analis Kaspersky , serta terinfeksi Malware Joker .
+3-1	163-171	Aplikasi	_	_	_	_	_
+3-2	172-180	tersebut	_	_	_	_	_
+3-3	181-190	ditemukan	_	_	_	_	_
+3-4	191-198	Tatyana	_	_	_	_	_
+3-5	199-208	Shishkova	_	_	_	_	_
+3-6	209-210	,	_	_	_	_	_
+3-7	211-217	analis	_	_	_	_	_
+3-8	218-227	Kaspersky	_	_	_	_	_
+3-9	228-229	,	_	_	_	_	_
+3-10	230-235	serta	_	_	_	_	_
+3-11	236-246	terinfeksi	_	_	_	_	_
+3-12	247-254	Malware	_	_	_	_	_
+3-13	255-260	Joker	_	_	_	_	_
+3-14	261-262	.	_	_	_	_	_
+
+#Text=Dari aplikasi berbahaya itu , beberapa di antara nya cukup populer dengan telah dipasang sebanyak 50 ribu kali .
+4-1	264-268	Dari	_	_	_	_	_
+4-2	269-277	aplikasi	_	concept[1]	_	_	_
+4-3	278-287	berbahaya	_	negative[2]	_	_	_
+4-4	288-291	itu	_	_	_	_	_
+4-5	292-293	,	_	_	_	_	_
+4-6	294-302	beberapa	_	_	_	_	_
+4-7	303-305	di	_	_	_	_	_
+4-8	306-312	antara	_	_	_	_	_
+4-9	313-316	nya	_	_	_	_	_
+4-10	317-322	cukup	_	negative[3]	_	_	_
+4-11	323-330	populer	_	negative[3]	_	_	_
+4-12	331-337	dengan	_	_	_	_	_
+4-13	338-343	telah	_	_	_	_	_
+4-14	344-352	dipasang	_	_	_	_	_
+4-15	353-361	sebanyak	_	_	_	_	_
+4-16	362-364	50	_	_	_	_	_
+4-17	365-369	ribu	_	_	_	_	_
+4-18	370-374	kali	_	_	_	_	_
+4-19	375-376	.	_	_	_	_	_
+
+#Text=Berikut 15 aplikasi bermasalah tersebut , seperti dikutip dari News 18 : 1 .
+5-1	378-385	Berikut	_	_	_	_	_
+5-2	386-388	15	_	_	_	_	_
+5-3	389-397	aplikasi	_	_	_	_	_
+5-4	398-408	bermasalah	_	_	_	_	_
+5-5	409-417	tersebut	_	_	_	_	_
+5-6	418-419	,	_	_	_	_	_
+5-7	420-427	seperti	_	_	_	_	_
+5-8	428-435	dikutip	_	_	_	_	_
+5-9	436-440	dari	_	_	_	_	_
+5-10	441-445	News	_	_	_	_	_
+5-11	446-448	18	_	_	_	_	_
+5-12	449-450	:	_	_	_	_	_
+5-13	451-452	1	_	_	_	_	_
+5-14	453-454	.	_	_	_	_	_
+
+#Text=Easy PDF Scanner 2 .
+6-1	456-460	Easy	_	positive[4]	_	_	_
+6-2	461-464	PDF	_	concept[5]	_	_	_
+6-3	465-472	Scanner	_	concept[5]	_	_	_
+6-4	473-474	2	_	_	_	_	_
+6-5	475-476	.	_	_	_	_	_
+
+#Text=Now QRCode Scan 3 .
+7-1	478-481	Now	_	_	_	_	_
+7-2	482-488	QRCode	_	_	_	_	_
+7-3	489-493	Scan	_	_	_	_	_
+7-4	494-495	3	_	_	_	_	_
+7-5	496-497	.	_	_	_	_	_
+
+#Text=Super-Click VPN 4 .
+8-1	499-510	Super-Click	_	_	_	_	_
+8-2	511-514	VPN	_	_	_	_	_
+8-3	515-516	4	_	_	_	_	_
+8-4	517-518	.	_	_	_	_	_
+
+#Text=Volume Booster Louder Sound Equalizer 5 .
+9-1	520-526	Volume	_	_	_	_	_
+9-2	527-534	Booster	_	_	_	_	_
+9-3	535-541	Louder	_	_	_	_	_
+9-4	542-547	Sound	_	_	_	_	_
+9-5	548-557	Equalizer	_	_	_	_	_
+9-6	558-559	5	_	_	_	_	_
+9-7	560-561	.	_	_	_	_	_
+
+#Text=Battery Charging Animation Bubble Effects 6 .
+10-1	563-570	Battery	_	_	_	_	_
+10-2	571-579	Charging	_	_	_	_	_
+10-3	580-589	Animation	_	_	_	_	_
+10-4	590-596	Bubble	_	_	_	_	_
+10-5	597-604	Effects	_	_	_	_	_
+10-6	605-606	6	_	_	_	_	_
+10-7	607-608	.	_	_	_	_	_
+
+#Text=Smart TV Remote 7 .
+11-1	610-615	Smart	_	_	_	_	_
+11-2	616-618	TV	_	_	_	_	_
+11-3	619-625	Remote	_	_	_	_	_
+11-4	626-627	7	_	_	_	_	_
+11-5	628-629	.	_	_	_	_	_
+
+#Text=Volume Boosting Hearing Aid 8 .
+12-1	631-637	Volume	_	_	_	_	_
+12-2	638-646	Boosting	_	_	_	_	_
+12-3	647-654	Hearing	_	_	_	_	_
+12-4	655-658	Aid	_	_	_	_	_
+12-5	659-660	8	_	_	_	_	_
+12-6	661-662	.	_	_	_	_	_
+
+#Text=Flashlight Flash Alert on Call 9 .
+13-1	664-674	Flashlight	_	_	_	_	_
+13-2	675-680	Flash	_	_	_	_	_
+13-3	681-686	Alert	_	_	_	_	_
+13-4	687-689	on	_	_	_	_	_
+13-5	690-694	Call	_	_	_	_	_
+13-6	695-696	9	_	_	_	_	_
+13-7	697-698	.	_	_	_	_	_
+
+#Text=Halloween Coloring 10 .
+14-1	700-709	Halloween	_	_	_	_	_
+14-2	710-718	Coloring	_	_	_	_	_
+14-3	719-721	10	_	_	_	_	_
+14-4	722-723	.	_	_	_	_	_
+
+#Text=Classic Emoji Keyboard 11 .
+15-1	725-732	Classic	_	_	_	_	_
+15-2	733-738	Emoji	_	_	_	_	_
+15-3	739-747	Keyboard	_	_	_	_	_
+15-4	748-750	11	_	_	_	_	_
+15-5	751-752	.	_	_	_	_	_
+
+#Text=Super Hero - Effect 12 .
+16-1	754-759	Super	_	_	_	_	_
+16-2	760-764	Hero	_	_	_	_	_
+16-3	765-766	-	_	_	_	_	_
+16-4	767-773	Effect	_	_	_	_	_
+16-5	774-776	12	_	_	_	_	_
+16-6	777-778	.	_	_	_	_	_
+
+#Text=Dazzling Keyboard 13 .
+17-1	780-788	Dazzling	_	_	_	_	_
+17-2	789-797	Keyboard	_	_	_	_	_
+17-3	798-800	13	_	_	_	_	_
+17-4	801-802	.	_	_	_	_	_
+
+#Text=EmojiOne Keyboard 14 .
+18-1	804-812	EmojiOne	_	_	_	_	_
+18-2	813-821	Keyboard	_	_	_	_	_
+18-3	822-824	14	_	_	_	_	_
+18-4	825-826	.	_	_	_	_	_
+
+#Text=Battery Charging Animation Wallpaper 15 .
+19-1	828-835	Battery	_	_	_	_	_
+19-2	836-844	Charging	_	_	_	_	_
+19-3	845-854	Animation	_	_	_	_	_
+19-4	855-864	Wallpaper	_	_	_	_	_
+19-5	865-867	15	_	_	_	_	_
+19-6	868-869	.	_	_	_	_	_
+
+#Text=Blender Photo Editor - Easy Photo Background Editor Kepolisian Belgia juga sempat menemukan 8 aplikasi Android berisi Malware Joker , mengutip Times of India .
+20-1	871-878	Blender	_	_	_	_	_
+20-2	879-884	Photo	_	_	_	_	_
+20-3	885-891	Editor	_	_	_	_	_
+20-4	892-893	-	_	_	_	_	_
+20-5	894-898	Easy	_	_	_	_	_
+20-6	899-904	Photo	_	_	_	_	_
+20-7	905-915	Background	_	_	_	_	_
+20-8	916-922	Editor	_	_	_	_	_
+20-9	923-933	Kepolisian	_	_	_	_	_
+20-10	934-940	Belgia	_	_	_	_	_
+20-11	941-945	juga	_	_	_	_	_
+20-12	946-952	sempat	_	_	_	_	_
+20-13	953-962	menemukan	_	_	_	_	_
+20-14	963-964	8	_	_	_	_	_
+20-15	965-973	aplikasi	_	_	_	_	_
+20-16	974-981	Android	_	_	_	_	_
+20-17	982-988	berisi	_	_	_	_	_
+20-18	989-996	Malware	_	_	_	_	_
+20-19	997-1002	Joker	_	_	_	_	_
+20-20	1003-1004	,	_	_	_	_	_
+20-21	1005-1013	mengutip	_	_	_	_	_
+20-22	1014-1019	Times	_	_	_	_	_
+20-23	1020-1022	of	_	_	_	_	_
+20-24	1023-1028	India	_	_	_	_	_
+20-25	1029-1030	.	_	_	_	_	_
+
+#Text=Delapan aplikasi bermasalah juga pernah dilaporkan oleh lembaga riset , Quick Heal Security Lab .
+21-1	1032-1039	Delapan	_	_	_	_	_
+21-2	1040-1048	aplikasi	_	_	_	_	_
+21-3	1049-1059	bermasalah	_	_	_	_	_
+21-4	1060-1064	juga	_	_	_	_	_
+21-5	1065-1071	pernah	_	_	_	_	_
+21-6	1072-1082	dilaporkan	_	_	_	_	_
+21-7	1083-1087	oleh	_	_	_	_	_
+21-8	1088-1095	lembaga	_	_	_	_	_
+21-9	1096-1101	riset	_	_	_	_	_
+21-10	1102-1103	,	_	_	_	_	_
+21-11	1104-1109	Quick	_	_	_	_	_
+21-12	1110-1114	Heal	_	_	_	_	_
+21-13	1115-1123	Security	_	_	_	_	_
+21-14	1124-1127	Lab	_	_	_	_	_
+21-15	1128-1129	.	_	_	_	_	_
+
+#Text=Laporan itu diungkap pada bulan Juni 2021 lalu .
+22-1	1131-1138	Laporan	_	_	_	_	_
+22-2	1139-1142	itu	_	_	_	_	_
+22-3	1143-1151	diungkap	_	_	_	_	_
+22-4	1152-1156	pada	_	_	_	_	_
+22-5	1157-1162	bulan	_	_	_	_	_
+22-6	1163-1167	Juni	_	_	_	_	_
+22-7	1168-1172	2021	_	_	_	_	_
+22-8	1173-1177	lalu	_	_	_	_	_
+22-9	1178-1179	.	_	_	_	_	_
+
+#Text=Ini daftar delapan aplikasi tersebut : - Auxiliary Message - Element Scanner - Fast Magic SMS - Free CamScanner - Go Messages - Super Message - Super SMS - Travel Wallpapers Malware Joker teridentifikasi pertama kali tahun 2017 lalu .
+23-1	1181-1184	Ini	_	_	_	_	_
+23-2	1185-1191	daftar	_	_	_	_	_
+23-3	1192-1199	delapan	_	_	_	_	_
+23-4	1200-1208	aplikasi	_	_	_	_	_
+23-5	1209-1217	tersebut	_	_	_	_	_
+23-6	1218-1219	:	_	_	_	_	_
+23-7	1220-1221	-	_	_	_	_	_
+23-8	1222-1231	Auxiliary	_	_	_	_	_
+23-9	1232-1239	Message	_	_	_	_	_
+23-10	1240-1241	-	_	_	_	_	_
+23-11	1242-1249	Element	_	_	_	_	_
+23-12	1250-1257	Scanner	_	_	_	_	_
+23-13	1258-1259	-	_	_	_	_	_
+23-14	1260-1264	Fast	_	_	_	_	_
+23-15	1265-1270	Magic	_	_	_	_	_
+23-16	1271-1274	SMS	_	_	_	_	_
+23-17	1275-1276	-	_	_	_	_	_
+23-18	1277-1281	Free	_	_	_	_	_
+23-19	1282-1292	CamScanner	_	_	_	_	_
+23-20	1293-1294	-	_	_	_	_	_
+23-21	1295-1297	Go	_	_	_	_	_
+23-22	1298-1306	Messages	_	_	_	_	_
+23-23	1307-1308	-	_	_	_	_	_
+23-24	1309-1314	Super	_	_	_	_	_
+23-25	1315-1322	Message	_	_	_	_	_
+23-26	1323-1324	-	_	_	_	_	_
+23-27	1325-1330	Super	_	_	_	_	_
+23-28	1331-1334	SMS	_	_	_	_	_
+23-29	1335-1336	-	_	_	_	_	_
+23-30	1337-1343	Travel	_	_	_	_	_
+23-31	1344-1354	Wallpapers	_	_	_	_	_
+23-32	1355-1362	Malware	_	_	_	_	_
+23-33	1363-1368	Joker	_	_	_	_	_
+23-34	1369-1384	teridentifikasi	_	_	_	_	_
+23-35	1385-1392	pertama	_	_	_	_	_
+23-36	1393-1397	kali	_	_	_	_	_
+23-37	1398-1403	tahun	_	_	_	_	_
+23-38	1404-1408	2017	_	_	_	_	_
+23-39	1409-1413	lalu	_	_	_	_	_
+23-40	1414-1415	.	_	_	_	_	_
+
+#Text=Virus digunakan untuk menginfeksi aplikasi dan mencuri uang para korban nya .
+24-1	1417-1422	Virus	_	concept[6]	_	_	_
+24-2	1423-1432	digunakan	_	_	_	_	_
+24-3	1433-1438	untuk	_	_	_	_	_
+24-4	1439-1450	menginfeksi	_	negative[7]	_	_	_
+24-5	1451-1459	aplikasi	_	_	_	_	_
+24-6	1460-1463	dan	_	_	_	_	_
+24-7	1464-1471	mencuri	_	negative[8]	_	_	_
+24-8	1472-1476	uang	_	negative[8]	_	_	_
+24-9	1477-1481	para	_	negative[8]	_	_	_
+24-10	1482-1488	korban	_	negative[8]	_	_	_
+24-11	1489-1492	nya	_	negative[8]	_	_	_
+24-12	1493-1494	.	_	_	_	_	_
+
+#Text=Peneliti Quick Heal mengungkapkan malware dimanfaatkan untuk mendapatkan informasi pribadi korban .
+25-1	1496-1504	Peneliti	_	_	_	_	_
+25-2	1505-1510	Quick	_	_	_	_	_
+25-3	1511-1515	Heal	_	_	_	_	_
+25-4	1516-1529	mengungkapkan	_	_	_	_	_
+25-5	1530-1537	malware	_	concept[9]	_	_	_
+25-6	1538-1550	dimanfaatkan	_	negative[10]	_	_	_
+25-7	1551-1556	untuk	_	negative[10]	_	_	_
+25-8	1557-1568	mendapatkan	_	negative[10]	_	_	_
+25-9	1569-1578	informasi	_	negative[10]	_	_	_
+25-10	1579-1586	pribadi	_	negative[10]	_	_	_
+25-11	1587-1593	korban	_	negative[10]	_	_	_
+25-12	1594-1595	.	_	_	_	_	_
+
+#Text=Misalnya dari SMS , daftar kontak , informasi perangkat dan kode One Time Password ( OTP ) .
+26-1	1597-1605	Misalnya	_	_	_	_	_
+26-2	1606-1610	dari	_	_	_	_	_
+26-3	1611-1614	SMS	_	_	_	_	_
+26-4	1615-1616	,	_	_	_	_	_
+26-5	1617-1623	daftar	_	_	_	_	_
+26-6	1624-1630	kontak	_	_	_	_	_
+26-7	1631-1632	,	_	_	_	_	_
+26-8	1633-1642	informasi	_	_	_	_	_
+26-9	1643-1652	perangkat	_	_	_	_	_
+26-10	1653-1656	dan	_	_	_	_	_
+26-11	1657-1661	kode	_	_	_	_	_
+26-12	1662-1665	One	_	_	_	_	_
+26-13	1666-1670	Time	_	_	_	_	_
+26-14	1671-1679	Password	_	_	_	_	_
+26-15	1680-1681	(	_	_	_	_	_
+26-16	1682-1685	OTP	_	_	_	_	_
+26-17	1686-1687	)	_	_	_	_	_
+26-18	1688-1689	.	_	_	_	_	_
+
+#Text=Google juga terus berupaya melawan kehadiran Joker sejak kembali lagi tahun lalu .
+27-1	1691-1697	Google	_	_	_	_	_
+27-2	1698-1702	juga	_	_	_	_	_
+27-3	1703-1708	terus	_	_	_	_	_
+27-4	1709-1717	berupaya	_	_	_	_	_
+27-5	1718-1725	melawan	_	_	_	_	_
+27-6	1726-1735	kehadiran	_	_	_	_	_
+27-7	1736-1741	Joker	_	_	_	_	_
+27-8	1742-1747	sejak	_	_	_	_	_
+27-9	1748-1755	kembali	_	_	_	_	_
+27-10	1756-1760	lagi	_	_	_	_	_
+27-11	1761-1766	tahun	_	_	_	_	_
+27-12	1767-1771	lalu	_	_	_	_	_
+27-13	1772-1773	.	_	_	_	_	_
+
+#Text=Perusahaan menghapus seluruh aplikasi yang dilaporkan terinfeksi malware tersebut .
+28-1	1775-1785	Perusahaan	_	_	_	_	_
+28-2	1786-1795	menghapus	_	_	_	_	_
+28-3	1796-1803	seluruh	_	_	_	_	_
+28-4	1804-1812	aplikasi	_	_	_	_	_
+28-5	1813-1817	yang	_	_	_	_	_
+28-6	1818-1828	dilaporkan	_	_	_	_	_
+28-7	1829-1839	terinfeksi	_	_	_	_	_
+28-8	1840-1847	malware	_	_	_	_	_
+28-9	1848-1856	tersebut	_	_	_	_	_
+28-10	1857-1858	.	_	_	_	_	_
+

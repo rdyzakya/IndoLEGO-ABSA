@@ -1,0 +1,1088 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Pembuat konten alias content creator telah menjelma menjadi salah satu profesi yang menjanjikan penghasilan fantastis .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-34	Pembuat	_	concept[1]	_	_	_
+1-7	35-41	konten	_	concept[1]	_	_	_
+1-8	42-47	alias	_	_	_	_	_
+1-9	48-55	content	_	concept[2]	_	_	_
+1-10	56-63	creator	_	concept[2]	_	_	_
+1-11	64-69	telah	_	_	_	_	_
+1-12	70-78	menjelma	_	_	_	_	_
+1-13	79-86	menjadi	_	_	_	_	_
+1-14	87-92	salah	_	_	_	_	_
+1-15	93-97	satu	_	_	_	_	_
+1-16	98-105	profesi	_	_	_	_	_
+1-17	106-110	yang	_	_	_	_	_
+1-18	111-122	menjanjikan	_	positive[3]	_	_	_
+1-19	123-134	penghasilan	_	positive[3]	_	_	_
+1-20	135-144	fantastis	_	positive[3]	_	_	_
+1-21	145-146	.	_	_	_	_	_
+
+#Text=Forbes belum lama ini merilis daftar content creator di YouTube berpenghasilan tertinggi di dunia sepanjang tahun 2021 .
+2-1	148-154	Forbes	_	_	_	_	_
+2-2	155-160	belum	_	_	_	_	_
+2-3	161-165	lama	_	_	_	_	_
+2-4	166-169	ini	_	_	_	_	_
+2-5	170-177	merilis	_	_	_	_	_
+2-6	178-184	daftar	_	_	_	_	_
+2-7	185-192	content	_	_	_	_	_
+2-8	193-200	creator	_	_	_	_	_
+2-9	201-203	di	_	_	_	_	_
+2-10	204-211	YouTube	_	_	_	_	_
+2-11	212-226	berpenghasilan	_	_	_	_	_
+2-12	227-236	tertinggi	_	_	_	_	_
+2-13	237-239	di	_	_	_	_	_
+2-14	240-245	dunia	_	_	_	_	_
+2-15	246-255	sepanjang	_	_	_	_	_
+2-16	256-261	tahun	_	_	_	_	_
+2-17	262-266	2021	_	_	_	_	_
+2-18	267-268	.	_	_	_	_	_
+
+#Text=Dari petinju profesional hingga pengusaha berusia tujuh tahun , YouTuber dengan bayaran tertinggi ini telah membangun kerajaan sendiri di platform media sosial .
+3-1	270-274	Dari	_	_	_	_	_
+3-2	275-282	petinju	_	_	_	_	_
+3-3	283-294	profesional	_	_	_	_	_
+3-4	295-301	hingga	_	_	_	_	_
+3-5	302-311	pengusaha	_	_	_	_	_
+3-6	312-319	berusia	_	_	_	_	_
+3-7	320-325	tujuh	_	_	_	_	_
+3-8	326-331	tahun	_	_	_	_	_
+3-9	332-333	,	_	_	_	_	_
+3-10	334-342	YouTuber	_	_	_	_	_
+3-11	343-349	dengan	_	_	_	_	_
+3-12	350-357	bayaran	_	_	_	_	_
+3-13	358-367	tertinggi	_	_	_	_	_
+3-14	368-371	ini	_	_	_	_	_
+3-15	372-377	telah	_	_	_	_	_
+3-16	378-387	membangun	_	_	_	_	_
+3-17	388-396	kerajaan	_	_	_	_	_
+3-18	397-404	sendiri	_	_	_	_	_
+3-19	405-407	di	_	_	_	_	_
+3-20	408-416	platform	_	_	_	_	_
+3-21	417-422	media	_	_	_	_	_
+3-22	423-429	sosial	_	_	_	_	_
+3-23	430-431	.	_	_	_	_	_
+
+#Text=Siapa saja mereka ?
+4-1	433-438	Siapa	_	_	_	_	_
+4-2	439-443	saja	_	_	_	_	_
+4-3	444-450	mereka	_	_	_	_	_
+4-4	451-452	?	_	_	_	_	_
+
+#Text=Berikut daftar 10 YouTuber dengan penghasilan tertinggi , seperti dikutip dari Lifestyle Asia .
+5-1	454-461	Berikut	_	_	_	_	_
+5-2	462-468	daftar	_	_	_	_	_
+5-3	469-471	10	_	_	_	_	_
+5-4	472-480	YouTuber	_	_	_	_	_
+5-5	481-487	dengan	_	_	_	_	_
+5-6	488-499	penghasilan	_	_	_	_	_
+5-7	500-509	tertinggi	_	_	_	_	_
+5-8	510-511	,	_	_	_	_	_
+5-9	512-519	seperti	_	_	_	_	_
+5-10	520-527	dikutip	_	_	_	_	_
+5-11	528-532	dari	_	_	_	_	_
+5-12	533-542	Lifestyle	_	_	_	_	_
+5-13	543-547	Asia	_	_	_	_	_
+5-14	548-549	.	_	_	_	_	_
+
+#Text=1 .
+6-1	551-552	1	_	_	_	_	_
+6-2	553-554	.	_	_	_	_	_
+
+#Text=Jimmy Donaldson Jimmy Donaldson , juga dikenal sebagai MrBeast , memiliki lebih dari 88,3 juta pengikut di YouTube .
+7-1	556-561	Jimmy	_	_	_	_	_
+7-2	562-571	Donaldson	_	_	_	_	_
+7-3	572-577	Jimmy	_	_	_	_	_
+7-4	578-587	Donaldson	_	_	_	_	_
+7-5	588-589	,	_	_	_	_	_
+7-6	590-594	juga	_	_	_	_	_
+7-7	595-602	dikenal	_	_	_	_	_
+7-8	603-610	sebagai	_	_	_	_	_
+7-9	611-618	MrBeast	_	_	_	_	_
+7-10	619-620	,	_	_	_	_	_
+7-11	621-629	memiliki	_	_	_	_	_
+7-12	630-635	lebih	_	_	_	_	_
+7-13	636-640	dari	_	_	_	_	_
+7-14	641-645	88,3	_	_	_	_	_
+7-15	646-650	juta	_	_	_	_	_
+7-16	651-659	pengikut	_	_	_	_	_
+7-17	660-662	di	_	_	_	_	_
+7-18	663-670	YouTube	_	_	_	_	_
+7-19	671-672	.	_	_	_	_	_
+
+#Text=Di platform tersebut , dia membuat ulang setiap set dari Game Squid hingga mengatur permainan tag yang mahal .
+8-1	674-676	Di	_	_	_	_	_
+8-2	677-685	platform	_	_	_	_	_
+8-3	686-694	tersebut	_	_	_	_	_
+8-4	695-696	,	_	_	_	_	_
+8-5	697-700	dia	_	_	_	_	_
+8-6	701-708	membuat	_	_	_	_	_
+8-7	709-714	ulang	_	_	_	_	_
+8-8	715-721	setiap	_	_	_	_	_
+8-9	722-725	set	_	_	_	_	_
+8-10	726-730	dari	_	_	_	_	_
+8-11	731-735	Game	_	_	_	_	_
+8-12	736-741	Squid	_	_	_	_	_
+8-13	742-748	hingga	_	_	_	_	_
+8-14	749-757	mengatur	_	_	_	_	_
+8-15	758-767	permainan	_	_	_	_	_
+8-16	768-771	tag	_	_	_	_	_
+8-17	772-776	yang	_	_	_	_	_
+8-18	777-782	mahal	_	_	_	_	_
+8-19	783-784	.	_	_	_	_	_
+
+#Text=Jimmy juga kerap membuat konten yang viral seperti dikubur hidup-hidup selama 50 jam dan menawarkan hadiah utama kepada siapa pun yang mau duduk di bak mandi berisi ular .
+9-1	786-791	Jimmy	_	_	_	_	_
+9-2	792-796	juga	_	_	_	_	_
+9-3	797-802	kerap	_	_	_	_	_
+9-4	803-810	membuat	_	_	_	_	_
+9-5	811-817	konten	_	_	_	_	_
+9-6	818-822	yang	_	_	_	_	_
+9-7	823-828	viral	_	_	_	_	_
+9-8	829-836	seperti	_	_	_	_	_
+9-9	837-844	dikubur	_	_	_	_	_
+9-10	845-856	hidup-hidup	_	_	_	_	_
+9-11	857-863	selama	_	_	_	_	_
+9-12	864-866	50	_	_	_	_	_
+9-13	867-870	jam	_	_	_	_	_
+9-14	871-874	dan	_	_	_	_	_
+9-15	875-885	menawarkan	_	_	_	_	_
+9-16	886-892	hadiah	_	_	_	_	_
+9-17	893-898	utama	_	_	_	_	_
+9-18	899-905	kepada	_	_	_	_	_
+9-19	906-911	siapa	_	_	_	_	_
+9-20	912-915	pun	_	_	_	_	_
+9-21	916-920	yang	_	_	_	_	_
+9-22	921-924	mau	_	_	_	_	_
+9-23	925-930	duduk	_	_	_	_	_
+9-24	931-933	di	_	_	_	_	_
+9-25	934-937	bak	_	_	_	_	_
+9-26	938-943	mandi	_	_	_	_	_
+9-27	944-950	berisi	_	_	_	_	_
+9-28	951-955	ular	_	_	_	_	_
+9-29	956-957	.	_	_	_	_	_
+
+#Text=Ia berada di puncak daftar YouTuber dengan bayaran tertinggi , dengan penghasilan US$ 54 juta atau sekitar Rp 775 miliar ( kurs 14.352 / USD ) .
+10-1	959-961	Ia	_	_	_	_	_
+10-2	962-968	berada	_	_	_	_	_
+10-3	969-971	di	_	_	_	_	_
+10-4	972-978	puncak	_	_	_	_	_
+10-5	979-985	daftar	_	_	_	_	_
+10-6	986-994	YouTuber	_	_	_	_	_
+10-7	995-1001	dengan	_	_	_	_	_
+10-8	1002-1009	bayaran	_	_	_	_	_
+10-9	1010-1019	tertinggi	_	_	_	_	_
+10-10	1020-1021	,	_	_	_	_	_
+10-11	1022-1028	dengan	_	_	_	_	_
+10-12	1029-1040	penghasilan	_	_	_	_	_
+10-13	1041-1044	US$	_	_	_	_	_
+10-14	1045-1047	54	_	_	_	_	_
+10-15	1048-1052	juta	_	_	_	_	_
+10-16	1053-1057	atau	_	_	_	_	_
+10-17	1058-1065	sekitar	_	_	_	_	_
+10-18	1066-1068	Rp	_	_	_	_	_
+10-19	1069-1072	775	_	_	_	_	_
+10-20	1073-1079	miliar	_	_	_	_	_
+10-21	1080-1081	(	_	_	_	_	_
+10-22	1082-1086	kurs	_	_	_	_	_
+10-23	1087-1093	14.352	_	_	_	_	_
+10-24	1094-1095	/	_	_	_	_	_
+10-25	1096-1099	USD	_	_	_	_	_
+10-26	1100-1101	)	_	_	_	_	_
+10-27	1102-1103	.	_	_	_	_	_
+
+#Text=Dengan pendapatan nya ini , dia resmi mengambil alih posisi YouTuber berusia 10 tahun , Ryan Kanji , yang biasanya berada di posisi teratas .
+11-1	1105-1111	Dengan	_	_	_	_	_
+11-2	1112-1122	pendapatan	_	_	_	_	_
+11-3	1123-1126	nya	_	_	_	_	_
+11-4	1127-1130	ini	_	_	_	_	_
+11-5	1131-1132	,	_	_	_	_	_
+11-6	1133-1136	dia	_	_	_	_	_
+11-7	1137-1142	resmi	_	_	_	_	_
+11-8	1143-1152	mengambil	_	_	_	_	_
+11-9	1153-1157	alih	_	_	_	_	_
+11-10	1158-1164	posisi	_	_	_	_	_
+11-11	1165-1173	YouTuber	_	_	_	_	_
+11-12	1174-1181	berusia	_	_	_	_	_
+11-13	1182-1184	10	_	_	_	_	_
+11-14	1185-1190	tahun	_	_	_	_	_
+11-15	1191-1192	,	_	_	_	_	_
+11-16	1193-1197	Ryan	_	_	_	_	_
+11-17	1198-1203	Kanji	_	_	_	_	_
+11-18	1204-1205	,	_	_	_	_	_
+11-19	1206-1210	yang	_	_	_	_	_
+11-20	1211-1219	biasanya	_	_	_	_	_
+11-21	1220-1226	berada	_	_	_	_	_
+11-22	1227-1229	di	_	_	_	_	_
+11-23	1230-1236	posisi	_	_	_	_	_
+11-24	1237-1244	teratas	_	_	_	_	_
+11-25	1245-1246	.	_	_	_	_	_
+
+#Text=2 .
+12-1	1248-1249	2	_	_	_	_	_
+12-2	1250-1251	.	_	_	_	_	_
+
+#Text=Jake Paul Jake Paul adalah seorang petinju profesional yang memulai karir nya di YouTube dengan membuat sketsa komedi dan vlogging tentang berbagai aspek kehidupan nya .
+13-1	1253-1257	Jake	_	_	_	_	_
+13-2	1258-1262	Paul	_	_	_	_	_
+13-3	1263-1267	Jake	_	_	_	_	_
+13-4	1268-1272	Paul	_	_	_	_	_
+13-5	1273-1279	adalah	_	_	_	_	_
+13-6	1280-1287	seorang	_	_	_	_	_
+13-7	1288-1295	petinju	_	_	_	_	_
+13-8	1296-1307	profesional	_	_	_	_	_
+13-9	1308-1312	yang	_	_	_	_	_
+13-10	1313-1320	memulai	_	_	_	_	_
+13-11	1321-1326	karir	_	_	_	_	_
+13-12	1327-1330	nya	_	_	_	_	_
+13-13	1331-1333	di	_	_	_	_	_
+13-14	1334-1341	YouTube	_	_	_	_	_
+13-15	1342-1348	dengan	_	_	_	_	_
+13-16	1349-1356	membuat	_	_	_	_	_
+13-17	1357-1363	sketsa	_	_	_	_	_
+13-18	1364-1370	komedi	_	_	_	_	_
+13-19	1371-1374	dan	_	_	_	_	_
+13-20	1375-1383	vlogging	_	_	_	_	_
+13-21	1384-1391	tentang	_	_	_	_	_
+13-22	1392-1400	berbagai	_	_	_	_	_
+13-23	1401-1406	aspek	_	_	_	_	_
+13-24	1407-1416	kehidupan	_	_	_	_	_
+13-25	1417-1420	nya	_	_	_	_	_
+13-26	1421-1422	.	_	_	_	_	_
+
+#Text=Paul berada di urutan ke-2 dalam daftar YouTuber dengan bayaran tertinggi dengan 20 juta pengikut .
+14-1	1424-1428	Paul	_	_	_	_	_
+14-2	1429-1435	berada	_	_	_	_	_
+14-3	1436-1438	di	_	_	_	_	_
+14-4	1439-1445	urutan	_	_	_	_	_
+14-5	1446-1450	ke-2	_	_	_	_	_
+14-6	1451-1456	dalam	_	_	_	_	_
+14-7	1457-1463	daftar	_	_	_	_	_
+14-8	1464-1472	YouTuber	_	_	_	_	_
+14-9	1473-1479	dengan	_	_	_	_	_
+14-10	1480-1487	bayaran	_	_	_	_	_
+14-11	1488-1497	tertinggi	_	_	_	_	_
+14-12	1498-1504	dengan	_	_	_	_	_
+14-13	1505-1507	20	_	_	_	_	_
+14-14	1508-1512	juta	_	_	_	_	_
+14-15	1513-1521	pengikut	_	_	_	_	_
+14-16	1522-1523	.	_	_	_	_	_
+
+#Text=Menarik nya , Paul pernah di-demonetisasi oleh YouTube pada tahun 2017 karena video kontroversial saudara laki-laki nya , Logan Paul , yang juga seorang seorang Youtuber .
+15-1	1525-1532	Menarik	_	_	_	_	_
+15-2	1533-1536	nya	_	_	_	_	_
+15-3	1537-1538	,	_	_	_	_	_
+15-4	1539-1543	Paul	_	_	_	_	_
+15-5	1544-1550	pernah	_	_	_	_	_
+15-6	1551-1566	di-demonetisasi	_	_	_	_	_
+15-7	1567-1571	oleh	_	_	_	_	_
+15-8	1572-1579	YouTube	_	_	_	_	_
+15-9	1580-1584	pada	_	_	_	_	_
+15-10	1585-1590	tahun	_	_	_	_	_
+15-11	1591-1595	2017	_	_	_	_	_
+15-12	1596-1602	karena	_	_	_	_	_
+15-13	1603-1608	video	_	_	_	_	_
+15-14	1609-1622	kontroversial	_	_	_	_	_
+15-15	1623-1630	saudara	_	_	_	_	_
+15-16	1631-1640	laki-laki	_	_	_	_	_
+15-17	1641-1644	nya	_	_	_	_	_
+15-18	1645-1646	,	_	_	_	_	_
+15-19	1647-1652	Logan	_	_	_	_	_
+15-20	1653-1657	Paul	_	_	_	_	_
+15-21	1658-1659	,	_	_	_	_	_
+15-22	1660-1664	yang	_	_	_	_	_
+15-23	1665-1669	juga	_	_	_	_	_
+15-24	1670-1677	seorang	_	_	_	_	_
+15-25	1678-1685	seorang	_	_	_	_	_
+15-26	1686-1694	Youtuber	_	_	_	_	_
+15-27	1695-1696	.	_	_	_	_	_
+
+#Text=Sekarang , meskipun dia sudah bisa meraup penghasilan lagi dari iklan YouTube , Paul tidak seaktif dulu .
+16-1	1698-1706	Sekarang	_	_	_	_	_
+16-2	1707-1708	,	_	_	_	_	_
+16-3	1709-1717	meskipun	_	_	_	_	_
+16-4	1718-1721	dia	_	_	_	_	_
+16-5	1722-1727	sudah	_	positive[4]	_	_	_
+16-6	1728-1732	bisa	_	positive[4]	_	_	_
+16-7	1733-1739	meraup	_	positive[4]	_	_	_
+16-8	1740-1751	penghasilan	_	positive[4]	_	_	_
+16-9	1752-1756	lagi	_	_	_	_	_
+16-10	1757-1761	dari	_	_	_	_	_
+16-11	1762-1767	iklan	_	concept[5]	_	_	_
+16-12	1768-1775	YouTube	_	concept[5]	_	_	_
+16-13	1776-1777	,	_	_	_	_	_
+16-14	1778-1782	Paul	_	_	_	_	_
+16-15	1783-1788	tidak	_	_	_	_	_
+16-16	1789-1796	seaktif	_	_	_	_	_
+16-17	1797-1801	dulu	_	_	_	_	_
+16-18	1802-1803	.	_	_	_	_	_
+
+#Text=Meski demikian , ia tetap mengantongi US$ 45 juta atau sekitar Rp 645 miliar sepanjang tahun lalu .
+17-1	1805-1810	Meski	_	_	_	_	_
+17-2	1811-1819	demikian	_	_	_	_	_
+17-3	1820-1821	,	_	_	_	_	_
+17-4	1822-1824	ia	_	_	_	_	_
+17-5	1825-1830	tetap	_	_	_	_	_
+17-6	1831-1842	mengantongi	_	_	_	_	_
+17-7	1843-1846	US$	_	_	_	_	_
+17-8	1847-1849	45	_	_	_	_	_
+17-9	1850-1854	juta	_	_	_	_	_
+17-10	1855-1859	atau	_	_	_	_	_
+17-11	1860-1867	sekitar	_	_	_	_	_
+17-12	1868-1870	Rp	_	_	_	_	_
+17-13	1871-1874	645	_	_	_	_	_
+17-14	1875-1881	miliar	_	_	_	_	_
+17-15	1882-1891	sepanjang	_	_	_	_	_
+17-16	1892-1897	tahun	_	_	_	_	_
+17-17	1898-1902	lalu	_	_	_	_	_
+17-18	1903-1904	.	_	_	_	_	_
+
+#Text=3 .
+18-1	1906-1907	3	_	_	_	_	_
+18-2	1908-1909	.	_	_	_	_	_
+
+#Text=Mark Edward Fischbach Dikenal di internet sebagai Markiplier , Mark menghibur 31,5 juta pengikut nya dengan sketsa komedi , parodi animasi , dan video game .
+19-1	1911-1915	Mark	_	_	_	_	_
+19-2	1916-1922	Edward	_	_	_	_	_
+19-3	1923-1932	Fischbach	_	_	_	_	_
+19-4	1933-1940	Dikenal	_	_	_	_	_
+19-5	1941-1943	di	_	_	_	_	_
+19-6	1944-1952	internet	_	_	_	_	_
+19-7	1953-1960	sebagai	_	_	_	_	_
+19-8	1961-1971	Markiplier	_	_	_	_	_
+19-9	1972-1973	,	_	_	_	_	_
+19-10	1974-1978	Mark	_	_	_	_	_
+19-11	1979-1988	menghibur	_	_	_	_	_
+19-12	1989-1993	31,5	_	_	_	_	_
+19-13	1994-1998	juta	_	_	_	_	_
+19-14	1999-2007	pengikut	_	_	_	_	_
+19-15	2008-2011	nya	_	_	_	_	_
+19-16	2012-2018	dengan	_	_	_	_	_
+19-17	2019-2025	sketsa	_	_	_	_	_
+19-18	2026-2032	komedi	_	_	_	_	_
+19-19	2033-2034	,	_	_	_	_	_
+19-20	2035-2041	parodi	_	_	_	_	_
+19-21	2042-2049	animasi	_	_	_	_	_
+19-22	2050-2051	,	_	_	_	_	_
+19-23	2052-2055	dan	_	_	_	_	_
+19-24	2056-2061	video	_	_	_	_	_
+19-25	2062-2066	game	_	_	_	_	_
+19-26	2067-2068	.	_	_	_	_	_
+
+#Text=Sebagian besar pendapatan nya berasal dari skill marketing nya yang luar biasa .
+20-1	2070-2078	Sebagian	_	_	_	_	_
+20-2	2079-2084	besar	_	_	_	_	_
+20-3	2085-2095	pendapatan	_	_	_	_	_
+20-4	2096-2099	nya	_	_	_	_	_
+20-5	2100-2107	berasal	_	_	_	_	_
+20-6	2108-2112	dari	_	_	_	_	_
+20-7	2113-2118	skill	_	concept[6]	_	_	_
+20-8	2119-2128	marketing	_	concept[6]	_	_	_
+20-9	2129-2132	nya	_	concept[6]	_	_	_
+20-10	2133-2137	yang	_	_	_	_	_
+20-11	2138-2142	luar	_	positive[7]	_	_	_
+20-12	2143-2148	biasa	_	positive[7]	_	_	_
+20-13	2149-2150	.	_	_	_	_	_
+
+#Text=Mark berhasil menjual banyak merchandise , mulai dari t - shirt , hoodies , dan barang dagangan lainnya yang semakin menambah pundi-pundi kekayaan nya .
+21-1	2152-2156	Mark	_	_	_	_	_
+21-2	2157-2165	berhasil	_	positive[8]	_	_	_
+21-3	2166-2173	menjual	_	concept[9]	_	_	_
+21-4	2174-2180	banyak	_	_	_	_	_
+21-5	2181-2192	merchandise	_	_	_	_	_
+21-6	2193-2194	,	_	_	_	_	_
+21-7	2195-2200	mulai	_	_	_	_	_
+21-8	2201-2205	dari	_	_	_	_	_
+21-9	2206-2207	t	_	_	_	_	_
+21-10	2208-2209	-	_	_	_	_	_
+21-11	2210-2215	shirt	_	_	_	_	_
+21-12	2216-2217	,	_	_	_	_	_
+21-13	2218-2225	hoodies	_	_	_	_	_
+21-14	2226-2227	,	_	_	_	_	_
+21-15	2228-2231	dan	_	_	_	_	_
+21-16	2232-2238	barang	_	_	_	_	_
+21-17	2239-2247	dagangan	_	_	_	_	_
+21-18	2248-2255	lainnya	_	_	_	_	_
+21-19	2256-2260	yang	_	_	_	_	_
+21-20	2261-2268	semakin	_	positive[10]	_	_	_
+21-21	2269-2277	menambah	_	positive[10]	_	_	_
+21-22	2278-2289	pundi-pundi	_	positive[10]	_	_	_
+21-23	2290-2298	kekayaan	_	positive[10]	_	_	_
+21-24	2299-2302	nya	_	positive[10]	_	_	_
+21-25	2303-2304	.	_	_	_	_	_
+
+#Text=Sepanjang tahun 2021 , Mark berhasil mengantongi US$ 38 juta atau sekitar Rp545miliar .
+22-1	2306-2315	Sepanjang	_	_	_	_	_
+22-2	2316-2321	tahun	_	_	_	_	_
+22-3	2322-2326	2021	_	_	_	_	_
+22-4	2327-2328	,	_	_	_	_	_
+22-5	2329-2333	Mark	_	_	_	_	_
+22-6	2334-2342	berhasil	_	_	_	_	_
+22-7	2343-2354	mengantongi	_	_	_	_	_
+22-8	2355-2358	US$	_	_	_	_	_
+22-9	2359-2361	38	_	_	_	_	_
+22-10	2362-2366	juta	_	_	_	_	_
+22-11	2367-2371	atau	_	_	_	_	_
+22-12	2372-2379	sekitar	_	_	_	_	_
+22-13	2380-2391	Rp545miliar	_	_	_	_	_
+22-14	2392-2393	.	_	_	_	_	_
+
+#Text=Meskipun acara kolaborasi nya dengan sesama YouTuber Ethan Nestor - Darling dibatalkan , merchandise untuk acara tersebut terus terjual .
+23-1	2395-2403	Meskipun	_	_	_	_	_
+23-2	2404-2409	acara	_	_	_	_	_
+23-3	2410-2420	kolaborasi	_	_	_	_	_
+23-4	2421-2424	nya	_	_	_	_	_
+23-5	2425-2431	dengan	_	_	_	_	_
+23-6	2432-2438	sesama	_	_	_	_	_
+23-7	2439-2447	YouTuber	_	_	_	_	_
+23-8	2448-2453	Ethan	_	_	_	_	_
+23-9	2454-2460	Nestor	_	_	_	_	_
+23-10	2461-2462	-	_	_	_	_	_
+23-11	2463-2470	Darling	_	_	_	_	_
+23-12	2471-2481	dibatalkan	_	_	_	_	_
+23-13	2482-2483	,	_	_	_	_	_
+23-14	2484-2495	merchandise	_	_	_	_	_
+23-15	2496-2501	untuk	_	_	_	_	_
+23-16	2502-2507	acara	_	_	_	_	_
+23-17	2508-2516	tersebut	_	_	_	_	_
+23-18	2517-2522	terus	_	_	_	_	_
+23-19	2523-2530	terjual	_	_	_	_	_
+23-20	2531-2532	.	_	_	_	_	_
+
+#Text=4 .
+24-1	2534-2535	4	_	_	_	_	_
+24-2	2536-2537	.	_	_	_	_	_
+
+#Text=Rhett dan Link Duo YouTuber Rhett dan Link menghasilkan US$ 30 juta atau sekitar Rp 430 miliar dari mengunggah video mencicipi makanan aneh sampai menggelar adu menyanyi lagu rap .
+25-1	2539-2544	Rhett	_	_	_	_	_
+25-2	2545-2548	dan	_	_	_	_	_
+25-3	2549-2553	Link	_	_	_	_	_
+25-4	2554-2557	Duo	_	_	_	_	_
+25-5	2558-2566	YouTuber	_	_	_	_	_
+25-6	2567-2572	Rhett	_	_	_	_	_
+25-7	2573-2576	dan	_	_	_	_	_
+25-8	2577-2581	Link	_	_	_	_	_
+25-9	2582-2594	menghasilkan	_	_	_	_	_
+25-10	2595-2598	US$	_	_	_	_	_
+25-11	2599-2601	30	_	_	_	_	_
+25-12	2602-2606	juta	_	_	_	_	_
+25-13	2607-2611	atau	_	_	_	_	_
+25-14	2612-2619	sekitar	_	_	_	_	_
+25-15	2620-2622	Rp	_	_	_	_	_
+25-16	2623-2626	430	_	_	_	_	_
+25-17	2627-2633	miliar	_	_	_	_	_
+25-18	2634-2638	dari	_	_	_	_	_
+25-19	2639-2649	mengunggah	_	_	_	_	_
+25-20	2650-2655	video	_	_	_	_	_
+25-21	2656-2665	mencicipi	_	_	_	_	_
+25-22	2666-2673	makanan	_	_	_	_	_
+25-23	2674-2678	aneh	_	_	_	_	_
+25-24	2679-2685	sampai	_	_	_	_	_
+25-25	2686-2695	menggelar	_	_	_	_	_
+25-26	2696-2699	adu	_	_	_	_	_
+25-27	2700-2708	menyanyi	_	_	_	_	_
+25-28	2709-2713	lagu	_	_	_	_	_
+25-29	2714-2717	rap	_	_	_	_	_
+25-30	2718-2719	.	_	_	_	_	_
+
+#Text=Mereka pertama kali memulai karir di YouTube dengan talk show berjudul Good Mythical Morning , yang membahas segala hal mulai dari tren makanan hingga krisis internet .
+26-1	2721-2727	Mereka	_	_	_	_	_
+26-2	2728-2735	pertama	_	_	_	_	_
+26-3	2736-2740	kali	_	_	_	_	_
+26-4	2741-2748	memulai	_	_	_	_	_
+26-5	2749-2754	karir	_	_	_	_	_
+26-6	2755-2757	di	_	_	_	_	_
+26-7	2758-2765	YouTube	_	_	_	_	_
+26-8	2766-2772	dengan	_	_	_	_	_
+26-9	2773-2777	talk	_	_	_	_	_
+26-10	2778-2782	show	_	_	_	_	_
+26-11	2783-2791	berjudul	_	_	_	_	_
+26-12	2792-2796	Good	_	_	_	_	_
+26-13	2797-2805	Mythical	_	_	_	_	_
+26-14	2806-2813	Morning	_	_	_	_	_
+26-15	2814-2815	,	_	_	_	_	_
+26-16	2816-2820	yang	_	_	_	_	_
+26-17	2821-2829	membahas	_	_	_	_	_
+26-18	2830-2836	segala	_	_	_	_	_
+26-19	2837-2840	hal	_	_	_	_	_
+26-20	2841-2846	mulai	_	_	_	_	_
+26-21	2847-2851	dari	_	_	_	_	_
+26-22	2852-2856	tren	_	_	_	_	_
+26-23	2857-2864	makanan	_	_	_	_	_
+26-24	2865-2871	hingga	_	_	_	_	_
+26-25	2872-2878	krisis	_	_	_	_	_
+26-26	2879-2887	internet	_	_	_	_	_
+26-27	2888-2889	.	_	_	_	_	_
+
+#Text=Acara itu lalu viral dan menjadi tuan rumah bagi tamu-tamu istimewa yang membuat duo ini terkenal di internet dan memiliki 10 juta pengikut .
+27-1	2891-2896	Acara	_	_	_	_	_
+27-2	2897-2900	itu	_	_	_	_	_
+27-3	2901-2905	lalu	_	_	_	_	_
+27-4	2906-2911	viral	_	_	_	_	_
+27-5	2912-2915	dan	_	_	_	_	_
+27-6	2916-2923	menjadi	_	_	_	_	_
+27-7	2924-2928	tuan	_	_	_	_	_
+27-8	2929-2934	rumah	_	_	_	_	_
+27-9	2935-2939	bagi	_	_	_	_	_
+27-10	2940-2949	tamu-tamu	_	_	_	_	_
+27-11	2950-2958	istimewa	_	_	_	_	_
+27-12	2959-2963	yang	_	_	_	_	_
+27-13	2964-2971	membuat	_	_	_	_	_
+27-14	2972-2975	duo	_	_	_	_	_
+27-15	2976-2979	ini	_	_	_	_	_
+27-16	2980-2988	terkenal	_	_	_	_	_
+27-17	2989-2991	di	_	_	_	_	_
+27-18	2992-3000	internet	_	_	_	_	_
+27-19	3001-3004	dan	_	_	_	_	_
+27-20	3005-3013	memiliki	_	_	_	_	_
+27-21	3014-3016	10	_	_	_	_	_
+27-22	3017-3021	juta	_	_	_	_	_
+27-23	3022-3030	pengikut	_	_	_	_	_
+27-24	3031-3032	.	_	_	_	_	_
+
+#Text=Tak cuma itu , duo YouTuber ini juga pernah membuat streaming langsung selama dua jam dan berhasil menjual lebih dari 70.000 tiket dengan harga masing-masing US$ 50 .
+28-1	3034-3037	Tak	_	_	_	_	_
+28-2	3038-3042	cuma	_	_	_	_	_
+28-3	3043-3046	itu	_	_	_	_	_
+28-4	3047-3048	,	_	_	_	_	_
+28-5	3049-3052	duo	_	_	_	_	_
+28-6	3053-3061	YouTuber	_	_	_	_	_
+28-7	3062-3065	ini	_	_	_	_	_
+28-8	3066-3070	juga	_	_	_	_	_
+28-9	3071-3077	pernah	_	_	_	_	_
+28-10	3078-3085	membuat	_	_	_	_	_
+28-11	3086-3095	streaming	_	_	_	_	_
+28-12	3096-3104	langsung	_	_	_	_	_
+28-13	3105-3111	selama	_	_	_	_	_
+28-14	3112-3115	dua	_	_	_	_	_
+28-15	3116-3119	jam	_	_	_	_	_
+28-16	3120-3123	dan	_	_	_	_	_
+28-17	3124-3132	berhasil	_	_	_	_	_
+28-18	3133-3140	menjual	_	_	_	_	_
+28-19	3141-3146	lebih	_	_	_	_	_
+28-20	3147-3151	dari	_	_	_	_	_
+28-21	3152-3158	70.000	_	_	_	_	_
+28-22	3159-3164	tiket	_	_	_	_	_
+28-23	3165-3171	dengan	_	_	_	_	_
+28-24	3172-3177	harga	_	_	_	_	_
+28-25	3178-3191	masing-masing	_	_	_	_	_
+28-26	3192-3195	US$	_	_	_	_	_
+28-27	3196-3198	50	_	_	_	_	_
+28-28	3199-3200	.	_	_	_	_	_
+
+#Text=5 .
+29-1	3202-3203	5	_	_	_	_	_
+29-2	3204-3205	.	_	_	_	_	_
+
+#Text=Nathan Dikenal dengan nama Unspeakable di YouTube , Nathan membuat dan berbagi video tentang game , tantangan , dan komedi untuk menghibur pengikut nya yang saat ini berjumlah lebih dari 1 juta orang .
+30-1	3207-3213	Nathan	_	_	_	_	_
+30-2	3214-3221	Dikenal	_	_	_	_	_
+30-3	3222-3228	dengan	_	_	_	_	_
+30-4	3229-3233	nama	_	_	_	_	_
+30-5	3234-3245	Unspeakable	_	_	_	_	_
+30-6	3246-3248	di	_	_	_	_	_
+30-7	3249-3256	YouTube	_	_	_	_	_
+30-8	3257-3258	,	_	_	_	_	_
+30-9	3259-3265	Nathan	_	_	_	_	_
+30-10	3266-3273	membuat	_	_	_	_	_
+30-11	3274-3277	dan	_	_	_	_	_
+30-12	3278-3285	berbagi	_	_	_	_	_
+30-13	3286-3291	video	_	_	_	_	_
+30-14	3292-3299	tentang	_	_	_	_	_
+30-15	3300-3304	game	_	_	_	_	_
+30-16	3305-3306	,	_	_	_	_	_
+30-17	3307-3316	tantangan	_	_	_	_	_
+30-18	3317-3318	,	_	_	_	_	_
+30-19	3319-3322	dan	_	_	_	_	_
+30-20	3323-3329	komedi	_	_	_	_	_
+30-21	3330-3335	untuk	_	_	_	_	_
+30-22	3336-3345	menghibur	_	_	_	_	_
+30-23	3346-3354	pengikut	_	_	_	_	_
+30-24	3355-3358	nya	_	_	_	_	_
+30-25	3359-3363	yang	_	_	_	_	_
+30-26	3364-3368	saat	_	_	_	_	_
+30-27	3369-3372	ini	_	_	_	_	_
+30-28	3373-3382	berjumlah	_	_	_	_	_
+30-29	3383-3388	lebih	_	_	_	_	_
+30-30	3389-3393	dari	_	_	_	_	_
+30-31	3394-3395	1	_	_	_	_	_
+30-32	3396-3400	juta	_	_	_	_	_
+30-33	3401-3406	orang	_	_	_	_	_
+30-34	3407-3408	.	_	_	_	_	_
+
+#Text=Salah satu video nya yang viral adalah video yang menunjukkan Nathan mengisi rumah dengan salju dan kamar dengan buaya .
+31-1	3410-3415	Salah	_	_	_	_	_
+31-2	3416-3420	satu	_	_	_	_	_
+31-3	3421-3426	video	_	_	_	_	_
+31-4	3427-3430	nya	_	_	_	_	_
+31-5	3431-3435	yang	_	_	_	_	_
+31-6	3436-3441	viral	_	_	_	_	_
+31-7	3442-3448	adalah	_	_	_	_	_
+31-8	3449-3454	video	_	_	_	_	_
+31-9	3455-3459	yang	_	_	_	_	_
+31-10	3460-3471	menunjukkan	_	_	_	_	_
+31-11	3472-3478	Nathan	_	_	_	_	_
+31-12	3479-3486	mengisi	_	_	_	_	_
+31-13	3487-3492	rumah	_	_	_	_	_
+31-14	3493-3499	dengan	_	_	_	_	_
+31-15	3500-3505	salju	_	_	_	_	_
+31-16	3506-3509	dan	_	_	_	_	_
+31-17	3510-3515	kamar	_	_	_	_	_
+31-18	3516-3522	dengan	_	_	_	_	_
+31-19	3523-3528	buaya	_	_	_	_	_
+31-20	3529-3530	.	_	_	_	_	_
+
+#Text=Dari ketenaran nya di YouTube , Nathan mendapat US$ 28,5 juta atau sekitar Rp 409 miliar .
+32-1	3532-3536	Dari	_	_	_	_	_
+32-2	3537-3546	ketenaran	_	_	_	_	_
+32-3	3547-3550	nya	_	_	_	_	_
+32-4	3551-3553	di	_	_	_	_	_
+32-5	3554-3561	YouTube	_	_	_	_	_
+32-6	3562-3563	,	_	_	_	_	_
+32-7	3564-3570	Nathan	_	_	_	_	_
+32-8	3571-3579	mendapat	_	_	_	_	_
+32-9	3580-3583	US$	_	_	_	_	_
+32-10	3584-3588	28,5	_	_	_	_	_
+32-11	3589-3593	juta	_	_	_	_	_
+32-12	3594-3598	atau	_	_	_	_	_
+32-13	3599-3606	sekitar	_	_	_	_	_
+32-14	3607-3609	Rp	_	_	_	_	_
+32-15	3610-3613	409	_	_	_	_	_
+32-16	3614-3620	miliar	_	_	_	_	_
+32-17	3621-3622	.	_	_	_	_	_
+
+#Text=6 .
+33-1	3624-3625	6	_	_	_	_	_
+33-2	3626-3627	.	_	_	_	_	_
+
+#Text=Anastasia Yuryevna Radzinskaya Akun ' Like Nastya ' mula nya adalah channel yang berisi unboxing mainan , namun sekarang berkembang menjadi salah satu saluran YouTube anak-anak terbesar di dunia .
+34-1	3629-3638	Anastasia	_	_	_	_	_
+34-2	3639-3647	Yuryevna	_	_	_	_	_
+34-3	3648-3659	Radzinskaya	_	_	_	_	_
+34-4	3660-3664	Akun	_	_	_	_	_
+34-5	3665-3666	'	_	_	_	_	_
+34-6	3667-3671	Like	_	_	_	_	_
+34-7	3672-3678	Nastya	_	_	_	_	_
+34-8	3679-3680	'	_	_	_	_	_
+34-9	3681-3685	mula	_	_	_	_	_
+34-10	3686-3689	nya	_	_	_	_	_
+34-11	3690-3696	adalah	_	_	_	_	_
+34-12	3697-3704	channel	_	_	_	_	_
+34-13	3705-3709	yang	_	_	_	_	_
+34-14	3710-3716	berisi	_	_	_	_	_
+34-15	3717-3725	unboxing	_	_	_	_	_
+34-16	3726-3732	mainan	_	_	_	_	_
+34-17	3733-3734	,	_	_	_	_	_
+34-18	3735-3740	namun	_	_	_	_	_
+34-19	3741-3749	sekarang	_	_	_	_	_
+34-20	3750-3760	berkembang	_	_	_	_	_
+34-21	3761-3768	menjadi	_	_	_	_	_
+34-22	3769-3774	salah	_	_	_	_	_
+34-23	3775-3779	satu	_	_	_	_	_
+34-24	3780-3787	saluran	_	_	_	_	_
+34-25	3788-3795	YouTube	_	_	_	_	_
+34-26	3796-3805	anak-anak	_	_	_	_	_
+34-27	3806-3814	terbesar	_	_	_	_	_
+34-28	3815-3817	di	_	_	_	_	_
+34-29	3818-3823	dunia	_	_	_	_	_
+34-30	3824-3825	.	_	_	_	_	_
+
+#Text=Bintang YouTube berusia tujuh tahun ini sering berbagi video tentang bagaimana menavigasi kehidupan di sekolah , menghabiskan waktu sendirian di rumah , dan belajar tentang panca indera .
+35-1	3827-3834	Bintang	_	_	_	_	_
+35-2	3835-3842	YouTube	_	_	_	_	_
+35-3	3843-3850	berusia	_	_	_	_	_
+35-4	3851-3856	tujuh	_	_	_	_	_
+35-5	3857-3862	tahun	_	_	_	_	_
+35-6	3863-3866	ini	_	_	_	_	_
+35-7	3867-3873	sering	_	_	_	_	_
+35-8	3874-3881	berbagi	_	_	_	_	_
+35-9	3882-3887	video	_	_	_	_	_
+35-10	3888-3895	tentang	_	_	_	_	_
+35-11	3896-3905	bagaimana	_	_	_	_	_
+35-12	3906-3916	menavigasi	_	_	_	_	_
+35-13	3917-3926	kehidupan	_	_	_	_	_
+35-14	3927-3929	di	_	_	_	_	_
+35-15	3930-3937	sekolah	_	_	_	_	_
+35-16	3938-3939	,	_	_	_	_	_
+35-17	3940-3952	menghabiskan	_	_	_	_	_
+35-18	3953-3958	waktu	_	_	_	_	_
+35-19	3959-3968	sendirian	_	_	_	_	_
+35-20	3969-3971	di	_	_	_	_	_
+35-21	3972-3977	rumah	_	_	_	_	_
+35-22	3978-3979	,	_	_	_	_	_
+35-23	3980-3983	dan	_	_	_	_	_
+35-24	3984-3991	belajar	_	_	_	_	_
+35-25	3992-3999	tentang	_	_	_	_	_
+35-26	4000-4005	panca	_	_	_	_	_
+35-27	4006-4012	indera	_	_	_	_	_
+35-28	4013-4014	.	_	_	_	_	_
+
+#Text=Gadis kecil ini memiliki 85 juta pengikut .
+36-1	4016-4021	Gadis	_	_	_	_	_
+36-2	4022-4027	kecil	_	_	_	_	_
+36-3	4028-4031	ini	_	_	_	_	_
+36-4	4032-4040	memiliki	_	_	_	_	_
+36-5	4041-4043	85	_	_	_	_	_
+36-6	4044-4048	juta	_	_	_	_	_
+36-7	4049-4057	pengikut	_	_	_	_	_
+36-8	4058-4059	.	_	_	_	_	_
+
+#Text=Anastasia dilaporkan menghasilkan US$ 28 juta atau sekitar Rp 401 miliar sepanjang tahun lalu .
+37-1	4061-4070	Anastasia	_	_	_	_	_
+37-2	4071-4081	dilaporkan	_	_	_	_	_
+37-3	4082-4094	menghasilkan	_	_	_	_	_
+37-4	4095-4098	US$	_	_	_	_	_
+37-5	4099-4101	28	_	_	_	_	_
+37-6	4102-4106	juta	_	_	_	_	_
+37-7	4107-4111	atau	_	_	_	_	_
+37-8	4112-4119	sekitar	_	_	_	_	_
+37-9	4120-4122	Rp	_	_	_	_	_
+37-10	4123-4126	401	_	_	_	_	_
+37-11	4127-4133	miliar	_	_	_	_	_
+37-12	4134-4143	sepanjang	_	_	_	_	_
+37-13	4144-4149	tahun	_	_	_	_	_
+37-14	4150-4154	lalu	_	_	_	_	_
+37-15	4155-4156	.	_	_	_	_	_
+
+#Text=7 .
+38-1	4158-4159	7	_	_	_	_	_
+38-2	4160-4161	.	_	_	_	_	_
+
+#Text=Ryan Kaji YouTuber muda lainnya yang memulai karir nya pada usia empat tahun adalah Ryan Kaji .
+39-1	4163-4167	Ryan	_	_	_	_	_
+39-2	4168-4172	Kaji	_	_	_	_	_
+39-3	4173-4181	YouTuber	_	_	_	_	_
+39-4	4182-4186	muda	_	_	_	_	_
+39-5	4187-4194	lainnya	_	_	_	_	_
+39-6	4195-4199	yang	_	_	_	_	_
+39-7	4200-4207	memulai	_	_	_	_	_
+39-8	4208-4213	karir	_	_	_	_	_
+39-9	4214-4217	nya	_	_	_	_	_
+39-10	4218-4222	pada	_	_	_	_	_
+39-11	4223-4227	usia	_	_	_	_	_
+39-12	4228-4233	empat	_	_	_	_	_
+39-13	4234-4239	tahun	_	_	_	_	_
+39-14	4240-4246	adalah	_	_	_	_	_
+39-15	4247-4251	Ryan	_	_	_	_	_
+39-16	4252-4256	Kaji	_	_	_	_	_
+39-17	4257-4258	.	_	_	_	_	_
+
+#Text=Ia memulai karir di YouTube dengan mengulas mainan dan bermain dengan mainan nya .
+40-1	4260-4262	Ia	_	_	_	_	_
+40-2	4263-4270	memulai	_	_	_	_	_
+40-3	4271-4276	karir	_	_	_	_	_
+40-4	4277-4279	di	_	_	_	_	_
+40-5	4280-4287	YouTube	_	_	_	_	_
+40-6	4288-4294	dengan	_	_	_	_	_
+40-7	4295-4303	mengulas	_	_	_	_	_
+40-8	4304-4310	mainan	_	_	_	_	_
+40-9	4311-4314	dan	_	_	_	_	_
+40-10	4315-4322	bermain	_	_	_	_	_
+40-11	4323-4329	dengan	_	_	_	_	_
+40-12	4330-4336	mainan	_	_	_	_	_
+40-13	4337-4340	nya	_	_	_	_	_
+40-14	4341-4342	.	_	_	_	_	_
+
+#Text=Ryan sekarang membuat video tentang eksperimen sains dan tantangan-tantangan unik .
+41-1	4344-4348	Ryan	_	_	_	_	_
+41-2	4349-4357	sekarang	_	_	_	_	_
+41-3	4358-4365	membuat	_	_	_	_	_
+41-4	4366-4371	video	_	_	_	_	_
+41-5	4372-4379	tentang	_	_	_	_	_
+41-6	4380-4390	eksperimen	_	_	_	_	_
+41-7	4391-4396	sains	_	_	_	_	_
+41-8	4397-4400	dan	_	_	_	_	_
+41-9	4401-4420	tantangan-tantangan	_	_	_	_	_
+41-10	4421-4425	unik	_	_	_	_	_
+41-11	4426-4427	.	_	_	_	_	_
+
+#Text=Karena kepopuleran nya , Ryan bahkan sudah memiliki produk mainan nya sendiri .
+42-1	4429-4435	Karena	_	_	_	_	_
+42-2	4436-4447	kepopuleran	_	_	_	_	_
+42-3	4448-4451	nya	_	_	_	_	_
+42-4	4452-4453	,	_	_	_	_	_
+42-5	4454-4458	Ryan	_	_	_	_	_
+42-6	4459-4465	bahkan	_	_	_	_	_
+42-7	4466-4471	sudah	_	_	_	_	_
+42-8	4472-4480	memiliki	_	_	_	_	_
+42-9	4481-4487	produk	_	_	_	_	_
+42-10	4488-4494	mainan	_	_	_	_	_
+42-11	4495-4498	nya	_	_	_	_	_
+42-12	4499-4506	sendiri	_	_	_	_	_
+42-13	4507-4508	.	_	_	_	_	_
+
+#Text=Memiliki 31 juta pengikut di YouTube , dia dilaporkan mendapat US$ 27 juta atau Rp 387 miliar .
+43-1	4510-4518	Memiliki	_	_	_	_	_
+43-2	4519-4521	31	_	_	_	_	_
+43-3	4522-4526	juta	_	_	_	_	_
+43-4	4527-4535	pengikut	_	_	_	_	_
+43-5	4536-4538	di	_	_	_	_	_
+43-6	4539-4546	YouTube	_	_	_	_	_
+43-7	4547-4548	,	_	_	_	_	_
+43-8	4549-4552	dia	_	_	_	_	_
+43-9	4553-4563	dilaporkan	_	_	_	_	_
+43-10	4564-4572	mendapat	_	_	_	_	_
+43-11	4573-4576	US$	_	_	_	_	_
+43-12	4577-4579	27	_	_	_	_	_
+43-13	4580-4584	juta	_	_	_	_	_
+43-14	4585-4589	atau	_	_	_	_	_
+43-15	4590-4592	Rp	_	_	_	_	_
+43-16	4593-4596	387	_	_	_	_	_
+43-17	4597-4603	miliar	_	_	_	_	_
+43-18	4604-4605	.	_	_	_	_	_
+
+#Text=8 .
+44-1	4607-4608	8	_	_	_	_	_
+44-2	4609-4610	.	_	_	_	_	_
+
+#Text=Coby and Cory Cotton , Garrett Hilbert , Cody Jones , and Tyler Toney Grup komedi Dude Perfect , yang dibintangi oleh si kembar Coby dan Cory Cotton , Garrett Hilbert , Cody Jones , dan Tyler Toney memiliki 57 juta pengikut di YouTube .
+45-1	4612-4616	Coby	_	_	_	_	_
+45-2	4617-4620	and	_	_	_	_	_
+45-3	4621-4625	Cory	_	_	_	_	_
+45-4	4626-4632	Cotton	_	_	_	_	_
+45-5	4633-4634	,	_	_	_	_	_
+45-6	4635-4642	Garrett	_	_	_	_	_
+45-7	4643-4650	Hilbert	_	_	_	_	_
+45-8	4651-4652	,	_	_	_	_	_
+45-9	4653-4657	Cody	_	_	_	_	_
+45-10	4658-4663	Jones	_	_	_	_	_
+45-11	4664-4665	,	_	_	_	_	_
+45-12	4666-4669	and	_	_	_	_	_
+45-13	4670-4675	Tyler	_	_	_	_	_
+45-14	4676-4681	Toney	_	_	_	_	_
+45-15	4682-4686	Grup	_	_	_	_	_
+45-16	4687-4693	komedi	_	_	_	_	_
+45-17	4694-4698	Dude	_	_	_	_	_
+45-18	4699-4706	Perfect	_	_	_	_	_
+45-19	4707-4708	,	_	_	_	_	_
+45-20	4709-4713	yang	_	_	_	_	_
+45-21	4714-4724	dibintangi	_	_	_	_	_
+45-22	4725-4729	oleh	_	_	_	_	_
+45-23	4730-4732	si	_	_	_	_	_
+45-24	4733-4739	kembar	_	_	_	_	_
+45-25	4740-4744	Coby	_	_	_	_	_
+45-26	4745-4748	dan	_	_	_	_	_
+45-27	4749-4753	Cory	_	_	_	_	_
+45-28	4754-4760	Cotton	_	_	_	_	_
+45-29	4761-4762	,	_	_	_	_	_
+45-30	4763-4770	Garrett	_	_	_	_	_
+45-31	4771-4778	Hilbert	_	_	_	_	_
+45-32	4779-4780	,	_	_	_	_	_
+45-33	4781-4785	Cody	_	_	_	_	_
+45-34	4786-4791	Jones	_	_	_	_	_
+45-35	4792-4793	,	_	_	_	_	_
+45-36	4794-4797	dan	_	_	_	_	_
+45-37	4798-4803	Tyler	_	_	_	_	_
+45-38	4804-4809	Toney	_	_	_	_	_
+45-39	4810-4818	memiliki	_	_	_	_	_
+45-40	4819-4821	57	_	_	_	_	_
+45-41	4822-4826	juta	_	_	_	_	_
+45-42	4827-4835	pengikut	_	_	_	_	_
+45-43	4836-4838	di	_	_	_	_	_
+45-44	4839-4846	YouTube	_	_	_	_	_
+45-45	4847-4848	.	_	_	_	_	_
+
+#Text=Di platform itu , mereka sering berbagi video tentang hal-hal berbahaya seperti berjalan di atas sayap pesawat di tengah penerbangan .
+46-1	4850-4852	Di	_	_	_	_	_
+46-2	4853-4861	platform	_	_	_	_	_
+46-3	4862-4865	itu	_	_	_	_	_
+46-4	4866-4867	,	_	_	_	_	_
+46-5	4868-4874	mereka	_	_	_	_	_
+46-6	4875-4881	sering	_	_	_	_	_
+46-7	4882-4889	berbagi	_	_	_	_	_
+46-8	4890-4895	video	_	_	_	_	_
+46-9	4896-4903	tentang	_	_	_	_	_
+46-10	4904-4911	hal-hal	_	_	_	_	_
+46-11	4912-4921	berbahaya	_	_	_	_	_
+46-12	4922-4929	seperti	_	_	_	_	_
+46-13	4930-4938	berjalan	_	_	_	_	_
+46-14	4939-4941	di	_	_	_	_	_
+46-15	4942-4946	atas	_	_	_	_	_
+46-16	4947-4952	sayap	_	_	_	_	_
+46-17	4953-4960	pesawat	_	_	_	_	_
+46-18	4961-4963	di	_	_	_	_	_
+46-19	4964-4970	tengah	_	_	_	_	_
+46-20	4971-4982	penerbangan	_	_	_	_	_
+46-21	4983-4984	.	_	_	_	_	_
+
+#Text=Karena kesuksesan video-video mereka , grup ini sukses menghasilkan US$ 20 juta atau sekitar Rp 287 miliar tahun lalu .
+47-1	4986-4992	Karena	_	_	_	_	_
+47-2	4993-5003	kesuksesan	_	positive[11]	_	_	_
+47-3	5004-5015	video-video	_	concept[12]	_	_	_
+47-4	5016-5022	mereka	_	_	_	_	_
+47-5	5023-5024	,	_	_	_	_	_
+47-6	5025-5029	grup	_	_	_	_	_
+47-7	5030-5033	ini	_	_	_	_	_
+47-8	5034-5040	sukses	_	positive[13]	_	_	_
+47-9	5041-5053	menghasilkan	_	positive[13]	_	_	_
+47-10	5054-5057	US$	_	positive[13]	_	_	_
+47-11	5058-5060	20	_	positive[13]	_	_	_
+47-12	5061-5065	juta	_	positive[13]	_	_	_
+47-13	5066-5070	atau	_	_	_	_	_
+47-14	5071-5078	sekitar	_	_	_	_	_
+47-15	5079-5081	Rp	_	_	_	_	_
+47-16	5082-5085	287	_	_	_	_	_
+47-17	5086-5092	miliar	_	_	_	_	_
+47-18	5093-5098	tahun	_	_	_	_	_
+47-19	5099-5103	lalu	_	_	_	_	_
+47-20	5104-5105	.	_	_	_	_	_
+
+#Text=9 .
+48-1	5107-5108	9	_	_	_	_	_
+48-2	5109-5110	.	_	_	_	_	_
+
+#Text=Logan Paul Kakak laki-laki Jake Paul , Logan Paul , membuat comeback tahun ini setelah video kontroversi nya di tahun 2017 .
+49-1	5112-5117	Logan	_	_	_	_	_
+49-2	5118-5122	Paul	_	_	_	_	_
+49-3	5123-5128	Kakak	_	_	_	_	_
+49-4	5129-5138	laki-laki	_	_	_	_	_
+49-5	5139-5143	Jake	_	_	_	_	_
+49-6	5144-5148	Paul	_	_	_	_	_
+49-7	5149-5150	,	_	_	_	_	_
+49-8	5151-5156	Logan	_	_	_	_	_
+49-9	5157-5161	Paul	_	_	_	_	_
+49-10	5162-5163	,	_	_	_	_	_
+49-11	5164-5171	membuat	_	_	_	_	_
+49-12	5172-5180	comeback	_	_	_	_	_
+49-13	5181-5186	tahun	_	_	_	_	_
+49-14	5187-5190	ini	_	_	_	_	_
+49-15	5191-5198	setelah	_	_	_	_	_
+49-16	5199-5204	video	_	_	_	_	_
+49-17	5205-5216	kontroversi	_	_	_	_	_
+49-18	5217-5220	nya	_	_	_	_	_
+49-19	5221-5223	di	_	_	_	_	_
+49-20	5224-5229	tahun	_	_	_	_	_
+49-21	5230-5234	2017	_	_	_	_	_
+49-22	5235-5236	.	_	_	_	_	_
+
+#Text=Lebih dari 23 juta pengikut Logan Paul senang menonton video nya yang membahas kartu Pokemon dan mendengarkan musik nya .
+50-1	5238-5243	Lebih	_	_	_	_	_
+50-2	5244-5248	dari	_	_	_	_	_
+50-3	5249-5251	23	_	_	_	_	_
+50-4	5252-5256	juta	_	_	_	_	_
+50-5	5257-5265	pengikut	_	_	_	_	_
+50-6	5266-5271	Logan	_	_	_	_	_
+50-7	5272-5276	Paul	_	_	_	_	_
+50-8	5277-5283	senang	_	_	_	_	_
+50-9	5284-5292	menonton	_	_	_	_	_
+50-10	5293-5298	video	_	_	_	_	_
+50-11	5299-5302	nya	_	_	_	_	_
+50-12	5303-5307	yang	_	_	_	_	_
+50-13	5308-5316	membahas	_	_	_	_	_
+50-14	5317-5322	kartu	_	_	_	_	_
+50-15	5323-5330	Pokemon	_	_	_	_	_
+50-16	5331-5334	dan	_	_	_	_	_
+50-17	5335-5347	mendengarkan	_	_	_	_	_
+50-18	5348-5353	musik	_	_	_	_	_
+50-19	5354-5357	nya	_	_	_	_	_
+50-20	5358-5359	.	_	_	_	_	_
+
+#Text=Paul juga berinvestasi di NFT dan memiliki podcast berjudul Impaulsive .
+51-1	5361-5365	Paul	_	_	_	_	_
+51-2	5366-5370	juga	_	_	_	_	_
+51-3	5371-5383	berinvestasi	_	_	_	_	_
+51-4	5384-5386	di	_	_	_	_	_
+51-5	5387-5390	NFT	_	_	_	_	_
+51-6	5391-5394	dan	_	_	_	_	_
+51-7	5395-5403	memiliki	_	_	_	_	_
+51-8	5404-5411	podcast	_	_	_	_	_
+51-9	5412-5420	berjudul	_	_	_	_	_
+51-10	5421-5431	Impaulsive	_	_	_	_	_
+51-11	5432-5433	.	_	_	_	_	_
+
+#Text=Ia dilaporkan memiliki penghasilan US$ 18 juta atau sekitar Rp 258 miliar .
+52-1	5435-5437	Ia	_	_	_	_	_
+52-2	5438-5448	dilaporkan	_	_	_	_	_
+52-3	5449-5457	memiliki	_	_	_	_	_
+52-4	5458-5469	penghasilan	_	_	_	_	_
+52-5	5470-5473	US$	_	_	_	_	_
+52-6	5474-5476	18	_	_	_	_	_
+52-7	5477-5481	juta	_	_	_	_	_
+52-8	5482-5486	atau	_	_	_	_	_
+52-9	5487-5494	sekitar	_	_	_	_	_
+52-10	5495-5497	Rp	_	_	_	_	_
+52-11	5498-5501	258	_	_	_	_	_
+52-12	5502-5508	miliar	_	_	_	_	_
+52-13	5509-5510	.	_	_	_	_	_
+
+#Text=10 .
+53-1	5512-5514	10	_	_	_	_	_
+53-2	5515-5516	.	_	_	_	_	_
+
+#Text=Preston Arsement Di urutan terakhir ada Preston Arsement dengan akun YouTube PrestonPlayz .
+54-1	5518-5525	Preston	_	_	_	_	_
+54-2	5526-5534	Arsement	_	_	_	_	_
+54-3	5535-5537	Di	_	_	_	_	_
+54-4	5538-5544	urutan	_	_	_	_	_
+54-5	5545-5553	terakhir	_	_	_	_	_
+54-6	5554-5557	ada	_	_	_	_	_
+54-7	5558-5565	Preston	_	_	_	_	_
+54-8	5566-5574	Arsement	_	_	_	_	_
+54-9	5575-5581	dengan	_	_	_	_	_
+54-10	5582-5586	akun	_	_	_	_	_
+54-11	5587-5594	YouTube	_	_	_	_	_
+54-12	5595-5607	PrestonPlayz	_	_	_	_	_
+54-13	5608-5609	.	_	_	_	_	_
+
+#Text=YouTuber satu ini sering membuat content yang memainkan video game , terutama minecraft untuk 12 juta pengikut nya .
+55-1	5611-5619	YouTuber	_	_	_	_	_
+55-2	5620-5624	satu	_	_	_	_	_
+55-3	5625-5628	ini	_	_	_	_	_
+55-4	5629-5635	sering	_	_	_	_	_
+55-5	5636-5643	membuat	_	_	_	_	_
+55-6	5644-5651	content	_	_	_	_	_
+55-7	5652-5656	yang	_	_	_	_	_
+55-8	5657-5666	memainkan	_	_	_	_	_
+55-9	5667-5672	video	_	_	_	_	_
+55-10	5673-5677	game	_	_	_	_	_
+55-11	5678-5679	,	_	_	_	_	_
+55-12	5680-5688	terutama	_	_	_	_	_
+55-13	5689-5698	minecraft	_	_	_	_	_
+55-14	5699-5704	untuk	_	_	_	_	_
+55-15	5705-5707	12	_	_	_	_	_
+55-16	5708-5712	juta	_	_	_	_	_
+55-17	5713-5721	pengikut	_	_	_	_	_
+55-18	5722-5725	nya	_	_	_	_	_
+55-19	5726-5727	.	_	_	_	_	_
+
+#Text=Ia juga pandai menarik perhatian penonton dengan membuat konten dengan tema yang lagi viral seperti Squid Game .
+56-1	5729-5731	Ia	_	_	_	_	_
+56-2	5732-5736	juga	_	_	_	_	_
+56-3	5737-5743	pandai	_	_	_	_	_
+56-4	5744-5751	menarik	_	_	_	_	_
+56-5	5752-5761	perhatian	_	_	_	_	_
+56-6	5762-5770	penonton	_	_	_	_	_
+56-7	5771-5777	dengan	_	_	_	_	_
+56-8	5778-5785	membuat	_	_	_	_	_
+56-9	5786-5792	konten	_	_	_	_	_
+56-10	5793-5799	dengan	_	_	_	_	_
+56-11	5800-5804	tema	_	_	_	_	_
+56-12	5805-5809	yang	_	_	_	_	_
+56-13	5810-5814	lagi	_	_	_	_	_
+56-14	5815-5820	viral	_	_	_	_	_
+56-15	5821-5828	seperti	_	_	_	_	_
+56-16	5829-5834	Squid	_	_	_	_	_
+56-17	5835-5839	Game	_	_	_	_	_
+56-18	5840-5841	.	_	_	_	_	_
+
+#Text=Tahun lalu , Preston menghasilkan US$ 16 juta atau sekitar Rp 229 miliar .
+57-1	5843-5848	Tahun	_	_	_	_	_
+57-2	5849-5853	lalu	_	_	_	_	_
+57-3	5854-5855	,	_	_	_	_	_
+57-4	5856-5863	Preston	_	_	_	_	_
+57-5	5864-5876	menghasilkan	_	_	_	_	_
+57-6	5877-5880	US$	_	_	_	_	_
+57-7	5881-5883	16	_	_	_	_	_
+57-8	5884-5888	juta	_	_	_	_	_
+57-9	5889-5893	atau	_	_	_	_	_
+57-10	5894-5901	sekitar	_	_	_	_	_
+57-11	5902-5904	Rp	_	_	_	_	_
+57-12	5905-5908	229	_	_	_	_	_
+57-13	5909-5915	miliar	_	_	_	_	_
+57-14	5916-5917	.	_	_	_	_	_
+

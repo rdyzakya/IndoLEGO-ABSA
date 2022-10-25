@@ -1,0 +1,46 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Koordinator Ppkm Jawa Bali , Luhut Binsar Pandjaitan , memberi lampu hijau bagi masyarakat untuk melakukan mobilitas di fasilitas umum , tanpa kekhawatiran di tengah pandemi Covid - 19 .
+1-1	0-11	Koordinator	_	_	_	_	_
+1-2	12-16	Ppkm	_	_	_	_	_
+1-3	17-21	Jawa	_	_	_	_	_
+1-4	22-26	Bali	_	_	_	_	_
+1-5	27-28	,	_	_	_	_	_
+1-6	29-34	Luhut	_	_	_	_	_
+1-7	35-41	Binsar	_	_	_	_	_
+1-8	42-52	Pandjaitan	_	_	_	_	_
+1-9	53-54	,	_	_	_	_	_
+1-10	55-62	memberi	_	_	_	_	_
+1-11	63-68	lampu	_	_	_	_	_
+1-12	69-74	hijau	_	_	_	_	_
+1-13	75-79	bagi	_	_	_	_	_
+1-14	80-90	masyarakat	_	_	_	_	_
+1-15	91-96	untuk	_	_	_	_	_
+1-16	97-106	melakukan	_	_	_	_	_
+1-17	107-116	mobilitas	_	_	_	_	_
+1-18	117-119	di	_	_	_	_	_
+1-19	120-129	fasilitas	_	_	_	_	_
+1-20	130-134	umum	_	_	_	_	_
+1-21	135-136	,	_	_	_	_	_
+1-22	137-142	tanpa	_	_	_	_	_
+1-23	143-155	kekhawatiran	_	_	_	_	_
+1-24	156-158	di	_	_	_	_	_
+1-25	159-165	tengah	_	_	_	_	_
+1-26	166-173	pandemi	_	_	_	_	_
+1-27	174-179	Covid	_	_	_	_	_
+1-28	180-181	-	_	_	_	_	_
+1-29	182-184	19	_	_	_	_	_
+1-30	185-186	.	_	_	_	_	_
+
+#Text=Namun Luhut mewanti-wanti agar masyarakat tetap menjaga protokol kesehatan .
+2-1	188-193	Namun	_	_	_	_	_
+2-2	194-199	Luhut	_	_	_	_	_
+2-3	200-213	mewanti-wanti	_	_	_	_	_
+2-4	214-218	agar	_	_	_	_	_
+2-5	219-229	masyarakat	_	_	_	_	_
+2-6	230-235	tetap	_	_	_	_	_
+2-7	236-243	menjaga	_	_	_	_	_
+2-8	244-252	protokol	_	_	_	_	_
+2-9	253-262	kesehatan	_	_	_	_	_
+2-10	263-264	.	_	_	_	_	_
+

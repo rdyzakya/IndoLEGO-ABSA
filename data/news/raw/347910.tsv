@@ -1,0 +1,784 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Jakarta , CNBC Indonesia - Kepopuleran Metaverse memang tidak terbantahkan lagi .
+1-1	0-7	Jakarta	_	_	_	_	_
+1-2	8-9	,	_	_	_	_	_
+1-3	10-14	CNBC	_	_	_	_	_
+1-4	15-24	Indonesia	_	_	_	_	_
+1-5	25-26	-	_	_	_	_	_
+1-6	27-38	Kepopuleran	_	_	_	_	_
+1-7	39-48	Metaverse	_	_	_	_	_
+1-8	49-55	memang	_	_	_	_	_
+1-9	56-61	tidak	_	_	_	_	_
+1-10	62-74	terbantahkan	_	_	_	_	_
+1-11	75-79	lagi	_	_	_	_	_
+1-12	80-81	.	_	_	_	_	_
+
+#Text=Bahkan ada sejumlah artis dan perusahaan internasional yang rela membeli tanah di dunia virtual atau mendirikan bisnis di sana .
+2-1	83-89	Bahkan	_	_	_	_	_
+2-2	90-93	ada	_	_	_	_	_
+2-3	94-102	sejumlah	_	_	_	_	_
+2-4	103-108	artis	_	_	_	_	_
+2-5	109-112	dan	_	_	_	_	_
+2-6	113-123	perusahaan	_	_	_	_	_
+2-7	124-137	internasional	_	_	_	_	_
+2-8	138-142	yang	_	_	_	_	_
+2-9	143-147	rela	_	_	_	_	_
+2-10	148-155	membeli	_	_	_	_	_
+2-11	156-161	tanah	_	_	_	_	_
+2-12	162-164	di	_	_	_	_	_
+2-13	165-170	dunia	_	_	_	_	_
+2-14	171-178	virtual	_	_	_	_	_
+2-15	179-183	atau	_	_	_	_	_
+2-16	184-194	mendirikan	_	_	_	_	_
+2-17	195-201	bisnis	_	_	_	_	_
+2-18	202-204	di	_	_	_	_	_
+2-19	205-209	sana	_	_	_	_	_
+2-20	210-211	.	_	_	_	_	_
+
+#Text=Nama-nama seperti Snoop Dogg atau raksasa teknologi Samsung diketahui punya tanah di Metaverse .
+3-1	213-222	Nama-nama	_	_	_	_	_
+3-2	223-230	seperti	_	_	_	_	_
+3-3	231-236	Snoop	_	_	_	_	_
+3-4	237-241	Dogg	_	_	_	_	_
+3-5	242-246	atau	_	_	_	_	_
+3-6	247-254	raksasa	_	_	_	_	_
+3-7	255-264	teknologi	_	_	_	_	_
+3-8	265-272	Samsung	_	_	_	_	_
+3-9	273-282	diketahui	_	_	_	_	_
+3-10	283-288	punya	_	_	_	_	_
+3-11	289-294	tanah	_	_	_	_	_
+3-12	295-297	di	_	_	_	_	_
+3-13	298-307	Metaverse	_	_	_	_	_
+3-14	308-309	.	_	_	_	_	_
+
+#Text=Bahkan harga tanah nya pun mencapai miliaran rupiah .
+4-1	311-317	Bahkan	_	_	_	_	_
+4-2	318-323	harga	_	_	_	_	_
+4-3	324-329	tanah	_	_	_	_	_
+4-4	330-333	nya	_	_	_	_	_
+4-5	334-337	pun	_	_	_	_	_
+4-6	338-346	mencapai	_	_	_	_	_
+4-7	347-355	miliaran	_	_	_	_	_
+4-8	356-362	rupiah	_	_	_	_	_
+4-9	363-364	.	_	_	_	_	_
+
+#Text=Lalu siapa saja yang rela punya tanah dan bangunan di Metaverse ?
+5-1	366-370	Lalu	_	_	_	_	_
+5-2	371-376	siapa	_	_	_	_	_
+5-3	377-381	saja	_	_	_	_	_
+5-4	382-386	yang	_	_	_	_	_
+5-5	387-391	rela	_	_	_	_	_
+5-6	392-397	punya	_	_	_	_	_
+5-7	398-403	tanah	_	_	_	_	_
+5-8	404-407	dan	_	_	_	_	_
+5-9	408-416	bangunan	_	_	_	_	_
+5-10	417-419	di	_	_	_	_	_
+5-11	420-429	Metaverse	_	_	_	_	_
+5-12	430-431	?	_	_	_	_	_
+
+#Text=Berikut daftar nya , dirangkum CNBC Indonesia dari berbagai sumber , Selasa ( 11 / 1 / 2022 ) : 1 .
+6-1	433-440	Berikut	_	_	_	_	_
+6-2	441-447	daftar	_	_	_	_	_
+6-3	448-451	nya	_	_	_	_	_
+6-4	452-453	,	_	_	_	_	_
+6-5	454-463	dirangkum	_	_	_	_	_
+6-6	464-468	CNBC	_	_	_	_	_
+6-7	469-478	Indonesia	_	_	_	_	_
+6-8	479-483	dari	_	_	_	_	_
+6-9	484-492	berbagai	_	_	_	_	_
+6-10	493-499	sumber	_	_	_	_	_
+6-11	500-501	,	_	_	_	_	_
+6-12	502-508	Selasa	_	_	_	_	_
+6-13	509-510	(	_	_	_	_	_
+6-14	511-513	11	_	_	_	_	_
+6-15	514-515	/	_	_	_	_	_
+6-16	516-517	1	_	_	_	_	_
+6-17	518-519	/	_	_	_	_	_
+6-18	520-524	2022	_	_	_	_	_
+6-19	525-526	)	_	_	_	_	_
+6-20	527-528	:	_	_	_	_	_
+6-21	529-530	1	_	_	_	_	_
+6-22	531-532	.	_	_	_	_	_
+
+#Text=Snoop Dogg Snoop Dogg diketahui membangun tempat digital dari rumah nyata nya Diamond Bar California .
+7-1	534-539	Snoop	_	_	_	_	_
+7-2	540-544	Dogg	_	_	_	_	_
+7-3	545-550	Snoop	_	_	_	_	_
+7-4	551-555	Dogg	_	_	_	_	_
+7-5	556-565	diketahui	_	_	_	_	_
+7-6	566-575	membangun	_	_	_	_	_
+7-7	576-582	tempat	_	_	_	_	_
+7-8	583-590	digital	_	_	_	_	_
+7-9	591-595	dari	_	_	_	_	_
+7-10	596-601	rumah	_	_	_	_	_
+7-11	602-607	nyata	_	_	_	_	_
+7-12	608-611	nya	_	_	_	_	_
+7-13	612-619	Diamond	_	_	_	_	_
+7-14	620-623	Bar	_	_	_	_	_
+7-15	624-634	California	_	_	_	_	_
+7-16	635-636	.	_	_	_	_	_
+
+#Text=Di sana akan mengadakan pesta eksklusif untuk anggota .
+8-1	638-640	Di	_	_	_	_	_
+8-2	641-645	sana	_	_	_	_	_
+8-3	646-650	akan	_	_	_	_	_
+8-4	651-661	mengadakan	_	_	_	_	_
+8-5	662-667	pesta	_	_	_	_	_
+8-6	668-677	eksklusif	_	_	_	_	_
+8-7	678-683	untuk	_	_	_	_	_
+8-8	684-691	anggota	_	_	_	_	_
+8-9	692-693	.	_	_	_	_	_
+
+#Text=Di sana juga akan ada tempat musik untuk konser .
+9-1	695-697	Di	_	_	_	_	_
+9-2	698-702	sana	_	_	_	_	_
+9-3	703-707	juga	_	_	_	_	_
+9-4	708-712	akan	_	_	_	_	_
+9-5	713-716	ada	_	_	_	_	_
+9-6	717-723	tempat	_	_	_	_	_
+9-7	724-729	musik	_	_	_	_	_
+9-8	730-735	untuk	_	_	_	_	_
+9-9	736-742	konser	_	_	_	_	_
+9-10	743-744	.	_	_	_	_	_
+
+#Text=Selain itu ada untuk penghuni di mana bisa membuat permainan dan pengalaman sendiri pada plot Snoopverse .
+10-1	746-752	Selain	_	_	_	_	_
+10-2	753-756	itu	_	_	_	_	_
+10-3	757-760	ada	_	_	_	_	_
+10-4	761-766	untuk	_	_	_	_	_
+10-5	767-775	penghuni	_	_	_	_	_
+10-6	776-778	di	_	_	_	_	_
+10-7	779-783	mana	_	_	_	_	_
+10-8	784-788	bisa	_	_	_	_	_
+10-9	789-796	membuat	_	_	_	_	_
+10-10	797-806	permainan	_	_	_	_	_
+10-11	807-810	dan	_	_	_	_	_
+10-12	811-821	pengalaman	_	_	_	_	_
+10-13	822-829	sendiri	_	_	_	_	_
+10-14	830-834	pada	_	_	_	_	_
+10-15	835-839	plot	_	_	_	_	_
+10-16	840-850	Snoopverse	_	_	_	_	_
+10-17	851-852	.	_	_	_	_	_
+
+#Text=Kamu ingin jadi tetangga rapper itu di Metaverse ?
+11-1	854-858	Kamu	_	_	_	_	_
+11-2	859-864	ingin	_	_	_	_	_
+11-3	865-869	jadi	_	_	_	_	_
+11-4	870-878	tetangga	_	_	_	_	_
+11-5	879-885	rapper	_	_	_	_	_
+11-6	886-889	itu	_	_	_	_	_
+11-7	890-892	di	_	_	_	_	_
+11-8	893-902	Metaverse	_	_	_	_	_
+11-9	903-904	?	_	_	_	_	_
+
+#Text=Laman Rolling Stone mencatat , perlu uang US$ 450 ribu atau Rp 6,4 miliar untuk mewujudkan hal tersebut .
+12-1	906-911	Laman	_	_	_	_	_
+12-2	912-919	Rolling	_	_	_	_	_
+12-3	920-925	Stone	_	_	_	_	_
+12-4	926-934	mencatat	_	_	_	_	_
+12-5	935-936	,	_	_	_	_	_
+12-6	937-942	perlu	_	_	_	_	_
+12-7	943-947	uang	_	_	_	_	_
+12-8	948-951	US$	_	_	_	_	_
+12-9	952-955	450	_	_	_	_	_
+12-10	956-960	ribu	_	_	_	_	_
+12-11	961-965	atau	_	_	_	_	_
+12-12	966-968	Rp	_	_	_	_	_
+12-13	969-972	6,4	_	_	_	_	_
+12-14	973-979	miliar	_	_	_	_	_
+12-15	980-985	untuk	_	_	_	_	_
+12-16	986-996	mewujudkan	_	_	_	_	_
+12-17	997-1000	hal	_	_	_	_	_
+12-18	1001-1009	tersebut	_	_	_	_	_
+12-19	1010-1011	.	_	_	_	_	_
+
+#Text=Ini adalah jumlah yang dihabiskan kolektor NFT pada 3 Desember 2021 untuk memiliki sebidang tanah virtual Snoopverse .
+13-1	1013-1016	Ini	_	_	_	_	_
+13-2	1017-1023	adalah	_	_	_	_	_
+13-3	1024-1030	jumlah	_	_	_	_	_
+13-4	1031-1035	yang	_	_	_	_	_
+13-5	1036-1046	dihabiskan	_	_	_	_	_
+13-6	1047-1055	kolektor	_	_	_	_	_
+13-7	1056-1059	NFT	_	_	_	_	_
+13-8	1060-1064	pada	_	_	_	_	_
+13-9	1065-1066	3	_	_	_	_	_
+13-10	1067-1075	Desember	_	_	_	_	_
+13-11	1076-1080	2021	_	_	_	_	_
+13-12	1081-1086	untuk	_	_	_	_	_
+13-13	1087-1095	memiliki	_	_	_	_	_
+13-14	1096-1104	sebidang	_	_	_	_	_
+13-15	1105-1110	tanah	_	_	_	_	_
+13-16	1111-1118	virtual	_	_	_	_	_
+13-17	1119-1129	Snoopverse	_	_	_	_	_
+13-18	1130-1131	.	_	_	_	_	_
+
+#Text=2 .
+14-1	1133-1134	2	_	_	_	_	_
+14-2	1135-1136	.	_	_	_	_	_
+
+#Text=Adidas Merek Adidas juga diketahui membeli sebidang tanah melalui platform Sandbox .
+15-1	1138-1144	Adidas	_	_	_	_	_
+15-2	1145-1150	Merek	_	_	_	_	_
+15-3	1151-1157	Adidas	_	_	_	_	_
+15-4	1158-1162	juga	_	_	_	_	_
+15-5	1163-1172	diketahui	_	_	_	_	_
+15-6	1173-1180	membeli	_	_	_	_	_
+15-7	1181-1189	sebidang	_	_	_	_	_
+15-8	1190-1195	tanah	_	_	_	_	_
+15-9	1196-1203	melalui	_	_	_	_	_
+15-10	1204-1212	platform	_	_	_	_	_
+15-11	1213-1220	Sandbox	_	_	_	_	_
+15-12	1221-1222	.	_	_	_	_	_
+
+#Text=Rolling Stone melaporkan perusahaan membeli 144 plot di platform tersebut .
+16-1	1224-1231	Rolling	_	_	_	_	_
+16-2	1232-1237	Stone	_	_	_	_	_
+16-3	1238-1248	melaporkan	_	_	_	_	_
+16-4	1249-1259	perusahaan	_	_	_	_	_
+16-5	1260-1267	membeli	_	_	_	_	_
+16-6	1268-1271	144	_	_	_	_	_
+16-7	1272-1276	plot	_	_	_	_	_
+16-8	1277-1279	di	_	_	_	_	_
+16-9	1280-1288	platform	_	_	_	_	_
+16-10	1289-1297	tersebut	_	_	_	_	_
+16-11	1298-1299	.	_	_	_	_	_
+
+#Text=Adidas mengonfirmasi kehadiran nya di Metaverse dengan mengunggah tweet pada November lalu dan bertanya apa yang harus dibangun di sana .
+17-1	1301-1307	Adidas	_	_	_	_	_
+17-2	1308-1321	mengonfirmasi	_	_	_	_	_
+17-3	1322-1331	kehadiran	_	_	_	_	_
+17-4	1332-1335	nya	_	_	_	_	_
+17-5	1336-1338	di	_	_	_	_	_
+17-6	1339-1348	Metaverse	_	_	_	_	_
+17-7	1349-1355	dengan	_	_	_	_	_
+17-8	1356-1366	mengunggah	_	_	_	_	_
+17-9	1367-1372	tweet	_	_	_	_	_
+17-10	1373-1377	pada	_	_	_	_	_
+17-11	1378-1386	November	_	_	_	_	_
+17-12	1387-1391	lalu	_	_	_	_	_
+17-13	1392-1395	dan	_	_	_	_	_
+17-14	1396-1404	bertanya	_	_	_	_	_
+17-15	1405-1408	apa	_	_	_	_	_
+17-16	1409-1413	yang	_	_	_	_	_
+17-17	1414-1419	harus	_	_	_	_	_
+17-18	1420-1428	dibangun	_	_	_	_	_
+17-19	1429-1431	di	_	_	_	_	_
+17-20	1432-1436	sana	_	_	_	_	_
+17-21	1437-1438	.	_	_	_	_	_
+
+#Text=" Apa yang harus kita bangun bersama di @TheSandboxGame ? " tulis Adidas .
+18-1	1440-1441	"	_	_	_	_	_
+18-2	1442-1445	Apa	_	_	_	_	_
+18-3	1446-1450	yang	_	_	_	_	_
+18-4	1451-1456	harus	_	_	_	_	_
+18-5	1457-1461	kita	_	_	_	_	_
+18-6	1462-1468	bangun	_	_	_	_	_
+18-7	1469-1476	bersama	_	_	_	_	_
+18-8	1477-1479	di	_	_	_	_	_
+18-9	1480-1495	@TheSandboxGame	_	_	_	_	_
+18-10	1496-1497	?	_	_	_	_	_
+18-11	1498-1499	"	_	_	_	_	_
+18-12	1500-1505	tulis	_	_	_	_	_
+18-13	1506-1512	Adidas	_	_	_	_	_
+18-14	1513-1514	.	_	_	_	_	_
+
+#Text=3 .
+19-1	1516-1517	3	_	_	_	_	_
+19-2	1518-1519	.	_	_	_	_	_
+
+#Text=Samsung Samsung juga tak mau ketinggalan dengan demam Metaverse .
+20-1	1521-1528	Samsung	_	_	_	_	_
+20-2	1529-1536	Samsung	_	_	_	_	_
+20-3	1537-1541	juga	_	_	_	_	_
+20-4	1542-1545	tak	_	_	_	_	_
+20-5	1546-1549	mau	_	_	_	_	_
+20-6	1550-1561	ketinggalan	_	_	_	_	_
+20-7	1562-1568	dengan	_	_	_	_	_
+20-8	1569-1574	demam	_	_	_	_	_
+20-9	1575-1584	Metaverse	_	_	_	_	_
+20-10	1585-1586	.	_	_	_	_	_
+
+#Text=Raksasa teknologi Korea Selatan itu membuka versi digital dari toko nya di New York bernama Samsung 837X .
+21-1	1588-1595	Raksasa	_	_	_	_	_
+21-2	1596-1605	teknologi	_	_	_	_	_
+21-3	1606-1611	Korea	_	_	_	_	_
+21-4	1612-1619	Selatan	_	_	_	_	_
+21-5	1620-1623	itu	_	_	_	_	_
+21-6	1624-1631	membuka	_	_	_	_	_
+21-7	1632-1637	versi	_	_	_	_	_
+21-8	1638-1645	digital	_	_	_	_	_
+21-9	1646-1650	dari	_	_	_	_	_
+21-10	1651-1655	toko	_	_	_	_	_
+21-11	1656-1659	nya	_	_	_	_	_
+21-12	1660-1662	di	_	_	_	_	_
+21-13	1663-1666	New	_	_	_	_	_
+21-14	1667-1671	York	_	_	_	_	_
+21-15	1672-1679	bernama	_	_	_	_	_
+21-16	1680-1687	Samsung	_	_	_	_	_
+21-17	1688-1692	837X	_	_	_	_	_
+21-18	1693-1694	.	_	_	_	_	_
+
+#Text=Perusahaan itu bermitra dengan Decentraland , sebuah platform dunia virtual berbasis ethereum .
+22-1	1696-1706	Perusahaan	_	_	_	_	_
+22-2	1707-1710	itu	_	_	_	_	_
+22-3	1711-1719	bermitra	_	_	_	_	_
+22-4	1720-1726	dengan	_	_	_	_	_
+22-5	1727-1739	Decentraland	_	_	_	_	_
+22-6	1740-1741	,	_	_	_	_	_
+22-7	1742-1748	sebuah	_	_	_	_	_
+22-8	1749-1757	platform	_	_	_	_	_
+22-9	1758-1763	dunia	_	_	_	_	_
+22-10	1764-1771	virtual	_	_	_	_	_
+22-11	1772-1780	berbasis	_	_	_	_	_
+22-12	1781-1789	ethereum	_	_	_	_	_
+22-13	1790-1791	.	_	_	_	_	_
+
+#Text=Orang yang ingin berpartisipasi harus masuk ke Decenraland melalui browser desktop sebelum bisa membeli dan menjual aset digital eksklusif .
+23-1	1793-1798	Orang	_	_	_	_	_
+23-2	1799-1803	yang	_	_	_	_	_
+23-3	1804-1809	ingin	_	_	_	_	_
+23-4	1810-1824	berpartisipasi	_	_	_	_	_
+23-5	1825-1830	harus	_	_	_	_	_
+23-6	1831-1836	masuk	_	_	_	_	_
+23-7	1837-1839	ke	_	_	_	_	_
+23-8	1840-1851	Decenraland	_	_	_	_	_
+23-9	1852-1859	melalui	_	_	_	_	_
+23-10	1860-1867	browser	_	_	_	_	_
+23-11	1868-1875	desktop	_	_	_	_	_
+23-12	1876-1883	sebelum	_	_	_	_	_
+23-13	1884-1888	bisa	_	_	_	_	_
+23-14	1889-1896	membeli	_	_	_	_	_
+23-15	1897-1900	dan	_	_	_	_	_
+23-16	1901-1908	menjual	_	_	_	_	_
+23-17	1909-1913	aset	_	_	_	_	_
+23-18	1914-1921	digital	_	_	_	_	_
+23-19	1922-1931	eksklusif	_	_	_	_	_
+23-20	1932-1933	.	_	_	_	_	_
+
+#Text=Saat masuk , avatar pengguna akan berada di luar gedung Metaverse Samsung .
+24-1	1935-1939	Saat	_	_	_	_	_
+24-2	1940-1945	masuk	_	_	_	_	_
+24-3	1946-1947	,	_	_	_	_	_
+24-4	1948-1954	avatar	_	_	_	_	_
+24-5	1955-1963	pengguna	_	_	_	_	_
+24-6	1964-1968	akan	_	_	_	_	_
+24-7	1969-1975	berada	_	_	_	_	_
+24-8	1976-1978	di	_	_	_	_	_
+24-9	1979-1983	luar	_	_	_	_	_
+24-10	1984-1990	gedung	_	_	_	_	_
+24-11	1991-2000	Metaverse	_	_	_	_	_
+24-12	2001-2008	Samsung	_	_	_	_	_
+24-13	2009-2010	.	_	_	_	_	_
+
+#Text=Saat masuk ke lobi akan ada pemandu virtual untuk mengarahkan virtual , dilansir dari Business Insider .
+25-1	2012-2016	Saat	_	_	_	_	_
+25-2	2017-2022	masuk	_	_	_	_	_
+25-3	2023-2025	ke	_	_	_	_	_
+25-4	2026-2030	lobi	_	_	_	_	_
+25-5	2031-2035	akan	_	_	_	_	_
+25-6	2036-2039	ada	_	_	_	_	_
+25-7	2040-2047	pemandu	_	_	_	_	_
+25-8	2048-2055	virtual	_	_	_	_	_
+25-9	2056-2061	untuk	_	_	_	_	_
+25-10	2062-2073	mengarahkan	_	_	_	_	_
+25-11	2074-2081	virtual	_	_	_	_	_
+25-12	2082-2083	,	_	_	_	_	_
+25-13	2084-2092	dilansir	_	_	_	_	_
+25-14	2093-2097	dari	_	_	_	_	_
+25-15	2098-2106	Business	_	_	_	_	_
+25-16	2107-2114	Insider	_	_	_	_	_
+25-17	2115-2116	.	_	_	_	_	_
+
+#Text=4 .
+26-1	2118-2119	4	_	_	_	_	_
+26-2	2120-2121	.	_	_	_	_	_
+
+#Text=PWC Hong Kong PWC Hong Kong juga diketahui memiliki tanah di Metaverse berasal dari platform Sandbox .
+27-1	2123-2126	PWC	_	_	_	_	_
+27-2	2127-2131	Hong	_	_	_	_	_
+27-3	2132-2136	Kong	_	_	_	_	_
+27-4	2137-2140	PWC	_	_	_	_	_
+27-5	2141-2145	Hong	_	_	_	_	_
+27-6	2146-2150	Kong	_	_	_	_	_
+27-7	2151-2155	juga	_	_	_	_	_
+27-8	2156-2165	diketahui	_	_	_	_	_
+27-9	2166-2174	memiliki	_	_	_	_	_
+27-10	2175-2180	tanah	_	_	_	_	_
+27-11	2181-2183	di	_	_	_	_	_
+27-12	2184-2193	Metaverse	_	_	_	_	_
+27-13	2194-2201	berasal	_	_	_	_	_
+27-14	2202-2206	dari	_	_	_	_	_
+27-15	2207-2215	platform	_	_	_	_	_
+27-16	2216-2223	Sandbox	_	_	_	_	_
+27-17	2224-2225	.	_	_	_	_	_
+
+#Text=Pada akhir November lalu , Animoca Brand mengonfirmasi pembelian PWC .
+28-1	2227-2231	Pada	_	_	_	_	_
+28-2	2232-2237	akhir	_	_	_	_	_
+28-3	2238-2246	November	_	_	_	_	_
+28-4	2247-2251	lalu	_	_	_	_	_
+28-5	2252-2253	,	_	_	_	_	_
+28-6	2254-2261	Animoca	_	_	_	_	_
+28-7	2262-2267	Brand	_	_	_	_	_
+28-8	2268-2281	mengonfirmasi	_	_	_	_	_
+28-9	2282-2291	pembelian	_	_	_	_	_
+28-10	2292-2295	PWC	_	_	_	_	_
+28-11	2296-2297	.	_	_	_	_	_
+
+#Text=Mengutip Yahoo Finance , perusahaan itu jadi jaringan layanan profesional internasional pertama dan anggota pertama dari jaringan PWCglobal yang masuk ke Sandbox .
+29-1	2299-2307	Mengutip	_	_	_	_	_
+29-2	2308-2313	Yahoo	_	_	_	_	_
+29-3	2314-2321	Finance	_	_	_	_	_
+29-4	2322-2323	,	_	_	_	_	_
+29-5	2324-2334	perusahaan	_	_	_	_	_
+29-6	2335-2338	itu	_	_	_	_	_
+29-7	2339-2343	jadi	_	_	_	_	_
+29-8	2344-2352	jaringan	_	_	_	_	_
+29-9	2353-2360	layanan	_	_	_	_	_
+29-10	2361-2372	profesional	_	_	_	_	_
+29-11	2373-2386	internasional	_	_	_	_	_
+29-12	2387-2394	pertama	_	_	_	_	_
+29-13	2395-2398	dan	_	_	_	_	_
+29-14	2399-2406	anggota	_	_	_	_	_
+29-15	2407-2414	pertama	_	_	_	_	_
+29-16	2415-2419	dari	_	_	_	_	_
+29-17	2420-2428	jaringan	_	_	_	_	_
+29-18	2429-2438	PWCglobal	_	_	_	_	_
+29-19	2439-2443	yang	_	_	_	_	_
+29-20	2444-2449	masuk	_	_	_	_	_
+29-21	2450-2452	ke	_	_	_	_	_
+29-22	2453-2460	Sandbox	_	_	_	_	_
+29-23	2461-2462	.	_	_	_	_	_
+
+#Text=5 .
+30-1	2464-2465	5	_	_	_	_	_
+30-2	2466-2467	.	_	_	_	_	_
+
+#Text=Prager Metis International Menggunakan platform Decentraland , Prager Metis membuka kantor untuk penasehat dan jasa akuntansi bagi individu dan bisnis .
+31-1	2469-2475	Prager	_	_	_	_	_
+31-2	2476-2481	Metis	_	_	_	_	_
+31-3	2482-2495	International	_	_	_	_	_
+31-4	2496-2507	Menggunakan	_	_	_	_	_
+31-5	2508-2516	platform	_	_	_	_	_
+31-6	2517-2529	Decentraland	_	_	_	_	_
+31-7	2530-2531	,	_	_	_	_	_
+31-8	2532-2538	Prager	_	_	_	_	_
+31-9	2539-2544	Metis	_	_	_	_	_
+31-10	2545-2552	membuka	_	_	_	_	_
+31-11	2553-2559	kantor	_	_	_	_	_
+31-12	2560-2565	untuk	_	_	_	_	_
+31-13	2566-2575	penasehat	_	_	_	_	_
+31-14	2576-2579	dan	_	_	_	_	_
+31-15	2580-2584	jasa	_	_	_	_	_
+31-16	2585-2594	akuntansi	_	_	_	_	_
+31-17	2595-2599	bagi	_	_	_	_	_
+31-18	2600-2608	individu	_	_	_	_	_
+31-19	2609-2612	dan	_	_	_	_	_
+31-20	2613-2619	bisnis	_	_	_	_	_
+31-21	2620-2621	.	_	_	_	_	_
+
+#Text=Dalam laman resmi nya , perusahaan menjelaskan kantor Metaverse berlokasi di koordinat ( 18.144 ) di Decentraland .
+32-1	2623-2628	Dalam	_	_	_	_	_
+32-2	2629-2634	laman	_	_	_	_	_
+32-3	2635-2640	resmi	_	_	_	_	_
+32-4	2641-2644	nya	_	_	_	_	_
+32-5	2645-2646	,	_	_	_	_	_
+32-6	2647-2657	perusahaan	_	_	_	_	_
+32-7	2658-2669	menjelaskan	_	_	_	_	_
+32-8	2670-2676	kantor	_	_	_	_	_
+32-9	2677-2686	Metaverse	_	_	_	_	_
+32-10	2687-2696	berlokasi	_	_	_	_	_
+32-11	2697-2699	di	_	_	_	_	_
+32-12	2700-2709	koordinat	_	_	_	_	_
+32-13	2710-2711	(	_	_	_	_	_
+32-14	2712-2718	18.144	_	_	_	_	_
+32-15	2719-2720	)	_	_	_	_	_
+32-16	2721-2723	di	_	_	_	_	_
+32-17	2724-2736	Decentraland	_	_	_	_	_
+32-18	2737-2738	.	_	_	_	_	_
+
+#Text=CEO Prager Metis , Glenn Friedman mengatakan pembukaan kantor itu sebagai cerminan keyakinan perusahaan jika Metaverse jadi masa depan .
+33-1	2740-2743	CEO	_	_	_	_	_
+33-2	2744-2750	Prager	_	_	_	_	_
+33-3	2751-2756	Metis	_	_	_	_	_
+33-4	2757-2758	,	_	_	_	_	_
+33-5	2759-2764	Glenn	_	_	_	_	_
+33-6	2765-2773	Friedman	_	_	_	_	_
+33-7	2774-2784	mengatakan	_	_	_	_	_
+33-8	2785-2794	pembukaan	_	_	_	_	_
+33-9	2795-2801	kantor	_	_	_	_	_
+33-10	2802-2805	itu	_	_	_	_	_
+33-11	2806-2813	sebagai	_	_	_	_	_
+33-12	2814-2822	cerminan	_	_	_	_	_
+33-13	2823-2832	keyakinan	_	_	_	_	_
+33-14	2833-2843	perusahaan	_	_	_	_	_
+33-15	2844-2848	jika	_	_	_	_	_
+33-16	2849-2858	Metaverse	_	_	_	_	_
+33-17	2859-2863	jadi	_	_	_	_	_
+33-18	2864-2868	masa	_	_	_	_	_
+33-19	2869-2874	depan	_	_	_	_	_
+33-20	2875-2876	.	_	_	_	_	_
+
+#Text=" Kantor pusat Metaverse baru kami akan berfungsi sebagai jembatan antara tradisional dan digital serta menawarkan layanan keuangan dunia nyata ke Metaverse , " jelas nya .
+34-1	2878-2879	"	_	_	_	_	_
+34-2	2880-2886	Kantor	_	_	_	_	_
+34-3	2887-2892	pusat	_	_	_	_	_
+34-4	2893-2902	Metaverse	_	_	_	_	_
+34-5	2903-2907	baru	_	_	_	_	_
+34-6	2908-2912	kami	_	_	_	_	_
+34-7	2913-2917	akan	_	_	_	_	_
+34-8	2918-2927	berfungsi	_	_	_	_	_
+34-9	2928-2935	sebagai	_	_	_	_	_
+34-10	2936-2944	jembatan	_	_	_	_	_
+34-11	2945-2951	antara	_	_	_	_	_
+34-12	2952-2963	tradisional	_	_	_	_	_
+34-13	2964-2967	dan	_	_	_	_	_
+34-14	2968-2975	digital	_	_	_	_	_
+34-15	2976-2981	serta	_	_	_	_	_
+34-16	2982-2992	menawarkan	_	_	_	_	_
+34-17	2993-3000	layanan	_	_	_	_	_
+34-18	3001-3009	keuangan	_	_	_	_	_
+34-19	3010-3015	dunia	_	_	_	_	_
+34-20	3016-3021	nyata	_	_	_	_	_
+34-21	3022-3024	ke	_	_	_	_	_
+34-22	3025-3034	Metaverse	_	_	_	_	_
+34-23	3035-3036	,	_	_	_	_	_
+34-24	3037-3038	"	_	_	_	_	_
+34-25	3039-3044	jelas	_	_	_	_	_
+34-26	3045-3048	nya	_	_	_	_	_
+34-27	3049-3050	.	_	_	_	_	_
+
+#Text=6 .
+35-1	3052-3053	6	_	_	_	_	_
+35-2	3054-3055	.	_	_	_	_	_
+
+#Text=Atari The Wall Street Journal melaporkan Republic Realm membeli tanah di Metaverse milik Atari SA , perusahaan game senilai US$ 4,3 juta ( Rp 61,4 juta ) .
+36-1	3057-3062	Atari	_	_	_	_	_
+36-2	3063-3066	The	_	_	_	_	_
+36-3	3067-3071	Wall	_	_	_	_	_
+36-4	3072-3078	Street	_	_	_	_	_
+36-5	3079-3086	Journal	_	_	_	_	_
+36-6	3087-3097	melaporkan	_	_	_	_	_
+36-7	3098-3106	Republic	_	_	_	_	_
+36-8	3107-3112	Realm	_	_	_	_	_
+36-9	3113-3120	membeli	_	_	_	_	_
+36-10	3121-3126	tanah	_	_	_	_	_
+36-11	3127-3129	di	_	_	_	_	_
+36-12	3130-3139	Metaverse	_	_	_	_	_
+36-13	3140-3145	milik	_	_	_	_	_
+36-14	3146-3151	Atari	_	_	_	_	_
+36-15	3152-3154	SA	_	_	_	_	_
+36-16	3155-3156	,	_	_	_	_	_
+36-17	3157-3167	perusahaan	_	_	_	_	_
+36-18	3168-3172	game	_	_	_	_	_
+36-19	3173-3180	senilai	_	_	_	_	_
+36-20	3181-3184	US$	_	_	_	_	_
+36-21	3185-3188	4,3	_	_	_	_	_
+36-22	3189-3193	juta	_	_	_	_	_
+36-23	3194-3195	(	_	_	_	_	_
+36-24	3196-3198	Rp	_	_	_	_	_
+36-25	3199-3203	61,4	_	_	_	_	_
+36-26	3204-3208	juta	_	_	_	_	_
+36-27	3209-3210	)	_	_	_	_	_
+36-28	3211-3212	.	_	_	_	_	_
+
+#Text=Republic Realm adalah perusahaan yang berinvestasi dan mengembangkan real estate virtual dan aset digital lain .
+37-1	3214-3222	Republic	_	_	_	_	_
+37-2	3223-3228	Realm	_	_	_	_	_
+37-3	3229-3235	adalah	_	_	_	_	_
+37-4	3236-3246	perusahaan	_	_	_	_	_
+37-5	3247-3251	yang	_	_	_	_	_
+37-6	3252-3264	berinvestasi	_	_	_	_	_
+37-7	3265-3268	dan	_	_	_	_	_
+37-8	3269-3282	mengembangkan	_	_	_	_	_
+37-9	3283-3287	real	_	_	_	_	_
+37-10	3288-3294	estate	_	_	_	_	_
+37-11	3295-3302	virtual	_	_	_	_	_
+37-12	3303-3306	dan	_	_	_	_	_
+37-13	3307-3311	aset	_	_	_	_	_
+37-14	3312-3319	digital	_	_	_	_	_
+37-15	3320-3324	lain	_	_	_	_	_
+37-16	3325-3326	.	_	_	_	_	_
+
+#Text=Harga itu lebih tinggi saat Metaverse Group , anak usaha Tokens.com membeli tanah seharga US$ 2,43 juta ( Rp 34,7 juta ) di Decentraland , dikutip Business Insider .
+38-1	3328-3333	Harga	_	_	_	_	_
+38-2	3334-3337	itu	_	_	_	_	_
+38-3	3338-3343	lebih	_	_	_	_	_
+38-4	3344-3350	tinggi	_	_	_	_	_
+38-5	3351-3355	saat	_	_	_	_	_
+38-6	3356-3365	Metaverse	_	_	_	_	_
+38-7	3366-3371	Group	_	_	_	_	_
+38-8	3372-3373	,	_	_	_	_	_
+38-9	3374-3378	anak	_	_	_	_	_
+38-10	3379-3384	usaha	_	_	_	_	_
+38-11	3385-3395	Tokens.com	_	_	_	_	_
+38-12	3396-3403	membeli	_	_	_	_	_
+38-13	3404-3409	tanah	_	_	_	_	_
+38-14	3410-3417	seharga	_	_	_	_	_
+38-15	3418-3421	US$	_	_	_	_	_
+38-16	3422-3426	2,43	_	_	_	_	_
+38-17	3427-3431	juta	_	_	_	_	_
+38-18	3432-3433	(	_	_	_	_	_
+38-19	3434-3436	Rp	_	_	_	_	_
+38-20	3437-3441	34,7	_	_	_	_	_
+38-21	3442-3446	juta	_	_	_	_	_
+38-22	3447-3448	)	_	_	_	_	_
+38-23	3449-3451	di	_	_	_	_	_
+38-24	3452-3464	Decentraland	_	_	_	_	_
+38-25	3465-3466	,	_	_	_	_	_
+38-26	3467-3474	dikutip	_	_	_	_	_
+38-27	3475-3483	Business	_	_	_	_	_
+38-28	3484-3491	Insider	_	_	_	_	_
+38-29	3492-3493	.	_	_	_	_	_
+
+#Text=7 .
+39-1	3495-3496	7	_	_	_	_	_
+39-2	3497-3498	.	_	_	_	_	_
+
+#Text=Huang Artis Huang Heshan memulai nya membuat rumah virtual sebagai proyek seni .
+40-1	3500-3505	Huang	_	_	_	_	_
+40-2	3506-3511	Artis	_	_	_	_	_
+40-3	3512-3517	Huang	_	_	_	_	_
+40-4	3518-3524	Heshan	_	_	_	_	_
+40-5	3525-3532	memulai	_	_	_	_	_
+40-6	3533-3536	nya	_	_	_	_	_
+40-7	3537-3544	membuat	_	_	_	_	_
+40-8	3545-3550	rumah	_	_	_	_	_
+40-9	3551-3558	virtual	_	_	_	_	_
+40-10	3559-3566	sebagai	_	_	_	_	_
+40-11	3567-3573	proyek	_	_	_	_	_
+40-12	3574-3578	seni	_	_	_	_	_
+40-13	3579-3580	.	_	_	_	_	_
+
+#Text=Namun kepopuleran atas properti digital membuat nya menjual obyek tersebut menjadi uang nyata .
+41-1	3582-3587	Namun	_	_	_	_	_
+41-2	3588-3599	kepopuleran	_	_	_	_	_
+41-3	3600-3604	atas	_	_	_	_	_
+41-4	3605-3613	properti	_	_	_	_	_
+41-5	3614-3621	digital	_	_	_	_	_
+41-6	3622-3629	membuat	_	_	_	_	_
+41-7	3630-3633	nya	_	_	_	_	_
+41-8	3634-3641	menjual	_	_	_	_	_
+41-9	3642-3647	obyek	_	_	_	_	_
+41-10	3648-3656	tersebut	_	_	_	_	_
+41-11	3657-3664	menjadi	_	_	_	_	_
+41-12	3665-3669	uang	_	_	_	_	_
+41-13	3670-3675	nyata	_	_	_	_	_
+41-14	3676-3677	.	_	_	_	_	_
+
+#Text=Proyek nya TooRichCity merupakan kota virtual yang dipimpin pria botak setengah baya .
+42-1	3679-3685	Proyek	_	_	_	_	_
+42-2	3686-3689	nya	_	_	_	_	_
+42-3	3690-3701	TooRichCity	_	_	_	_	_
+42-4	3702-3711	merupakan	_	_	_	_	_
+42-5	3712-3716	kota	_	_	_	_	_
+42-6	3717-3724	virtual	_	_	_	_	_
+42-7	3725-3729	yang	_	_	_	_	_
+42-8	3730-3738	dipimpin	_	_	_	_	_
+42-9	3739-3743	pria	_	_	_	_	_
+42-10	3744-3749	botak	_	_	_	_	_
+42-11	3750-3758	setengah	_	_	_	_	_
+42-12	3759-3763	baya	_	_	_	_	_
+42-13	3764-3765	.	_	_	_	_	_
+
+#Text=Banguna nya miring dengan render beton 3D .
+43-1	3767-3774	Banguna	_	concept[1]	_	_	_
+43-2	3775-3778	nya	_	concept[1]	_	_	_
+43-3	3779-3785	miring	_	negative[2]	_	_	_
+43-4	3786-3792	dengan	_	_	_	_	_
+43-5	3793-3799	render	_	_	_	_	_
+43-6	3800-3805	beton	_	_	_	_	_
+43-7	3806-3808	3D	_	_	_	_	_
+43-8	3809-3810	.	_	_	_	_	_
+
+#Text=Pada bulan Juli dia menambahkan sudut Metaverse sambil mempersiapkan acara pembuat konten .
+44-1	3812-3816	Pada	_	_	_	_	_
+44-2	3817-3822	bulan	_	_	_	_	_
+44-3	3823-3827	Juli	_	_	_	_	_
+44-4	3828-3831	dia	_	_	_	_	_
+44-5	3832-3843	menambahkan	_	_	_	_	_
+44-6	3844-3849	sudut	_	_	_	_	_
+44-7	3850-3859	Metaverse	_	_	_	_	_
+44-8	3860-3866	sambil	_	_	_	_	_
+44-9	3867-3880	mempersiapkan	_	_	_	_	_
+44-10	3881-3886	acara	_	_	_	_	_
+44-11	3887-3894	pembuat	_	_	_	_	_
+44-12	3895-3901	konten	_	_	_	_	_
+44-13	3902-3903	.	_	_	_	_	_
+
+#Text=8 .
+45-1	3905-3906	8	_	_	_	_	_
+45-2	3907-3908	.	_	_	_	_	_
+
+#Text=JJ Lin Penyanyi asal Singapura , JJ Lin membeli tanah di Decentraland .
+46-1	3910-3912	JJ	_	_	_	_	_
+46-2	3913-3916	Lin	_	_	_	_	_
+46-3	3917-3925	Penyanyi	_	_	_	_	_
+46-4	3926-3930	asal	_	_	_	_	_
+46-5	3931-3940	Singapura	_	_	_	_	_
+46-6	3941-3942	,	_	_	_	_	_
+46-7	3943-3945	JJ	_	_	_	_	_
+46-8	3946-3949	Lin	_	_	_	_	_
+46-9	3950-3957	membeli	_	_	_	_	_
+46-10	3958-3963	tanah	_	_	_	_	_
+46-11	3964-3966	di	_	_	_	_	_
+46-12	3967-3979	Decentraland	_	_	_	_	_
+46-13	3980-3981	.	_	_	_	_	_
+
+#Text=Dia memegang tiga plot yakni Prime Gallery 1 , Prime Gallery 2 , dan Nearest to Genesis Plaza .
+47-1	3983-3986	Dia	_	_	_	_	_
+47-2	3987-3995	memegang	_	_	_	_	_
+47-3	3996-4000	tiga	_	_	_	_	_
+47-4	4001-4005	plot	_	_	_	_	_
+47-5	4006-4011	yakni	_	_	_	_	_
+47-6	4012-4017	Prime	_	_	_	_	_
+47-7	4018-4025	Gallery	_	_	_	_	_
+47-8	4026-4027	1	_	_	_	_	_
+47-9	4028-4029	,	_	_	_	_	_
+47-10	4030-4035	Prime	_	_	_	_	_
+47-11	4036-4043	Gallery	_	_	_	_	_
+47-12	4044-4045	2	_	_	_	_	_
+47-13	4046-4047	,	_	_	_	_	_
+47-14	4048-4051	dan	_	_	_	_	_
+47-15	4052-4059	Nearest	_	_	_	_	_
+47-16	4060-4062	to	_	_	_	_	_
+47-17	4063-4070	Genesis	_	_	_	_	_
+47-18	4071-4076	Plaza	_	_	_	_	_
+47-19	4077-4078	.	_	_	_	_	_
+
+#Text=Ketiga nya itu dibeli melalui non-fungible token ( NFT ) platform OpenSea , senilai masing-masing 6000 MANA ( kripto Decentraland ) atau sekitar 41 ribu dolar Singapura , dikutip dari laman 99.co .
+48-1	4080-4086	Ketiga	_	_	_	_	_
+48-2	4087-4090	nya	_	_	_	_	_
+48-3	4091-4094	itu	_	_	_	_	_
+48-4	4095-4101	dibeli	_	_	_	_	_
+48-5	4102-4109	melalui	_	_	_	_	_
+48-6	4110-4122	non-fungible	_	_	_	_	_
+48-7	4123-4128	token	_	_	_	_	_
+48-8	4129-4130	(	_	_	_	_	_
+48-9	4131-4134	NFT	_	_	_	_	_
+48-10	4135-4136	)	_	_	_	_	_
+48-11	4137-4145	platform	_	_	_	_	_
+48-12	4146-4153	OpenSea	_	_	_	_	_
+48-13	4154-4155	,	_	_	_	_	_
+48-14	4156-4163	senilai	_	_	_	_	_
+48-15	4164-4177	masing-masing	_	_	_	_	_
+48-16	4178-4182	6000	_	_	_	_	_
+48-17	4183-4187	MANA	_	_	_	_	_
+48-18	4188-4189	(	_	_	_	_	_
+48-19	4190-4196	kripto	_	_	_	_	_
+48-20	4197-4209	Decentraland	_	_	_	_	_
+48-21	4210-4211	)	_	_	_	_	_
+48-22	4212-4216	atau	_	_	_	_	_
+48-23	4217-4224	sekitar	_	_	_	_	_
+48-24	4225-4227	41	_	_	_	_	_
+48-25	4228-4232	ribu	_	_	_	_	_
+48-26	4233-4238	dolar	_	_	_	_	_
+48-27	4239-4248	Singapura	_	_	_	_	_
+48-28	4249-4250	,	_	_	_	_	_
+48-29	4251-4258	dikutip	_	_	_	_	_
+48-30	4259-4263	dari	_	_	_	_	_
+48-31	4264-4269	laman	_	_	_	_	_
+48-32	4270-4275	99.co	_	_	_	_	_
+48-33	4276-4277	.	_	_	_	_	_
+

@@ -1,0 +1,315 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=Buntut perang Rusia vs Ukraina berimbas kepada masa depan Chelsea .
+1-1	0-6	Buntut	_	_	_	_	_
+1-2	7-13	perang	_	_	_	_	_
+1-3	14-19	Rusia	_	_	_	_	_
+1-4	20-22	vs	_	_	_	_	_
+1-5	23-30	Ukraina	_	_	_	_	_
+1-6	31-39	berimbas	_	_	_	_	_
+1-7	40-46	kepada	_	_	_	_	_
+1-8	47-51	masa	_	_	_	_	_
+1-9	52-57	depan	_	_	_	_	_
+1-10	58-65	Chelsea	_	_	_	_	_
+1-11	66-67	.	_	_	_	_	_
+
+#Text=Sang pemilik , Roman Abramovich , diklaim ingin menjual mayoritas saham klub yang langsung ditaksir pengusaha Swiss .
+2-1	69-73	Sang	_	_	_	_	_
+2-2	74-81	pemilik	_	_	_	_	_
+2-3	82-83	,	_	_	_	_	_
+2-4	84-89	Roman	_	_	_	_	_
+2-5	90-100	Abramovich	_	_	_	_	_
+2-6	101-102	,	_	_	_	_	_
+2-7	103-110	diklaim	_	_	_	_	_
+2-8	111-116	ingin	_	_	_	_	_
+2-9	117-124	menjual	_	_	_	_	_
+2-10	125-134	mayoritas	_	_	_	_	_
+2-11	135-140	saham	_	_	_	_	_
+2-12	141-145	klub	_	_	_	_	_
+2-13	146-150	yang	_	_	_	_	_
+2-14	151-159	langsung	_	_	_	_	_
+2-15	160-168	ditaksir	_	_	_	_	_
+2-16	169-178	pengusaha	_	_	_	_	_
+2-17	179-184	Swiss	_	_	_	_	_
+2-18	185-186	.	_	_	_	_	_
+
+#Text=Express melansir , Abramovich mempertimbangkan untuk menjual klub milik nya itu karena terancam disanksi Inggris akibat sejumlah masalah , termasuk invasi Rusia ke Ukraina sejak pekan lalu .
+3-1	188-195	Express	_	_	_	_	_
+3-2	196-204	melansir	_	_	_	_	_
+3-3	205-206	,	_	_	_	_	_
+3-4	207-217	Abramovich	_	_	_	_	_
+3-5	218-234	mempertimbangkan	_	_	_	_	_
+3-6	235-240	untuk	_	_	_	_	_
+3-7	241-248	menjual	_	_	_	_	_
+3-8	249-253	klub	_	_	_	_	_
+3-9	254-259	milik	_	_	_	_	_
+3-10	260-263	nya	_	_	_	_	_
+3-11	264-267	itu	_	_	_	_	_
+3-12	268-274	karena	_	_	_	_	_
+3-13	275-283	terancam	_	_	_	_	_
+3-14	284-292	disanksi	_	_	_	_	_
+3-15	293-300	Inggris	_	_	_	_	_
+3-16	301-307	akibat	_	_	_	_	_
+3-17	308-316	sejumlah	_	_	_	_	_
+3-18	317-324	masalah	_	_	_	_	_
+3-19	325-326	,	_	_	_	_	_
+3-20	327-335	termasuk	_	_	_	_	_
+3-21	336-342	invasi	_	_	_	_	_
+3-22	343-348	Rusia	_	_	_	_	_
+3-23	349-351	ke	_	_	_	_	_
+3-24	352-359	Ukraina	_	_	_	_	_
+3-25	360-365	sejak	_	_	_	_	_
+3-26	366-371	pekan	_	_	_	_	_
+3-27	372-376	lalu	_	_	_	_	_
+3-28	377-378	.	_	_	_	_	_
+
+#Text=Pengusaha asal Rusia tersebut dilaporkan telah berusaha melimpahkan rutinitas harian Chelsea kepada yayasan amal klub .
+4-1	380-389	Pengusaha	_	_	_	_	_
+4-2	390-394	asal	_	_	_	_	_
+4-3	395-400	Rusia	_	_	_	_	_
+4-4	401-409	tersebut	_	_	_	_	_
+4-5	410-420	dilaporkan	_	_	_	_	_
+4-6	421-426	telah	_	_	_	_	_
+4-7	427-435	berusaha	_	_	_	_	_
+4-8	436-447	melimpahkan	_	_	_	_	_
+4-9	448-457	rutinitas	_	_	_	_	_
+4-10	458-464	harian	_	_	_	_	_
+4-11	465-472	Chelsea	_	_	_	_	_
+4-12	473-479	kepada	_	_	_	_	_
+4-13	480-487	yayasan	_	_	_	_	_
+4-14	488-492	amal	_	_	_	_	_
+4-15	493-497	klub	_	_	_	_	_
+4-16	498-499	.	_	_	_	_	_
+
+#Text=Ini dilakukan demi menjaga stabilitas kepengurusan klub jika ia terpaksa hengkang dan menjual saham klub nya .
+5-1	501-504	Ini	_	_	_	_	_
+5-2	505-514	dilakukan	_	_	_	_	_
+5-3	515-519	demi	_	_	_	_	_
+5-4	520-527	menjaga	_	_	_	_	_
+5-5	528-538	stabilitas	_	_	_	_	_
+5-6	539-551	kepengurusan	_	_	_	_	_
+5-7	552-556	klub	_	_	_	_	_
+5-8	557-561	jika	_	_	_	_	_
+5-9	562-564	ia	_	_	_	_	_
+5-10	565-573	terpaksa	_	_	_	_	_
+5-11	574-582	hengkang	_	_	_	_	_
+5-12	583-586	dan	_	_	_	_	_
+5-13	587-594	menjual	_	_	_	_	_
+5-14	595-600	saham	_	_	_	_	_
+5-15	601-605	klub	_	_	_	_	_
+5-16	606-609	nya	_	_	_	_	_
+5-17	610-611	.	_	_	_	_	_
+
+#Text=Gayung bersambut , miliarder Swiss Hansjorg Wyss mengklaim telah ditawari peluang untuk gabung konsorsium seharga 2 miliar poundsterling .
+6-1	613-619	Gayung	_	_	_	_	_
+6-2	620-629	bersambut	_	_	_	_	_
+6-3	630-631	,	_	_	_	_	_
+6-4	632-641	miliarder	_	_	_	_	_
+6-5	642-647	Swiss	_	_	_	_	_
+6-6	648-656	Hansjorg	_	_	_	_	_
+6-7	657-661	Wyss	_	_	_	_	_
+6-8	662-671	mengklaim	_	_	_	_	_
+6-9	672-677	telah	_	_	_	_	_
+6-10	678-686	ditawari	_	_	_	_	_
+6-11	687-694	peluang	_	_	_	_	_
+6-12	695-700	untuk	_	_	_	_	_
+6-13	701-707	gabung	_	_	_	_	_
+6-14	708-718	konsorsium	_	_	_	_	_
+6-15	719-726	seharga	_	_	_	_	_
+6-16	727-728	2	_	_	_	_	_
+6-17	729-735	miliar	_	_	_	_	_
+6-18	736-749	poundsterling	_	_	_	_	_
+6-19	750-751	.	_	_	_	_	_
+
+#Text=Nantinya , Wyss akan bergabung dengan enam hingga tujuh investor lain .
+7-1	753-761	Nantinya	_	_	_	_	_
+7-2	762-763	,	_	_	_	_	_
+7-3	764-768	Wyss	_	_	_	_	_
+7-4	769-773	akan	_	_	_	_	_
+7-5	774-783	bergabung	_	_	_	_	_
+7-6	784-790	dengan	_	_	_	_	_
+7-7	791-795	enam	_	_	_	_	_
+7-8	796-802	hingga	_	_	_	_	_
+7-9	803-808	tujuh	_	_	_	_	_
+7-10	809-817	investor	_	_	_	_	_
+7-11	818-822	lain	_	_	_	_	_
+7-12	823-824	.	_	_	_	_	_
+
+#Text=" Abramovich sedang mencoba untuk menjual semua properti nya di Inggris . Ia juga ingin cepat-cepat menyingkir dari Chelsea , " kata Wyss kepada media Swiss , Blick , yang dilansir Daily Mail .
+8-1	826-827	"	_	_	_	_	_
+8-2	828-838	Abramovich	_	_	_	_	_
+8-3	839-845	sedang	_	_	_	_	_
+8-4	846-853	mencoba	_	_	_	_	_
+8-5	854-859	untuk	_	_	_	_	_
+8-6	860-867	menjual	_	_	_	_	_
+8-7	868-873	semua	_	_	_	_	_
+8-8	874-882	properti	_	_	_	_	_
+8-9	883-886	nya	_	_	_	_	_
+8-10	887-889	di	_	_	_	_	_
+8-11	890-897	Inggris	_	_	_	_	_
+8-12	898-899	.	_	_	_	_	_
+8-13	900-902	Ia	_	_	_	_	_
+8-14	903-907	juga	_	_	_	_	_
+8-15	908-913	ingin	_	_	_	_	_
+8-16	914-925	cepat-cepat	_	_	_	_	_
+8-17	926-936	menyingkir	_	_	_	_	_
+8-18	937-941	dari	_	_	_	_	_
+8-19	942-949	Chelsea	_	_	_	_	_
+8-20	950-951	,	_	_	_	_	_
+8-21	952-953	"	_	_	_	_	_
+8-22	954-958	kata	_	_	_	_	_
+8-23	959-963	Wyss	_	_	_	_	_
+8-24	964-970	kepada	_	_	_	_	_
+8-25	971-976	media	_	_	_	_	_
+8-26	977-982	Swiss	_	_	_	_	_
+8-27	983-984	,	_	_	_	_	_
+8-28	985-990	Blick	_	_	_	_	_
+8-29	991-992	,	_	_	_	_	_
+8-30	993-997	yang	_	_	_	_	_
+8-31	998-1006	dilansir	_	_	_	_	_
+8-32	1007-1012	Daily	_	_	_	_	_
+8-33	1013-1017	Mail	_	_	_	_	_
+8-34	1018-1019	.	_	_	_	_	_
+
+#Text=" Saya dan tiga orang lainnya menerima tawaran pada hari Selasa untuk membeli Chelsea dari Abramovich . Tapi , saya harus menunggu empat sampai lima hari dari sekarang , " sambung pria 86 tahun itu .
+9-1	1021-1022	"	_	_	_	_	_
+9-2	1023-1027	Saya	_	_	_	_	_
+9-3	1028-1031	dan	_	_	_	_	_
+9-4	1032-1036	tiga	_	_	_	_	_
+9-5	1037-1042	orang	_	_	_	_	_
+9-6	1043-1050	lainnya	_	_	_	_	_
+9-7	1051-1059	menerima	_	_	_	_	_
+9-8	1060-1067	tawaran	_	_	_	_	_
+9-9	1068-1072	pada	_	_	_	_	_
+9-10	1073-1077	hari	_	_	_	_	_
+9-11	1078-1084	Selasa	_	_	_	_	_
+9-12	1085-1090	untuk	_	_	_	_	_
+9-13	1091-1098	membeli	_	_	_	_	_
+9-14	1099-1106	Chelsea	_	_	_	_	_
+9-15	1107-1111	dari	_	_	_	_	_
+9-16	1112-1122	Abramovich	_	_	_	_	_
+9-17	1123-1124	.	_	_	_	_	_
+9-18	1125-1129	Tapi	_	_	_	_	_
+9-19	1130-1131	,	_	_	_	_	_
+9-20	1132-1136	saya	_	_	_	_	_
+9-21	1137-1142	harus	_	_	_	_	_
+9-22	1143-1151	menunggu	_	_	_	_	_
+9-23	1152-1157	empat	_	_	_	_	_
+9-24	1158-1164	sampai	_	_	_	_	_
+9-25	1165-1169	lima	_	_	_	_	_
+9-26	1170-1174	hari	_	_	_	_	_
+9-27	1175-1179	dari	_	_	_	_	_
+9-28	1180-1188	sekarang	_	_	_	_	_
+9-29	1189-1190	,	_	_	_	_	_
+9-30	1191-1192	"	_	_	_	_	_
+9-31	1193-1200	sambung	_	_	_	_	_
+9-32	1201-1205	pria	_	_	_	_	_
+9-33	1206-1208	86	_	_	_	_	_
+9-34	1209-1214	tahun	_	_	_	_	_
+9-35	1215-1218	itu	_	_	_	_	_
+9-36	1219-1220	.	_	_	_	_	_
+
+#Text=Wyss juga membeberkan Abramovich meminta harga tinggi kepada para penjual .
+10-1	1222-1226	Wyss	_	_	_	_	_
+10-2	1227-1231	juga	_	_	_	_	_
+10-3	1232-1243	membeberkan	_	_	_	_	_
+10-4	1244-1254	Abramovich	_	concept[1]	_	_	_
+10-5	1255-1262	meminta	_	negative[2]	_	_	_
+10-6	1263-1268	harga	_	negative[2]	_	_	_
+10-7	1269-1275	tinggi	_	negative[2]	_	_	_
+10-8	1276-1282	kepada	_	negative[2]	_	_	_
+10-9	1283-1287	para	_	negative[2]	_	_	_
+10-10	1288-1295	penjual	_	negative[2]	_	_	_
+10-11	1296-1297	.	_	_	_	_	_
+
+#Text=Terlebih saat ini Chelsea masih memiliki utang kepada nya hingga 2 miliar poundstering .
+11-1	1299-1307	Terlebih	_	_	_	_	_
+11-2	1308-1312	saat	_	_	_	_	_
+11-3	1313-1316	ini	_	_	_	_	_
+11-4	1317-1324	Chelsea	_	_	_	_	_
+11-5	1325-1330	masih	_	_	_	_	_
+11-6	1331-1339	memiliki	_	_	_	_	_
+11-7	1340-1345	utang	_	_	_	_	_
+11-8	1346-1352	kepada	_	_	_	_	_
+11-9	1353-1356	nya	_	_	_	_	_
+11-10	1357-1363	hingga	_	_	_	_	_
+11-11	1364-1365	2	_	_	_	_	_
+11-12	1366-1372	miliar	_	_	_	_	_
+11-13	1373-1385	poundstering	_	_	_	_	_
+11-14	1386-1387	.	_	_	_	_	_
+
+#Text=Abramovich adalah miliarder Rusia yang mengakuisisi Chelsea pada 19 tahun lalu .
+12-1	1389-1399	Abramovich	_	_	_	_	_
+12-2	1400-1406	adalah	_	_	_	_	_
+12-3	1407-1416	miliarder	_	_	_	_	_
+12-4	1417-1422	Rusia	_	_	_	_	_
+12-5	1423-1427	yang	_	_	_	_	_
+12-6	1428-1440	mengakuisisi	_	_	_	_	_
+12-7	1441-1448	Chelsea	_	_	_	_	_
+12-8	1449-1453	pada	_	_	_	_	_
+12-9	1454-1456	19	_	_	_	_	_
+12-10	1457-1462	tahun	_	_	_	_	_
+12-11	1463-1467	lalu	_	_	_	_	_
+12-12	1468-1469	.	_	_	_	_	_
+
+#Text=Ia membeli klub London tersebut senilai 140 juta poundsterling atau setara dengan Rp 2,6 triliun .
+13-1	1471-1473	Ia	_	_	_	_	_
+13-2	1474-1481	membeli	_	_	_	_	_
+13-3	1482-1486	klub	_	_	_	_	_
+13-4	1487-1493	London	_	_	_	_	_
+13-5	1494-1502	tersebut	_	_	_	_	_
+13-6	1503-1510	senilai	_	_	_	_	_
+13-7	1511-1514	140	_	_	_	_	_
+13-8	1515-1519	juta	_	_	_	_	_
+13-9	1520-1533	poundsterling	_	_	_	_	_
+13-10	1534-1538	atau	_	_	_	_	_
+13-11	1539-1545	setara	_	_	_	_	_
+13-12	1546-1552	dengan	_	_	_	_	_
+13-13	1553-1555	Rp	_	_	_	_	_
+13-14	1556-1559	2,6	_	_	_	_	_
+13-15	1560-1567	triliun	_	_	_	_	_
+13-16	1568-1569	.	_	_	_	_	_
+
+#Text=Kini , kebersamaan Abramovich dan Chelsea berada di ujung tanduk karena perang Rusia - Ukraina .
+14-1	1571-1575	Kini	_	_	_	_	_
+14-2	1576-1577	,	_	_	_	_	_
+14-3	1578-1589	kebersamaan	_	concept[3]	_	_	_
+14-4	1590-1600	Abramovich	_	concept[3]	_	_	_
+14-5	1601-1604	dan	_	_	_	_	_
+14-6	1605-1612	Chelsea	_	_	_	_	_
+14-7	1613-1619	berada	_	_	_	_	_
+14-8	1620-1622	di	_	negative[4]	_	_	_
+14-9	1623-1628	ujung	_	negative[4]	_	_	_
+14-10	1629-1635	tanduk	_	negative[4]	_	_	_
+14-11	1636-1642	karena	_	_	_	_	_
+14-12	1643-1649	perang	_	_	_	_	_
+14-13	1650-1655	Rusia	_	_	_	_	_
+14-14	1656-1657	-	_	_	_	_	_
+14-15	1658-1665	Ukraina	_	_	_	_	_
+14-16	1666-1667	.	_	_	_	_	_
+
+#Text=Anggota parlemen Inggris , Chris Bryant , berusaha menjegal Abramovich dengan tuduhan penggelapan keuangan .
+15-1	1669-1676	Anggota	_	_	_	_	_
+15-2	1677-1685	parlemen	_	_	_	_	_
+15-3	1686-1693	Inggris	_	_	_	_	_
+15-4	1694-1695	,	_	_	_	_	_
+15-5	1696-1701	Chris	_	_	_	_	_
+15-6	1702-1708	Bryant	_	_	_	_	_
+15-7	1709-1710	,	_	_	_	_	_
+15-8	1711-1719	berusaha	_	_	_	_	_
+15-9	1720-1728	menjegal	_	_	_	_	_
+15-10	1729-1739	Abramovich	_	_	_	_	_
+15-11	1740-1746	dengan	_	_	_	_	_
+15-12	1747-1754	tuduhan	_	_	_	_	_
+15-13	1755-1766	penggelapan	_	_	_	_	_
+15-14	1767-1775	keuangan	_	_	_	_	_
+15-15	1776-1777	.	_	_	_	_	_
+
+#Text=[ Gambas : Video CNN ]
+16-1	1779-1780	[	_	_	_	_	_
+16-2	1781-1787	Gambas	_	_	_	_	_
+16-3	1788-1789	:	_	_	_	_	_
+16-4	1790-1795	Video	_	_	_	_	_
+16-5	1796-1799	CNN	_	_	_	_	_
+16-6	1800-1801	]	_	_	_	_	_
+

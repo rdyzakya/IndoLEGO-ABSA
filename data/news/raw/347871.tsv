@@ -1,0 +1,635 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=KOMPAS.com - Istilah self healing belum lama ini ramai di berbagai media sosial .
+1-1	0-10	KOMPAS.com	_	_	_	_	_
+1-2	11-12	-	_	_	_	_	_
+1-3	13-20	Istilah	_	_	_	_	_
+1-4	21-25	self	_	_	_	_	_
+1-5	26-33	healing	_	_	_	_	_
+1-6	34-39	belum	_	_	_	_	_
+1-7	40-44	lama	_	_	_	_	_
+1-8	45-48	ini	_	_	_	_	_
+1-9	49-54	ramai	_	_	_	_	_
+1-10	55-57	di	_	_	_	_	_
+1-11	58-66	berbagai	_	_	_	_	_
+1-12	67-72	media	_	_	_	_	_
+1-13	73-79	sosial	_	_	_	_	_
+1-14	80-81	.	_	_	_	_	_
+
+#Text=Kemunculan istilah self healing kerap diidentikkan dengan terapi menyembuhkan diri dari berbagai luka baik akibat patah hati , luka masa kecil , dikecewakan , maupun berbagai masalah lain yang menyebabkan seseorang merasa batin nya terluka .
+2-1	83-93	Kemunculan	_	_	_	_	_
+2-2	94-101	istilah	_	_	_	_	_
+2-3	102-106	self	_	_	_	_	_
+2-4	107-114	healing	_	_	_	_	_
+2-5	115-120	kerap	_	_	_	_	_
+2-6	121-133	diidentikkan	_	_	_	_	_
+2-7	134-140	dengan	_	_	_	_	_
+2-8	141-147	terapi	_	_	_	_	_
+2-9	148-160	menyembuhkan	_	_	_	_	_
+2-10	161-165	diri	_	_	_	_	_
+2-11	166-170	dari	_	_	_	_	_
+2-12	171-179	berbagai	_	_	_	_	_
+2-13	180-184	luka	_	_	_	_	_
+2-14	185-189	baik	_	_	_	_	_
+2-15	190-196	akibat	_	_	_	_	_
+2-16	197-202	patah	_	_	_	_	_
+2-17	203-207	hati	_	_	_	_	_
+2-18	208-209	,	_	_	_	_	_
+2-19	210-214	luka	_	_	_	_	_
+2-20	215-219	masa	_	_	_	_	_
+2-21	220-225	kecil	_	_	_	_	_
+2-22	226-227	,	_	_	_	_	_
+2-23	228-239	dikecewakan	_	_	_	_	_
+2-24	240-241	,	_	_	_	_	_
+2-25	242-248	maupun	_	_	_	_	_
+2-26	249-257	berbagai	_	_	_	_	_
+2-27	258-265	masalah	_	_	_	_	_
+2-28	266-270	lain	_	_	_	_	_
+2-29	271-275	yang	_	_	_	_	_
+2-30	276-287	menyebabkan	_	_	_	_	_
+2-31	288-297	seseorang	_	_	_	_	_
+2-32	298-304	merasa	_	_	_	_	_
+2-33	305-310	batin	_	_	_	_	_
+2-34	311-314	nya	_	_	_	_	_
+2-35	315-322	terluka	_	_	_	_	_
+2-36	323-324	.	_	_	_	_	_
+
+#Text=Dikutip dari Kompas.com , 29 Mei 2020 , istilah self healing menurut ilmu psikologi adalah proses penyembuhan yang hanya melibatkan diri sendiri untuk bangkit dari penderitaan yang pernah dialami dan memulihkan diri dari luka batin .
+3-1	326-333	Dikutip	_	_	_	_	_
+3-2	334-338	dari	_	_	_	_	_
+3-3	339-349	Kompas.com	_	_	_	_	_
+3-4	350-351	,	_	_	_	_	_
+3-5	352-354	29	_	_	_	_	_
+3-6	355-358	Mei	_	_	_	_	_
+3-7	359-363	2020	_	_	_	_	_
+3-8	364-365	,	_	_	_	_	_
+3-9	366-373	istilah	_	_	_	_	_
+3-10	374-378	self	_	_	_	_	_
+3-11	379-386	healing	_	_	_	_	_
+3-12	387-394	menurut	_	_	_	_	_
+3-13	395-399	ilmu	_	_	_	_	_
+3-14	400-409	psikologi	_	_	_	_	_
+3-15	410-416	adalah	_	_	_	_	_
+3-16	417-423	proses	_	_	_	_	_
+3-17	424-435	penyembuhan	_	_	_	_	_
+3-18	436-440	yang	_	_	_	_	_
+3-19	441-446	hanya	_	_	_	_	_
+3-20	447-457	melibatkan	_	_	_	_	_
+3-21	458-462	diri	_	_	_	_	_
+3-22	463-470	sendiri	_	_	_	_	_
+3-23	471-476	untuk	_	_	_	_	_
+3-24	477-484	bangkit	_	_	_	_	_
+3-25	485-489	dari	_	_	_	_	_
+3-26	490-501	penderitaan	_	_	_	_	_
+3-27	502-506	yang	_	_	_	_	_
+3-28	507-513	pernah	_	_	_	_	_
+3-29	514-521	dialami	_	_	_	_	_
+3-30	522-525	dan	_	_	_	_	_
+3-31	526-536	memulihkan	_	_	_	_	_
+3-32	537-541	diri	_	_	_	_	_
+3-33	542-546	dari	_	_	_	_	_
+3-34	547-551	luka	_	_	_	_	_
+3-35	552-557	batin	_	_	_	_	_
+3-36	558-559	.	_	_	_	_	_
+
+#Text=Adapun tujuan dari self healing yakni untuk memahami diri sendiri , menerima ketidaksempurnaan serta membentuk pikiran positif dari apa yang terjadi .
+4-1	561-567	Adapun	_	_	_	_	_
+4-2	568-574	tujuan	_	_	_	_	_
+4-3	575-579	dari	_	_	_	_	_
+4-4	580-584	self	_	_	_	_	_
+4-5	585-592	healing	_	_	_	_	_
+4-6	593-598	yakni	_	_	_	_	_
+4-7	599-604	untuk	_	_	_	_	_
+4-8	605-613	memahami	_	_	_	_	_
+4-9	614-618	diri	_	_	_	_	_
+4-10	619-626	sendiri	_	_	_	_	_
+4-11	627-628	,	_	_	_	_	_
+4-12	629-637	menerima	_	_	_	_	_
+4-13	638-655	ketidaksempurnaan	_	_	_	_	_
+4-14	656-661	serta	_	_	_	_	_
+4-15	662-671	membentuk	_	_	_	_	_
+4-16	672-679	pikiran	_	_	_	_	_
+4-17	680-687	positif	_	_	_	_	_
+4-18	688-692	dari	_	_	_	_	_
+4-19	693-696	apa	_	_	_	_	_
+4-20	697-701	yang	_	_	_	_	_
+4-21	702-709	terjadi	_	_	_	_	_
+4-22	710-711	.	_	_	_	_	_
+
+#Text=Dengan self healing seseorang akan lebih tegar menghadapi kesulitan , kegagalan , dan trauma di masa lalu nya .
+5-1	713-719	Dengan	_	_	_	_	_
+5-2	720-724	self	_	_	_	_	_
+5-3	725-732	healing	_	_	_	_	_
+5-4	733-742	seseorang	_	_	_	_	_
+5-5	743-747	akan	_	_	_	_	_
+5-6	748-753	lebih	_	_	_	_	_
+5-7	754-759	tegar	_	_	_	_	_
+5-8	760-770	menghadapi	_	_	_	_	_
+5-9	771-780	kesulitan	_	_	_	_	_
+5-10	781-782	,	_	_	_	_	_
+5-11	783-792	kegagalan	_	_	_	_	_
+5-12	793-794	,	_	_	_	_	_
+5-13	795-798	dan	_	_	_	_	_
+5-14	799-805	trauma	_	_	_	_	_
+5-15	806-808	di	_	_	_	_	_
+5-16	809-813	masa	_	_	_	_	_
+5-17	814-818	lalu	_	_	_	_	_
+5-18	819-822	nya	_	_	_	_	_
+5-19	823-824	.	_	_	_	_	_
+
+#Text=Mengenal Meditasi dan Cara Terbaik Melakukan nya ...
+6-1	826-834	Mengenal	_	_	_	_	_
+6-2	835-843	Meditasi	_	_	_	_	_
+6-3	844-847	dan	_	_	_	_	_
+6-4	848-852	Cara	_	_	_	_	_
+6-5	853-860	Terbaik	_	_	_	_	_
+6-6	861-870	Melakukan	_	_	_	_	_
+6-7	871-874	nya	_	_	_	_	_
+6-8	875-878	...	_	_	_	_	_
+
+#Text=Lantas , bagaimana cara untuk melakukan self healing ?
+7-1	880-886	Lantas	_	_	_	_	_
+7-2	887-888	,	_	_	_	_	_
+7-3	889-898	bagaimana	_	_	_	_	_
+7-4	899-903	cara	_	_	_	_	_
+7-5	904-909	untuk	_	_	_	_	_
+7-6	910-919	melakukan	_	_	_	_	_
+7-7	920-924	self	_	_	_	_	_
+7-8	925-932	healing	_	_	_	_	_
+7-9	933-934	?	_	_	_	_	_
+
+#Text=Mengutip Kompas.com , 13 Juli 2021 , salah satu aktivitas untuk self healing yang bisa dicoba adalah dengan meditasi .
+8-1	936-944	Mengutip	_	_	_	_	_
+8-2	945-955	Kompas.com	_	_	_	_	_
+8-3	956-957	,	_	_	_	_	_
+8-4	958-960	13	_	_	_	_	_
+8-5	961-965	Juli	_	_	_	_	_
+8-6	966-970	2021	_	_	_	_	_
+8-7	971-972	,	_	_	_	_	_
+8-8	973-978	salah	_	_	_	_	_
+8-9	979-983	satu	_	_	_	_	_
+8-10	984-993	aktivitas	_	_	_	_	_
+8-11	994-999	untuk	_	_	_	_	_
+8-12	1000-1004	self	_	_	_	_	_
+8-13	1005-1012	healing	_	_	_	_	_
+8-14	1013-1017	yang	_	_	_	_	_
+8-15	1018-1022	bisa	_	_	_	_	_
+8-16	1023-1029	dicoba	_	_	_	_	_
+8-17	1030-1036	adalah	_	_	_	_	_
+8-18	1037-1043	dengan	_	_	_	_	_
+8-19	1044-1052	meditasi	_	_	_	_	_
+8-20	1053-1054	.	_	_	_	_	_
+
+#Text=Relaksasi melalui pernapasan , kontemplasi , maupun meditas atau yoga bisa berdampak pada munculnya endorphin atau hormon bahagia .
+9-1	1056-1065	Relaksasi	_	_	_	_	_
+9-2	1066-1073	melalui	_	_	_	_	_
+9-3	1074-1084	pernapasan	_	_	_	_	_
+9-4	1085-1086	,	_	_	_	_	_
+9-5	1087-1098	kontemplasi	_	_	_	_	_
+9-6	1099-1100	,	_	_	_	_	_
+9-7	1101-1107	maupun	_	_	_	_	_
+9-8	1108-1115	meditas	_	_	_	_	_
+9-9	1116-1120	atau	_	_	_	_	_
+9-10	1121-1125	yoga	_	_	_	_	_
+9-11	1126-1130	bisa	_	_	_	_	_
+9-12	1131-1140	berdampak	_	_	_	_	_
+9-13	1141-1145	pada	_	_	_	_	_
+9-14	1146-1155	munculnya	_	_	_	_	_
+9-15	1156-1165	endorphin	_	_	_	_	_
+9-16	1166-1170	atau	_	_	_	_	_
+9-17	1171-1177	hormon	_	_	_	_	_
+9-18	1178-1185	bahagia	_	_	_	_	_
+9-19	1186-1187	.	_	_	_	_	_
+
+#Text=Selain itu , dikutip dari NewsWeek , dengan mencoba duduk dengan nyaman kemudian menarik napas , mengembuskan nya kemudian menarik napas dan mengembuskan nya lagi serta melakukan itu beberapa kali bisa membantu untuk menenangkan pikiran .
+10-1	1189-1195	Selain	_	_	_	_	_
+10-2	1196-1199	itu	_	_	_	_	_
+10-3	1200-1201	,	_	_	_	_	_
+10-4	1202-1209	dikutip	_	_	_	_	_
+10-5	1210-1214	dari	_	_	_	_	_
+10-6	1215-1223	NewsWeek	_	_	_	_	_
+10-7	1224-1225	,	_	_	_	_	_
+10-8	1226-1232	dengan	_	_	_	_	_
+10-9	1233-1240	mencoba	_	_	_	_	_
+10-10	1241-1246	duduk	_	_	_	_	_
+10-11	1247-1253	dengan	_	_	_	_	_
+10-12	1254-1260	nyaman	_	_	_	_	_
+10-13	1261-1269	kemudian	_	_	_	_	_
+10-14	1270-1277	menarik	_	_	_	_	_
+10-15	1278-1283	napas	_	_	_	_	_
+10-16	1284-1285	,	_	_	_	_	_
+10-17	1286-1298	mengembuskan	_	_	_	_	_
+10-18	1299-1302	nya	_	_	_	_	_
+10-19	1303-1311	kemudian	_	_	_	_	_
+10-20	1312-1319	menarik	_	_	_	_	_
+10-21	1320-1325	napas	_	_	_	_	_
+10-22	1326-1329	dan	_	_	_	_	_
+10-23	1330-1342	mengembuskan	_	_	_	_	_
+10-24	1343-1346	nya	_	_	_	_	_
+10-25	1347-1351	lagi	_	_	_	_	_
+10-26	1352-1357	serta	_	_	_	_	_
+10-27	1358-1367	melakukan	_	_	_	_	_
+10-28	1368-1371	itu	_	_	_	_	_
+10-29	1372-1380	beberapa	_	_	_	_	_
+10-30	1381-1385	kali	_	_	_	_	_
+10-31	1386-1390	bisa	_	_	_	_	_
+10-32	1391-1399	membantu	_	_	_	_	_
+10-33	1400-1405	untuk	_	_	_	_	_
+10-34	1406-1417	menenangkan	_	_	_	_	_
+10-35	1418-1425	pikiran	_	_	_	_	_
+10-36	1426-1427	.	_	_	_	_	_
+
+#Text=Sejarah Meditasi , Asal Mula dan Berbagai Manfaat nya Refleksi diri , memaknai pengalaman yang terjadi adalah salah satu hal sangat penting dilakukan ketika seseorang ingin self healing .
+11-1	1429-1436	Sejarah	_	_	_	_	_
+11-2	1437-1445	Meditasi	_	_	_	_	_
+11-3	1446-1447	,	_	_	_	_	_
+11-4	1448-1452	Asal	_	_	_	_	_
+11-5	1453-1457	Mula	_	_	_	_	_
+11-6	1458-1461	dan	_	_	_	_	_
+11-7	1462-1470	Berbagai	_	_	_	_	_
+11-8	1471-1478	Manfaat	_	_	_	_	_
+11-9	1479-1482	nya	_	_	_	_	_
+11-10	1483-1491	Refleksi	_	_	_	_	_
+11-11	1492-1496	diri	_	_	_	_	_
+11-12	1497-1498	,	_	_	_	_	_
+11-13	1499-1507	memaknai	_	_	_	_	_
+11-14	1508-1518	pengalaman	_	_	_	_	_
+11-15	1519-1523	yang	_	_	_	_	_
+11-16	1524-1531	terjadi	_	_	_	_	_
+11-17	1532-1538	adalah	_	_	_	_	_
+11-18	1539-1544	salah	_	_	_	_	_
+11-19	1545-1549	satu	_	_	_	_	_
+11-20	1550-1553	hal	_	_	_	_	_
+11-21	1554-1560	sangat	_	_	_	_	_
+11-22	1561-1568	penting	_	_	_	_	_
+11-23	1569-1578	dilakukan	_	_	_	_	_
+11-24	1579-1585	ketika	_	_	_	_	_
+11-25	1586-1595	seseorang	_	_	_	_	_
+11-26	1596-1601	ingin	_	_	_	_	_
+11-27	1602-1606	self	_	_	_	_	_
+11-28	1607-1614	healing	_	_	_	_	_
+11-29	1615-1616	.	_	_	_	_	_
+
+#Text=Dikutip dari Kompas.com , 13 Juli 2021 , melalui refleksi seseorang bisa mengenali pikiran dan perasaan negatif nya .
+12-1	1618-1625	Dikutip	_	_	_	_	_
+12-2	1626-1630	dari	_	_	_	_	_
+12-3	1631-1641	Kompas.com	_	_	_	_	_
+12-4	1642-1643	,	_	_	_	_	_
+12-5	1644-1646	13	_	_	_	_	_
+12-6	1647-1651	Juli	_	_	_	_	_
+12-7	1652-1656	2021	_	_	_	_	_
+12-8	1657-1658	,	_	_	_	_	_
+12-9	1659-1666	melalui	_	_	_	_	_
+12-10	1667-1675	refleksi	_	_	_	_	_
+12-11	1676-1685	seseorang	_	_	_	_	_
+12-12	1686-1690	bisa	_	_	_	_	_
+12-13	1691-1700	mengenali	_	_	_	_	_
+12-14	1701-1708	pikiran	_	_	_	_	_
+12-15	1709-1712	dan	_	_	_	_	_
+12-16	1713-1721	perasaan	_	_	_	_	_
+12-17	1722-1729	negatif	_	_	_	_	_
+12-18	1730-1733	nya	_	_	_	_	_
+12-19	1734-1735	.	_	_	_	_	_
+
+#Text=Kemudian menerima hal-hal itu sebagai sesuatu yang memang benar-benar ada tanpa berusaha menolak atau menghindari nya .
+13-1	1737-1745	Kemudian	_	_	_	_	_
+13-2	1746-1754	menerima	_	_	_	_	_
+13-3	1755-1762	hal-hal	_	_	_	_	_
+13-4	1763-1766	itu	_	_	_	_	_
+13-5	1767-1774	sebagai	_	_	_	_	_
+13-6	1775-1782	sesuatu	_	_	_	_	_
+13-7	1783-1787	yang	_	_	_	_	_
+13-8	1788-1794	memang	_	_	_	_	_
+13-9	1795-1806	benar-benar	_	_	_	_	_
+13-10	1807-1810	ada	_	_	_	_	_
+13-11	1811-1816	tanpa	_	_	_	_	_
+13-12	1817-1825	berusaha	_	_	_	_	_
+13-13	1826-1833	menolak	_	_	_	_	_
+13-14	1834-1838	atau	_	_	_	_	_
+13-15	1839-1850	menghindari	_	_	_	_	_
+13-16	1851-1854	nya	_	_	_	_	_
+13-17	1855-1856	.	_	_	_	_	_
+
+#Text=Sebagai contoh menerima kondisi sedang sakit , ada nya anggota keluarga meninggal , maupun fakta yang lain .
+14-1	1858-1865	Sebagai	_	_	_	_	_
+14-2	1866-1872	contoh	_	_	_	_	_
+14-3	1873-1881	menerima	_	_	_	_	_
+14-4	1882-1889	kondisi	_	_	_	_	_
+14-5	1890-1896	sedang	_	_	_	_	_
+14-6	1897-1902	sakit	_	_	_	_	_
+14-7	1903-1904	,	_	_	_	_	_
+14-8	1905-1908	ada	_	_	_	_	_
+14-9	1909-1912	nya	_	_	_	_	_
+14-10	1913-1920	anggota	_	_	_	_	_
+14-11	1921-1929	keluarga	_	_	_	_	_
+14-12	1930-1939	meninggal	_	_	_	_	_
+14-13	1940-1941	,	_	_	_	_	_
+14-14	1942-1948	maupun	_	_	_	_	_
+14-15	1949-1954	fakta	_	_	_	_	_
+14-16	1955-1959	yang	_	_	_	_	_
+14-17	1960-1964	lain	_	_	_	_	_
+14-18	1965-1966	.	_	_	_	_	_
+
+#Text=Dengan begitu seseorang bisa lebih tenang dengan keadaan diri maupun lingkungan nya .
+15-1	1968-1974	Dengan	_	_	_	_	_
+15-2	1975-1981	begitu	_	_	_	_	_
+15-3	1982-1991	seseorang	_	_	_	_	_
+15-4	1992-1996	bisa	_	_	_	_	_
+15-5	1997-2002	lebih	_	_	_	_	_
+15-6	2003-2009	tenang	_	_	_	_	_
+15-7	2010-2016	dengan	_	_	_	_	_
+15-8	2017-2024	keadaan	_	_	_	_	_
+15-9	2025-2029	diri	_	_	_	_	_
+15-10	2030-2036	maupun	_	_	_	_	_
+15-11	2037-2047	lingkungan	_	_	_	_	_
+15-12	2048-2051	nya	_	_	_	_	_
+15-13	2052-2053	.	_	_	_	_	_
+
+#Text=Pilih Kardio atau Angkat Beban untuk Turunkan Berat Badan ?
+16-1	2055-2060	Pilih	_	_	_	_	_
+16-2	2061-2067	Kardio	_	_	_	_	_
+16-3	2068-2072	atau	_	_	_	_	_
+16-4	2073-2079	Angkat	_	_	_	_	_
+16-5	2080-2085	Beban	_	_	_	_	_
+16-6	2086-2091	untuk	_	_	_	_	_
+16-7	2092-2100	Turunkan	_	_	_	_	_
+16-8	2101-2106	Berat	_	_	_	_	_
+16-9	2107-2112	Badan	_	_	_	_	_
+16-10	2113-2114	?	_	_	_	_	_
+
+#Text=Salah satu yang bisa dilakukan ketika ingin melakukan self healing adalah memaafkan diri sendiri .
+17-1	2116-2121	Salah	_	_	_	_	_
+17-2	2122-2126	satu	_	_	_	_	_
+17-3	2127-2131	yang	_	_	_	_	_
+17-4	2132-2136	bisa	_	_	_	_	_
+17-5	2137-2146	dilakukan	_	_	_	_	_
+17-6	2147-2153	ketika	_	_	_	_	_
+17-7	2154-2159	ingin	_	_	_	_	_
+17-8	2160-2169	melakukan	_	_	_	_	_
+17-9	2170-2174	self	_	_	_	_	_
+17-10	2175-2182	healing	_	_	_	_	_
+17-11	2183-2189	adalah	_	_	_	_	_
+17-12	2190-2199	memaafkan	_	_	_	_	_
+17-13	2200-2204	diri	_	_	_	_	_
+17-14	2205-2212	sendiri	_	_	_	_	_
+17-15	2213-2214	.	_	_	_	_	_
+
+#Text=Kesalahan yang pernah dibuat oleh diri sendiri yang mungkin mengakibatkan kekacauan bagi diri sendiri maupun orang lain tak harus diratapi terus-menerus .
+18-1	2216-2225	Kesalahan	_	_	_	_	_
+18-2	2226-2230	yang	_	_	_	_	_
+18-3	2231-2237	pernah	_	_	_	_	_
+18-4	2238-2244	dibuat	_	_	_	_	_
+18-5	2245-2249	oleh	_	_	_	_	_
+18-6	2250-2254	diri	_	_	_	_	_
+18-7	2255-2262	sendiri	_	_	_	_	_
+18-8	2263-2267	yang	_	_	_	_	_
+18-9	2268-2275	mungkin	_	_	_	_	_
+18-10	2276-2289	mengakibatkan	_	_	_	_	_
+18-11	2290-2299	kekacauan	_	_	_	_	_
+18-12	2300-2304	bagi	_	_	_	_	_
+18-13	2305-2309	diri	_	_	_	_	_
+18-14	2310-2317	sendiri	_	_	_	_	_
+18-15	2318-2324	maupun	_	_	_	_	_
+18-16	2325-2330	orang	_	_	_	_	_
+18-17	2331-2335	lain	_	_	_	_	_
+18-18	2336-2339	tak	_	_	_	_	_
+18-19	2340-2345	harus	_	_	_	_	_
+18-20	2346-2354	diratapi	_	_	_	_	_
+18-21	2355-2368	terus-menerus	_	_	_	_	_
+18-22	2369-2370	.	_	_	_	_	_
+
+#Text=Hal ini karena rasa bersalah hanya akan merugikan diri sendiri .
+19-1	2372-2375	Hal	_	_	_	_	_
+19-2	2376-2379	ini	_	_	_	_	_
+19-3	2380-2386	karena	_	_	_	_	_
+19-4	2387-2391	rasa	_	_	_	_	_
+19-5	2392-2400	bersalah	_	_	_	_	_
+19-6	2401-2406	hanya	_	_	_	_	_
+19-7	2407-2411	akan	_	_	_	_	_
+19-8	2412-2421	merugikan	_	_	_	_	_
+19-9	2422-2426	diri	_	_	_	_	_
+19-10	2427-2434	sendiri	_	_	_	_	_
+19-11	2435-2436	.	_	_	_	_	_
+
+#Text=Viral , Video Tempat yang Disebut sebagai Self Healing di Medsos , Ini Penjelasan nya Dengan merinci apa saja yang musti dilakukan bisa membantu seseorang untuk merasa lebih baik secara emosional .
+20-1	2438-2443	Viral	_	_	_	_	_
+20-2	2444-2445	,	_	_	_	_	_
+20-3	2446-2451	Video	_	_	_	_	_
+20-4	2452-2458	Tempat	_	_	_	_	_
+20-5	2459-2463	yang	_	_	_	_	_
+20-6	2464-2471	Disebut	_	_	_	_	_
+20-7	2472-2479	sebagai	_	_	_	_	_
+20-8	2480-2484	Self	_	_	_	_	_
+20-9	2485-2492	Healing	_	_	_	_	_
+20-10	2493-2495	di	_	_	_	_	_
+20-11	2496-2502	Medsos	_	_	_	_	_
+20-12	2503-2504	,	_	_	_	_	_
+20-13	2505-2508	Ini	_	_	_	_	_
+20-14	2509-2519	Penjelasan	_	_	_	_	_
+20-15	2520-2523	nya	_	_	_	_	_
+20-16	2524-2530	Dengan	_	_	_	_	_
+20-17	2531-2538	merinci	_	_	_	_	_
+20-18	2539-2542	apa	_	_	_	_	_
+20-19	2543-2547	saja	_	_	_	_	_
+20-20	2548-2552	yang	_	_	_	_	_
+20-21	2553-2558	musti	_	_	_	_	_
+20-22	2559-2568	dilakukan	_	_	_	_	_
+20-23	2569-2573	bisa	_	_	_	_	_
+20-24	2574-2582	membantu	_	_	_	_	_
+20-25	2583-2592	seseorang	_	_	_	_	_
+20-26	2593-2598	untuk	_	_	_	_	_
+20-27	2599-2605	merasa	_	_	_	_	_
+20-28	2606-2611	lebih	_	_	_	_	_
+20-29	2612-2616	baik	_	_	_	_	_
+20-30	2617-2623	secara	_	_	_	_	_
+20-31	2624-2633	emosional	_	_	_	_	_
+20-32	2634-2635	.	_	_	_	_	_
+
+#Text=Adapun cara untuk membuat what - to - do - list adalah membuat perencanaan dengan waktu yang jelas .
+21-1	2637-2643	Adapun	_	_	_	_	_
+21-2	2644-2648	cara	_	_	_	_	_
+21-3	2649-2654	untuk	_	_	_	_	_
+21-4	2655-2662	membuat	_	_	_	_	_
+21-5	2663-2667	what	_	_	_	_	_
+21-6	2668-2669	-	_	_	_	_	_
+21-7	2670-2672	to	_	_	_	_	_
+21-8	2673-2674	-	_	_	_	_	_
+21-9	2675-2677	do	_	_	_	_	_
+21-10	2678-2679	-	_	_	_	_	_
+21-11	2680-2684	list	_	_	_	_	_
+21-12	2685-2691	adalah	_	_	_	_	_
+21-13	2692-2699	membuat	_	_	_	_	_
+21-14	2700-2711	perencanaan	_	_	_	_	_
+21-15	2712-2718	dengan	_	_	_	_	_
+21-16	2719-2724	waktu	_	_	_	_	_
+21-17	2725-2729	yang	_	_	_	_	_
+21-18	2730-2735	jelas	_	_	_	_	_
+21-19	2736-2737	.	_	_	_	_	_
+
+#Text=Untuk membuat nya maka pastikan untuk membuat yang realistis .
+22-1	2739-2744	Untuk	_	_	_	_	_
+22-2	2745-2752	membuat	_	_	_	_	_
+22-3	2753-2756	nya	_	_	_	_	_
+22-4	2757-2761	maka	_	_	_	_	_
+22-5	2762-2770	pastikan	_	_	_	_	_
+22-6	2771-2776	untuk	_	_	_	_	_
+22-7	2777-2784	membuat	_	_	_	_	_
+22-8	2785-2789	yang	_	_	_	_	_
+22-9	2790-2799	realistis	_	_	_	_	_
+22-10	2800-2801	.	_	_	_	_	_
+
+#Text=Salah satu yang bisa dilakukan untuk self healing adalah dengan cara melakukan berbagai kegiatan yang positif .
+23-1	2803-2808	Salah	_	_	_	_	_
+23-2	2809-2813	satu	_	_	_	_	_
+23-3	2814-2818	yang	_	_	_	_	_
+23-4	2819-2823	bisa	_	_	_	_	_
+23-5	2824-2833	dilakukan	_	_	_	_	_
+23-6	2834-2839	untuk	_	_	_	_	_
+23-7	2840-2844	self	_	_	_	_	_
+23-8	2845-2852	healing	_	_	_	_	_
+23-9	2853-2859	adalah	_	_	_	_	_
+23-10	2860-2866	dengan	_	_	_	_	_
+23-11	2867-2871	cara	_	_	_	_	_
+23-12	2872-2881	melakukan	_	_	_	_	_
+23-13	2882-2890	berbagai	_	_	_	_	_
+23-14	2891-2899	kegiatan	_	_	_	_	_
+23-15	2900-2904	yang	_	_	_	_	_
+23-16	2905-2912	positif	_	_	_	_	_
+23-17	2913-2914	.	_	_	_	_	_
+
+#Text=Sebagai contoh membaca koran , menonton berita , mencuci piring maupun yang lainnya .
+24-1	2916-2923	Sebagai	_	_	_	_	_
+24-2	2924-2930	contoh	_	_	_	_	_
+24-3	2931-2938	membaca	_	_	_	_	_
+24-4	2939-2944	koran	_	_	_	_	_
+24-5	2945-2946	,	_	_	_	_	_
+24-6	2947-2955	menonton	_	_	_	_	_
+24-7	2956-2962	berita	_	_	_	_	_
+24-8	2963-2964	,	_	_	_	_	_
+24-9	2965-2972	mencuci	_	_	_	_	_
+24-10	2973-2979	piring	_	_	_	_	_
+24-11	2980-2986	maupun	_	_	_	_	_
+24-12	2987-2991	yang	_	_	_	_	_
+24-13	2992-2999	lainnya	_	_	_	_	_
+24-14	3000-3001	.	_	_	_	_	_
+
+#Text=Kemudian lakukan kegiatan positif itu secara rutin karena otak akan mengirim pesan positif yang bisa meningkatkan mood seseorang .
+25-1	3003-3011	Kemudian	_	_	_	_	_
+25-2	3012-3019	lakukan	_	_	_	_	_
+25-3	3020-3028	kegiatan	_	_	_	_	_
+25-4	3029-3036	positif	_	_	_	_	_
+25-5	3037-3040	itu	_	_	_	_	_
+25-6	3041-3047	secara	_	_	_	_	_
+25-7	3048-3053	rutin	_	_	_	_	_
+25-8	3054-3060	karena	_	_	_	_	_
+25-9	3061-3065	otak	_	_	_	_	_
+25-10	3066-3070	akan	_	_	_	_	_
+25-11	3071-3079	mengirim	_	_	_	_	_
+25-12	3080-3085	pesan	_	_	_	_	_
+25-13	3086-3093	positif	_	_	_	_	_
+25-14	3094-3098	yang	_	_	_	_	_
+25-15	3099-3103	bisa	_	_	_	_	_
+25-16	3104-3116	meningkatkan	_	_	_	_	_
+25-17	3117-3121	mood	_	_	_	_	_
+25-18	3122-3131	seseorang	_	_	_	_	_
+25-19	3132-3133	.	_	_	_	_	_
+
+#Text=6 Cara Meningkatkan Mood di Hari Senin Olahraga tak hanya membutuhkan tetap sehat dan kuat , namun juga bisa membantu penyembuhan luka batin .
+26-1	3135-3136	6	_	_	_	_	_
+26-2	3137-3141	Cara	_	_	_	_	_
+26-3	3142-3154	Meningkatkan	_	_	_	_	_
+26-4	3155-3159	Mood	_	_	_	_	_
+26-5	3160-3162	di	_	_	_	_	_
+26-6	3163-3167	Hari	_	_	_	_	_
+26-7	3168-3173	Senin	_	_	_	_	_
+26-8	3174-3182	Olahraga	_	_	_	_	_
+26-9	3183-3186	tak	_	_	_	_	_
+26-10	3187-3192	hanya	_	_	_	_	_
+26-11	3193-3204	membutuhkan	_	_	_	_	_
+26-12	3205-3210	tetap	_	_	_	_	_
+26-13	3211-3216	sehat	_	_	_	_	_
+26-14	3217-3220	dan	_	_	_	_	_
+26-15	3221-3225	kuat	_	_	_	_	_
+26-16	3226-3227	,	_	_	_	_	_
+26-17	3228-3233	namun	_	_	_	_	_
+26-18	3234-3238	juga	_	_	_	_	_
+26-19	3239-3243	bisa	_	_	_	_	_
+26-20	3244-3252	membantu	_	_	_	_	_
+26-21	3253-3264	penyembuhan	_	_	_	_	_
+26-22	3265-3269	luka	_	_	_	_	_
+26-23	3270-3275	batin	_	_	_	_	_
+26-24	3276-3277	.	_	_	_	_	_
+
+#Text=Olahraga bisa membantu meningkatkan pemulihan dari luka batin .
+27-1	3279-3287	Olahraga	_	concept[1]	_	_	_
+27-2	3288-3292	bisa	_	positive[2]	_	_	_
+27-3	3293-3301	membantu	_	positive[2]	_	_	_
+27-4	3302-3314	meningkatkan	_	positive[2]	_	_	_
+27-5	3315-3324	pemulihan	_	positive[2]	_	_	_
+27-6	3325-3329	dari	_	positive[2]	_	_	_
+27-7	3330-3334	luka	_	positive[2]	_	_	_
+27-8	3335-3340	batin	_	positive[2]	_	_	_
+27-9	3341-3342	.	_	_	_	_	_
+
+#Text=Dengan olahraga bisa meningkatkan kekebalan tubuh dan memperbaiki suasana hati .
+28-1	3344-3350	Dengan	_	_	_	_	_
+28-2	3351-3359	olahraga	_	concept[3]	_	_	_
+28-3	3360-3364	bisa	_	positive[4]	_	_	_
+28-4	3365-3377	meningkatkan	_	positive[4]	_	_	_
+28-5	3378-3387	kekebalan	_	positive[4]	_	_	_
+28-6	3388-3393	tubuh	_	positive[4]	_	_	_
+28-7	3394-3397	dan	_	_	_	_	_
+28-8	3398-3409	memperbaiki	_	_	_	_	_
+28-9	3410-3417	suasana	_	_	_	_	_
+28-10	3418-3422	hati	_	_	_	_	_
+28-11	3423-3424	.	_	_	_	_	_
+
+#Text=Tidur cukup 7 - 9 jam saat malam bisa membantu tubuh untuk self healing .
+29-1	3426-3431	Tidur	_	_	_	_	_
+29-2	3432-3437	cukup	_	_	_	_	_
+29-3	3438-3439	7	_	_	_	_	_
+29-4	3440-3441	-	_	_	_	_	_
+29-5	3442-3443	9	_	_	_	_	_
+29-6	3444-3447	jam	_	_	_	_	_
+29-7	3448-3452	saat	_	_	_	_	_
+29-8	3453-3458	malam	_	_	_	_	_
+29-9	3459-3463	bisa	_	_	_	_	_
+29-10	3464-3472	membantu	_	_	_	_	_
+29-11	3473-3478	tubuh	_	_	_	_	_
+29-12	3479-3484	untuk	_	_	_	_	_
+29-13	3485-3489	self	_	_	_	_	_
+29-14	3490-3497	healing	_	_	_	_	_
+29-15	3498-3499	.	_	_	_	_	_
+
+#Text=Tidur dengan waktu yang sama saat malam hari nya bisa membuat seseorang tertidur lebih cepat dan memperbaiki suasana hati .
+30-1	3501-3506	Tidur	_	_	_	_	_
+30-2	3507-3513	dengan	_	_	_	_	_
+30-3	3514-3519	waktu	_	_	_	_	_
+30-4	3520-3524	yang	_	_	_	_	_
+30-5	3525-3529	sama	_	_	_	_	_
+30-6	3530-3534	saat	_	_	_	_	_
+30-7	3535-3540	malam	_	_	_	_	_
+30-8	3541-3545	hari	_	_	_	_	_
+30-9	3546-3549	nya	_	_	_	_	_
+30-10	3550-3554	bisa	_	_	_	_	_
+30-11	3555-3562	membuat	_	_	_	_	_
+30-12	3563-3572	seseorang	_	_	_	_	_
+30-13	3573-3581	tertidur	_	_	_	_	_
+30-14	3582-3587	lebih	_	_	_	_	_
+30-15	3588-3593	cepat	_	_	_	_	_
+30-16	3594-3597	dan	_	_	_	_	_
+30-17	3598-3609	memperbaiki	_	_	_	_	_
+30-18	3610-3617	suasana	_	_	_	_	_
+30-19	3618-3622	hati	_	_	_	_	_
+30-20	3623-3624	.	_	_	_	_	_
+
+#Text=Kapan Waktu Terbaik untuk Tidur dan Bangun ?
+31-1	3626-3631	Kapan	_	_	_	_	_
+31-2	3632-3637	Waktu	_	_	_	_	_
+31-3	3638-3645	Terbaik	_	_	_	_	_
+31-4	3646-3651	untuk	_	_	_	_	_
+31-5	3652-3657	Tidur	_	_	_	_	_
+31-6	3658-3661	dan	_	_	_	_	_
+31-7	3662-3668	Bangun	_	_	_	_	_
+31-8	3669-3670	?	_	_	_	_	_
+

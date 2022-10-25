@@ -1,0 +1,731 @@
+#FORMAT=Datasaur TSV 3
+
+#Text=6 .
+1-1	0-1	6	_	_	_	_	_
+1-2	2-3	.	_	_	_	_	_
+
+#Text=Prancis Di Prancis , pemerintah telah melonggarkan beberapa aturan pembatasan setelah ada nya penurunan kasus infeksi Covid - 19 awal Februari .
+2-1	5-12	Prancis	_	_	_	_	_
+2-2	13-15	Di	_	_	_	_	_
+2-3	16-23	Prancis	_	_	_	_	_
+2-4	24-25	,	_	_	_	_	_
+2-5	26-36	pemerintah	_	_	_	_	_
+2-6	37-42	telah	_	_	_	_	_
+2-7	43-55	melonggarkan	_	_	_	_	_
+2-8	56-64	beberapa	_	_	_	_	_
+2-9	65-71	aturan	_	_	_	_	_
+2-10	72-82	pembatasan	_	_	_	_	_
+2-11	83-90	setelah	_	_	_	_	_
+2-12	91-94	ada	_	_	_	_	_
+2-13	95-98	nya	_	_	_	_	_
+2-14	99-108	penurunan	_	positive[1]	_	_	_
+2-15	109-114	kasus	_	concept[2]	_	_	_
+2-16	115-122	infeksi	_	concept[2]	_	_	_
+2-17	123-128	Covid	_	concept[2]	_	_	_
+2-18	129-130	-	_	concept[2]	_	_	_
+2-19	131-133	19	_	concept[2]	_	_	_
+2-20	134-138	awal	_	_	_	_	_
+2-21	139-147	Februari	_	_	_	_	_
+2-22	148-149	.	_	_	_	_	_
+
+#Text=Kini mengenakan masker di luar ruangan tidak lagi diwajibkan dan batas kapasitas penonton untuk teater , konser , pertandingan olahraga , dan acara lainnya telah dicabut .
+3-1	151-155	Kini	_	_	_	_	_
+3-2	156-166	mengenakan	_	_	_	_	_
+3-3	167-173	masker	_	_	_	_	_
+3-4	174-176	di	_	_	_	_	_
+3-5	177-181	luar	_	_	_	_	_
+3-6	182-189	ruangan	_	_	_	_	_
+3-7	190-195	tidak	_	_	_	_	_
+3-8	196-200	lagi	_	_	_	_	_
+3-9	201-211	diwajibkan	_	_	_	_	_
+3-10	212-215	dan	_	_	_	_	_
+3-11	216-221	batas	_	_	_	_	_
+3-12	222-231	kapasitas	_	_	_	_	_
+3-13	232-240	penonton	_	_	_	_	_
+3-14	241-246	untuk	_	_	_	_	_
+3-15	247-253	teater	_	_	_	_	_
+3-16	254-255	,	_	_	_	_	_
+3-17	256-262	konser	_	_	_	_	_
+3-18	263-264	,	_	_	_	_	_
+3-19	265-277	pertandingan	_	_	_	_	_
+3-20	278-286	olahraga	_	_	_	_	_
+3-21	287-288	,	_	_	_	_	_
+3-22	289-292	dan	_	_	_	_	_
+3-23	293-298	acara	_	_	_	_	_
+3-24	299-306	lainnya	_	_	_	_	_
+3-25	307-312	telah	_	_	_	_	_
+3-26	313-320	dicabut	_	_	_	_	_
+3-27	321-322	.	_	_	_	_	_
+
+#Text=Bekerja dari rumah ( work from home ) juga tidak lagi menjadi satu keharusan .
+4-1	324-331	Bekerja	_	_	_	_	_
+4-2	332-336	dari	_	_	_	_	_
+4-3	337-342	rumah	_	_	_	_	_
+4-4	343-344	(	_	_	_	_	_
+4-5	345-349	work	_	_	_	_	_
+4-6	350-354	from	_	_	_	_	_
+4-7	355-359	home	_	_	_	_	_
+4-8	360-361	)	_	_	_	_	_
+4-9	362-366	juga	_	_	_	_	_
+4-10	367-372	tidak	_	_	_	_	_
+4-11	373-377	lagi	_	_	_	_	_
+4-12	378-385	menjadi	_	_	_	_	_
+4-13	386-390	satu	_	_	_	_	_
+4-14	391-400	keharusan	_	_	_	_	_
+4-15	401-402	.	_	_	_	_	_
+
+#Text=Namun , pemerintah menekankan WFH tetap sangat disarankan .
+5-1	404-409	Namun	_	_	_	_	_
+5-2	410-411	,	_	_	_	_	_
+5-3	412-422	pemerintah	_	_	_	_	_
+5-4	423-433	menekankan	_	_	_	_	_
+5-5	434-437	WFH	_	_	_	_	_
+5-6	438-443	tetap	_	_	_	_	_
+5-7	444-450	sangat	_	_	_	_	_
+5-8	451-461	disarankan	_	_	_	_	_
+5-9	462-463	.	_	_	_	_	_
+
+#Text=Sejak Januari , bukti bukti vaksin diperlukan untuk sejumlah hal , seperti mengakses bar dan restoran hingga transportasi umum jarak jauh .
+6-1	465-470	Sejak	_	_	_	_	_
+6-2	471-478	Januari	_	_	_	_	_
+6-3	479-480	,	_	_	_	_	_
+6-4	481-486	bukti	_	_	_	_	_
+6-5	487-492	bukti	_	_	_	_	_
+6-6	493-499	vaksin	_	_	_	_	_
+6-7	500-510	diperlukan	_	_	_	_	_
+6-8	511-516	untuk	_	_	_	_	_
+6-9	517-525	sejumlah	_	_	_	_	_
+6-10	526-529	hal	_	_	_	_	_
+6-11	530-531	,	_	_	_	_	_
+6-12	532-539	seperti	_	_	_	_	_
+6-13	540-549	mengakses	_	_	_	_	_
+6-14	550-553	bar	_	_	_	_	_
+6-15	554-557	dan	_	_	_	_	_
+6-16	558-566	restoran	_	_	_	_	_
+6-17	567-573	hingga	_	_	_	_	_
+6-18	574-586	transportasi	_	_	_	_	_
+6-19	587-591	umum	_	_	_	_	_
+6-20	592-597	jarak	_	_	_	_	_
+6-21	598-602	jauh	_	_	_	_	_
+6-22	603-604	.	_	_	_	_	_
+
+#Text=Sebelumnya , izin kesehatan juga dapat diperoleh dengan tes Covid - 19 negatif terbaru .
+7-1	606-616	Sebelumnya	_	_	_	_	_
+7-2	617-618	,	_	_	_	_	_
+7-3	619-623	izin	_	_	_	_	_
+7-4	624-633	kesehatan	_	_	_	_	_
+7-5	634-638	juga	_	_	_	_	_
+7-6	639-644	dapat	_	_	_	_	_
+7-7	645-654	diperoleh	_	_	_	_	_
+7-8	655-661	dengan	_	_	_	_	_
+7-9	662-665	tes	_	_	_	_	_
+7-10	666-671	Covid	_	_	_	_	_
+7-11	672-673	-	_	_	_	_	_
+7-12	674-676	19	_	_	_	_	_
+7-13	677-684	negatif	_	_	_	_	_
+7-14	685-692	terbaru	_	_	_	_	_
+7-15	693-694	.	_	_	_	_	_
+
+#Text=Ke depan , pemerintah juga akan kembali membuka klub malam yang tutup sejak Desember , 16 Februari .
+8-1	696-698	Ke	_	_	_	_	_
+8-2	699-704	depan	_	_	_	_	_
+8-3	705-706	,	_	_	_	_	_
+8-4	707-717	pemerintah	_	_	_	_	_
+8-5	718-722	juga	_	_	_	_	_
+8-6	723-727	akan	_	_	_	_	_
+8-7	728-735	kembali	_	_	_	_	_
+8-8	736-743	membuka	_	_	_	_	_
+8-9	744-748	klub	_	_	_	_	_
+8-10	749-754	malam	_	_	_	_	_
+8-11	755-759	yang	_	_	_	_	_
+8-12	760-765	tutup	_	_	_	_	_
+8-13	766-771	sejak	_	_	_	_	_
+8-14	772-780	Desember	_	_	_	_	_
+8-15	781-782	,	_	_	_	_	_
+8-16	783-785	16	_	_	_	_	_
+8-17	786-794	Februari	_	_	_	_	_
+8-18	795-796	.	_	_	_	_	_
+
+#Text=Makan dan minum juga akan diizinkan di stadion dan bioskop .
+9-1	798-803	Makan	_	_	_	_	_
+9-2	804-807	dan	_	_	_	_	_
+9-3	808-813	minum	_	_	_	_	_
+9-4	814-818	juga	_	_	_	_	_
+9-5	819-823	akan	_	_	_	_	_
+9-6	824-833	diizinkan	_	_	_	_	_
+9-7	834-836	di	_	_	_	_	_
+9-8	837-844	stadion	_	_	_	_	_
+9-9	845-848	dan	_	_	_	_	_
+9-10	849-856	bioskop	_	_	_	_	_
+9-11	857-858	.	_	_	_	_	_
+
+#Text=7 .
+10-1	860-861	7	_	_	_	_	_
+10-2	862-863	.	_	_	_	_	_
+
+#Text=Norwegia Sementara itu , di Norwegia , pemerintahan pimpinan Perdana Menteri Jonas Gahr Stoere mengatakan restoran akan kembali diizinkan untuk menyajikan alkohol di luar jam 11 malam .
+11-1	865-873	Norwegia	_	_	_	_	_
+11-2	874-883	Sementara	_	_	_	_	_
+11-3	884-887	itu	_	_	_	_	_
+11-4	888-889	,	_	_	_	_	_
+11-5	890-892	di	_	_	_	_	_
+11-6	893-901	Norwegia	_	_	_	_	_
+11-7	902-903	,	_	_	_	_	_
+11-8	904-916	pemerintahan	_	_	_	_	_
+11-9	917-925	pimpinan	_	_	_	_	_
+11-10	926-933	Perdana	_	_	_	_	_
+11-11	934-941	Menteri	_	_	_	_	_
+11-12	942-947	Jonas	_	_	_	_	_
+11-13	948-952	Gahr	_	_	_	_	_
+11-14	953-959	Stoere	_	_	_	_	_
+11-15	960-970	mengatakan	_	_	_	_	_
+11-16	971-979	restoran	_	_	_	_	_
+11-17	980-984	akan	_	_	_	_	_
+11-18	985-992	kembali	_	_	_	_	_
+11-19	993-1002	diizinkan	_	_	_	_	_
+11-20	1003-1008	untuk	_	_	_	_	_
+11-21	1009-1019	menyajikan	_	_	_	_	_
+11-22	1020-1027	alkohol	_	_	_	_	_
+11-23	1028-1030	di	_	_	_	_	_
+11-24	1031-1035	luar	_	_	_	_	_
+11-25	1036-1039	jam	_	_	_	_	_
+11-26	1040-1042	11	_	_	_	_	_
+11-27	1043-1048	malam	_	_	_	_	_
+11-28	1049-1050	.	_	_	_	_	_
+
+#Text=Bekerja dari rumah ( wfh ) tidak lagi wajib dan batas 10 pengunjung di rumah pribadi akan dihapus .
+12-1	1052-1059	Bekerja	_	_	_	_	_
+12-2	1060-1064	dari	_	_	_	_	_
+12-3	1065-1070	rumah	_	_	_	_	_
+12-4	1071-1072	(	_	_	_	_	_
+12-5	1073-1076	wfh	_	_	_	_	_
+12-6	1077-1078	)	_	_	_	_	_
+12-7	1079-1084	tidak	_	_	_	_	_
+12-8	1085-1089	lagi	_	_	_	_	_
+12-9	1090-1095	wajib	_	_	_	_	_
+12-10	1096-1099	dan	_	_	_	_	_
+12-11	1100-1105	batas	_	_	_	_	_
+12-12	1106-1108	10	_	_	_	_	_
+12-13	1109-1119	pengunjung	_	_	_	_	_
+12-14	1120-1122	di	_	_	_	_	_
+12-15	1123-1128	rumah	_	_	_	_	_
+12-16	1129-1136	pribadi	_	_	_	_	_
+12-17	1137-1141	akan	_	_	_	_	_
+12-18	1142-1149	dihapus	_	_	_	_	_
+12-19	1150-1151	.	_	_	_	_	_
+
+#Text=Langkah ini dilakukan negara Nordik itu di saat kasus sedang meninggi .
+13-1	1153-1160	Langkah	_	_	_	_	_
+13-2	1161-1164	ini	_	_	_	_	_
+13-3	1165-1174	dilakukan	_	_	_	_	_
+13-4	1175-1181	negara	_	_	_	_	_
+13-5	1182-1188	Nordik	_	_	_	_	_
+13-6	1189-1192	itu	_	_	_	_	_
+13-7	1193-1195	di	_	_	_	_	_
+13-8	1196-1200	saat	_	_	_	_	_
+13-9	1201-1206	kasus	_	_	_	_	_
+13-10	1207-1213	sedang	_	_	_	_	_
+13-11	1214-1222	meninggi	_	_	_	_	_
+13-12	1223-1224	.	_	_	_	_	_
+
+#Text=Jonas mengatakan meski kasus meningkat , jumlah keterisian rumah sakit cukup sedikit mengingat vaksinasi yang sudah cukup mencakup porsi besar populasi .
+14-1	1226-1231	Jonas	_	_	_	_	_
+14-2	1232-1242	mengatakan	_	_	_	_	_
+14-3	1243-1248	meski	_	_	_	_	_
+14-4	1249-1254	kasus	_	_	_	_	_
+14-5	1255-1264	meningkat	_	_	_	_	_
+14-6	1265-1266	,	_	_	_	_	_
+14-7	1267-1273	jumlah	_	_	_	_	_
+14-8	1274-1284	keterisian	_	_	_	_	_
+14-9	1285-1290	rumah	_	_	_	_	_
+14-10	1291-1296	sakit	_	_	_	_	_
+14-11	1297-1302	cukup	_	_	_	_	_
+14-12	1303-1310	sedikit	_	_	_	_	_
+14-13	1311-1320	mengingat	_	_	_	_	_
+14-14	1321-1330	vaksinasi	_	concept[3]	_	_	_
+14-15	1331-1335	yang	_	_	_	_	_
+14-16	1336-1341	sudah	_	positive[4]	_	_	_
+14-17	1342-1347	cukup	_	positive[4]	_	_	_
+14-18	1348-1356	mencakup	_	positive[4]	_	_	_
+14-19	1357-1362	porsi	_	positive[4]	_	_	_
+14-20	1363-1368	besar	_	positive[4]	_	_	_
+14-21	1369-1377	populasi	_	positive[4]	_	_	_
+14-22	1378-1379	.	_	_	_	_	_
+
+#Text=8 .
+15-1	1381-1382	8	_	_	_	_	_
+15-2	1383-1384	.	_	_	_	_	_
+
+#Text=Italia Negeri itu mencabut aturan wajib masker di luar ruangan , Selasa ( 8 / 2 / 2022 ) lalu .
+16-1	1386-1392	Italia	_	_	_	_	_
+16-2	1393-1399	Negeri	_	_	_	_	_
+16-3	1400-1403	itu	_	_	_	_	_
+16-4	1404-1412	mencabut	_	_	_	_	_
+16-5	1413-1419	aturan	_	_	_	_	_
+16-6	1420-1425	wajib	_	_	_	_	_
+16-7	1426-1432	masker	_	_	_	_	_
+16-8	1433-1435	di	_	_	_	_	_
+16-9	1436-1440	luar	_	_	_	_	_
+16-10	1441-1448	ruangan	_	_	_	_	_
+16-11	1449-1450	,	_	_	_	_	_
+16-12	1451-1457	Selasa	_	_	_	_	_
+16-13	1458-1459	(	_	_	_	_	_
+16-14	1460-1461	8	_	_	_	_	_
+16-15	1462-1463	/	_	_	_	_	_
+16-16	1464-1465	2	_	_	_	_	_
+16-17	1466-1467	/	_	_	_	_	_
+16-18	1468-1472	2022	_	_	_	_	_
+16-19	1473-1474	)	_	_	_	_	_
+16-20	1475-1479	lalu	_	_	_	_	_
+16-21	1480-1481	.	_	_	_	_	_
+
+#Text=Pemerintah mengklaim situasi sudah membaik .
+17-1	1483-1493	Pemerintah	_	_	_	_	_
+17-2	1494-1503	mengklaim	_	_	_	_	_
+17-3	1504-1511	situasi	_	concept[5]	_	_	_
+17-4	1512-1517	sudah	_	positive[6]	_	_	_
+17-5	1518-1525	membaik	_	positive[6]	_	_	_
+17-6	1526-1527	.	_	_	_	_	_
+
+#Text=Meski demikian , masker masih akan diperlukan di wilayah ramai dan dalam ruangan .
+18-1	1529-1534	Meski	_	_	_	_	_
+18-2	1535-1543	demikian	_	_	_	_	_
+18-3	1544-1545	,	_	_	_	_	_
+18-4	1546-1552	masker	_	_	_	_	_
+18-5	1553-1558	masih	_	_	_	_	_
+18-6	1559-1563	akan	_	_	_	_	_
+18-7	1564-1574	diperlukan	_	_	_	_	_
+18-8	1575-1577	di	_	_	_	_	_
+18-9	1578-1585	wilayah	_	_	_	_	_
+18-10	1586-1591	ramai	_	_	_	_	_
+18-11	1592-1595	dan	_	_	_	_	_
+18-12	1596-1601	dalam	_	_	_	_	_
+18-13	1602-1609	ruangan	_	_	_	_	_
+18-14	1610-1611	.	_	_	_	_	_
+
+#Text=Aturan baru akan berlaku 11 Februari hingga 31 Maret .
+19-1	1613-1619	Aturan	_	_	_	_	_
+19-2	1620-1624	baru	_	_	_	_	_
+19-3	1625-1629	akan	_	_	_	_	_
+19-4	1630-1637	berlaku	_	_	_	_	_
+19-5	1638-1640	11	_	_	_	_	_
+19-6	1641-1649	Februari	_	_	_	_	_
+19-7	1650-1656	hingga	_	_	_	_	_
+19-8	1657-1659	31	_	_	_	_	_
+19-9	1660-1665	Maret	_	_	_	_	_
+19-10	1666-1667	.	_	_	_	_	_
+
+#Text=Sementara itu , pemerintah juga berjanji akan meningkatkan batas kehadiran penonton di stadion olahraga .
+20-1	1669-1678	Sementara	_	_	_	_	_
+20-2	1679-1682	itu	_	_	_	_	_
+20-3	1683-1684	,	_	_	_	_	_
+20-4	1685-1695	pemerintah	_	_	_	_	_
+20-5	1696-1700	juga	_	_	_	_	_
+20-6	1701-1709	berjanji	_	_	_	_	_
+20-7	1710-1714	akan	_	_	_	_	_
+20-8	1715-1727	meningkatkan	_	_	_	_	_
+20-9	1728-1733	batas	_	_	_	_	_
+20-10	1734-1743	kehadiran	_	_	_	_	_
+20-11	1744-1752	penonton	_	_	_	_	_
+20-12	1753-1755	di	_	_	_	_	_
+20-13	1756-1763	stadion	_	_	_	_	_
+20-14	1764-1772	olahraga	_	_	_	_	_
+20-15	1773-1774	.	_	_	_	_	_
+
+#Text=Dari 50 % kapasitas luar dan 35 % kapasitas dalam , menjadi 75 % kapasitas luar dan 60 % kapasitas dalam .
+21-1	1776-1780	Dari	_	_	_	_	_
+21-2	1781-1783	50	_	_	_	_	_
+21-3	1784-1785	%	_	_	_	_	_
+21-4	1786-1795	kapasitas	_	_	_	_	_
+21-5	1796-1800	luar	_	_	_	_	_
+21-6	1801-1804	dan	_	_	_	_	_
+21-7	1805-1807	35	_	_	_	_	_
+21-8	1808-1809	%	_	_	_	_	_
+21-9	1810-1819	kapasitas	_	_	_	_	_
+21-10	1820-1825	dalam	_	_	_	_	_
+21-11	1826-1827	,	_	_	_	_	_
+21-12	1828-1835	menjadi	_	_	_	_	_
+21-13	1836-1838	75	_	_	_	_	_
+21-14	1839-1840	%	_	_	_	_	_
+21-15	1841-1850	kapasitas	_	_	_	_	_
+21-16	1851-1855	luar	_	_	_	_	_
+21-17	1856-1859	dan	_	_	_	_	_
+21-18	1860-1862	60	_	_	_	_	_
+21-19	1863-1864	%	_	_	_	_	_
+21-20	1865-1874	kapasitas	_	_	_	_	_
+21-21	1875-1880	dalam	_	_	_	_	_
+21-22	1881-1882	.	_	_	_	_	_
+
+#Text=Tingkat infeksi Covid - 19 baru dan rawat inap di Italia memang menurun secara bertahap dalam beberapa pekan terakhir .
+22-1	1884-1891	Tingkat	_	concept[7]	_	_	_
+22-2	1892-1899	infeksi	_	concept[7]	_	_	_
+22-3	1900-1905	Covid	_	concept[7]	_	_	_
+22-4	1906-1907	-	_	concept[7]	_	_	_
+22-5	1908-1910	19	_	concept[7]	_	_	_
+22-6	1911-1915	baru	_	concept[7]	_	_	_
+22-7	1916-1919	dan	_	_	_	_	_
+22-8	1920-1925	rawat	_	concept[8]	_	_	_
+22-9	1926-1930	inap	_	concept[8]	_	_	_
+22-10	1931-1933	di	_	_	_	_	_
+22-11	1934-1940	Italia	_	_	_	_	_
+22-12	1941-1947	memang	_	_	_	_	_
+22-13	1948-1955	menurun	_	positive[9]	_	_	_
+22-14	1956-1962	secara	_	_	_	_	_
+22-15	1963-1971	bertahap	_	_	_	_	_
+22-16	1972-1977	dalam	_	_	_	_	_
+22-17	1978-1986	beberapa	_	_	_	_	_
+22-18	1987-1992	pekan	_	_	_	_	_
+22-19	1993-2001	terakhir	_	_	_	_	_
+22-20	2002-2003	.	_	_	_	_	_
+
+#Text=Tetapi jumlah kematian tetap tinggi , dengan antara 300 dan 450 kematian hampir setiap hari .
+23-1	2005-2011	Tetapi	_	_	_	_	_
+23-2	2012-2018	jumlah	_	_	_	_	_
+23-3	2019-2027	kematian	_	_	_	_	_
+23-4	2028-2033	tetap	_	_	_	_	_
+23-5	2034-2040	tinggi	_	_	_	_	_
+23-6	2041-2042	,	_	_	_	_	_
+23-7	2043-2049	dengan	_	_	_	_	_
+23-8	2050-2056	antara	_	_	_	_	_
+23-9	2057-2060	300	_	_	_	_	_
+23-10	2061-2064	dan	_	_	_	_	_
+23-11	2065-2068	450	_	_	_	_	_
+23-12	2069-2077	kematian	_	_	_	_	_
+23-13	2078-2084	hampir	_	_	_	_	_
+23-14	2085-2091	setiap	_	_	_	_	_
+23-15	2092-2096	hari	_	_	_	_	_
+23-16	2097-2098	.	_	_	_	_	_
+
+#Text=9 .
+24-1	2100-2101	9	_	_	_	_	_
+24-2	2102-2103	.	_	_	_	_	_
+
+#Text=Swedia Pemerintah Swedia mengumumkan " pandemi telah berakhir " .
+25-1	2105-2111	Swedia	_	_	_	_	_
+25-2	2112-2122	Pemerintah	_	_	_	_	_
+25-3	2123-2129	Swedia	_	_	_	_	_
+25-4	2130-2141	mengumumkan	_	_	_	_	_
+25-5	2142-2143	"	_	_	_	_	_
+25-6	2144-2151	pandemi	_	_	_	_	_
+25-7	2152-2157	telah	_	_	_	_	_
+25-8	2158-2166	berakhir	_	_	_	_	_
+25-9	2167-2168	"	_	_	_	_	_
+25-10	2169-2170	.	_	_	_	_	_
+
+#Text=Semua pembatasan Covid - 19 bahkan sudah dicabut , Rabu ( 8 / 2 / 2022 ) .
+26-1	2172-2177	Semua	_	_	_	_	_
+26-2	2178-2188	pembatasan	_	concept[10]	_	_	_
+26-3	2189-2194	Covid	_	concept[10]	_	_	_
+26-4	2195-2196	-	_	concept[10]	_	_	_
+26-5	2197-2199	19	_	concept[10]	_	_	_
+26-6	2200-2206	bahkan	_	_	_	_	_
+26-7	2207-2212	sudah	_	positive[11]	_	_	_
+26-8	2213-2220	dicabut	_	positive[11]	_	_	_
+26-9	2221-2222	,	_	_	_	_	_
+26-10	2223-2227	Rabu	_	_	_	_	_
+26-11	2228-2229	(	_	_	_	_	_
+26-12	2230-2231	8	_	_	_	_	_
+26-13	2232-2233	/	_	_	_	_	_
+26-14	2234-2235	2	_	_	_	_	_
+26-15	2236-2237	/	_	_	_	_	_
+26-16	2238-2242	2022	_	_	_	_	_
+26-17	2243-2244	)	_	_	_	_	_
+26-18	2245-2246	.	_	_	_	_	_
+
+#Text=Ini dilakukan meski tekanan pada sistem perawatan kesehatan masih tinggi .
+27-1	2248-2251	Ini	_	_	_	_	_
+27-2	2252-2261	dilakukan	_	_	_	_	_
+27-3	2262-2267	meski	_	_	_	_	_
+27-4	2268-2275	tekanan	_	concept[12]	_	_	_
+27-5	2276-2280	pada	_	_	_	_	_
+27-6	2281-2287	sistem	_	_	_	_	_
+27-7	2288-2297	perawatan	_	_	_	_	_
+27-8	2298-2307	kesehatan	_	_	_	_	_
+27-9	2308-2313	masih	_	negative[13]	_	_	_
+27-10	2314-2320	tinggi	_	negative[13]	_	_	_
+27-11	2321-2322	.	_	_	_	_	_
+
+#Text=Bahkan , sejumlah ilmuwan sudah meminta pemerintah bersabar memerangi pandemi .
+28-1	2324-2330	Bahkan	_	_	_	_	_
+28-2	2331-2332	,	_	_	_	_	_
+28-3	2333-2341	sejumlah	_	_	_	_	_
+28-4	2342-2349	ilmuwan	_	_	_	_	_
+28-5	2350-2355	sudah	_	_	_	_	_
+28-6	2356-2363	meminta	_	_	_	_	_
+28-7	2364-2374	pemerintah	_	_	_	_	_
+28-8	2375-2383	bersabar	_	_	_	_	_
+28-9	2384-2393	memerangi	_	_	_	_	_
+28-10	2394-2401	pandemi	_	_	_	_	_
+28-11	2402-2403	.	_	_	_	_	_
+
+#Text=Mengutip Reuters , pemerintah menyebut ada dua alasan mengapa ini dilakukan pemerintah .
+29-1	2405-2413	Mengutip	_	_	_	_	_
+29-2	2414-2421	Reuters	_	_	_	_	_
+29-3	2422-2423	,	_	_	_	_	_
+29-4	2424-2434	pemerintah	_	_	_	_	_
+29-5	2435-2443	menyebut	_	_	_	_	_
+29-6	2444-2447	ada	_	_	_	_	_
+29-7	2448-2451	dua	_	_	_	_	_
+29-8	2452-2458	alasan	_	_	_	_	_
+29-9	2459-2466	mengapa	_	_	_	_	_
+29-10	2467-2470	ini	_	_	_	_	_
+29-11	2471-2480	dilakukan	_	_	_	_	_
+29-12	2481-2491	pemerintah	_	_	_	_	_
+29-13	2492-2493	.	_	_	_	_	_
+
+#Text=Pertama , angka vaksinasi tinggi dan varian Omicron yang diyakini tidak terlalu parah .
+30-1	2495-2502	Pertama	_	_	_	_	_
+30-2	2503-2504	,	_	_	_	_	_
+30-3	2505-2510	angka	_	_	_	_	_
+30-4	2511-2520	vaksinasi	_	_	_	_	_
+30-5	2521-2527	tinggi	_	_	_	_	_
+30-6	2528-2531	dan	_	_	_	_	_
+30-7	2532-2538	varian	_	concept[14]	_	_	_
+30-8	2539-2546	Omicron	_	concept[14]	_	_	_
+30-9	2547-2551	yang	_	_	_	_	_
+30-10	2552-2560	diyakini	_	_	_	_	_
+30-11	2561-2566	tidak	_	positive[15]	_	_	_
+30-12	2567-2574	terlalu	_	positive[15]	_	_	_
+30-13	2575-2580	parah	_	positive[15]	_	_	_
+30-14	2581-2582	.	_	_	_	_	_
+
+#Text=" Seperti yang kita ketahui pandemi ini , saya akan mengatakan ini sudah berakhir , " kata Menteri Kesehatan Lena Hallengren ke surat kabar setempat Dagens Nyheter .
+31-1	2584-2585	"	_	_	_	_	_
+31-2	2586-2593	Seperti	_	_	_	_	_
+31-3	2594-2598	yang	_	_	_	_	_
+31-4	2599-2603	kita	_	_	_	_	_
+31-5	2604-2611	ketahui	_	_	_	_	_
+31-6	2612-2619	pandemi	_	_	_	_	_
+31-7	2620-2623	ini	_	_	_	_	_
+31-8	2624-2625	,	_	_	_	_	_
+31-9	2626-2630	saya	_	_	_	_	_
+31-10	2631-2635	akan	_	_	_	_	_
+31-11	2636-2646	mengatakan	_	_	_	_	_
+31-12	2647-2650	ini	_	_	_	_	_
+31-13	2651-2656	sudah	_	_	_	_	_
+31-14	2657-2665	berakhir	_	_	_	_	_
+31-15	2666-2667	,	_	_	_	_	_
+31-16	2668-2669	"	_	_	_	_	_
+31-17	2670-2674	kata	_	_	_	_	_
+31-18	2675-2682	Menteri	_	_	_	_	_
+31-19	2683-2692	Kesehatan	_	_	_	_	_
+31-20	2693-2697	Lena	_	_	_	_	_
+31-21	2698-2708	Hallengren	_	_	_	_	_
+31-22	2709-2711	ke	_	_	_	_	_
+31-23	2712-2717	surat	_	_	_	_	_
+31-24	2718-2723	kabar	_	_	_	_	_
+31-25	2724-2732	setempat	_	_	_	_	_
+31-26	2733-2739	Dagens	_	_	_	_	_
+31-27	2740-2747	Nyheter	_	_	_	_	_
+31-28	2748-2749	.	_	_	_	_	_
+
+#Text=Ia pun menambahkan bahwa Covid - 19 di negeri itu , tidak lagi diklasifikasikan sebagai penyakit berbahaya bagi masyarakat .
+32-1	2751-2753	Ia	_	_	_	_	_
+32-2	2754-2757	pun	_	_	_	_	_
+32-3	2758-2769	menambahkan	_	_	_	_	_
+32-4	2770-2775	bahwa	_	_	_	_	_
+32-5	2776-2781	Covid	_	concept[16]	_	_	_
+32-6	2782-2783	-	_	concept[16]	_	_	_
+32-7	2784-2786	19	_	concept[16]	_	_	_
+32-8	2787-2789	di	_	_	_	_	_
+32-9	2790-2796	negeri	_	_	_	_	_
+32-10	2797-2800	itu	_	_	_	_	_
+32-11	2801-2802	,	_	_	_	_	_
+32-12	2803-2808	tidak	_	positive[17]	_	_	_
+32-13	2809-2813	lagi	_	positive[17]	_	_	_
+32-14	2814-2830	diklasifikasikan	_	positive[17]	_	_	_
+32-15	2831-2838	sebagai	_	positive[17]	_	_	_
+32-16	2839-2847	penyakit	_	positive[17]	_	_	_
+32-17	2848-2857	berbahaya	_	positive[17]	_	_	_
+32-18	2858-2862	bagi	_	_	_	_	_
+32-19	2863-2873	masyarakat	_	_	_	_	_
+32-20	2874-2875	.	_	_	_	_	_
+
+#Text=Sejak awal pandemi , Swedia memang menjadi negara yang kontroversial karena tak melakukan penguncian dan melakukan pendekatan pembatasan sukarela .
+33-1	2877-2882	Sejak	_	_	_	_	_
+33-2	2883-2887	awal	_	_	_	_	_
+33-3	2888-2895	pandemi	_	_	_	_	_
+33-4	2896-2897	,	_	_	_	_	_
+33-5	2898-2904	Swedia	_	concept[18]	_	_	_
+33-6	2905-2911	memang	_	_	_	_	_
+33-7	2912-2919	menjadi	_	_	_	_	_
+33-8	2920-2926	negara	_	_	_	_	_
+33-9	2927-2931	yang	_	_	_	_	_
+33-10	2932-2945	kontroversial	_	negative[19]	_	_	_
+33-11	2946-2952	karena	_	_	_	_	_
+33-12	2953-2956	tak	_	negative[20]	_	_	_
+33-13	2957-2966	melakukan	_	negative[20]	_	_	_
+33-14	2967-2977	penguncian	_	negative[20]	_	_	_
+33-15	2978-2981	dan	_	_	_	_	_
+33-16	2982-2991	melakukan	*	[18_21]|negative[21]	_	_	_
+33-17	2992-3002	pendekatan	_	negative[21]	_	_	_
+33-18	3003-3013	pembatasan	_	negative[21]	_	_	_
+33-19	3014-3022	sukarela	_	negative[21]	_	_	_
+33-20	3023-3024	.	_	_	_	_	_
+
+#Text=Saat ini , bar dan restoran akan diizinkan untuk tetap buka setelah jam 11 malam lagi dan tanpa batasan jumlah tamu .
+34-1	3026-3030	Saat	_	_	_	_	_
+34-2	3031-3034	ini	_	_	_	_	_
+34-3	3035-3036	,	_	_	_	_	_
+34-4	3037-3040	bar	_	_	_	_	_
+34-5	3041-3044	dan	_	_	_	_	_
+34-6	3045-3053	restoran	_	_	_	_	_
+34-7	3054-3058	akan	_	_	_	_	_
+34-8	3059-3068	diizinkan	_	_	_	_	_
+34-9	3069-3074	untuk	_	_	_	_	_
+34-10	3075-3080	tetap	_	_	_	_	_
+34-11	3081-3085	buka	_	_	_	_	_
+34-12	3086-3093	setelah	_	_	_	_	_
+34-13	3094-3097	jam	_	_	_	_	_
+34-14	3098-3100	11	_	_	_	_	_
+34-15	3101-3106	malam	_	_	_	_	_
+34-16	3107-3111	lagi	_	_	_	_	_
+34-17	3112-3115	dan	_	_	_	_	_
+34-18	3116-3121	tanpa	_	_	_	_	_
+34-19	3122-3129	batasan	_	_	_	_	_
+34-20	3130-3136	jumlah	_	_	_	_	_
+34-21	3137-3141	tamu	_	_	_	_	_
+34-22	3142-3143	.	_	_	_	_	_
+
+#Text=Batas kehadiran untuk tempat-tempat dalam ruangan yang lebih besar juga dicabut , seperti penggunaan tiket masuk vaksin .
+35-1	3145-3150	Batas	_	_	_	_	_
+35-2	3151-3160	kehadiran	_	_	_	_	_
+35-3	3161-3166	untuk	_	_	_	_	_
+35-4	3167-3180	tempat-tempat	_	_	_	_	_
+35-5	3181-3186	dalam	_	_	_	_	_
+35-6	3187-3194	ruangan	_	_	_	_	_
+35-7	3195-3199	yang	_	_	_	_	_
+35-8	3200-3205	lebih	_	_	_	_	_
+35-9	3206-3211	besar	_	_	_	_	_
+35-10	3212-3216	juga	_	_	_	_	_
+35-11	3217-3224	dicabut	_	_	_	_	_
+35-12	3225-3226	,	_	_	_	_	_
+35-13	3227-3234	seperti	_	_	_	_	_
+35-14	3235-3245	penggunaan	_	_	_	_	_
+35-15	3246-3251	tiket	_	_	_	_	_
+35-16	3252-3257	masuk	_	_	_	_	_
+35-17	3258-3264	vaksin	_	_	_	_	_
+35-18	3265-3266	.	_	_	_	_	_
+
+#Text=Sementara itu , dari data lapangan , rumah sakit Swedia masih merasakan tekanan .
+36-1	3268-3277	Sementara	_	_	_	_	_
+36-2	3278-3281	itu	_	_	_	_	_
+36-3	3282-3283	,	_	_	_	_	_
+36-4	3284-3288	dari	_	_	_	_	_
+36-5	3289-3293	data	_	_	_	_	_
+36-6	3294-3302	lapangan	_	_	_	_	_
+36-7	3303-3304	,	_	_	_	_	_
+36-8	3305-3310	rumah	_	concept[22]	_	_	_
+36-9	3311-3316	sakit	_	concept[22]	_	_	_
+36-10	3317-3323	Swedia	_	concept[22]	_	_	_
+36-11	3324-3329	masih	_	negative[23]	_	_	_
+36-12	3330-3339	merasakan	_	negative[23]	_	_	_
+36-13	3340-3347	tekanan	_	negative[23]	_	_	_
+36-14	3348-3349	.	_	_	_	_	_
+
+#Text=Ada sekitar 2.200 orang dengan Covid - 19 yang membutuhkan perawatan di rumah sakit per kemarin .
+37-1	3351-3354	Ada	_	_	_	_	_
+37-2	3355-3362	sekitar	_	_	_	_	_
+37-3	3363-3368	2.200	_	_	_	_	_
+37-4	3369-3374	orang	_	_	_	_	_
+37-5	3375-3381	dengan	_	_	_	_	_
+37-6	3382-3387	Covid	_	_	_	_	_
+37-7	3388-3389	-	_	_	_	_	_
+37-8	3390-3392	19	_	_	_	_	_
+37-9	3393-3397	yang	_	_	_	_	_
+37-10	3398-3409	membutuhkan	_	_	_	_	_
+37-11	3410-3419	perawatan	_	_	_	_	_
+37-12	3420-3422	di	_	_	_	_	_
+37-13	3423-3428	rumah	_	_	_	_	_
+37-14	3429-3434	sakit	_	_	_	_	_
+37-15	3435-3438	per	_	_	_	_	_
+37-16	3439-3446	kemarin	_	_	_	_	_
+37-17	3447-3448	.	_	_	_	_	_
+
+#Text=Sebanyak 114 kematian baru juga dilaporkan .
+38-1	3450-3458	Sebanyak	_	_	_	_	_
+38-2	3459-3462	114	_	_	_	_	_
+38-3	3463-3471	kematian	_	_	_	_	_
+38-4	3472-3476	baru	_	_	_	_	_
+38-5	3477-3481	juga	_	_	_	_	_
+38-6	3482-3492	dilaporkan	_	_	_	_	_
+38-7	3493-3494	.	_	_	_	_	_
+
+#Text=Secara total 16.182 orang telah meninggal karena infeksi Covid - 19 di negara itu .
+39-1	3496-3502	Secara	_	_	_	_	_
+39-2	3503-3508	total	_	_	_	_	_
+39-3	3509-3515	16.182	_	_	_	_	_
+39-4	3516-3521	orang	_	_	_	_	_
+39-5	3522-3527	telah	_	_	_	_	_
+39-6	3528-3537	meninggal	_	_	_	_	_
+39-7	3538-3544	karena	_	_	_	_	_
+39-8	3545-3552	infeksi	_	_	_	_	_
+39-9	3553-3558	Covid	_	_	_	_	_
+39-10	3559-3560	-	_	_	_	_	_
+39-11	3561-3563	19	_	_	_	_	_
+39-12	3564-3566	di	_	_	_	_	_
+39-13	3567-3573	negara	_	_	_	_	_
+39-14	3574-3577	itu	_	_	_	_	_
+39-15	3578-3579	.	_	_	_	_	_
+
+#Text=" Kita harus memiliki sedikit lebih banyak kesabaran , menunggu setidaknya beberapa minggu lagi . Dan kita cukup kaya untuk terus melakukan pengujian , " kritik profesor virologi di Universitas Umea Swedia , Fredrik Elgh ke pemerintah .
+40-1	3581-3582	"	_	_	_	_	_
+40-2	3583-3587	Kita	_	_	_	_	_
+40-3	3588-3593	harus	_	_	_	_	_
+40-4	3594-3602	memiliki	_	_	_	_	_
+40-5	3603-3610	sedikit	_	_	_	_	_
+40-6	3611-3616	lebih	_	_	_	_	_
+40-7	3617-3623	banyak	_	_	_	_	_
+40-8	3624-3633	kesabaran	_	_	_	_	_
+40-9	3634-3635	,	_	_	_	_	_
+40-10	3636-3644	menunggu	_	_	_	_	_
+40-11	3645-3655	setidaknya	_	_	_	_	_
+40-12	3656-3664	beberapa	_	_	_	_	_
+40-13	3665-3671	minggu	_	_	_	_	_
+40-14	3672-3676	lagi	_	_	_	_	_
+40-15	3677-3678	.	_	_	_	_	_
+40-16	3679-3682	Dan	_	_	_	_	_
+40-17	3683-3687	kita	_	_	_	_	_
+40-18	3688-3693	cukup	_	_	_	_	_
+40-19	3694-3698	kaya	_	_	_	_	_
+40-20	3699-3704	untuk	_	_	_	_	_
+40-21	3705-3710	terus	_	_	_	_	_
+40-22	3711-3720	melakukan	_	_	_	_	_
+40-23	3721-3730	pengujian	_	_	_	_	_
+40-24	3731-3732	,	_	_	_	_	_
+40-25	3733-3734	"	_	_	_	_	_
+40-26	3735-3741	kritik	_	_	_	_	_
+40-27	3742-3750	profesor	_	_	_	_	_
+40-28	3751-3759	virologi	_	_	_	_	_
+40-29	3760-3762	di	_	_	_	_	_
+40-30	3763-3774	Universitas	_	_	_	_	_
+40-31	3775-3779	Umea	_	_	_	_	_
+40-32	3780-3786	Swedia	_	_	_	_	_
+40-33	3787-3788	,	_	_	_	_	_
+40-34	3789-3796	Fredrik	_	_	_	_	_
+40-35	3797-3801	Elgh	_	_	_	_	_
+40-36	3802-3804	ke	_	_	_	_	_
+40-37	3805-3815	pemerintah	_	_	_	_	_
+40-38	3816-3817	.	_	_	_	_	_
+
+#Text=" Penyakit ini masih menjadi beban besar bagi masyarakat , " tegas nya .
+41-1	3819-3820	"	_	_	_	_	_
+41-2	3821-3829	Penyakit	_	_	_	_	_
+41-3	3830-3833	ini	_	_	_	_	_
+41-4	3834-3839	masih	_	_	_	_	_
+41-5	3840-3847	menjadi	_	_	_	_	_
+41-6	3848-3853	beban	_	_	_	_	_
+41-7	3854-3859	besar	_	_	_	_	_
+41-8	3860-3864	bagi	_	_	_	_	_
+41-9	3865-3875	masyarakat	_	_	_	_	_
+41-10	3876-3877	,	_	_	_	_	_
+41-11	3878-3879	"	_	_	_	_	_
+41-12	3880-3885	tegas	_	_	_	_	_
+41-13	3886-3889	nya	_	_	_	_	_
+41-14	3890-3891	.	_	_	_	_	_
+
+#Text=Halaman 3 >>>
+42-1	3893-3900	Halaman	_	_	_	_	_
+42-2	3901-3902	3	_	_	_	_	_
+42-3	3903-3906	>>>	_	_	_	_	_
+
