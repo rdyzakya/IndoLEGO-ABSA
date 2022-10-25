@@ -12,8 +12,13 @@ def comparator(x,df_):
 # parse foldername of datasaur tsv
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--foldername', help='foldername of datasaur tsv', required=True)
+parser.add_argument('-o', '--output', help='output filename', required=True)
 args = parser.parse_args()
 foldername = args.foldername
+output = args.output
+
+if not output.endswith(".csv"):
+    output += ".csv"
 
 filenames = os.listdir(foldername)
 
@@ -66,7 +71,8 @@ for filename in filenames:
             text = " ".join(tokens)
 
             labels = data_df.loc[data_df.sentence_id == sentence_id,'label'].unique().tolist()
-            labels.remove("_")
+            if '_' in labels:
+                labels.remove("_")
             labels = "|".join(labels).split("|")
 
             concept_labels = [l for l in labels if l.startswith('concept')]
@@ -90,7 +96,7 @@ for filename in filenames:
                     sm_text = " ".join(sm_tokens)
                     new_relation_data_el = {
                         "text_a" : text,
-                        "text-b" : f"{concept_text}-{sm_text}"
+                        "text_b" : f"{concept_text}-{sm_text}"
                     }
                     connection = f"[{i}_{j}]"
                     if connection in relations:
@@ -103,4 +109,4 @@ for filename in filenames:
         # append relation_df to all_df
         all_df = all_df.append(relation_df)
         relation_df.to_csv(os.path.join(foldername,"relation_data",filename.replace(".tsv",".csv")), index=False)
-all_df.to_csv(os.path.join(foldername,"relation_data","all.csv"), index=False)
+all_df.to_csv(output, index=False)

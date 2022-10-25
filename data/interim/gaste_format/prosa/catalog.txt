@@ -1,6 +1,0 @@
-train_socmed : Whole training data from socmed data
-train_socmed_twenty_percent : 20% Of the training data from socmed data
-train_news_annotator : Training data from news data annotated by prosa's annotators
-train_news_student : Training data from news data annotated by itb's students
-test_socmed : Test data from socmed data
-test_news : Test data from news data (annotated by prosa's annotator)

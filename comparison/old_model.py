@@ -10,7 +10,7 @@ import numpy as np
 import nltk
 
 import sys
-sys.path.append("/srv/nas_data1/text/randy/aste/facebook-aste/gaste")
+sys.path.append("/srv/nas_data1/text/randy/absa/facebook-absa/gabsa")
 
 from data_utils import read_files
 from eval_utils import evaluate
@@ -206,7 +206,12 @@ for i in range((len(texts))):
             if combination not in relation_dataset["combination"]:
                 relation_dataset["text"].append(texts[i])
                 relation_dataset["combination"].append(combination)
-                relation_dataset["triplet"].append((concept,sentiment_marker,"positive"))
+                # relation_dataset["triplet"].append((concept,sentiment_marker,"positive"))
+                relation_dataset["triplet"].append({
+                    "aspect" : concept,
+                    "opinion" : sentiment_marker,
+                    "sentiment" : "positive"
+                    })
     
     # for j in range(len(detokenized_concepts_neg[i])):
         for k in range(len(detokenized_sm_neg[i])):
@@ -228,7 +233,12 @@ for i in range((len(texts))):
             if combination not in relation_dataset["combination"]:
                 relation_dataset["text"].append(texts[i])
                 relation_dataset["combination"].append(combination)
-                relation_dataset["triplet"].append((concept,sentiment_marker,"negative"))
+                # relation_dataset["triplet"].append((concept,sentiment_marker,"negative"))
+                relation_dataset["triplet"].append({
+                    "aspect" : concept,
+                    "opinion" : sentiment_marker,
+                    "sentiment" : "negative"
+                    })
 
 relation_dataset = pd.DataFrame(relation_dataset)
 
@@ -255,7 +265,7 @@ unique_text = relation_dataset.text.unique()
 
 final_result = {
     "text" : dataset["text"],
-    "target" : dataset["target"].str.lower(),
+    "target" : dataset["target"], # .str.lower(),
     "preds" : []
 }
 
@@ -265,7 +275,7 @@ for i in range(len(final_result["text"])):
     triplets = relation_dataset.loc[(relation_dataset["text"] == text) & (relation_dataset["is_connected"] == 1),"triplet"].tolist()
     final_result["preds"].append(triplets)
 print("Evaluation...")
-evaluation = evaluate(final_result["text"].str.lower(),final_result["preds"],final_result["target"])
+evaluation = evaluate(final_result["preds"],final_result["target"])
 print(evaluation)
 inference_time = {
     "global" : global_end_time - global_start_time,

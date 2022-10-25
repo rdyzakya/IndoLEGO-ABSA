@@ -1,9 +1,7 @@
 import pandas as pd
 import os
-
 import argparse
 
-# parse foldername of datasaur tsv
 parser = argparse.ArgumentParser()
 parser.add_argument('-f', '--foldername', help='foldername of datasaur tsv', required=True)
 parser.add_argument('-o', '--output', help='output filename', required=True)

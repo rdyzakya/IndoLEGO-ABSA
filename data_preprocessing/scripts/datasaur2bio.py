@@ -74,11 +74,11 @@ for filename in filenames:
                     # concept (choose the longer one as the B)
                     if l.startswith("concept"):
                         if index == 0:
-                            BIO_concept_label = "B"
+                            BIO_concept_label = "B-CONCEPT"
                         elif data_df.loc[index-1,'BIO_concept'] == "O":
                                 BIO_concept_label = "B"
                         else:
-                            BIO_concept_label = "I"
+                            BIO_concept_label = "I-CONCEPT"
                 
                     # sentiment marker (choose the longer one as the B)
                     if l.startswith("positive") or l.startswith("negative"):

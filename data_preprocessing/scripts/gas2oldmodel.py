@@ -52,9 +52,9 @@ for el in data:
             polarity_relation = senttag2word[polarity]
 
             if i == concept_index[0]:
-                concept_token = "B" # -" + polarity
+                concept_token = "B-CONCEPT" # -" + polarity
             elif i in concept_index:
-                concept_token = "I" # -" + polarity
+                concept_token = "I-CONCEPT" # -" + polarity
             
             if i == sentiment_marker_index[0]:
                 sentiment_marker_token = "B-" + polarity
