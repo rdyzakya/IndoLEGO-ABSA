@@ -1,0 +1,5 @@
+B-POS
+I-POS
+B-NEG
+I-NEG
+O

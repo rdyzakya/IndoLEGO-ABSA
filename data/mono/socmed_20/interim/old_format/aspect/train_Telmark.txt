@@ -1,0 +1,3367 @@
+nanti	O
+kalau	O
+memang	O
+sudah	O
+waktu	O
+nya	O
+perjanjian	O
+tanggal	O
+dua	O
+puluh	O
+delapan	O
+baru	O
+
+itu	O
+saya	O
+sudah	O
+kirim	O
+ke	O
+simpati	O
+
+ini	O
+untuk	O
+<	O
+pema	O
+>	O
+pembayaran	O
+nya	O
+bagaimana	O
+sebegitu	O
+bilang	O
+
+gmail	O
+dot	O
+com	O
+iya	O
+
+halo	O
+
+iya	O
+belum	O
+mas	O
+
+halo	O
+selamat	O
+sore	O
+
+ini	O
+dengan	O
+saudara	O
+nengah	O
+kaste	O
+
+<	O
+ke	O
+>	O
+baik	O
+
+iya	O
+mbak	O
+
+<	O
+oh	O
+>	O
+okay	O
+okay	O
+siap	O
+siap	O
+
+iya	O
+mau	O
+tanya	O
+pak	O
+ini	O
+tagihan	B-CONCEPT
+nya	O
+selama	O
+tiga	O
+bulan	O
+ini	O
+belum	O
+dibayarkan	O
+<	O
+e	O
+>	O
+alasan	O
+nya	O
+apa	O
+pak	O
+
+bapak	O
+kan	O
+sudah	O
+dikasih	O
+solusi	O
+
+saya	O
+<	O
+unk	O
+>	O
+dulu	O
+ini	O
+sama	O
+yang	O
+pakai	O
+ini	O
+teman	O
+saya	O
+ini	O
+
+iya	O
+maksud	O
+nya	O
+nomor	O
+kantor	O
+apa	O
+nomor	O
+mbak	O
+pribadi	O
+
+dan	O
+untuk	O
+e-mail	O
+-	O
+nya	O
+ada	O
+di	O
+akensdoner	O
+at	O
+gmail	O
+dot	O
+com	O
+
+<	O
+oh	O
+>	O
+iya	O
+bu	O
+<	O
+eeh	O
+>	O
+mohon	O
+maaf	O
+bu	O
+
+yang	O
+mana	O
+yang	O
+kosong	O
+tujuh	O
+dua	O
+empat	O
+
+kalau	O
+begitu	O
+terima	O
+kasih	O
+ibu	O
+untuk	O
+waktu	O
+nya	O
+
+pakai	O
+modal	O
+nya	O
+maksud	O
+nya	O
+bagaimana	O
+bapak	O
+
+<	O
+unk	O
+>	O
+secepatnya	O
+juga	O
+saya	O
+akan	O
+bayar	O
+
+selamat	O
+siang	O
+bapak	O
+taufik	O
+
+<	O
+em	O
+>	O
+nanti	O
+diusahain	O
+iya	O
+kak	O
+iya	O
+
+okay	O
+<	O
+e	O
+>	O
+ini	O
+pak	O
+mohon	O
+maaf	O
+nomor	O
+nya	O
+<	O
+unk	O
+>	O
+<	O
+e	O
+>	O
+terhubung	O
+ke	O
+wa	O
+tidak	O
+pak	O
+
+atau	O
+<	O
+ko	O
+>	O
+telepon	O
+masuk	O
+ada	O
+
+<	O
+oh	O
+>	O
+begitu	O
+
+enggak	O
+
+sudah	O
+saya	O
+sudah	O
+kirimin	O
+nomor	O
+nya	O
+
+iya	O
+halo	O
+selamat	O
+sore	O
+
+seperti	O
+itu	O
+bisa	O
+enggak	O
+
+dan	O
+setiap	O
+hari	O
+saya	O
+sudah	O
+sering	O
+ditelepon	O
+dan	O
+dibilang	O
+kalau	O
+nomor	O
+ini	O
+akan	O
+dikonfirmasi	O
+kalau	O
+bukan	O
+nasabah	O
+dari	O
+<	O
+ba	O
+>	O
+apa	O
+pusat	O
+gadai	O
+
+sudah	O
+ada	O
+perjanjian	O
+iya	O
+dengan	O
+bapak	O
+atau	O
+ibu	O
+siapa	O
+pak	O
+
+enggak	O
+bisa	O
+juga	O
+bu	O
+
+agak	O
+sorean	O
+deh	O
+<	O
+po	O
+nya	O
+>	O
+
+ke	O
+tiga	O
+enam	O
+tiga	O
+tiga	O
+enam	O
+tiga	O
+sama	O
+saya	O
+<	O
+keutan	O
+>	O
+tiga	O
+enam	O
+lima	O
+saya	O
+
+<	O
+em	O
+>	O
+begitu	O
+tinggal	O
+nya	O
+di	O
+mana	O
+bu	O
+sindy	O
+
+dari	O
+gojek	O
+paylater	O
+pak	O
+
+saya	O
+sari	O
+pak	O
+dari	O
+bca	O
+
+selamat	O
+sore	O
+
+enggak	O
+cuma	O
+nomor	O
+nya	O
+enggak	O
+diambil-ambil	O
+begitu	O
+nomor	O
+nya	O
+juga	O
+enggak	O
+dibawa	O
+begitu	O
+
+<	O
+napas	O
+>	O
+per	O
+bulan	O
+nya	O
+kurang	O
+lebih	O
+satu	O
+setengah	O
+pak	O
+satu	O
+koma	O
+limaan	O
+
+<	O
+oh	O
+>	O
+seperti	O
+itu	O
+<	O
+napas	O
+>	O
+
+selamat	O
+sore	O
+
+iya	O
+
+kata	O
+nya	O
+sih	O
+bilang	O
+iya	O
+sudah	O
+nanti	O
+biarin	O
+bentar	O
+aku	O
+iniin	O
+deh	O
+urusin	O
+kalau	O
+itu	O
+bentar	O
+sama	O
+kamu	O
+iya	O
+<	O
+heeh	O
+>	O
+
+atau	O
+enggak	O
+bentar	O
+langsung	O
+saya	O
+pakai	O
+aplikasi	O
+iya	O
+bayar	O
+nya	O
+
+itu	O
+kan	O
+saya	O
+pakai	O
+juga	O
+enggak	O
+nyampai	O
+
+pak	O
+
+selamat	O
+malam	O
+ibu	O
+
+bapak	O
+ini	O
+lagi	O
+di	O
+depan	O
+jalan	O
+atau	O
+bagaimana	O
+pak	O
+
+jadi	O
+kalau	O
+memang	O
+bapak	O
+untuk	O
+pembayaran	O
+hari	O
+ini	O
+iya	O
+bapak	O
+cukup	O
+bayarkan	O
+sesuai	O
+yang	O
+ada	O
+di	O
+aplikasi	O
+saja	O
+
+samsung	O
+
+enggak	O
+pakai	O
+m-banking	O
+
+iya	O
+<	O
+napas	O
+>	O
+kok	O
+ini	O
+ngegadain	O
+di	O
+otista	O
+jauh	O
+banget	O
+iya	O
+
+bapak	O
+sudah	O
+menyetujui	O
+untuk	O
+ada	O
+pembayaran	O
+di	O
+tanggal	O
+enam	O
+di	O
+jam	O
+dua	O
+belas	O
+siang	O
+iya	O
+pak	O
+iya	O
+
+yang	O
+tadi	O
+telepon	O
+
+jadi	O
+tolong	O
+untuk	O
+suara	O
+nya	O
+lebih	O
+keras	O
+lagi	O
+karena	O
+di	O
+sini	O
+tidak	O
+kedengaran	O
+pak	O
+
+bu	O
+ririn	O
+atau	O
+bu	O
+siapa	O
+begitu	O
+yang	O
+
+siang	O
+
+ini	O
+bapak	O
+siapa	O
+sih	O
+saya	O
+bicara	O
+
+<	O
+oh	O
+>	O
+iya	O
+iya	O
+iya	O
+siap	O
+siap	O
+
+<	O
+oh	O
+>	O
+sama	O
+bu	O
+siska	O
+
+top	O
+up	O
+saja	O
+
+tunggu	O
+nya	O
+kapan	O
+
+halo	O
+
+enggak	O
+sekarang	O
+gini	O
+
+<	O
+e	O
+>	O
+kebetulan	O
+saya	O
+juga	O
+lupa	O
+ini	O
+wa	O
+-	O
+nya	O
+
+<	O
+unk	O
+>	O
+itu	O
+pak	O
+cukup	O
+
+jadi	O
+dimaksimalkan	O
+iya	O
+untuk	O
+pembayaran	O
+nya	O
+iya	O
+
+iya	O
+<	O
+eng	O
+>	O
+kemarin	O
+saya	O
+nyicil	O
+satu	O
+juta	O
+iya	O
+mudah-mudahan	O
+ada	O
+
+<	O
+oh	O
+>	O
+iya	O
+iya	O
+
+bapak	O
+siapa	O
+nama	O
+
+<	O
+oh	O
+>	O
+jadi	O
+sekarang	O
+belum	O
+ada	O
+dana	O
+<	O
+yap	O
+>	O
+
+iya	O
+pak	O
+
+ini	O
+saya	O
+mau	O
+konfirmasi	O
+dengan	O
+tagihan	B-CONCEPT
+paylater	O
+-	O
+nya	O
+sudah	O
+keterlambatan	O
+<	O
+napas	O
+>	O
+sekitar	O
+seratus	O
+lima	O
+puluh	O
+tujuh	O
+hari	O
+ini	O
+pak	O
+dengan	O
+total	O
+tagihan	O
+sekitar	O
+empat	O
+ratus	O
+sembilan	O
+puluh	O
+<	O
+sem	O
+>	O
+<	O
+sem	O
+>	O
+empat	O
+ratus	O
+sembilan	O
+puluh	O
+sembilan	O
+ribu	O
+
+tolong	O
+iya	O
+pak	O
+diusahakan	O
+dulu	O
+sebelum	O
+tanggal	O
+lima	O
+belas	O
+iya	O
+pak	O
+
+okay	O
+iya	O
+
+ini	O
+dengan	O
+bapak	O
+putra	O
+iya	O
+
+iya	O
+
+<	O
+napas	O
+>	O
+bapak	O
+enggak	O
+tahu	O
+memang	O
+awal	O
+nya	O
+
+besok	O
+saya	O
+tunggu	O
+pembayaran	O
+bapak	O
+maksimal	O
+jam	O
+tiga	O
+sore	O
+iya	O
+pak	O
+
+okay	O
+
+baik	O
+bapak	O
+andrea	O
+kalau	O
+begitu	O
+terima	O
+kasih	O
+banyak	O
+pak	O
+selamat	O
+pagi	O
+
+ini	O
+suara	O
+bapak	O
+kecil	O
+sekali	O
+mohon	O
+maaf	O
+pak	O
+sebelumnya	O
+pak	O
+
+saya	O
+minta	O
+setengah	O
+nya	O
+jadi	O
+kenapa	O
+lima	O
+ratus	O
+ribu	O
+
+selamat	O
+siang	O
+
+iya	O
+bu	O
+iya	O
+
+<	O
+han	O
+>	O
+bapak	O
+bisa	O
+diselesaikan	O
+di	O
+hari	O
+ini	O
+
+di	O
+jam	O
+dua	O
+belas	O
+siang	O
+iya	O
+
+iya	O
+ibu	O
+ini	O
+dengan	O
+siska	O
+bu	O
+dari	O
+pusat	O
+gadai	O
+mau	O
+konfirmasi	O
+masalah	O
+bpkb	O
+-	O
+nya	O
+ini	O
+
+iya	O
+bu	O
+saya	O
+dengar	O
+bu	O
+
+iya	O
+berapa	O
+ibu	O
+berapa	O
+mbak	O
+
+okay	O
+siap	O
+bu	O
+
+bapak	O
+lufi	O
+di	O
+rumah	O
+nya	O
+kan	O
+ada	O
+keluarga	O
+iya	O
+
+halo	O
+sore	O
+pak	O
+gatot	O
+
+waduh	O
+lama	O
+sekali	O
+iya	O
+itu	O
+iya	O
+
+okay	O
+baik	O
+
+ini	O
+mau	O
+kami	O
+datangi	O
+ke	O
+sana	O
+
+iya	O
+
+sebegitu	O
+
+untuk	O
+total	O
+tagihan	O
+di	O
+angka	O
+seratus	O
+delapan	O
+puluh	O
+tiga	O
+ribu	O
+lima	O
+ratus	O
+dua	O
+rupiah	O
+
+saudara	O
+nya	O
+kemarin	O
+bilang	O
+nya	O
+salah	O
+sambung	O
+sudah	O
+dibilangin	O
+belum	O
+sama	O
+sobur	O
+
+halo	O
+halo	O
+
+<	O
+ke	O
+>	O
+baik	O
+
+cewek	O
+
+kan	O
+di	O
+sini	O
+enggak	O
+ada	O
+atm	B-CONCEPT
+saya	O
+bilang	O
+begitu	O
+kan	O
+
+kemudian	O
+<	O
+unk	O
+>	O
+paylater	O
+nanti	O
+di	O
+situ	O
+ada	O
+keterangan	O
+bayar	O
+sekarang	O
+sesuai	O
+dengan	O
+tagihan	O
+yang	O
+ada	O
+di	O
+situ	O
+
+iya	O
+
+iya	O
+nanti	O
+apabila	O
+hari	O
+ini	O
+belum	O
+ada	O
+pembayaran	O
+kami	O
+akan	O
+menghubungi	O
+kembali	O
+via	O
+telepon	O
+
+iya	O
+mbak	O
+
+jadi	O
+saat	O
+saya	O
+peneleponan	O
+bapak	O
+sudah	O
+bisa	O
+memberikan	O
+jawaban	O
+
+<	O
+oh	O
+>	O
+begitu	O
+ini	O
+saya	O
+nabilla	O
+bu	O
+dari	O
+pusat	O
+gadai	O
+boleh	O
+dibangunin	O
+enggak	O
+bu	O
+
+dengan	O
+ibu	O
+niwayan	O
+supriti	O
+iya	O
+
+dua	O
+puluh	O
+enam	O
+saja	O
+enggak	O
+apa	O
+apa	O
+
+sama	O
+sama	O
+
+selamat	O
+sore	O
+
+nanti	O
+kalau	O
+ini	O
+enggak	O
+ada	O
+nomor	O
+telepon	O
+ini	O
+ini	O
+enggak	O
+ada	O
+nomor	O
+
+kan	O
+tanggal	O
+dua	O
+puluh	O
+perjanjian	O
+itu	O
+mau	O
+nyicil	O
+itu	O
+
+iya	O
+halo	O
+
+mau	O
+dibayarkan	O
+di	O
+tanggal	O
+dua	O
+puluh	O
+berarti	O
+empat	O
+hari	O
+lagi	O
+iya	O
+pak	O
+iya	O
+
+enggak	O
+ada	O
+
+halo	O
+<	O
+samet	O
+>	O
+siang	O
+
+kalau	O
+ibu	O
+sampai	O
+besok	O
+di	O
+jam	O
+tiga	O
+belum	O
+ada	O
+pembayaran	O
+<	O
+napas	O
+>	O
+nik	O
+ibu	O
+akan	O
+jelek	O
+di	O
+jasa	O
+keuangan	O
+dan	O
+slip	O
+bi	O
+checking	O
+begitu	O
+
+iya	O
+
+iya	O
+
+selamat	O
+pagi	O
+ibu	O
+musdalifah	O
+
+<	O
+oh	O
+>	O
+begitu	O
+<	O
+ketawa	O
+>	O
+<	O
+napas	O
+>	O
+enggak	O
+bu	O
+soal	O
+nya	O
+kalau	O
+misalnya	O
+kartu	O
+kredit	O
+nya	O
+memang	O
+ibu	O
+sudah	O
+aktif	O
+tapi	O
+kalau	O
+memang	O
+untuk	O
+rekening	O
+nya	O
+<	O
+napas	O
+>	O
+ibu	O
+masih	O
+aktif	O
+kalau	O
+memang	O
+ibu	O
+masih	O
+ada	O
+<	O
+e	O
+>	O
+keluar	O
+masuk	O
+
+selamat	O
+pagi	O
+
+enggak	O
+bisa	O
+kayak	O
+begitu	O
+lah	O
+
+tolong	O
+disampaikan	O
+saja	O
+iya	O
+
+iya	O
+
+besok	O
+mungkin	O
+hari	O
+ini	O
+
+kira	O
+kira	O
+
+jadi	O
+nanti	O
+untuk	O
+pembayaran	O
+selanjutnya	O
+untuk	O
+pelunasan	O
+di	O
+tanggal	O
+berapa	O
+
+okay	O
+minta	O
+waktu	O
+nya	O
+sebentar	O
+pak	O
+
+iya	O
+dikirim	O
+lewat	O
+gmail	O
+saja	O
+infoin	O
+nya	O
+
+<	O
+em	O
+>	O
+seperti	O
+itu	O
+
+<	O
+eh	O
+>	O
+paling	O
+telat	O
+sih	O
+<	O
+unk	O
+>	O
+jam	O
+sepuluh	O
+saja	O
+paling	O
+telat	O
+
+minggu	O
+depan	O
+
+iya	O
+terus	O
+bapak	O
+klik	O
+di	O
+situ	O
+
+ini	O
+dengan	O
+bapak	O
+warsito	O
+
+<	O
+em	O
+>	O
+ada	O
+pembayaran	O
+nanti	O
+kami	O
+akan	O
+menghubungi	O
+kembali	O
+via	O
+telepon	O
+
+enggak	O
+ada	O
+
+hari	O
+ini	O
+bisa	O
+dibayarkan	O
+jam	O
+berapa	O
+
+ini	O
+lagi	O
+di	O
+jalan	O
+sih	O
+
+karena	O
+kan	O
+bapak	O
+sudah	O
+keterlambatan	O
+kurang	O
+lebih	O
+empat	O
+bulan	O
+iya	O
+
+tunggu	O
+pembayaran	O
+anda	O
+
+kalau	O
+untuk	O
+di	O
+sini	O
+tagihan	O
+per	O
+hari	O
+ada	O
+denda	O
+nya	O
+iya	O
+pak	O
+iya	O
+dua	O
+ribu	O
+rupiah	O
+
+sore	O
+
+kita	O
+kan	O
+penagihan	O
+aktif	O
+ini	O
+
+baik	O
+pak	O
+
+iya	O
+
+belum	O
+bisa	O
+bu	O
+ini	O
+sudah	O
+<	O
+napas	O
+>	O
+ini	O
+sudah	O
+lima	O
+bulan	O
+lebih	O
+
+halo	O
+
+<	O
+oh	O
+>	O
+iya	O
+
+ini	O
+untuk	O
+motor	O
+nya	O
+masih	O
+ada	O
+pak	O
+
+<	O
+em	O
+>	O
+begitu	O
+iya	O
+iya	O
+
+atau	O
+bagaimana	O
+ini	O
+mohon	O
+maaf	O
+
+ada	O
+juga	O
+buat	O
+makan	O
+doang	O
+paling	O
+
+<	O
+napas	O
+>	O
+ibu	O
+mohon	O
+maaf	O
+ini	O
+bu	O
+ini	O
+kan	O
+untuk	O
+telepon	O
+beda	O
+beda	O
+iya	O
+penelepon	O
+nya	O
+<	O
+napas	O
+>	O
+iya	O
+
+baik	O
+coba	O
+untuk	O
+bapak	O
+download	O
+ulang	O
+kembali	O
+akun	O
+gojek	O
+-	O
+nya	O
+atau	O
+bapak	O
+perbarui	O
+di	O
+aplikasi	O
+
+halo	O
+selamat	O
+sore	O
+
+siap	O
+
+ibu	O
+mohon	O
+maaf	O
+
+iya	O
+iya	O
+bisa	O
+iya	O
+
+halo	O
+bapak	O
+
+muhammad	O
+takwan	O
+nomor	O
+nya	O
+masih	O
+aktif	O
+enggak	O
+iya	O
+
+belum	O
+pasti	O
+
+iya	O
+
+iya	O
+
+kalau	O
+untuk	O
+hari	O
+ini	O
+kayak	O
+nya	O
+belum	O
+bisa	O
+deh	O
+bu	O
+
+nomor	O
+enggak	O
+kan	O
+nomor	O
+itu	O
+nya	O
+sudah	O
+dikirimin	O
+nomor	O
+nya	O
+wa	O
+orang	O
+nya	O
+
+iya	O
+
+<	O
+eh	O
+>	O
+<	O
+napas	O
+>	O
+okay	O
+iya	O
+sudah	O
+deh	O
+
+iya	O
+enggak	O
+makanya	O
+saya	O
+minta	O
+solusi	O
+dari	O
+si	O
+mas	O
+
+<	O
+i	O
+nya	O
+>	O
+yang	O
+<	O
+terpak	O
+>	O
+
+siang	O
+
+baik	O
+terima	O
+kasih	O
+untuk	O
+waktu	O
+nya	O
+
+kemudian	O
+untuk	O
+saat	O
+ini	O
+sudah	O
+terkumpul	O
+berapa	O
+dana	O
+yang	O
+bapak	O
+usahakan	O
+kemarin	O
+
+iya	O
+enggak	O
+bisa	O
+bu	O
+di	O
+aplikasi	O
+nya	O
+pun	O
+juga	O
+ditolak	O
+kalau	O
+misalnya	O
+ibu	O
+minta	O
+diangsur	B-CONCEPT
+
+halo	O
+selamat	O
+sore	O
+
+iya	O
+iya	O
+bu	O
+
+kita	O
+minta	O
+dicicil	O
+saja	O
+pak	O
+
+<	O
+oh	O
+>	O
+teman	O
+
+terima	O
+kasih	O
+atas	O
+waktu	O
+nya	O
+
+kalau	O
+bisa	O
+salah	O
+satu	O
+dari	O
+pihak	O
+keluarga	O
+nya	O
+mengambil	O
+alih	O
+untuk	O
+melakukan	O
+pembayaran	O
+karena	O
+ini	O
+tagihan	B-CONCEPT
+nya	O
+sudah	O
+lama	O
+pak	O
+
+dua	O
+enam	O
+enam	O
+lima	O
+
+sebelum	O
+jam	O
+delapan	O
+isi	O
+gopay	O
+terlebih	O
+dahulu	O
+karena	O
+takut	O
+nya	O
+nanti	O
+alfamart	O
+offline	O
+
+lah	O
+kan	O
+saya	O
+<	O
+unk	O
+>	O
+begitu	O
+mbak	O
+
+iya	O
+<	O
+heeh	O
+>	O
+<	O
+heeh	O
+>	O
+iya	O
+sudah	O
+
+kosong	O
+delapan	O
+sembilan	O
+enam	O
+
+bapak	O
+masalah	O
+nya	O
+ini	O
+kan	O
+<	O
+e	O
+>	O
+tagihan	B-CONCEPT
+nya	O
+sudah	O
+dikatakan	O
+<	O
+ula	O
+>	O
+sudah	O
+lumayan	O
+banyak	O
+iya	O
+pak	O
+
+iya	O
+
+lewat	O
+<	O
+heeh	O
+>	O
+
+iya	O
+
+itu	O
+ditelepon	O
+pas	O
+bulan	O
+apa	O
+
+<	O
+eh	O
+>	O
+saya	O
+novita	O
+pihak	O
+ketiga	O
+dari	O
+gojek	O
+paylater	O
+iya	O
+
+bapak	O
+belum	O
+<	O
+e	O
+>	O
+ini	O
+mau	O
+pembayaran	O
+di	O
+gojek	O
+paylater	O
+-	O
+nya	O
+besok	O
+
+dari	O
+pusat	O
+gadai	O
+mana	O
+ini	O
+bentar	O
+saya	O
+bilangin	O
+kalau	O
+
+bapak	O
+tanggal	O
+dua	O
+satu	O
+
+selamat	O
+sore	O
+saya	O
+novita	O
+dari	O
+pt	O
+telmark	O
+rekan	O
+penagihan	O
+untuk	O
+aplikasi	O
+gojek	O
+paylater	O
+
+istri	O
+nya	O
+
+tapi	O
+ninggalin	O
+ktp	O
+enggak	O
+
+masukin	O
+<	O
+eeh	O
+>	O
+
+bagaimana	O
+
+nomor	O
+kantor	O
+kenapa	O
+pak	O
+abizar	O
+
+sudah	O
+matiin	O
+saja	O
+dadah	O
+
+<	O
+eh	O
+>	O
+iya	O
+
+bagaimana	O
+mas	O
+
+<	O
+eeh	O
+>	O
+mau	O
+konfirmasi	O
+ini	O
+untuk	O
+tagihan	O
+<	O
+bepekab	O
+>	O
+<	O
+e	O
+>	O
+mohon	O
+maaf	O
+tagihan	O
+gojek	O
+-	O
+nya	O
+bapak	O
+sudah	O
+dibayarkan	O
+
+kurang	O
+iya	O
+
+iya	O
+kok	O
+bisa	O
+
+di	O
+tanggal	O
+dua	O
+puluh	O
+tujuh	O
+
+kalau	O
+memang	O
+minggu	O
+
+<	O
+unk	O
+>	O
+habis	O
+
+enggak	O
+bapak	O
+yang	O
+ngegadai	O
+hand	O
+phone	O
+siapa	O
+
+iya	O
+halo	O
+sore	O
+ibu	O
+tri	O
+lestari	O
+
+iya	O
+ini	O
+saya	O
+novi	O
+pak	O
+dari	O
+pt	O
+telmark	O
+rekanan	O
+penagihan	O
+paylater	O
+yang	O
+ada	O
+di	O
+aplikasi	O
+gojek	O
+
+soal	O
+nya	O
+sudah	O
+tiap	O
+hari	O
+lo	O
+mbak	O
+kayak	O
+gini	O
+
+iya	O
+siang	O
+
+<	O
+napas	O
+>	O
+bisa	O
+bicara	O
+dengan	O
+pak	O
+gede	O
+sukarna	O
+
+okay	O
+ini	O
+bisa	O
+dipastikan	O
+jam	O
+berapa	O
+pak	O
+biar	O
+saya	O
+buatkan	O
+laporan	O
+nya	O
+di	O
+sistem	O
+
+nanti	O
+login	O
+pakai	O
+salah	O
+satu	O
+e-mail	O
+atau	O
+nomor	O
+nya	O
+
+mohon	O
+maaf	O
+ganggu	O
+waktu	O
+nya	O
+sebentar	O
+saya	O
+dengan	O
+andriansyah	O
+ibu	O
+
+tapi	O
+jangan	O
+terlalu	O
+banyak	O
+mendikte	O
+iya	O
+
+iya	O
+enggak	O
+bisa	O
+pak	O
+
+carteran	O
+
+iya	O
+
+iya	O
+nanti	O
+tolong	O
+dikoordinasikan	O
+dulu	O
+iya	O
+sama	O
+keluarga	O
+nya	O
+
+dari	O
+mana	O
+bu	O
+
+baik	O
+terima	O
+kasih	O
+untuk	O
+info	O
+nya	O
+pak	O
+selamat	O
+sore	O
+
+maksud	O
+anda	O
+apa	O
+
+selamat	O
+sore	O
+
+gini	O
+kak	O
+saya	O
+kan	O
+lagi	O
+usaha	O
+lagi	O
+apa	O
+nama	O
+nya	O
+itu	O
+gara	O
+gara	O
+usaha	O
+tutup	O
+saya	O
+sekarang	O
+lagi	O
+lagi	O
+ada	O
+apa	O
+itu	O
+nama	O
+nya	O
+ojek	O
+<	O
+unk	O
+>	O
+jadi	O
+ngojek	O
+kak	O
+ini	O
+kan	O
+lagi	O
+ngumpulin	O
+ngumpulin	O
+uang	O
+dulu	O
+kak	O
+
+sindy	O
+
+<	O
+oh	O
+>	O
+maksud	O
+kamu	O
+yang	O
+aku	O
+kemarin	O
+lupa	O
+sih	O
+tanggal	O
+berapa	O
+
+okay	O
+
+kemudian	O
+nanti	O
+akan	O
+muncul	O
+fitur	O
+paylater	O
+-	O
+nya	O
+
+sore	O
+
+iya	O
+
+itu	O
+bisa	O
+dicicil	O
+kan	O
+bu	O
+
+halo	O
+
+iya	O
+saya	O
+sendiri	O
+
+dua	O
+sembilan	O
+iya	O
+<	O
+heeh	O
+>	O
+
+<	O
+oh	O
+>	O
+iya	O
+
+halo	O
+selamat	O
+sore	O
+betul	O
+dengan	O
+ibu	O
+indri	O
+<	O
+napas	O
+>	O
+tarara	O
+dewi	O
+gunadi	O
+
+iya	O
+
+<	O
+nya	O
+>	O
+hari	O
+ini	O
+di	O
+jam	O
+lima	O
+
+bisa	O
+bisa	O
+<	O
+ma	O
+>	O
+
+kan	O
+begitu	O
+waktu	O
+saya	O
+make	O
+kan	O
+waktu	O
+<	O
+unk	O
+>	O
+nagih	O
+itu	O
+<	O
+unk	O
+>	O
+bu	O
+kerja	O
+
+iya	O
+nyari	O
+nyari	O
+kan	O
+mutar	O
+mutar	O
+ini	O
+juga	O
+susah	O
+juga	O
+nge	O
+-	O
+grab	O
+<	O
+he	O
+>	O
+
+halo	O
+selamat	O
+siang	O
+
+<	O
+e	O
+>	O
+pak	O
+abizar	O
+ini	O
+saya	O
+nabila	O
+dari	O
+pusat	O
+gadai	O
+<	O
+napas	O
+>	O
+mau	O
+bicara	O
+sama	O
+pak	O
+muhammad	O
+takwan	O
+-	O
+nya	O
+ada	O
+pak	O
+
+bagaimana	O
+
+kenapa	O
+
+ini	O
+saya	O
+kasih	O
+waktu	O
+sampai	O
+tanggal	O
+dua	O
+puluh	O
+lima	O
+
+bisa	O
+bicara	O
+dengan	O
+bapak	O
+yulianto	O
+
+berarti	O
+ini	O
+bapak	O
+rencana	O
+nya	O
+mau	O
+perpanjangan	O
+dulu	O
+iya	O
+
+selamat	O
+siang	O
+
+iya	O
+sudah	O
+nanti	O
+saya	O
+<	O
+e	O
+>	O
+kalau	O
+dia	O
+pulang	O
+saya	O
+bilangin	O
+
+maaf	O
+pelupa	O
+
+ini	O
+dengan	O
+bapak	O
+zaenal	O
+abidin	O
+
+iya	O
+kemudian	O
+ini	O
+kenapa	O
+belum	O
+bapak	O
+bayar	O
+-	O
+bayarkan	O
+pak	O
+
+itu	O
+<	O
+e	O
+>	O
+tagihan	O
+bukan	O
+tagihan	O
+ini	O
+saja	O
+iya	O
+bu	O
+bukan	O
+yang	O
+minus	O
+itu	O
+iya	O
+yang	O
+waktu	O
+saya	O
+ngambil	O
+gofood	O
+itu	O
+bukan	O
+iya	O
+
+kemudian	O
+kan	O
+di	O
+situ	O
+ada	O
+fitur	O
+lainnya	O
+iya	O
+
+hand	O
+phone	O
+-	O
+nya	O
+android	O
+cuma	O
+sudah	O
+enggak	O
+ada	O
+aplikasi	O
+apa	O
+apa	O
+enggak	O
+ada	O
+cuma	O
+nomor	O
+doang	O
+begitu	O
+
+kan	O
+kan	O
+memang	O
+sebenarnya	O
+saya	O
+matiin	O
+kartu	O
+kredit	O
+nya	O
+mbak	O
+kalau	O
+nanya	O
+memang	O
+dia	O
+autodebit	O
+masalah	O
+nya	O
+enggak	O
+saya	O
+matiin	O
+begitu	O
+tagihan	O
+nya	O
+makanya	O
+saya	O
+mau	O
+nanya	O
+dulu	O
+
+iya	O
+
+<	O
+oh	O
+>	O
+iya	O
+bu	O
+iya	O
+bu	O
+
+kosong	O
+delapan	O
+sembilan	O
+enam	O
+dua	O
+enam	O
+enam	O
+lima	O
+
+iya	O
+tolong	O
+di-press	O
+iya	O
+pak	O
+dana	O
+nya	O
+
+halo	O
+selamat	O
+sore	O
+
+iya	O
+
+kok	O
+pengambilan	O
+
+saya	O
+mau	O
+menyelesaikan	O
+iya	O
+kan	O
+tapi	O
+sesuai	O
+kesanggupan	O
+saya	O
+dong	O
+karena	O
+lagi	O
+kondisi	O
+kayak	O
+gini	O
+
+aplikasi	O
+nya	O
+masih	O
+ada	O
+sama	O
+bapak	O
+
+bukan	O
+pak	O
+ini	O
+yang	O
+penggunaan	O
+paylater	O
+-	O
+nya	O
+
+<	O
+em	O
+>	O
+kan	O
+saya	O
+<	O
+perne	O
+>	O
+<	O
+e	O
+>	O
+tanggal	O
+dua	O
+sembilan	O
+april	O
+dua	O
+sembilan	O
+april	O
+iya	O
+pernah	O
+bayar	O
+sembilan	O
+juta	O
+kan	O
+itu	O
+
+ini	O
+untuk	O
+tanggal	O
+enam	O
+belas	O
+ini	O
+saya	O
+tunggu	O
+<	O
+e	O
+>	O
+usaha	O
+bapak	O
+sampai	O
+di	O
+jam	O
+dua	O
+belas	O
+siang	O
+
+ditunggu	O
+iya	O
+bu	O
+iya	O
+makasih	O
+
+iya	O
+ini	O
+untuk	O
+tagihan	B-CONCEPT
+paylater	O
+-	O
+nya	O
+belum	O
+dibayarkan	O
+iya	O
+pak	O
+sudah	O
+keterlambatan	O
+kurang	O
+lebih	O
+
+halo	O
+
+ibu	O
+heni	O
+-	O
+nya	O
+di	O
+mana	O
+
+ini	O
+bapak	O
+ngisi	O
+
+bu	O
+mus	O
+halo	O
+
+kalau	O
+<	O
+decak	O
+>	O
+lokasi	O
+nya	O
+di	O
+mana	O
+
+iya	O
+tanggal	O
+dua	O
+puluh	O
+lima	O
+
+aduh	O
+pak	O
+ini	O
+sudah	O
+collect	O
+kelima	O
+
+saya	O
+<	O
+unk	O
+>	O
+<	O
+e	O
+>	O
+kira	O
+kira	O
+tiga	O
+empat	O
+bulanan	O
+lagi	O
+lah	O
+
+iya	O
+makanya	O
+dari	O
+kemarin	O
+<	O
+ke	O
+>	O
+belum	O
+bisa	O
+
+terus	O
+bagaimana	O
+respons	O
+nya	O
+
+lagi	O
+tidur	O
+mbak	O
+lagi	O
+
+ini	O
+saya	O
+masih	O
+ada	O
+kerjaan	O
+
+<	O
+dahan	O
+>	O
+ada	O
+rezeki	O
+
+kemarin	O
+sama	O
+mas	O
+nya	O
+<	O
+i	O
+>	O
+
+saya	O
+numpang	O
+sama	O
+teman	O
+
+itu	O
+minimum	O
+nya	O
+berapa	O
+
+ini	O
+tagihan	O
+nya	O
+di	O
+pusat	O
+gadai	O
+itu	O
+bisa	O
+dibayarkan	O
+kapan	O
+iya	O
+
+besok	O
+kalau	O
+belum	O
+ada	O
+pembayaran	O
+kami	O
+akan	O
+konfirmasi	O
+kembali	O
+
+iya	O
+bu	O
+
+diusahakan	O
+iya	O
+<	O
+napas	O
+>	O
+
+ini	O
+dari	O
+mana	O
+bu	O
+
+iya	O
+halo	O
+
+dua	O
+puluh	O
+enam	O
+untuk	O
+laporan	O
+nya	O
+bukan	O
+dengan	O
+saya	O
+lagi	O
+bapak	O
+mohon	O
+maaf	O
+
+halo	O
+
+okay	O
+
+iya	O
+halo	O
+selamat	O
+siang	O
+pak	O
+
+nah	O
+jadi	O
+saya	O
+lagi	O
+<	O
+e	O
+>	O
+keuangan	O
+nya	O
+lagi	O
+mendet	O
+
+iya	O
+dia	O
+kan	O
+pakai	O
+hand	O
+phone	O
+saya	O
+
+pak	O
+soni	O
+<	O
+napas	O
+>	O
+iya	O
+sudah	O
+pak	O
+nanti	O
+kalau	O
+memang	O
+sudah	O
+diambil	O
+tolong	O
+kabarin	O
+itu	O
+saja	O
+<	O
+napas	O
+>	O
+bu	O
+riki	O
+-	O
+nya	O
+
+mau	O
+menanyakan	O
+
+ini	O
+terlalu	O
+lama	O
+lo	O
+sudah	O
+keterlambatan	O
+pembayaran	B-CONCEPT
+sembilan	O
+puluh	O
+tiga	O
+hari	O
+
+iya	O
+
+okay	O
+siap	O
+siap	O
+siap	O
+
+kan	O
+kemarin	O
+saya	O
+bilang	O
+<	O
+unk	O
+>	O
+mbak	O
+itu	O
+di	O
+<	O
+unk	O
+>	O
+dulu	O
+baru	O
+saya	O
+di	O
+laut	O
+
+<	O
+decak	O
+>	O
+habis	O
+liburan	O
+apa	O
+bagaimana	O
+
+bapak	O
+tazil	O
+iqbal	O
+-	O
+nya	O
+ibu	O
+
+ini	O
+hp	O
+-	O
+nya	O
+hilang	O
+iya	O
+dan	O
+baru	O
+ditemukan	O
+atau	O
+bagaimana	O
+
+okay	O
+baik	O
+kalau	O
+begitu	O
+terima	O
+kasih	O
+atas	O
+waktu	O
+nya	O
+
+iya	O
+
+lah	O
+maksud	O
+nya	O
+apaan	O
+pak	O
+surat	O
+
+bulan	O
+februari	O
+bapak	O
+setorkan	O
+berapa	O
+rupiah	O
+
+sore	O
+sore	O
+
+<	O
+oh	O
+>	O
+kurang	O
+lebih	O
+tanggal	O
+tiga	O
+belas	O
+okay	O
+kalau	O
+begitu	O
+pak	O
+<	O
+wit	O
+>	O
+nanti	O
+kabari	O
+saja	O
+iya	O
+pak	O
+melalui	O
+whatsapp	O
+
+selamat	O
+siang	O
+
+saya	O
+juga	O
+di	O
+sini	O
+bisa	O
+berbuat	O
+seperti	O
+itu	O
+karena	O
+apa	O
+
+okay	O
+selamat	O
+pagi	O
+pak	O
+<	O
+eh	O
+>	O
+
+iya	O
+
+siang	O
+
+ini	O
+nomor	O
+ibu	O
+terhubung	O
+dengan	O
+whatsapp	O
+
+berapa	O
+total	O
+itu	O
+sih	O
+
+<	O
+oh	O
+>	O
+iya	O
+baik	O
+buat	O
+nge	O
+-	O
+grab	O
+iya	O
+
+iya	O
+ini	O
+total	O
+keterlambatan	O
+bapak	O
+total	O
+keseluruhan	O
+nya	O
+kurang	O
+lebih	O
+di	O
+angka	O
+dua	O
+ratus	O
+hari	O
+pak	O
+
+ini	O
+bapak	O
+untuk	O
+dana	O
+nya	O
+itu	O
+<	O
+su	O
+>	O
+<	O
+e	O
+>	O
+sebagian	O
+sudah	O
+ada	O
+atau	O
+belum	O
+
+baik	O
+terima	O
+kasih	O
+selamat	O
+sore	O
+
+maksud	O
+nya	O
+bagaimana	O
+pak	O
+
+iya	O
+ini	O
+
+jesika	O
+bu	O
+dari	O
+bca	O
+
+<	O
+mat	O
+>	O
+sore	O
+
+kami	O
+matikan	O
+dulu	O
+untuk	O
+peneleponan	O
+nya	O
+
+pak	O
+hardial	O
+
+satu	O
+juta	O
+
+terima	O
+kasih	O
+iya	O
+pak	O
+untuk	O
+konfirmasi	O
+nya	O
+
+baik	O
+
+belum	O
+mbak	O
+karena	O
+ini	O
+baru	O
+beres	O
+ngurus	O
+-	O
+ngurusin	O
+
+iya	O
+
+dengan	O
+bapak	O
+lufiyanto	O
+pulung	O
+raharjo	O
+
+iya	O
+nanti	O
+<	O
+e	O
+>	O
+
+lagi	O
+keluar	O
+sebentar	O
+iya	O
+pak	O
+<	O
+oh	O
+>	O
+<	O
+unk	O
+>	O
+kalau	O
+begitu	O
+saya	O
+titip	O
+pesan	O
+saja	O
+iya	O
+pak	O
+iya	O
+kalau	O
+
+sudah	O
+
+enggak	O
+soal	O
+nya	O
+akhir	O
+bulan	O
+kita	O
+tanggal	O
+merah	O
+
+pakai	O
+hand	O
+phone	O
+waktu	O
+ngejaminin	O
+bpkb	O
+
+maksud	O
+nya	O
+bagaimana	O
+
+belum	O
+iya	O
+pak	O
+iya	O
+
+iya	O
+saya	O
+usahakan	O
+
+iya	O
+
+<	O
+tar	O
+>	O
+saya	O
+cek	O
+dah	O
+iya	O
+iya	O
+
+terima	O
+kasih	O
+ibu	O
+untuk	O
+waktu	O
+nya	O
+
+nah	O
+sebelum	O
+jadi	O
+panjang	O
+bu	O
+iya	O
+tahu	O
+sendiri	O
+kan	O
+cara	O
+penagihan	O
+kolektor	O
+seperti	O
+apa	O
+
+pengisian	O
+gopay	O
+melalui	O
+alfamart	O
+atau	O
+transfer	O
+m-banking	O
+
+hand	O
+phone	O
+-	O
+nya	O
+hilang	O
+
+bentar	O
+iya	O
+de	O
+iya	O
+bentar	O
+iya	O
+mbak	O
+iya	O
+soal	O
+nya	O
+dia	O
+lagi	O
+sakit	O
+juga	O
+mbak	O
+
+<	O
+e	O
+>	O
+dari	O
+<	O
+unk	O
+>	O
+mulai	O
+corona	O
+itu	O
+bulan	O
+apa	O
+iya	O
+sekitar	O
+mei	O
+mbak	O
+
+ini	O
+sesuai	O
+perjanjian	O
+saja	O
+iya	O
+pak	O
+iya	O
+
+<	O
+u	O
+>	O
+menanyakan	O
+untuk	O
+bulan	O
+ini	O
+
+nah	O
+terus	O
+kita	O
+itu	O
+baru	O
+ngurusin	O
+<	O
+unk	O
+>	O
+apa	O
+aplikasi	O
+gerai	O
+ke	O
+gerai	O
+
+bagaimana	O
+
+baik	O
+
+besok	O
+saya	O
+tunggu	O
+sampai	O
+jam	O
+tiga	O
+sore	O
+bagaimana	O
+bu	O
+
+nanti	O
+ketika	O
+bapak	O
+sudah	O
+ajukan	O
+bapak	O
+dana	O
+nya	O
+belum	O
+siap	O
+atau	O
+bagaimana	O
+
+iya	O
+halo	O
+pak	O
+candra	O
+
+ini	O
+dengan	O
+bapak	O
+guruh	O
+saputra	O
+iya	O
+
+iya	O
+saya	O
+sendiri	O
+
+tunggu	O
+dong	O
+
+jadi	O
+saya	O
+yang	O
+diteror	O
+jadi	O
+nya	O
+mah	O
+
+digadai	O
+berapa	O
+sama	O
+dia	O
+
+saya	O
+akan	O
+bayar	O
+
+iya	O
+iya	O
+iya	O
+iya	O
+iya	O
+
+saya	O
+usahakan	O
+satu	O
+juta	O
+bu	O
+makanya	O
+saya	O
+naikkan	O
+saya	O
+usahakan	O
+biar	O
+bagaimanapun	O
+nanti	O
+yang	O
+kebutuhan	O
+yang	O
+lain	O
+saya	O
+tetap	O
+arahkan	O
+ke	O
+situ	O
+saya	O
+siapin	O
+
+diusahakan	O
+iya	O
+pak	O
+iya	O
+sampai	O
+jam	O
+empat	O
+sore	O
+iya	O
+pak	O
+yulianto	O
+
+makanya	O
+saya	O
+dari	O
+tadi	O
+dengar	O
+musik	O
+terus	O
+sampai	O
+matiin	O
+matiin	O
+lagi	O
+kelamaan	O
+saya	O
+nunggu	B-CONCEPT
+
+enggak	O
+ada	O
+kosong	O
+
+karena	O
+di	O
+sini	O
+bapak	O
+sudah	O
+dikonfirmasi	O
+berkali-kali	O
+kita	O
+juga	O
+enggak	O
+bisa	O
+nunggu	O
+lama	O
+juga	O
+
+melalui	O
+indomaret	O
+saja	O
+nanti	O
+
+<	O
+e	O
+>	O
+ini	O
+untuk	O
+<	O
+e	O
+>	O
+di	O
+jam	O
+dua	O
+belas	O
+itu	O
+nanti	O
+pembayaran	O
+nya	O
+bapak	O
+akan	O
+saya	O
+wa	O
+
+iya	O
+
+kalau	O
+misalnya	O
+enggak	O
+ada	O
+satu	O
+lima	O
+paling	O
+<	O
+e	O
+>	O
+apa	O
+setengah	O
+nya	O
+dulu	O
+enggak	O
+bisa	O
+kak	O
+iya	O
+iya	O
+
+halo	O
+
+pt	O
+apa	O
+sih	O
+iya	O
+waktu	O
+itu	O
+dia	O
+iya	O
+
+baik	O
+pak	O
+di	O
+sini	O
+kami	O
+menjelaskan	O
+iya	O
+pak	O
+iya	O
+
+ini	O
+kemudian	O
+nomor	O
+wa	O
+-	O
+nya	O
+aktif	O
+atau	O
+tidak	O
+pak	O
+
+iya	O
+
+pak	O
+kuat	O
+maaf	O
+
+karena	O
+kan	O
+dikasih	O
+waktu	O
+nya	O
+itu	O
+iya	O
+sampai	O
+satu	O
+bulan	O
+
+nama	O
+
+iya	O
+orang	O
+nya	O
+ke	O
+mana	O
+memang	O
+kok	O
+bisa	O
+lost	O
+contact	O
+sama	O
+ibu	O
+
+baik	O
+bapak	O
+
+<	O
+e	O
+>	O
+bukan	O
+di	O
+ini	O
+
+ini	O
+dengan	O
+bapak	O
+suradi	O
+iya	O
+
+<	O
+e	O
+>	O
+ini	O
+pendaftaran	O
+nya	O
+sudah	O
+memakai	O
+<	O
+ka	O
+>	O
+ktp	O
+ibu	O
+sendiri	O
+iya	O
+
+<	O
+e	O
+>	O
+di	O
+sini	O
+kami	O
+menjelaskan	O
+iya	O
+pak	O
+iya	O
+jika	O
+bapak	O
+memiliki	O
+keterlambatan	O
+di	O
+aplikasi	O
+gojek	O
+paylater	B-CONCEPT
+dan	O
+sudah	O
+sangat	O
+terlambat	O
+<	O
+e	O
+>	O
+sekitar	O
+sembilan	O
+puluh	O
+tiga	O
+hari	O
+
+selamat	O
+sore	O
+
+ini	O
+lagi	O
+lockdown	O
+juga	O
+ini	O
+perusahaan	O
+saya	O
+<	O
+unk	O
+>	O
+gaji	O
+saja	O
+susah	O
+
+nanti	O
+saya	O
+telepon	O
+tolong	O
+diangkat	O
+iya	O
+pak	O
+iya	O
+karena	O
+kemarin	O
+saya	O
+agak	O
+susah	O
+ini	O
+hubungi	B-CONCEPT
+bapak	O
+<	O
+eh	O
+>	O
+
+iya	O
+baik	O
+makasih	O
+
+aduh	O
+gua	O
+lupa	O
+lagi	O
+
