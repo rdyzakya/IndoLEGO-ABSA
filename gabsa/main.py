@@ -49,6 +49,7 @@ def init_args():
     parser.add_argument("--pattern",help="Pattern file (json)",required=False)
 
     # Data arguments
+    parser.add_argument("--dataset_name",type=str,help="Dataset name for model folder naming convention", required=False)
     parser.add_argument("--data_dir",type=str,help="Dataset directory",default="")
     parser.add_argument("--trains",type=str,help="Training dataset",default="")
     parser.add_argument("--devs",type=str,help="Validation dataset",default="")
@@ -339,7 +340,7 @@ def main():
         tasks = args.task.split()
         task_name = "pabsa" if len(tasks) > 1 else tasks[0]
         model_src = args.model_name_or_path.replace('/','_')
-        dataset_name = os.path.split(args.data_dir)[-1]
+        dataset_name = args.dataset_name or os.path.split(args.data_dir)[-1]
         output_dir = os.path.join(args.output_dir,args.model_type,model_src,dataset_name,f"{args.model_type}_{task_name}_S{args.max_len}_{model_size}_blank={args.blank_frac}")
         if not os.path.exists(output_dir):
             os.makedirs(os.path.join(output_dir,"data"))

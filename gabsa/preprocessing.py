@@ -27,16 +27,12 @@ special_char = {
 
 class Prompter:
     def __init__(self,prompt_path,prompt_side="left"):
-        # with open(prompt_path,'r',encoding="utf-8") as f:
-        #     self.prompts = [el.strip() for el in f.readlines()]
-        # self.prompts = prompts
         self.prompts = json.load(open(prompt_path,'r',encoding="utf-8"))
-        self.available_option = list(range(len(self.prompts))) + ["random"]
+        self.available_option = list(range(len(self.prompts))) + ["random","no_prompt"]
         if prompt_side != "left" and prompt_side != "right":
             raise ValueError(f"Prompt side should only be 'left' or 'right'")
         self.prompt_side = prompt_side
-        # self.option = option
-    
+
     def compile(self,prompt_side,option):
         if option not in self.available_option:
             raise ValueError(f"Option should only be from {self.available_option}")
@@ -48,6 +44,8 @@ class Prompter:
     def add_prompt(self,task,texts,option):
         if option not in self.available_option:
             raise ValueError(f"Option should only be from {self.available_option}")
+        if option == "no_prompt":
+            return texts, ["" for _ in texts]
         prompt_side = self.prompt_side
         chosen_prompt = None
         prompts = []
