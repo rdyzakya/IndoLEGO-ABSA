@@ -69,12 +69,24 @@ def init_args():
     return args
 
 def batch_encode(x,args,tokenizer,encoding_args):
-    text_target = batch_stringify_target(x["text"],x["num_target"],x["target"],x["task"],args.paradigm,args.pattern)
+    # mask the targets
+    masked_targets = []
+    for target in x["target"]:
+        target = eval(target)
+        for i in range(len(target)):
+            for k,v in target[i].items():
+                target[i][k] = args.pattern.masking(v)
+        masked_targets.append(str(target))
+    text_target = batch_stringify_target(x["text"],x["num_target"],masked_targets,x["task"],args.paradigm,args.pattern)
+    # mask the text input
+    masked_inputs = []
+    for el in x["input"]:
+        masked_inputs.append(args.pattern.masking(el))
     if args.model_type in model_types.lm:
-        inputs = [i + " " + t for i,t in zip(x["input"],text_target)]
+        inputs = [i + " " + t for i,t in zip(masked_inputs,text_target)]
         res = tokenizer(inputs, **encoding_args)
     elif args.model_type in model_types.seq2seq:
-        res = tokenizer(x["input"], text_target=text_target, **encoding_args)
+        res = tokenizer(masked_inputs, text_target=text_target, **encoding_args)
     else:
         raise NotImplementedError
     return res
@@ -355,7 +367,7 @@ def main():
         if not os.path.exists(data_dir):
             os.makedirs(data_dir)
         dataset["test"].to_csv(os.path.join(data_dir,"test.csv"),index=False)
-        args.output_dir = base_output_dir
+        # args.output_dir = base_output_dir
         predict_gabsa_model(args=args,dataset=dataset)
 
 if __name__ == "__main__":

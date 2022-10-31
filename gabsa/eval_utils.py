@@ -130,6 +130,12 @@ def compute_metrics(eval_preds,dataset,model_type,paradigm,pattern,tokenizer,enc
     # print("Prediction sample:",inverse_stringified_preds[0])
     # print("Target sample:",targets[0])
 
+    # unmask
+    for i in range(len(inverse_stringified_preds)):
+        for j in range(len(inverse_stringified_preds[i])):
+            for k,v in inverse_stringified_preds[i][j].items():
+                inverse_stringified_preds[i][j][k] = pattern.unmasking(v)
+
     no_blank_index = []
     for i,t in enumerate(targets):
         if len(t) > 0:

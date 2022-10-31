@@ -69,6 +69,13 @@ class Pattern:
         self.intra_sep = intra_sep.strip()
         self.inter_sep = inter_sep.strip()
 
+        self.mask = {
+            self.open_bracket : "<OB>",
+            self.close_bracket : "<CB>",
+            self.intra_sep : "<AS>",
+            self.inter_sep : "<ES>"
+        }
+
         self.pattern = {}
         for t in self.task:
             if t not in available_task:
@@ -105,6 +112,16 @@ class Pattern:
             result = result.replace(pattern_token[k],dict_instance[k])
         return result
     
+    def masking(self,text):
+        for character, mask in self.mask.items():
+            text = text.replace(character,mask)
+        return text
+    
+    def unmasking(self,text):
+        for character, mask in self.mask.items():
+            text = text.replace(mask,character)
+        return text
+
     def __repr__(self):
         return str(self.pattern)
     
