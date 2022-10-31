@@ -49,7 +49,7 @@ def init_args():
     parser.add_argument("--pattern",help="Pattern file (json)",required=False)
 
     # Data arguments
-    parser.add_argument("--dataset_name",type=str,help="Dataset name for model folder naming convention", required=False)
+    # parser.add_argument("--dataset_name",type=str,help="Dataset name for model folder naming convention", required=False)
     parser.add_argument("--data_dir",type=str,help="Dataset directory",default="")
     parser.add_argument("--trains",type=str,help="Training dataset",default="")
     parser.add_argument("--devs",type=str,help="Validation dataset",default="")
@@ -290,9 +290,8 @@ def predict_gabsa_model(args,dataset):
     json.dump(evaluation_metrics,open(os.path.join(args.output_dir,"prediction_metrics.json"),'w',encoding="utf-8"))
 
 def add_new_terminology(tokenizer,pattern,prompter):
-    vocab = tokenizer.get_vocab()
-    terms = available_task + available_paradigm + [pattern.open_bracket,
-        pattern.close_bracket, pattern.intra_sep, pattern.inter_sep]
+    terms = available_task + available_paradigm + list(pattern.mask.keys())  \
+        + list(pattern.mask.values()) # pattern characters
     all_prompts = []
     for task in prompter.prompts.keys():
         prompts = " ".join(prompter.prompts[task])
@@ -300,7 +299,7 @@ def add_new_terminology(tokenizer,pattern,prompter):
     prompter_term = list(set(all_prompts))
     terms.extend(prompter_term)
     for t in terms:
-        if t not in vocab:
+        if t != tokenizer.convert_tokens_to_string(tokenizer.tokenize(t)):
             tokenizer.add_tokens(t)
     
 
@@ -339,21 +338,21 @@ def main():
                                 prompter=prompter,
                                 prompt_option_path=args.prompt_option_path)
     
-    # Prepare output dir
-    model_size = "nosize"
-    available_size = ["small","large","base"]
-    for size in available_size:
-        if size in args.model_name_or_path:
-            model_size = size
+    # # Prepare output dir
+    # model_size = "nosize"
+    # available_size = ["small","large","base"]
+    # for size in available_size:
+    #     if size in args.model_name_or_path:
+    #         model_size = size
     
-    base_output_dir = args.output_dir
+    # base_output_dir = args.output_dir
     
     if args.do_train:
         tasks = args.task.split()
         task_name = "pabsa" if len(tasks) > 1 else tasks[0]
-        model_src = args.model_name_or_path.replace('/','_')
-        dataset_name = args.dataset_name or os.path.split(args.data_dir)[-1]
-        output_dir = os.path.join(args.output_dir,args.model_type,model_src,dataset_name,f"{args.model_type}_{task_name}_S{args.max_len}_{model_size}_blank={args.blank_frac}")
+        # dataset_name = args.dataset_name or os.path.split(args.data_dir)[-1]
+        pd = model_types.pd[args.model_type][args.model_name_or_path]
+        output_dir = os.path.join(args.output_dir,args.model_type,f"{args.model_type}_{task_name}_S{args.max_len}_{pd}_blank={args.blank_frac}")
         if not os.path.exists(output_dir):
             os.makedirs(os.path.join(output_dir,"data"))
         
