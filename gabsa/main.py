@@ -16,6 +16,7 @@ from transformers import AutoConfig, TrainingArguments, Seq2SeqTrainingArguments
 from datasets import load_metric
 import model_types
 
+from fixing_utils import fix_preds
 from eval_utils import EvaluationCallback, compute_metrics, evaluate
 
 from data_utils import build_gabsa_dataset
@@ -34,8 +35,7 @@ def init_args():
     parser.add_argument("--do_eval",action="store_true",help="Do evaluation phase (validation)")
     parser.add_argument("--do_predict",action="store_true",help="Do testing phase (predict)")
     parser.add_argument("--train_args",type=str,help="Training argument (json)",required=False)
-    # parser.add_argument("--n_gpu",type=str,help="GPU device this script will use",required=False)
-    
+
     # Model options
     parser.add_argument("--model_type",type=str,help="Model type",required=False)
     parser.add_argument("--model_name_or_path",type=str,help="Model name or path",required=False)
@@ -49,7 +49,6 @@ def init_args():
     parser.add_argument("--pattern",help="Pattern file (json)",required=False)
 
     # Data arguments
-    # parser.add_argument("--dataset_name",type=str,help="Dataset name for model folder naming convention", required=False)
     parser.add_argument("--data_dir",type=str,help="Dataset directory",default="")
     parser.add_argument("--trains",type=str,help="Training dataset",default="")
     parser.add_argument("--devs",type=str,help="Validation dataset",default="")
@@ -272,21 +271,45 @@ def predict_gabsa_model(args,dataset):
                                         paradigm=args.paradigm,
                                         pattern=args.pattern)
     
+    # unmask
+    for i in range(len(inverse_stringified_preds)):
+        for j in range(len(inverse_stringified_preds[i])):
+            for k,v in inverse_stringified_preds[i][j].items():
+                inverse_stringified_preds[i][j][k] = args.pattern.unmasking(v)
+    
+    raw_preds = inverse_stringified_preds
+    editdistance_preds = fix_preds(raw_preds,test_dataset["text"])
+    cut_preds = fix_preds(raw_preds,test_dataset["text"])
+    remove_preds = fix_preds(raw_preds,test_dataset["text"])
+    
     # Calculate metrics
-    evaluation_metrics = evaluate(pred_pt=inverse_stringified_preds,gold_pt=[eval(el) for el in test_dataset["target"]])
-    print(evaluation_metrics)
+    true_target = [eval(el) for el in test_dataset["target"]]
+    raw_evaluation_metrics = evaluate(pred_pt=raw_preds,gold_pt=true_target)
+    editdistance_evaluation_metrics = evaluate(pred_pt=editdistance_preds,gold_pt=true_target)
+    cut_evaluation_metrics = evaluate(pred_pt=cut_preds,gold_pt=true_target)
+    remove_evaluation_metrics = evaluate(pred_pt=raw_preds,gold_pt=true_target)
+    print(raw_evaluation_metrics)
     # Save dataset and metrics
     result_dataset = pd.DataFrame({
         "text" : test_dataset["text"],
         "prompt" : test_dataset["prompt"],
         "target" : test_dataset["target"],
-        "prediction" : inverse_stringified_preds,
+        "raw_prediction" : raw_preds,
+        "editdistance_prediction" : editdistance_preds,
+        "cut_predictions" : cut_preds,
+        "remove_predictions" : remove_preds,
         "string_preds" : decoded_preds
     })
 
     # save prediction dataset
     result_dataset.to_csv(os.path.join(args.output_dir,"prediction.csv"),index=False)
     # save metric
+    evaluation_metrics = {
+        "raw" : raw_evaluation_metrics,
+        "editdistance" : editdistance_evaluation_metrics,
+        "cut" : cut_evaluation_metrics,
+        "remove" : remove_evaluation_metrics
+    }
     json.dump(evaluation_metrics,open(os.path.join(args.output_dir,"prediction_metrics.json"),'w',encoding="utf-8"))
 
 def add_new_terminology(tokenizer,pattern,prompter):

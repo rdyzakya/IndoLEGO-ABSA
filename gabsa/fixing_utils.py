@@ -3,12 +3,20 @@ import nltk
 sentiment_word_list = ['positive', 'negative', 'neutral']
 options = ['editdistance', 'remove', 'cut']
 
-# From Ishak Zhang
+def is_term_in_sentence(term,sent):
+    splitted_term = term.split()
+    splitted_sent = sent.split()
+    for j in range(0,len(splitted_sent)-len(splitted_term)+1):
+        if splitted_term == splitted_sent[j:j+len(splitted_term)]:
+            return True
+    return False
+
 def recover_terms_with_editdistance(original_term, sent): # edited
     """
     original_term : str (original term)
-    sent : list of str (sentence) | example: ['I', 'am', 'a', 'student']
+    sent : str
     """
+    sent = sent.split()
     words = original_term.split(' ')
     terms = {}
     for i in range(len(sent)-len(words)+1):
@@ -27,71 +35,48 @@ def recover_terms_with_editdistance(original_term, sent): # edited
 
 def recover_term_by_cut(original_term, sent):
     words = original_term.split(' ')
-    joined_sent = ' '.join(sent).lower()
     len_word = len(words)
     while len_word > 0:
         words_combination = [words[:len_word],words[-len_word:]]
         for word in words_combination:
             new_term = ' '.join(word).lower()
-            if new_term in joined_sent:
+            if is_term_in_sentence(new_term,sent):
                 return new_term
         len_word -= 1
     return original_term
 
-def fix_preds_aste(all_pairs, sents, option='editdistance'):
+def fix_preds(all_tups, sents, option='editdistance'):
 
     if option not in options:
         raise ValueError('Invalid option, please choose from {}'.format(options))
 
-    all_new_pairs = []
+    all_new_tups = []
 
-    for i, pairs in enumerate(all_pairs):
-        new_pairs = []
-        if pairs == []:
-            all_new_pairs.append(pairs)
+    for i, tups in enumerate(all_tups):
+        new_tups = []
+        if tups == []:
+            all_new_tups.append(tups)
         else:
-            for pair in pairs:
-                #two formats have different orders (old)
-                #target, marker, sentiment (new)
-                try:
-                    target, marker, sentiment = pair
-                except Exception as e:
-                    print("Pair:",pair)
-                    raise e
-                if sentiment not in sentiment_word_list:
-                    continue
-                    # raise ValueError(f"Polarity {sentiment} is invalid | Target : {target} | Marker : {marker}")
-                
-                joined_sent = ' '.join(sents[i])
-
-                # remove option if at is not in the sentence
-                if target.lower() not in joined_sent.lower() and option == 'remove':
-                    continue
-
-                # AT not in the original sentence
-                if target.lower() not in  joined_sent.lower():
-                    new_target = recover_terms_with_editdistance(target, sents[i]) if option == 'editdistance' else recover_term_by_cut(target, sents[i])
-                else:
-                    new_target = target
-                
-                # OT not in the original sentence
-                markers = marker.split(', ')
-                new_markers_list = []
-                for m in markers:
-                    if m.lower() not in joined_sent.lower():
-                        if option == 'remove':
+            new_tups = []
+            for tup in tups:
+                is_remove = False
+                new_tup = {}
+                for k,v in tup.items():
+                    if k == "sentiment":
+                        if v not in sentiment_word_list:
                             continue
-                        elif option == 'editdistance':
-                            new_markers_list.append(recover_terms_with_editdistance(m, sents[i]))
-                        else:
-                            new_markers_list.append(recover_term_by_cut(m, sents[i]))
-                    else:
-                        new_markers_list.append(m)
-                new_marker = ', '.join(new_markers_list)
-                # No valid opinion term found
-                if new_marker == '':
-                    continue
-                new_pairs.append((new_target,new_marker,sentiment))
-            all_new_pairs.append(new_pairs)
+                    else:                       
+                        if not is_term_in_sentence(v,sents[i]):
+                            if option == "remove":
+                                is_remove = True
+                                break
+                            elif option == "editdistance":
+                                v = recover_terms_with_editdistance(v,sents[i])
+                            elif option == "cut":
+                                v = recover_term_by_cut(v,sents[i])
+                    new_tup[k] = v
+                if not is_remove:
+                    new_tups.append(new_tup)
+            all_new_tups.append(new_tups)
     
-    return all_new_pairs
+    return all_new_tups

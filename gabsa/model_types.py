@@ -1,5 +1,5 @@
 seq2seq = ["t5","byt5","mt5","mbart"]
-lm = ["xglm"]
+lm = ["xglm","gpt2"]
 
 pd = {
     "t5" : {
@@ -29,5 +29,8 @@ pd = {
         "facebook/xglm-1.7B" : "fb_base",
         "facebook/xglm-2.9B" : "fb_large",
         "facebook/xglm-4.5B" : "fb_xlarge"
+    },
+    "gpt2" : {
+        "gpt2" : "gpt2"
     }
 }
