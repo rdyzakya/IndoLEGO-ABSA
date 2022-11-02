@@ -11,15 +11,14 @@ import numpy as np
 
 import logging
 
-from transformers import DataCollatorWithPadding, DataCollatorForSeq2Seq, DataCollatorForLanguageModeling
-from transformers import AutoConfig, TrainingArguments, Seq2SeqTrainingArguments, Trainer, Seq2SeqTrainer, set_seed
-from datasets import load_metric
+from transformers import DataCollatorForSeq2Seq, DataCollatorForLanguageModeling
+from transformers import TrainingArguments, Seq2SeqTrainingArguments, Trainer, Seq2SeqTrainer, set_seed
 import model_types
 
 from fixing_utils import fix_preds
 from eval_utils import EvaluationCallback, compute_metrics, evaluate
 
-from data_utils import build_gabsa_dataset
+from data_utils import build_gabsa_dataset_dict
 from model import get_gabsa_tokenizer_and_model
 from preprocessing import batch_inverse_stringify_target, Prompter, Pattern, batch_stringify_target, post_process_lm_result, available_task, available_paradigm, no_target
 from tqdm import tqdm
@@ -352,7 +351,7 @@ def main():
     
     prompter = Prompter(args.prompt_path,args.prompt_side) if args.prompt_path != None else None
     
-    dataset = build_gabsa_dataset(train_paths=train_paths,
+    dataset = build_gabsa_dataset_dict(train_paths=train_paths,
                                 dev_paths=dev_paths,
                                 test_paths=test_paths,
                                 task = args.task,
