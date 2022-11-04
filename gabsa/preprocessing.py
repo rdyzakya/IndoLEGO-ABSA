@@ -70,10 +70,10 @@ class Pattern:
         self.inter_sep = inter_sep.strip()
 
         self.mask = {
-            self.open_bracket : "<OB>",
-            self.close_bracket : "<CB>",
-            self.intra_sep : "<AS>",
-            self.inter_sep : "<ES>"
+            self.open_bracket : "/OB/",
+            self.close_bracket : "/CB/",
+            self.intra_sep : "/AS/",
+            self.inter_sep : "/ES/"
         }
 
         self.pattern = {}
