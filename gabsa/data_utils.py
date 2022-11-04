@@ -78,7 +78,7 @@ def build_gabsa_dataset(paths,tasks=["aste"],blank_frac=None,random_state=None,p
     
     return data
 
-def build_gabsa_datasetdict(train_paths,dev_paths,test_paths,do_train,do_eval,do_predict,task="aste",blank_frac=None,random_state=None,prompter=None,prompt_option_path=None,shuffle=True):
+def build_gabsa_dataset_dict(train_paths,dev_paths,test_paths,do_train,do_eval,do_predict,task="aste",blank_frac=None,random_state=None,prompter=None,prompt_option_path=None,shuffle=True):
     tasks = task.split()
     prompt_option = json.load(open(prompt_option_path,'r',encoding="utf-8"))
     

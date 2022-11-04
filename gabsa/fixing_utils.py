@@ -22,8 +22,8 @@ def recover_terms_with_editdistance(original_term, sent): # edited
     for i in range(len(sent)-len(words)+1):
         # word window
         window = sent[i:i+len(words)]
-        new_term = ' '.join(window).lower()
-        levenshtein_distance = nltk.edit_distance(original_term.lower(), new_term)
+        new_term = ' '.join(window) # .lower()
+        levenshtein_distance = nltk.edit_distance(original_term.lower(), new_term.lower())
         terms[new_term] = levenshtein_distance
     try:
         smallest_term = min(terms, key=terms.get)
@@ -39,7 +39,7 @@ def recover_term_by_cut(original_term, sent):
     while len_word > 0:
         words_combination = [words[:len_word],words[-len_word:]]
         for word in words_combination:
-            new_term = ' '.join(word).lower()
+            new_term = ' '.join(word) # .lower()
             if is_term_in_sentence(new_term,sent):
                 return new_term
         len_word -= 1

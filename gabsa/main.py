@@ -312,6 +312,7 @@ def predict_gabsa_model(args,dataset):
     json.dump(evaluation_metrics,open(os.path.join(args.output_dir,"prediction_metrics.json"),'w',encoding="utf-8"))
 
 def add_new_terminology(tokenizer,pattern,prompter):
+    vocab = tokenizer.get_vocab()
     terms = available_task + available_paradigm + list(pattern.mask.keys())  \
         + list(pattern.mask.values()) # pattern characters
     all_prompts = []
@@ -321,8 +322,10 @@ def add_new_terminology(tokenizer,pattern,prompter):
     prompter_term = list(set(all_prompts))
     terms.extend(prompter_term)
     for t in terms:
-        if t != tokenizer.convert_tokens_to_string(tokenizer.tokenize(t)):
-            tokenizer.add_tokens(t)
+        tokenized_term = tokenizer.tokenize(t)
+        for i in range(len(tokenized_term)):
+            if tokenized_term[i] not in vocab:
+                tokenizer.add_tokens(tokenized_term[i])
     
 
 def main():
@@ -354,25 +357,18 @@ def main():
     dataset = build_gabsa_dataset_dict(train_paths=train_paths,
                                 dev_paths=dev_paths,
                                 test_paths=test_paths,
+                                do_train=args.do_train,
+                                do_eval=args.do_eval,
+                                do_predict=args.do_predict,
                                 task = args.task,
                                 blank_frac=args.blank_frac,
                                 random_state=args.random_state,
                                 prompter=prompter,
                                 prompt_option_path=args.prompt_option_path)
     
-    # # Prepare output dir
-    # model_size = "nosize"
-    # available_size = ["small","large","base"]
-    # for size in available_size:
-    #     if size in args.model_name_or_path:
-    #         model_size = size
-    
-    # base_output_dir = args.output_dir
-    
     if args.do_train:
         tasks = args.task.split()
         task_name = "pabsa" if len(tasks) > 1 else tasks[0]
-        # dataset_name = args.dataset_name or os.path.split(args.data_dir)[-1]
         pd = model_types.pd[args.model_type][args.model_name_or_path]
         output_dir = os.path.join(args.output_dir,args.model_type,f"{args.model_type}_{task_name}_S{args.max_len}_{pd}_blank={args.blank_frac}")
         if not os.path.exists(output_dir):
@@ -388,7 +384,6 @@ def main():
         if not os.path.exists(data_dir):
             os.makedirs(data_dir)
         dataset["test"].to_csv(os.path.join(data_dir,"test.csv"),index=False)
-        # args.output_dir = base_output_dir
         predict_gabsa_model(args=args,dataset=dataset)
 
 if __name__ == "__main__":
