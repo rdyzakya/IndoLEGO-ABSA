@@ -314,7 +314,7 @@ def predict_gabsa_model(args,dataset):
 def add_new_terminology(tokenizer,pattern,prompter):
     vocab = tokenizer.get_vocab()
     terms = available_task + available_paradigm + list(pattern.mask.keys())  \
-        + list(pattern.mask.values()) # pattern characters
+        + list(pattern.mask.values()) + ["'"] # pattern characters
     all_prompts = []
     for task in prompter.prompts.keys():
         prompts = " ".join(prompter.prompts[task])

@@ -170,6 +170,13 @@ def batch_stringify_target(batch_text, batch_num_target, batch_target, batch_tas
   res = [stringify_target(text, num_target, target, task, paradigm, pattern) for text, num_target, target, task in zip(batch_text, batch_num_target, batch_target, batch_task)]
   return res
 
+def delete_duplicate_target(target):
+    result = target.copy()
+    result = [str(el) for el in target]
+    result = list(set(result))
+    result = [eval(el) for el in target]
+    return result
+
 def inverse_stringify_target(stringified_target, task, paradigm="extraction", pattern=Pattern(task=' '.join(available_task))):
     if stringified_target.strip() == '' or stringified_target.strip() == no_target:
         return []
@@ -180,6 +187,7 @@ def inverse_stringify_target(stringified_target, task, paradigm="extraction", pa
     for i in range(len(inverse_stringified_targets)):
         for k,v in inverse_stringified_targets[i].items():
             inverse_stringified_targets[i][k] = v.strip()
+    inverse_stringified_targets = delete_duplicate_target(inverse_stringified_targets)
     return inverse_stringified_targets
 
 def batch_inverse_stringify_target(batch_stringified_target, batch_task, paradigm="extraction", pattern=Pattern(task=' '.join(available_task))):
