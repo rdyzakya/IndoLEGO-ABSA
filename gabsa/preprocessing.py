@@ -174,7 +174,7 @@ def delete_duplicate_target(target):
     result = target.copy()
     result = [str(el) for el in target]
     result = list(set(result))
-    result = [eval(el) for el in target]
+    result = [eval(el) for el in result]
     return result
 
 def inverse_stringify_target(stringified_target, task, paradigm="extraction", pattern=Pattern(task=' '.join(available_task))):
