@@ -7,7 +7,8 @@ pd = {
         "Wikidepia/IndoT5-base" : "wid_base",
         "Wikidepia/IndoT5-large" : "wid_large",
         "cahya/t5-base-indonesian-summarization-cased" : "cahya_summid",
-        "panggi/t5-base-indonesian-summarization-cased" : "panggi_summid"
+        "panggi/t5-base-indonesian-summarization-cased" : "panggi_summid",
+        "t5-small" : "en_small",
     },
     "byt5" : {
         "google/byt5-small" : "google_small",
