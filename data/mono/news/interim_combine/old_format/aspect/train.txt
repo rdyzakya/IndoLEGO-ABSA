@@ -44907,8 +44907,8 @@ wilayah	O
 masing-	O
 masing	O
 .	O
-"	O
-Relawan	B-CONCEPT
+"	B-CONCEPT
+Relawan	O
 kita	O
 tanpa	O
 menunggu	O
@@ -49152,7 +49152,8 @@ lainnya	O
 "	O
 kata	O
 Indah	O
-.c	O
+.	O
+c	O
 
 Meski	O
 demikian	O

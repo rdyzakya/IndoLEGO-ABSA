@@ -1095,7 +1095,7 @@ Utara	O
 menampilkan	B-NEG
 propaganda	I-NEG
 anti-	I-NEG
-Amerika	I-NEG
+Amerika	O
 Serikat	O
 hingga	O
 pencegahan	O
@@ -44909,15 +44909,15 @@ masing	O
 .	O
 "	O
 Relawan	O
-kita	O
-tanpa	B-POS
+kita	B-POS
+tanpa	I-POS
 menunggu	I-POS
-perintah	I-POS
+perintah	O
 apa	O
 pun	O
-sudah	O
-langsung	B-NEG
-turun	I-NEG
+sudah	B-NEG
+langsung	I-NEG
+turun	O
 .	O
 
 Sebanyak	O
@@ -49152,7 +49152,8 @@ lainnya	O
 "	O
 kata	O
 Indah	O
-.c	O
+.	O
+c	O
 
 Meski	O
 demikian	O

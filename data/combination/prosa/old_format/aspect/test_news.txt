@@ -3066,7 +3066,8 @@ Peregangan	O
 Menurut	O
 Ahli	O
 ,	O
-Kurangi	O
+Ku	O
+rangi	O
 Stres	B-CONCEPT
 hingga	O
 Kualitas	O

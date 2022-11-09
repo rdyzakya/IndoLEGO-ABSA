@@ -3066,7 +3066,8 @@ Peregangan	O
 Menurut	O
 Ahli	O
 ,	O
-Kurangi	B-POS
+Ku	B-POS
+rangi	I-POS
 Stres	O
 hingga	O
 Kualitas	O
