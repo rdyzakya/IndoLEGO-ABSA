@@ -46,15 +46,18 @@ def catch_token_span(token_list,polarized=True):
     # else
     return result_index
 
+special_tokens = ["[PAD]","[SEP]","[UNK]","[CLS]","[MASK]"]
+
 def detokenize(tokenizer,tokens,indexs,**kwargs):
     result = []
     try:
         for i in indexs:
-            result.append(tokens[i])
-    except:
+            if tokens[i] not in special_tokens:
+                result.append(tokens[i])
+    except Exception as e:
         print("Tokens:",tokens)
         print("Indexs:",indexs)
-        exit()
+        raise e
     return tokenizer.convert_tokens_to_string(result,**kwargs)
 
 def postprocess_bio(tokens):
@@ -167,8 +170,8 @@ sm_predicted_tokens_classes = [[sm_model.config.id2label[t.item()] for t in el] 
 concept_token_spans = [catch_token_span(tokens,polarized=False) for tokens in concept_predicted_tokens_classes]
 sm_token_spans = [catch_token_span(tokens) for tokens in sm_predicted_tokens_classes]
 
-concept_input_tokens = [postprocess_bio(concept_tokenizer.convert_ids_to_tokens(ids,skip_special_tokens=True)) for ids in tokenized_text_concept["input_ids"]]
-sm_input_tokens = [postprocess_bio(sm_tokenizer.convert_ids_to_tokens(ids,skip_special_tokens=True)) for ids in tokenized_text_sm["input_ids"]]
+concept_input_tokens = [postprocess_bio(concept_tokenizer.convert_ids_to_tokens(ids,skip_special_tokens=False)) for ids in tokenized_text_concept["input_ids"]]
+sm_input_tokens = [postprocess_bio(sm_tokenizer.convert_ids_to_tokens(ids,skip_special_tokens=False)) for ids in tokenized_text_sm["input_ids"]]
 
 detokenized_concepts = [[detokenize(concept_tokenizer,concept_input_tokens[i],spans) for spans in concept_token_spans[i]] for i in range(len(concept_input_tokens))]
 detokenized_sm_pos = [[detokenize(sm_tokenizer,sm_input_tokens[i],spans) for spans in sm_token_spans[i]["POS"]] for i in range(len(sm_input_tokens))]

@@ -1,14 +1,14 @@
 {
-    "num_train_epochs" : 20,
+    "num_train_epochs" : 19,
     "learning_rate" : 3e-4,
-    "gradient_accumulation_steps" : 2,
-    "per_device_train_batch_size" : 64,
-    "per_device_eval_batch_size" : 64,
+    "gradient_accumulation_steps" : 4,
+    "per_device_train_batch_size" : 32,
+    "per_device_eval_batch_size" : 32,
     "save_strategy" : "epoch",
     "evaluation_strategy" : "epoch",
     "save_total_limit" : 2,
     "metric_for_best_model" : "eval_edit_f1",
-    "load_best_model_at_end" : true,
+    "load_best_model_at_end" : false,
     "adam_epsilon" : 1e-8,
     "eval_accumulation_steps" : 10
 }
