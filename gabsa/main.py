@@ -277,16 +277,16 @@ def predict_gabsa_model(args,dataset):
                 inverse_stringified_preds[i][j][k] = args.pattern.unmasking(v)
     
     raw_preds = inverse_stringified_preds
-    editdistance_preds = fix_preds(raw_preds,test_dataset["text"])
-    cut_preds = fix_preds(raw_preds,test_dataset["text"])
-    remove_preds = fix_preds(raw_preds,test_dataset["text"])
+    editdistance_preds = fix_preds(raw_preds,test_dataset["text"],option="editdistance")
+    cut_preds = fix_preds(raw_preds,test_dataset["text"],option="cut")
+    remove_preds = fix_preds(raw_preds,test_dataset["text"],option="remove")
     
     # Calculate metrics
     true_target = [eval(el) for el in test_dataset["target"]]
     raw_evaluation_metrics = evaluate(pred_pt=raw_preds,gold_pt=true_target)
     editdistance_evaluation_metrics = evaluate(pred_pt=editdistance_preds,gold_pt=true_target)
     cut_evaluation_metrics = evaluate(pred_pt=cut_preds,gold_pt=true_target)
-    remove_evaluation_metrics = evaluate(pred_pt=raw_preds,gold_pt=true_target)
+    remove_evaluation_metrics = evaluate(pred_pt=remove_preds,gold_pt=true_target)
     print(raw_evaluation_metrics)
     # Save dataset and metrics
     result_dataset = pd.DataFrame({

@@ -11,8 +11,8 @@ CUDA_VISIBLE_DEVICES=3 python /srv/nas_data1/text/randy/absa/facebook-absa/gabsa
             --prompt_option_path /srv/nas_data1/text/randy/absa/facebook-absa/gabsa/prompts/option_no_prompt.json \
             --pattern /srv/nas_data1/text/randy/absa/facebook-absa/gabsa/patterns/default.json \
             --data_dir /srv/nas_data1/text/randy/absa/facebook-absa/data/combination/prosa/gaste_format \
-            --tests "test_news" \
+            --tests "test_socmed" \
             --blank_frac 1.0 \
             --random_state 17 \
-            --output_dir /srv/nas_data1/text/randy/absa/models/facebook_research/generative_unprompted/fix/t5/aste/test_news \
+            --output_dir /srv/nas_data1/text/randy/absa/models/facebook_research/generative_unprompted/fix/t5/t5_aste_S256_wid_small_blank=1.0/aste/test_socmed \
             --per_device_predict_batch_size 32
