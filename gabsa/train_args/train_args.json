@@ -1,5 +1,5 @@
 {
-    "num_train_epochs" : 19,
+    "num_train_epochs" : 20,
     "learning_rate" : 3e-4,
     "gradient_accumulation_steps" : 4,
     "per_device_train_batch_size" : 32,
@@ -8,7 +8,7 @@
     "evaluation_strategy" : "epoch",
     "save_total_limit" : 2,
     "metric_for_best_model" : "eval_edit_f1",
-    "load_best_model_at_end" : false,
+    "load_best_model_at_end" : true,
     "adam_epsilon" : 1e-8,
     "eval_accumulation_steps" : 10
 }
