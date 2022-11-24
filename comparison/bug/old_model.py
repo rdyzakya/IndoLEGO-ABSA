@@ -9,6 +9,8 @@ import pandas as pd
 import numpy as np
 import nltk
 
+import datasets
+
 import sys
 sys.path.append("../gabsa")
 
@@ -96,6 +98,32 @@ def fixing(sent,term, is_subword=True):
     return chosen_term
     
 
+def tokenize_and_align_labels(examples,tokenizer,encoding_args={}):
+    encoding_args["is_split_into_words"] = True
+    tokenized_inputs = tokenizer(examples["tokens"], **encoding_args)# truncation=True, is_split_into_words=True, max_length=256)
+
+    labels = []
+    for i, label in enumerate(examples["bio_tags"]):
+        word_ids = tokenized_inputs.word_ids(batch_index=i)  # Map tokens to their respective word.
+        previous_word_idx = None
+        label_ids = []
+        for word_idx in word_ids:  # Set the special tokens to -100.
+            if word_idx is None:
+                label_ids.append(-100)
+            elif word_idx != previous_word_idx:  # Only label the first token of a given word.
+                try:
+                    label_ids.append(label[word_idx])
+                except Exception as e:
+                    print(label)
+                    raise e
+            else:
+                label_ids.append(-100)
+            previous_word_idx = word_idx
+        labels.append(label_ids)
+
+    tokenized_inputs["labels"] = labels
+    return tokenized_inputs
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--concept", type=str, required=True,
                         help="Concept model checkpoint")
@@ -124,9 +152,9 @@ print("Sample text :",dataset.text.iloc[0])
 
 print("Preparing model and tokenizers...")
 
-concept_tokenizer = AutoTokenizer.from_pretrained(args.concept, local_files_only=True, use_fast=False)
-sm_tokenizer = AutoTokenizer.from_pretrained(args.sm, local_files_only=True, use_fast=False)
-relation_tokenizer = AutoTokenizer.from_pretrained(args.relation, problem_type=None, local_files_only=True, use_fast=False)
+concept_tokenizer = AutoTokenizer.from_pretrained(args.concept, local_files_only=True)
+sm_tokenizer = AutoTokenizer.from_pretrained(args.sm, local_files_only=True)
+relation_tokenizer = AutoTokenizer.from_pretrained(args.relation, problem_type=None, local_files_only=True)
 
 concept_model = AutoModelForTokenClassification.from_pretrained(args.concept, local_files_only=True)
 sm_model = AutoModelForTokenClassification.from_pretrained(args.sm, local_files_only=True)
@@ -136,12 +164,72 @@ concept_model.to(device)
 sm_model.to(device)
 relation_model.to(device)
 
+
+tokens_and_bio_tags_concept = {"tokens" : [], "bio_tags" : []}
+tokens_and_bio_tags_sm = {"tokens" : [], "bio_tags" : []}
+
+# get the tokens and bio tags
+for i, row in dataset.iterrows():
+    splitted_text = row["text"].split()
+    num_target = row["num_target"]
+
+    bio_tags_concept = ['O' for _ in splitted_text]
+    bio_tags_sm = bio_tags_concept.copy()
+
+    bio_tags_concept = [concept_model.config.label2id[el] for el in bio_tags_concept]
+    bio_tags_sm = [sm_model.config.label2id[el] for el in bio_tags_sm]
+
+    for nt in num_target:
+        concept_index = nt[0]
+        sm_index = nt[1]
+        polarity = nt[2]
+
+        bio_tags_concept[concept_index[0]] = concept_model.config.label2id["B-CONCEPT"]
+        bio_tags_sm[sm_index[0]] = sm_model.config.label2id[f"B-{polarity}"]
+
+        for ci in concept_index[1:]:
+            bio_tags_concept[ci] = concept_model.config.label2id["I-CONCEPT"]
+        for smi in sm_index[1:]:
+            bio_tags_sm[smi] = sm_model.config.label2id[f"I-{polarity}"]
+    
+    tokens_and_bio_tags_concept["tokens"].append(splitted_text)
+    tokens_and_bio_tags_sm["tokens"].append(splitted_text)
+
+    tokens_and_bio_tags_concept["bio_tags"].append(bio_tags_concept)
+    tokens_and_bio_tags_sm["bio_tags"].append(bio_tags_sm)
+
+tokens_and_bio_tags_concept = datasets.Dataset.from_dict(tokens_and_bio_tags_concept)
+tokens_and_bio_tags_sm = datasets.Dataset.from_dict(tokens_and_bio_tags_sm)
+
 global_start_time = time.time()
 
 print("Tokenizing text...")
 
-tokenized_text_concept = concept_tokenizer.batch_encode_plus(dataset["text"], max_length=concept_model.config.max_length, padding=True, truncation=True, add_special_tokens=False, return_tensors="pt").to(device)
-tokenized_text_sm = sm_tokenizer.batch_encode_plus(dataset["text"], max_length=sm_model.config.max_length, padding=True, truncation=True, add_special_tokens=False, return_tensors="pt").to(device)
+# tokenized_text_concept = concept_tokenizer.batch_encode_plus(dataset["text"].tolist(), max_length=concept_model.config.max_length, padding=True, truncation=True, add_special_tokens=False, return_tensors="pt").to(device)
+# tokenized_text_sm = sm_tokenizer.batch_encode_plus(dataset["text"].tolist(), max_length=sm_model.config.max_length, padding=True, truncation=True, add_special_tokens=False, return_tensors="pt").to(device)
+encoding_args = {
+    "max_length":concept_model.config.max_length,
+    "padding":True,
+    "truncation":True,
+    # "add_special_tokens":False,
+    "return_tensors":"pt"
+}
+
+# def todevice(x,device=device):
+#     x['input_ids'] = x['input_ids'].to(device)
+#     return x
+tokenized_text_concept = tokens_and_bio_tags_concept.map(
+    lambda x : tokenize_and_align_labels(x,concept_tokenizer,encoding_args=encoding_args),
+    batched=True
+)
+# tokenized_text_concept = tokenized_text_concept.map(todevice,batched=False)
+# tokenized_text_concept['input_ids'] = tokenized_text_concept['input_ids'].to(device)
+tokenized_text_sm = tokens_and_bio_tags_sm.map(
+    lambda x : tokenize_and_align_labels(x,sm_tokenizer,encoding_args=encoding_args),
+    batched=True
+)
+# tokenized_text_sm = tokenized_text_sm.map(todevice,batched=False)
+# tokenized_text_sm['input_ids'] = tokenized_text_sm['input_ids'].to(device)
 
 concept_data_loader = torch.utils.data.DataLoader(tokenized_text_concept["input_ids"],batch_size=args.batch_size,shuffle=False)
 sm_data_loader = torch.utils.data.DataLoader(tokenized_text_sm["input_ids"],batch_size=args.batch_size,shuffle=False)
@@ -153,8 +241,26 @@ sm_logits = []
 
 concept_model_start_time = time.time()
 for batch in tqdm(concept_data_loader):
-    concept_logits.extend(concept_model(input_ids=batch).logits.to('cpu').tolist())
+    # input_ids = [el.to(device) for el in batch]
+    # print(input_ids)
+    # exit()
+    # input_ids = [torch.Tensor(el).to(device) for el in input_ids]
+    concept_logits.extend(concept_model(input_ids=input_ids).logits.to('cpu').tolist())
 concept_model_end_time = time.time()
+
+print(concept_logits[1])
+print(len(concept_logits[1]))
+print(tokenized_text_concept["input_ids"][1])
+print(len(tokenized_text_concept["input_ids"][1]))
+print(dataset.loc[1,"text"])
+print(len(dataset.loc[1,"text"].split()))
+print(concept_model.config.id2label)
+print(sm_model.config.id2label)
+print(relation_model.config.id2label)
+print(tokens_and_bio_tags_concept[1]["bio_tags"])
+print(concept_tokenizer)
+print(tokenize_and_align_labels(tokens_and_bio_tags_concept[1:2],concept_tokenizer,{"truncation":True,"max_length" : 256}))
+exit()
 
 sm_model_start_time = time.time()
 for batch in tqdm(sm_data_loader):
@@ -183,7 +289,7 @@ relation_dataset = {
     "triplet" : []
 }
 
-texts = dataset["text"]
+texts = dataset["text"].tolist()
 
 for i in range((len(texts))):
     for j in range(len(detokenized_concepts[i])):

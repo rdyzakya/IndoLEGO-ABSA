@@ -87,19 +87,41 @@ for el in data:
             joined_sent = " ".join(splitted_text)
             joined_concept = " ".join(splitted_text[concept_1[0]:concept_1[-1]+1])
             joined_sentiment_marker = " ".join(splitted_text[sentiment_marker_2[0]:sentiment_marker_2[-1]+1])
-            if combination[0] in label or combination[1] in label or combination[2] in label:
+            pair = f"{joined_concept.lower()}-{joined_sentiment_marker.lower()}"
+            if combination[0] in label or combination[1] in label or combination[2] in label: # ini memakai index posisi
                 relation_df = pd.concat([relation_df, pd.DataFrame({
                     "text_a": [joined_sent],
-                    "text_b": [f"{joined_concept.lower()}-{joined_sentiment_marker.lower()}"],
+                    "text_b": [pair],
                     "label": ["1"],
                 })], ignore_index=True)
             else:
                 relation_df = pd.concat([relation_df, pd.DataFrame({
                     "text_a": [joined_sent],
-                    "text_b": [f"{joined_concept.lower()}-{joined_sentiment_marker.lower()}"],
+                    "text_b": [pair],
                     "label": ["0"],
                 })], ignore_index=True)
 
 concept_file.close()
 sentiment_marker_file.close()
+
+index_to_drop = []
+
+unique_text_a = relation_df.text_a.unique()
+for text_a in unique_text_a:
+    rows_a = relation_df.loc[relation_df.text_a == text_a]
+    unique_text_b = rows_a.text_b.unique()
+    for text_b in unique_text_b:
+        rows_b = rows_a.loc[rows_a.text_b == text_b]
+        if rows_b.shape[0] > 1:
+            unique_label = rows_b.label.unique()
+            if len(unique_label) > 1: # ada yang 0 dan 1
+                indexes = rows_b.loc[rows_b.label == "0"].index.tolist() # hilangkan yang 0
+                index_to_drop.extend(indexes)
+
+# drop yang duplicate
+# yang 0 dan 1
+relation_df = relation_df.drop(index=index_to_drop)
+# drop sleuruh yang duplicate
+relation_df = relation_df.drop_duplicates()
+
 relation_df.to_csv(relation_output, index=False)
