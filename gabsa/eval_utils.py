@@ -105,12 +105,15 @@ def evaluate(pred_pt : List[List[Dict]], gold_pt : List[List[Dict]]) -> Dict[str
     edit_score_precision = (total_edit_score_precision / n_pred) if n_pred != 0 else 0
     edit_score_f1 = 2 * edit_score_precision * edit_score_recall / (edit_score_precision + edit_score_recall) if edit_score_precision != 0 or edit_score_recall != 0 else 0
 
-    confusion_matrix = {"tp" : n_tp, "fn" : n_gold-n_tp, "fp" : n_pred-n_tp,
-    "edit_tp" : (total_edit_score_recall + total_edit_score_precision)/2}
+    confusion_matrix = {"tp" : n_tp, "fn" : n_gold-n_tp, "fp" : n_pred-n_tp}
     
-    scores = {'precision': precision, 'recall': recall, 'f1': f1, 'edit_recall' : edit_score_recall, 'edit_precision' : edit_score_precision, 'edit_f1': edit_score_f1}
-    print("kocakkkk")
-    scores["confusion_matrix"] : confusion_matrix
+    scores = {'precision': precision,
+            'recall': recall,
+            'f1': f1,
+            'edit_recall' : edit_score_recall,
+            'edit_precision' : edit_score_precision,
+            'edit_f1': edit_score_f1,
+            'confusion_matrix' : confusion_matrix}
     return scores
 
 def compute_metrics(eval_preds,dataset,model_type,paradigm,pattern,tokenizer,encoding_args,decoding_args):

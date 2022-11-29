@@ -67,6 +67,13 @@ for el in data:
 
     all_concept = []
     all_sentiment_marker = []
+
+    if len(label) == 0: # tanpa triplet
+        relation_df = pd.concat([relation_df, pd.DataFrame({
+            "text_a": [" ".join(splitted_text)],
+            "text_b": [""],
+            "label": ["1"],
+        })], ignore_index=True)
     
     for triplet_1 in label:
         for triplet_2 in label:
