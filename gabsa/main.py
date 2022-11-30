@@ -283,10 +283,10 @@ def predict_gabsa_model(args,dataset):
     
     # Calculate metrics
     true_target = [eval(el) for el in test_dataset["target"]]
-    raw_evaluation_metrics = evaluate(pred_pt=raw_preds,gold_pt=true_target)
-    editdistance_evaluation_metrics = evaluate(pred_pt=editdistance_preds,gold_pt=true_target)
-    cut_evaluation_metrics = evaluate(pred_pt=cut_preds,gold_pt=true_target)
-    remove_evaluation_metrics = evaluate(pred_pt=remove_preds,gold_pt=true_target)
+    raw_evaluation_metrics = evaluate(pred_pt=raw_preds,gold_pt=true_target,tasks=test_dataset["task"])
+    editdistance_evaluation_metrics = evaluate(pred_pt=editdistance_preds,gold_pt=true_target,tasks=test_dataset["task"])
+    cut_evaluation_metrics = evaluate(pred_pt=cut_preds,gold_pt=true_target,tasks=test_dataset["task"])
+    remove_evaluation_metrics = evaluate(pred_pt=remove_preds,gold_pt=true_target,tasks=test_dataset["task"])
     print(raw_evaluation_metrics)
     # Save dataset and metrics
     result_dataset = pd.DataFrame({

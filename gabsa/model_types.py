@@ -9,6 +9,7 @@ pd = {
         "cahya/t5-base-indonesian-summarization-cased" : "cahya_summid",
         "panggi/t5-base-indonesian-summarization-cased" : "panggi_summid",
         "t5-small" : "en_small",
+        "t5-base" : "en_base"
     },
     "byt5" : {
         "google/byt5-small" : "google_small",

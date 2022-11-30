@@ -69,7 +69,7 @@ def one_row_edit_score(y_true : List[Dict], y_pred : List[Dict]) -> float:
     # score = np.max(score_matrix, axis=1).sum() if score_type == "recall" else np.max(score_matrix, axis=0).sum()
     return {"recall" : np.max(score_matrix, axis=1).sum(), "precision" : np.max(score_matrix, axis=0).sum()}
 
-def evaluate(pred_pt : List[List[Dict]], gold_pt : List[List[Dict]]) -> Dict[str,float]:
+def evaluate(pred_pt : List[List[Dict]], gold_pt : List[List[Dict]], tasks : List[str]) -> Dict[str,float]:
     """
     [DESC]
         Function to compute F1 scores with pred and gold pairs/triplets
@@ -77,6 +77,7 @@ def evaluate(pred_pt : List[List[Dict]], gold_pt : List[List[Dict]]) -> Dict[str
     [PARAMS]
         pred_pt : List[List[Dict]]
         gold_pt : List[List[Dict]]
+        tasks : List[str]
     [RETURNS]
         scores : dict
     """
@@ -85,17 +86,33 @@ def evaluate(pred_pt : List[List[Dict]], gold_pt : List[List[Dict]]) -> Dict[str
     n_tp, n_gold, n_pred = 0, 0, 0
     total_edit_score_precision, total_edit_score_recall = 0, 0
 
+    per_task_score = {}
+
     for i in range(len(pred_pt)):
+        if tasks[i] not in per_task_score.keys():
+            per_task_score[tasks[i]] = {
+                "n_tp" : 0,
+                "n_gold" : 0,
+                "n_pred" : 0,
+                "total_edit_score_precision" : 0,
+                "total_edit_score_recall" : 0
+            }
+
         n_gold += len(gold_pt[i])
         n_pred += len(pred_pt[i])
+        per_task_score[tasks[i]]["n_gold"] += len(gold_pt[i])
+        per_task_score[tasks[i]]["n_pred"] += len(pred_pt[i])
         
         edit_score = one_row_edit_score(gold_pt[i], pred_pt[i])
         total_edit_score_recall += edit_score["recall"]
         total_edit_score_precision += edit_score["precision"]
+        per_task_score[tasks[i]]["total_edit_score_recall"] += edit_score["recall"]
+        per_task_score[tasks[i]]["total_edit_score_precision"] += edit_score["precision"]
 
         for t in pred_pt[i]:
             if t in gold_pt[i]:
                 n_tp += 1
+                per_task_score[tasks[i]]["n_tp"] += 1
 
     precision = float(n_tp) / float(n_pred) if n_pred != 0 else 0
     recall = float(n_tp) / float(n_gold) if n_gold != 0 else 0
@@ -110,16 +127,36 @@ def evaluate(pred_pt : List[List[Dict]], gold_pt : List[List[Dict]]) -> Dict[str
     scores = {'precision': precision,
             'recall': recall,
             'f1': f1,
-            'edit_recall' : edit_score_recall,
             'edit_precision' : edit_score_precision,
+            'edit_recall' : edit_score_recall,
             'edit_f1': edit_score_f1,
             'confusion_matrix' : confusion_matrix}
+    for k,v in per_task_score.items():
+        per_task_precision = float(v["n_tp"]) / float(v["n_pred"]) if v["n_pred"] != 0 else 0
+        per_task_recall = float(v["n_tp"]) / float(v["n_gold"]) if v["n_gold"] != 0 else 0
+        per_task_f1 = 2 * per_task_precision * per_task_recall / (per_task_precision + per_task_recall) if per_task_precision != 0 or per_task_recall != 0 else 0
+
+        per_task_edit_score_recall = (v["total_edit_score_recall"] / v["n_gold"]) if v["n_gold"] != 0 else 0
+        per_task_edit_score_precision = (v["total_edit_score_precision"] / v["n_pred"]) if v["n_pred"] != 0 else 0
+        per_task_edit_score_f1 = 2 * per_task_edit_score_precision * per_task_edit_score_recall / (per_task_edit_score_precision + per_task_edit_score_recall) if per_task_edit_score_precision != 0 or per_task_edit_score_recall != 0 else 0
+
+        scores[f"{k}_precision"] = per_task_precision
+        scores[f"{k}_recall"] = per_task_recall
+        scores[f"{k}_f1"] = per_task_f1
+        scores[f"{k}_edit_precision"] = per_task_edit_score_recall
+        scores[f"{k}_edit_recall"] = per_task_edit_score_precision
+        scores[f"{k}_edit_f1"] = per_task_edit_score_f1
+        scores[f"{k}_confusion_matrix"] = {
+            "tp" : v["n_tp"],
+            "fn" : v["n_gold"] - v["n_tp"],
+            "fp" : v["n_pred"] - v["n_tp"]
+        }
     return scores
 
 def compute_metrics(eval_preds,dataset,model_type,paradigm,pattern,tokenizer,encoding_args,decoding_args):
     if model_type not in model_types.seq2seq and model_type not in model_types.lm:
         raise ValueError(f"Model types available : {model_types.seq2seq + model_types.lm}")
-    print("\nComputing evaluation metrics..")
+    print("\n\nComputing evaluation metrics..")
     preds, labels = eval_preds
 
     # In case the model returns more than the prediction logits
@@ -159,7 +196,7 @@ def compute_metrics(eval_preds,dataset,model_type,paradigm,pattern,tokenizer,enc
 
     # print("Not blank decoded preds :",len([el for el in decoded_preds if el != "NONE"]))
 
-    metrics = evaluate(inverse_stringified_preds,targets)
+    metrics = evaluate(inverse_stringified_preds,targets,dataset["task"])
     
     return metrics
 
