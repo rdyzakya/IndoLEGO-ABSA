@@ -28,6 +28,9 @@ def recover_terms_with_editdistance(original_term, sent): # edited
     try:
         smallest_term = min(terms, key=terms.get)
     except Exception as e:
+        return original_term
+        #Sents: ['cirspy', 'crust', 'margherita', 'pizza']                                                                                         
+        # Words: ['crust', 'margherita', 'pizza', 'cirspy', 'crust', 'margherita', 'pizza'] 
         print("Sents:",sent)
         print("Words:",words)
         raise e
