@@ -1,0 +1,959 @@
+text_a,text_b,label
+"Not only was the food outstanding , but the little ' perks ' were great .",food-outstanding,1
+"Not only was the food outstanding , but the little ' perks ' were great .",food-great,0
+"Not only was the food outstanding , but the little ' perks ' were great .",perks-outstanding,0
+"Not only was the food outstanding , but the little ' perks ' were great .",perks-great,1
+The pizza is the best if you like thin crusted pizza .,pizza-best,1
+it 's a perfect place to have a amazing indian food .,indian food-amazing,1
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",service-fabulous,1
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",service-fantastic,0
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",service-chilled out,0
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",food-fabulous,0
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",food-fantastic,1
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",food-chilled out,0
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",atmosphere-fabulous,0
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",atmosphere-fantastic,0
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",atmosphere-chilled out,1
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",environment-fabulous,0
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",environment-fantastic,0
+"Fabulous service , fantastic food , and a chilled out atmosphere and environment .",environment-chilled out,1
+Go here for a romantic dinner but not for an all out wow dining experience .,dinner-romantic,1
+Go here for a romantic dinner but not for an all out wow dining experience .,dinner-wow,0
+Go here for a romantic dinner but not for an all out wow dining experience .,dining-romantic,0
+Go here for a romantic dinner but not for an all out wow dining experience .,dining-wow,1
+"With the great variety on the menu , I eat here often and never get bored .",menu-great variety,1
+Not too crazy about their sake martini .,sake martini-crazy,1
+All my co-workers were amazed at how small the dish was .,dish-small,1
+"The wait staff is friendly , and the food has gotten better and better !",wait staff-friendly,1
+"The wait staff is friendly , and the food has gotten better and better !",wait staff-better,0
+"The wait staff is friendly , and the food has gotten better and better !",food-friendly,0
+"The wait staff is friendly , and the food has gotten better and better !",food-better,1
+"It may be a bit packed on weekends , but the vibe is good and it is the best French food you will find in the area .",vibe-good,1
+"It may be a bit packed on weekends , but the vibe is good and it is the best French food you will find in the area .",vibe-best,0
+"It may be a bit packed on weekends , but the vibe is good and it is the best French food you will find in the area .",french food-good,0
+"It may be a bit packed on weekends , but the vibe is good and it is the best French food you will find in the area .",french food-best,1
+I also ordered for delivery and the restaurant forgot half the order .,delivery-forgot,1
+I also ordered for delivery and the restaurant forgot half the order .,order-forgot,1
+Overall A oh ya even though there is waiting it is deff worth it,waiting-worth,1
+Service is highly refined : our seating was delayed 35 minutes past our reservation and the maitre d ' apologized and regularly kept us apprised of progress .,service-refined,1
+Service is highly refined : our seating was delayed 35 minutes past our reservation and the maitre d ' apologized and regularly kept us apprised of progress .,service-delayed,0
+Service is highly refined : our seating was delayed 35 minutes past our reservation and the maitre d ' apologized and regularly kept us apprised of progress .,maitre-refined,0
+Service is highly refined : our seating was delayed 35 minutes past our reservation and the maitre d ' apologized and regularly kept us apprised of progress .,maitre-delayed,1
+Service is highly refined : our seating was delayed 35 minutes past our reservation and the maitre d ' apologized and regularly kept us apprised of progress .,reservation-refined,0
+Service is highly refined : our seating was delayed 35 minutes past our reservation and the maitre d ' apologized and regularly kept us apprised of progress .,reservation-delayed,1
+"Pizza and garlic knots are great as well , I order from them quite often and the delivery is always super quick !",pizza-great,1
+"Pizza and garlic knots are great as well , I order from them quite often and the delivery is always super quick !",pizza-super quick,0
+"Pizza and garlic knots are great as well , I order from them quite often and the delivery is always super quick !",delivery-great,0
+"Pizza and garlic knots are great as well , I order from them quite often and the delivery is always super quick !",delivery-super quick,1
+"Pizza and garlic knots are great as well , I order from them quite often and the delivery is always super quick !",garlic knots-great,1
+"Pizza and garlic knots are great as well , I order from them quite often and the delivery is always super quick !",garlic knots-super quick,0
+"For great chinese food nearby , you have Wu Liang Ye and Grand Sichuan just a block away .",chinese food-great,1
+"Service could be improved but overall this is a place that understands the importance of little things ( the heavy , black , antique-seeming teapot , for one ) in the restaurant experience .",service-improved,1
+"Service could be improved but overall this is a place that understands the importance of little things ( the heavy , black , antique-seeming teapot , for one ) in the restaurant experience .",service-antique-seeming,0
+"Service could be improved but overall this is a place that understands the importance of little things ( the heavy , black , antique-seeming teapot , for one ) in the restaurant experience .",teapot-improved,0
+"Service could be improved but overall this is a place that understands the importance of little things ( the heavy , black , antique-seeming teapot , for one ) in the restaurant experience .",teapot-antique-seeming,1
+"And Kruno , the beverage manager is the best bartender I have yet to come across .",bartender-best,1
+"And Kruno , the beverage manager is the best bartender I have yet to come across .",beverage manager-best,1
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",ambiance-romantic,1
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",ambiance-alluring,1
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",ambiance-five star,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",ambiance-authentic,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",ambiance-complicated maze,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",service-romantic,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",service-alluring,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",service-five star,1
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",service-authentic,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",service-complicated maze,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",foods-romantic,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",foods-alluring,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",foods-five star,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",foods-authentic,1
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",foods-complicated maze,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",captain-romantic,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",captain-alluring,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",captain-five star,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",captain-authentic,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",captain-complicated maze,1
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",back waiters-romantic,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",back waiters-alluring,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",back waiters-five star,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",back waiters-authentic,0
+"I understand the area and folks you need not come here for the romantic , alluring ambiance or the five star service featuring a sommlier and a complicated maze of captain and back waiters - you come for the authentic foods , the tastes , the experiance .",back waiters-complicated maze,1
+"Eating in , the atmosphere saves it , but at your desk , it 's a very disappointing experience .",atmosphere-saves,1
+Succulent steaks cooked precisely to your desired 'doneness ' accompanied by salads and sides that do n't look like leafy road kill .,steaks-desired,1
+Decent wine at reasonable prices .,wine-decent,1
+Decent wine at reasonable prices .,wine-reasonable,0
+Decent wine at reasonable prices .,prices-decent,0
+Decent wine at reasonable prices .,prices-reasonable,1
+even the wine by the glass was good .,wine by the glass-good,1
+This dish is my favorite and I always get it when I go there and never get tired of it .,dish-favorite,1
+"The food was just awful , ATROCIOUS actually .",food-awful,1
+"The food was just awful , ATROCIOUS actually .",food-atrocious,1
+Try their plain pizza with fresh garlic or eggplant .,plain pizza-try,1
+Try their plain pizza with fresh garlic or eggplant .,plain pizza-fresh,0
+Try their plain pizza with fresh garlic or eggplant .,garlic-try,0
+Try their plain pizza with fresh garlic or eggplant .,garlic-fresh,1
+The service is awful .,service-awful,1
+I recently went to this restaurant with some co-workers for lunch and had an amazing time .,lunch-amazing,1
+Ess-A-Bagel ( either by Sty-town or midtown ) is by far the best bagel in NY .,bagel-best,1
+The sake menu should not be overlooked !,sake menu-overlooked,1
+"The service , wine selection , ambiance are all outstanding and deserve recognition .",service-outstanding,1
+"The service , wine selection , ambiance are all outstanding and deserve recognition .",wine selection-outstanding,1
+"The service , wine selection , ambiance are all outstanding and deserve recognition .",ambiance-outstanding,1
+"It 's really also the service , is good and the waiters are friendly .",service-good,1
+"It 's really also the service , is good and the waiters are friendly .",service-friendly,0
+"It 's really also the service , is good and the waiters are friendly .",waiters-good,0
+"It 's really also the service , is good and the waiters are friendly .",waiters-friendly,1
+"I had their eggs benedict for brunch , which were the worst in my entire life , I tried removing the hollondaise sauce completely that was how failed it was .",eggs benedict-worst,1
+"I had their eggs benedict for brunch , which were the worst in my entire life , I tried removing the hollondaise sauce completely that was how failed it was .",eggs benedict-failed,0
+"I had their eggs benedict for brunch , which were the worst in my entire life , I tried removing the hollondaise sauce completely that was how failed it was .",hollondaise sauce-worst,0
+"I had their eggs benedict for brunch , which were the worst in my entire life , I tried removing the hollondaise sauce completely that was how failed it was .",hollondaise sauce-failed,1
+"I had their eggs benedict for brunch , which were the worst in my entire life , I tried removing the hollondaise sauce completely that was how failed it was .",brunch-worst,1
+"I had their eggs benedict for brunch , which were the worst in my entire life , I tried removing the hollondaise sauce completely that was how failed it was .",brunch-failed,0
+"The food was really good , I had the onion soup and it was one of the best ever .",food-good,1
+"The food was really good , I had the onion soup and it was one of the best ever .",food-best,0
+"The food was really good , I had the onion soup and it was one of the best ever .",onion soup-good,0
+"The food was really good , I had the onion soup and it was one of the best ever .",onion soup-best,1
+The only thing I moderately enjoyed was their Grilled Chicken special with Edamame Puree .,grilled chicken special with edamame puree-enjoyed,1
+"They are tasty , but I suggest only eating one with meat because they tend not to mesh that well with the average American digestive system .",meat-tasty,1
+"They are tasty , but I suggest only eating one with meat because they tend not to mesh that well with the average American digestive system .",meat-suggest,1
+Delivery is fast too .,delivery-fast,1
+The atmosphere is great if your looking for a laid back scene and an inexpensive way to spend a weekend afternoon .,atmosphere-great,1
+"I had the salmon dish and while it was fine , for the price paid , I expected it to have some type of flavor .",flavor-fine,1
+"I had the salmon dish and while it was fine , for the price paid , I expected it to have some type of flavor .",price-fine,1
+"Especially liked chicken tikka and the naan , and the dals .",chicken tikka-liked,1
+"Especially liked chicken tikka and the naan , and the dals .",naan-liked,1
+"Especially liked chicken tikka and the naan , and the dals .",dals-liked,1
+The restaurant looks out over beautiful green lawns to the Hudson River and the Statue of Liberty .,lawns-beautiful,1
+"The overall price tag was very very expensive , something I did expect .",price tag-expensive,1
+Good food .,food-good,1
+Its a great place for a casual date or to entertain clients for lunch .,lunch-great,1
+Plain and simple it 's bad thai food .,thai food-bad,1
+"While certain staples are excellent ( the burger , some of the pastas ) , the food is not really the point .",burger-excellent,1
+"While certain staples are excellent ( the burger , some of the pastas ) , the food is not really the point .",burger-not really the point,0
+"While certain staples are excellent ( the burger , some of the pastas ) , the food is not really the point .",pastas-excellent,1
+"While certain staples are excellent ( the burger , some of the pastas ) , the food is not really the point .",pastas-not really the point,0
+"While certain staples are excellent ( the burger , some of the pastas ) , the food is not really the point .",food-excellent,0
+"While certain staples are excellent ( the burger , some of the pastas ) , the food is not really the point .",food-not really the point,1
+"While certain staples are excellent ( the burger , some of the pastas ) , the food is not really the point .",staples-excellent,1
+"While certain staples are excellent ( the burger , some of the pastas ) , the food is not really the point .",staples-not really the point,0
+"good music , great food , speedy service affordable prices .",music-good,1
+"good music , great food , speedy service affordable prices .",music-great,0
+"good music , great food , speedy service affordable prices .",music-speedy,0
+"good music , great food , speedy service affordable prices .",music-affordable,0
+"good music , great food , speedy service affordable prices .",food-good,0
+"good music , great food , speedy service affordable prices .",food-great,1
+"good music , great food , speedy service affordable prices .",food-speedy,0
+"good music , great food , speedy service affordable prices .",food-affordable,0
+"good music , great food , speedy service affordable prices .",service-good,0
+"good music , great food , speedy service affordable prices .",service-great,0
+"good music , great food , speedy service affordable prices .",service-speedy,1
+"good music , great food , speedy service affordable prices .",service-affordable,0
+"good music , great food , speedy service affordable prices .",prices-good,0
+"good music , great food , speedy service affordable prices .",prices-great,0
+"good music , great food , speedy service affordable prices .",prices-speedy,0
+"good music , great food , speedy service affordable prices .",prices-affordable,1
+The sides were ok and incredibly salty .,sides-ok,1
+The sides were ok and incredibly salty .,sides-salty,1
+The hostess and the waitress were incredibly rude and did everything they could to rush us out .,hostess-rude,1
+The hostess and the waitress were incredibly rude and did everything they could to rush us out .,waitress-rude,1
+I must say the view of NYC is so beautiful !,view-beautiful,1
+"Otherwise , this place has great service and prices and a nice friendly atmosphere .",service-great,1
+"Otherwise , this place has great service and prices and a nice friendly atmosphere .",service-nice friendly,0
+"Otherwise , this place has great service and prices and a nice friendly atmosphere .",prices-great,1
+"Otherwise , this place has great service and prices and a nice friendly atmosphere .",prices-nice friendly,0
+"Otherwise , this place has great service and prices and a nice friendly atmosphere .",atmosphere-great,0
+"Otherwise , this place has great service and prices and a nice friendly atmosphere .",atmosphere-nice friendly,1
+The desserts are more appealing then stuffy overpriced French restaurants .,desserts-appealing,1
+"I found the food to be outstanding , particulary the salmon dish I had .",food-outstanding,1
+"I found the food to be outstanding , particulary the salmon dish I had .",salmon dish-outstanding,1
+The atmosphere is noisy and the waiters are literally walking around doing things as fast as they can .,atmosphere-noisy,1
+Pastrami or corned beef are juicy and piled high ( ask for extra rye bread ) .,pastrami or corned beef-juicy,1
+Pastrami or corned beef are juicy and piled high ( ask for extra rye bread ) .,pastrami or corned beef-high,1
+"( $ 200 for 2 glasses of champagne , not too expensive bottle of wine and 2 after dinner drinks ) .",glasses of champagne-not too expensive,1
+"( $ 200 for 2 glasses of champagne , not too expensive bottle of wine and 2 after dinner drinks ) .",bottle of wine-not too expensive,1
+"otherwise , good stuff for late nite eats .",stuff-good,1
+"otherwise , good stuff for late nite eats .",stuff-late,0
+"otherwise , good stuff for late nite eats .",eats-good,0
+"otherwise , good stuff for late nite eats .",eats-late,1
+"The dinner was ok , nothing I would have again .",dinner-ok,1
+All the food was hot tasty .,food-hot tasty,1
+Our server was very helpful and friendly .,server-helpful,1
+Our server was very helpful and friendly .,server-friendly,1
+The staff is no nonsense .,staff-no nonsense,1
+"The menu was impressive with selections ranging from a burger , to steak , to escargot .",menu-impressive,1
+"The menu was impressive with selections ranging from a burger , to steak , to escargot .",burger-impressive,1
+"The menu was impressive with selections ranging from a burger , to steak , to escargot .",steak-impressive,1
+"The menu was impressive with selections ranging from a burger , to steak , to escargot .",escargot-impressive,1
+Prices are higher to dine in and their chicken tikka marsala is quite good .,prices-higher,1
+Prices are higher to dine in and their chicken tikka marsala is quite good .,prices-good,0
+Prices are higher to dine in and their chicken tikka marsala is quite good .,chicken tikka marsala-higher,0
+Prices are higher to dine in and their chicken tikka marsala is quite good .,chicken tikka marsala-good,1
+The photos of the restaurant in its web site are way better than the real look .,look-better,1
+The food was lousy - too sweet or too salty and the portions tiny .,food-lousy,1
+The food was lousy - too sweet or too salty and the portions tiny .,food-too sweet,1
+The food was lousy - too sweet or too salty and the portions tiny .,food-too salty,1
+The food was lousy - too sweet or too salty and the portions tiny .,food-tiny,0
+The food was lousy - too sweet or too salty and the portions tiny .,portions-lousy,0
+The food was lousy - too sweet or too salty and the portions tiny .,portions-too sweet,0
+The food was lousy - too sweet or too salty and the portions tiny .,portions-too salty,0
+The food was lousy - too sweet or too salty and the portions tiny .,portions-tiny,1
+But the coconut rice was good .,coconut rice-good,1
+All of my co-workers stated that the food was amazing and wondered why they had n't heard about this place .,food-amazing,1
+Friendly staff that actually lets you enjoy your meal and the company you 're with .,staff-friendly,1
+Friendly staff that actually lets you enjoy your meal and the company you 're with .,staff-enjoy,0
+Friendly staff that actually lets you enjoy your meal and the company you 're with .,meal-friendly,0
+Friendly staff that actually lets you enjoy your meal and the company you 're with .,meal-enjoy,1
+The appetizing is excellent - just as good as Zabars Barney Greengrass at a reasonable price ( if bought by the pound ) .,appetizing-excellent,1
+The appetizing is excellent - just as good as Zabars Barney Greengrass at a reasonable price ( if bought by the pound ) .,appetizing-reasonable,0
+The appetizing is excellent - just as good as Zabars Barney Greengrass at a reasonable price ( if bought by the pound ) .,price-excellent,0
+The appetizing is excellent - just as good as Zabars Barney Greengrass at a reasonable price ( if bought by the pound ) .,price-reasonable,1
+"First , the waiter who served us neglected to fill us in on the specials , which I would have chosen had I known about them .",waiter-neglected,1
+"Authentic food and they have REAL service , not just the rush you get sometimes when they try to push you out the door .",food-authentic,1
+"Authentic food and they have REAL service , not just the rush you get sometimes when they try to push you out the door .",food-real,0
+"Authentic food and they have REAL service , not just the rush you get sometimes when they try to push you out the door .",service-authentic,0
+"Authentic food and they have REAL service , not just the rush you get sometimes when they try to push you out the door .",service-real,1
+I would definitely recommend SEA if you like thai cuisine !,thai cuisine-like,1
+Prices are in line .,prices-in line,1
+The food is prepared quickly and efficiently .,food-quickly,1
+The food is prepared quickly and efficiently .,food-efficiently,1
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",dishes-innovative,1
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",dishes-tasty,1
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",dishes-old,0
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",dishes-genuinely,0
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",cuisine-innovative,0
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",cuisine-tasty,0
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",cuisine-old,1
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",cuisine-genuinely,0
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",indian-innovative,0
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",indian-tasty,0
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",indian-old,0
+"While this is n't classical restaurant fare , the chef has given new life to an old cuisine with some really innovative and tasty dishes that are genuinely Indian without being heavy or same old restaurant burn-outs .",indian-genuinely,1
+Great romantic place for a date ( try to get the corner booth table for a little privacy and to sit close ! ) .,corner booth table-privacy,1
+Great romantic place for a date ( try to get the corner booth table for a little privacy and to sit close ! ) .,corner booth table-great romantic,0
+Great romantic place for a date ( try to get the corner booth table for a little privacy and to sit close ! ) .,place-privacy,0
+Great romantic place for a date ( try to get the corner booth table for a little privacy and to sit close ! ) .,place-great romantic,1
+We were fans of the half-price Saturday night option until some inedible squid during a recent visit .,squid-inedible,1
+We were fans of the half-price Saturday night option until some inedible squid during a recent visit .,squid-fans,0
+We were fans of the half-price Saturday night option until some inedible squid during a recent visit .,half-price saturday night option-inedible,0
+We were fans of the half-price Saturday night option until some inedible squid during a recent visit .,half-price saturday night option-fans,1
+Consistently good Japanese Tapas .,japanese tapas-good,1
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",dishes-unique,1
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",dishes-tasty,1
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",dishes-fresh,1
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",dishes-large,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",dishes-amazing,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",lamb sausages-unique,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",lamb sausages-tasty,1
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",lamb sausages-fresh,1
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",lamb sausages-large,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",lamb sausages-amazing,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",sardines with biscuits-unique,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",sardines with biscuits-tasty,1
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",sardines with biscuits-fresh,1
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",sardines with biscuits-large,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",sardines with biscuits-amazing,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",large whole shrimp-unique,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",large whole shrimp-tasty,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",large whole shrimp-fresh,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",large whole shrimp-large,1
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",large whole shrimp-amazing,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",pistachio ice cream-unique,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",pistachio ice cream-tasty,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",pistachio ice cream-fresh,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",pistachio ice cream-large,0
+"The dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest I 've ever had ) .",pistachio ice cream-amazing,1
+I had to share my table with a loud group of kids and the service was rude an unattentive .,service-rude,1
+I had to share my table with a loud group of kids and the service was rude an unattentive .,service-unattentive,1
+I had to share my table with a loud group of kids and the service was rude an unattentive .,service-loud,0
+I had to share my table with a loud group of kids and the service was rude an unattentive .,table-rude,0
+I had to share my table with a loud group of kids and the service was rude an unattentive .,table-unattentive,0
+I had to share my table with a loud group of kids and the service was rude an unattentive .,table-loud,1
+"i 've been to sapphire twice and both times the food was fine , if not good .",food-fine,1
+It is kinda nosiy and the tables are close together but it 's still a beautiful place to enjoy a nice dinner .,tables-close,1
+It is kinda nosiy and the tables are close together but it 's still a beautiful place to enjoy a nice dinner .,tables-nice,0
+It is kinda nosiy and the tables are close together but it 's still a beautiful place to enjoy a nice dinner .,tables-beautiful,0
+It is kinda nosiy and the tables are close together but it 's still a beautiful place to enjoy a nice dinner .,dinner-close,0
+It is kinda nosiy and the tables are close together but it 's still a beautiful place to enjoy a nice dinner .,dinner-nice,1
+It is kinda nosiy and the tables are close together but it 's still a beautiful place to enjoy a nice dinner .,dinner-beautiful,0
+It is kinda nosiy and the tables are close together but it 's still a beautiful place to enjoy a nice dinner .,place-close,0
+It is kinda nosiy and the tables are close together but it 's still a beautiful place to enjoy a nice dinner .,place-nice,0
+It is kinda nosiy and the tables are close together but it 's still a beautiful place to enjoy a nice dinner .,place-beautiful,1
+"The Pastrami sandwich was like buttah and with pickles and an icy cold beer to wash it down , it was a pleasurable experience .",pastrami sandwich-pleasurable,1
+"The Pastrami sandwich was like buttah and with pickles and an icy cold beer to wash it down , it was a pleasurable experience .",pastrami sandwich-icy cold,0
+"The Pastrami sandwich was like buttah and with pickles and an icy cold beer to wash it down , it was a pleasurable experience .",beer-pleasurable,0
+"The Pastrami sandwich was like buttah and with pickles and an icy cold beer to wash it down , it was a pleasurable experience .",beer-icy cold,1
+The scallion pancakes and fried dumplings were nothing out of the ordinary .,scallion pancakes-ordinary,1
+The scallion pancakes and fried dumplings were nothing out of the ordinary .,fried dumplings-ordinary,1
+I was pretty much full after our fondue appetizer .,fondue appetizer-full,1
+Service was quick .,service-quick,1
+Drawbacks : service is slow and they do n't toast !,service-slow,1
+The spicy tuna and salmon are the best we 've ever had .,spicy tuna-best,1
+The spicy tuna and salmon are the best we 've ever had .,salmon-best,1
+"Even though its good seafood , the prices are too high .",seafood-good,1
+"Even though its good seafood , the prices are too high .",seafood-high,0
+"Even though its good seafood , the prices are too high .",prices-good,0
+"Even though its good seafood , the prices are too high .",prices-high,1
+"Meat dishes now adorn the selections , although there 's still a large number of vegetarian-friendly choices .",vegetarian-friendly choices-large,1
+Reasonable prices .,prices-reasonable,1
+The dim sum servings here are a bit larger than I 'm used to .,dim sum servings-larger,1
+"Looking around , I saw a room full of New Yorkers enjoying a real meal in a real restaurant , not a clubhouse of the fabulous trying to be seen .",meal-real,1
+"Looking around , I saw a room full of New Yorkers enjoying a real meal in a real restaurant , not a clubhouse of the fabulous trying to be seen .",meal-fabulous,0
+"Looking around , I saw a room full of New Yorkers enjoying a real meal in a real restaurant , not a clubhouse of the fabulous trying to be seen .",clubhouse-real,0
+"Looking around , I saw a room full of New Yorkers enjoying a real meal in a real restaurant , not a clubhouse of the fabulous trying to be seen .",clubhouse-fabulous,1
+We had a great tiem watching the shows and characters and ar food was just what we were looking for .,shows-great,1
+We had a great tiem watching the shows and characters and ar food was just what we were looking for .,shows-looking for,0
+We had a great tiem watching the shows and characters and ar food was just what we were looking for .,food-great,0
+We had a great tiem watching the shows and characters and ar food was just what we were looking for .,food-looking for,1
+We had a great tiem watching the shows and characters and ar food was just what we were looking for .,characters-great,1
+We had a great tiem watching the shows and characters and ar food was just what we were looking for .,characters-looking for,0
+"Not sure where the previous reviewer , lonk , dined , but Saul is in a great neighborhood and has great food !",neighborhood-great,1
+"Not sure where the previous reviewer , lonk , dined , but Saul is in a great neighborhood and has great food !",food-great,1
+The noodle and rices dishes taste great .,noodle and rices dishes-great,1
+The food 's as good as ever .,food-good,1
+The rice was poor quality and was cooked so badly it was hard .,rice-poor quality,1
+The rice was poor quality and was cooked so badly it was hard .,rice-cooked so badly,1
+The rice was poor quality and was cooked so badly it was hard .,rice-hard,1
+The rice was poor quality and was cooked so badly it was hard .,rice-poor,0
+The rice was poor quality and was cooked so badly it was hard .,rice-badly,0
+The rice was poor quality and was cooked so badly it was hard .,quality-poor quality,0
+The rice was poor quality and was cooked so badly it was hard .,quality-cooked so badly,0
+The rice was poor quality and was cooked so badly it was hard .,quality-hard,0
+The rice was poor quality and was cooked so badly it was hard .,quality-poor,1
+The rice was poor quality and was cooked so badly it was hard .,quality-badly,0
+The rice was poor quality and was cooked so badly it was hard .,cooked-poor quality,0
+The rice was poor quality and was cooked so badly it was hard .,cooked-cooked so badly,0
+The rice was poor quality and was cooked so badly it was hard .,cooked-hard,0
+The rice was poor quality and was cooked so badly it was hard .,cooked-poor,0
+The rice was poor quality and was cooked so badly it was hard .,cooked-badly,1
+"While they keep the capex to a minimum , they do put some cash into the bagels , because they among the best in the city .",bagels-best,1
+Have frequented 'ino for several years and the food remains excellent .,food-excellent,1
+My friend got the mushroom pizza which tasted better .,mushroom pizza-better,1
+"The porcini mushroom pasta special was tasteless , so was the seafood tagliatelle .",porcini mushroom pasta special-tasteless,1
+"The porcini mushroom pasta special was tasteless , so was the seafood tagliatelle .",seafood tagliatelle-tasteless,1
+THE FOOD PORTIONS ARE REALLY LARGE .,food portions-large .,1
+It looked like shredded cheese partly done - still in strips .,shredded cheese-partly done,1
+I have never better enjoyed humble root vegetables or a mushroom consomme - and this chef accomplishes without fats .,root vegetables-better enjoyed,1
+I have never better enjoyed humble root vegetables or a mushroom consomme - and this chef accomplishes without fats .,mushroom consomme-better enjoyed,1
+"If you go to Roth 's try to be served by Mike , he is GREAT ! !",served-great !,1
+The food is amazing ! ! ! !,food-amazing,1
+"Interesting selection , good wines , service fine , fun decor .",wines-good,1
+"Interesting selection , good wines , service fine , fun decor .",wines-fine,0
+"Interesting selection , good wines , service fine , fun decor .",wines-fun,0
+"Interesting selection , good wines , service fine , fun decor .",service-good,0
+"Interesting selection , good wines , service fine , fun decor .",service-fine,1
+"Interesting selection , good wines , service fine , fun decor .",service-fun,0
+"Interesting selection , good wines , service fine , fun decor .",decor-good,0
+"Interesting selection , good wines , service fine , fun decor .",decor-fine,0
+"Interesting selection , good wines , service fine , fun decor .",decor-fun,1
+The rice to fish ration was also good -- they did n't try to overpack the rice .,rice to fish ration-good,1
+The food is great and they have a good selecion of wines at reasonable prices .,food-great,1
+The food is great and they have a good selecion of wines at reasonable prices .,food-good,0
+The food is great and they have a good selecion of wines at reasonable prices .,food-reasonable,0
+The food is great and they have a good selecion of wines at reasonable prices .,selecion of wines-great,0
+The food is great and they have a good selecion of wines at reasonable prices .,selecion of wines-good,1
+The food is great and they have a good selecion of wines at reasonable prices .,selecion of wines-reasonable,0
+The food is great and they have a good selecion of wines at reasonable prices .,prices-great,0
+The food is great and they have a good selecion of wines at reasonable prices .,prices-good,0
+The food is great and they have a good selecion of wines at reasonable prices .,prices-reasonable,1
+I could n't reccommend their Godmother pizza any higher .,godmother pizza-reccommend,1
+"Always a nice crowd , but never loud .",crowd-nice,1
+"Always a nice crowd , but never loud .",crowd-never loud,1
+Decor is minimalist and clean - nothing to distract or commend .,decor-minimalist,1
+Decor is minimalist and clean - nothing to distract or commend .,decor-clean,1
+The people in the restaurant were pretty obnoxious and loud .,people-obnoxious,1
+The people in the restaurant were pretty obnoxious and loud .,people-loud,1
+Price no more than a Jersey deli but way better .,price-better,1
+"THe back garden sitting area is very pleasant , where you can see their personal herb garden .",back garden sitting area-pleasant,1
+The drinks are always well made and wine selection is fairly priced .,drinks-well made,1
+The drinks are always well made and wine selection is fairly priced .,drinks-fairly priced,0
+The drinks are always well made and wine selection is fairly priced .,drinks-fairly,0
+The drinks are always well made and wine selection is fairly priced .,wine selection-well made,0
+The drinks are always well made and wine selection is fairly priced .,wine selection-fairly priced,1
+The drinks are always well made and wine selection is fairly priced .,wine selection-fairly,0
+The drinks are always well made and wine selection is fairly priced .,priced-well made,0
+The drinks are always well made and wine selection is fairly priced .,priced-fairly priced,0
+The drinks are always well made and wine selection is fairly priced .,priced-fairly,1
+Food was average but tasty .,food-average,1
+Food was average but tasty .,food-tasty,1
+"Admittedly some nights inside the restaurant were rather warm , but the open kitchen is part of the charm .",open kitchen-charm,1
+I 'm still mad that i had to pay for lousy food .,food-lousy,1
+"Worse of all , $ 60 was erroneously added to our $ 80 bill .",bill-erroneously,1
+Someone else recommended the dessert - we also left that .,dessert-recommended,1
+"It was nice and fresh , but I ca n't give it high scores on being authentic thai .",thai-authentic,1
+"Oh , and the complimentary pudding dessert was just enough - yummy !",pudding dessert-enough,1
+"Oh , and the complimentary pudding dessert was just enough - yummy !",pudding dessert-yummy,1
+"It saves walking in and waiting for a table in the often noisy , crowded bar at dinnertime .",bar-noisy,1
+"It saves walking in and waiting for a table in the often noisy , crowded bar at dinnertime .",bar-crowded,1
+"It saves walking in and waiting for a table in the often noisy , crowded bar at dinnertime .",bar-saves,0
+"It saves walking in and waiting for a table in the often noisy , crowded bar at dinnertime .",waiting-noisy,0
+"It saves walking in and waiting for a table in the often noisy , crowded bar at dinnertime .",waiting-crowded,0
+"It saves walking in and waiting for a table in the often noisy , crowded bar at dinnertime .",waiting-saves,1
+Mine was a little burnt but still delicious with goat cheese and panchetta ( raddichio was kind of bitter though ) .,goat cheese-delicious,1
+Mine was a little burnt but still delicious with goat cheese and panchetta ( raddichio was kind of bitter though ) .,goat cheese-bitter,0
+Mine was a little burnt but still delicious with goat cheese and panchetta ( raddichio was kind of bitter though ) .,panchetta-delicious,1
+Mine was a little burnt but still delicious with goat cheese and panchetta ( raddichio was kind of bitter though ) .,panchetta-bitter,0
+Mine was a little burnt but still delicious with goat cheese and panchetta ( raddichio was kind of bitter though ) .,raddichio-delicious,0
+Mine was a little burnt but still delicious with goat cheese and panchetta ( raddichio was kind of bitter though ) .,raddichio-bitter,1
+"Disappointing food , lousy service .",food-disappointing,1
+"Disappointing food , lousy service .",food-lousy,0
+"Disappointing food , lousy service .",service-disappointing,0
+"Disappointing food , lousy service .",service-lousy,1
+"Over price , and small portions .",price-over,1
+"Over price , and small portions .",price-small,0
+"Over price , and small portions .",portions-over,0
+"Over price , and small portions .",portions-small,1
+"My husband said the portions were very small , but if my main course was good to eat the portion would 've been fine for me .",portions-small,1
+"My husband said the portions were very small , but if my main course was good to eat the portion would 've been fine for me .",portions-good,0
+"My husband said the portions were very small , but if my main course was good to eat the portion would 've been fine for me .",main course-small,0
+"My husband said the portions were very small , but if my main course was good to eat the portion would 've been fine for me .",main course-good,1
+"Because we did n't have a reservation , we could only sit in the back garden , but it was great , secluded and perfect in nice weather .",back garden-great,1
+"Because we did n't have a reservation , we could only sit in the back garden , but it was great , secluded and perfect in nice weather .",back garden-secluded,1
+"Because we did n't have a reservation , we could only sit in the back garden , but it was great , secluded and perfect in nice weather .",back garden-perfect,1
+Stuffing yourself with Japanese food is a rare thing .,japanese food-rare,1
+Our family never expected such incredible entertainment in a restaurant .,entertainment-incredible,1
+The all you can eat deal is truly amazing here .,all you can eat deal-amazing,1
+The dining room is quietly elegant with no music to shout over -- how refreshing !,dining room-elegant,1
+The dining room is quietly elegant with no music to shout over -- how refreshing !,dining room-refreshing,1
+"They have it all -- great price , food , and service .",price-great,1
+"They have it all -- great price , food , and service .",food-great,1
+"They have it all -- great price , food , and service .",service-great,1
+"The food was amazing , the service was so attentive and personable , and how about that ambience !",food-amazing,1
+"The food was amazing , the service was so attentive and personable , and how about that ambience !",food-attentive,0
+"The food was amazing , the service was so attentive and personable , and how about that ambience !",food-personable,0
+"The food was amazing , the service was so attentive and personable , and how about that ambience !",service-amazing,0
+"The food was amazing , the service was so attentive and personable , and how about that ambience !",service-attentive,1
+"The food was amazing , the service was so attentive and personable , and how about that ambience !",service-personable,1
+"This place has the best interior I have seen anywhere in the northside of W'burg , and will impress whoever you bring there .",interior-best,1
+"This place has the best interior I have seen anywhere in the northside of W'burg , and will impress whoever you bring there .",interior-impress,0
+"This place has the best interior I have seen anywhere in the northside of W'burg , and will impress whoever you bring there .",place-best,0
+"This place has the best interior I have seen anywhere in the northside of W'burg , and will impress whoever you bring there .",place-impress,1
+I found the variety of the sashimi plate to be satisfying - fresh and yummy .,sashimi plate-satisfying,1
+I found the variety of the sashimi plate to be satisfying - fresh and yummy .,sashimi plate-fresh,1
+I found the variety of the sashimi plate to be satisfying - fresh and yummy .,sashimi plate-yummy,1
+Dahkin also offers prix fixe lunch and buffet .,prix fixe lunch-prix,1
+Dahkin also offers prix fixe lunch and buffet .,buffet-prix,1
+"The service , however , was a bright flower in a garden .",service-bright,1
+Tried the pad see ew on the recommendation of the last reviewer since it 's one of my favorite dishes .,pad see ew-tried,1
+Tried the pad see ew on the recommendation of the last reviewer since it 's one of my favorite dishes .,pad see ew-favorite,1
+Tried the pad see ew on the recommendation of the last reviewer since it 's one of my favorite dishes .,dishes-tried,0
+Tried the pad see ew on the recommendation of the last reviewer since it 's one of my favorite dishes .,dishes-favorite,1
+The location is perfect .,location-perfect,1
+The lunch special is an absolute steal .,lunch special-steal,1
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",the chicken pot pie-exceptional,1
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",the chicken pot pie-huge,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",the chicken pot pie-delictable,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",the chicken pot pie-professional,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",the chicken pot pie-warm,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",cheeseburger-exceptional,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",cheeseburger-huge,1
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",cheeseburger-delictable,1
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",cheeseburger-professional,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",cheeseburger-warm,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",service-exceptional,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",service-huge,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",service-delictable,0
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",service-professional,1
+"The chicken pot pie is exceptional , the cheeseburger huge and delictable , and the service professional wan warm .",service-warm,1
+She gets 10 for her excellent service and advice .,service-excellent,1
+The restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal,meal-enjoy,1
+The restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal,meal-great,1
+"I have eaten at Saul , many times , the food is always consistently , outrageously good .",food-good,1
+"Apparently , the good cook works then .",cook-good,1
+My steak au poivre was one of the worst I 've had .,steak au poivre-worst,1
+"Although the tables may be closely situated , the candle-light , food-quality and service overcompensate .",candle-light-closely situated,1
+"Although the tables may be closely situated , the candle-light , food-quality and service overcompensate .",candle-light-overcompensate,0
+"Although the tables may be closely situated , the candle-light , food-quality and service overcompensate .",food-quality-closely situated,0
+"Although the tables may be closely situated , the candle-light , food-quality and service overcompensate .",food-quality-overcompensate,1
+"Although the tables may be closely situated , the candle-light , food-quality and service overcompensate .",service-closely situated,0
+"Although the tables may be closely situated , the candle-light , food-quality and service overcompensate .",service-overcompensate,1
+"Although the tables may be closely situated , the candle-light , food-quality and service overcompensate .",tables-closely situated,1
+"Although the tables may be closely situated , the candle-light , food-quality and service overcompensate .",tables-overcompensate,0
+"From the spectacular caviar to the hospitable waitstaff , I felt like royalty and enjoyed every second of it .",caviar-spectacular,1
+"From the spectacular caviar to the hospitable waitstaff , I felt like royalty and enjoyed every second of it .",caviar-enjoyed,1
+"From the spectacular caviar to the hospitable waitstaff , I felt like royalty and enjoyed every second of it .",caviar-hospitable,0
+"From the spectacular caviar to the hospitable waitstaff , I felt like royalty and enjoyed every second of it .",waitstaff-spectacular,0
+"From the spectacular caviar to the hospitable waitstaff , I felt like royalty and enjoyed every second of it .",waitstaff-enjoyed,1
+"From the spectacular caviar to the hospitable waitstaff , I felt like royalty and enjoyed every second of it .",waitstaff-hospitable,1
+"Service was excellent , and the AC worked very well too ( thank God , it was hot ! ) .",service-excellent,1
+"Service was excellent , and the AC worked very well too ( thank God , it was hot ! ) .",service-well,0
+"Service was excellent , and the AC worked very well too ( thank God , it was hot ! ) .",ac-excellent,0
+"Service was excellent , and the AC worked very well too ( thank God , it was hot ! ) .",ac-well,1
+My friend ordered some of their special sushi rolls which had excellent presentation and tasted great !,sushi rolls-special,1
+My friend ordered some of their special sushi rolls which had excellent presentation and tasted great !,sushi rolls-excellent,1
+My friend ordered some of their special sushi rolls which had excellent presentation and tasted great !,sushi rolls-great,1
+Although be warned their dinner menu to sit and take out prices are different .,prices-different,1
+Although be warned their dinner menu to sit and take out prices are different .,prices-warned,0
+Although be warned their dinner menu to sit and take out prices are different .,dinner menu to sit-different,0
+Although be warned their dinner menu to sit and take out prices are different .,dinner menu to sit-warned,1
+"To celebrate a birthday , three of us went to Mare anticipating great food .",food-great,1
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !",spicy tuna roll-good,1
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !",spicy tuna roll-awesome,0
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !",spicy tuna roll-great,0
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !",rock shrimp tempura-good,0
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !",rock shrimp tempura-awesome,1
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !",rock shrimp tempura-great,0
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !",appetizer-good,0
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !",appetizer-awesome,0
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !",appetizer-great,1
+Great staff .,staff-great,1
+"To finish off such a delightful dinner experience you must have dessert , especially the White Chocolate Bread Pudding with Gelato and hot chocolate .",dinner-delightful,1
+"Great vibe , lots of people .",vibe-great,1
+Great food and the prices are very reasonable .,food-great,1
+Great food and the prices are very reasonable .,food-reasonable,0
+Great food and the prices are very reasonable .,prices-great,0
+Great food and the prices are very reasonable .,prices-reasonable,1
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",food-great,1
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",food-friendly,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",food-nonsense,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",food-clean,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",food-funky,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",spinach and corn dumplings-great,1
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",spinach and corn dumplings-friendly,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",spinach and corn dumplings-nonsense,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",spinach and corn dumplings-clean,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",spinach and corn dumplings-funky,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",service-great,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",service-friendly,1
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",service-nonsense,1
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",service-clean,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",service-funky,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",bathroom-great,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",bathroom-friendly,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",bathroom-nonsense,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",bathroom-clean,1
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",bathroom-funky,1
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",massamman curry-great,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",massamman curry-friendly,1
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",massamman curry-nonsense,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",massamman curry-clean,0
+"Great food ( spinach and corn dumplings and massamman curry ) , very friendly and no nonsense service and a clean and funky bathroom .",massamman curry-funky,0
+My chow fun and chow see was really bland and oily .,chow fun and chow see-bland,1
+My chow fun and chow see was really bland and oily .,chow fun and chow see-oily,1
+"If you love seafood , you would love this place !",seafood-love,1
+"If you love seafood , you would love this place !",place-love,1
+They charge different prices all the time .,prices-different,1
+"In terms of the food itself -- nothing special , we limited ourselves to several appetizers .",food-nothing special,1
+"In terms of the food itself -- nothing special , we limited ourselves to several appetizers .",food-limited,0
+"In terms of the food itself -- nothing special , we limited ourselves to several appetizers .",appetizers-nothing special,0
+"In terms of the food itself -- nothing special , we limited ourselves to several appetizers .",appetizers-limited,1
+"No dress codes , no attitudes , plenty of comfort companionship , a great place to relax in an always busy Midtown .",dress codes-no,1
+"No dress codes , no attitudes , plenty of comfort companionship , a great place to relax in an always busy Midtown .",dress codes-great,0
+"No dress codes , no attitudes , plenty of comfort companionship , a great place to relax in an always busy Midtown .",attitudes-no,1
+"No dress codes , no attitudes , plenty of comfort companionship , a great place to relax in an always busy Midtown .",attitudes-great,0
+"No dress codes , no attitudes , plenty of comfort companionship , a great place to relax in an always busy Midtown .",place-no,0
+"No dress codes , no attitudes , plenty of comfort companionship , a great place to relax in an always busy Midtown .",place-great,1
+They have a huge selection of different cream cheeses and all of their salads are great .,cream cheeses-huge,1
+They have a huge selection of different cream cheeses and all of their salads are great .,cream cheeses-different,1
+They have a huge selection of different cream cheeses and all of their salads are great .,cream cheeses-great,0
+They have a huge selection of different cream cheeses and all of their salads are great .,salads-huge,0
+They have a huge selection of different cream cheeses and all of their salads are great .,salads-different,0
+They have a huge selection of different cream cheeses and all of their salads are great .,salads-great,1
+I ordered a Chicken Teriyaki dish and found that the chicken was extremely dry .,chicken teriyaki dish-dry,1
+I ordered a Chicken Teriyaki dish and found that the chicken was extremely dry .,chicken-dry,1
+There is no excuse for such lousy service !,service-lousy,1
+"So , a little inconsistency there but either way , both pizzas were really good .",pizzas-good,1
+I had the duck breast special on my last visit and it was incredible .,duck breast special-incredible,1
+These innovators of french indian fusion do a great job of making dishes as interesting as possible while still being accessible .,french indian fusion-great,1
+These innovators of french indian fusion do a great job of making dishes as interesting as possible while still being accessible .,french indian fusion-interesting,0
+These innovators of french indian fusion do a great job of making dishes as interesting as possible while still being accessible .,french indian fusion-accessible,0
+These innovators of french indian fusion do a great job of making dishes as interesting as possible while still being accessible .,dishes-great,0
+These innovators of french indian fusion do a great job of making dishes as interesting as possible while still being accessible .,dishes-interesting,1
+These innovators of french indian fusion do a great job of making dishes as interesting as possible while still being accessible .,dishes-accessible,1
+"night without a reservation , we had to wait at the bar for a little while , but the manager was so nice and made our wait a great experience .",manager-nice,1
+"You rarely have to wait for a seat and the currys ( masaman , green , red ) are full of flavor and come super spicy if you ask for it .",seat-rarely,1
+"You rarely have to wait for a seat and the currys ( masaman , green , red ) are full of flavor and come super spicy if you ask for it .",seat-full,0
+"You rarely have to wait for a seat and the currys ( masaman , green , red ) are full of flavor and come super spicy if you ask for it .","currys ( masaman , green , red )-rarely",0
+"You rarely have to wait for a seat and the currys ( masaman , green , red ) are full of flavor and come super spicy if you ask for it .","currys ( masaman , green , red )-full",1
+"You rarely have to wait for a seat and the currys ( masaman , green , red ) are full of flavor and come super spicy if you ask for it .",flavor-rarely,0
+"You rarely have to wait for a seat and the currys ( masaman , green , red ) are full of flavor and come super spicy if you ask for it .",flavor-full,1
+The bar is very well stocked with interesting beers and well priced wines .,bar-well stocked,1
+The bar is very well stocked with interesting beers and well priced wines .,bar-interesting,0
+The bar is very well stocked with interesting beers and well priced wines .,bar-well priced,0
+The bar is very well stocked with interesting beers and well priced wines .,bar-well,0
+The bar is very well stocked with interesting beers and well priced wines .,beers-well stocked,0
+The bar is very well stocked with interesting beers and well priced wines .,beers-interesting,1
+The bar is very well stocked with interesting beers and well priced wines .,beers-well priced,0
+The bar is very well stocked with interesting beers and well priced wines .,beers-well,0
+The bar is very well stocked with interesting beers and well priced wines .,wines-well stocked,0
+The bar is very well stocked with interesting beers and well priced wines .,wines-interesting,0
+The bar is very well stocked with interesting beers and well priced wines .,wines-well priced,1
+The bar is very well stocked with interesting beers and well priced wines .,wines-well,0
+The bar is very well stocked with interesting beers and well priced wines .,priced-well stocked,0
+The bar is very well stocked with interesting beers and well priced wines .,priced-interesting,0
+The bar is very well stocked with interesting beers and well priced wines .,priced-well priced,0
+The bar is very well stocked with interesting beers and well priced wines .,priced-well,1
+The food was good .,food-good,1
+I have enjoyed everything I have ever gotten and the fish is so fresh and always prepared in a great way .,fish-fresh,1
+I have enjoyed everything I have ever gotten and the fish is so fresh and always prepared in a great way .,fish-great,1
+The place was nice and calm .,place-nice,1
+The place was nice and calm .,place-calm,1
+I could have drank 4 glasses of water and still been parched - so watch out .,glasses of water-parched,1
+"When we sat , we got great and fast service .",service-great,1
+"When we sat , we got great and fast service .",service-fast,1
+"They forgot a sandwich , did n't include plastic forks , and did n't include pita with the hummus platter .",sandwich-forgot,1
+"The menu is Prix Fixe , so be prepared to spend at least $ 60 per person , but it is Well worth it superb food .",menu-well worth,1
+"The menu is Prix Fixe , so be prepared to spend at least $ 60 per person , but it is Well worth it superb food .",menu-superb,0
+"The menu is Prix Fixe , so be prepared to spend at least $ 60 per person , but it is Well worth it superb food .",food-well worth,0
+"The menu is Prix Fixe , so be prepared to spend at least $ 60 per person , but it is Well worth it superb food .",food-superb,1
+"The menu is Prix Fixe , so be prepared to spend at least $ 60 per person , but it is Well worth it superb food .",prix fixe-well worth,1
+"The menu is Prix Fixe , so be prepared to spend at least $ 60 per person , but it is Well worth it superb food .",prix fixe-superb,0
+We had the most wonderful waitress .,waitress-wonderful,1
+Decor is nice though service can be spotty .,decor-nice,1
+Decor is nice though service can be spotty .,decor-spotty,0
+Decor is nice though service can be spotty .,service-nice,0
+Decor is nice though service can be spotty .,service-spotty,1
+"The blond wood decor is very soothing , the premium sake is excellent and the service is great .",blond wood decor-soothing,1
+"The blond wood decor is very soothing , the premium sake is excellent and the service is great .",blond wood decor-excellent,0
+"The blond wood decor is very soothing , the premium sake is excellent and the service is great .",blond wood decor-great,0
+"The blond wood decor is very soothing , the premium sake is excellent and the service is great .",sake-soothing,0
+"The blond wood decor is very soothing , the premium sake is excellent and the service is great .",sake-excellent,1
+"The blond wood decor is very soothing , the premium sake is excellent and the service is great .",sake-great,0
+"The blond wood decor is very soothing , the premium sake is excellent and the service is great .",service-soothing,0
+"The blond wood decor is very soothing , the premium sake is excellent and the service is great .",service-excellent,0
+"The blond wood decor is very soothing , the premium sake is excellent and the service is great .",service-great,1
+Your money could easily be better spent elsewhere ( Anywhere ) .,money-better,1
+Try the Pad Se-Ew or Chicken with Cashew Nuts for a memorable and repeatable experience .,pad se-ew-try,1
+Try the Pad Se-Ew or Chicken with Cashew Nuts for a memorable and repeatable experience .,pad se-ew-memorable,1
+Try the Pad Se-Ew or Chicken with Cashew Nuts for a memorable and repeatable experience .,pad se-ew-repeatable,1
+Try the Pad Se-Ew or Chicken with Cashew Nuts for a memorable and repeatable experience .,chicken with cashew nuts-try,1
+Try the Pad Se-Ew or Chicken with Cashew Nuts for a memorable and repeatable experience .,chicken with cashew nuts-memorable,1
+Try the Pad Se-Ew or Chicken with Cashew Nuts for a memorable and repeatable experience .,chicken with cashew nuts-repeatable,1
+It 's just O.K . pizza .,pizza-o.k .,1
+What I did n't like was how the food came right after it was ordered .,food-did n't like,1
+"The best part of the experience was knowing that the manager ( a bubbly , friendly young woman with a great smile ) truly cared about how we were doing .",manager-bubbly,1
+"The best part of the experience was knowing that the manager ( a bubbly , friendly young woman with a great smile ) truly cared about how we were doing .",manager-friendly young,1
+one of the best Chicken Tikka Masala .,chicken tikka masala-best,1
+"The corned beef and pastrami are excellent , much less fatty than those big tourist places around Times Square .",corned beef-excellent,1
+"The corned beef and pastrami are excellent , much less fatty than those big tourist places around Times Square .",corned beef-less fatty,1
+"The corned beef and pastrami are excellent , much less fatty than those big tourist places around Times Square .",pastrami-excellent,1
+"The corned beef and pastrami are excellent , much less fatty than those big tourist places around Times Square .",pastrami-less fatty,1
+The pizza is overpriced and soggy .,pizza-overpriced,1
+The pizza is overpriced and soggy .,pizza-soggy,1
+If you 've ever been along the river in Weehawken you have an idea of the top of view the chart house has to offer .,view-top,1
+Downstairs lounge is always a good attraction,downstairs lounge-good attraction,1
+One of us actually liked the expresso - that 's it .,expresso-liked,1
+"The food was just OK , I would never go back .",food-ok,1
+Ummm ... the beer was cold .,beer-cold,1
+I am happy i did the food was awesome .,food-awesome,1
+"We ordered the chicken casserole , but what we got were a few small pieces of chicken , all dark meat and on the bone .",chicken-few,1
+"We ordered the chicken casserole , but what we got were a few small pieces of chicken , all dark meat and on the bone .",chicken-dark,0
+"We ordered the chicken casserole , but what we got were a few small pieces of chicken , all dark meat and on the bone .",meat-few,0
+"We ordered the chicken casserole , but what we got were a few small pieces of chicken , all dark meat and on the bone .",meat-dark,1
+"I recommend the jelly fish , drunken chicken and the soupy dumplings , certainly the stir fry blue crab .",jelly fish-recommend,1
+"I recommend the jelly fish , drunken chicken and the soupy dumplings , certainly the stir fry blue crab .",drunken chicken-recommend,1
+"I recommend the jelly fish , drunken chicken and the soupy dumplings , certainly the stir fry blue crab .",soupy dumplings-recommend,1
+"I recommend the jelly fish , drunken chicken and the soupy dumplings , certainly the stir fry blue crab .",stir fry blue crab-recommend,1
+"If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",fish-low quality,1
+"If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",fish-unfriendly,0
+"If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",fish-miserable,0
+"If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",staff-low quality,0
+"If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",staff-unfriendly,1
+"If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",staff-miserable,0
+"If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",sushi chef-low quality,0
+"If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",sushi chef-unfriendly,0
+"If you do n't mind pre-sliced low quality fish , unfriendly staff and a sushi chef that looks like he is miserable then this is your place .",sushi chef-miserable,1
+"The pesto pizza was excellent , thin-crust pizza with a nice amount of spicy Italian cheese that I 'd never heard of before .",pesto pizza-excellent,1
+"The pesto pizza was excellent , thin-crust pizza with a nice amount of spicy Italian cheese that I 'd never heard of before .",pesto pizza-nice,0
+"The pesto pizza was excellent , thin-crust pizza with a nice amount of spicy Italian cheese that I 'd never heard of before .",pesto pizza-spicy,0
+"The pesto pizza was excellent , thin-crust pizza with a nice amount of spicy Italian cheese that I 'd never heard of before .",italian cheese-excellent,0
+"The pesto pizza was excellent , thin-crust pizza with a nice amount of spicy Italian cheese that I 'd never heard of before .",italian cheese-nice,1
+"The pesto pizza was excellent , thin-crust pizza with a nice amount of spicy Italian cheese that I 'd never heard of before .",italian cheese-spicy,1
+"Delicate spices , onions , eggs and a kick-ass roti .",spices-delicate,1
+"Delicate spices , onions , eggs and a kick-ass roti .",spices-kick-ass,0
+"Delicate spices , onions , eggs and a kick-ass roti .",onions-delicate,1
+"Delicate spices , onions , eggs and a kick-ass roti .",onions-kick-ass,0
+"Delicate spices , onions , eggs and a kick-ass roti .",eggs-delicate,1
+"Delicate spices , onions , eggs and a kick-ass roti .",eggs-kick-ass,0
+"Delicate spices , onions , eggs and a kick-ass roti .",roti-delicate,0
+"Delicate spices , onions , eggs and a kick-ass roti .",roti-kick-ass,1
+Incredible food at a very agreeable price brings me back just about every other day to this authentic Thai restaurant .,food-incredible,1
+Incredible food at a very agreeable price brings me back just about every other day to this authentic Thai restaurant .,food-agreeable,0
+Incredible food at a very agreeable price brings me back just about every other day to this authentic Thai restaurant .,price-incredible,0
+Incredible food at a very agreeable price brings me back just about every other day to this authentic Thai restaurant .,price-agreeable,1
+This was the worst dining experience I 've ever had .,dining experience-worst,1
+"Food was okay , nothing great .",food-okay,1
+"Food was okay , nothing great .",food-nothing great,1
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",paratha bread-soft,1
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",paratha bread-plain,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",paratha bread-styled,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",paratha bread-flavorful,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",bread-soft,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",bread-plain,1
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",bread-styled,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",bread-flavorful,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",stuffing-soft,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",stuffing-plain,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",stuffing-styled,1
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",stuffing-flavorful,1
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",tandoori-soft,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",tandoori-plain,0
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",tandoori-styled,1
+"The bread is the soft paratha bread ( unlike the plain bread they use in Calcutta ) , and the stuffing is tandoori styled and very flavorful .",tandoori-flavorful,0
+"The food however , is what one might expect .",food-expect,1
+"Food is average , and I would say even the chain restaurant Baluchi 's tastes better .",food-average,1
+The place is small and cramped but the food is fantastic .,place-small,1
+The place is small and cramped but the food is fantastic .,place-cramped,1
+The place is small and cramped but the food is fantastic .,place-fantastic,0
+The place is small and cramped but the food is fantastic .,food-small,0
+The place is small and cramped but the food is fantastic .,food-cramped,0
+The place is small and cramped but the food is fantastic .,food-fantastic,1
+The food is tasty and portion sizes are appropriate .,food-tasty,1
+The food is tasty and portion sizes are appropriate .,food-appropriate,0
+The food is tasty and portion sizes are appropriate .,portion sizes-tasty,0
+The food is tasty and portion sizes are appropriate .,portion sizes-appropriate,1
+The bartender on my most recent visit was so incredibly rude that I will never go back .,bartender-rude,1
+you can actually get 2 salads worth if u take it home and add it to some lettuce !,salads-worth,1
+The ambience is very romantic and definitely a good place to bring a date .,ambience-romantic,1
+The ambience is very romantic and definitely a good place to bring a date .,ambience-good,0
+The ambience is very romantic and definitely a good place to bring a date .,place-romantic,0
+The ambience is very romantic and definitely a good place to bring a date .,place-good,1
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",bar-popular,1
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",bar-few,0
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",bar-enjoyed,0
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",bar-unobtrusive,0
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",tables-popular,0
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",tables-few,1
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",tables-enjoyed,0
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",tables-unobtrusive,0
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",atmosphere-popular,0
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",atmosphere-few,0
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",atmosphere-enjoyed,1
+"It is far more popular as a bar than as a restaurant , with only a few tables and the waiter being the bartender , but we greatly enjoyed the unobtrusive atmosphere .",atmosphere-unobtrusive,1
+There are much better places in NY with better prices .,prices-better,1
+The ambience is very calm and quiet .,ambience-calm,1
+"Both times I was extremely dissappointed by the service , which was boarderline rude .",service-dissappointed,1
+"Both times I was extremely dissappointed by the service , which was boarderline rude .",service-rude,1
+"Considering their price of $ 6.25 for lunch special , the dish was ridiculously small .",dish-ridiculously small,1
+The food was pretty traditional but it was hot and good with large portions .,food-traditional,1
+The food was pretty traditional but it was hot and good with large portions .,food-hot,1
+The food was pretty traditional but it was hot and good with large portions .,food-good,1
+The food was pretty traditional but it was hot and good with large portions .,food-large,0
+The food was pretty traditional but it was hot and good with large portions .,portions-traditional,0
+The food was pretty traditional but it was hot and good with large portions .,portions-hot,0
+The food was pretty traditional but it was hot and good with large portions .,portions-good,0
+The food was pretty traditional but it was hot and good with large portions .,portions-large,1
+They were very abrupt with me when I called and actually claimed the food was late because they were out of rice .,food-late,1
+They were very abrupt with me when I called and actually claimed the food was late because they were out of rice .,food-out of,0
+They were very abrupt with me when I called and actually claimed the food was late because they were out of rice .,rice-late,0
+They were very abrupt with me when I called and actually claimed the food was late because they were out of rice .,rice-out of,1
+"Service is extraordinary , yet not overbearing , and the decor brings a taste of trendy SoHo into Queens .",service-extraordinary,1
+"Service is extraordinary , yet not overbearing , and the decor brings a taste of trendy SoHo into Queens .",service-not overbearing,1
+"Service is extraordinary , yet not overbearing , and the decor brings a taste of trendy SoHo into Queens .",service-trendy,0
+"Service is extraordinary , yet not overbearing , and the decor brings a taste of trendy SoHo into Queens .",decor-extraordinary,0
+"Service is extraordinary , yet not overbearing , and the decor brings a taste of trendy SoHo into Queens .",decor-not overbearing,0
+"Service is extraordinary , yet not overbearing , and the decor brings a taste of trendy SoHo into Queens .",decor-trendy,1
+A restaurant that does n't try to do anything except serve great food with great service in a pleasant atmosphere .,food-great,1
+A restaurant that does n't try to do anything except serve great food with great service in a pleasant atmosphere .,food-pleasant,0
+A restaurant that does n't try to do anything except serve great food with great service in a pleasant atmosphere .,service-great,1
+A restaurant that does n't try to do anything except serve great food with great service in a pleasant atmosphere .,service-pleasant,0
+A restaurant that does n't try to do anything except serve great food with great service in a pleasant atmosphere .,atmosphere-great,0
+A restaurant that does n't try to do anything except serve great food with great service in a pleasant atmosphere .,atmosphere-pleasant,1
+Their sake martini is wonderful .,sake martini-wonderful,1
+"The service is friendly , if not the most prompt in the world , the food is great , and the prices , while not cheap , wo n't put your wallet out of commission .",service-friendly,1
+"The service is friendly , if not the most prompt in the world , the food is great , and the prices , while not cheap , wo n't put your wallet out of commission .",service-great,0
+"The service is friendly , if not the most prompt in the world , the food is great , and the prices , while not cheap , wo n't put your wallet out of commission .",food-friendly,0
+"The service is friendly , if not the most prompt in the world , the food is great , and the prices , while not cheap , wo n't put your wallet out of commission .",food-great,1
+Best drumsticks over rice and sour spicy soup in town !,drumsticks over rice-best,1
+Best drumsticks over rice and sour spicy soup in town !,sour spicy soup-best,1
+"And it all comes at a very reasonable price ( congee , noodles , and rice dishes are no more than $ 3-6 each ) .",price-reasonable,1
+"And it all comes at a very reasonable price ( congee , noodles , and rice dishes are no more than $ 3-6 each ) .",congee-reasonable,1
+"And it all comes at a very reasonable price ( congee , noodles , and rice dishes are no more than $ 3-6 each ) .",noodles-reasonable,1
+"And it all comes at a very reasonable price ( congee , noodles , and rice dishes are no more than $ 3-6 each ) .",rice dishes-reasonable,1
+"Overall I was impressed and will return , it 's a great QPR ( Quality to Price Ratio ) .",price-great,1
+"Overall I was impressed and will return , it 's a great QPR ( Quality to Price Ratio ) .",quality-great,1
+By far the best salad I have had in a fast food restaurant .,salad-best,1
+"Unlike HH up the block , this place actually gives you hearty and hot bagels this town is known for .",bagels-hearty,1
+"Unlike HH up the block , this place actually gives you hearty and hot bagels this town is known for .",bagels-hot,1
+What generous portions !,portions-generous,1
+The wine the service was very good too .,wine-good,1
+The wine the service was very good too .,service-good,1
+"So , the menu is written in chalk above your head and it all sounds delicious .",menu-delicious,1
+"I have been there many times , and food is good and consistent .",food-good,1
+"I have been there many times , and food is good and consistent .",food-consistent,1
+The meat dishes were only so-so .,meat dishes-so-so,1
+"The menu consisted of standard brassiere food , better then places like Balthazar etc .",brassiere food-standard,1
+"The menu consisted of standard brassiere food , better then places like Balthazar etc .",brassiere food-better,1
+"The service is always bad though , do n't expect much of anything from your server , and I would not recommend bringing a date here either .",service-bad,1
+The sushi is also great !,sushi-great,1
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,chef app-complimentary,1
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,chef app-delicate,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,chef app-amazing,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,chef app-fabulous,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,delicate butternut squash ravioli in a delicious truffle sauce-complimentary,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,delicate butternut squash ravioli in a delicious truffle sauce-delicate,1
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,delicate butternut squash ravioli in a delicious truffle sauce-amazing,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,delicate butternut squash ravioli in a delicious truffle sauce-fabulous,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,buttery and tender langostine entree-complimentary,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,buttery and tender langostine entree-delicate,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,buttery and tender langostine entree-amazing,1
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,buttery and tender langostine entree-fabulous,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,cakebread cabernet-complimentary,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,cakebread cabernet-delicate,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,cakebread cabernet-amazing,0
+From the complimentary chef app of a delicate butternut squash ravioli in a delicious truffle sauce to an amazing buttery and tender langostine entree to a dessert that I ca n't remember because of the fabulous Cakebread Cabernet we were drinking -- the whole evening was amazing .,cakebread cabernet-fabulous,1
+The makhani was OK -- the korma was bland .,makhani-ok,1
+The makhani was OK -- the korma was bland .,makhani-bland,0
+The makhani was OK -- the korma was bland .,korma-ok,0
+The makhani was OK -- the korma was bland .,korma-bland,1
+Service was very friendly .,service-friendly,1
+We actually left hungry and went across the street to Wo Hop at 15 Mott street for some good chinese food .,chinese food-good,1
+"I have known about this secret for the last 13 years , Emilio ( the Godfather ) has continued to serve food and wine for the gods at mortal prices .",prices-mortal,1
+And the bill was outrageous .,bill-outrageous,1
+"Kind , attentive wait staff .",wait staff-kind,1
+"Kind , attentive wait staff .",wait staff-attentive,1
+The food is authentic Italian - delicious !,food-authentic italian,1
+The food is authentic Italian - delicious !,food-delicious,1
+It was like the servers forgot that they actually worked there and instead wanted to hang out and be cool .,servers-forgot,1
+The service is good and ambience is good for a date or group outing .,service-good,1
+The service is good and ambience is good for a date or group outing .,ambience-good,1
+This restaurant is a wonderful place to go many times and it is reasonably priced .,priced-reasonably,1
+"Went on a 3 day oyster binge , with Fish bringing up the closing , and I am so glad this was the place it O trip ended , because it was so great !",place-great,1
+"If you are looking for a good quality , cheap eats - this is the place .",quality-good,1
+Never in my life did I think that I could be satisfied both in taste and in quantity for $ 3.00 in NYC .,taste-satisfied,1
+Never in my life did I think that I could be satisfied both in taste and in quantity for $ 3.00 in NYC .,quantity-satisfied,1
+"The main course had an average portion , and was decent overall .",main course-decent,1
+"The main course had an average portion , and was decent overall .",main course-average,0
+"The main course had an average portion , and was decent overall .",portion-decent,0
+"The main course had an average portion , and was decent overall .",portion-average,1
+20 minutes for our reservation but it gave us time to have a few cocktails and enjoy our surroundings and each other .,surroundings-enjoy,1
+"Waitstaff is great , very attentive .",waitstaff-great,1
+"Waitstaff is great , very attentive .",waitstaff-attentive,1
+Coming from Boston this place is like Emma 's Pizza in Kendall Square in Cambridge ( although they have more funky toppings ! ),toppings-funky,1
+The space is nice but when we order our drink we were in for a surprise .,space-nice,1
+The space is nice but when we order our drink we were in for a surprise .,space-surprise,0
+The space is nice but when we order our drink we were in for a surprise .,drink-nice,0
+The space is nice but when we order our drink we were in for a surprise .,drink-surprise,1
+The price very reasonable .,price-reasonable,1
+"The waiters are sweet , the food is tasty and the bill is never too large .",waiters-sweet,1
+"The waiters are sweet , the food is tasty and the bill is never too large .",waiters-tasty,0
+"The waiters are sweet , the food is tasty and the bill is never too large .",waiters-never too large,0
+"The waiters are sweet , the food is tasty and the bill is never too large .",food-sweet,0
+"The waiters are sweet , the food is tasty and the bill is never too large .",food-tasty,1
+"The waiters are sweet , the food is tasty and the bill is never too large .",food-never too large,0
+"The waiters are sweet , the food is tasty and the bill is never too large .",bill-sweet,0
+"The waiters are sweet , the food is tasty and the bill is never too large .",bill-tasty,0
+"The waiters are sweet , the food is tasty and the bill is never too large .",bill-never too large,1
+The flavors robust and subtle .,flavors-robust,1
+The flavors robust and subtle .,flavors-subtle,1
+"This is such a lovely , peaceful place to eat outside .",place-lovely,1
+"This is such a lovely , peaceful place to eat outside .",place-peaceful,1
+"Oh , but wait , we were out of drinks ( which were also delightfully overpriced ) .",drinks-overpriced,1
+The service is fantastic .,service-fantastic,1
+The garlic mashed potatoes are hands down the best in the city !,garlic mashed potatoes-best,1
+The lamb meat was under-cooked and EXTRMELY CHEWY .,lamb meat-under-cooked,1
+"Over time , the food quality has decreased substantially , it is a lot less crowded than it used to , and the service must definitely be part of the reason .",food quality-decreased,1
+Killer Sushi !,sushi-killer,1
+Plus they made a perfect martini .,martini-perfect,1
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",rice-no seasoning,1
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",rice-bland,0
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",rice-disgusting,0
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",rice-no,0
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",sushi-no seasoning,0
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",sushi-bland,1
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",sushi-disgusting,1
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",sushi-no,0
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",seasoning-no seasoning,0
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",seasoning-bland,0
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",seasoning-disgusting,0
+"Furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",seasoning-no,1
+Winnie and her staff are the best crew you can find serving you .,crew-best,1
+Winnie and her staff are the best crew you can find serving you .,staff-best,1
+"If it is n't for the food ( A+++ ) , it must be the service or the ambience .",food-( a+++ ),1
+This place has the best Chinese style BBQ ribs in the city .,bbq ribs-best,1
+"$ 6 and there is much tasty food , all of it fresh and continually refilled .",food-tasty,1
+"$ 6 and there is much tasty food , all of it fresh and continually refilled .",food-fresh,1
+"$ 6 and there is much tasty food , all of it fresh and continually refilled .",food-refilled,1
+"Just straight up cheap , good food .",food-cheap,1
+"Just straight up cheap , good food .",food-good,1
+Seating is ok even though sometimes there 's alot of people .,seating-ok,1
+"As a long-time patron of Mamoun 's , I always figured that I had found the best late night food spot in the city .",food spot-best,1
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",somosas-like,1
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",somosas-disappointing,0
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",chai-like,1
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",chai-disappointing,0
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",chole-like,1
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",chole-disappointing,0
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",dhosas-like,0
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",dhosas-disappointing,1
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",dhal-like,0
+"I like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",dhal-disappointing,1
+"Yeah , sometimes the service can be slow .",service-slow,1
+The service was attentive without being overbearing and each dish we tried was wonderful from the spring rolls to the cod with pineapple tempura .,service-attentive without being overbearing,1
+The service was attentive without being overbearing and each dish we tried was wonderful from the spring rolls to the cod with pineapple tempura .,service-wonderful,0
+The service was attentive without being overbearing and each dish we tried was wonderful from the spring rolls to the cod with pineapple tempura .,dish-attentive without being overbearing,0
+The service was attentive without being overbearing and each dish we tried was wonderful from the spring rolls to the cod with pineapple tempura .,dish-wonderful,1
+The service was attentive without being overbearing and each dish we tried was wonderful from the spring rolls to the cod with pineapple tempura .,spring rolls-attentive without being overbearing,0
+The service was attentive without being overbearing and each dish we tried was wonderful from the spring rolls to the cod with pineapple tempura .,spring rolls-wonderful,1
+The service was attentive without being overbearing and each dish we tried was wonderful from the spring rolls to the cod with pineapple tempura .,cod with pineapple tempura-attentive without being overbearing,0
+The service was attentive without being overbearing and each dish we tried was wonderful from the spring rolls to the cod with pineapple tempura .,cod with pineapple tempura-wonderful,1
+"I would not have been so disappointed with the portions if the qualities were good enough to make up for it , but they were not !",portions-disappointed,1
+"I would not have been so disappointed with the portions if the qualities were good enough to make up for it , but they were not !",portions-good,0
+"I would not have been so disappointed with the portions if the qualities were good enough to make up for it , but they were not !",qualities-disappointed,0
+"I would not have been so disappointed with the portions if the qualities were good enough to make up for it , but they were not !",qualities-good,1
+All the desserts the group tried got favorable reviews .,desserts-favorable,1
+Wonderful strawberry daiquiries as well !,strawberry daiquiries-wonderful,1
+"When I saw that their website had a link to da Ciro in Napoli , I knew there was going to be good pizza !",pizza-good,1
+And their prices are very high - they actually think that they can get away with charging such prices for such terrible food and service !,prices-high,1
+And their prices are very high - they actually think that they can get away with charging such prices for such terrible food and service !,prices-terrible,0
+And their prices are very high - they actually think that they can get away with charging such prices for such terrible food and service !,food-high,0
+And their prices are very high - they actually think that they can get away with charging such prices for such terrible food and service !,food-terrible,1
+And their prices are very high - they actually think that they can get away with charging such prices for such terrible food and service !,service-high,0
+And their prices are very high - they actually think that they can get away with charging such prices for such terrible food and service !,service-terrible,1
+"Great spot , whether looking for a couple of drinks or quiet dinner .",dinner-quiet,1
+"Great spot , whether looking for a couple of drinks or quiet dinner .",dinner-great,0
+"Great spot , whether looking for a couple of drinks or quiet dinner .",spot-quiet,0
+"Great spot , whether looking for a couple of drinks or quiet dinner .",spot-great,1
+Just stick with the small dishes !,dishes-small,1
+"both are very reasonably priced ( around $ 8 for dinner and $ 5 for lunch ) , and are delicious and filling .",priced-reasonably,1
+"both are very reasonably priced ( around $ 8 for dinner and $ 5 for lunch ) , and are delicious and filling .",priced-delicious,0
+"both are very reasonably priced ( around $ 8 for dinner and $ 5 for lunch ) , and are delicious and filling .",priced-filling,0
+"both are very reasonably priced ( around $ 8 for dinner and $ 5 for lunch ) , and are delicious and filling .",dinner-reasonably,0
+"both are very reasonably priced ( around $ 8 for dinner and $ 5 for lunch ) , and are delicious and filling .",dinner-delicious,1
+"both are very reasonably priced ( around $ 8 for dinner and $ 5 for lunch ) , and are delicious and filling .",dinner-filling,1
+"both are very reasonably priced ( around $ 8 for dinner and $ 5 for lunch ) , and are delicious and filling .",lunch-reasonably,0
+"both are very reasonably priced ( around $ 8 for dinner and $ 5 for lunch ) , and are delicious and filling .",lunch-delicious,1
+"both are very reasonably priced ( around $ 8 for dinner and $ 5 for lunch ) , and are delicious and filling .",lunch-filling,1
+My boyfriend ate tuna and it was cooked perfectly !,tuna-perfectly,1
+"great eats , good times .",eats-great,1
+"The food was delicious , the atmosphere was relaxed , and we have now adopted Plate 347 as our Secret on Second !",food-delicious,1
+"The food was delicious , the atmosphere was relaxed , and we have now adopted Plate 347 as our Secret on Second !",food-relaxed,0
+"The food was delicious , the atmosphere was relaxed , and we have now adopted Plate 347 as our Secret on Second !",atmosphere-delicious,0
+"The food was delicious , the atmosphere was relaxed , and we have now adopted Plate 347 as our Secret on Second !",atmosphere-relaxed,1
+"The food is good , I ca n't lie .",food-good,1
+"great food , lt 's of it , more then one person can eat !",food-great,1
+Really tasty spring rolls and noodles for a good price though .,spring rolls-tasty,1
+Really tasty spring rolls and noodles for a good price though .,spring rolls-good,0
+Really tasty spring rolls and noodles for a good price though .,noodles-tasty,1
+Really tasty spring rolls and noodles for a good price though .,noodles-good,0
+Really tasty spring rolls and noodles for a good price though .,price-tasty,0
+Really tasty spring rolls and noodles for a good price though .,price-good,1
+"Little Tonino 's is just awesome , our favorite delivery place in Kennsington , honestly the best Gnochi I have ever had !",gnochi-best,1
+INCREDIBLY POOR SERVICE AN FOOD QUALITY AT EXORBITANT PRICES .,service-poor,1
+INCREDIBLY POOR SERVICE AN FOOD QUALITY AT EXORBITANT PRICES .,service-exorbitant,0
+INCREDIBLY POOR SERVICE AN FOOD QUALITY AT EXORBITANT PRICES .,food quality-poor,1
+INCREDIBLY POOR SERVICE AN FOOD QUALITY AT EXORBITANT PRICES .,food quality-exorbitant,0
+INCREDIBLY POOR SERVICE AN FOOD QUALITY AT EXORBITANT PRICES .,prices-poor,0
+INCREDIBLY POOR SERVICE AN FOOD QUALITY AT EXORBITANT PRICES .,prices-exorbitant,1
+I have been about 4 times and have always had a great meal .,meal-great,1
+The wine and cheese plate are plentiful and ca n't wait to try the fondue or table grilling .,wine-plentiful,1
+The wine and cheese plate are plentiful and ca n't wait to try the fondue or table grilling .,cheese-plentiful,1
+THE BIG COMPLAINT : NO TOASTING AVAILABLE .,toasting-complaint :,1
+No you 're going to go back because the food was good .,food-good,1
+The fish is fresh and each piece is sliced to perfection and seasoned by the sushi chef ( usually with a little fresh wasabi and soy sauce but also sometimes with some sea salt ) .,fish-fresh,1
+The fish is fresh and each piece is sliced to perfection and seasoned by the sushi chef ( usually with a little fresh wasabi and soy sauce but also sometimes with some sea salt ) .,fish-seasoned,0
+The fish is fresh and each piece is sliced to perfection and seasoned by the sushi chef ( usually with a little fresh wasabi and soy sauce but also sometimes with some sea salt ) .,sushi chef-fresh,0
+The fish is fresh and each piece is sliced to perfection and seasoned by the sushi chef ( usually with a little fresh wasabi and soy sauce but also sometimes with some sea salt ) .,sushi chef-seasoned,1
+The fish is fresh and each piece is sliced to perfection and seasoned by the sushi chef ( usually with a little fresh wasabi and soy sauce but also sometimes with some sea salt ) .,wasabi-seasoned,0
+The fish is fresh and each piece is sliced to perfection and seasoned by the sushi chef ( usually with a little fresh wasabi and soy sauce but also sometimes with some sea salt ) .,wasabi-fresh,1
+Veal Parmigana - Better than Patsy 's !,veal parmigana-better,1
+Went to Ottimo and was expecting outstanding pizza ( as I love La Pizza Fresca ) .,pizza-outstanding,1
+Our tiny table for two ( dinner plates hung over edge ) was right in the middle of one of the lanes of waiter traffic .,table-tiny,1
+"Sake collection was excellent ( Try Nanbu Bijin ) , but pricey .",nanbu bijin-try,1
+A wonderful place !,place-wonderful,1
+Kind of a small place but I guess if they are not too busy might be able to fit a group or kids .,place-small,1
+We also ordered two hot dogs thinking they would be pretty good since there is a whole section on the menu devoted to them .,hot dogs-good,1
+"If you like the food and the value you get from some of Chinatown restaurants , this is not the place for you .",food-like,1
+"If you like the food and the value you get from some of Chinatown restaurants , this is not the place for you .",value-like,1
+The restaraurant is very small so reservations are a must .,reservations-must,1
+"The service was typical short-order , dinner type .",service-typical,1
