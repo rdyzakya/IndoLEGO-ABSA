@@ -280,8 +280,9 @@ for i in range(len(final_result["text"])):
     text = final_result["text"][i]
     triplets = relation_dataset.loc[(relation_dataset["text"] == text) & (relation_dataset["is_connected"] == 1),"triplet"].tolist()
     final_result["preds"].append(triplets)
+tasks = ["aste" for _ in final_result["target"]]
 print("Evaluation...")
-evaluation = evaluate(final_result["preds"],final_result["target"])
+evaluation = evaluate(final_result["preds"],final_result["target"],tasks)
 print(evaluation)
 inference_time = {
     "global" : global_end_time - global_start_time,
