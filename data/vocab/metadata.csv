@@ -1,0 +1,22 @@
+,dataset,split,n_token (split),n_token (tokenizer)
+0,14lap,test_triplets,1324,1367
+1,14lap,dev_triplets,1174,1239
+2,14lap,train_triplets,2740,2753
+3,14res,train_triplets,3278,3270
+4,14res,dev_triplets,1334,1440
+5,14res,test_triplets,1899,2003
+6,15res,test_triplets,1381,1481
+7,15res,train_triplets,1883,1982
+8,15res,dev_triplets,735,814
+9,16res,train_triplets,2448,2505
+10,16res,test_triplets,1306,1405
+11,16res,dev_triplets,925,1020
+12,hotel_id_v2,train,3968,3353
+13,hotel_id_v2,dev,2052,2020
+14,hotel_id_v2,test,2042,2023
+15,prosa,test_news,3406,3725
+16,prosa,train_news,11437,10355
+17,prosa,train_socmed,22616,12319
+18,prosa,val_news,3415,3753
+19,prosa,test_socmed,6352,5551
+20,prosa,val_socmed,6280,5498
