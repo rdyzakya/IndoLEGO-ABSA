@@ -17,7 +17,12 @@ def recover_terms_with_editdistance(original_term, sent): # edited
     sent : str
     """
     sent = sent.split()
-    words = original_term.split(' ')
+    words = original_term.strip().split()
+    if len(words) == 1:
+        for token in sent:
+            if words[0].strip().lower() in token.lower():
+                return token
+    # else
     terms = {}
     for i in range(len(sent)-len(words)+1):
         # word window
