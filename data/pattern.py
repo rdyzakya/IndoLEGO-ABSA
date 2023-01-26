@@ -9,7 +9,7 @@ class Pattern:
     """
     Pattern for the generated answers.
     """
-    def __init__(self,task:List,open_bracket:str='(',close_bracket:str=')',intra_sep:str=',',inter_sep:str=';',categories:List[str]=["CAT0","CAT1"]):
+    def __init__(self,task:List[str]=["ao","ac","as","aos","acs","aocs"],open_bracket:str='(',close_bracket:str=')',intra_sep:str=',',inter_sep:str=';',categories:List[str]=["CAT0","CAT1"]):
         """
         ### DESC
             Constructor for Pattern objects (pattern for the generated answers).
@@ -43,7 +43,7 @@ class Pattern:
                 self.pattern[t].append(PATTERN_TOKEN[SENTIMENT_ELEMENT[se]])
             self.pattern[t] = f"{open_bracket} " + f" {intra_sep.strip()} ".join(self.pattern[t]) + f" {close_bracket}"
             self.pattern[t] = self.pattern[t].strip()
-    
+
     def regex(self,task:str) -> str:
         """
         ### DESC
