@@ -1,3 +1,4 @@
+from typing import List, Dict
 from pattern import Pattern
 import json
 
@@ -5,25 +6,21 @@ class Prompter:
     """
     Prompter for adding prompts to texts.
     """
-    def __init__(self,prompt_path:str,prompt_side:str="left",pattern:Pattern=Pattern()):
+    def __init__(self,pattern:Pattern=Pattern()):
         """
         ### DESC
             Constructor for Prompter object.
         ### PARAMS
-        * prompt_path: Path to the json file consist of prompts. Available prompt keys are "extraction", "imputation", "no_prompt"
-        * prompt_side: Side for adding the prompt. Available sides are "left" and "right".
         * pattern: Pattern object (may be used in prompts).
         """
-        self.prompts = json.load(open(prompt_path,'r',encoding="utf-8"))
-        assert set(self.prompts.keys()).issubset({"extraction", "imputation", "no_prompt"})
-
-        assert prompt_side == "left" or prompt_side == "right"
-        self.prompt_side = prompt_side
-        
         self.pattern = pattern
 
-    def build_prompt(self):
+    def build_prompt(self,template:str,task:str="acos",dict_target:List[Dict]=[]) -> str:
+        # Extract in the form of (A, O, C, S) with the category {CAT1, CAT2} : TEXT
+        # Extract in the format PATTERN with the category CATEGORY : TEXT
+        # Impute (pizza, O, C, positive) ; (drink, O, C, positive) with the category {CAT1, CAT2} : TEXT
         pass
+
 
     # def compile(self,prompt_side,option):
     #     if option not in self.available_option:
