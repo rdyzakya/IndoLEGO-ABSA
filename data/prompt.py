@@ -1,6 +1,9 @@
 from typing import List, Dict
 from pattern import Pattern
-import json
+
+FORMAT_PATTERN_MASK = "PATTERN"
+CATEGORY_MASK = "CATEGORY"
+IMPUTATION_FIELD_MASK = "IMPUTATION_FIELD"
 
 class Prompter:
     """
@@ -15,37 +18,83 @@ class Prompter:
         """
         self.pattern = pattern
 
-    def build_prompt(self,template:str,task:str="acos",dict_target:List[Dict]=[]) -> str:
-        # Extract in the form of (A, O, C, S) with the category {CAT1, CAT2} : TEXT
-        # Extract in the format PATTERN with the category CATEGORY : TEXT
-        # Impute (pizza, O, C, positive) ; (drink, O, C, positive) with the category {CAT1, CAT2} : TEXT
-        pass
+    def build_prompt(self,template:str,task:str="acos",uncomplete_result:List[Dict]=[],paradigm:str="extraction") -> str:
+        """
+        ### DESC
+            Method for building prompt
+        ### PARAMS
+        * template: Template text for the prompt.
+        * task: Task name. Example: ao, ac, cs, as, aos, acos, etc.
+        * uncomplete_result: Tuples that need to be impute.
+        * paradigm: The paradigm, either extraction or imputation.
+        ### RETURN
+        * prompt: Resultant prompt.
+        """
+        # EXAMPLES:
+        # Template => Extract in the format PATTERN with the category CATEGORY
+        # Resultant prompt 1 => Extract in the form of (A, O, C, S) with the category [CAT1, CAT2] :
+        # Resultant prompt 2 => Impute (pizza, O, C, positive) ; (drink, O, C, positive) with the category [CAT1, CAT2] :
+        assert paradigm == "extraction" or paradigm == "imputation"
 
+        if paradigm == "extraction":
+            format_pattern = self.pattern.pattern[task]
+            prompt = template.replace(FORMAT_PATTERN_MASK,format_pattern)
+        elif paradigm == "imputation":
+            stringified_uncomplete_result = [self.pattern.stringify(d_t,task) for d_t in uncomplete_result]
+            stringified_uncomplete_result = f" {self.pattern.inter_sep} ".join(stringified_uncomplete_result)
+            prompt = template.replace(IMPUTATION_FIELD_MASK,stringified_uncomplete_result)
+        
+        categories = self.pattern.categories
+        stringified_categories = str(categories)
+        prompt = prompt.replace(CATEGORY_MASK,stringified_categories) + ": "
 
-    # def compile(self,prompt_side,option):
-    #     if option not in self.available_option:
-    #         raise ValueError(f"Option should only be from {self.available_option}")
-    #     if prompt_side != "left" and prompt_side != "right":
-    #         raise ValueError(f"Prompt side should only be 'left' or 'right'")
-    #     self.prompt_side = prompt_side
-    #     self.option = option
+        return prompt
     
-    # def add_prompt(self,task,texts,option):
-    #     if option not in self.available_option:
-    #         raise ValueError(f"Option should only be from {self.available_option}")
-    #     if option == "no_prompt":
-    #         return texts, ["" for _ in texts]
-    #     prompt_side = self.prompt_side
-    #     chosen_prompt = None
-    #     prompts = []
-    #     if isinstance(option,int):
-    #         chosen_prompt = self.prompts[task][option]
-    #         prompts = [chosen_prompt for _ in texts]
-    #     result = []
-    #     for t in texts:
-    #         if option == "random":
-    #             chosen_prompt = random.choice(self.prompts[task])
-    #             prompts.append(chosen_prompt)
-    #         t = chosen_prompt + ' ' + t if prompt_side == "left" else t + ' ' + chosen_prompt
-    #         result.append(t)
-    #     return result, prompts
+    def add_prompt(self,prompt:str,text:str,side:str="left") -> str:
+        """
+        ### DESC
+            Method for adding prompt to the designated text.
+        ### PARAMS
+        * prompt: Added prompt.
+        * text: The text that needed to be prompt.
+        * side: Where the prompt needs to be placed, either 'left' or 'right'.
+        ### RETURN
+        * prompted_text: Prompted text.
+        """
+        assert side == "left" or side == "right"
+
+        prompted_text = prompt + text if side == "left" else text + prompt
+
+        return prompted_text
+
+if __name__ == "__main__":
+    prompter = Prompter(pattern=Pattern(categories=["LAPTOP#GENERAL","BATTERY#HEALTH"]))
+    template_1 = f"Extract with the format {FORMAT_PATTERN_MASK} for the following text"
+    template_2 = f"Extract with the format {FORMAT_PATTERN_MASK} with the categories {CATEGORY_MASK} for the following text"
+    template_3 = f"Impute the following {IMPUTATION_FIELD_MASK} for the following text"
+
+    text = "THIS IS A TEXT."
+    task = "aocs"
+    uncomplete_result = [{"aspect" : "build quality", "opinion" : "strong"}, {"aspect" : "power", "opinion" : "long enough"}]
+
+    result_1 = prompter.add_prompt(
+        prompt=prompter.build_prompt(template_1,task,uncomplete_result,"extraction"),
+        text=text
+    )
+    result_2 = prompter.add_prompt(
+        prompt=prompter.build_prompt(template_2,task,uncomplete_result,"extraction"),
+        text=text
+    )
+    result_3 = prompter.add_prompt(
+        prompt=prompter.build_prompt(template_3,task,uncomplete_result,"imputation"),
+        text=text
+    )
+
+    print("RESULT 1")
+    print(result_1 + "\n")
+
+    print("RESULT 2")
+    print(result_2 + "\n")
+
+    print("RESULT 3")
+    print(result_3 + "\n")
