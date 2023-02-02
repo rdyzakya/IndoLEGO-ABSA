@@ -45,7 +45,7 @@ class Prompter:
             prompt = template.replace(IMPUTATION_FIELD_MASK,stringified_uncomplete_result)
         
         categories = self.pattern.categories
-        stringified_categories = str(categories)
+        stringified_categories = str(categories).replace("'",'') # remove the quote
         prompt = prompt.replace(CATEGORY_MASK,stringified_categories) + ": "
 
         return prompt
