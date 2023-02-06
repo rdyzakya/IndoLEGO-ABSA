@@ -1,4 +1,4 @@
-SENTTAG2WORD = {'POS': 'positive', 'NEG': 'negative', 'NEU': 'neutral'}
+SENTTAG2WORD = {"POS": "positive", "NEG": "negative", "NEU": "neutral", "MIX" : "mixed"}
 SPECIAL_CHAR = {"[": "\[", "]": "\]", ".": "\.", "\\": "\\", "{": "\{", "}": "\}", "^": "\^", "$": "\$", "*": "\*", "+": "\+", "?": "\?", "|": "\|", "(": "\(", ")": "\)"}
 PATTERN_TOKEN = {"aspect" : "<A>", "opinion" : "<O>", "sentiment" : "<S>", "category" : "<C>"}
 SENTIMENT_ELEMENT = {'a' : "aspect", 'o' : "opinion", 's' : "sentiment", 'c' : "category"}
