@@ -64,6 +64,15 @@ class Pattern:
                 regex_pattern = regex_pattern.replace(v,f"(?P<{k}>[^{intra_sep}{inter_sep}]+)")
         regex_pattern = regex_pattern.replace(' ',r'\s*')
         return regex_pattern
+    
+    def update_categories(self,categories:List[str]=["CAT0","CAT1"]):
+        """
+        ### DESC
+            Method to update categories attribute.
+        ### PARAMS
+        * categories: List of category.
+        """
+        self.categories = categories
 
     def stringify(self,dict_target:Dict,task:str) -> str:
         """

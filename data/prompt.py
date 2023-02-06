@@ -9,23 +9,16 @@ class Prompter:
     """
     Prompter for adding prompts to texts.
     """
-    def __init__(self,pattern:Pattern=Pattern()):
-        """
-        ### DESC
-            Constructor for Prompter object.
-        ### PARAMS
-        * pattern: Pattern object (may be used in prompts).
-        """
-        self.pattern = pattern
 
-    def build_prompt(self,template:str,task:str="acos",uncomplete_result:List[Dict]=[],paradigm:str="extraction") -> str:
+    def build_prompt(self,template:str,task:str="acos",pattern:Pattern=Pattern(),uncomplete_result:List[Dict]=[],paradigm:str="extraction") -> str:
         """
         ### DESC
             Method for building prompt
         ### PARAMS
         * template: Template text for the prompt.
         * task: Task name. Example: ao, ac, cs, as, aos, acos, etc.
-        * uncomplete_result: Tuples that need to be impute.
+        * pattern: Pattern object.
+        * uncomplete_result: Tuples that need to be impute (Used if paradigm is 'imputation').
         * paradigm: The paradigm, either extraction or imputation.
         ### RETURN
         * prompt: Resultant prompt.

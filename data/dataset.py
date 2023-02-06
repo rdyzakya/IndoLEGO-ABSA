@@ -20,7 +20,7 @@ class ABSADataset(Dataset):
     """
     ABSA Dataset.
     """
-    def __init__(self,data_path:str,target_format:str="acos",tasks:Dict[str,List]={"extraction" : ["ao","ac","as"],"imputation" : ["acos"]},multiply:bool=True,shuffle:bool=True,random_state:int=None):
+    def __init__(self,data_path:str,target_format:str="acos",tasks:Dict={"extraction" : ["ao","ac","as"],"imputation" : {"acos" : ["ao","ac","aos"]}},prompter:Prompter=Prompter(),pattern:Pattern=Pattern(),multiply:bool=True,shuffle:bool=True,random_state:int=None):
         """
         ### DESC
             Constructor method for ABSA dataset.
@@ -28,6 +28,8 @@ class ABSADataset(Dataset):
         * data_path: Path to ABSA txt dataset.
         * target_format: Format of the targets in the dataset file. Example: ao, aosc, aos, etc.
         * tasks: Dictionary for available tasks. Available keys are 'extraction' and 'imputation'. Task names indicates the sentiment elements to be extracted, available sentiment elements are Aspect Term (a or A), Opinion Term (o or O), Sentiment (s or S), and Category (c or C). Example of task name: aoc, aos, aosc, ao, etc.
+        * prompter: Prompter object to add prompt.
+        * pattern: Pattern object.
         * multiply: Multiply the dataset (True) or randomly assign random task to the data (uniform distribution).
         * shuffle: Shuffle the dataset.
         * random_state: Seed for randomize the shuffle (only works when shuffle equals True).
@@ -44,21 +46,34 @@ class ABSADataset(Dataset):
         assert tasks_key.issubset({"extraction", "imputation"})
 
         # Read the data
-        with open(data_path,'r') as reader:
-            data = reader.read().strip().splitlines()
-        for i,line in enumerate(data):
-            try:
-                text, num_targets = line.split(SEP)
-                num_targets = eval(num_targets)
-            except Exception as e:
-                raise ValueError(f"Each line should be in the format 'TEXT{SEP}TARGET. Example: {sample}'")
-            data[i] = {"text" : text, "num_targets" : num_targets}
+        data = self.read_data(data_path)
         
         # Is multiply or not
         new_data = []
+        categories = []
         if multiply:
             for row in data:
-                pass
+                text, num_targets = row["text"], row["num_targets"]
+                original_targets = self.process_num_targets(text,num_targets,task=target_format)
+                
+                # Record categories for category related tasks.
+                for target in original_targets:
+                    if "category" in target.keys():
+                        if target["category"] not in categories:
+                            categories.append(target["category"])
+                
+                # Multiply
+                for task in tasks["extraction"]:
+                    target = self.reduce_target(original_targets,task)
+                    new_data_entry = {
+                        "text" : text,
+                        "paradigm" : "extraction",
+                        "task" : task,
+                        "target" : target
+                    }
+                    new_data.append(new_data_entry)
+                for task_list in tasks["imputation"]:
+                    pass
     
     def process_num_targets(self,text:str,num_targets:List[tuple],task:str) -> List[Dict]:
         """
@@ -88,6 +103,45 @@ class ABSADataset(Dataset):
                 target[key] = value
             result_targets.append(target)
         return result_targets
+    
+    def read_data(self,path:str) -> List[Dict]:
+        f""""
+        ### DESC
+            Method to read dataset. Each line is in the format of TEXT{SEP}TARGETS .
+        ### PARAMS
+        * path: Data path.
+        ### RETURN
+        * data: List of dictionaries.
+        """
+        assert path.endswith(".txt")
+        with open(path,'r') as reader:
+            data = reader.read().strip().splitlines()
+        for i,line in enumerate(data):
+            try:
+                text, num_targets = line.split(SEP)
+                num_targets = eval(num_targets)
+            except Exception as e:
+                raise ValueError(f"Each line should be in the format 'TEXT{SEP}TARGET'. Example: {sample}")
+            data[i] = {"text" : text, "num_targets" : num_targets}
+        return data
+    
+    def reduce_target(self,target:Dict[str,str],task:str="ao") -> Dict[str,str]:
+        """
+        ### DESC
+            Method to reduce sentiment elements in the designated targets.
+        ### PARAMS
+        * target: An ABSA target containing sentiment elements.
+        * task: The task related to the resulting target.
+        ### RETURN
+        * result_target: The resultant target.
+        """
+        result_target = target.copy()
+        for se in "acos":
+            key = SENTIMENT_ELEMENT[se]
+            if se not in task and key in result_target:
+                del result_target[key]
+        return result_target
+
 
 if __name__ == "__main__":
     a = ABSADataset('test.txt',{'imputation' : ['ao']})
