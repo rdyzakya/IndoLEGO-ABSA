@@ -1,24 +1,36 @@
 from typing import List, Dict
 from pattern import Pattern
+from constant import FORMAT_PATTERN_MASK, CATEGORY_MASK, IMPUTATION_FIELD_MASK
 
-FORMAT_PATTERN_MASK = "PATTERN"
-CATEGORY_MASK = "CATEGORY"
-IMPUTATION_FIELD_MASK = "IMPUTATION_FIELD"
+default_template = {
+    "extraction" : f"Extract with the format {FORMAT_PATTERN_MASK} with the categories {CATEGORY_MASK} for the following text",
+    "imputation" : f"Impute the following {IMPUTATION_FIELD_MASK} for the following text"
+}
 
 class Prompter:
     """
     Prompter for adding prompts to texts.
     """
-
-    def build_prompt(self,template:str,task:str="acos",pattern:Pattern=Pattern(),uncomplete_result:List[Dict]=[],paradigm:str="extraction") -> str:
+    def __init__(self,prompt_template:Dict=default_template):
         """
         ### DESC
-            Method for building prompt
+            Constructor for prompter object.
         ### PARAMS
-        * template: Template text for the prompt.
+        * prompt_template: Dictionary for prompt templates (consist of 'extraction' or 'imputation' key only).
+        """
+        paradigms = set(prompt_template.keys())
+        assert paradigms.issubset({"extraction", "imputation"})
+
+        self.prompt_template = prompt_template
+
+    def build_prompt(self,task:str="acos",pattern:Pattern=Pattern(),incomplete_result:List[Dict]=[],paradigm:str="extraction") -> str:
+        """
+        ### DESC
+            Method for building prompt.
+        ### PARAMS
         * task: Task name. Example: ao, ac, cs, as, aos, acos, etc.
         * pattern: Pattern object.
-        * uncomplete_result: Tuples that need to be impute (Used if paradigm is 'imputation').
+        * incomplete_result: Tuples that need to be impute (Used if paradigm is 'imputation').
         * paradigm: The paradigm, either extraction or imputation.
         ### RETURN
         * prompt: Resultant prompt.
@@ -29,15 +41,16 @@ class Prompter:
         # Resultant prompt 2 => Impute (pizza, O, C, positive) ; (drink, O, C, positive) with the category [CAT1, CAT2] :
         assert paradigm == "extraction" or paradigm == "imputation"
 
+        template = self.prompt_template[paradigm]
         if paradigm == "extraction":
-            format_pattern = self.pattern.pattern[task]
+            format_pattern = pattern.pattern[task]
             prompt = template.replace(FORMAT_PATTERN_MASK,format_pattern)
         elif paradigm == "imputation":
-            stringified_uncomplete_result = [self.pattern.stringify(d_t,task) for d_t in uncomplete_result]
-            stringified_uncomplete_result = f" {self.pattern.inter_sep} ".join(stringified_uncomplete_result)
-            prompt = template.replace(IMPUTATION_FIELD_MASK,stringified_uncomplete_result)
+            stringified_incomplete_result = [pattern.stringify(d_t,task) for d_t in incomplete_result]
+            stringified_incomplete_result = f" {pattern.inter_sep} ".join(stringified_incomplete_result)
+            prompt = template.replace(IMPUTATION_FIELD_MASK,stringified_incomplete_result)
         
-        categories = self.pattern.categories
+        categories = pattern.categories
         stringified_categories = str(categories).replace("'",'') # remove the quote
         prompt = prompt.replace(CATEGORY_MASK,stringified_categories) + ": "
 
@@ -61,33 +74,14 @@ class Prompter:
         return prompted_text
 
 if __name__ == "__main__":
-    prompter = Prompter(pattern=Pattern(categories=["LAPTOP#GENERAL","BATTERY#HEALTH"]))
-    template_1 = f"Extract with the format {FORMAT_PATTERN_MASK} for the following text"
-    template_2 = f"Extract with the format {FORMAT_PATTERN_MASK} with the categories {CATEGORY_MASK} for the following text"
-    template_3 = f"Impute the following {IMPUTATION_FIELD_MASK} for the following text"
+    pattern = Pattern(categories=["LAPTOP#GENERAL","BATTERY#HEALTH"])
+    prompter = Prompter()
 
-    text = "THIS IS A TEXT."
     task = "aocs"
-    uncomplete_result = [{"aspect" : "build quality", "opinion" : "strong"}, {"aspect" : "power", "opinion" : "long enough"}]
+    incomplete_result = [{"aspect" : "build quality", "opinion" : "strong"}, {"aspect" : "power", "opinion" : "long enough"}]
 
-    result_1 = prompter.add_prompt(
-        prompt=prompter.build_prompt(template_1,task,uncomplete_result,"extraction"),
-        text=text
-    )
-    result_2 = prompter.add_prompt(
-        prompt=prompter.build_prompt(template_2,task,uncomplete_result,"extraction"),
-        text=text
-    )
-    result_3 = prompter.add_prompt(
-        prompt=prompter.build_prompt(template_3,task,uncomplete_result,"imputation"),
-        text=text
-    )
+    result_1 = prompter.build_prompt(task,pattern,incomplete_result,"extraction")
+    result_2 = prompter.build_prompt(task,pattern,incomplete_result,"imputation")
 
-    print("RESULT 1")
-    print(result_1 + "\n")
-
-    print("RESULT 2")
-    print(result_2 + "\n")
-
-    print("RESULT 3")
-    print(result_3 + "\n")
+    print(result_1)
+    print(result_2)

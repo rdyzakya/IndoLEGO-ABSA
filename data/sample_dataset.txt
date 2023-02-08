@@ -1,0 +1,5 @@
+I charge it at night and skip taking the cord with me because of the good battery life .####[([16, 17], [15], 'POS')]
+it is of high quality , has a killer GUI , is extremely stable , is highly expandable , is bundled with lots of very good applications , is easy to use , and is absolutely gorgeous .####[([4], [3], 'POS'), ([9], [8], 'POS'), ([26], [25], 'POS'), ([31], [29], 'POS')]
+Easy to start up and does not overheat as much as other laptops .####[([2, 3], [0], 'POS')]
+Great laptop that offers many great features !####[([6], [5], 'POS')]
+One night I turned the freaking thing off after using it , the next day I turn it on , no GUI , screen all dark , power light steady , hard drive light steady and not flashing as it usually does .####[([21], [20], 'NEG'), ([23], [25], 'NEG'), ([27, 28], [29], 'NEU'), ([31, 32, 33], [34], 'NEG')]

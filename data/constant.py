@@ -7,3 +7,7 @@ SENTIMENT_ELEMENT = {'a' : "aspect", 'o' : "opinion", 's' : "sentiment", 'c' : "
 # result example: noodle/spaghetti --> noodle//spaghetti
 
 SEP = "####"
+
+FORMAT_PATTERN_MASK = "PATTERN"
+CATEGORY_MASK = "CATEGORY"
+IMPUTATION_FIELD_MASK = "IMPUTATION_FIELD"
