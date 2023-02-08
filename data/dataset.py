@@ -20,7 +20,7 @@ class ABSADataset(Dataset):
     """
     ABSA Dataset.
     """
-    def __init__(self,data_path:str,target_format:str="acos",tasks:Dict={"extraction" : ["ao","ac","as"],"imputation" : {"acos" : ["ao","ac","aos"]}},prompter:Prompter=Prompter(),pattern:Pattern=Pattern(),multiply:bool=True,shuffle:bool=True,random_state:int=None):
+    def __init__(self,data_path:str,target_format:str="acos",tasks:Dict={"extraction" : ["ao","ac","as"],"imputation" : {"acos" : ["ao","ac","aos"]}},prompter:Prompter=Prompter(),pattern:Pattern=Pattern(),multiply:bool=True,multiply_imputation:bool=True,shuffle:bool=True,random_state:int=None):
         """
         ### DESC
             Constructor method for ABSA dataset.
@@ -31,6 +31,7 @@ class ABSADataset(Dataset):
         * prompter: Prompter object to add prompt.
         * pattern: Pattern object.
         * multiply: Multiply the dataset (True) or randomly assign random task to the data (uniform distribution).
+        * multiply_imputation: Multiply the dataset row for each incomplete target task. Example: 'acos' imputed with the incomplete target gained from 'ac' or 'ao' or 'as' or etc. If multiply then one row become multiplied as three row.
         * shuffle: Shuffle the dataset.
         * random_state: Seed for randomize the shuffle (only works when shuffle equals True).
         """
@@ -69,11 +70,26 @@ class ABSADataset(Dataset):
                         "text" : text,
                         "paradigm" : "extraction",
                         "task" : task,
-                        "target" : target
+                        "target" : target,
+                        "incomplete_target" : None
                     }
                     new_data.append(new_data_entry)
-                for task_list in tasks["imputation"]:
-                    pass
+                for main_task, task_list in tasks["imputation"].items():
+                    for incomplete_target_task in task_list:
+                        target = self.reduce_target(original_targets,main_task)
+                        incomplete_target = self.reduce_target(original_targets,incomplete_target_task)
+                        new_data_entry = {
+                            "text" : text,
+                            "paradigm" : "imputation",
+                            "task" : task,
+                            "target" : target,
+                            "incomplete_target" : incomplete_target
+                        }
+                        new_data.append(new_data_entry)
+        else:
+            pass
+        # uniform distribution for each task and paradigm
+        # round robin manner
     
     def process_num_targets(self,text:str,num_targets:List[tuple],task:str) -> List[Dict]:
         """
