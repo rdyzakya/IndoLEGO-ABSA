@@ -86,7 +86,11 @@ class Pattern:
         """
         result = self.pattern[task]
         for k in dict_target.keys():
-            result = result.replace(PATTERN_TOKEN[k],dict_target[k])
+            try:
+                result = result.replace(PATTERN_TOKEN[k],dict_target[k])
+            except Exception as e:
+                print(dict_target)
+                raise e
         return result
     
     def masking(self,text:str) -> str:

@@ -75,7 +75,7 @@ class ABSADataset:
             # Multiply
             if multiply:
                 for task in tasks["extraction"]:
-                    target = self.reduce_target(original_targets,task)
+                    target = [self.reduce_target(original_target,task) for original_target in original_targets]
                     new_data_entry = {
                         "text" : text,
                         "paradigm" : "extraction",
@@ -87,24 +87,24 @@ class ABSADataset:
                 for main_task, incomplete_task_list in tasks["imputation"].items():
                     if multiply_imputation:
                         for incomplete_target_task in incomplete_task_list:
-                            target = self.reduce_target(original_targets,main_task)
-                            incomplete_target = self.reduce_target(original_targets,incomplete_target_task)
+                            target = [self.reduce_target(original_target,main_task) for original_target in original_targets]
+                            incomplete_target = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]# self.reduce_target(original_targets,incomplete_target_task)
                             new_data_entry = {
                                 "text" : text,
                                 "paradigm" : "imputation",
-                                "task" : task,
+                                "task" : main_task,
                                 "target" : target,
                                 "incomplete_target" : incomplete_target
                             }
                             new_data.append(new_data_entry)
                     else:
                         incomplete_target_task = random.choice(incomplete_task_list)
-                        target = self.reduce_target(original_targets,main_task)
-                        incomplete_target = self.reduce_target(original_targets,incomplete_target_task)
+                        target = [self.reduce_target(original_target,main_task) for original_target in original_targets] # self.reduce_target(original_targets,main_task)
+                        incomplete_target = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]# self.reduce_target(original_targets,incomplete_target_task)
                         new_data_entry = {
                             "text" : text,
                             "paradigm" : "imputation",
-                            "task" : task,
+                            "task" : main_task,
                             "target" : target,
                             "incomplete_target" : incomplete_target
                         }
@@ -117,7 +117,7 @@ class ABSADataset:
                 # round robin manner
                 chosen_paradigm_task_tuple = paradigm_task_tuple[row_index%len(paradigm_task_tuple)]
                 paradigm, task = chosen_paradigm_task_tuple
-                target = self.reduce_target(original_targets,task)
+                target = [self.reduce_target(original_target,task) for original_target in original_targets] # self.reduce_target(original_targets,task)
                 if paradigm == "extraction":
                     new_data_entry = {
                         "text" : text,
@@ -131,7 +131,7 @@ class ABSADataset:
                     incomplete_task_list = tasks["imputation"][task]
                     if multiply_imputation:
                         for incomplete_target_task in incomplete_task_list:
-                            incomplete_target = self.reduce_target(original_targets,incomplete_target_task)
+                            incomplete_target = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets] # self.reduce_target(original_targets,incomplete_target_task)
                             new_data_entry = {
                                 "text" : text,
                                 "paradigm" : "imputation",
@@ -142,7 +142,7 @@ class ABSADataset:
                             new_data.append(new_data_entry)
                     else:
                         incomplete_target_task = random.choice(incomplete_task_list)
-                        incomplete_target = self.reduce_target(original_targets,incomplete_target_task)
+                        incomplete_target = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets] # self.reduce_target(original_targets,incomplete_target_task)
                         new_data_entry = {
                             "text" : text,
                             "paradigm" : "imputation",
@@ -162,7 +162,12 @@ class ABSADataset:
                 random.shuffle(new_data)
         # Assign data_frame and dataset attribute
         self.data_frame = pd.DataFrame(new_data)
-        self.dataset = Dataset.from_pandas(self.data_frame).map(self.create_input_output)
+        # Make the target and incomplete target as a string first, because HF Dataset tends to make all the dictionary having the same keys.
+        self.data_frame["target"] =  self.data_frame["target"].astype(str)
+        self.data_frame["incomplete_target"] =  self.data_frame["incomplete_target"].astype(str)
+        self.dataset = Dataset.from_pandas(self.data_frame)
+        # Change back the target fromn string to dictionary in create input output
+        self.dataset = self.dataset.map(lambda x : self.create_input_output(x,prompter,pattern,prompt_side),remove_columns=self.dataset.column_names)
     
     def create_input_output(self,row:Dict,prompter:Prompter=Prompter(),pattern:Pattern=Pattern(),prompt_side:str="left") -> Dict:
         """
@@ -177,9 +182,11 @@ class ABSADataset:
         * Dictionary containing input and output.
         """
         text = row["text"]
-        prompt = prompter.build_prompt(row["task"],pattern,row["incomplete_target"],row["paradigm"])
+        targets = eval(row["target"])
+        incomplete_targets = eval(row["incomplete_target"])
+        prompt = prompter.build_prompt(row["task"],pattern,incomplete_targets,row["paradigm"])
         input_text = prompt + ' ' + text if prompt_side == "left" else text + ' ' + prompt
-        output_text = f" {pattern.inter_sep} ".join([pattern.stringify(target,row["task"]) for target in row["target"]])# pattern.stringify(row["target"],row["task"])
+        output_text = f" {pattern.inter_sep} ".join([pattern.stringify(target,row["task"]) for target in targets])# pattern.stringify(row["target"],row["task"])
 
         return {"input" : input_text, "output" : output_text}
     
@@ -271,3 +278,5 @@ if __name__ == "__main__":
                           pattern=pattern,
                           prompter=prompter,
                           prompt_side=prompt_side)
+    absa_ds.dataset.to_csv("dataset_result.csv")
+    absa_ds.data_frame.to_csv("data_frame_result.csv",index=False)
