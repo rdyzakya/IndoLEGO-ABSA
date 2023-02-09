@@ -256,6 +256,30 @@ class ABSADataset:
             if se not in task and key in result_target:
                 del result_target[key]
         return result_target
+    
+    def preprocess_sentiment(self,targets:List[Dict]) -> List[Dict]:
+        stack_targets = [target.copy() for target in targets]
+        result_targets = []
+        while len(stack_targets) > 0:
+            target = stack_targets.pop()
+            if "sentiment" in target.keys:
+                sentiment = target["sentiment"]
+                # if neutral and non-neutral, then revert to non neutral
+                # if positive and negative then mix
+                for other_target in stack_targets:
+                    if "sentiment" in other_target.keys():
+                        is_ignored = False
+                        for key, value in other_target.items():
+                            pass
+                # if sentiment == "neutral":
+                #     pass
+                # if sentiment == "positive":
+                #     pass
+                # if sentiment == "negative":
+                #     pass
+                # if sentiment == "mixed":
+                #     pass
+            pass
 
 
 if __name__ == "__main__":
