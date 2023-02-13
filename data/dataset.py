@@ -258,28 +258,56 @@ class ABSADataset:
         return result_target
     
     def preprocess_sentiment(self,targets:List[Dict]) -> List[Dict]:
-        stack_targets = [target.copy() for target in targets]
-        result_targets = []
-        while len(stack_targets) > 0:
-            target = stack_targets.pop()
-            if "sentiment" in target.keys:
-                sentiment = target["sentiment"]
-                # if neutral and non-neutral, then revert to non neutral
-                # if positive and negative then mix
-                for other_target in stack_targets:
-                    if "sentiment" in other_target.keys():
-                        is_ignored = False
-                        for key, value in other_target.items():
-                            pass
-                # if sentiment == "neutral":
-                #     pass
-                # if sentiment == "positive":
-                #     pass
-                # if sentiment == "negative":
-                #     pass
-                # if sentiment == "mixed":
-                #     pass
-            pass
+        """
+        ### DESC
+            Method to preprocess targets (especially to reduce target containing sentiments).
+        ### 
+        * targets: List of targets.
+        ### RETURN
+        * result_targets: Resulting targets.
+        """
+        targets_copy = [target.copy() for target in targets]
+        results_targets = []
+        non_sentiment_target_stack = []
+        sentiment_target_stack = []
+        for target in targets_copy:
+            # Filter targets without sentiment key
+            if "sentiment" not in target.keys():
+                results_targets.append(target)
+            else:
+                sentiment_target_stack.append(target["sentiment"])
+                del target["sentiment"]
+                non_sentiment_target_stack.append(target)
+        for target in results_targets:
+            targets_copy.remove(target)
+        while len(non_sentiment_target_stack) > 0:
+            non_sentiment_target = non_sentiment_target_stack.pop()
+            sentiment_target = sentiment_target_stack.pop()
+            if non_sentiment_target not in non_sentiment_target_stack:
+                target = non_sentiment_target
+                target["sentiment"] = sentiment_target
+                results_targets.append(target)
+            else:
+                sentiments = [sentiment_target]
+                for i in range(len(non_sentiment_target_stack)):
+                    if non_sentiment_target == non_sentiment_target_stack[i]:
+                        sentiments.append(sentiment_target_stack[i])
+                sentiments = list(set(sentiments))
+                if "neutral" in sentiments:
+                    sentiments.remove("neutral")
+                if ("positive" in sentiments and "negative" in sentiments) or "mixed" in sentiments:
+                    target - non_sentiment_target
+                    target["sentiment"] = "mixed"
+                    results_targets.append(target)
+                else:
+                    target - non_sentiment_target
+                    target["sentiment"] = sentiments[0]
+                    results_targets.append(target)
+                while non_sentiment_target in non_sentiment_target_stack:
+                    non_sentiment_target_index = non_sentiment_target_stack.stack(non_sentiment_target)
+                    non_sentiment_target_stack.pop(non_sentiment_target_index)
+                    sentiment_target_stack.pop(non_sentiment_target_index)
+        return results_targets
 
 
 if __name__ == "__main__":
