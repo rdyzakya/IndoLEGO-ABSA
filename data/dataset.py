@@ -67,46 +67,46 @@ class ABSADataset:
             original_targets = self.process_num_targets(text,num_targets,task=target_format)
             
             # Record categories for category related tasks.
-            for target in original_targets:
-                if "category" in target.keys():
-                    if target["category"] not in categories:
-                        categories.append(target["category"])
+            for original_target in original_targets:
+                if "category" in original_target.keys():
+                    if original_target["category"] not in categories:
+                        categories.append(original_target["category"])
             
             # Multiply
             if multiply:
                 for task in tasks["extraction"]:
-                    target = [self.reduce_target(original_target,task) for original_target in original_targets]
+                    targets = [self.reduce_target(original_target,task) for original_target in original_targets]
                     new_data_entry = {
                         "text" : text,
                         "paradigm" : "extraction",
                         "task" : task,
-                        "target" : target,
+                        "target" : targets,
                         "incomplete_target" : None
                     }
                     new_data.append(new_data_entry)
                 for main_task, incomplete_task_list in tasks["imputation"].items():
                     if multiply_imputation:
                         for incomplete_target_task in incomplete_task_list:
-                            target = [self.reduce_target(original_target,main_task) for original_target in original_targets]
-                            incomplete_target = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]# self.reduce_target(original_targets,incomplete_target_task)
+                            targets = [self.reduce_target(original_target,main_task) for original_target in original_targets]
+                            incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
                             new_data_entry = {
                                 "text" : text,
                                 "paradigm" : "imputation",
                                 "task" : main_task,
-                                "target" : target,
-                                "incomplete_target" : incomplete_target
+                                "target" : targets,
+                                "incomplete_target" : incomplete_targets
                             }
                             new_data.append(new_data_entry)
                     else:
                         incomplete_target_task = random.choice(incomplete_task_list)
-                        target = [self.reduce_target(original_target,main_task) for original_target in original_targets] # self.reduce_target(original_targets,main_task)
-                        incomplete_target = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]# self.reduce_target(original_targets,incomplete_target_task)
+                        targets = [self.reduce_target(original_target,main_task) for original_target in original_targets]
+                        incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
                         new_data_entry = {
                             "text" : text,
                             "paradigm" : "imputation",
                             "task" : main_task,
-                            "target" : target,
-                            "incomplete_target" : incomplete_target
+                            "target" : targets,
+                            "incomplete_target" : incomplete_targets
                         }
                         new_data.append(new_data_entry)
             else: # Not multiply
@@ -117,13 +117,13 @@ class ABSADataset:
                 # round robin manner
                 chosen_paradigm_task_tuple = paradigm_task_tuple[row_index%len(paradigm_task_tuple)]
                 paradigm, task = chosen_paradigm_task_tuple
-                target = [self.reduce_target(original_target,task) for original_target in original_targets] # self.reduce_target(original_targets,task)
+                targets = [self.reduce_target(original_target,task) for original_target in original_targets]
                 if paradigm == "extraction":
                     new_data_entry = {
                         "text" : text,
                         "paradigm" : paradigm,
                         "task" : task,
-                        "target" : target,
+                        "target" : targets,
                         "incomplete_target" : None
                     }
                     new_data.append(new_data_entry)
@@ -131,24 +131,24 @@ class ABSADataset:
                     incomplete_task_list = tasks["imputation"][task]
                     if multiply_imputation:
                         for incomplete_target_task in incomplete_task_list:
-                            incomplete_target = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets] # self.reduce_target(original_targets,incomplete_target_task)
+                            incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
                             new_data_entry = {
                                 "text" : text,
                                 "paradigm" : "imputation",
                                 "task" : task,
-                                "target" : target,
-                                "incomplete_target" : incomplete_target
+                                "target" : targets,
+                                "incomplete_target" : incomplete_targets
                             }
                             new_data.append(new_data_entry)
                     else:
                         incomplete_target_task = random.choice(incomplete_task_list)
-                        incomplete_target = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets] # self.reduce_target(original_targets,incomplete_target_task)
+                        incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
                         new_data_entry = {
                             "text" : text,
                             "paradigm" : "imputation",
                             "task" : task,
-                            "target" : target,
-                            "incomplete_target" : incomplete_target
+                            "target" : targets,
+                            "incomplete_target" : incomplete_targets
                         }
                         new_data.append(new_data_entry)
         
@@ -160,6 +160,17 @@ class ABSADataset:
                 random.shuffle(new_data,seed)
             else:
                 random.shuffle(new_data)
+        # Preprocess targets (for mixed sentiments) and also remove duplicates
+        for i in range(len(new_data)):
+            targets = new_data[i]["target"]
+            incomplete_targets = new_data[i]["incomplete_target"]
+            targets = self.preprocess_targets(targets)
+            targets = self.remove_duplicate_targets(targets)
+            if incomplete_targets != None:
+                incomplete_targets = self.preprocess_targets(incomplete_targets)
+                incomplete_targets = self.remove_duplicate_targets(incomplete_targets)
+            new_data[i]["target"] = targets
+            new_data[i]["incomplete_target"] = incomplete_targets
         # Assign data_frame and dataset attribute
         self.data_frame = pd.DataFrame(new_data)
         # Make the target and incomplete target as a string first, because HF Dataset tends to make all the dictionary having the same keys.
@@ -186,7 +197,7 @@ class ABSADataset:
         incomplete_targets = eval(row["incomplete_target"])
         prompt = prompter.build_prompt(row["task"],pattern,incomplete_targets,row["paradigm"])
         input_text = prompt + ' ' + text if prompt_side == "left" else text + ' ' + prompt
-        output_text = f" {pattern.inter_sep} ".join([pattern.stringify(target,row["task"]) for target in targets])# pattern.stringify(row["target"],row["task"])
+        output_text = f" {pattern.inter_sep} ".join([pattern.stringify(target,row["task"]) for target in targets])
 
         return {"input" : input_text, "output" : output_text}
     
@@ -257,7 +268,7 @@ class ABSADataset:
                 del result_target[key]
         return result_target
     
-    def preprocess_sentiment(self,targets:List[Dict]) -> List[Dict]:
+    def preprocess_targets(self,targets:List[Dict]) -> List[Dict]: ### MAY CONTAIN BUG
         """
         ### DESC
             Method to preprocess targets (especially to reduce target containing sentiments).
@@ -284,7 +295,7 @@ class ABSADataset:
             non_sentiment_target = non_sentiment_target_stack.pop()
             sentiment_target = sentiment_target_stack.pop()
             if non_sentiment_target not in non_sentiment_target_stack:
-                target = non_sentiment_target
+                target = non_sentiment_target.copy()
                 target["sentiment"] = sentiment_target
                 results_targets.append(target)
             else:
@@ -296,27 +307,42 @@ class ABSADataset:
                 if "neutral" in sentiments:
                     sentiments.remove("neutral")
                 if ("positive" in sentiments and "negative" in sentiments) or "mixed" in sentiments:
-                    target - non_sentiment_target
+                    target = non_sentiment_target.copy()
                     target["sentiment"] = "mixed"
                     results_targets.append(target)
                 else:
-                    target - non_sentiment_target
+                    target = non_sentiment_target.copy()
                     target["sentiment"] = sentiments[0]
                     results_targets.append(target)
                 while non_sentiment_target in non_sentiment_target_stack:
-                    non_sentiment_target_index = non_sentiment_target_stack.stack(non_sentiment_target)
+                    non_sentiment_target_index = non_sentiment_target_stack.index(non_sentiment_target)
                     non_sentiment_target_stack.pop(non_sentiment_target_index)
                     sentiment_target_stack.pop(non_sentiment_target_index)
         return results_targets
+    
+    def remove_duplicate_targets(self,targets:List[Dict]) -> List[Dict]:
+        """
+        ### DESC
+            Method for removing duplicates in targets.
+        ### PARAMS
+        * targets: List of target dictionary.
+        ### RETURN
+        * result_targets: Resulting targets.
+        """
+        result_targets = []
+        for target in targets:
+            if target not in result_targets:
+                result_targets.append(target)
+        return result_targets
 
 
 if __name__ == "__main__":
     data_path = "./sample_dataset.txt"
     target_format = "aos"
     tasks = {
-        "extraction" : ["ao", "as", "aos", "os"],
+        "extraction" : ["as","aos"],
         "imputation" : {
-            "aos" : ["ao", "as", "a"]
+            "aos" : ["ao"]
         }
     }
     pattern = Pattern(task=["ao","as","aos","os","a"],
