@@ -340,9 +340,9 @@ if __name__ == "__main__":
     data_path = "./sample_dataset.txt"
     target_format = "aos"
     tasks = {
-        "extraction" : ["as","aos"],
+        "extraction" : ["as","aos","ao"],
         "imputation" : {
-            "aos" : ["ao"]
+            "aos" : ["ao","as"]
         }
     }
     pattern = Pattern(task=["ao","as","aos","os","a"],
@@ -356,5 +356,5 @@ if __name__ == "__main__":
                           pattern=pattern,
                           prompter=prompter,
                           prompt_side=prompt_side)
-    absa_ds.dataset.to_csv("dataset_result.csv")
+    absa_ds.dataset.to_csv("dataset_result.csv",index=False)
     absa_ds.data_frame.to_csv("data_frame_result.csv",index=False)
