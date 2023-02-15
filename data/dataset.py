@@ -89,6 +89,20 @@ class ABSADataset:
                         for incomplete_target_task in incomplete_task_list:
                             targets = [self.reduce_target(original_target,main_task) for original_target in original_targets]
                             incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
+                            if len(targets) > 0:
+                                new_data_entry = {
+                                    "text" : text,
+                                    "paradigm" : "imputation",
+                                    "task" : main_task,
+                                    "target" : targets,
+                                    "incomplete_target" : incomplete_targets
+                                }
+                                new_data.append(new_data_entry)
+                    else:
+                        incomplete_target_task = random.choice(incomplete_task_list)
+                        targets = [self.reduce_target(original_target,main_task) for original_target in original_targets]
+                        incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
+                        if len(targets) > 0:
                             new_data_entry = {
                                 "text" : text,
                                 "paradigm" : "imputation",
@@ -97,18 +111,6 @@ class ABSADataset:
                                 "incomplete_target" : incomplete_targets
                             }
                             new_data.append(new_data_entry)
-                    else:
-                        incomplete_target_task = random.choice(incomplete_task_list)
-                        targets = [self.reduce_target(original_target,main_task) for original_target in original_targets]
-                        incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
-                        new_data_entry = {
-                            "text" : text,
-                            "paradigm" : "imputation",
-                            "task" : main_task,
-                            "target" : targets,
-                            "incomplete_target" : incomplete_targets
-                        }
-                        new_data.append(new_data_entry)
             else: # Not multiply
                 extraction_paradigm_task_tuple = [("extraction",extraction_task) for extraction_task in tasks["extraction"]]
                 imputation_paradigm_task_tuple = [("imputation",imputation_task) for imputation_task in tasks["imputation"].keys()]
@@ -132,6 +134,19 @@ class ABSADataset:
                     if multiply_imputation:
                         for incomplete_target_task in incomplete_task_list:
                             incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
+                            if len(targets) > 0:
+                                new_data_entry = {
+                                    "text" : text,
+                                    "paradigm" : "imputation",
+                                    "task" : task,
+                                    "target" : targets,
+                                    "incomplete_target" : incomplete_targets
+                                }
+                                new_data.append(new_data_entry)
+                    else:
+                        incomplete_target_task = random.choice(incomplete_task_list)
+                        incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
+                        if len(targets) > 0:
                             new_data_entry = {
                                 "text" : text,
                                 "paradigm" : "imputation",
@@ -140,17 +155,6 @@ class ABSADataset:
                                 "incomplete_target" : incomplete_targets
                             }
                             new_data.append(new_data_entry)
-                    else:
-                        incomplete_target_task = random.choice(incomplete_task_list)
-                        incomplete_targets = [self.reduce_target(original_target,incomplete_target_task) for original_target in original_targets]
-                        new_data_entry = {
-                            "text" : text,
-                            "paradigm" : "imputation",
-                            "task" : task,
-                            "target" : targets,
-                            "incomplete_target" : incomplete_targets
-                        }
-                        new_data.append(new_data_entry)
         
         # Shuffle
         if shuffle:
