@@ -197,7 +197,7 @@ class ABSADataset:
         incomplete_targets = eval(row["incomplete_target"])
         prompt = prompter.build_prompt(row["task"],pattern,incomplete_targets,row["paradigm"])
         input_text = prompt + ' ' + text if prompt_side == "left" else text + ' ' + prompt
-        output_text = f" {pattern.inter_sep} ".join([pattern.stringify(target,row["task"]) for target in targets])
+        output_text = pattern.batch_stringify(targets,row["task"])
 
         return {"input" : input_text, "output" : output_text}
     

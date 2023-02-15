@@ -1,5 +1,5 @@
 from typing import List, Dict
-from constant import SENTTAG2WORD, SPECIAL_CHAR, PATTERN_TOKEN, SENTIMENT_ELEMENT
+from constant import SENTTAG2WORD, SPECIAL_CHAR, PATTERN_TOKEN, SENTIMENT_ELEMENT, NO_TARGET
 
 class Pattern:
     """
@@ -74,23 +74,34 @@ class Pattern:
         """
         self.categories = categories
 
-    def stringify(self,dict_target:Dict,task:str) -> str:
+    def stringify(self,target:Dict,task:str) -> str:
         """
         ### DESC
             Stringify the target from dictionary form to string form.
         ### PARAMS
-        * dict_target: Target in the form of dictionary. Example: {"aspect" : "A1", "opinion" : "O1}
+        * target: Target in the form of dictionary. Example: {"aspect" : "A1", "opinion" : "O1}
         * task: Task related to the target that needs to be generated.
         ### RETURN
         * result: Stringified target.
         """
         result = self.pattern[task]
-        for k in dict_target.keys():
-            try:
-                result = result.replace(PATTERN_TOKEN[k],dict_target[k])
-            except Exception as e:
-                print(dict_target)
-                raise e
+        for k in target.keys():
+            result = result.replace(PATTERN_TOKEN[k],target[k])
+        return result
+    
+    def batch_stringify(self,targets:List[Dict],task:str) -> str:
+        """
+        ### DESC
+            Stringify list of target.
+        ### PARAMS
+        * targets: List of target.
+        * task: Task related to the target that needs to be generated.
+        ### RETURN
+        * result: Stringified target.
+        """
+        if len(targets) == 0:
+            return NO_TARGET
+        result = f" {self.inter_sep} ".join([self.stringify(target,task) for target in targets])
         return result
     
     def masking(self,text:str) -> str:

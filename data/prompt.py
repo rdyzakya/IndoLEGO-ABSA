@@ -46,8 +46,7 @@ class Prompter:
             format_pattern = pattern.pattern[task]
             prompt = template.replace(FORMAT_PATTERN_MASK,format_pattern)
         elif paradigm == "imputation":
-            stringified_incomplete_result = [pattern.stringify(d_t,task) for d_t in incomplete_result]
-            stringified_incomplete_result = f" {pattern.inter_sep} ".join(stringified_incomplete_result)
+            stringified_incomplete_result = pattern.batch_stringify(incomplete_result,task)
             prompt = template.replace(IMPUTATION_FIELD_MASK,stringified_incomplete_result)
         
         categories = pattern.categories
