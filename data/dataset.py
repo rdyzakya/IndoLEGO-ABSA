@@ -8,13 +8,6 @@ from typing import Dict, List
 
 from constant import SEP, SENTTAG2WORD, SENTIMENT_ELEMENT
 
-# THINGS TO DO
-# a. Consider tasks
-# b. Consider prompter
-# c. Consider random shuffle
-# d. Consider extraction & imputation
-# e. Multiply the data or not
-
 sample = "It rarely works and when it does it 's incredibly slow .####[([2], [1], 'NEG')]"
 
 class ABSADataset:
@@ -37,7 +30,6 @@ class ABSADataset:
         * shuffle: Shuffle the dataset.
         * random_state: Seed for randomize the shuffle (only works when shuffle equals True).
         """
-        super().__init__()
         # Assert data type
         assert isinstance(data_path,str)
         assert isinstance(target_format,str)

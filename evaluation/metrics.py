@@ -1,5 +1,11 @@
-import numpy as np
 from typing import List, Dict
+
+"""
+The metrics in this research follows the following rule:
+1. The definition of true positive is said that an ABSA tuple that exist in the prediction list, also exist in the target list
+2. The definition of the false positive is said that an ABSA tuple that exist in the prediction list do not exist in the target list
+3. The definition of the false negative is said that an ABSA tuple that exist in the target list do not exist in the prediction list
+"""
 
 def recall(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
     """
@@ -54,6 +60,3 @@ def f1_score(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
     recall_value = recall(predictions,targets)
     precision_value = precision(predictions,targets)
     return (2 * recall_value * precision_value)/(recall_value + precision_value)
-
-def confusion_matrix(texts:List[str],predictions:List[List[Dict]],targets:List[List[Dict]]) -> Dict:
-    pass
