@@ -1,2 +1,2 @@
 # 🤗
-from .model import ABSAGenerativeModel
+from .model import ABSAGenerativeModelWrapper
