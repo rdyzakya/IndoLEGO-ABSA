@@ -274,7 +274,7 @@ class ABSADataset:
                 del result_target[key]
         return result_target
     
-    def preprocess_targets(self,targets:List[Dict]) -> List[Dict]: ### MAY CONTAIN BUG
+    def preprocess_targets(self,targets:List[Dict]) -> List[Dict]: ### MAY CONTAIN BUG, AFFECTS ORDER
         """
         ### DESC
             Method to preprocess targets (especially to reduce target containing sentiments).
@@ -298,8 +298,8 @@ class ABSADataset:
         for target in results_targets:
             targets_copy.remove(target)
         while len(non_sentiment_target_stack) > 0:
-            non_sentiment_target = non_sentiment_target_stack.pop()
-            sentiment_target = sentiment_target_stack.pop()
+            non_sentiment_target = non_sentiment_target_stack.pop(0)
+            sentiment_target = sentiment_target_stack.pop(0)
             if non_sentiment_target not in non_sentiment_target_stack:
                 target = non_sentiment_target.copy()
                 target["sentiment"] = sentiment_target
