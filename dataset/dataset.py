@@ -6,7 +6,7 @@ import random
 
 from typing import Dict, List
 
-from constant import SEP, SENTTAG2WORD, SENTIMENT_ELEMENT
+from constant import SEP, SENTTAG2WORD, SENTIMENT_ELEMENT, IMPLICIT_ASPECT
 
 sample = "It rarely works and when it does it 's incredibly slow .####[([2], [1], 'NEG')]"
 
@@ -227,10 +227,10 @@ class ABSADataset:
                 assert se in 'acos'
                 key = SENTIMENT_ELEMENT[se]
                 if se == 'a' or se == 'o':
-                    if num_target[i] != [-1]:
+                    if num_target[i] != [-1]: # Implicit aspect
                         value = ' '.join([splitted_text[j] for j in num_target[i]])
                     else:
-                        value = "NULL"
+                        value = IMPLICIT_ASPECT
                 elif se == 's':
                     value = SENTTAG2WORD[num_target[i]]
                 else: # se == 'c
