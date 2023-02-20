@@ -344,6 +344,21 @@ class ABSADataset:
                 result_targets.append(target)
         return result_targets
 
+class NonABSADataset:
+    """
+    Non-ABSA Dataset.
+    """
+    def __init__(self,data_path:str):
+        """
+        ### DESC
+            Constructor for NonABSADataset instance.
+        ### PARAMS
+        * data_path: Path to the dataset file (in csv format).
+        """
+        assert data_path.endswith(".csv")
+        self.data_frame = pd.read_csv(data_path)
+        assert "input" in self.data_frame.columns and "output" in self.data_frame.columns
+        self.dataset = Dataset.from_pandas(self.data_frame)
 
 if __name__ == "__main__":
     data_path = "./sample_dataset.txt"
