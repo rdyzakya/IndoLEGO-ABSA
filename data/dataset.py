@@ -191,6 +191,16 @@ class ABSADataset:
         text = row["text"]
         targets = eval(row["target"])
         incomplete_targets = eval(row["incomplete_target"])
+        # Masking the special chars
+        text = pattern.masking(text)
+        for i_target in range(len(targets)):
+            for key, value in targets[i_target].items():
+                targets[i_target][key] = pattern.masking(value)
+        if incomplete_targets != None:
+            for i_incomplete_target in range(len(incomplete_targets)):
+                for key, value in incomplete_targets[i_incomplete_target].items():
+                    incomplete_targets[i_incomplete_target][key] = pattern.masking(value)
+        # build prompt
         prompt = prompter.build_prompt(row["task"],pattern,incomplete_targets,row["paradigm"])
         input_text = prompt + ' ' + text if prompt_side == "left" else text + ' ' + prompt
         output_text = pattern.batch_stringify(targets,row["task"])
