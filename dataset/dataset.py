@@ -227,7 +227,10 @@ class ABSADataset:
                 assert se in 'acos'
                 key = SENTIMENT_ELEMENT[se]
                 if se == 'a' or se == 'o':
-                    value = ' '.join([splitted_text[j] for j in num_target[i]])
+                    if num_target[i] != [-1]:
+                        value = ' '.join([splitted_text[j] for j in num_target[i]])
+                    else:
+                        value = "NULL"
                 elif se == 's':
                     value = SENTTAG2WORD[num_target[i]]
                 else: # se == 'c

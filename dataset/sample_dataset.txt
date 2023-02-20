@@ -6,3 +6,4 @@ One night I turned the freaking thing off after using it , the next day I turn i
 Tes kocak kocak .####[([0], [1], 'POS'),([0], [2], 'NEG')]
 Halo .####[]
 Tes ( dua ) .####[([0],[1,2,3],'POS')]
+keep up the good work .####[([-1], [3], 'POS')]

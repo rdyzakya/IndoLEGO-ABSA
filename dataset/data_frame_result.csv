@@ -1,0 +1,36 @@
+text,paradigm,task,target,incomplete_target
+I charge it at night and skip taking the cord with me because of the good battery life .,imputation,aos,"[{'aspect': 'battery life', 'opinion': 'good', 'sentiment': 'positive'}]","[{'aspect': 'battery life', 'sentiment': 'positive'}]"
+Great laptop that offers many great features !,extraction,ao,"[{'aspect': 'features', 'opinion': 'great'}]",None
+Tes kocak kocak .,extraction,aos,"[{'aspect': 'Tes', 'opinion': 'kocak', 'sentiment': 'mixed'}]",None
+"it is of high quality , has a killer GUI , is extremely stable , is highly expandable , is bundled with lots of very good applications , is easy to use , and is absolutely gorgeous .",extraction,as,"[{'aspect': 'quality', 'sentiment': 'positive'}, {'aspect': 'GUI', 'sentiment': 'positive'}, {'aspect': 'applications', 'sentiment': 'positive'}, {'aspect': 'use', 'sentiment': 'positive'}]",None
+I charge it at night and skip taking the cord with me because of the good battery life .,extraction,aos,"[{'aspect': 'battery life', 'opinion': 'good', 'sentiment': 'positive'}]",None
+I charge it at night and skip taking the cord with me because of the good battery life .,extraction,as,"[{'aspect': 'battery life', 'sentiment': 'positive'}]",None
+keep up the good work .,extraction,as,"[{'aspect': 'NULL', 'sentiment': 'positive'}]",None
+Tes kocak kocak .,imputation,aos,"[{'aspect': 'Tes', 'opinion': 'kocak', 'sentiment': 'mixed'}]","[{'aspect': 'Tes', 'sentiment': 'mixed'}]"
+Tes kocak kocak .,extraction,as,"[{'aspect': 'Tes', 'sentiment': 'mixed'}]",None
+Easy to start up and does not overheat as much as other laptops .,imputation,aos,"[{'aspect': 'start up', 'opinion': 'Easy', 'sentiment': 'positive'}]","[{'aspect': 'start up', 'sentiment': 'positive'}]"
+Tes ( dua ) .,imputation,aos,"[{'aspect': 'Tes', 'opinion': '( dua )', 'sentiment': 'positive'}]","[{'aspect': 'Tes', 'sentiment': 'positive'}]"
+keep up the good work .,imputation,aos,"[{'aspect': 'NULL', 'opinion': 'good', 'sentiment': 'positive'}]","[{'aspect': 'NULL', 'opinion': 'good'}]"
+"One night I turned the freaking thing off after using it , the next day I turn it on , no GUI , screen all dark , power light steady , hard drive light steady and not flashing as it usually does .",imputation,aos,"[{'aspect': 'GUI', 'opinion': 'no', 'sentiment': 'negative'}, {'aspect': 'screen', 'opinion': 'dark', 'sentiment': 'negative'}, {'aspect': 'power light', 'opinion': 'steady', 'sentiment': 'neutral'}, {'aspect': 'hard drive light', 'opinion': 'steady', 'sentiment': 'negative'}]","[{'aspect': 'GUI', 'opinion': 'no'}, {'aspect': 'screen', 'opinion': 'dark'}, {'aspect': 'power light', 'opinion': 'steady'}, {'aspect': 'hard drive light', 'opinion': 'steady'}]"
+Easy to start up and does not overheat as much as other laptops .,extraction,as,"[{'aspect': 'start up', 'sentiment': 'positive'}]",None
+Halo .,extraction,aos,[],None
+"One night I turned the freaking thing off after using it , the next day I turn it on , no GUI , screen all dark , power light steady , hard drive light steady and not flashing as it usually does .",extraction,ao,"[{'aspect': 'GUI', 'opinion': 'no'}, {'aspect': 'screen', 'opinion': 'dark'}, {'aspect': 'power light', 'opinion': 'steady'}, {'aspect': 'hard drive light', 'opinion': 'steady'}]",None
+keep up the good work .,extraction,ao,"[{'aspect': 'NULL', 'opinion': 'good'}]",None
+"it is of high quality , has a killer GUI , is extremely stable , is highly expandable , is bundled with lots of very good applications , is easy to use , and is absolutely gorgeous .",extraction,ao,"[{'aspect': 'quality', 'opinion': 'high'}, {'aspect': 'GUI', 'opinion': 'killer'}, {'aspect': 'applications', 'opinion': 'good'}, {'aspect': 'use', 'opinion': 'easy'}]",None
+Easy to start up and does not overheat as much as other laptops .,extraction,aos,"[{'aspect': 'start up', 'opinion': 'Easy', 'sentiment': 'positive'}]",None
+Tes kocak kocak .,extraction,ao,"[{'aspect': 'Tes', 'opinion': 'kocak'}]",None
+Halo .,extraction,ao,[],None
+keep up the good work .,extraction,aos,"[{'aspect': 'NULL', 'opinion': 'good', 'sentiment': 'positive'}]",None
+"it is of high quality , has a killer GUI , is extremely stable , is highly expandable , is bundled with lots of very good applications , is easy to use , and is absolutely gorgeous .",extraction,aos,"[{'aspect': 'quality', 'opinion': 'high', 'sentiment': 'positive'}, {'aspect': 'GUI', 'opinion': 'killer', 'sentiment': 'positive'}, {'aspect': 'applications', 'opinion': 'good', 'sentiment': 'positive'}, {'aspect': 'use', 'opinion': 'easy', 'sentiment': 'positive'}]",None
+Easy to start up and does not overheat as much as other laptops .,extraction,ao,"[{'aspect': 'start up', 'opinion': 'Easy'}]",None
+Tes ( dua ) .,extraction,aos,"[{'aspect': 'Tes', 'opinion': '( dua )', 'sentiment': 'positive'}]",None
+I charge it at night and skip taking the cord with me because of the good battery life .,extraction,ao,"[{'aspect': 'battery life', 'opinion': 'good'}]",None
+"it is of high quality , has a killer GUI , is extremely stable , is highly expandable , is bundled with lots of very good applications , is easy to use , and is absolutely gorgeous .",imputation,aos,"[{'aspect': 'quality', 'opinion': 'high', 'sentiment': 'positive'}, {'aspect': 'GUI', 'opinion': 'killer', 'sentiment': 'positive'}, {'aspect': 'applications', 'opinion': 'good', 'sentiment': 'positive'}, {'aspect': 'use', 'opinion': 'easy', 'sentiment': 'positive'}]","[{'aspect': 'quality', 'opinion': 'high'}, {'aspect': 'GUI', 'opinion': 'killer'}, {'aspect': 'applications', 'opinion': 'good'}, {'aspect': 'use', 'opinion': 'easy'}]"
+"One night I turned the freaking thing off after using it , the next day I turn it on , no GUI , screen all dark , power light steady , hard drive light steady and not flashing as it usually does .",extraction,as,"[{'aspect': 'GUI', 'sentiment': 'negative'}, {'aspect': 'screen', 'sentiment': 'negative'}, {'aspect': 'power light', 'sentiment': 'neutral'}, {'aspect': 'hard drive light', 'sentiment': 'negative'}]",None
+Great laptop that offers many great features !,extraction,as,"[{'aspect': 'features', 'sentiment': 'positive'}]",None
+"One night I turned the freaking thing off after using it , the next day I turn it on , no GUI , screen all dark , power light steady , hard drive light steady and not flashing as it usually does .",extraction,aos,"[{'aspect': 'GUI', 'opinion': 'no', 'sentiment': 'negative'}, {'aspect': 'screen', 'opinion': 'dark', 'sentiment': 'negative'}, {'aspect': 'power light', 'opinion': 'steady', 'sentiment': 'neutral'}, {'aspect': 'hard drive light', 'opinion': 'steady', 'sentiment': 'negative'}]",None
+Tes ( dua ) .,extraction,as,"[{'aspect': 'Tes', 'sentiment': 'positive'}]",None
+Great laptop that offers many great features !,extraction,aos,"[{'aspect': 'features', 'opinion': 'great', 'sentiment': 'positive'}]",None
+Great laptop that offers many great features !,imputation,aos,"[{'aspect': 'features', 'opinion': 'great', 'sentiment': 'positive'}]","[{'aspect': 'features', 'opinion': 'great'}]"
+Halo .,extraction,as,[],None
+Tes ( dua ) .,extraction,ao,"[{'aspect': 'Tes', 'opinion': '( dua )'}]",None
