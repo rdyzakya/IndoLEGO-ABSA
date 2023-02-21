@@ -348,17 +348,35 @@ class NonABSADataset:
     """
     Non-ABSA Dataset.
     """
-    def __init__(self,data_path:str):
+    def __init__(self,data_path:str,prompt_side:str="left"):
         """
         ### DESC
             Constructor for NonABSADataset instance.
         ### PARAMS
         * data_path: Path to the dataset file (in csv format).
+        * prompt_side: "left" or "right" (prompt placement).
         """
         assert data_path.endswith(".csv")
         self.data_frame = pd.read_csv(data_path)
-        assert "input" in self.data_frame.columns and "output" in self.data_frame.columns
-        self.dataset = Dataset.from_pandas(self.data_frame)
+        assert "text" in self.data_frame.columns and "output" in self.data_frame.columns and "prompt" in self.data_frame.columns
+        interim_dataset = self.data_frame.copy()
+        interim_dataset["input"] = interim_dataset.apply(lambda row: self.add_prompt(row.prompt,row.text,prompt_side),axis=1)
+        interim_dataset = interim_dataset[["input","output"]]
+        self.dataset = Dataset.from_pandas(interim_dataset)
+    
+    def add_prompt(self,prompt:str,text:str,prompt_side:str="left") -> str:
+        """
+        ### DESC
+            Method to add prompt.
+        ### PARAMS
+        * prompt: The prompt.
+        * text: The text.
+        * prompt_side: "left" or "right" (prompt placement).
+        ### RETURN
+        * Prompted text.
+        """
+        assert prompt_side == "left" or prompt_side == "right"
+        return prompt + ": " + text if prompt_side == "left" else text + prompt + ": "
 
 if __name__ == "__main__":
     data_path = "./sample_dataset.txt"
