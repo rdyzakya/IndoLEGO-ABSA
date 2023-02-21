@@ -51,14 +51,22 @@ class ABSAGenerativeTrainer:
                 causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(train_dataset))]
                 self.tokenized_test = tokenizer(causal_lm_test_input, **encoding_args)
     
-    def compute_metrics(self,eval_preds:EvalPrediction):
-        preds, labels = eval_preds
+    def compute_metrics(self,eval_preds:EvalPrediction): # NOT DONE YET
+        input_ids = eval_preds.inputs
+        labels_ids = eval_preds.label_ids
+        pred_ids = eval_preds.predictions
 
         # In case the model returns more than the prediction logits
-        if isinstance(preds, tuple):
-            preds = preds[0]
+        if isinstance(input_ids, tuple):
+            input_ids = input_ids[0]
+        if isinstance(labels_ids, tuple):
+            labels_ids = labels_ids[0]
+        if isinstance(pred_ids, tuple):
+            pred_ids = pred_ids[0]
         
-        preds = np.argmax(preds,axis=-1) if len(preds.shape) == 3 else preds # in case not predict with generate
+        inputs = np.argmax(input_ids,axis=-1) if len(input_ids.shape) == 3 else input_ids # in case not predict with generate
+        labels = np.argmax(labels_ids,axis=-1) if len(labels_ids.shape) == 3 else labels_ids # in case not predict with generate
+        predictions = np.argmax(pred_ids,axis=-1) if len(pred_ids.shape) == 3 else pred_ids # in case not predict with generate
 
         pass
         
@@ -83,7 +91,8 @@ class ABSAGenerativeTrainer:
             "data_collator" : self.data_collator,
             "train_dataset" : self.tokenized_train,
             "eval_dataset" : self.tokenized_eval,
-            "predict_with_generate" : True
+            "predict_with_generate" : True,
+            "include_inputs_for_metrics" : True
         }
 
         model_type = self.model_and_tokenizer.model_type
