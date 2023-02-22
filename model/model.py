@@ -1,5 +1,6 @@
 from __future__ import annotations
 from transformers import AutoModelForSeq2SeqLM, AutoModelForCausalLM, AutoTokenizer
+import torch
 
 class ABSAGenerativeModelWrapper:
     """
@@ -34,3 +35,12 @@ class ABSAGenerativeModelWrapper:
         * ABSAGenerativeModel instance.
         """
         return ABSAGenerativeModelWrapper(model_name_or_path,**kwargs)
+    
+    def to(self,device:torch.device=torch.device("cpu")):
+        """
+        ### DESC
+            Method to place the model to the designated computing device (cuda or cpu).
+        ### PARAMS
+        * device: torch.device instance.
+        """
+        self.model.to(device)
