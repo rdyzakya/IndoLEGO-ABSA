@@ -3,13 +3,13 @@ from transformers import EvalPrediction
 from transformers import TrainingArguments, Seq2SeqTrainingArguments, Trainer, Seq2SeqTrainer, set_seed
 from model import ABSAGenerativeModelWrapper
 from evaluation import recall, precision, f1_score
-from datasets import Dataset
-from typing import Dict
+from dataset import MixedDataset, Pattern
+from typing import List, Dict
 
 import numpy as np
 
 class ABSAGenerativeTrainer:
-    def __init__(self,absa_model_and_tokenizer:ABSAGenerativeModelWrapper):
+    def __init__(self,absa_model_and_tokenizer:ABSAGenerativeModelWrapper,pattern:Pattern=Pattern()):
         """"
         ### DESC
             ABSAGenerativeTrainer constructor.
@@ -17,8 +17,9 @@ class ABSAGenerativeTrainer:
         * absa_model_and_tokenizer: ABSAGenerativeModelWrapper instance.
         """
         self.model_and_tokenizer = absa_model_and_tokenizer
+        self.pattern = pattern
     
-    def prepare_data(self,train_dataset:Dataset,eval_dataset:Dataset|None=None,test_dataset:Dataset|None=None,**encoding_args):
+    def prepare_data(self,train_dataset:MixedDataset,eval_dataset:MixedDataset=None,test_dataset:MixedDataset=None,**encoding_args):
         """
         ### DESC
             Method for preparing data (data collator and tokenize the dataset).
@@ -36,39 +37,75 @@ class ABSAGenerativeTrainer:
         
         # Encode the input and output
         if model_type == "seq2seq":
-            self.tokenized_train = tokenizer(train_dataset["input"], text_target=train_dataset["output"], **encoding_args)
+            self.tokenized_train = tokenizer(train_dataset.dataset["input"], text_target=train_dataset.dataset["output"], **encoding_args)
             if eval_dataset != None:
-                self.tokenized_eval = tokenizer(eval_dataset["input"], text_target=eval_dataset["output"], **encoding_args)
+                self.tokenized_eval = tokenizer(eval_dataset.dataset["input"], text_target=eval_dataset.dataset["output"], **encoding_args)
             if test_dataset != None:
-                self.tokenized_test = tokenizer(test_dataset["input"], text_target=test_dataset["output"], **encoding_args)
+                self.tokenized_test = tokenizer(test_dataset.dataset["input"], text_target=test_dataset.dataset["output"], **encoding_args)
         else: # "causal_lm"
-            causal_lm_train_input = [train_dataset["input"][i] + ' ' + train_dataset["output"][i] for i in range(len(train_dataset))]
+            causal_lm_train_input = [train_dataset.dataset["input"][i] + ' ' + train_dataset.dataset["output"][i] for i in range(len(train_dataset))]
             self.tokenized_train = tokenizer(causal_lm_train_input, **encoding_args)
             if eval_dataset != None:
-                causal_lm_eval_input = [eval_dataset["input"][i] + ' ' + eval_dataset["output"][i] for i in range(len(train_dataset))]
+                causal_lm_eval_input = [eval_dataset.dataset["input"][i] + ' ' + eval_dataset.dataset["output"][i] for i in range(len(eval_dataset))]
                 self.tokenized_eval = tokenizer(causal_lm_eval_input, **encoding_args)
             if test_dataset != None:
-                causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(train_dataset))]
+                causal_lm_test_input = [test_dataset.dataset["input"][i] + ' ' + test_dataset.dataset["output"][i] for i in range(len(test_dataset))]
                 self.tokenized_test = tokenizer(causal_lm_test_input, **encoding_args)
+        
+        self.train_tasks = train_dataset.data_frame.task.tolist()
+        self.eval_tasks = eval_dataset.data_frame.task.tolist()
+        self.test_tasks = test_dataset.data_frame.task.tolist()
     
-    def compute_metrics(self,eval_preds:EvalPrediction): # NOT DONE YET
+    def compute_metrics(self,eval_preds:EvalPrediction): # MAY NOT BE SUFFICIATE FOR CAUSAL LM
         input_ids = eval_preds.inputs
-        labels_ids = eval_preds.label_ids
+        target_ids = eval_preds.label_ids
         pred_ids = eval_preds.predictions
 
         # In case the model returns more than the prediction logits
         if isinstance(input_ids, tuple):
             input_ids = input_ids[0]
-        if isinstance(labels_ids, tuple):
-            labels_ids = labels_ids[0]
+        if isinstance(target_ids, tuple):
+            target_ids = target_ids[0]
         if isinstance(pred_ids, tuple):
             pred_ids = pred_ids[0]
         
-        inputs = np.argmax(input_ids,axis=-1) if len(input_ids.shape) == 3 else input_ids # in case not predict with generate
-        labels = np.argmax(labels_ids,axis=-1) if len(labels_ids.shape) == 3 else labels_ids # in case not predict with generate
+        input_ids = np.argmax(input_ids,axis=-1) if len(input_ids.shape) == 3 else input_ids # in case not predict with generate
+        target_ids = np.argmax(target_ids,axis=-1) if len(target_ids.shape) == 3 else target_ids # in case not predict with generate
         predictions = np.argmax(pred_ids,axis=-1) if len(pred_ids.shape) == 3 else pred_ids # in case not predict with generate
 
-        pass
+        inputs = self.model_and_tokenizer.tokenizer.batch_decode(inputs,skip_special_tokens=True)
+        targets = self.model_and_tokenizer.tokenizer.batch_decode(targets,skip_special_tokens=True)
+        predictions = self.model_and_tokenizer.tokenizer.batch_decode(predictions,skip_special_tokens=True)
+
+        targets = [self.pattern.find_all(text,task) for text,task in zip(targets,self.eval_tasks) if task != "non_absa"]
+        predictions = [self.pattern.find_all(text,task) for text,task in zip(predictions,self.eval_tasks) if task != "non_absa"]
+
+        per_task_targets, per_task_predictions = self.seperate_target_prediction_per_task(predictions, targets)
+        
+        metrics = {}
+
+        metrics["overall_recall"] = recall(predictions,targets)
+        metrics["overall_precision"] = precision(predictions,targets)
+        metrics["overall_f1_score"] = f1_score(predictions,targets)
+
+        for task in per_task_targets.keys():
+            metrics[f"{task}_recall"] = recall(per_task_predictions[task],per_task_targets[task])
+            metrics[f"{task}_precision"] = precision(per_task_predictions[task],per_task_targets[task])
+            metrics[f"{task}_f1_score"] = f1_score(per_task_predictions[task],per_task_targets[task])
+        
+        return metrics
+
+    def seperate_target_prediction_per_task(self,predictions:List[List[Dict]],targets:List[List[Dict]]) -> tuple[Dict[str,List],Dict[str,List]]:
+        per_task_targets = {}
+        per_task_predictions = {}
+        for target, prediction, task in zip(targets,predictions,self.eval_tasks):
+            if task not in per_task_targets.keys():
+                per_task_targets[task] = []
+            if task not in per_task_predictions.keys():
+                per_task_predictions[task] = []
+            per_task_targets[task].append(target)
+            per_task_predictions[task].append(prediction)
+        return per_task_targets, per_task_predictions
         
     def compile_train_args(self,train_args_dict:Dict):
         """
@@ -98,7 +135,7 @@ class ABSAGenerativeTrainer:
         model_type = self.model_and_tokenizer.model_type
         self.trainer = Seq2SeqTrainer(**trainer_args) if  model_type == "seq2seq" else Trainer(**trainer_args)
     
-    def train(self,output_dir:str|None="./output",random_seed:int|None=None):
+    def train(self,output_dir:str="./output",random_seed:int=None):
         """
         ### DESC
             Method for training the model.

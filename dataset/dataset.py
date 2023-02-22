@@ -10,7 +10,18 @@ from constant import SEP, SENTTAG2WORD, SENTIMENT_ELEMENT, IMPLICIT_ASPECT
 
 sample = "It rarely works and when it does it 's incredibly slow .####[([2], [1], 'NEG')]"
 
-class ABSADataset:
+class CustomDataset:
+    """
+    Custom dataset.
+    """
+
+    def __len__(self) -> int:
+        try:
+            return len(self.dataset)
+        except:
+            return -1
+
+class ABSADataset(CustomDataset):
     """
     ABSA Dataset.
     """
@@ -344,7 +355,7 @@ class ABSADataset:
                 result_targets.append(target)
         return result_targets
 
-class NonABSADataset:
+class NonABSADataset(CustomDataset):
     """
     Non-ABSA Dataset.
     """
@@ -363,6 +374,7 @@ class NonABSADataset:
         interim_dataset["input"] = interim_dataset.apply(lambda row: self.add_prompt(row.prompt,row.text,prompt_side),axis=1)
         interim_dataset = interim_dataset[["input","output"]]
         self.dataset = Dataset.from_pandas(interim_dataset)
+        self.data_frame["task"] = ["non_absa" for _ in range(len(self.data_frame))]
     
     def add_prompt(self,prompt:str,text:str,prompt_side:str="left") -> str:
         """
@@ -377,6 +389,20 @@ class NonABSADataset:
         """
         assert prompt_side == "left" or prompt_side == "right"
         return prompt + ": " + text if prompt_side == "left" else text + prompt + ": "
+
+class MixedDataset(CustomDataset):
+    """
+    Mixed dataset (may be ABSADataset + NonABSADataset)
+    """
+    def __init__(self,datasets:List[CustomDataset],shuffle:bool=False,seed:int=None):
+        self.data_frame = []
+        for dataset in datasets:
+            current_data_frame = dataset.dataset.to_pandas()
+            self.data_frame.append(current_data_frame)
+        self.data_frame = pd.concat(self.data_frame)
+        if shuffle:
+            self.data_frame = self.data_frame.sample(frac=1,random_state=seed).reset_index(drop=True)
+        self.dataset = Dataset.from_pandas(self.data_frame[["input","output"]])
 
 if __name__ == "__main__":
     data_path = "./sample_dataset.txt"

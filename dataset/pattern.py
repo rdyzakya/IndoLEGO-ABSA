@@ -1,5 +1,6 @@
 from typing import List, Dict
 from constant import SENTTAG2WORD, SPECIAL_CHAR, PATTERN_TOKEN, SENTIMENT_ELEMENT, NO_TARGET
+import re
 
 class Pattern:
     """
@@ -64,6 +65,31 @@ class Pattern:
                 regex_pattern = regex_pattern.replace(v,f"(?P<{k}>[^{intra_sep}{inter_sep}]+)")
         regex_pattern = regex_pattern.replace(' ',r'\s*')
         return regex_pattern
+    
+    def find_all(self,text:str,task:str) -> List[Dict]:
+        """
+        ### DESC
+            Method to find all stringified tuples in text and transform it back to list of dictionary.
+        ### PARAMS
+        * text: Text.
+        * task: The designated absa task.
+        ### RETURN
+        """
+        regex_pattern = self.regex(task)
+        found = [found_iter.groupdict() for found_iter in re.finditer(regex_pattern,text)]
+        result = []
+        for i in range(len(found)):
+            is_found_pattern_token = False
+            for k,v in found[i].items():
+                # Strip the value
+                v = v.strip()
+                # Check if the value is between the pattern tokens (usually in prompts)
+                if v in PATTERN_TOKEN.values():
+                    is_found_pattern_token = True
+                found[i][k] = v
+            if found[i] not in result and not is_found_pattern_token:
+                result.append(found[i])
+        return result
     
     def update_categories(self,categories:List[str]=["CAT0","CAT1"]):
         """
@@ -137,6 +163,14 @@ class Pattern:
         return str(self.pattern)
 
 if __name__ == "__main__":
-    p = Pattern(["aocs", "aoc", "caos", "ao", "a"])
+    p = Pattern(["aocs", "aoc", "caos", "ao", "a", "aos"])
     print(p)
     print(p.regex("aocs"))
+    text_1 = "Hello semua ayo kita sambut . Extract in the format ( <A> , <O> ) : (Hello, semua) ; (ayo, sambut)"
+    text_2 = "(Hello, semua, positive) ; (ayo, sambut, negative)"
+
+    found_1 = p.find_all(text_1,"ao")
+    found_2 = p.find_all(text_2,"aos")
+
+    print("Found 1:",found_1)
+    print("Found 2:",found_2)
