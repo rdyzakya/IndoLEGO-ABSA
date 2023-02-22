@@ -129,7 +129,8 @@ class ABSAGenerativeTrainer:
             "train_dataset" : self.tokenized_train,
             "eval_dataset" : self.tokenized_eval,
             "predict_with_generate" : True,
-            "include_inputs_for_metrics" : True
+            "include_inputs_for_metrics" : True,
+            "compute_metrics" : self.compute_metrics
         }
 
         model_type = self.model_and_tokenizer.model_type
