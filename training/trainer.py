@@ -9,6 +9,17 @@ from typing import List, Dict
 import numpy as np
 
 class ABSAGenerativeTrainer:
+    """
+    Trainer for generative ABSA problem.
+
+    How to use:
+
+    1. Call the constructor.
+    2. Call the prepare_data method.
+    3. Call the compile_train_args method.
+    4. Call the prepare_trainer method.
+    5. Call train method.
+    """
     def __init__(self,absa_model_and_tokenizer:ABSAGenerativeModelWrapper,pattern:Pattern=Pattern()):
         """"
         ### DESC
@@ -56,7 +67,15 @@ class ABSAGenerativeTrainer:
         self.eval_tasks = eval_dataset.data_frame.task.tolist()
         self.test_tasks = test_dataset.data_frame.task.tolist()
     
-    def compute_metrics(self,eval_preds:EvalPrediction): # MAY NOT BE SUFFICIATE FOR CAUSAL LM
+    def compute_metrics(self,eval_preds:EvalPrediction) -> Dict[str,float]: # MAY NOT BE SUFFICIATE FOR CAUSAL LM
+        """
+        ### DESC
+            Method to compute the metrics.
+        ### PARAMS
+        * eval_preds: EvalPrediction instance from training.
+        ### RETURN
+        * metrics: Dictionary of metrics.
+        """
         input_ids = eval_preds.inputs
         target_ids = eval_preds.label_ids
         pred_ids = eval_preds.predictions
@@ -152,3 +171,6 @@ class ABSAGenerativeTrainer:
             if self.trainer.is_world_process_zero():
                 self.model_and_tokenizer.tokenizer.save_pretrained(output_dir)
             self.model_and_tokenizer.model.save_pretrained(save_directory=output_dir)
+    
+    def predict(self):
+        pass
