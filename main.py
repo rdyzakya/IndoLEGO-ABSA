@@ -1,4 +1,4 @@
-from dataset import ABSADataset, NonABSADataset, MixedDataset, Pattern, Prompter
+from data_utils import ABSADataset, NonABSADataset, MixedDataset, Pattern, Prompter
 from model import ABSAGenerativeModelWrapper
 from training import ABSAGenerativeTrainer
 
@@ -40,10 +40,11 @@ def init_args() -> Dict[str,Any]:
     # parser.add_argument("--non_absa_test_data",nargs='*',type=str,help="List of non absa test data file names (csv format)",default=["test.csv"])
 
     # Pattern options
-    parser.add_argument("--pattern_open_bracket",type=str,help="Pattern open bracket",default='(')
-    parser.add_argument("--pattern_close_bracket",type=str,help="Pattern close bracket",default=')')
-    parser.add_argument("--pattern_intra_sep",type=str,help="Pattern intra-seperator",default=',')
-    parser.add_argument("--pattern_inter_sep",type=str,help="Pattern inter-seperator",default=';')
+    parser.add_argument("--pattern_config",type=str,help="Path to pattern configuration (json)",default="pattern_config.json")
+    # parser.add_argument("--pattern_open_bracket",type=str,help="Pattern open bracket",default='(')
+    # parser.add_argument("--pattern_close_bracket",type=str,help="Pattern close bracket",default=')')
+    # parser.add_argument("--pattern_intra_sep",type=str,help="Pattern intra-seperator",default=',')
+    # parser.add_argument("--pattern_inter_sep",type=str,help="Pattern inter-seperator",default=';')
 
     # Prompt options
     parser.add_argument("--extraction_prompt",type=str,help="Prompt for the extraction paradigm",required=False)

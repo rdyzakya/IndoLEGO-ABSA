@@ -15,3 +15,9 @@ IMPUTATION_FIELD_MASK = "IMPUTATION_FIELD"
 NO_TARGET = "NONE"
 
 IMPLICIT_ASPECT = "NULL"
+
+CONSTANT_VOCAB = list(SENTTAG2WORD.keys()) + list(SENTTAG2WORD.values()) \
+        + list(SPECIAL_CHAR.keys()) + list(SPECIAL_CHAR.values()) \
+        + list(PATTERN_TOKEN.keys()) + list(PATTERN_TOKEN.values()) \
+        + list(SENTIMENT_ELEMENT.keys()) + list(SENTIMENT_ELEMENT.values()) \
+        + [IMPLICIT_ASPECT,NO_TARGET]

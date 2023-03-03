@@ -3,7 +3,8 @@ from transformers import EvalPrediction
 from transformers import TrainingArguments, Seq2SeqTrainingArguments, Trainer, Seq2SeqTrainer, set_seed
 from model import ABSAGenerativeModelWrapper
 from evaluation import recall, precision, f1_score
-from dataset import MixedDataset, Pattern
+from data_utils import Pattern, CONSTANT_VOCAB
+from datasets import Dataset
 from typing import List, Dict
 
 import numpy as np
@@ -27,17 +28,18 @@ class ABSAGenerativeTrainer:
         ### PARAMS
         * absa_model_and_tokenizer: ABSAGenerativeModelWrapper instance.
         """
+        new_vocab = CONSTANT_VOCAB + list(pattern.mask.keys()) + list(pattern.mask.values()) + pattern.categories
+        absa_model_and_tokenizer.add_vocab(new_vocab)
+        
         self.model_and_tokenizer = absa_model_and_tokenizer
         self.pattern = pattern
-    
-    def prepare_data(self,train_dataset:MixedDataset,eval_dataset:MixedDataset=None,test_dataset:MixedDataset=None,**encoding_args):
+    def prepare_data(self,train_dataset:Dataset,eval_dataset:Dataset=None,**encoding_args):
         """
         ### DESC
             Method for preparing data (data collator and tokenize the dataset).
         ### PARAMS
         * train_dataset: Training dataset.
         * eval_dataset: Eval dataset.
-        * test_dataset: Test dataset.
         * encoding_args: Encoding arguments (HF Tokenizer arguments).
         """
         tokenizer = self.model_and_tokenizer.tokenizer
@@ -48,24 +50,18 @@ class ABSAGenerativeTrainer:
         
         # Encode the input and output
         if model_type == "seq2seq":
-            self.tokenized_train = tokenizer(train_dataset.dataset["input"], text_target=train_dataset.dataset["output"], **encoding_args)
+            self.tokenized_train = tokenizer(train_dataset["input"], text_target=train_dataset["output"], **encoding_args)
             if eval_dataset != None:
-                self.tokenized_eval = tokenizer(eval_dataset.dataset["input"], text_target=eval_dataset.dataset["output"], **encoding_args)
-            if test_dataset != None:
-                self.tokenized_test = tokenizer(test_dataset.dataset["input"], text_target=test_dataset.dataset["output"], **encoding_args)
+                self.tokenized_eval = tokenizer(eval_dataset["input"], text_target=eval_dataset["output"], **encoding_args)
         else: # "causal_lm"
-            causal_lm_train_input = [train_dataset.dataset["input"][i] + ' ' + train_dataset.dataset["output"][i] for i in range(len(train_dataset))]
+            causal_lm_train_input = [train_dataset["input"][i] + ' ' + train_dataset["output"][i] for i in range(len(train_dataset))]
             self.tokenized_train = tokenizer(causal_lm_train_input, **encoding_args)
             if eval_dataset != None:
-                causal_lm_eval_input = [eval_dataset.dataset["input"][i] + ' ' + eval_dataset.dataset["output"][i] for i in range(len(eval_dataset))]
+                causal_lm_eval_input = [eval_dataset["input"][i] + ' ' + eval_dataset["output"][i] for i in range(len(eval_dataset))]
                 self.tokenized_eval = tokenizer(causal_lm_eval_input, **encoding_args)
-            if test_dataset != None:
-                causal_lm_test_input = [test_dataset.dataset["input"][i] + ' ' + test_dataset.dataset["output"][i] for i in range(len(test_dataset))]
-                self.tokenized_test = tokenizer(causal_lm_test_input, **encoding_args)
         
         self.train_tasks = train_dataset.data_frame.task.tolist()
         self.eval_tasks = eval_dataset.data_frame.task.tolist()
-        self.test_tasks = test_dataset.data_frame.task.tolist()
     
     def compute_metrics(self,eval_preds:EvalPrediction) -> Dict[str,float]: # MAY NOT BE SUFFICIATE FOR CAUSAL LM
         """

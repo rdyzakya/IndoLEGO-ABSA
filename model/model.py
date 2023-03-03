@@ -1,6 +1,8 @@
 from __future__ import annotations
 from transformers import AutoModelForSeq2SeqLM, AutoModelForCausalLM, AutoTokenizer
 import torch
+from typing import List
+
 
 class ABSAGenerativeModelWrapper:
     """
@@ -44,3 +46,17 @@ class ABSAGenerativeModelWrapper:
         * device: torch.device instance.
         """
         self.model.to(device)
+    
+    def add_vocab(self,new_vocab:List[str]):
+        """
+        ### DESC
+            Method to add new vocabularies to tokenizer.
+        ### PARAMS
+        * new_vocab: List of new vocabularies.
+        """
+        vocab = self.tokenizer.get_vocab()
+        for term in new_vocab:
+            tokenized_term = self.tokenizer.tokenize(term)
+            for token in tokenized_term:
+                if token not in vocab:
+                    self.tokenizer.add_tokens(token)
