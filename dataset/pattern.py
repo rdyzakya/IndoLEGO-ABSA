@@ -6,7 +6,7 @@ class Pattern:
     """
     Pattern for the generated answers.
     """
-    def __init__(self,task:List[str]=["ao","ac","as","aos","acs","aocs"],open_bracket:str='(',close_bracket:str=')',intra_sep:str=',',inter_sep:str=';',categories:List[str]=["CAT0","CAT1"]):
+    def __init__(self,tasks:List[str]=["ao","ac","as","aos","acs","aocs"],open_bracket:str='(',close_bracket:str=')',intra_sep:str=',',inter_sep:str=';',categories:List[str]=["CAT0","CAT1"]):
         """
         ### DESC
             Constructor for Pattern objects (pattern for the generated answers).
@@ -18,7 +18,7 @@ class Pattern:
         * inter_sep: Seperator between multiple tuples.
         * categories: List of categories if exist.
         """
-        self.task = task
+        self.tasks = tasks
         self.open_bracket = open_bracket.strip()
         self.close_bracket = close_bracket.strip()
         self.intra_sep = intra_sep.strip()
@@ -32,13 +32,22 @@ class Pattern:
             self.inter_sep : "/ES/"
         }
 
+        self.compile_tasks(self.tasks)
+
+    def compile_tasks(self,task:List[str]):
+        """
+        ### DESC
+            Method to compile list of tasks handled by the pattern object.
+        ### PARAMS
+        * task: List of task name.
+        """
         self.pattern = {}
-        for t in self.task:
+        for t in task:
             self.pattern[t] = []
             for se in t:
                 # se: a (aspect term), o (opinion term), s (sentiment), c (category)
                 self.pattern[t].append(PATTERN_TOKEN[SENTIMENT_ELEMENT[se]])
-            self.pattern[t] = f"{open_bracket} " + f" {intra_sep.strip()} ".join(self.pattern[t]) + f" {close_bracket}"
+            self.pattern[t] = f"{self.open_bracket} " + f" {self.intra_sep.strip()} ".join(self.pattern[t]) + f" {self.close_bracket}"
             self.pattern[t] = self.pattern[t].strip()
 
     def regex(self,task:str) -> str:

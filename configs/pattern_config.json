@@ -1,0 +1,8 @@
+{
+    "tasks" : ["ao","ac","as","aos","acs","aocs"],
+    "open_bracket" : "(",
+    "close_bracket" : ")",
+    "intra_sep" : ",",
+    "inter_sep" : ";",
+    "categories" : ["CAT0","CAT1"]
+}

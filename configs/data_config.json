@@ -1,0 +1,79 @@
+{
+    "absa" : {
+        "train" : [
+            {
+                "data_path" : "train.txt",
+                "target_format" : "acos",
+                "tasks" : {
+                    "extraction" : ["ao","ac","as"],
+                    "imputation" : {
+                        "acos" : ["ao","ac","aos"]
+                    }
+                },
+                "multiply" : true,
+                "multiply_imputation" : true,
+                "shuffle" : true,
+                "random_state" : 0
+            }
+        ],
+        "val" : [
+            {
+                "data_path" : "val.txt",
+                "target_format" : "acos",
+                "tasks" : {
+                    "extraction" : ["ao","ac","as"],
+                    "imputation" : {
+                        "acos" : ["ao","ac","aos"]
+                    }
+                },
+                "multiply" : true,
+                "multiply_imputation" : true,
+                "shuffle" : true,
+                "random_state" : 0
+            }
+        ],
+        "test" : [
+            {
+                "data_path" : "test.txt",
+                "target_format" : "acos",
+                "tasks" : {
+                    "extraction" : ["ao","ac","as"],
+                    "imputation" : {
+                        "acos" : ["ao","ac","aos"]
+                    }
+                },
+                "multiply" : true,
+                "multiply_imputation" : true,
+                "shuffle" : true,
+                "random_state" : 0
+            }
+        ]
+    },
+    "non_absa" : {
+        "train" : [
+            {
+                "data_path" : "train.csv"
+            }
+        ],
+        "val" : [
+            {
+                "data_path" : "val.csv"
+            }
+        ],
+        "test" : [
+            {
+                "data_path" : "test.csv"
+            }
+        ]
+    },
+    "shuffle" : {
+        "train" : true,
+        "val" : true,
+        "test" : true
+    },
+    "seed" : {
+        "train" : 0,
+        "val" : 0,
+        "test" : 0
+    }
+}
