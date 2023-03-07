@@ -172,6 +172,8 @@ class ABSAGenerativeTrainer:
             self.model_and_tokenizer.model.save_pretrained(save_directory=output_dir)
     
     def predict_absa(self,dataset:ABSADataset,task_tree:Dict={"acos" : {"ao" : [],"as" : [],"aos" : ['a']}},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+        # Move the model to device
+        self.model_and_tokenizer.to(device)
         predictions = {}
         if isinstance(task_tree,Dict):
             for main_task, children_task in task_tree.items():
@@ -179,6 +181,7 @@ class ABSAGenerativeTrainer:
         else:
             for main_task in task_tree:
                 predictions[main_task] = self.predict_absa_per_task(dataset,main_task,[],device,batch_size,encoding_args,decoding_args,max_len)
+        self.model_and_tokenizer.to(torch.device("cpu"))
         return predictions
 
     def predict_absa_per_task(self,dataset:ABSADataset,task:str="aos",children_task:Dict={"ao" : ['a'], 'a' : []},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):        
@@ -215,18 +218,8 @@ class ABSAGenerativeTrainer:
         else: # "causal_lm"
             causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(test_dataset))]
             tokenized_test = tokenizer(causal_lm_test_input, **encoding_args)
-        # Move the model to device
-        self.model_and_tokenizer.to(device)
-        # Data loader
-        data_loader = torch.utils.data.DataLoader(tokenized_test["input_ids"],
-                            batch_size=batch_size,shuffle=False)
         # Predict
-        model = self.model_and_tokenizer.model
-        tensor_predictions = []
-        with torch.no_grad():
-            for batch in tqdm(data_loader):
-                tensor_predictions.extend(model.generate(input_ids=batch.to(device),max_length=max_len))
-        decoded_predictions = tokenizer.batch_decode(tensor_predictions,**decoding_args)
+        decoded_predictions = self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
         for i_pred in range(len(decoded_predictions)):
             new_prediction = self.pattern.find_all(decoded_predictions[i_pred],task)
             new_prediction = handle_mix_sentiment(new_prediction)
@@ -235,5 +228,24 @@ class ABSAGenerativeTrainer:
         
         return predictions
 
-    def predict_non_absa(self):
-        pass
+    def generate_predictions(self,tokenized,device,batch_size,max_len,decoding_args):
+        # Data loader
+        data_loader = torch.utils.data.DataLoader(tokenized["input_ids"],
+                            batch_size=batch_size,shuffle=False)
+        # Predict
+        model = self.model_and_tokenizer.model
+        tokenizer = self.model_and_tokenizer.tokenizer
+        tensor_predictions = []
+        with torch.no_grad():
+            for batch in tqdm(data_loader):
+                batch = batch.to(device)
+                tensor_predictions.extend(model.generate(input_ids=batch,max_length=max_len).cpu())
+                batch = batch.cpu()
+        predictions = tokenizer.batch_decode(tensor_predictions,**decoding_args)
+        return predictions
+    
+    def predict_non_absa(self,dataset:NonABSADataset,device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+        test_dataset = dataset.build_data()
+        tokenizer = self.model_and_tokenizer.tokenizer
+        tokenized_test = tokenizer(test_dataset, **encoding_args)
+        return self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
