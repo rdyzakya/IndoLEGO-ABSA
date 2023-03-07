@@ -171,7 +171,21 @@ class ABSAGenerativeTrainer:
                 self.model_and_tokenizer.tokenizer.save_pretrained(output_dir)
             self.model_and_tokenizer.model.save_pretrained(save_directory=output_dir)
     
-    def predict_absa(self,dataset:ABSADataset,task_tree:Dict={"acos" : {"ao" : [],"as" : [],"aos" : ['a']}},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+    def predict_absa(self,dataset:ABSADataset,task_tree:Dict={"acos" : {"ao" : [],"as" : [],"aos" : ['a']}},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512) -> Dict:
+        """
+        ### DESC
+            Method for predicting absa tasks.
+        ### PARAMS
+        * dataset: ABSADataset instance.
+        * task_tree: List of task names or in a dictionary form with a tree style.
+        * device: Torch device instance.
+        * batch_size: Batch size.
+        * encoding_args: Dictionary containing encoding key word arguments.
+        * decoding_args: Dictionary containing decoding key word arguments.
+        * max_len: Maximum length of the decoded result.
+        ### RETURN
+        * ABSA targets for all the task contained in the task tree.
+        """
         # Move the model to device
         self.model_and_tokenizer.to(device)
         predictions = {}
@@ -184,21 +198,50 @@ class ABSAGenerativeTrainer:
         self.model_and_tokenizer.to(torch.device("cpu"))
         return predictions
 
-    def predict_absa_per_task(self,dataset:ABSADataset,task:str="aos",children_task:Dict={"ao" : ['a'], 'a' : []},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):        
+    def predict_absa_per_task(self,dataset:ABSADataset,task:str="aos",children_task:Dict={"ao" : ['a'], 'a' : []},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512) -> List[List[Dict]]:
+        """
+        ### DESC
+            Method to predict absa task in a post order traversal manner. The lower level will help the imputation process for the upper level.
+        ### PARAMS
+        * dataset: ABSADataset instance.
+        * task: Main task name.
+        * children_task: Task children in a form of list or dictionary (tree style).
+        * device: Torch device instance.
+        * batch_size: Batch size.
+        * encoding_args: Dictionary containing encoding key word arguments.
+        * decoding_args: Dictionary containing decoding key word arguments.
+        * max_len: Maximum length of the decoded result.
+        ### RETURN
+        * ABSA targets for the designated task.
+        """
         # Extraction for main task
         # Recursive
         predictions = self.predict_absa_per_task_per_paradigm(dataset,[],task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
         if isinstance(children_task,Dict):
             for child_task in children_task.keys():
                 child_predictions = self.predict_absa_per_task(dataset,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
-                self.add_imputation_predictions(dataset, task, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions)
+                self.add_imputation_predictions(dataset, task, predictions, child_predictions, device, batch_size, encoding_args, decoding_args, max_len)
         else: # List
             for child_task in children_task:
                 child_predictions = self.predict_absa_per_task_per_paradigm(dataset,[],child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
-                self.add_imputation_predictions(dataset, task, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions)
+                self.add_imputation_predictions(dataset, task, predictions, child_predictions, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions)
         return predictions
 
-    def add_imputation_predictions(self, dataset, task, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions):
+    def add_imputation_predictions(self, dataset:ABSADataset, predictions:List[List[Dict]], child_predictions:List[List[Dict]], task:str="acos", device:torch.device=torch.device("cpu"), batch_size:int=16, encoding_args:Dict={}, decoding_args:Dict={}, max_len:int=512):
+        """
+        ### DESC
+            Method to add imputation predictions to the prediction list.
+        ### PARAMS
+        * dataset: ABSADataset instance.
+        * predictions: Predictions result.
+        * child_predictions: Predictions for the imputation.
+        * task: Main task name.
+        * device: Torch device instance.
+        * batch_size: Batch size.
+        * encoding_args: Dictionary containing encoding key word arguments.
+        * decoding_args: Dictionary containing decoding key word arguments.
+        * max_len: Maximum length of the decoded result.
+        """
         imputation_predictions = self.predict_absa_per_task_per_paradigm(dataset,child_predictions,task,"imputation",device,batch_size,encoding_args,decoding_args,max_len)
         assert len(predictions) == len(imputation_predictions)
         for i_row in range(len(predictions)):
@@ -207,7 +250,22 @@ class ABSAGenerativeTrainer:
             pred = remove_duplicate_targets(pred)
             predictions[i_row] = pred
 
-    def predict_absa_per_task_per_paradigm(self,dataset:ABSADataset,incomplete_targets:List[List[Dict]],task:str='a',paradigm:str="extraction",device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+    def predict_absa_per_task_per_paradigm(self,dataset:ABSADataset,incomplete_targets:List[List[Dict]],task:str='a',paradigm:str="extraction",device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512) -> List[List[Dict]]:
+        """
+        ### DESC
+            Method to predict an absa task with a certain paradigm (extraction or imputation).
+        ### PARAMS
+        * dataset: ABSADataset instance.
+        * incomplete_targets: Incomplete targets for imputation.
+        * task: Main task name.
+        * device: Torch device instance.
+        * batch_size: Batch size.
+        * encoding_args: Dictionary containing encoding key word arguments.
+        * decoding_args: Dictionary containing decoding key word arguments.
+        * max_len: Maximum length of the decoded result.
+        ### RETURN
+        * ABSA targets for the designated task with the designated paradigm.
+        """
         predictions = []
         # Build the test dataset
         test_dataset = dataset.build_test_data(task,paradigm,incomplete_targets)
@@ -228,7 +286,19 @@ class ABSAGenerativeTrainer:
         
         return predictions
 
-    def generate_predictions(self,tokenized,device,batch_size,max_len,decoding_args):
+    def generate_predictions(self,tokenized:torch.Tensor,device:torch.device=torch.device("cpu"),batch_size:int=16,max_len:int=512,decoding_args:Dict={}) -> List[str]:
+        """
+        ### DESC
+            Method to generate predictions using generative model.
+        ### PARAMS
+        * tokenized: Tokenized text.
+        * device: Torch device instance.
+        * batch_size: Batch size.
+        * max_len: Maximum length of the decoded result.
+        * decoding_args: Dictionary containing decoding key word arguments.
+        ### RETURN
+        * Decoded predictions.
+        """
         # Data loader
         data_loader = torch.utils.data.DataLoader(tokenized["input_ids"],
                             batch_size=batch_size,shuffle=False)
@@ -244,7 +314,20 @@ class ABSAGenerativeTrainer:
         predictions = tokenizer.batch_decode(tensor_predictions,**decoding_args)
         return predictions
     
-    def predict_non_absa(self,dataset:NonABSADataset,device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+    def predict_non_absa(self,dataset:NonABSADataset,device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512) -> List[str]:
+        """
+        ### DESC
+            Mthod to predict non absa datasets.
+        ### PARAMS
+        * dataset: NonABSADataset instance.
+        * device: Torch device instance.
+        * batch_size: Batch size.
+        * encoding_args: Dictionary containing encoding key word arguments.
+        * decoding_args: Dictionary containing decoding key word arguments.
+        * max_len: Maximum length of the decoded result.
+        ### RETURN
+        * Decoded predictions for non absa task.
+        """
         test_dataset = dataset.build_data()
         tokenizer = self.model_and_tokenizer.tokenizer
         tokenized_test = tokenizer(test_dataset, **encoding_args)
