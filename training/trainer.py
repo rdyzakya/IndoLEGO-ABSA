@@ -218,15 +218,16 @@ class ABSAGenerativeTrainer:
         """
         # Extraction for main task
         # Recursive
-        predictions = self.predict_absa_per_task_per_paradigm(dataset,[],task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+        blank_incomplete_targets = [[] for n in range(len(dataset))]
+        predictions = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
         if isinstance(children_task,Dict):
             for child_task in children_task.keys():
-                child_predictions = self.predict_absa_per_task(dataset,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
-                self.add_imputation_predictions(dataset, task, predictions, child_predictions, device, batch_size, encoding_args, decoding_args, max_len)
+                child_predictions = self.predict_absa_per_task(dataset,blank_incomplete_targets,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
+                self.add_imputation_predictions(dataset, predictions, child_predictions, task, device, batch_size, encoding_args, decoding_args, max_len)
         else: # List
             for child_task in children_task:
-                child_predictions = self.predict_absa_per_task_per_paradigm(dataset,[],child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
-                self.add_imputation_predictions(dataset, task, predictions, child_predictions, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions)
+                child_predictions = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+                self.add_imputation_predictions(dataset, predictions, child_predictions, task, device, batch_size, encoding_args, decoding_args, max_len)
         return predictions
 
     def add_imputation_predictions(self, dataset:ABSADataset, predictions:List[List[Dict]], child_predictions:List[List[Dict]], task:str="acos", device:torch.device=torch.device("cpu"), batch_size:int=16, encoding_args:Dict={}, decoding_args:Dict={}, max_len:int=512):
@@ -273,7 +274,7 @@ class ABSAGenerativeTrainer:
         test_dataset = dataset.build_test_data(task,paradigm,incomplete_targets)
         # Tokenize the input
         tokenizer = self.model_and_tokenizer.tokenizer
-        if self.model_type == "seq2seq":
+        if self.model_and_tokenizer.model_type == "seq2seq":
             tokenized_test = tokenizer(test_dataset["input"], text_target=test_dataset["output"], **encoding_args)
         else: # "causal_lm"
             causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(test_dataset))]
@@ -332,5 +333,5 @@ class ABSAGenerativeTrainer:
         """
         test_dataset = dataset.build_data()
         tokenizer = self.model_and_tokenizer.tokenizer
-        tokenized_test = tokenizer(test_dataset, **encoding_args)
+        tokenized_test = tokenizer(test_dataset["input"], **encoding_args)
         return self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
