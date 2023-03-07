@@ -69,7 +69,7 @@ def handle_mix_sentiment(targets:List[Dict]) -> List[Dict]: ### MAY CONTAIN BUG,
                 results_targets.append(target)
             else:
                 target = non_sentiment_target.copy()
-                target["sentiment"] = sentiments[0]
+                target["sentiment"] = sentiments[0] if len(sentiments) > 0 else "neutral"
                 results_targets.append(target)
             while non_sentiment_target in non_sentiment_target_stack:
                 non_sentiment_target_index = non_sentiment_target_stack.index(non_sentiment_target)
@@ -189,8 +189,12 @@ class ABSADataset(CustomDataset):
                 "task" : task
             }
             if incomplete_targets != None:
-                row["incomplete_target"]= incomplete_targets[i_row]
+                if len(incomplete_targets) == len(self.data):
+                    incomplete_targets[i_row] = handle_mix_sentiment(incomplete_targets[i_row])
+                    incomplete_targets[i_row] = remove_duplicate_targets(incomplete_targets[i_row])
+                    row["incomplete_target"]= incomplete_targets[i_row]
             row = self.stringify_input_output(row,self.prompter,self.pattern,self.prompt_side)
+            row["target"] = targets
             test_data.append(row)
         test_data = Dataset.from_pandas(pd.DataFrame(test_data))
         return test_data
@@ -230,7 +234,7 @@ class ABSADataset(CustomDataset):
     def stringify_input_output(self,row:Dict,prompter:Prompter=Prompter(),pattern:Pattern=Pattern(),prompt_side:str="left") -> Dict:
         """
         ### DESC
-            Mapping method for creating input output (designed for uggingface trainer).
+            Mapping method for creating input output (designed for Huggingface trainer).
         ### PARAMS
         * row: Data row.
         * prompter: Prompter object.

@@ -1,12 +1,14 @@
+import torch
 from transformers import DataCollatorForSeq2Seq, DataCollatorForLanguageModeling
 from transformers import EvalPrediction
 from transformers import TrainingArguments, Seq2SeqTrainingArguments, Trainer, Seq2SeqTrainer, set_seed
+from data_utils.dataset import handle_mix_sentiment, remove_duplicate_targets
 from model import ABSAGenerativeModelWrapper
 from evaluation import recall, precision, f1_score
-from data_utils import Pattern, CONSTANT_VOCAB
+from data_utils import ABSADataset, NonABSADataset, Pattern, CONSTANT_VOCAB
 from datasets import Dataset
 from typing import List, Dict
-
+from tqdm import tqdm
 import numpy as np
 
 class ABSAGenerativeTrainer:
@@ -30,9 +32,10 @@ class ABSAGenerativeTrainer:
         """
         new_vocab = CONSTANT_VOCAB + list(pattern.mask.keys()) + list(pattern.mask.values()) + pattern.categories
         absa_model_and_tokenizer.add_vocab(new_vocab)
-        
+
         self.model_and_tokenizer = absa_model_and_tokenizer
         self.pattern = pattern
+
     def prepare_data(self,train_dataset:Dataset,eval_dataset:Dataset=None,**encoding_args):
         """
         ### DESC
@@ -168,5 +171,69 @@ class ABSAGenerativeTrainer:
                 self.model_and_tokenizer.tokenizer.save_pretrained(output_dir)
             self.model_and_tokenizer.model.save_pretrained(save_directory=output_dir)
     
-    def predict(self):
+    def predict_absa(self,dataset:ABSADataset,task_tree:Dict={"acos" : {"ao" : [],"as" : [],"aos" : ['a']}},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+        predictions = {}
+        if isinstance(task_tree,Dict):
+            for main_task, children_task in task_tree.items():
+                predictions[main_task] = self.predict_absa_per_task(dataset,main_task,children_task,device,batch_size,encoding_args,decoding_args,max_len)
+        else:
+            for main_task in task_tree:
+                predictions[main_task] = self.predict_absa_per_task(dataset,main_task,[],device,batch_size,encoding_args,decoding_args,max_len)
+        return predictions
+
+    def predict_absa_per_task(self,dataset:ABSADataset,task:str="aos",children_task:Dict={"ao" : ['a'], 'a' : []},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):        
+        # Extraction for main task
+        # Recursive
+        predictions = self.predict_absa_per_task_per_paradigm(dataset,[],task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+        if isinstance(children_task,Dict):
+            for child_task in children_task.keys():
+                child_predictions = self.predict_absa_per_task(dataset,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
+                self.add_imputation_predictions(dataset, task, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions)
+        else: # List
+            for child_task in children_task:
+                child_predictions = self.predict_absa_per_task_per_paradigm(dataset,[],child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+                self.add_imputation_predictions(dataset, task, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions)
+        return predictions
+
+    def add_imputation_predictions(self, dataset, task, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions):
+        imputation_predictions = self.predict_absa_per_task_per_paradigm(dataset,child_predictions,task,"imputation",device,batch_size,encoding_args,decoding_args,max_len)
+        assert len(predictions) == len(imputation_predictions)
+        for i_row in range(len(predictions)):
+            pred = predictions[i_row] + imputation_predictions[i_row]
+            pred = handle_mix_sentiment(pred)
+            pred = remove_duplicate_targets(pred)
+            predictions[i_row] = pred
+
+    def predict_absa_per_task_per_paradigm(self,dataset:ABSADataset,incomplete_targets:List[List[Dict]],task:str='a',paradigm:str="extraction",device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+        predictions = []
+        # Build the test dataset
+        test_dataset = dataset.build_test_data(task,paradigm,incomplete_targets)
+        # Tokenize the input
+        tokenizer = self.model_and_tokenizer.tokenizer
+        if self.model_type == "seq2seq":
+            tokenized_test = tokenizer(test_dataset["input"], text_target=test_dataset["output"], **encoding_args)
+        else: # "causal_lm"
+            causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(test_dataset))]
+            tokenized_test = tokenizer(causal_lm_test_input, **encoding_args)
+        # Move the model to device
+        self.model_and_tokenizer.to(device)
+        # Data loader
+        data_loader = torch.utils.data.DataLoader(tokenized_test["input_ids"],
+                            batch_size=batch_size,shuffle=False)
+        # Predict
+        model = self.model_and_tokenizer.model
+        tensor_predictions = []
+        with torch.no_grad():
+            for batch in tqdm(data_loader):
+                tensor_predictions.extend(model.generate(input_ids=batch.to(device),max_length=max_len))
+        decoded_predictions = tokenizer.batch_decode(tensor_predictions,**decoding_args)
+        for i_pred in range(len(decoded_predictions)):
+            new_prediction = self.pattern.find_all(decoded_predictions[i_pred],task)
+            new_prediction = handle_mix_sentiment(new_prediction)
+            new_prediction = remove_duplicate_targets(new_prediction)
+            predictions.append(new_prediction)
+        
+        return predictions
+
+    def predict_non_absa(self):
         pass
