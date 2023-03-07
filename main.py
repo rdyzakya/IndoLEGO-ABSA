@@ -1,4 +1,4 @@
-from dataset import ABSADataset, NonABSADataset, MixedDataset, Pattern, Prompter
+from data_utils import ABSADataset, NonABSADataset, MixedDataset, Pattern, Prompter
 from model import ABSAGenerativeModelWrapper
 from training import ABSAGenerativeTrainer
 

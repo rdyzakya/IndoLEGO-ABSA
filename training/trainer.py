@@ -1,11 +1,14 @@
+import torch
 from transformers import DataCollatorForSeq2Seq, DataCollatorForLanguageModeling
 from transformers import EvalPrediction
 from transformers import TrainingArguments, Seq2SeqTrainingArguments, Trainer, Seq2SeqTrainer, set_seed
+from data_utils.dataset import handle_mix_sentiment, remove_duplicate_targets
 from model import ABSAGenerativeModelWrapper
 from evaluation import recall, precision, f1_score
-from dataset import MixedDataset, Pattern
+from data_utils import ABSADataset, NonABSADataset, Pattern, CONSTANT_VOCAB
+from datasets import Dataset
 from typing import List, Dict
-
+from tqdm import tqdm
 import numpy as np
 
 class ABSAGenerativeTrainer:
@@ -27,17 +30,19 @@ class ABSAGenerativeTrainer:
         ### PARAMS
         * absa_model_and_tokenizer: ABSAGenerativeModelWrapper instance.
         """
+        new_vocab = CONSTANT_VOCAB + list(pattern.mask.keys()) + list(pattern.mask.values()) + pattern.categories
+        absa_model_and_tokenizer.add_vocab(new_vocab)
+
         self.model_and_tokenizer = absa_model_and_tokenizer
         self.pattern = pattern
-    
-    def prepare_data(self,train_dataset:MixedDataset,eval_dataset:MixedDataset=None,test_dataset:MixedDataset=None,**encoding_args):
+
+    def prepare_data(self,train_dataset:Dataset,eval_dataset:Dataset=None,**encoding_args):
         """
         ### DESC
             Method for preparing data (data collator and tokenize the dataset).
         ### PARAMS
         * train_dataset: Training dataset.
         * eval_dataset: Eval dataset.
-        * test_dataset: Test dataset.
         * encoding_args: Encoding arguments (HF Tokenizer arguments).
         """
         tokenizer = self.model_and_tokenizer.tokenizer
@@ -48,24 +53,18 @@ class ABSAGenerativeTrainer:
         
         # Encode the input and output
         if model_type == "seq2seq":
-            self.tokenized_train = tokenizer(train_dataset.dataset["input"], text_target=train_dataset.dataset["output"], **encoding_args)
+            self.tokenized_train = tokenizer(train_dataset["input"], text_target=train_dataset["output"], **encoding_args)
             if eval_dataset != None:
-                self.tokenized_eval = tokenizer(eval_dataset.dataset["input"], text_target=eval_dataset.dataset["output"], **encoding_args)
-            if test_dataset != None:
-                self.tokenized_test = tokenizer(test_dataset.dataset["input"], text_target=test_dataset.dataset["output"], **encoding_args)
+                self.tokenized_eval = tokenizer(eval_dataset["input"], text_target=eval_dataset["output"], **encoding_args)
         else: # "causal_lm"
-            causal_lm_train_input = [train_dataset.dataset["input"][i] + ' ' + train_dataset.dataset["output"][i] for i in range(len(train_dataset))]
+            causal_lm_train_input = [train_dataset["input"][i] + ' ' + train_dataset["output"][i] for i in range(len(train_dataset))]
             self.tokenized_train = tokenizer(causal_lm_train_input, **encoding_args)
             if eval_dataset != None:
-                causal_lm_eval_input = [eval_dataset.dataset["input"][i] + ' ' + eval_dataset.dataset["output"][i] for i in range(len(eval_dataset))]
+                causal_lm_eval_input = [eval_dataset["input"][i] + ' ' + eval_dataset["output"][i] for i in range(len(eval_dataset))]
                 self.tokenized_eval = tokenizer(causal_lm_eval_input, **encoding_args)
-            if test_dataset != None:
-                causal_lm_test_input = [test_dataset.dataset["input"][i] + ' ' + test_dataset.dataset["output"][i] for i in range(len(test_dataset))]
-                self.tokenized_test = tokenizer(causal_lm_test_input, **encoding_args)
         
         self.train_tasks = train_dataset.data_frame.task.tolist()
         self.eval_tasks = eval_dataset.data_frame.task.tolist()
-        self.test_tasks = test_dataset.data_frame.task.tolist()
     
     def compute_metrics(self,eval_preds:EvalPrediction) -> Dict[str,float]: # MAY NOT BE SUFFICIATE FOR CAUSAL LM
         """
@@ -172,5 +171,81 @@ class ABSAGenerativeTrainer:
                 self.model_and_tokenizer.tokenizer.save_pretrained(output_dir)
             self.model_and_tokenizer.model.save_pretrained(save_directory=output_dir)
     
-    def predict(self):
-        pass
+    def predict_absa(self,dataset:ABSADataset,task_tree:Dict={"acos" : {"ao" : [],"as" : [],"aos" : ['a']}},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+        # Move the model to device
+        self.model_and_tokenizer.to(device)
+        predictions = {}
+        if isinstance(task_tree,Dict):
+            for main_task, children_task in task_tree.items():
+                predictions[main_task] = self.predict_absa_per_task(dataset,main_task,children_task,device,batch_size,encoding_args,decoding_args,max_len)
+        else:
+            for main_task in task_tree:
+                predictions[main_task] = self.predict_absa_per_task(dataset,main_task,[],device,batch_size,encoding_args,decoding_args,max_len)
+        self.model_and_tokenizer.to(torch.device("cpu"))
+        return predictions
+
+    def predict_absa_per_task(self,dataset:ABSADataset,task:str="aos",children_task:Dict={"ao" : ['a'], 'a' : []},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):        
+        # Extraction for main task
+        # Recursive
+        predictions = self.predict_absa_per_task_per_paradigm(dataset,[],task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+        if isinstance(children_task,Dict):
+            for child_task in children_task.keys():
+                child_predictions = self.predict_absa_per_task(dataset,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
+                self.add_imputation_predictions(dataset, task, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions)
+        else: # List
+            for child_task in children_task:
+                child_predictions = self.predict_absa_per_task_per_paradigm(dataset,[],child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+                self.add_imputation_predictions(dataset, task, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions)
+        return predictions
+
+    def add_imputation_predictions(self, dataset, task, device, batch_size, encoding_args, decoding_args, max_len, predictions, child_predictions):
+        imputation_predictions = self.predict_absa_per_task_per_paradigm(dataset,child_predictions,task,"imputation",device,batch_size,encoding_args,decoding_args,max_len)
+        assert len(predictions) == len(imputation_predictions)
+        for i_row in range(len(predictions)):
+            pred = predictions[i_row] + imputation_predictions[i_row]
+            pred = handle_mix_sentiment(pred)
+            pred = remove_duplicate_targets(pred)
+            predictions[i_row] = pred
+
+    def predict_absa_per_task_per_paradigm(self,dataset:ABSADataset,incomplete_targets:List[List[Dict]],task:str='a',paradigm:str="extraction",device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+        predictions = []
+        # Build the test dataset
+        test_dataset = dataset.build_test_data(task,paradigm,incomplete_targets)
+        # Tokenize the input
+        tokenizer = self.model_and_tokenizer.tokenizer
+        if self.model_type == "seq2seq":
+            tokenized_test = tokenizer(test_dataset["input"], text_target=test_dataset["output"], **encoding_args)
+        else: # "causal_lm"
+            causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(test_dataset))]
+            tokenized_test = tokenizer(causal_lm_test_input, **encoding_args)
+        # Predict
+        decoded_predictions = self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
+        for i_pred in range(len(decoded_predictions)):
+            new_prediction = self.pattern.find_all(decoded_predictions[i_pred],task)
+            new_prediction = handle_mix_sentiment(new_prediction)
+            new_prediction = remove_duplicate_targets(new_prediction)
+            predictions.append(new_prediction)
+        
+        return predictions
+
+    def generate_predictions(self,tokenized,device,batch_size,max_len,decoding_args):
+        # Data loader
+        data_loader = torch.utils.data.DataLoader(tokenized["input_ids"],
+                            batch_size=batch_size,shuffle=False)
+        # Predict
+        model = self.model_and_tokenizer.model
+        tokenizer = self.model_and_tokenizer.tokenizer
+        tensor_predictions = []
+        with torch.no_grad():
+            for batch in tqdm(data_loader):
+                batch = batch.to(device)
+                tensor_predictions.extend(model.generate(input_ids=batch,max_length=max_len).cpu())
+                batch = batch.cpu()
+        predictions = tokenizer.batch_decode(tensor_predictions,**decoding_args)
+        return predictions
+    
+    def predict_non_absa(self,dataset:NonABSADataset,device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512):
+        test_dataset = dataset.build_data()
+        tokenizer = self.model_and_tokenizer.tokenizer
+        tokenized_test = tokenizer(test_dataset, **encoding_args)
+        return self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
