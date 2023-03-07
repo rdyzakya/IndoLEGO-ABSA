@@ -392,7 +392,7 @@ if __name__ == "__main__":
             "aos" : ["ao","as"]
         }
     }
-    pattern = Pattern(task=["ao","as","aos","os","a"],
+    pattern = Pattern(tasks=["ao","as","aos","os","a"],
                       categories=["LAPTOP#GENERAL","BATTERY#HEALTH"])
     prompter = Prompter()
     prompt_side = "left"

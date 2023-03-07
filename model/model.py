@@ -64,3 +64,8 @@ class ABSAGenerativeModelWrapper:
             for token in tokenized_term:
                 if token not in vocab:
                     self.tokenizer.add_tokens(token)
+
+if __name__ == "__main__":
+    wrapper = ABSAGenerativeModelWrapper("t5-small")
+    print(wrapper.model)
+    print(wrapper.tokenizer)

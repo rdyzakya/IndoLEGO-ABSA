@@ -48,23 +48,22 @@ class ABSAGenerativeTrainer:
         tokenizer = self.model_and_tokenizer.tokenizer
         model_type = self.model_and_tokenizer.model_type
 
+        def encode(dataset):
+            if model_type == "seq2seq":
+                result = tokenizer(dataset["input"], text_target=dataset["output"], **encoding_args)
+                return result
+            causal_lm_input = [dataset["input"][i] + ' ' + dataset["output"][i] for i in range(len(dataset))]
+            return tokenizer(causal_lm_input,**encoding_args)
+
         # Prepare data collator
         self.data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer) if self.model_and_tokenizer.model_type == "seq2seq" else DataCollatorForLanguageModeling(tokenizer=tokenizer)
         
         # Encode the input and output
-        if model_type == "seq2seq":
-            self.tokenized_train = tokenizer(train_dataset["input"], text_target=train_dataset["output"], **encoding_args)
-            if eval_dataset != None:
-                self.tokenized_eval = tokenizer(eval_dataset["input"], text_target=eval_dataset["output"], **encoding_args)
-        else: # "causal_lm"
-            causal_lm_train_input = [train_dataset["input"][i] + ' ' + train_dataset["output"][i] for i in range(len(train_dataset))]
-            self.tokenized_train = tokenizer(causal_lm_train_input, **encoding_args)
-            if eval_dataset != None:
-                causal_lm_eval_input = [eval_dataset["input"][i] + ' ' + eval_dataset["output"][i] for i in range(len(eval_dataset))]
-                self.tokenized_eval = tokenizer(causal_lm_eval_input, **encoding_args)
+        self.tokenized_train = train_dataset.map(encode,batched=True,remove_columns=train_dataset.column_names)
+        self.tokenized_eval = eval_dataset.map(encode,batched=True,remove_columns=eval_dataset.column_names)
         
-        self.train_tasks = train_dataset.data_frame.task.tolist()
-        self.eval_tasks = eval_dataset.data_frame.task.tolist()
+        self.train_tasks = train_dataset["task"]
+        self.eval_tasks = eval_dataset["task"]
     
     def compute_metrics(self,eval_preds:EvalPrediction) -> Dict[str,float]: # MAY NOT BE SUFFICIATE FOR CAUSAL LM
         """
@@ -89,11 +88,11 @@ class ABSAGenerativeTrainer:
         
         input_ids = np.argmax(input_ids,axis=-1) if len(input_ids.shape) == 3 else input_ids # in case not predict with generate
         target_ids = np.argmax(target_ids,axis=-1) if len(target_ids.shape) == 3 else target_ids # in case not predict with generate
-        predictions = np.argmax(pred_ids,axis=-1) if len(pred_ids.shape) == 3 else pred_ids # in case not predict with generate
+        prediction_ids = np.argmax(pred_ids,axis=-1) if len(pred_ids.shape) == 3 else pred_ids # in case not predict with generate
 
-        inputs = self.model_and_tokenizer.tokenizer.batch_decode(inputs,skip_special_tokens=True)
-        targets = self.model_and_tokenizer.tokenizer.batch_decode(targets,skip_special_tokens=True)
-        predictions = self.model_and_tokenizer.tokenizer.batch_decode(predictions,skip_special_tokens=True)
+        inputs = self.model_and_tokenizer.tokenizer.batch_decode(input_ids,skip_special_tokens=True)
+        targets = self.model_and_tokenizer.tokenizer.batch_decode(target_ids,skip_special_tokens=True)
+        predictions = self.model_and_tokenizer.tokenizer.batch_decode(prediction_ids,skip_special_tokens=True)
 
         targets = [self.pattern.find_all(text,task) for text,task in zip(targets,self.eval_tasks) if task != "non_absa"]
         predictions = [self.pattern.find_all(text,task) for text,task in zip(predictions,self.eval_tasks) if task != "non_absa"]
@@ -132,6 +131,10 @@ class ABSAGenerativeTrainer:
         ### PARAMS
         * train_args_dict: Training arguments (dictionary).
         """
+        train_args_dict.update({
+            "predict_with_generate" : True,
+            "include_inputs_for_metrics" : True,
+        })
         self.training_args = Seq2SeqTrainingArguments(**train_args_dict) if self.model_and_tokenizer.model_type == "seq2seq" else TrainingArguments(**train_args_dict)
 
     def prepare_trainer(self):
@@ -146,8 +149,6 @@ class ABSAGenerativeTrainer:
             "data_collator" : self.data_collator,
             "train_dataset" : self.tokenized_train,
             "eval_dataset" : self.tokenized_eval,
-            "predict_with_generate" : True,
-            "include_inputs_for_metrics" : True,
             "compute_metrics" : self.compute_metrics
         }
 
@@ -162,7 +163,8 @@ class ABSAGenerativeTrainer:
         * output_dir: Output model (and tokenizer) path directory (None if don't want to save).
         * random_seed: Random seed for training.
         """
-        set_seed(random_seed)
+        if isinstance(random_seed,int):
+            set_seed(random_seed)
 
         self.trainer.train()
 
