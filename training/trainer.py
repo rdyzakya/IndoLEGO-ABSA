@@ -56,7 +56,7 @@ class ABSAGenerativeTrainer:
             return tokenizer(causal_lm_input,**encoding_args)
 
         # Prepare data collator
-        self.data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer) if self.model_and_tokenizer.model_type == "seq2seq" else DataCollatorForLanguageModeling(tokenizer=tokenizer)
+        self.data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer) if self.model_and_tokenizer.model_type == "seq2seq" else DataCollatorForLanguageModeling(tokenizer=tokenizer,mlm=False)
         
         # Encode the input and output
         self.tokenized_train = train_dataset.map(encode,batched=True,remove_columns=train_dataset.column_names)
@@ -132,9 +132,12 @@ class ABSAGenerativeTrainer:
         * train_args_dict: Training arguments (dictionary).
         """
         train_args_dict.update({
-            "predict_with_generate" : True,
             "include_inputs_for_metrics" : True,
         })
+        if self.model_and_tokenizer.model_type == "seq2seq":
+            train_args_dict.update(
+                {"predict_with_generate" : True,}
+            )
         self.training_args = Seq2SeqTrainingArguments(**train_args_dict) if self.model_and_tokenizer.model_type == "seq2seq" else TrainingArguments(**train_args_dict)
 
     def prepare_trainer(self):
