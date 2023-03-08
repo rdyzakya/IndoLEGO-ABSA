@@ -10,6 +10,7 @@ from datasets import Dataset
 from typing import List, Dict
 from tqdm import tqdm
 import numpy as np
+from numba import cuda
 
 class ABSAGenerativeTrainer:
     """
@@ -48,12 +49,18 @@ class ABSAGenerativeTrainer:
         tokenizer = self.model_and_tokenizer.tokenizer
         model_type = self.model_and_tokenizer.model_type
 
+        def create_clm(row):
+            return {"causal_lm_input" : row["input"] + ' ' + row["output"]}
+          
+        if model_type == "causal_lm":
+          train_dataset = train_dataset.map(create_clm)
+          eval_dataset = eval_dataset.map(create_clm)
+
         def encode(dataset):
             if model_type == "seq2seq":
                 result = tokenizer(dataset["input"], text_target=dataset["output"], **encoding_args)
                 return result
-            causal_lm_input = [dataset["input"][i] + ' ' + dataset["output"][i] for i in range(len(dataset))]
-            return tokenizer(causal_lm_input,**encoding_args)
+            return tokenizer(dataset["causal_lm_input"],**encoding_args)
 
         # Prepare data collator
         self.data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer) if self.model_and_tokenizer.model_type == "seq2seq" else DataCollatorForLanguageModeling(tokenizer=tokenizer,mlm=False)
