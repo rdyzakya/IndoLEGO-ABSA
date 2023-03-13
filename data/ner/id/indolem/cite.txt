@@ -1,0 +1,2 @@
+Gultom, Y., & Wibowo, W. C. (2017, September). Automatic open domain information extraction from Indonesian text. In 2017 International Workshop on Big Data and Information Security (IWBIS) (pp. 23-30). IEEE.
+Fachri, M. (2014). Named entity recognition for Indonesian text using hidden Markov model. Universitas Gadjah Mada.
