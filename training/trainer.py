@@ -4,7 +4,7 @@ from transformers import EvalPrediction
 from transformers import TrainingArguments, Seq2SeqTrainingArguments, Trainer, Seq2SeqTrainer, set_seed
 from data_utils.dataset import handle_mix_sentiment, remove_duplicate_targets
 from model import ABSAGenerativeModelWrapper
-from evaluation import recall, precision, f1_score
+from evaluation import recall, precision, f1_score, summary_score
 from data_utils import ABSADataset, NonABSADataset, Pattern, CONSTANT_VOCAB
 from datasets import Dataset
 from typing import List, Dict
@@ -197,18 +197,24 @@ class ABSAGenerativeTrainer:
         * max_len: Maximum length of the decoded result.
         ### RETURN
         * ABSA targets for all the task contained in the task tree.
+        * Summary scores.
         """
         # Move the model to device
         self.model_and_tokenizer.to(device)
         predictions = {}
+        summary = {}
         if isinstance(task_tree,Dict):
             for main_task, children_task in task_tree.items():
                 predictions[main_task] = self.predict_absa_per_task(dataset,main_task,children_task,device,batch_size,encoding_args,decoding_args,max_len)
+                targets = dataset.build_test_data(main_task,"extraction",[])["target"]
+                summary[main_task] = summary_score(predictions[main_task],targets)
         else:
             for main_task in task_tree:
                 predictions[main_task] = self.predict_absa_per_task(dataset,main_task,[],device,batch_size,encoding_args,decoding_args,max_len)
+                targets = dataset.build_test_data(main_task,"extraction",[])["target"]
+                summary[main_task] = summary_score(predictions[main_task],targets)
         self.model_and_tokenizer.to(torch.device("cpu"))
-        return predictions
+        return predictions, summary
 
     def predict_absa_per_task(self,dataset:ABSADataset,task:str="aos",children_task:Dict={"ao" : ['a'], 'a' : []},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512) -> List[List[Dict]]:
         """

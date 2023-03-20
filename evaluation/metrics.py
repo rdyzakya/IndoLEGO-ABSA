@@ -64,6 +64,22 @@ def f1_score(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
     result = (2 * recall_value * precision_value)/(recall_value + precision_value) if recall_value > 0 and precision_value > 0 else 0
     return result
 
+def summary_score(predictions:List[List[Dict]],targets:List[List[Dict]]) -> Dict:
+    """
+    ### DESC
+        Score summary (recall, precision, f1 score).
+    ### PARAMS
+    * predictions: List of list of prediction dictionary.
+    * targets: List of list of target dictionary.
+    ### RETURN
+    * Score summary in a dictionary form.
+    """
+    return {
+        "recall" : recall(predictions,targets),
+        "precision" : precision(predictions,targets),
+        "f1_score" : f1_score(predictions,targets)
+    }
+
 if __name__ == "__main__":
     labels = [
         [

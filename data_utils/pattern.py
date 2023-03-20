@@ -1,24 +1,24 @@
 from typing import List, Dict
 from constant import SENTTAG2WORD, SPECIAL_CHAR, PATTERN_TOKEN, SENTIMENT_ELEMENT, NO_TARGET
 import re
+from itertools import combinations, permutations
 
 class Pattern:
     """
     Pattern for the generated answers.
     """
-    def __init__(self,tasks:List[str]=["ao","ac","as","aos","acs","aocs"],open_bracket:str='(',close_bracket:str=')',intra_sep:str=',',inter_sep:str=';',categories:List[str]=["CAT0","CAT1"]):
+    def __init__(self,open_bracket:str='(',close_bracket:str=')',intra_sep:str=',',inter_sep:str=';',categories:List[str]=["CAT0","CAT1"]):
         """
         ### DESC
             Constructor for Pattern objects (pattern for the generated answers).
         ### PARAMS
-        * task: Tasks used. Example: aocs, aoc, ao, ac, etc.
         * open_bracket: Open bracket symbol.
         * close_bracket: Close bracket symbol.
         * intra_sep: Seperator between sentiment elements in a tuple.
         * inter_sep: Seperator between multiple tuples.
         * categories: List of categories if exist.
         """
-        self.tasks = tasks
+        self.tasks = self.get_task()
         self.open_bracket = open_bracket.strip()
         self.close_bracket = close_bracket.strip()
         self.intra_sep = intra_sep.strip()
@@ -33,6 +33,33 @@ class Pattern:
         }
 
         self.compile_tasks(self.tasks)
+    
+    def get_task(self) -> List[str]:
+        """
+        ### DESC
+            Method to generate all posible ABSA tasks.
+        ### RETURN
+        * List of ABSA tasks in any order possible.
+        """
+        def string_permutations(input_string):
+            output_list = []
+            for perm in permutations(input_string):
+                output_list.append(''.join(perm))
+            return output_list
+        def combination_string(input_string):
+            output_list = []
+            for i in range(1, len(input_string) + 1):
+                for combo in combinations(input_string, i):
+                    output_list.append(''.join(combo))
+            return output_list
+        result = []
+        input_string = "aocs"
+        permut = string_permutations(input_string)
+        for p in permut:
+            result.extend(combination_string(p))
+        result = list(set(result))
+        result.sort()
+        return result
 
     def compile_tasks(self,task:List[str]):
         """
