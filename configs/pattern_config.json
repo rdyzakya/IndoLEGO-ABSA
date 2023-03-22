@@ -1,5 +1,4 @@
 {
-    "tasks" : ["ao","ac","as","aos","acs","aocs"],
     "open_bracket" : "(",
     "close_bracket" : ")",
     "intra_sep" : ",",

@@ -1,0 +1,6 @@
+{
+    "max_length" : 256,
+    "padding" : true,
+    "truncation" : true,
+    "return_tensors" : "pt"
+}

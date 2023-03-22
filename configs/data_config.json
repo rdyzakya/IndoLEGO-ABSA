@@ -1,79 +1,52 @@
 {
-    "absa" : {
-        "train" : [
-            {
-                "data_path" : "train.txt",
-                "target_format" : "acos",
-                "tasks" : {
-                    "extraction" : ["ao","ac","as"],
-                    "imputation" : {
-                        "acos" : ["ao","ac","aos"]
-                    }
-                },
-                "multiply" : true,
-                "multiply_imputation" : true,
-                "shuffle" : true,
-                "random_state" : 0
-            }
-        ],
-        "val" : [
-            {
-                "data_path" : "val.txt",
-                "target_format" : "acos",
-                "tasks" : {
-                    "extraction" : ["ao","ac","as"],
-                    "imputation" : {
-                        "acos" : ["ao","ac","aos"]
-                    }
-                },
-                "multiply" : true,
-                "multiply_imputation" : true,
-                "shuffle" : true,
-                "random_state" : 0
-            }
-        ],
-        "test" : [
-            {
-                "data_path" : "test.txt",
-                "target_format" : "acos",
-                "tasks" : {
-                    "extraction" : ["ao","ac","as"],
-                    "imputation" : {
-                        "acos" : ["ao","ac","aos"]
-                    }
-                },
-                "multiply" : true,
-                "multiply_imputation" : true,
-                "shuffle" : true,
-                "random_state" : 0
-            }
-        ]
+    "train" : {
+        "absa" : {
+            "data_path" : "train_triplets.txt",
+            "target_format" : "aos"
+        },
+        "non_absa" : [{
+            "data_path" : "non_absa.csv"
+        }],
+        "absa_builder_args" : {
+            "tasks" : {
+                "extraction" : ["as","os","a","o"],
+                "imputation" : {
+                    "aos" : ["ao","os"]
+                }
+            },
+            "multiply" : true,
+            "shuffle" : true,
+            "random_state" : 0
+        }
     },
-    "non_absa" : {
-        "train" : [
-            {
-                "data_path" : "train.csv"
-            }
-        ],
-        "val" : [
-            {
-                "data_path" : "val.csv"
-            }
-        ],
-        "test" : [
-            {
-                "data_path" : "test.csv"
-            }
-        ]
+    "val" : {
+        "absa" : {
+            "data_path" : "eval_triplets.txt",
+            "target_format" : "aos"
+        },
+        "non_absa" : [{
+            "data_path" : "non_absa.csv"
+        }],
+        "absa_builder_args" : {
+            "tasks" : {
+                "extraction" : ["as","os","a","o"],
+                "imputation" : {
+                    "aos" : ["ao","os"]
+                }
+            },
+            "multiply" : true,
+            "shuffle" : true,
+            "random_state" : 0
+        }
     },
-    "shuffle" : {
-        "train" : true,
-        "val" : true,
-        "test" : true
-    },
-    "seed" : {
-        "train" : 0,
-        "val" : 0,
-        "test" : 0
+    "test" : {
+        "absa" : {
+            "data_path" : "test_triplets.txt",
+            "target_format" : "aos"
+        },
+        "non_absa" : [{
+            "data_path" : "non_absa.csv"
+        }],
+        "task_tree" : {"aos" : {"ao" : ["a"],"os" : []}}
     }
 }

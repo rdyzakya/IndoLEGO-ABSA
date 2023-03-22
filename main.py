@@ -1,7 +1,9 @@
-from data_utils import ABSADataset, NonABSADataset, MixedDataset, Pattern, Prompter
+from data_utils import ABSADataset, NonABSADataset, Pattern, Prompter
 from model import ABSAGenerativeModelWrapper
 from training import ABSAGenerativeTrainer
-
+import pandas as pd
+from datasets import Dataset
+import torch
 from typing import Dict, Any
 
 from argparse import ArgumentParser
@@ -13,101 +15,101 @@ import os
 def init_args() -> Dict[str,Any]:
     parser = ArgumentParser()
 
-    # All arguments
-    parser.add_argument("--args_json",type=str,help="Arguments file (json)",required=False)
+    parser.add_argument("--train_seed",type=int,help="Training seed",required=False)
+    parser.add_argument("--n_gpu",type=str,help="Gpu device(s) used",default='0')
 
-    # Train arguments
-    parser.add_argument("--cuda_device",type=str,help="GPU device use for training",default="0")
-    parser.add_argument("--training_args",type=str,help="Training arguments path (json)",default="train_args.json")
+    parser.add_argument("--do_train",action="store_true",help="Do training")
+    parser.add_argument("--do_predict",action="store_true",help="Do prediction")
 
-    # Model options
-    parser.add_argument("--model_and_tokenizer_args",type=str,help="Model and tokenizer args",required=False)
-    parser.add_argument("--model_name_or_path",type=str,help="Model name or path",default="t5-base")
-
-    # Data
-    parser.add_argument("--data_config",type=str,help="Path to data configuration (json)",default="data_config.json")
-
-    # Pattern options
-    parser.add_argument("--pattern_config",type=str,help="Path to pattern object configuration",required=False)
-
-    # Prompt options
-    parser.add_argument("--prompt_config",type=str,help="Path to prompter object configuration",required=False)
-
-    # Misc
-    parser.add_argument("--output_dir",type=str,help="Directory for output",default="./output")
-    parser.add_argument("--trainer_seed",type=int,help="Trainer seed",default=None)
+    parser.add_argument('--model_config',type=str,help="Path to model configuration json file.",default="configs/model_config.json")
+    parser.add_argument('--data_config',type=str,help="Path to data configuration json file.",default="configs/data_config.json")
+    parser.add_argument('--pattern_config',type=str,help="Path to pattern configuration json file.",default="configs/pattern_config.json")
+    parser.add_argument('--prompt_config',type=str,help="Path to prompter configuration json file.",default="configs/prompt_config.json")
+    parser.add_argument('--train_args',type=str,help="Path to train configuration json file.",default="configs/train_args.json")
+    parser.add_argument('--encoding_args',type=str,help="Path to encoding configuration json file.",default="configs/encoding_args.json")
 
     args = parser.parse_args()
-    # Transform argparse.NameSpace --> Dict
-    args = vars(args)
+    args.model_config = json.load(open(args.model_config),'r')
+    args.data_config = json.load(open(args.data_config),'r')
+    args.pattern_config = json.load(open(args.pattern_config),'r')
+    args.prompt_config = json.load(open(args.prompt_config),'r')
+    args.train_args = json.load(open(args.train_args),'r')
+    args.encoding_args = json.load(open(args.encoding_args),'r')
 
-    if "args_json" in args.keys():
-        with open(args["args_json"],'r') as file_object:
-            loaded_args = json.load(file_object)
-        args.update(loaded_args)
     return args
 
-
 def main():
-    # Arguments
     args = init_args()
-    
-    # Prepare the model
-    model_and_tokenizer_args = args["model_and_tokenizer_args"] if "model_and_tokenizer_args" in args.keys() else {}
-    model_and_tokenizer = ABSAGenerativeModelWrapper(args["model_name_or_path"],**model_and_tokenizer_args)
-    
-    # Prepare the data
-    with open(args["data_config"],'r') as file_object:
-        data_config = json.load(file_object)
-    
-    pattern_object = Pattern() if "pattern_config" not in args.keys() else Pattern(**args["pattern_config"])
-    prompter = Prompter() if "prompt_config" not in args.keys() else Prompter(**args["prompt_config"])
+    os.environ["CUDA_VISIBLE_DEVICES"] = args.n_gpu
 
-    datasets = {
-        "train" : [],
-        "val" : [],
-        "test" : []
-    }
+    wrapper = ABSAGenerativeModelWrapper(**args.model_config)
+    pattern = Pattern(**args.pattern_config)
+    prompter = Prompter(**args.prompt_config)
+    trainer = ABSAGenerativeTrainer(absa_model_and_tokenizer=wrapper,pattern=pattern)
 
-    for data_split in datasets.keys():
-        ## ABSA Dataset
-        for data_config in data_config["absa"][data_split]:
-            datasets[data_split].append(ABSADataset(prompter=prompter,
-                                            prompt_side=model_and_tokenizer.prompt_side,
-                                            pattern=pattern_object,
-                                            **data_config))
-        ## NonABSA Dataset
-        for data_config in data_config["non_absa"][data_split]:
-            datasets[data_split].append(NonABSADataset(prompt_side=model_and_tokenizer.prompt_side,
-                                                **data_config))
-    ## Transform to MixedDataset
-    train_dataset = MixedDataset(datasets["train"],
-                                shuffle=data_config["shuffle"]["train"],
-                                seed=data_config["seed"]["train"])
-    val_dataset = MixedDataset(datasets["val"],
-                                 shuffle=data_config["shuffle"]["val"],
-                                 seed=data_config["seed"]["val"]) if args["training_args"]["do_eval"] else None
-    test_dataset = MixedDataset(datasets["test"],
-                                 shuffle=data_config["shuffle"]["test"],
-                                 seed=data_config["seed"]["test"]) if args["training_args"]["do_predict"] else None
+    # ABSA Datasets
+
+    train_absa_args = args.data_config["train"]["absa"]
+    train_absa_args.update({
+        "prompter" : prompter,
+        "prompt_side" : wrapper.prompt_side,
+        "pattern" : pattern
+    })
+    train_absa = ABSADataset(**train_absa_args)
+
+    val_absa_args = args.data_config["val"]["absa"]
+    val_absa_args.update({
+        "prompter" : prompter,
+        "prompt_side" : wrapper.prompt_side,
+        "pattern" : pattern
+    })
+    val_absa = ABSADataset(**val_absa_args)
+
+    test_absa_args = args.data_config["test"]["absa"]
+    test_absa_args.update({
+        "prompter" : prompter,
+        "prompt_side" : wrapper.prompt_side,
+        "pattern" : pattern
+    })
+    test_absa = ABSADataset(**test_absa_args)
+
+    # Non ABSA Datasets
+
+    non_absa_train = []
+    for args in args.data_config["train"]["non_absa"]:
+        args.update({
+            "prompt_side" : wrapper.prompt_side
+        })
+        non_absa_train.append(NonABSADataset(**args))
+
+    non_absa_val = []
+    for args in args.data_config["val"]["non_absa"]:
+        args.update({
+            "prompt_side" : wrapper.prompt_side
+        })
+        non_absa_val.append(NonABSADataset(**args))
+
+    non_absa_test = []
+    for args in args.data_config["test"]["non_absa"]:
+        args.update({
+            "prompt_side" : wrapper.prompt_side
+        })
+        non_absa_test.append(NonABSADataset(**args))
     
-    # Train the model
-    encoding_args = {}
-    trainer = ABSAGenerativeTrainer(model_and_tokenizer,pattern=pattern_object)
-    trainer.prepare_data(train_dataset=train_dataset,
-                         eval_dataset=val_dataset,
-                         test_dataset=test_dataset,
-                         **encoding_args)
-    trainer.compile_train_args(args["training_args"])
+    train_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_train] + [train_absa.build_train_val_data(**args.data_config["train"]["absa_builder_args"])])
+    val_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_val] + [val_absa.build_train_val_data(**args.data_config["val"]["absa_builder_args"])])
+
+    train_data = Dataset.from_pandas(train_data)
+    val_data = Dataset.from_pandas(val_data)
+
+    trainer.prepare_data(train_dataset=train_data,eval_dataset=val_data, **args.encoding_args)
+    trainer.compile_train_args(train_args_dict=args.train_args)
     trainer.prepare_trainer()
+    trainer.train(output_dir=args.train_args["output_dir"],random_seed=args.train_seed)
 
-    if args["training_args"]["do_train"]:
-        trainer.train(output_dir=args["output_dir"],
-                    random_seed=args["trainer_seed"])
-    
-    # Prediction
-    if args["training_args"]["do_predict"]:
-        trainer.predict()
-
-if __name__ == "__main__":
-    main()
+    decoding_args = {
+        "skip_special_tokens" : True
+    }
+    device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
+    non_absa_preds = trainer.predict_non_absa(dataset=non_absa_test,device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
+    absa_preds, summary_score = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["task_tree"],device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
