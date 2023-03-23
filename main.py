@@ -71,7 +71,8 @@ def main():
             })
             non_absa_train.append(NonABSADataset(**args))
         
-        train_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_train] + [train_absa.build_train_val_data(**args.data_config["train"]["absa_builder_args"])])
+        absa_builder_args = args.data_config["train"]["absa_builder_args"]
+        train_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_train] + [train_absa.build_train_val_data(**absa_builder_args)])
         train_data = Dataset.from_pandas(train_data)
     
     if args.do_eval:
