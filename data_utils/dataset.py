@@ -6,7 +6,7 @@ import random
 
 from typing import Dict, List
 
-from constant import SEP, SENTTAG2WORD, SENTIMENT_ELEMENT, IMPLICIT_ASPECT
+from .constant import SEP, SENTTAG2WORD, SENTIMENT_ELEMENT, IMPLICIT_ASPECT
 
 sample = "It rarely works and when it does it 's incredibly slow .####[([2], [1], 'NEG')]"
 
