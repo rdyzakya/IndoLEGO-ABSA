@@ -53,6 +53,7 @@ def main():
     print("Debugging [0] start")
     print(type(args))
     print(type(args.data_config))
+    print(args.data_config)
     print("Debugging [0] end")
     # ABSA Datasets
     if args.do_train:
