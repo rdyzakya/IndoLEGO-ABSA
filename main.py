@@ -50,6 +50,9 @@ def main():
     trainer = ABSAGenerativeTrainer(absa_model_and_tokenizer=wrapper,pattern=pattern,do_train=args.do_train,do_eval=args.do_eval)
 
     print("Prepare datasets...")
+    print(type(args))
+    print(type(args.data_config))
+    raise Exception("Debugging [0]")
     # ABSA Datasets
     if args.do_train:
         train_absa_args = args.data_config["train"]["absa"]
