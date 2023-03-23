@@ -68,7 +68,7 @@ def main():
             non_absa_train.append(NonABSADataset(**non_absa_args))
         
         absa_builder_args = args.data_config["train"]["absa_builder_args"]
-        train_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_train] + [train_absa.build_train_val_data(**absa_builder_args)])
+        train_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_train] + [train_absa.build_train_val_data(**absa_builder_args).to_pandas()])
         train_data = Dataset.from_pandas(train_data)
     
     if args.do_eval:
@@ -87,7 +87,7 @@ def main():
             })
             non_absa_val.append(NonABSADataset(**non_absa_args))
         
-        val_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_val] + [val_absa.build_train_val_data(**args.data_config["val"]["absa_builder_args"])])
+        val_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_val] + [val_absa.build_train_val_data(**args.data_config["val"]["absa_builder_args"]).to_pandas()])
         val_data = Dataset.from_pandas(val_data)
     
     if args.do_train:
@@ -108,11 +108,11 @@ def main():
         test_absa = ABSADataset(**test_absa_args)
 
         non_absa_test = []
-        for args in args.data_config["test"]["non_absa"]:
-            args.update({
+        for non_absa_args in args.data_config["test"]["non_absa"]:
+            non_absa_args.update({
                 "prompt_side" : wrapper.prompt_side
             })
-            non_absa_test.append(NonABSADataset(**args))
+            non_absa_test.append(NonABSADataset(**non_absa_args))
 
         decoding_args = {
             "skip_special_tokens" : True
