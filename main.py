@@ -43,13 +43,14 @@ def main():
     args = init_args()
     os.environ["CUDA_VISIBLE_DEVICES"] = args.n_gpu
 
+    print("Initializing...")
     wrapper = ABSAGenerativeModelWrapper(**args.model_config)
     pattern = Pattern(**args.pattern_config)
     prompter = Prompter(**args.prompt_config)
     trainer = ABSAGenerativeTrainer(absa_model_and_tokenizer=wrapper,pattern=pattern,do_train=args.do_train,do_eval=args.do_eval)
 
+    print("Prepare datasets...")
     # ABSA Datasets
-
     if args.do_train:
         train_absa_args = args.data_config["train"]["absa"]
         train_absa_args.update({
@@ -89,12 +90,14 @@ def main():
         val_data = Dataset.from_pandas(val_data)
     
     if args.do_train:
+        print("Training phase...")
         trainer.prepare_data(train_dataset=train_data,eval_dataset=val_data, **args.encoding_args)
         trainer.compile_train_args(train_args_dict=args.train_args)
         trainer.prepare_trainer()
         trainer.train(output_dir=args.train_args["output_dir"],random_seed=args.train_seed)
     
     if args.do_predict:
+        print("Prediction phase...")
         test_absa_args = args.data_config["test"]["absa"]
         test_absa_args.update({
             "prompter" : prompter,
@@ -119,6 +122,7 @@ def main():
         absa_preds, absa_string_preds, summary_score = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["task_tree"],device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
 
         # Save the result for error analysis
+        print("Save results...")
         output_dir = args.train_args["output_dir"]
         # Non ABSA
         non_absa_result = [ds.build_data().to_pandas() for ds in non_absa_test]
