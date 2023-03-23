@@ -142,3 +142,6 @@ def main():
 
         # Summary score
         json.dump(summary_score,open(os.path.join(output_dir,"absa_score.json"),'w'))
+
+if __name__ == "__main__":
+    main()
