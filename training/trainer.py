@@ -240,12 +240,18 @@ class ABSAGenerativeTrainer:
         summary = {}
         if isinstance(task_tree,Dict):
             for main_task, children_task in task_tree.items():
-                predictions[main_task], decoded_predictions[main_task] = self.predict_absa_per_task(dataset,main_task,children_task,device,batch_size,encoding_args,decoding_args,max_len)
+                predictions[main_task], decoded_predictions[main_task] = self.predict_absa_per_task(dataset=dataset,task=main_task,
+                                                                                                    children_task=children_task,device=device,
+                                                                                                    batch_size=batch_size,encoding_args=encoding_args,
+                                                                                                    decoding_args=decoding_args,max_len=max_len)
                 targets = dataset.build_test_data(main_task,"extraction",[])["target"]
                 summary[main_task] = summary_score(predictions[main_task],targets)
         else:
             for main_task in task_tree:
-                predictions[main_task], decoded_predictions[main_task] = self.predict_absa_per_task(dataset,main_task,[],device,batch_size,encoding_args,decoding_args,max_len)
+                predictions[main_task], decoded_predictions[main_task] = self.predict_absa_per_task(dataset=dataset,task=main_task,
+                                                                                                    children_task=[],device=device,
+                                                                                                    batch_size=batch_size,encoding_args=encoding_args,
+                                                                                                    decoding_args=decoding_args,max_len=max_len)
                 targets = dataset.build_test_data(main_task,"extraction",[])["target"]
                 summary[main_task] = summary_score(predictions[main_task],targets)
         self.model_and_tokenizer.to(torch.device("cpu"))
