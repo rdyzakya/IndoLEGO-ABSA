@@ -50,11 +50,6 @@ def main():
     trainer = ABSAGenerativeTrainer(absa_model_and_tokenizer=wrapper,pattern=pattern,do_train=args.do_train,do_eval=args.do_eval)
 
     print("Prepare datasets...")
-    print("Debugging [0] start")
-    print(type(args))
-    print(type(args.data_config))
-    print(args.data_config)
-    print("Debugging [0] end")
     # ABSA Datasets
     if args.do_train:
         train_absa_args = args.data_config["train"]["absa"]
@@ -66,11 +61,11 @@ def main():
         train_absa = ABSADataset(**train_absa_args)
 
         non_absa_train = []
-        for args in args.data_config["train"]["non_absa"]:
-            args.update({
+        for non_absa_args in args.data_config["train"]["non_absa"]:
+            non_absa_args.update({
                 "prompt_side" : wrapper.prompt_side
             })
-            non_absa_train.append(NonABSADataset(**args))
+            non_absa_train.append(NonABSADataset(**non_absa_args))
         
         absa_builder_args = args.data_config["train"]["absa_builder_args"]
         train_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_train] + [train_absa.build_train_val_data(**absa_builder_args)])
@@ -86,11 +81,11 @@ def main():
         val_absa = ABSADataset(**val_absa_args)
 
         non_absa_val = []
-        for args in args.data_config["val"]["non_absa"]:
-            args.update({
+        for non_absa_args in args.data_config["val"]["non_absa"]:
+            non_absa_args.update({
                 "prompt_side" : wrapper.prompt_side
             })
-            non_absa_val.append(NonABSADataset(**args))
+            non_absa_val.append(NonABSADataset(**non_absa_args))
         
         val_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_val] + [val_absa.build_train_val_data(**args.data_config["val"]["absa_builder_args"])])
         val_data = Dataset.from_pandas(val_data)
