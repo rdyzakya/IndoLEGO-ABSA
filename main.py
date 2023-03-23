@@ -30,12 +30,12 @@ def init_args() -> Dict[str,Any]:
     parser.add_argument('--encoding_args',type=str,help="Path to encoding configuration json file.",default="configs/encoding_args.json")
 
     args = parser.parse_args()
-    args.model_config = json.load(open(args.model_config),'r')
-    args.data_config = json.load(open(args.data_config),'r')
-    args.pattern_config = json.load(open(args.pattern_config),'r')
-    args.prompt_config = json.load(open(args.prompt_config),'r')
-    args.train_args = json.load(open(args.train_args),'r')
-    args.encoding_args = json.load(open(args.encoding_args),'r')
+    args.model_config = json.load(open(args.model_config,'r'))
+    args.data_config = json.load(open(args.data_config,'r'))
+    args.pattern_config = json.load(open(args.pattern_config,'r'))
+    args.prompt_config = json.load(open(args.prompt_config,'r'))
+    args.train_args = json.load(open(args.train_args,'r'))
+    args.encoding_args = json.load(open(args.encoding_args,'r'))
 
     return args
 
