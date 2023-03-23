@@ -128,6 +128,8 @@ class ABSAGenerativeTrainer:
         metrics["overall_f1_score"] = f1_score(predictions,targets)
 
         for task in per_task_targets.keys():
+            if task == "non_absa":
+                continue
             metrics[f"{task}_recall"] = recall(per_task_predictions[task],per_task_targets[task])
             metrics[f"{task}_precision"] = precision(per_task_predictions[task],per_task_targets[task])
             metrics[f"{task}_f1_score"] = f1_score(per_task_predictions[task],per_task_targets[task])
