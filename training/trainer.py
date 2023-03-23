@@ -391,5 +391,5 @@ class ABSAGenerativeTrainer:
         test_dataset = [ds.build_data().to_pandas() for ds in dataset]
         test_dataset = pd.concat(test_dataset,axis=0)
         tokenizer = self.model_and_tokenizer.tokenizer
-        tokenized_test = tokenizer(test_dataset["input"], **encoding_args)
+        tokenized_test = tokenizer(test_dataset["input"].values.tolist(), **encoding_args)
         return self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
