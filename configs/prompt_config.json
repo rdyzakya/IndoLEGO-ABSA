@@ -1,5 +1,5 @@
 {
-    "prompter_template" : {
+    "prompt_template" : {
         "extraction" : "Extract with the format PATTERN for the following text",
         "imputation" : "Impute the following IMPUTATION_FIELD for the following text"
     }
