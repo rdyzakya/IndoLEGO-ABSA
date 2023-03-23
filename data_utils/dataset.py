@@ -368,7 +368,6 @@ class NonABSADataset(CustomDataset):
         result_data = result_data[["input","output"]]
         result_data["task"] = ["non_absa" for _ in range(len(self.data))]
         result_data = Dataset.from_pandas(result_data)
-        result_data.remove_columns(["__index_level_0__"])
         return result_data
     
     def add_prompt(self,prompt:str,text:str,prompt_side:str="left") -> str:
