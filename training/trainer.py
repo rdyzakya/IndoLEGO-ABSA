@@ -108,9 +108,10 @@ class ABSAGenerativeTrainer:
         target_ids = np.argmax(target_ids,axis=-1) if len(target_ids.shape) == 3 else target_ids # in case not predict with generate
         prediction_ids = np.argmax(pred_ids,axis=-1) if len(pred_ids.shape) == 3 else pred_ids # in case not predict with generate
 
-        print("[Debugging start]")
-        print(input_ids[0])
-        print("[Debugging end]")
+        input_ids = [[token for token in row if token != -100] for row in input_ids]
+        target_ids = [[token for token in row if token != -100] for row in target_ids]
+        prediction_ids = [[token for token in row if token != -100] for row in prediction_ids]
+
         inputs = self.model_and_tokenizer.tokenizer.batch_decode(input_ids,skip_special_tokens=True)
         targets = self.model_and_tokenizer.tokenizer.batch_decode(target_ids,skip_special_tokens=True)
         predictions = self.model_and_tokenizer.tokenizer.batch_decode(prediction_ids,skip_special_tokens=True)
@@ -367,6 +368,7 @@ class ABSAGenerativeTrainer:
                 batch = batch.to(device)
                 tensor_predictions.extend(model.generate(input_ids=batch,max_length=max_len).cpu())
                 batch = batch.cpu()
+        tensor_predictions = [[token for token in row if token != -100] for row in tensor_predictions]
         predictions = tokenizer.batch_decode(tensor_predictions,**decoding_args)
         return predictions
     
