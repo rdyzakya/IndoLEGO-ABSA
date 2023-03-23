@@ -193,7 +193,15 @@ class ABSAGenerativeTrainer:
         if isinstance(random_seed,int):
             set_seed(random_seed)
 
-        self.trainer.train()
+        train_result = self.trainer.train()
+        train_metrics = train_result.metrics
+        self.trainer.log_metrics("train", train_metrics)
+        self.trainer.save_metrics("train", train_metrics)
+
+        if self.do_eval:
+            eval_metrics = self.trainer.evaluate()
+            self.trainer.log_metrics("eval", eval_metrics)
+            self.trainer.save_metrics("eval", eval_metrics)
 
         if output_dir != None:
             if self.trainer.is_world_process_zero():
