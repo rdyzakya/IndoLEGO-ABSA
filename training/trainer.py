@@ -280,11 +280,11 @@ class ABSAGenerativeTrainer:
         predictions, decoded_predictions = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
         if isinstance(children_task,Dict):
             for child_task in children_task.keys():
-                child_predictions = self.predict_absa_per_task(dataset,blank_incomplete_targets,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
+                child_predictions = self.predict_absa_per_task(dataset,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
                 self.add_imputation_predictions(dataset, predictions, child_predictions, decoded_predictions, task, device, batch_size, encoding_args, decoding_args, max_len)
         else: # List
             for child_task in children_task:
-                child_predictions = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+                child_predictions = self.predict_absa_per_task_per_paradigm(dataset,child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
                 self.add_imputation_predictions(dataset, predictions, child_predictions, decoded_predictions, task, device, batch_size, encoding_args, decoding_args, max_len)
         return predictions, decoded_predictions
 
