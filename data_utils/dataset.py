@@ -160,6 +160,7 @@ class ABSADataset(CustomDataset):
         if shuffle:
             data = data.sample(frac=1.0,random_state=random_state)
         data = Dataset.from_pandas(data)
+        data.remove_columns(["__index_level_0__"])
 
         return data
     
