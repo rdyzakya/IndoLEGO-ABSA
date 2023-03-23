@@ -2,6 +2,7 @@ import torch
 from transformers import DataCollatorForSeq2Seq, DataCollatorForLanguageModeling
 from transformers import EvalPrediction
 from transformers import TrainingArguments, Seq2SeqTrainingArguments, Trainer, Seq2SeqTrainer, set_seed
+from transformers import EarlyStoppingCallback
 from data_utils.dataset import handle_mix_sentiment, remove_duplicate_targets
 from model import ABSAGenerativeModelWrapper
 from evaluation import recall, precision, f1_score, summary_score
@@ -172,6 +173,7 @@ class ABSAGenerativeTrainer:
         if self.train:
             trainer_args.update({
                 "train_dataset" : self.tokenized_train,
+                "callbacks" : [EarlyStoppingCallback(early_stopping_patience=3)]
             })
         if self.do_eval:
             trainer_args.update({
