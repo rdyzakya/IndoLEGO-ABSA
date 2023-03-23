@@ -1,6 +1,6 @@
 from datasets import Dataset
-from pattern import Pattern
-from prompt import Prompter
+from .pattern import Pattern
+from .prompt import Prompter
 import pandas as pd
 import random
 
