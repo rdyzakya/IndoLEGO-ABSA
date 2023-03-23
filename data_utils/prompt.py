@@ -1,6 +1,6 @@
 from typing import List, Dict
-from pattern import Pattern
-from constant import FORMAT_PATTERN_MASK, CATEGORY_MASK, IMPUTATION_FIELD_MASK
+from .pattern import Pattern
+from .constant import FORMAT_PATTERN_MASK, CATEGORY_MASK, IMPUTATION_FIELD_MASK
 
 default_template = {
     "extraction" : f"Extract with the format {FORMAT_PATTERN_MASK} with the categories {CATEGORY_MASK} for the following text",

@@ -1,5 +1,5 @@
 from typing import List, Dict
-from constant import SENTTAG2WORD, SPECIAL_CHAR, PATTERN_TOKEN, SENTIMENT_ELEMENT, NO_TARGET
+from .constant import SENTTAG2WORD, SPECIAL_CHAR, PATTERN_TOKEN, SENTIMENT_ELEMENT, NO_TARGET
 import re
 from itertools import combinations, permutations
 
