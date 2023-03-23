@@ -70,7 +70,7 @@ def main():
         absa_builder_args = args.data_config["train"]["absa_builder_args"]
         train_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_train] + [train_absa.build_train_val_data(**absa_builder_args).to_pandas()])
         print("[Debugging start]")
-        print(train_data.head())
+        print(train_data)
         print(train_data.columns)
         print("[Debugging end]")
         train_data = Dataset.from_pandas(train_data)
