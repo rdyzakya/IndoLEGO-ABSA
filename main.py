@@ -134,7 +134,8 @@ def main():
         # ABSA
         all_absa_result = []
         for task in args.data_config["test"]["task_tree"]:
-            absa_result = test_absa.build_test_data(task,"extraction",[]).to_pandas()
+            blank_incomplete_targets = [[] for n in range(len(test_absa))]
+            absa_result = test_absa.build_test_data(task,"extraction",blank_incomplete_targets).to_pandas()
             absa_result["prediction"] = absa_preds[task]
             # absa_result["string_prediction"] = absa_string_preds[task]
             all_absa_result.append(absa_result)
