@@ -58,7 +58,10 @@ class ABSAGenerativeModelWrapper:
         ### PARAMS
         * new_vocab: List of new vocabularies.
         """
-        vocab = self.tokenizer.get_vocab()
+        try:
+            vocab = self.tokenizer.get_vocab()
+        except NotImplementedError:
+            vocab = []
         for term in new_vocab:
             tokenized_term = self.tokenizer.tokenize(term)
             for token in tokenized_term:
