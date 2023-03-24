@@ -94,7 +94,7 @@ def main():
         print("Training phase...")
         trainer.prepare_data(train_dataset=train_data,eval_dataset=val_data, **args.encoding_args)
         trainer.compile_train_args(train_args_dict=args.train_args)
-        trainer.prepare_trainer()
+        trainer.prepare_trainer(max_len=args.encoder_args["max_len"])
         trainer.train(output_dir=args.train_args["output_dir"],random_seed=args.train_seed)
     
     if args.do_predict:
