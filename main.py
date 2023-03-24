@@ -120,7 +120,7 @@ def main():
         device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
         
         non_absa_preds = trainer.predict_non_absa(dataset=non_absa_test,device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
-        absa_preds, absa_string_preds, summary_score = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["task_tree"],device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
+        absa_preds, summary_score = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["task_tree"],device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
 
         # Save the result for error analysis
         print("Save results...")
@@ -136,7 +136,7 @@ def main():
         for task in args.data_config["test"]["task_tree"]:
             absa_result = test_absa.build_test_data(task,"extraction",[]).to_pandas()
             absa_result["prediction"] = absa_preds[task]
-            absa_result["string_prediction"] = absa_string_preds[task]
+            # absa_result["string_prediction"] = absa_string_preds[task]
             all_absa_result.append(absa_result)
         all_absa_result = pd.concat(all_absa_result)
         all_absa_result.to_csv(os.path.join(output_dir,"absa_pred.csv"),index=False)
