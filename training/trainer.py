@@ -276,15 +276,22 @@ class ABSAGenerativeTrainer:
         """
         # Extraction for main task
         # Recursive
+
+        # Do extraction for the main task
         blank_incomplete_targets = [[] for n in range(len(dataset))]
         predictions, decoded_predictions = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
         if isinstance(children_task,Dict):
             for child_task in children_task.keys():
+                # Do extraction for the children task
                 child_predictions = self.predict_absa_per_task(dataset,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
+                # From the children task result, impute the tuples resulting the main task
                 self.add_imputation_predictions(dataset, predictions, child_predictions, decoded_predictions, task, device, batch_size, encoding_args, decoding_args, max_len)
         else: # List
             for child_task in children_task:
-                child_predictions = self.predict_absa_per_task_per_paradigm(dataset,child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+                # Do extraction for the children task
+                blank_incomplete_targets = [[] for n in range(len(dataset))]
+                child_predictions = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+                # From the children task result, impute the tuples resulting the main task
                 self.add_imputation_predictions(dataset, predictions, child_predictions, decoded_predictions, task, device, batch_size, encoding_args, decoding_args, max_len)
         return predictions, decoded_predictions
 
