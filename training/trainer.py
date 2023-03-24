@@ -164,19 +164,16 @@ class ABSAGenerativeTrainer:
             )
         self.training_args = Seq2SeqTrainingArguments(**train_args_dict) if self.model_and_tokenizer.model_type == "seq2seq" else TrainingArguments(**train_args_dict)
 
-    def prepare_trainer(self,max_len:int=256):
+    def prepare_trainer(self):
         """
         ### DESC
             Method for preparing trainer.
-        ### PARAMS
-        * max_len: Maximum length of the target generated.
         """
         trainer_args = {
             "model" : self.model_and_tokenizer.model,
             "args" : self.training_args,
             "tokenizer" : self.model_and_tokenizer.model,
-            "data_collator" : self.data_collator,
-            "max_length" : max_len
+            "data_collator" : self.data_collator
         }
 
         if self.train:
