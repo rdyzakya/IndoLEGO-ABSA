@@ -244,7 +244,8 @@ class ABSAGenerativeTrainer:
                                                                                                     children_task=children_task,device=device,
                                                                                                     batch_size=batch_size,encoding_args=encoding_args,
                                                                                                     decoding_args=decoding_args,max_len=max_len)
-                targets = dataset.build_test_data(main_task,"extraction",[])["target"]
+                blank_incomplete_targets = [[] for n in range(len(dataset))]
+                targets = dataset.build_test_data(main_task,"extraction",blank_incomplete_targets)["target"]
                 summary[main_task] = summary_score(predictions[main_task],targets)
         else:
             for main_task in task_tree:
@@ -252,7 +253,8 @@ class ABSAGenerativeTrainer:
                                                                                                     children_task=[],device=device,
                                                                                                     batch_size=batch_size,encoding_args=encoding_args,
                                                                                                     decoding_args=decoding_args,max_len=max_len)
-                targets = dataset.build_test_data(main_task,"extraction",[])["target"]
+                blank_incomplete_targets = [[] for n in range(len(dataset))]
+                targets = dataset.build_test_data(main_task,"extraction",blank_incomplete_targets)["target"]
                 summary[main_task] = summary_score(predictions[main_task],targets)
         self.model_and_tokenizer.to(torch.device("cpu"))
         return predictions, summary
