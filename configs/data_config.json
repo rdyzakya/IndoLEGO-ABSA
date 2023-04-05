@@ -1,11 +1,11 @@
 {
     "train" : {
         "absa" : {
-            "data_path" : "train_triplets.txt",
+            "data_path" : "data/absa/en/peng/14lap/train_triplets.txt",
             "target_format" : "aos"
         },
         "non_absa" : [{
-            "data_path" : "non_absa.csv"
+            "data_path" : "data/doc_sa/en/kaggle/interim/Restaurant_Reviews.csv"
         }],
         "absa_builder_args" : {
             "tasks" : {
@@ -21,11 +21,11 @@
     },
     "val" : {
         "absa" : {
-            "data_path" : "eval_triplets.txt",
+            "data_path" : "data/absa/en/peng/14lap/dev_triplets.txt",
             "target_format" : "aos"
         },
         "non_absa" : [{
-            "data_path" : "non_absa.csv"
+            "data_path" : "data/doc_sa/en/kaggle/interim/Restaurant_Reviews.csv"
         }],
         "absa_builder_args" : {
             "tasks" : {
@@ -41,12 +41,12 @@
     },
     "test" : {
         "absa" : {
-            "data_path" : "test_triplets.txt",
+            "data_path" : "data/absa/en/peng/14lap/test_triplets.txt",
             "target_format" : "aos"
         },
         "non_absa" : [{
-            "data_path" : "non_absa.csv"
+            "data_path" : "data/doc_sa/en/kaggle/interim/Restaurant_Reviews.csv"
         }],
-        "task_tree" : {"aos" : {"ao" : ["a"],"os" : []}}
+        "task_tree" : {"aos" : {"ao" : [],"os" : []}}
     }
 }

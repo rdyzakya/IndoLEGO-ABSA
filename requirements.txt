@@ -3,3 +3,5 @@ datasets
 sentencepiece
 spacy
 sacremoses
+numba
+protobuf

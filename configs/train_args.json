@@ -10,7 +10,7 @@
     "metric_for_best_model" : "overall_f1_score",
     "load_best_model_at_end" : true,
     "adam_epsilon" : 1e-8,
-    "eval_accumulation_steps" : 10,
-    "output_dir" : "./output",
+    "eval_accumulation_steps" : 20,
+    "output_dir" : "./output/mbart-large",
     "logging_dir" : "./output/log_history"
 }

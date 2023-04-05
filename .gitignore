@@ -130,3 +130,6 @@ dmypy.json
 
 # Cache folder
 cache/
+
+# Output folder
+output/

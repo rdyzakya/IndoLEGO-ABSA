@@ -1,5 +1,5 @@
 {
-    "model_name_or_path" : "t5-base",
+    "model_name_or_path" : "facebook/mbart-large-50",
     "model_args" : {},
     "tokenizer_args" : {}
 }
