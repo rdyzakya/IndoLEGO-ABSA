@@ -341,11 +341,6 @@ class ABSAGenerativeTrainer:
         """
         predictions = []
         # Build the test dataset
-        # print("[Debugging start]")
-        # print(len(dataset))
-        # print(len(incomplete_targets))
-        # print(incomplete_targets)
-        # print("[Debugging end]")
         test_dataset = dataset.build_test_data(task,paradigm,incomplete_targets)
         # Tokenize the input
         tokenizer = self.model_and_tokenizer.tokenizer

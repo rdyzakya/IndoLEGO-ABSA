@@ -1,16 +1,16 @@
 {
-    "num_train_epochs" : 2,
+    "num_train_epochs" : 1,
     "learning_rate" : 3e-4,
     "gradient_accumulation_steps" : 2,
-    "per_device_train_batch_size" : 4,
-    "per_device_eval_batch_size" : 4,
+    "per_device_train_batch_size" : 2,
+    "per_device_eval_batch_size" : 2,
     "save_strategy" : "epoch",
     "evaluation_strategy" : "epoch",
     "save_total_limit" : 2,
     "metric_for_best_model" : "overall_f1_score",
     "load_best_model_at_end" : true,
     "adam_epsilon" : 1e-8,
-    "eval_accumulation_steps" : 20,
-    "output_dir" : "./output/mbart-large",
+    "eval_accumulation_steps" : 10,
+    "output_dir" : "./output/bert-base",
     "logging_dir" : "./output/log_history"
 }
