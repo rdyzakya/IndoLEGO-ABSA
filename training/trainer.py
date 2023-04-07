@@ -178,11 +178,11 @@ class ABSAGenerativeTrainer:
 
         if self.train:
             trainer_args.update({
-                "train_dataset" : self.tokenized_train,
-                "callbacks" : [EarlyStoppingCallback(early_stopping_patience=3)]
+                "train_dataset" : self.tokenized_train
             })
         if self.do_eval:
             trainer_args.update({
+                "callbacks" : [EarlyStoppingCallback(early_stopping_patience=3)],
                 "eval_dataset" : self.tokenized_eval,
                 "compute_metrics" : self.compute_metrics
             })
