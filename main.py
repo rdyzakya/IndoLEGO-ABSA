@@ -52,7 +52,7 @@ def main():
     print("Prepare datasets...")
     # ABSA Datasets
     if args.do_train:
-        train_absa_args = args.data_config["train"]["absa"]
+        train_absa_args = args.data_config["train"]["absa"].copy()
         train_absa_args.update({
             "prompter" : prompter,
             "prompt_side" : wrapper.prompt_side,
@@ -72,7 +72,7 @@ def main():
         train_data = Dataset.from_pandas(train_data)
     
     if args.do_eval:
-        val_absa_args = args.data_config["val"]["absa"]
+        val_absa_args = args.data_config["val"]["absa"].copy()
         val_absa_args.update({
             "prompter" : prompter,
             "prompt_side" : wrapper.prompt_side,
@@ -99,7 +99,7 @@ def main():
     
     if args.do_predict:
         print("Prediction phase...")
-        test_absa_args = args.data_config["test"]["absa"]
+        test_absa_args = args.data_config["test"]["absa"].copy()
         test_absa_args.update({
             "prompter" : prompter,
             "prompt_side" : wrapper.prompt_side,
