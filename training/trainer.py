@@ -347,8 +347,8 @@ class ABSAGenerativeTrainer:
         if self.model_and_tokenizer.model_type == "seq2seq":
             tokenized_test = tokenizer(test_dataset["input"], text_target=test_dataset["output"], **encoding_args)
         else: # "causal_lm"
-            causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(test_dataset))]
-            tokenized_test = tokenizer(causal_lm_test_input, **encoding_args)
+            # causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(test_dataset))]
+            tokenized_test = tokenizer(test_dataset["input"], **encoding_args)
         # Predict
         decoded_predictions = self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
         for i_pred in range(len(decoded_predictions)):

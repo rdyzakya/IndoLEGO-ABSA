@@ -70,6 +70,7 @@ def main():
         absa_builder_args = args.data_config["train"]["absa_builder_args"]
         train_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_train] + [train_absa.build_train_val_data(**absa_builder_args).to_pandas()])
         train_data = Dataset.from_pandas(train_data)
+        val_data = None
     
     if args.do_eval:
         val_absa_args = args.data_config["val"]["absa"].copy()

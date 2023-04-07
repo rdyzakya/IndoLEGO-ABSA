@@ -20,7 +20,8 @@ class ABSAGenerativeModelWrapper:
         """
         self.tokenizer = AutoTokenizer.from_pretrained(model_name_or_path,**tokenizer_args)
         if self.tokenizer.pad_token == None:
-            self.tokenizer.add_special_tokens({'pad_token': re.sub(r"[a-zA-Z]+","pad",self.tokenizer.eos_token)})
+            # self.tokenizer.add_special_tokens({'pad_token': re.sub(r"[a-zA-Z]+","pad",self.tokenizer.eos_token)})
+            self.tokenizer.add_special_tokens({'pad_token': self.tokenizer.eos_token})
         try:
             self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name_or_path,**model_args)
             self.prompt_side = "left"

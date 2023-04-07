@@ -11,6 +11,6 @@
     "load_best_model_at_end" : true,
     "adam_epsilon" : 1e-8,
     "eval_accumulation_steps" : 10,
-    "output_dir" : "./output/bert-base",
+    "output_dir" : "./output/gpt2",
     "logging_dir" : "./output/log_history"
 }
