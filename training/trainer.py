@@ -237,29 +237,30 @@ class ABSAGenerativeTrainer:
         self.model_and_tokenizer.to(device)
         predictions = {}
         # decoded_predictions = {}
+        all_str_preds = pd.DataFrame()
         summary = {}
         if isinstance(task_tree,Dict):
             for main_task, children_task in task_tree.items():
-                predictions[main_task] = self.predict_absa_per_task(dataset=dataset,task=main_task,
-                                                                                                    children_task=children_task,device=device,
-                                                                                                    batch_size=batch_size,encoding_args=encoding_args,
-                                                                                                    decoding_args=decoding_args,max_len=max_len)
+                predictions[main_task], _ = self.predict_absa_per_task(dataset=dataset,all_str_preds=all_str_preds,task=main_task,
+                                                                children_task=children_task,device=device,
+                                                                batch_size=batch_size,encoding_args=encoding_args,
+                                                                decoding_args=decoding_args,max_len=max_len)
                 blank_incomplete_targets = [[] for n in range(len(dataset))]
                 targets = dataset.build_test_data(main_task,"extraction",blank_incomplete_targets)["target"]
                 summary[main_task] = summary_score(predictions[main_task],targets)
         else:
             for main_task in task_tree:
-                predictions[main_task] = self.predict_absa_per_task(dataset=dataset,task=main_task,
-                                                                                                    children_task=[],device=device,
-                                                                                                    batch_size=batch_size,encoding_args=encoding_args,
-                                                                                                    decoding_args=decoding_args,max_len=max_len)
+                predictions[main_task], _ = self.predict_absa_per_task(dataset=dataset,all_str_preds=all_str_preds,task=main_task,
+                                                                children_task=[],device=device,
+                                                                batch_size=batch_size,encoding_args=encoding_args,
+                                                                decoding_args=decoding_args,max_len=max_len)
                 blank_incomplete_targets = [[] for n in range(len(dataset))]
                 targets = dataset.build_test_data(main_task,"extraction",blank_incomplete_targets)["target"]
                 summary[main_task] = summary_score(predictions[main_task],targets)
         self.model_and_tokenizer.to(torch.device("cpu"))
-        return predictions, summary
+        return predictions, summary, all_str_preds
 
-    def predict_absa_per_task(self,dataset:ABSADataset,task:str="aos",children_task:Dict={"ao" : ['a'], 'a' : []},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512) -> Tuple[List[List[Dict]],List[List[str]]]:
+    def predict_absa_per_task(self,dataset:ABSADataset,all_str_preds:pd.DataFrame,task:str="aos",children_task:Dict={"ao" : ['a'], 'a' : []},device:torch.device=torch.device("cpu"),batch_size:int=16,encoding_args:Dict={},decoding_args:Dict={},max_len:int=512) -> Tuple[List[List[Dict]],List[List[str]]]:
         """
         ### DESC
             Method to predict absa task in a post order traversal manner. The lower level will help the imputation process for the upper level.
@@ -281,23 +282,31 @@ class ABSAGenerativeTrainer:
 
         # Do extraction for the main task
         blank_incomplete_targets = [[] for n in range(len(dataset))]
-        predictions = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+        predictions, str_preds = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+        all_str_preds[f"{task}_extraction"] = str_preds
         if isinstance(children_task,Dict):
             for child_task in children_task.keys():
                 # Do extraction for the children task
-                child_predictions = self.predict_absa_per_task(dataset,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
+                child_predictions, child_str_preds = self.predict_absa_per_task(dataset,all_str_preds,child_task,children_task[child_task],device,batch_size,encoding_args,decoding_args,max_len)
+                all_str_preds[f"{child_task}_extraction"] = child_str_preds
                 # From the children task result, impute the tuples resulting the main task
-                self.add_imputation_predictions(dataset, predictions, child_predictions, task, device, batch_size, encoding_args, decoding_args, max_len)
+                imputation_predictions, imputation_str_preds = self.predict_absa_per_task_per_paradigm(dataset,child_predictions,task,"imputation",device,batch_size,encoding_args,decoding_args,max_len)
+                all_str_preds[f"{task}_imputation_{child_task}"] = imputation_str_preds
+                self.add_imputation_predictions(predictions, imputation_predictions)
         else: # List
             for child_task in children_task:
                 # Do extraction for the children task
                 blank_incomplete_targets = [[] for n in range(len(dataset))]
-                child_predictions = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+                child_predictions, child_str_preds = self.predict_absa_per_task_per_paradigm(dataset,blank_incomplete_targets,child_task,"extraction",device,batch_size,encoding_args,decoding_args,max_len)
+                all_str_preds[f"{child_task}_extraction"] = child_str_preds
                 # From the children task result, impute the tuples resulting the main task
-                self.add_imputation_predictions(dataset, predictions, child_predictions, task, device, batch_size, encoding_args, decoding_args, max_len)
-        return predictions
+                imputation_predictions, imputation_str_preds = self.predict_absa_per_task_per_paradigm(dataset,child_predictions,task,"imputation",device,batch_size,encoding_args,decoding_args,max_len)
+                all_str_preds[f"{task}_imputation_{child_task}"] = imputation_str_preds
+                self.add_imputation_predictions(predictions, imputation_predictions)
+                # self.add_imputation_predictions(dataset, predictions, child_predictions, task, device, batch_size, encoding_args, decoding_args, max_len)
+        return predictions, str_preds
 
-    def add_imputation_predictions(self, dataset:ABSADataset, predictions:List[List[Dict]], child_predictions:List[List[Dict]], task:str="acos", device:torch.device=torch.device("cpu"), batch_size:int=16, encoding_args:Dict={}, decoding_args:Dict={}, max_len:int=512):
+    def add_imputation_predictions(self, predictions:List[List[Dict]], imputation_predictions:List[List[Dict]]):
         """
         ### DESC
             Method to add imputation predictions to the prediction list.
@@ -313,7 +322,6 @@ class ABSAGenerativeTrainer:
         * decoding_args: Dictionary containing decoding key word arguments.
         * max_len: Maximum length of the decoded result.
         """
-        imputation_predictions = self.predict_absa_per_task_per_paradigm(dataset,child_predictions,task,"imputation",device,batch_size,encoding_args,decoding_args,max_len)
         assert len(predictions) == len(imputation_predictions)
         for i_row in range(len(predictions)):
             pred = predictions[i_row] + imputation_predictions[i_row]
@@ -350,15 +358,15 @@ class ABSAGenerativeTrainer:
             # causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(test_dataset))]
             tokenized_test = tokenizer(test_dataset["input"], **encoding_args)
         # Predict
-        decoded_predictions = self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
-        for i_pred in range(len(decoded_predictions)):
-            new_prediction = self.pattern.find_all(decoded_predictions[i_pred],task)
+        str_preds = self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
+        for i_pred in range(len(str_preds)):
+            new_prediction = self.pattern.find_all(str_preds[i_pred],task)
             new_prediction = handle_mix_sentiment(new_prediction)
             new_prediction = remove_duplicate_targets(new_prediction)
             predictions.append(new_prediction)
             # decoded_predictions[i_pred] = [decoded_predictions[i_pred]] # Becomes List[List[str]]
         
-        return predictions # , decoded_predictions
+        return predictions, str_preds
 
     def generate_predictions(self,tokenized:torch.Tensor,device:torch.device=torch.device("cpu"),batch_size:int=16,max_len:int=512,decoding_args:Dict={}) -> List[str]:
         """

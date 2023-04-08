@@ -121,7 +121,7 @@ def main():
         device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
         
         non_absa_preds = trainer.predict_non_absa(dataset=non_absa_test,device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
-        absa_preds, summary_score = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["task_tree"],device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
+        absa_preds, summary_score, absa_str_preds = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["task_tree"],device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
 
         # Save the result for error analysis
         print("Save results...")
@@ -142,6 +142,7 @@ def main():
             all_absa_result.append(absa_result)
         all_absa_result = pd.concat(all_absa_result)
         all_absa_result.to_csv(os.path.join(output_dir,"absa_pred.csv"),index=False)
+        absa_str_preds.to_csv(os.path.join(output_dir,"absa_str_pred.csv"),index=False)
 
         # Summary score
         json.dump(summary_score,open(os.path.join(output_dir,"absa_score.json"),'w'))

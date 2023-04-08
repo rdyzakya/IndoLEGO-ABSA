@@ -47,6 +47,6 @@
         "non_absa" : [{
             "data_path" : "data/doc_sa/en/kaggle/interim/Restaurant_Reviews.csv"
         }],
-        "task_tree" : {"aos" : {"ao" : [],"os" : []}}
+        "task_tree" : {"aos" : {"as" : [], "ao" : []}}
     }
 }
