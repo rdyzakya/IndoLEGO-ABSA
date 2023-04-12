@@ -1,5 +1,5 @@
 {
-    "num_train_epochs" : 1,
+    "num_train_epochs" : 20,
     "learning_rate" : 3e-4,
     "gradient_accumulation_steps" : 2,
     "per_device_train_batch_size" : 8,
@@ -10,7 +10,6 @@
     "metric_for_best_model" : "overall_f1_score",
     "load_best_model_at_end" : true,
     "adam_epsilon" : 1e-8,
-    "eval_accumulation_steps" : 10,
-    "output_dir" : "./output/t5-base",
-    "logging_dir" : "./output/log_history"
+    "output_dir" : "./output/t5-v1_1-base/15res",
+    "logging_dir" : "./output/t5-v1_1-base/15res/log_history"
 }

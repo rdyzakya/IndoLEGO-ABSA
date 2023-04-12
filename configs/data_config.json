@@ -1,18 +1,14 @@
 {
     "train" : {
         "absa" : {
-            "data_path" : "data/absa/en/peng/14lap/train_triplets.txt",
-            "target_format" : "aos"
+            "data_path" : "data/absa/en/zhang/interim/interim_2/rest15/train.txt",
+            "target_format" : "acso"
         },
-        "non_absa" : [{
-            "data_path" : "data/doc_sa/en/kaggle/interim/Restaurant_Reviews.csv"
-        }],
+        "non_absa" : [],
         "absa_builder_args" : {
             "tasks" : {
-                "extraction" : ["as","os","a","o"],
-                "imputation" : {
-                    "aos" : ["ao","os"]
-                }
+                "extraction" : ["acos","aos","cs","ao","ac","as","os","a","o"],
+                "imputation" : {}
             },
             "multiply" : true,
             "shuffle" : true,
@@ -21,18 +17,14 @@
     },
     "val" : {
         "absa" : {
-            "data_path" : "data/absa/en/peng/14lap/dev_triplets.txt",
-            "target_format" : "aos"
+            "data_path" : "data/absa/en/zhang/interim/interim_2/rest15/dev.txt",
+            "target_format" : "acso"
         },
-        "non_absa" : [{
-            "data_path" : "data/doc_sa/en/kaggle/interim/Restaurant_Reviews.csv"
-        }],
+        "non_absa" : [],
         "absa_builder_args" : {
             "tasks" : {
-                "extraction" : ["as","os","a","o"],
-                "imputation" : {
-                    "aos" : ["ao","os"]
-                }
+                "extraction" : ["acos","aos","cs","ao","ac","as","os","a","o"],
+                "imputation" : {}
             },
             "multiply" : true,
             "shuffle" : true,
@@ -41,12 +33,10 @@
     },
     "test" : {
         "absa" : {
-            "data_path" : "data/absa/en/peng/14lap/test_triplets.txt",
-            "target_format" : "aos"
+            "data_path" : "data/absa/en/zhang/interim/interim_2/rest15/test.txt",
+            "target_format" : "acso"
         },
-        "non_absa" : [{
-            "data_path" : "data/doc_sa/en/kaggle/interim/Restaurant_Reviews.csv"
-        }],
-        "task_tree" : {"aos" : {"as" : [], "ao" : []}}
+        "non_absa" : [],
+        "task_tree" : {"aos" : [], "cs" : []}
     }
 }

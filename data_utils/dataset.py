@@ -124,7 +124,7 @@ class ABSADataset(CustomDataset):
         self.pattern = pattern
 
         # Read the data
-        self.data = self.read_data(data_path)
+        self.data = self.read_data(data_path,target_format)
     
     def build_train_val_data(self,tasks:Dict={"extraction" : ["ao","ac","as"],"imputation" : {"acos" : ["ao","ac","aos"]}},multiply:bool=True,shuffle:bool=True,random_state:int=None) -> Dataset:
         """
@@ -307,14 +307,19 @@ class ABSADataset(CustomDataset):
         assert path.endswith(".txt")
         with open(path,'r') as reader:
             data = reader.read().strip().splitlines()
+        unique_categories = []
         for i,line in enumerate(data):
             try:
                 text, num_targets = line.split(SEP)
                 num_targets = eval(num_targets)
                 targets = self.process_num_targets(text,num_targets,target_format)
+                for target in targets:
+                    if "category" in target.keys():
+                        unique_categories.append(target["category"])
             except Exception as e:
-                raise ValueError(f"Each line should be in the format 'TEXT{SEP}TARGET'. Example: {sample}")
+                raise ValueError(f"Each line should be in the format 'TEXT{SEP}TARGET'. Example: {sample}. Youers: {line}")
             data[i] = {"text" : text, "target" : targets}
+        self.pattern.update_categories(unique_categories)
         return data
     
     def reduce_targets(self,targets:List[Dict],task:str="ao") -> List[Dict]:

@@ -136,7 +136,7 @@ class ABSAGenerativeTrainer:
         
         return metrics
 
-    def seperate_target_prediction_per_task(self,predictions:List[List[Dict]],targets:List[List[Dict]]) -> tuple[Dict[str,List],Dict[str,List]]:
+    def seperate_target_prediction_per_task(self,predictions:List[List[Dict]],targets:List[List[Dict]]) -> Tuple[Dict[str,List],Dict[str,List]]:
         per_task_targets = {}
         per_task_predictions = {}
         for target, prediction, task in zip(targets,predictions,self.eval_tasks):
@@ -411,8 +411,11 @@ class ABSAGenerativeTrainer:
         ### RETURN
         * Decoded predictions for non absa task.
         """
-        test_dataset = [ds.build_data().to_pandas() for ds in dataset]
-        test_dataset = pd.concat(test_dataset,axis=0)
-        tokenizer = self.model_and_tokenizer.tokenizer
-        tokenized_test = tokenizer(test_dataset["input"].values.tolist(), **encoding_args)
-        return self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
+        try:
+            test_dataset = [ds.build_data().to_pandas() for ds in dataset]
+            test_dataset = pd.concat(test_dataset,axis=0)
+            tokenizer = self.model_and_tokenizer.tokenizer
+            tokenized_test = tokenizer(test_dataset["input"].values.tolist(), **encoding_args)
+            return self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
+        except:
+            return []

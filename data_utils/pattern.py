@@ -95,8 +95,8 @@ class Pattern:
         for k,v in PATTERN_TOKEN.items():
             if k == "sentiment":
                 regex_pattern = regex_pattern.replace(v,f"(?P<sentiment>{'|'.join(SENTTAG2WORD.values())})")
-            elif k == "category":
-                regex_pattern = regex_pattern.replace(v,f"(?P<category>{'|'.join(self.categories)})")
+            # elif k == "category":
+            #     regex_pattern = regex_pattern.replace(v,f"(?P<category>{'|'.join(self.categories)})")
             else:
                 regex_pattern = regex_pattern.replace(v,f"(?P<{k}>[^{intra_sep}{inter_sep}]+)")
         regex_pattern = regex_pattern.replace(' ',r'\s*')

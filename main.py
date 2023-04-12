@@ -127,10 +127,13 @@ def main():
         print("Save results...")
         output_dir = args.train_args["output_dir"]
         # Non ABSA
-        non_absa_result = [ds.build_data().to_pandas() for ds in non_absa_test]
-        non_absa_result = pd.concat(non_absa_result,axis=0)
-        non_absa_result["prediction"] = non_absa_preds
-        non_absa_result.to_csv(os.path.join(output_dir,"non_absa_pred.csv"),index=False)
+        try:
+            non_absa_result = [ds.build_data().to_pandas() for ds in non_absa_test]
+            non_absa_result = pd.concat(non_absa_result,axis=0)
+            non_absa_result["prediction"] = non_absa_preds
+            non_absa_result.to_csv(os.path.join(output_dir,"non_absa_pred.csv"),index=False)
+        except:
+            pass
 
         # ABSA
         all_absa_result = []
@@ -144,11 +147,14 @@ def main():
         all_absa_result.to_csv(os.path.join(output_dir,"absa_pred.csv"),index=False)
         absa_str_preds.to_csv(os.path.join(output_dir,"absa_str_pred.csv"),index=False)
 
+        print("Prediction result:")
+        print(summary_score)
+
         # Summary score
         json.dump(summary_score,open(os.path.join(output_dir,"absa_score.json"),'w'))
 
-        # Save arguments
-        json.dump(vars(args),open(os.path.join(output_dir,"args.json"),'w'))
+    # Save arguments
+    json.dump(vars(args),open(os.path.join(output_dir,"args.json"),'w'))
 
 if __name__ == "__main__":
     main()
