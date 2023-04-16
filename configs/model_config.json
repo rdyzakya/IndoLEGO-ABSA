@@ -1,5 +1,5 @@
 {
-    "model_name_or_path" : "google/t5-v1_1-base",
+    "model_name_or_path" : "gpt2-medium",
     "model_args" : {},
-    "tokenizer_args" : {}
+    "tokenizer_args" : {"padding_side" : "left"}
 }

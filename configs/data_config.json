@@ -7,7 +7,7 @@
         "non_absa" : [],
         "absa_builder_args" : {
             "tasks" : {
-                "extraction" : ["acos","aos","cs","ao","ac","as","os","a","o"],
+                "extraction" : ["aos","cs"],
                 "imputation" : {}
             },
             "multiply" : true,
@@ -23,7 +23,7 @@
         "non_absa" : [],
         "absa_builder_args" : {
             "tasks" : {
-                "extraction" : ["acos","aos","cs","ao","ac","as","os","a","o"],
+                "extraction" : ["aos","cs"],
                 "imputation" : {}
             },
             "multiply" : true,
