@@ -56,14 +56,25 @@ class ABSAGenerativeTrainer:
         tokenizer = self.model_and_tokenizer.tokenizer
         model_type = self.model_and_tokenizer.model_type
 
-        def create_clm(row):
-            return {"causal_lm_input" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token}
+        def create_clm(row,train=False):
+            # if train:
+            #     return {
+            #             "input" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token,
+            #             "output" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token
+            #         }
+            # return {
+            #         "input" : row["input"] + ' ' + tokenizer.sep_token,
+            #         "output" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token
+            #     }
+            return {
+                        "causal_lm_input" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token,
+                    }
           
         if model_type == "causal_lm":
           if self.do_train:
-            train_dataset = train_dataset.map(create_clm)
+            train_dataset = train_dataset.map(lambda x:create_clm(x,True))
           if self.do_eval:
-            eval_dataset = eval_dataset.map(create_clm)
+            eval_dataset = eval_dataset.map(lambda x:create_clm(x,False))
 
         def encode(dataset):
             if model_type == "seq2seq":
@@ -72,7 +83,7 @@ class ABSAGenerativeTrainer:
             return tokenizer(dataset["causal_lm_input"],**encoding_args)
 
         # Prepare data collator
-        self.data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer) if self.model_and_tokenizer.model_type == "seq2seq" else DataCollatorForLanguageModeling(tokenizer=tokenizer,mlm=False)
+        self.data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer) #if self.model_and_tokenizer.model_type == "seq2seq" else DataCollatorForLanguageModeling(tokenizer=tokenizer,mlm=False)
         
         # Encode the input and output
         if self.do_train:
@@ -157,13 +168,6 @@ class ABSAGenerativeTrainer:
         return per_task_targets, per_task_predictions
     
     def preprocess_logits_for_metrics(self, logits, labels):
-        # print("[DEBUG PREPROCESS]")
-        # # print(type(logits))
-        # # print(logits[0].shape)
-        # print(logits)
-        # print(labels)
-        # print('[END]')
-        # raise Exception
         pred_logits = logits[0] if isinstance(logits,tuple) else logits
         pred_ids = torch.argmax(pred_logits, dim=-1)
         return pred_ids, labels
