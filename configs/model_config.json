@@ -1,5 +1,5 @@
 {
-    "model_name_or_path" : "facebook/xglm-564M",
+    "model_name_or_path" : "bert-base-cased",
     "model_args" : {},
     "tokenizer_args" : {"padding_side" : "left"}
 }

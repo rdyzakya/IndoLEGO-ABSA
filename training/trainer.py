@@ -83,7 +83,7 @@ class ABSAGenerativeTrainer:
             return tokenizer(dataset["causal_lm_input"],**encoding_args)
 
         # Prepare data collator
-        self.data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer) #if self.model_and_tokenizer.model_type == "seq2seq" else DataCollatorForLanguageModeling(tokenizer=tokenizer,mlm=False)
+        self.data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer) if self.model_and_tokenizer.model_type == "seq2seq" else DataCollatorForLanguageModeling(tokenizer=tokenizer,mlm=False)
         
         # Encode the input and output
         if self.do_train:
