@@ -7,6 +7,11 @@ The metrics in this research follows the following rule:
 3. The definition of the false negative is said that an ABSA tuple that exist in the target list do not exist in the prediction list
 """
 
+def post_process(preds_or_targets):
+    result = str(preds_or_targets)
+    result = result.lower()
+    return eval(result)
+
 def recall(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
     """
     ### DESC
@@ -19,7 +24,7 @@ def recall(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
     """
     true_positive = 0
     false_negative = 0
-    for prediction,target in zip(predictions,targets):
+    for prediction,target in zip(post_process(predictions),post_process(targets)):
         for target_tuple in target:
             if target_tuple in prediction:
                 true_positive += 1
@@ -40,7 +45,7 @@ def precision(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
     """
     true_positive = 0
     false_positive = 0
-    for prediction,target in zip(predictions,targets):
+    for prediction,target in zip(post_process(predictions),post_process(targets)):
         for prediction_tuple in prediction:
             if prediction_tuple in target:
                 true_positive += 1
