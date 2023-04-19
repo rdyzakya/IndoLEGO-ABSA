@@ -20,8 +20,9 @@ class ABSAGenerativeModelWrapper:
         """
         self.tokenizer = AutoTokenizer.from_pretrained(model_name_or_path,**tokenizer_args)
         if self.tokenizer.pad_token == None:
-            # self.tokenizer.add_special_tokens({'pad_token': re.sub(r"[a-zA-Z]+","pad",self.tokenizer.eos_token)})
-            self.tokenizer.add_special_tokens({'pad_token': self.tokenizer.eos_token})
+            # self.tokenizer.add_special_tokens({'pad_token': re.sub(r"[a-zA-Z]+","pad",list(self.tokenizer.special_tokens_map.values())[0])})
+            pad_token = self.tokenizer.eos_token or self.tokenizer.unk_token
+            self.tokenizer.add_special_tokens({'pad_token': pad_token})
         try:
             self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name_or_path,**model_args)
             self.prompt_side = "left"
@@ -65,7 +66,7 @@ class ABSAGenerativeModelWrapper:
         try:
             vocab = self.tokenizer.get_vocab()
         except NotImplementedError:
-            vocab = []
+            vocab = self.tokenizer.vocab
         for term in new_vocab:
             tokenized_term = self.tokenizer.tokenize(term)
             for token in tokenized_term:

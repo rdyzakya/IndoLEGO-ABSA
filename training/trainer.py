@@ -96,13 +96,18 @@ class ABSAGenerativeTrainer:
         target_ids = eval_preds.label_ids
         pred_ids = eval_preds.predictions
 
+        print("[DEBUG PRED ID]")
+        print(pred_ids)
+        print(pred_ids[1].shape)
+        print("[END]")
+
         # In case the model returns more than the prediction logits
         if isinstance(input_ids, tuple):
             input_ids = input_ids[0]
         if isinstance(target_ids, tuple):
             target_ids = target_ids[0]
         if isinstance(pred_ids, tuple):
-            pred_ids = pred_ids[0]
+            pred_ids = pred_ids[1]
         
         input_ids = np.argmax(input_ids,axis=-1) if len(input_ids.shape) == 3 else input_ids # in case not predict with generate
         target_ids = np.argmax(target_ids,axis=-1) if len(target_ids.shape) == 3 else target_ids # in case not predict with generate
@@ -116,8 +121,17 @@ class ABSAGenerativeTrainer:
         targets = self.model_and_tokenizer.tokenizer.batch_decode(target_ids,skip_special_tokens=True)
         predictions = self.model_and_tokenizer.tokenizer.batch_decode(prediction_ids,skip_special_tokens=True)
 
+        print("[DEBUG LOOKUP INPUT OUTPUT]")
+        print(">> INPUT:",inputs[10:12])
+        print(">> TARGETS:",targets[10:12])
+        print(">> OUTPUT:",predictions[10:12])
+        print("[END]")
+
         targets = [self.pattern.find_all(text,task) for text,task in zip(targets,self.eval_tasks) if task != "non_absa"]
         predictions = [self.pattern.find_all(text,task) for text,task in zip(predictions,self.eval_tasks) if task != "non_absa"]
+
+        print(targets[:5])
+        print(predictions[:5])
 
         per_task_targets, per_task_predictions = self.seperate_target_prediction_per_task(predictions, targets)
         
@@ -147,6 +161,16 @@ class ABSAGenerativeTrainer:
             per_task_targets[task].append(target)
             per_task_predictions[task].append(prediction)
         return per_task_targets, per_task_predictions
+    
+    def preprocess_logits_for_metrics(self, logits, labels):
+        print("[DEBUG PREPROCESS]")
+        print(type(logits))
+        print(logits[0].shape)
+        print(logits)
+        print('[END]')
+        pred_logits = logits[0] if isinstance(logits,tuple) else logits
+        pred_ids = torch.argmax(pred_logits, dim=-1)
+        return pred_ids, labels
         
     def compile_train_args(self,train_args_dict:Dict):
         """
@@ -156,7 +180,7 @@ class ABSAGenerativeTrainer:
         * train_args_dict: Training arguments (dictionary).
         """
         train_args_dict.update({
-            "include_inputs_for_metrics" : True,
+            "include_inputs_for_metrics" : True
         })
         if self.model_and_tokenizer.model_type == "seq2seq":
             train_args_dict.update(
@@ -182,12 +206,15 @@ class ABSAGenerativeTrainer:
             })
         if self.do_eval:
             trainer_args.update({
-                "callbacks" : [EarlyStoppingCallback(early_stopping_patience=3)],
                 "eval_dataset" : self.tokenized_eval,
                 "compute_metrics" : self.compute_metrics
             })
 
         model_type = self.model_and_tokenizer.model_type
+
+        if self.model_and_tokenizer.model_type == "causal_lm":
+            trainer_args["preprocess_logits_for_metrics"] = self.preprocess_logits_for_metrics
+
         self.trainer = Seq2SeqTrainer(**trainer_args) if  model_type == "seq2seq" else Trainer(**trainer_args)
     
     def train(self,output_dir:str="./output",random_seed:int=None):
@@ -391,7 +418,7 @@ class ABSAGenerativeTrainer:
         with torch.no_grad():
             for batch in tqdm(data_loader):
                 batch = batch.to(device)
-                tensor_predictions.extend(model.generate(input_ids=batch,max_length=max_len).cpu())
+                tensor_predictions.extend(model.generate(input_ids=batch,max_length=max_len,pad_token_id=tokenizer.pad_token_id).cpu())
                 batch = batch.cpu()
         tensor_predictions = [[token for token in row if token != -100] for row in tensor_predictions]
         predictions = tokenizer.batch_decode(tensor_predictions,**decoding_args)

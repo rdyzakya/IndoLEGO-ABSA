@@ -25,7 +25,7 @@ def recall(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
                 true_positive += 1
             else:
                 false_negative += 1
-    result = true_positive/(true_positive + false_negative) if true_positive > 0 and false_negative > 0 else 0
+    result = true_positive/(true_positive + false_negative) if (true_positive + false_negative) > 0 else 0
     return result
 
 def precision(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
@@ -46,7 +46,7 @@ def precision(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
                 true_positive += 1
             else:
                 false_positive += 1
-    result = true_positive/(true_positive + false_positive) if true_positive > 0 and false_positive > 0 else 0
+    result = true_positive/(true_positive + false_positive) if (true_positive + false_positive) > 0 else 0
     return result
 
 def f1_score(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
@@ -61,7 +61,7 @@ def f1_score(predictions:List[List[Dict]],targets:List[List[Dict]]) -> float:
     """
     recall_value = recall(predictions,targets)
     precision_value = precision(predictions,targets)
-    result = (2 * recall_value * precision_value)/(recall_value + precision_value) if recall_value > 0 and precision_value > 0 else 0
+    result = (2 * recall_value * precision_value)/(recall_value + precision_value) if (recall_value + precision_value) > 0 else 0
     return result
 
 def summary_score(predictions:List[List[Dict]],targets:List[List[Dict]]) -> Dict:
