@@ -57,7 +57,7 @@ class ABSAGenerativeTrainer:
         model_type = self.model_and_tokenizer.model_type
 
         def create_clm(row):
-            return {"causal_lm_input" : row["input"] + ' ' + row["output"]}
+            return {"causal_lm_input" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token}
           
         if model_type == "causal_lm":
           if self.do_train:
@@ -96,10 +96,6 @@ class ABSAGenerativeTrainer:
         target_ids = eval_preds.label_ids
         pred_ids = eval_preds.predictions
 
-        print("[DEBUG PRED ID]")
-        print(pred_ids)
-        print(pred_ids[1].shape)
-        print("[END]")
 
         # In case the model returns more than the prediction logits
         if isinstance(input_ids, tuple):
@@ -107,7 +103,7 @@ class ABSAGenerativeTrainer:
         if isinstance(target_ids, tuple):
             target_ids = target_ids[0]
         if isinstance(pred_ids, tuple):
-            pred_ids = pred_ids[1]
+            pred_ids = pred_ids[0]
         
         input_ids = np.argmax(input_ids,axis=-1) if len(input_ids.shape) == 3 else input_ids # in case not predict with generate
         target_ids = np.argmax(target_ids,axis=-1) if len(target_ids.shape) == 3 else target_ids # in case not predict with generate
@@ -130,8 +126,6 @@ class ABSAGenerativeTrainer:
         targets = [self.pattern.find_all(text,task) for text,task in zip(targets,self.eval_tasks) if task != "non_absa"]
         predictions = [self.pattern.find_all(text,task) for text,task in zip(predictions,self.eval_tasks) if task != "non_absa"]
 
-        print(targets[:5])
-        print(predictions[:5])
 
         per_task_targets, per_task_predictions = self.seperate_target_prediction_per_task(predictions, targets)
         
@@ -163,11 +157,13 @@ class ABSAGenerativeTrainer:
         return per_task_targets, per_task_predictions
     
     def preprocess_logits_for_metrics(self, logits, labels):
-        print("[DEBUG PREPROCESS]")
-        print(type(logits))
-        print(logits[0].shape)
-        print(logits)
-        print('[END]')
+        # print("[DEBUG PREPROCESS]")
+        # # print(type(logits))
+        # # print(logits[0].shape)
+        # print(logits)
+        # print(labels)
+        # print('[END]')
+        # raise Exception
         pred_logits = logits[0] if isinstance(logits,tuple) else logits
         pred_ids = torch.argmax(pred_logits, dim=-1)
         return pred_ids, labels
@@ -182,11 +178,11 @@ class ABSAGenerativeTrainer:
         train_args_dict.update({
             "include_inputs_for_metrics" : True
         })
-        if self.model_and_tokenizer.model_type == "seq2seq":
-            train_args_dict.update(
-                {"predict_with_generate" : True,}
-            )
-        self.training_args = Seq2SeqTrainingArguments(**train_args_dict) if self.model_and_tokenizer.model_type == "seq2seq" else TrainingArguments(**train_args_dict)
+        # if self.model_and_tokenizer.model_type == "seq2seq":
+        #     train_args_dict.update(
+        #         {"predict_with_generate" : True,}
+        #     )
+        self.training_args = Seq2SeqTrainingArguments(**train_args_dict) # if self.model_and_tokenizer.model_type == "seq2seq" else TrainingArguments(**train_args_dict)
 
     def prepare_trainer(self):
         """
@@ -212,10 +208,10 @@ class ABSAGenerativeTrainer:
 
         model_type = self.model_and_tokenizer.model_type
 
-        if self.model_and_tokenizer.model_type == "causal_lm":
-            trainer_args["preprocess_logits_for_metrics"] = self.preprocess_logits_for_metrics
+        # if self.model_and_tokenizer.model_type == "causal_lm":
+        trainer_args["preprocess_logits_for_metrics"] = self.preprocess_logits_for_metrics
 
-        self.trainer = Seq2SeqTrainer(**trainer_args) if  model_type == "seq2seq" else Trainer(**trainer_args)
+        self.trainer = Seq2SeqTrainer(**trainer_args) # if  model_type == "seq2seq" else Trainer(**trainer_args)
     
     def train(self,output_dir:str="./output",random_seed:int=None):
         """
@@ -383,7 +379,10 @@ class ABSAGenerativeTrainer:
             tokenized_test = tokenizer(test_dataset["input"], text_target=test_dataset["output"], **encoding_args)
         else: # "causal_lm"
             # causal_lm_test_input = [test_dataset["input"][i] + ' ' + test_dataset["output"][i] for i in range(len(test_dataset))]
-            tokenized_test = tokenizer(test_dataset["input"], **encoding_args)
+            def create_clm(row):
+                return {"causal_lm_input" : row["input"] + ' ' + tokenizer.sep_token}
+            test_dataset = test_dataset.map(create_clm)
+            tokenized_test = tokenizer(test_dataset["causal_lm_input"], **encoding_args)
         # Predict
         str_preds = self.generate_predictions(tokenized_test,device,batch_size,max_len,decoding_args)
         for i_pred in range(len(str_preds)):
@@ -418,7 +417,7 @@ class ABSAGenerativeTrainer:
         with torch.no_grad():
             for batch in tqdm(data_loader):
                 batch = batch.to(device)
-                tensor_predictions.extend(model.generate(input_ids=batch,max_length=max_len,pad_token_id=tokenizer.pad_token_id).cpu())
+                tensor_predictions.extend(model.generate(input_ids=batch,max_length=max_len,pad_token_id=tokenizer.pad_token_id,eos_token_id=tokenizer.eos_token_id).cpu())
                 batch = batch.cpu()
         tensor_predictions = [[token for token in row if token != -100] for row in tensor_predictions]
         predictions = tokenizer.batch_decode(tensor_predictions,**decoding_args)

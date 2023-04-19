@@ -1,5 +1,5 @@
 {
-    "model_name_or_path" : "hf-tiny-model-private/tiny-random-TransfoXLLMHeadModel",
+    "model_name_or_path" : "openai-gpt",
     "model_args" : {},
     "tokenizer_args" : {"padding_side" : "left"}
 }
