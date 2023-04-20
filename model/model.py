@@ -82,7 +82,10 @@ class ABSAGenerativeModelWrapper:
         try:
             vocab = self.tokenizer.get_vocab()
         except NotImplementedError:
-            vocab = self.tokenizer.vocab
+            try:
+                vocab = self.tokenizer.vocab
+            except NotImplementedError:
+                vocab = []
         for term in new_vocab:
             tokenized_term = self.tokenizer.tokenize(term)
             for token in tokenized_term:
