@@ -19,23 +19,6 @@ class ABSAGenerativeModelWrapper:
         * tokenizer_args: HuggingFace tokenizer keyword arguments.
         """
         self.tokenizer = AutoTokenizer.from_pretrained(model_name_or_path,**tokenizer_args)
-        resize = False
-        if self.tokenizer.pad_token == None:
-            # self.tokenizer.add_special_tokens({'pad_token': re.sub(r"[a-zA-Z]+","pad",list(self.tokenizer.special_tokens_map.values())[0])})
-            pad_token = "<|pad|>"# self.tokenizer.eos_token or self.tokenizer.unk_token
-            self.tokenizer.add_tokens([pad_token])
-            self.tokenizer.add_special_tokens({"pad_token": pad_token})
-            resize = True
-        if self.tokenizer.eos_token == None:
-            eos_token = "<|endoftext|>"
-            self.tokenizer.add_tokens([eos_token])
-            self.tokenizer.add_special_tokens({"eos_token": eos_token})
-            resize = True
-        if self.tokenizer.sep_token == None:
-            sep_token = "<|sep|>"
-            self.tokenizer.add_tokens([sep_token])
-            self.tokenizer.add_special_tokens({"sep_token": sep_token})
-            resize = True
         try:
             self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name_or_path,**model_args)
             self.prompt_side = "left"
@@ -44,8 +27,26 @@ class ABSAGenerativeModelWrapper:
             self.model = AutoModelForCausalLM.from_pretrained(model_name_or_path,**model_args)
             self.prompt_side = "left" # "right"
             self.model_type = "causal_lm"
-        if resize:
-            self.model.resize_token_embeddings(len(self.tokenizer))
+        if self.model_type == "causal_lm":
+            resize = False
+            if self.tokenizer.pad_token == None:
+                # self.tokenizer.add_special_tokens({'pad_token': re.sub(r"[a-zA-Z]+","pad",list(self.tokenizer.special_tokens_map.values())[0])})
+                pad_token = "<|pad|>"# self.tokenizer.eos_token or self.tokenizer.unk_token
+                self.tokenizer.add_tokens([pad_token])
+                self.tokenizer.add_special_tokens({"pad_token": pad_token})
+                resize = True
+            if self.tokenizer.eos_token == None:
+                eos_token = "<|endoftext|>"
+                self.tokenizer.add_tokens([eos_token])
+                self.tokenizer.add_special_tokens({"eos_token": eos_token})
+                resize = True
+            if self.tokenizer.sep_token == None:
+                sep_token = "<|sep|>"
+                self.tokenizer.add_tokens([sep_token])
+                self.tokenizer.add_special_tokens({"sep_token": sep_token})
+                resize = True
+            if resize:
+                self.model.resize_token_embeddings(len(self.tokenizer))
 
     def from_pretrained(model_name_or_path:str,**kwargs) -> ABSAGenerativeModelWrapper:
         """
