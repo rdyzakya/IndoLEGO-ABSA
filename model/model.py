@@ -42,7 +42,7 @@ class ABSAGenerativeModelWrapper:
             self.model_type = "seq2seq"
         except:
             self.model = AutoModelForCausalLM.from_pretrained(model_name_or_path,**model_args)
-            self.prompt_side = "right"
+            self.prompt_side = "left" # "right"
             self.model_type = "causal_lm"
         if resize:
             self.model.resize_token_embeddings(len(self.tokenizer))
