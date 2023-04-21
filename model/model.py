@@ -84,7 +84,7 @@ class ABSAGenerativeModelWrapper:
         except NotImplementedError:
             try:
                 vocab = self.tokenizer.vocab
-            except NotImplementedError:
+            except:
                 vocab = []
         for term in new_vocab:
             tokenized_term = self.tokenizer.tokenize(term)
