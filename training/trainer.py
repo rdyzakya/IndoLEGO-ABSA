@@ -412,17 +412,21 @@ class ABSAGenerativeTrainer:
         * Decoded predictions.
         """
         # Data loader
-        data_loader = torch.utils.data.DataLoader(tokenized["input_ids"],
+        input_ids_data_loader = torch.utils.data.DataLoader(tokenized["input_ids"],
+                            batch_size=batch_size,shuffle=False)
+        attention_masks_data_loader = torch.utils.data.DataLoader(tokenized["attention_masks"],
                             batch_size=batch_size,shuffle=False)
         # Predict
         model = self.model_and_tokenizer.model
         tokenizer = self.model_and_tokenizer.tokenizer
         tensor_predictions = []
         with torch.no_grad():
-            for batch in tqdm(data_loader):
-                batch = batch.to(device)
-                tensor_predictions.extend(model.generate(input_ids=batch,max_length=max_len,pad_token_id=tokenizer.pad_token_id,eos_token_id=tokenizer.eos_token_id).cpu())
-                batch = batch.cpu()
+            for input_ids, attention_mask in tqdm(zip(input_ids_data_loader,attention_masks_data_loader)):
+                input_ids = input_ids.to(device)
+                attention_mask = attention_mask.to(device)
+                tensor_predictions.extend(model.generate(input_ids=input_ids,attention_mask=attention_mask,max_length=max_len,pad_token_id=tokenizer.pad_token_id,eos_token_id=tokenizer.eos_token_id).cpu())
+                input_ids = input_ids.cpu()
+                attention_mask = attention_mask.cpu()
         tensor_predictions = [[token for token in row if token != -100] for row in tensor_predictions]
         predictions = tokenizer.batch_decode(tensor_predictions,**decoding_args)
         return predictions
