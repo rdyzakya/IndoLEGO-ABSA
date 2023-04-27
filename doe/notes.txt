@@ -1,0 +1,3 @@
+[21-04-2023]
+- PATTERN_TOKEN di contant.py harus bisa diganti di pattern_config.json
+- Untuk prompting, coba nanti diganti bukan jadi 'left' atau 'right', tapi dibuat pakai masking juga. Contoh: Extract ... for the following text: TEXT

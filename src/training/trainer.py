@@ -414,14 +414,14 @@ class ABSAGenerativeTrainer:
         # Data loader
         input_ids_data_loader = torch.utils.data.DataLoader(tokenized["input_ids"],
                             batch_size=batch_size,shuffle=False)
-        attention_masks_data_loader = torch.utils.data.DataLoader(tokenized["attention_masks"],
+        attention_mask_data_loader = torch.utils.data.DataLoader(tokenized["attention_mask"],
                             batch_size=batch_size,shuffle=False)
         # Predict
         model = self.model_and_tokenizer.model
         tokenizer = self.model_and_tokenizer.tokenizer
         tensor_predictions = []
         with torch.no_grad():
-            for input_ids, attention_mask in tqdm(zip(input_ids_data_loader,attention_masks_data_loader)):
+            for input_ids, attention_mask in tqdm(zip(input_ids_data_loader,attention_mask_data_loader)):
                 input_ids = input_ids.to(device)
                 attention_mask = attention_mask.to(device)
                 tensor_predictions.extend(model.generate(input_ids=input_ids,attention_mask=attention_mask,max_length=max_len,pad_token_id=tokenizer.pad_token_id,eos_token_id=tokenizer.eos_token_id).cpu())
