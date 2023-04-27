@@ -1,6 +1,14 @@
 {
-    "prompt_template" : {
-        "extraction" : "Extract with the format PATTERN for the following text",
-        "imputation" : "Impute the following IMPUTATION_FIELD for the following text"
+    "template" : {
+        "extraction" : "Extract with the format PATTERN with the categories CATEGORY for the following text: TEXT",
+        "imputation" : "Impute the following IMPUTATION for the following text: TEXT",
+        "non_absa" : "NON_ABSA_PROMPT: TEXT"
+    },
+    "place_holder" : {
+        "pattern" : "PATTERN",
+        "category" : "CATEGORY",
+        "imputation" : "IMPUTATION",
+        "text" : "TEXT",
+        "non_absa_prompt" : "NON_ABSA_PROMPT"
     }
 }

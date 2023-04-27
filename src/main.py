@@ -55,16 +55,12 @@ def main():
         train_absa_args = args.data_config["train"]["absa"].copy()
         train_absa_args.update({
             "prompter" : prompter,
-            "prompt_side" : wrapper.prompt_side,
             "pattern" : pattern
         })
         train_absa = ABSADataset(**train_absa_args)
 
         non_absa_train = []
         for non_absa_args in args.data_config["train"]["non_absa"]:
-            non_absa_args.update({
-                "prompt_side" : wrapper.prompt_side
-            })
             non_absa_train.append(NonABSADataset(**non_absa_args))
         
         absa_builder_args = args.data_config["train"]["absa_builder_args"]
@@ -76,16 +72,12 @@ def main():
         val_absa_args = args.data_config["val"]["absa"].copy()
         val_absa_args.update({
             "prompter" : prompter,
-            "prompt_side" : wrapper.prompt_side,
             "pattern" : pattern
         })
         val_absa = ABSADataset(**val_absa_args)
 
         non_absa_val = []
         for non_absa_args in args.data_config["val"]["non_absa"]:
-            non_absa_args.update({
-                "prompt_side" : wrapper.prompt_side
-            })
             non_absa_val.append(NonABSADataset(**non_absa_args))
         
         val_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_val] + [val_absa.build_train_val_data(**args.data_config["val"]["absa_builder_args"]).to_pandas()])
@@ -103,16 +95,12 @@ def main():
         test_absa_args = args.data_config["test"]["absa"].copy()
         test_absa_args.update({
             "prompter" : prompter,
-            "prompt_side" : wrapper.prompt_side,
             "pattern" : pattern
         })
         test_absa = ABSADataset(**test_absa_args)
 
         non_absa_test = []
         for non_absa_args in args.data_config["test"]["non_absa"]:
-            non_absa_args.update({
-                "prompt_side" : wrapper.prompt_side
-            })
             non_absa_test.append(NonABSADataset(**non_absa_args))
 
         decoding_args = {
