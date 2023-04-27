@@ -1,11 +1,11 @@
 import json
 import subprocess
 import sys
-sys.path.append("..")
+sys.path.append("../..")
 import gpu
 import os
 
-task_path = "./combination_task.json"
+task_path = "../combination_task.json"
 
 config_dir = "/raid/m13519061/ta/facebook-absa/configs"
 
