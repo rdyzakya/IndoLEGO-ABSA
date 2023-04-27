@@ -55,7 +55,13 @@
         "sentiment" : "SENTIMENT"
     },
     "seperator" : ";",
-    "categories" : ["CAT0","CAT1"]
+    "categories" : ["CAT0","CAT1"],
+    "mask" : {
+            "(" : "/OB/",
+            ")" : "/CB/",
+            "," : "/AS/",
+            ";" : "/ES/"
+        }
 }
 ```
 
