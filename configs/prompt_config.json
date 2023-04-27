@@ -1,6 +1,6 @@
 {
     "template" : {
-        "extraction" : "Extract with the format PATTERN with the categories CATEGORY for the following text >> TEXT",
+        "extraction" : "Extract with the format PATTERN for the following text >> TEXT",
         "imputation" : "Impute the following IMPUTATION for the following text >> TEXT",
         "non_absa" : "NON_ABSA_PROMPT >> TEXT"
     },
