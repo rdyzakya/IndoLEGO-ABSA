@@ -6,7 +6,7 @@ class Pattern:
     """
     Pattern for the generated answers.
     """
-    def __init__(self, template:Dict[str,Dict], place_holder:Dict[str,str], seperator:str, categories:List[str]=[]):
+    def __init__(self, template:Dict[str,Dict], place_holder:Dict[str,str], seperator:str, categories:List[str]=[], mask:Dict[str,str]={}):
         """
         ### DESC
             Constructor for Pattern objects (pattern for the generated answers).
@@ -15,11 +15,13 @@ class Pattern:
             * place_holder: Place holder for the sentiment elements (key: aspect, opinion, category, sentiment).
             * seperator: Seperator for multiple results.
             * categories: Category list.
+            * mask: Dictionaries to mask specific characters in text (for example, open bracket)
         """
         self.template = template
         self.place_holder = place_holder
         self.seperator = seperator
         self.categories = categories
+        self.mask = mask
     
     def stringify(self,target:Dict,task:str) -> str:
         """
@@ -106,6 +108,32 @@ class Pattern:
         * categories: List of category.
         """
         self.categories = categories
+    
+    def masking(self,text:str) -> str:
+        """
+        ### DESC
+            Method for masking the special characters in the text (open bracket symbol, close bracket symbol, etc.).
+        ### PARAMS
+        * text: The text that needs to be masked.
+        ### RETURN
+        * text: Masked text.
+        """
+        for character, mask in self.mask.items():
+            text = text.replace(character,mask)
+        return text
+
+    def unmasking(self,text:str) -> str:
+        """
+        ### DESC
+            Method for unmasking a text.
+        ### PARAMS
+        * text: Text that needs to be unmask.
+        ### RETURN
+        * text: Unmasked text.
+        """
+        for character, mask in self.mask.items():
+            text = text.replace(mask,character)
+        return text
     
     def __repr__(self) -> str:
         return str(self.template)
