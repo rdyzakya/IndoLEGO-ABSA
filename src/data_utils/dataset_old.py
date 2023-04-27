@@ -1,12 +1,12 @@
 from datasets import Dataset
-from .prompt import Prompter
 from .pattern import Pattern
+from .prompt import Prompter
 import pandas as pd
 import random
 
 from typing import Dict, List
 
-from constant import SEP, SENTTAG2WORD, SENTIMENT_ELEMENT, IMPLICIT_ASPECT
+from .constant import SEP, SENTTAG2WORD, SENTIMENT_ELEMENT, IMPLICIT_ASPECT
 
 sample = "It rarely works and when it does it 's incredibly slow .####[([2], [1], 'NEG')]"
 
@@ -94,7 +94,7 @@ class ABSADataset(CustomDataset):
     """
     ABSA Dataset.
     """
-    def __init__(self,data_path:str,prompter:Prompter,pattern:Pattern,target_format:str="acos"):
+    def __init__(self,data_path:str,target_format:str="acos",prompter:Prompter=Prompter(),prompt_side:str="left",pattern:Pattern=Pattern()):
         """
         ### DESC
             Constructor method for ABSA dataset.
@@ -102,6 +102,7 @@ class ABSADataset(CustomDataset):
         * data_path: Path to ABSA txt dataset.
         * target_format: Format of the targets in the dataset file. Example: ao, aosc, aos, etc.
         * prompter: Prompter object to add prompt.
+        * prompt_side: Prompt side, either 'left' or 'right'.
         * pattern: Pattern object.
         """
         super().__init__()
@@ -109,12 +110,17 @@ class ABSADataset(CustomDataset):
         assert isinstance(data_path,str)
         assert isinstance(target_format,str)
         assert isinstance(prompter,Prompter)
+        assert isinstance(prompt_side,str)
         assert isinstance(pattern,Pattern)
+
+        # Assert prompt side
+        assert prompt_side in ["left","right"]
 
         # Assign attributes
         self.data_path = data_path
         self.target_format = target_format
         self.prompter = prompter
+        self.prompt_side = prompt_side
         self.pattern = pattern
 
         # Read the data
@@ -147,15 +153,14 @@ class ABSADataset(CustomDataset):
             data.extend(self.create_intermediate_data(self.data,"imputation",tasks["imputation"].keys().tolist(),incomplete_target_format=tasks["imputation"]))
         
         for i_row, row in enumerate(data):
-            data[i_row] = self.stringify_input_output(row)
+            data[i_row] = self.stringify_input_output(row,self.prompter,self.pattern,self.prompt_side)
 
         # Turn interim data into HF Dataset
         data = pd.DataFrame(data)
         if shuffle:
             data = data.sample(frac=1.0,random_state=random_state)
         data = Dataset.from_pandas(data)
-        if "__index_level_0__" in data.column_names:
-            data = data.remove_columns(["__index_level_0__"])
+        data = data.remove_columns(["__index_level_0__"])
 
         return data
     
@@ -189,7 +194,7 @@ class ABSADataset(CustomDataset):
                     incomplete_targets[i_row] = handle_mix_sentiment(incomplete_targets[i_row])
                     incomplete_targets[i_row] = remove_duplicate_targets(incomplete_targets[i_row])
                     row["incomplete_target"]= incomplete_targets[i_row]
-            row = self.stringify_input_output(row)
+            row = self.stringify_input_output(row,self.prompter,self.pattern,self.prompt_side)
             row["target"] = targets
             test_data.append(row)
         test_data = Dataset.from_pandas(pd.DataFrame(test_data))
@@ -227,21 +232,34 @@ class ABSADataset(CustomDataset):
             result_data.append(result_row)
         return result_data
 
-    def stringify_input_output(self,row:Dict) -> Dict:
+    def stringify_input_output(self,row:Dict,prompter:Prompter=Prompter(),pattern:Pattern=Pattern(),prompt_side:str="left") -> Dict:
         """
         ### DESC
             Mapping method for creating input output (designed for Huggingface trainer).
         ### PARAMS
         * row: Data row.
+        * prompter: Prompter object.
+        * pattern: Pattern object.
+        * prompt_side: Prompt side, either 'left' or 'right'.
         ### RETURN
         * Dictionary containing input and output.
         """
         text = row["text"]
         targets = eval(row["target"]) if isinstance(row["target"],str) else row["target"]
         incomplete_targets = eval(row["incomplete_target"])  if isinstance(row["incomplete_target"],str) else row["incomplete_target"]
-        prompt = self.prompter.build_prompt(self.pattern,row["task"],incomplete_targets,row["paradigm"])
-        input_text = self.prompter.add_prompt(prompt,text)
-        output_text = self.pattern.batch_stringify(targets,row["task"])
+        # Masking the special chars
+        text = pattern.masking(text)
+        for i_target in range(len(targets)):
+            for key, value in targets[i_target].items():
+                targets[i_target][key] = pattern.masking(value)
+        if incomplete_targets != None:
+            for i_incomplete_target in range(len(incomplete_targets)):
+                for key, value in incomplete_targets[i_incomplete_target].items():
+                    incomplete_targets[i_incomplete_target][key] = pattern.masking(value)
+        # build prompt
+        prompt = prompter.build_prompt(row["task"],pattern,incomplete_targets,row["paradigm"])
+        input_text = prompt + ' ' + text if prompt_side == "left" else text + ' ' + prompt
+        output_text = pattern.batch_stringify(targets,row["task"])
 
         return {"input" : input_text, "output" : output_text, "task" : row["task"]}
     
@@ -328,19 +346,20 @@ class NonABSADataset(CustomDataset):
     """
     Non-ABSA Dataset.
     """
-    def __init__(self,data_path:str,prompter:Prompter):
+    def __init__(self,data_path:str,prompt_side:str="left"):
         """
         ### DESC
             Constructor for NonABSADataset instance.
         ### PARAMS
         * data_path: Path to the dataset file (in csv format).
+        * prompt_side: "left" or "right" (prompt placement).
         """
         super().__init__()
         assert data_path.endswith(".csv")
         self.data = pd.read_csv(data_path)
         assert "text" in self.data.columns and "output" in self.data.columns and "prompt" in self.data.columns
         self.data_path = data_path
-        self.prompter = prompter
+        self.prompt_side = prompt_side
     
     def build_data(self) -> Dataset:
         """
@@ -350,71 +369,52 @@ class NonABSADataset(CustomDataset):
         * Resultant HF Dataset containing 'input','output',and 'task' column.
         """
         result_data = self.data.copy()
-        def add_prompt(row):
-            prompt = self.prompter.template["non_absa"].replace(self.prompter.place_holder["non_absa_prompt"], row.prompt)
-            result = self.prompter.add_prompt(prompt,row.text)
-            return result
-        result_data["input"] = result_data.apply(add_prompt,axis=1)
+        result_data["input"] = result_data.apply(lambda row: self.add_prompt(row.prompt,row.text,self.prompt_side),axis=1)
         result_data = result_data[["input","output"]]
         result_data["task"] = ["non_absa" for _ in range(len(self.data))]
         result_data = Dataset.from_pandas(result_data)
         return result_data
+    
+    def add_prompt(self,prompt:str,text:str,prompt_side:str="left") -> str:
+        """
+        ### DESC
+            Method to add prompt.
+        ### PARAMS
+        * prompt: The prompt.
+        * text: The text.
+        * prompt_side: "left" or "right" (prompt placement).
+        ### RETURN
+        * Prompted text.
+        """
+        assert prompt_side == "left" or prompt_side == "right"
+        return prompt + ": " + text if prompt_side == "left" else text + prompt + ": "
 
 if __name__ == "__main__":
     data_path = "./sample_dataset.txt"
     target_format = "aos"
     tasks = {
-        "extraction" : ["aos","ao"],
+        "extraction" : ["as","aos","ao"],
         "imputation" : {
-            "aos" : ["ao"]
+            "aos" : ["ao","as"]
         }
     }
-    pattern_template = {
-        "acos" : {
-            "input" : "aspect : <extra_id_0> , category : <extra_id_1> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
-            "output" : "<extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_2> OPINION <extra_id_3> SENTIMENT"
-        },
-        "aos" : {
-            "input" : "aspect : <extra_id_0> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
-            "output" : "<extra_id_0> ASPECT <extra_id_1> OPINION <extra_id_3> SENTIMENT"
-        },
-        "ao" : {
-            "input" : "aspect : <extra_id_0> , opinion : <extra_id_2>",
-            "output" : "<extra_id_0> ASPECT <extra_id_1> OPINION"
-        }
-    }
-    pattern_place_holder = {
-        "aspect" : "ASPECT",
-        "opinion" : "OPINION",
-        "category" : "CATEGORY",
-        "sentiment" : "SENTIMENT"
-    }
-    seperator = ';'
-    pattern = Pattern(template=pattern_template, place_holder=pattern_place_holder, seperator=seperator)
-    
-    prompt_template = {
-        "extraction" : "Extract with the format PATTERN with the categories CATEGORY for the following text: TEXT",
-        "imputation" : "Impute the following IMPUTATION for the following text: TEXT",
-        "non_absa" : "NON_ABSA_PROMPT: TEXT"
-    }
-    
-    prompt_place_holder = {
-        "pattern" : "PATTERN",
-        "category" : "CATEGORY",
-        "imputation" : "IMPUTATION",
-        "text" : "TEXT",
-        "non_absa_prompt" : "NON_ABSA_PROMPT"
-    }
-    prompter = Prompter(template=prompt_template, place_holder=prompt_place_holder)
+    pattern = Pattern(tasks=["ao","as","aos","os","a"],
+                      categories=["LAPTOP#GENERAL","BATTERY#HEALTH"])
+    prompter = Prompter()
+    prompt_side = "left"
 
-    absa_ds = ABSADataset(data_path=data_path,prompter=prompter,pattern=pattern,target_format=target_format)
+    absa_ds = ABSADataset(data_path=data_path,
+                          target_format=target_format,
+                          prompter=prompter,
+                          prompt_side=prompt_side,
+                          pattern=pattern)
     
     train = absa_ds.build_train_val_data(tasks=tasks,multiply=True,shuffle=False,random_state=0)
-    test1 = absa_ds.build_test_data(task="aos",paradigm="extraction",incomplete_targets=None)
-    test2 = absa_ds.build_test_data(task="aos",paradigm="imputation",incomplete_targets=[[{"aspect" : "kocak"}] for _ in range(len(absa_ds))])
+    test1 = absa_ds.build_test_data(task="ao",paradigm="extraction",incomplete_targets=None)
+    test2 = absa_ds.build_test_data(task="ao",paradigm="imputation",incomplete_targets=[[{"aspect" : "kocak"}] for _ in range(len(absa_ds))])
     train.to_csv("train.csv",index=False)
     test1.to_csv("extraction.csv",index=False)
     test2.to_csv("imputation.csv",index=False)
 
-    non_absa = NonABSADataset("../../data/doc_sa/en/kaggle/interim/amazonReview.csv",prompter=prompter).build_data()
+    non_absa = NonABSADataset("../data/doc_sa/en/kaggle/interim/amazonReview.csv","left").build_data()
     non_absa.to_csv("non_absa.csv",index=False)

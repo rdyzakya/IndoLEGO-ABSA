@@ -1,8 +1,7 @@
 import torch
 from transformers import DataCollatorForSeq2Seq, DataCollatorForLanguageModeling
 from transformers import EvalPrediction
-from transformers import TrainingArguments, Seq2SeqTrainingArguments, Trainer, Seq2SeqTrainer, set_seed
-from transformers import EarlyStoppingCallback
+from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer, set_seed
 from data_utils.dataset import handle_mix_sentiment, remove_duplicate_targets
 from model import ABSAGenerativeModelWrapper
 from evaluation import recall, precision, f1_score, summary_score
@@ -11,7 +10,6 @@ from datasets import Dataset
 from typing import List, Dict, Tuple
 from tqdm import tqdm
 import numpy as np
-from numba import cuda
 import pandas as pd
 
 class ABSAGenerativeTrainer:
@@ -26,7 +24,7 @@ class ABSAGenerativeTrainer:
     4. Call the prepare_trainer method.
     5. Call train method.
     """
-    def __init__(self,absa_model_and_tokenizer:ABSAGenerativeModelWrapper,pattern:Pattern=Pattern(),do_train:bool=True,do_eval:bool=False):
+    def __init__(self,absa_model_and_tokenizer:ABSAGenerativeModelWrapper,pattern:Pattern,do_train:bool=True,do_eval:bool=False):
         """"
         ### DESC
             ABSAGenerativeTrainer constructor.
@@ -36,7 +34,7 @@ class ABSAGenerativeTrainer:
         * do_train: Do training.
         * do_eval: Do validation.
         """
-        new_vocab = CONSTANT_VOCAB + list(pattern.mask.keys()) + list(pattern.mask.values()) + pattern.categories
+        new_vocab = CONSTANT_VOCAB + pattern.categories
         absa_model_and_tokenizer.add_vocab(new_vocab)
 
         self.model_and_tokenizer = absa_model_and_tokenizer

@@ -1,7 +1,24 @@
 {
-    "open_bracket" : "(",
-    "close_bracket" : ")",
-    "intra_sep" : ",",
-    "inter_sep" : ";",
+    "template" : {
+        "acos" : {
+            "input" : "aspect : <extra_id_0> , category : <extra_id_1> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_2> OPINION <extra_id_3> SENTIMENT"
+        },
+        "aos" : {
+            "input" : "aspect : <extra_id_0> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> OPINION <extra_id_3> SENTIMENT"
+        },
+        "ao" : {
+            "input" : "aspect : <extra_id_0> , opinion : <extra_id_2>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> OPINION"
+        }
+    },
+    "place_holder" : {
+        "aspect" : "ASPECT",
+        "opinion" : "OPINION",
+        "category" : "CATEGORY",
+        "sentiment" : "SENTIMENT"
+    },
+    "seperator" : ";",
     "categories" : ["CAT0","CAT1"]
 }

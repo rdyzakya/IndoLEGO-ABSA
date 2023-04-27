@@ -1,82 +1,56 @@
 from typing import List, Dict
-from .constant import SENTTAG2WORD, SPECIAL_CHAR, PATTERN_TOKEN, SENTIMENT_ELEMENT, NO_TARGET
+from .constant import NO_TARGET, SPECIAL_CHAR, SENTTAG2WORD
 import re
-from itertools import combinations, permutations
 
 class Pattern:
     """
     Pattern for the generated answers.
     """
-    def __init__(self,open_bracket:str='(',close_bracket:str=')',intra_sep:str=',',inter_sep:str=';',categories:List[str]=["CAT0","CAT1"]):
+    def __init__(self, template:Dict[str,Dict], place_holder:Dict[str,str], seperator:str, categories:List[str]=[]):
         """
         ### DESC
             Constructor for Pattern objects (pattern for the generated answers).
         ### PARAMS
-        * open_bracket: Open bracket symbol.
-        * close_bracket: Close bracket symbol.
-        * intra_sep: Seperator between sentiment elements in a tuple.
-        * inter_sep: Seperator between multiple tuples.
-        * categories: List of categories if exist.
+            * template: Dictionary containing keys (task name) and values (pattern template dictionary with input and output key).
+            * place_holder: Place holder for the sentiment elements (key: aspect, opinion, category, sentiment).
+            * seperator: Seperator for multiple results.
+            * categories: Category list.
         """
-        self.tasks = self.get_task()
-        self.open_bracket = open_bracket.strip()
-        self.close_bracket = close_bracket.strip()
-        self.intra_sep = intra_sep.strip()
-        self.inter_sep = inter_sep.strip()
+        self.template = template
+        self.place_holder = place_holder
+        self.seperator = seperator
         self.categories = categories
-
-        self.mask = {
-            self.open_bracket : "/OB/",
-            self.close_bracket : "/CB/",
-            self.intra_sep : "/AS/",
-            self.inter_sep : "/ES/"
-        }
-
-        self.compile_tasks(self.tasks)
     
-    def get_task(self) -> List[str]:
+    def stringify(self,target:Dict,task:str) -> str:
         """
         ### DESC
-            Method to generate all posible ABSA tasks.
-        ### RETURN
-        * List of ABSA tasks in any order possible.
-        """
-        def string_permutations(input_string):
-            output_list = []
-            for perm in permutations(input_string):
-                output_list.append(''.join(perm))
-            return output_list
-        def combination_string(input_string):
-            output_list = []
-            for i in range(1, len(input_string) + 1):
-                for combo in combinations(input_string, i):
-                    output_list.append(''.join(combo))
-            return output_list
-        result = []
-        input_string = "aocs"
-        permut = string_permutations(input_string)
-        for p in permut:
-            result.extend(combination_string(p))
-        result = list(set(result))
-        result.sort()
-        return result
-
-    def compile_tasks(self,task:List[str]):
-        """
-        ### DESC
-            Method to compile list of tasks handled by the pattern object.
+            Stringify the target from dictionary form to string form.
         ### PARAMS
-        * task: List of task name.
+        * target: Target in the form of dictionary. Example: {"aspect" : "A1", "opinion" : "O1}
+        * task: Task related to the target that needs to be generated.
+        ### RETURN
+        * output: Stringified target.
         """
-        self.pattern = {}
-        for t in task:
-            self.pattern[t] = []
-            for se in t:
-                # se: a (aspect term), o (opinion term), s (sentiment), c (category)
-                self.pattern[t].append(PATTERN_TOKEN[SENTIMENT_ELEMENT[se]])
-            self.pattern[t] = f"{self.open_bracket} " + f" {self.intra_sep.strip()} ".join(self.pattern[t]) + f" {self.close_bracket}"
-            self.pattern[t] = self.pattern[t].strip()
-
+        output = self.template[task]["output"]
+        for key, value in target.items():
+            output = output.replace(self.place_holder[key],value)
+        return output
+    
+    def batch_stringify(self,targets:List[Dict],task:str) -> str:
+        """
+        ### DESC
+            Stringify list of target.
+        ### PARAMS
+        * targets: List of target.
+        * task: Task related to the target that needs to be generated.
+        ### RETURN
+        * result: Stringified target.
+        """
+        if len(targets) == 0:
+            return NO_TARGET
+        result = f" {self.seperator} ".join([self.stringify(target,task) for target in targets])
+        return result
+    
     def regex(self,task:str) -> str:
         """
         ### DESC
@@ -86,19 +60,16 @@ class Pattern:
         ### RETURN
         * regex_pattern: Regex pattern for the related task.
         """
-        regex_pattern = self.pattern[task]
-        intra_sep = self.intra_sep
-        inter_sep = self.inter_sep
+        regex_pattern = self.template[task]["output"]
+        seperator = self.seperator
         for k,v in SPECIAL_CHAR.items():
             regex_pattern = regex_pattern.replace(k,v)
-            intra_sep = intra_sep.replace(k,v)
-        for k,v in PATTERN_TOKEN.items():
+            # intra_sep = intra_sep.replace(k,v)
+        for k,v in self.place_holder.items():
             if k == "sentiment":
                 regex_pattern = regex_pattern.replace(v,f"(?P<sentiment>{'|'.join(SENTTAG2WORD.values())})")
-            # elif k == "category":
-            #     regex_pattern = regex_pattern.replace(v,f"(?P<category>{'|'.join(self.categories)})")
             else:
-                regex_pattern = regex_pattern.replace(v,f"(?P<{k}>[^{intra_sep}{inter_sep}]+)")
+                regex_pattern = regex_pattern.replace(v,f"(?P<{k}>[^{seperator}]+)")
         regex_pattern = regex_pattern.replace(' ',r'\s*')
         return regex_pattern
     
@@ -120,7 +91,7 @@ class Pattern:
                 # Strip the value
                 v = v.strip()
                 # Check if the value is between the pattern tokens (usually in prompts)
-                if v in PATTERN_TOKEN.values():
+                if v in self.place_holder.values():
                     is_found_pattern_token = True
                 found[i][k] = v
             if found[i] not in result and not is_found_pattern_token:
@@ -135,75 +106,46 @@ class Pattern:
         * categories: List of category.
         """
         self.categories = categories
-
-    def stringify(self,target:Dict,task:str) -> str:
-        """
-        ### DESC
-            Stringify the target from dictionary form to string form.
-        ### PARAMS
-        * target: Target in the form of dictionary. Example: {"aspect" : "A1", "opinion" : "O1}
-        * task: Task related to the target that needs to be generated.
-        ### RETURN
-        * result: Stringified target.
-        """
-        result = self.pattern[task]
-        for k in target.keys():
-            result = result.replace(PATTERN_TOKEN[k],target[k])
-        return result
     
-    def batch_stringify(self,targets:List[Dict],task:str) -> str:
-        """
-        ### DESC
-            Stringify list of target.
-        ### PARAMS
-        * targets: List of target.
-        * task: Task related to the target that needs to be generated.
-        ### RETURN
-        * result: Stringified target.
-        """
-        if len(targets) == 0:
-            return NO_TARGET
-        result = f" {self.inter_sep} ".join([self.stringify(target,task) for target in targets])
-        return result
-    
-    def masking(self,text:str) -> str:
-        """
-        ### DESC
-            Method for masking the special characters in the text (open bracket symbol, close bracket symbol, etc.).
-        ### PARAMS
-        * text: The text that needs to be masked.
-        ### RETURN
-        * text: Masked text.
-        """
-        for character, mask in self.mask.items():
-            text = text.replace(character,mask)
-        return text
-    
-    def unmasking(self,text:str) -> str:
-        """
-        ### DESC
-            Method for unmasking a text.
-        ### PARAMS
-        * text: Text that needs to be unmask.
-        ### RETURN
-        * text: Unmasked text.
-        """
-        for character, mask in self.mask.items():
-            text = text.replace(mask,character)
-        return text
-
     def __repr__(self) -> str:
-        return str(self.pattern)
+        return str(self.template)
     
     def __str__(self) -> str:
-        return str(self.pattern)
+        return str(self.template)
 
 if __name__ == "__main__":
-    p = Pattern(["aocs", "aoc", "caos", "ao", "a", "aos"])
-    print(p)
-    print(p.regex("aocs"))
-    text_1 = "Hello semua ayo kita sambut . Extract in the format ( <A> , <O> ) : (Hello, semua) ; (ayo, sambut)"
-    text_2 = "(Hello, semua, positive) ; (ayo, sambut, negative)"
+    template = {
+        "acos" : {
+            "input" : "aspect : <extra_id_0> , category : <extra_id_1> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_2> OPINION <extra_id_3> SENTIMENT"
+        },
+        "aos" : {
+            "input" : "aspect : <extra_id_0> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> OPINION <extra_id_3> SENTIMENT"
+        },
+        "ao" : {
+            "input" : "aspect : <extra_id_0> , opinion : <extra_id_2>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> OPINION"
+        }
+    }
+
+    place_holder = {
+        "aspect" : "ASPECT",
+        "opinion" : "OPINION",
+        "category" : "CATEGORY",
+        "sentiment" : "SENTIMENT"
+    }
+
+    seperator = ';'
+
+    p = Pattern(template=template, place_holder=place_holder, seperator=seperator)
+    # print(p)
+    print(p.regex("acos"))
+
+    # Text input wajib dipotong untuk causal lm
+    # text_1 = "Hello semua ayo kita sambut . Extract in the format aspect : <extra_id_0> , opinion : <extra_id_2> : <extra_id_0> Hello <extra_id_1> Semua ; <extra_id_0> Ayo <extra_id_1> sambut"
+    text_1 = "<extra_id_0> Hello <extra_id_1> Semua ; <extra_id_0> Ayo <extra_id_1> sambut"
+    text_2 = "<extra_id_0> Hallo <extra_id_1> Semua <extra_id_3> positive ; <extra_id_0> Ayo <extra_id_1> sambut <extra_id_3> negative"
 
     found_1 = p.find_all(text_1,"ao")
     found_2 = p.find_all(text_2,"aos")
