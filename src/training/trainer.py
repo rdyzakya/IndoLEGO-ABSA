@@ -92,12 +92,13 @@ class ABSAGenerativeTrainer:
             self.tokenized_eval = eval_dataset.map(encode,batched=True,remove_columns=eval_dataset.column_names)
             self.eval_tasks = eval_dataset["task"]
     
-    def compute_metrics(self,eval_preds:EvalPrediction) -> Dict[str,float]: # MAY NOT BE SUFFICIATE FOR CAUSAL LM
+    def compute_metrics(self,eval_preds:EvalPrediction,decoding_args:Dict[str,str]) -> Dict[str,float]: # MAY NOT BE SUFFICIATE FOR CAUSAL LM
         """
         ### DESC
             Method to compute the metrics.
         ### PARAMS
         * eval_preds: EvalPrediction instance from training.
+        * decoding_args: Decoding arguments.
         ### RETURN
         * metrics: Dictionary of metrics.
         """
@@ -122,7 +123,7 @@ class ABSAGenerativeTrainer:
         target_ids = [[token for token in row if token != -100] for row in target_ids]
         prediction_ids = [[token for token in row if token != -100] for row in prediction_ids]
 
-        inputs = self.model_and_tokenizer.tokenizer.batch_decode(input_ids,skip_special_tokens=True)
+        inputs = self.model_and_tokenizer.tokenizer.batch_decode(input_ids,**self.decoding_args)
         targets = self.model_and_tokenizer.tokenizer.batch_decode(target_ids,skip_special_tokens=True)
         predictions = self.model_and_tokenizer.tokenizer.batch_decode(prediction_ids,skip_special_tokens=True)
 
@@ -186,10 +187,12 @@ class ABSAGenerativeTrainer:
         #     )
         self.training_args = Seq2SeqTrainingArguments(**train_args_dict) # if self.model_and_tokenizer.model_type == "seq2seq" else TrainingArguments(**train_args_dict)
 
-    def prepare_trainer(self):
+    def prepare_trainer(self,decoding_args:Dict[str,str]):
         """
         ### DESC
             Method for preparing trainer.
+        ### PARAMS
+        * decoding_args: Decoding arguments, used in compute_metrics to decode the output text.
         """
         trainer_args = {
             "model" : self.model_and_tokenizer.model,
@@ -205,7 +208,7 @@ class ABSAGenerativeTrainer:
         if self.do_eval:
             trainer_args.update({
                 "eval_dataset" : self.tokenized_eval,
-                "compute_metrics" : self.compute_metrics
+                "compute_metrics" : lambda eval_preds: self.compute_metrics(eval_preds,decoding_args)
             })
 
         model_type = self.model_and_tokenizer.model_type
