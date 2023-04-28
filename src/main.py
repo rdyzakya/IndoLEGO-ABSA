@@ -28,6 +28,7 @@ def init_args() -> Dict[str,Any]:
     parser.add_argument('--prompt_config',type=str,help="Path to prompter configuration json file.",default="configs/prompt_config.json")
     parser.add_argument('--train_args',type=str,help="Path to train configuration json file.",default="configs/train_args.json")
     parser.add_argument('--encoding_args',type=str,help="Path to encoding configuration json file.",default="configs/encoding_args.json")
+    parser.add_argument('--decoding_args',type=str,help="Path to decoding configuration json file.",default="configs/decoding_args.json")
 
     args = parser.parse_args()
     args.model_config = json.load(open(args.model_config,'r'))
@@ -36,6 +37,7 @@ def init_args() -> Dict[str,Any]:
     args.prompt_config = json.load(open(args.prompt_config,'r'))
     args.train_args = json.load(open(args.train_args,'r'))
     args.encoding_args = json.load(open(args.encoding_args,'r'))
+    args.decoding_args = json.load(open(args.decoding_args,'r'))
 
     return args
 
@@ -103,13 +105,10 @@ def main():
         for non_absa_args in args.data_config["test"]["non_absa"]:
             non_absa_test.append(NonABSADataset(**non_absa_args))
 
-        decoding_args = {
-            "skip_special_tokens" : True
-        }
         device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
         
-        non_absa_preds = trainer.predict_non_absa(dataset=non_absa_test,device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
-        absa_preds, summary_score, absa_str_preds = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["task_tree"],device=device,encoding_args=args.encoding_args,decoding_args=decoding_args)
+        non_absa_preds = trainer.predict_non_absa(dataset=non_absa_test,device=device,encoding_args=args.encoding_args,decoding_args=args.decoding_args)
+        absa_preds, summary_score, absa_str_preds = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["task_tree"],device=device,encoding_args=args.encoding_args,decoding_args=args.decoding_args)
 
         # Save the result for error analysis
         print("Save results...")

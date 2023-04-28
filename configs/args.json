@@ -6,5 +6,6 @@
     "model_config" : "configs/model_config.json",
     "pattern_config" : "configs/pattern_config.json",
     "prompt_config" : "configs/prompt_config.json",
-    "train_args" : "configs/train_args.json"
+    "train_args" : "configs/train_args.json",
+    "decoding_args" : "configs/decoding_args.json"
 }

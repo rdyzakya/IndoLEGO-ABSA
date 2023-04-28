@@ -34,7 +34,7 @@ class ABSAGenerativeTrainer:
         * do_train: Do training.
         * do_eval: Do validation.
         """
-        new_vocab = CONSTANT_VOCAB + pattern.categories
+        new_vocab = CONSTANT_VOCAB + list(pattern.mask.keys()) + list(pattern.mask.values()) + pattern.categories
         absa_model_and_tokenizer.add_vocab(new_vocab)
 
         self.model_and_tokenizer = absa_model_and_tokenizer

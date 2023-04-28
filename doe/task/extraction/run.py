@@ -15,6 +15,7 @@ train_args_path = f"{config_dir}/train_args.json"
 pattern_config_path = f"{config_dir}/pattern_config.json"
 prompt_config_path = f"{config_dir}/prompt_config.json"
 encoding_args_path = f"{config_dir}/encoding_args.json"
+decoding_args_path = f"{config_dir}/decoding_args.json"
 
 output_dir = "./output"
 
@@ -151,7 +152,8 @@ for extraction_task in tasks["extraction"]["combination"]:
             "--pattern_config", pattern_config_path,
             "--prompt_config", prompt_config_path,
             "--train_args", train_args_path,
-            "--encoding_args", encoding_args_path
+            "--encoding_args", encoding_args_path,
+            "--decoding_args", decoding_args_path
         ])
 
         if process.returncode == 0:
