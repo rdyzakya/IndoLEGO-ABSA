@@ -23,7 +23,7 @@ data_path = "/raid/m13519061/ta/facebook-absa/data/absa/en/zhang/interim/interim
 
 script_path = "/raid/m13519061/ta/facebook-absa/src/main.py"
 
-model_name_or_path = "google/flan-t5-base"
+model_name_or_path = "t5-base"
 
 tasks = json.load(open(task_path,'r'))
 
