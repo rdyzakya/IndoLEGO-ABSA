@@ -1,6 +1,7 @@
 import torch
 from transformers import DataCollatorForSeq2Seq, DataCollatorForLanguageModeling
 from transformers import EvalPrediction
+from transformers import EarlyStoppingCallback
 from transformers import Seq2SeqTrainingArguments, Seq2SeqTrainer, set_seed
 from data_utils.dataset import handle_mix_sentiment, remove_duplicate_targets
 from model import ABSAGenerativeModelWrapper
@@ -24,7 +25,7 @@ class ABSAGenerativeTrainer:
     4. Call the prepare_trainer method.
     5. Call train method.
     """
-    def __init__(self,absa_model_and_tokenizer:ABSAGenerativeModelWrapper,pattern:Pattern,do_train:bool=True,do_eval:bool=False):
+    def __init__(self,absa_model_and_tokenizer:ABSAGenerativeModelWrapper,pattern:Pattern,do_train:bool=True,do_eval:bool=False,early_stopping_patience:int=-1):
         """"
         ### DESC
             ABSAGenerativeTrainer constructor.
@@ -33,6 +34,7 @@ class ABSAGenerativeTrainer:
         * pattern: Pattern instance.
         * do_train: Do training.
         * do_eval: Do validation.
+        * early_stopping_patience: Patience of early stopping, if -1, then no early stopping.
         """
         new_vocab = CONSTANT_VOCAB + list(pattern.mask.keys()) + list(pattern.mask.values()) + pattern.categories
         absa_model_and_tokenizer.add_vocab(new_vocab)
@@ -41,6 +43,7 @@ class ABSAGenerativeTrainer:
         self.pattern = pattern
         self.do_train = do_train
         self.do_eval = do_eval
+        self.early_stopping_patience = early_stopping_patience
 
     def prepare_data(self,train_dataset:Dataset,eval_dataset:Dataset=None,**encoding_args):
         """
@@ -55,15 +58,6 @@ class ABSAGenerativeTrainer:
         model_type = self.model_and_tokenizer.model_type
 
         def create_clm(row,train=False):
-            # if train:
-            #     return {
-            #             "input" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token,
-            #             "output" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token
-            #         }
-            # return {
-            #         "input" : row["input"] + ' ' + tokenizer.sep_token,
-            #         "output" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token
-            #     }
             return {
                         "causal_lm_input" : row["input"] + ' ' + tokenizer.sep_token + ' ' + row["output"] + ' ' + tokenizer.eos_token,
                     }
@@ -210,6 +204,10 @@ class ABSAGenerativeTrainer:
                 "eval_dataset" : self.tokenized_eval,
                 "compute_metrics" : lambda eval_preds: self.compute_metrics(eval_preds,decoding_args)
             })
+            if self.early_stopping_patience != -1:
+                trainer_args.update({
+                    "callbacks" : [EarlyStoppingCallback(early_stopping_patience=self.early_stopping_patience)],
+                })
 
         model_type = self.model_and_tokenizer.model_type
 
