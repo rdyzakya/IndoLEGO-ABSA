@@ -22,13 +22,15 @@ def init_args() -> Dict[str,Any]:
     parser.add_argument("--do_eval",action="store_true",help="Do calidation phase.")
     parser.add_argument("--do_predict",action="store_true",help="Do prediction")
 
-    parser.add_argument('--model_config',type=str,help="Path to model configuration json file.",default="configs/model_config.json")
-    parser.add_argument('--data_config',type=str,help="Path to data configuration json file.",default="configs/data_config.json")
-    parser.add_argument('--pattern_config',type=str,help="Path to pattern configuration json file.",default="configs/pattern_config.json")
-    parser.add_argument('--prompt_config',type=str,help="Path to prompter configuration json file.",default="configs/prompt_config.json")
-    parser.add_argument('--train_args',type=str,help="Path to train configuration json file.",default="configs/train_args.json")
-    parser.add_argument('--encoding_args',type=str,help="Path to encoding configuration json file.",default="configs/encoding_args.json")
-    parser.add_argument('--decoding_args',type=str,help="Path to decoding configuration json file.",default="configs/decoding_args.json")
+    parser.add_argument("--model_config",type=str,help="Path to model configuration json file.",default="configs/model_config.json")
+    parser.add_argument("--data_config",type=str,help="Path to data configuration json file.",default="configs/data_config.json")
+    parser.add_argument("--pattern_config",type=str,help="Path to pattern configuration json file.",default="configs/pattern_config.json")
+    parser.add_argument("--prompt_config",type=str,help="Path to prompter configuration json file.",default="configs/prompt_config.json")
+    parser.add_argument("--train_args",type=str,help="Path to train configuration json file.",default="configs/train_args.json")
+    parser.add_argument("--encoding_args",type=str,help="Path to encoding configuration json file.",default="configs/encoding_args.json")
+    parser.add_argument("--decoding_args",type=str,help="Path to decoding configuration json file.",default="configs/decoding_args.json")
+    
+    parser.add_argument("--patience",type=int,help="Early stopping patience, if -1 then no early stopping.",default=-1)
 
     args = parser.parse_args()
     args.model_config = json.load(open(args.model_config,'r'))
@@ -49,7 +51,7 @@ def main():
     wrapper = ABSAGenerativeModelWrapper(**args.model_config)
     pattern = Pattern(**args.pattern_config)
     prompter = Prompter(**args.prompt_config)
-    trainer = ABSAGenerativeTrainer(absa_model_and_tokenizer=wrapper,pattern=pattern,do_train=args.do_train,do_eval=args.do_eval)
+    trainer = ABSAGenerativeTrainer(absa_model_and_tokenizer=wrapper,pattern=pattern,do_train=args.do_train,do_eval=args.do_eval,early_stopping_patience=args.patience)
 
     print("Prepare datasets...")
     # ABSA Datasets

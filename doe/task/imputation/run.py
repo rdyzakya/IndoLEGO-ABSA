@@ -155,7 +155,8 @@ for imputation_task in tasks["imputation"]["combination"]:
             "--prompt_config", prompt_config_path,
             "--train_args", train_args_path,
             "--encoding_args", encoding_args_path,
-            "--decoding_args", decoding_args_path
+            "--decoding_args", decoding_args_path,
+            "--patience", 3
         ])
 
         if process.returncode == 0:

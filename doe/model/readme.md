@@ -72,3 +72,6 @@
     "imputation" : "Impute the following IMPUTATION_FIELD for the following text"
 }
 ```
+
+## Early Stopping
+Early stopping is not set (-1).
