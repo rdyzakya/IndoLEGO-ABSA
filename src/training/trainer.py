@@ -123,9 +123,9 @@ class ABSAGenerativeTrainer:
         target_ids = [[token for token in row if token != -100] for row in target_ids]
         prediction_ids = [[token for token in row if token != -100] for row in prediction_ids]
 
-        inputs = self.model_and_tokenizer.tokenizer.batch_decode(input_ids,**self.decoding_args)
-        targets = self.model_and_tokenizer.tokenizer.batch_decode(target_ids,skip_special_tokens=True)
-        predictions = self.model_and_tokenizer.tokenizer.batch_decode(prediction_ids,skip_special_tokens=True)
+        inputs = self.model_and_tokenizer.tokenizer.batch_decode(input_ids,**decoding_args)
+        targets = self.model_and_tokenizer.tokenizer.batch_decode(target_ids,**decoding_args)
+        predictions = self.model_and_tokenizer.tokenizer.batch_decode(prediction_ids,**decoding_args)
 
         print("[DEBUG LOOKUP INPUT OUTPUT]")
         print(">> INPUT:",inputs[10:12])
