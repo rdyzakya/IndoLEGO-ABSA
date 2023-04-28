@@ -240,14 +240,14 @@ class ABSADataset(CustomDataset):
         targets = eval(row["target"]) if isinstance(row["target"],str) else row["target"]
         incomplete_targets = eval(row["incomplete_target"])  if isinstance(row["incomplete_target"],str) else row["incomplete_target"]
         # Masking the special chars
-        text = pattern.masking(text)
+        text = self.pattern.masking(text)
         for i_target in range(len(targets)):
             for key, value in targets[i_target].items():
-                targets[i_target][key] = pattern.masking(value)
+                targets[i_target][key] = self.pattern.masking(value)
         if incomplete_targets != None:
             for i_incomplete_target in range(len(incomplete_targets)):
                 for key, value in incomplete_targets[i_incomplete_target].items():
-                    incomplete_targets[i_incomplete_target][key] = pattern.masking(value)
+                    incomplete_targets[i_incomplete_target][key] = self.pattern.masking(value)
         prompt = self.prompter.build_prompt(self.pattern,row["task"],incomplete_targets,row["paradigm"])
         input_text = self.prompter.add_prompt(prompt,text)
         output_text = self.pattern.batch_stringify(targets,row["task"])
