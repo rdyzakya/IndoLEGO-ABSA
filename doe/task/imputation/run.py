@@ -31,7 +31,8 @@ dataset = ["rest15","rest16"]
 
 n_gpu = 2
 
-extraction_task = ["ao","as","cs","aos","acs","acos"]
+# ao-cs-aos-acs-acos
+extraction_task = ["ao","cs","aos","acs","acos",'a','c']
 
 temp_data_config = {
     "train" : {
@@ -72,7 +73,7 @@ temp_data_config = {
             "target_format" : "acso"
         },
         "non_absa" : [],
-        "task_tree" : {"aos" : [], "cs" : []}
+        "task_tree" : {"aos" : ['ao'], "cs" : ['c']}
     }
 }
 
@@ -86,8 +87,8 @@ temp_train_args = {
     "num_train_epochs" : 20,
     "learning_rate" : 3e-4,
     "save_total_limit" : 2,
-    "gradient_accumulation_steps" : 4,
-    "per_device_train_batch_size" : 4,
+    "gradient_accumulation_steps" : 1,
+    "per_device_train_batch_size" : 16,
     "per_device_eval_batch_size" : 8,
     "save_strategy" : "epoch",
     "evaluation_strategy" : "epoch",
@@ -119,10 +120,15 @@ if not os.path.exists("./preds"):
 print("Train...")
 for imputation_task in tasks["imputation"]["combination"]:
     for ds in dataset:
-        task_code = '-'.join(imputation_task)
+        task_code = []
+        data_config = temp_data_config.copy()
+        for k, v in imputation_task.items():
+            task_code.append(f"{k}({'_'.join(v)})")
+            # if k in ["aos","cs"]:
+            #     data_config["test"]["task_tree"][k] = v
+        task_code = '-'.join(task_code)
         print(f"Train combination {task_code} with {ds} dataset...")
         # Change dataset
-        data_config = temp_data_config.copy()
         data_config["train"]["absa"]["data_path"] = data_path + f"/{ds}/train.txt"
         data_config["val"]["absa"]["data_path"] = data_path + f"/{ds}/dev.txt"
         data_config["test"]["absa"]["data_path"] = data_path + f"/{ds}/test.txt"
