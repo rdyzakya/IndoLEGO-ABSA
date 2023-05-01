@@ -142,9 +142,11 @@ class ABSADataset(CustomDataset):
                 data.extend(self.create_intermediate_data(self.data,"imputation",[task],incomplete_target_format=tasks["imputation"]))
         else:
             # Extraction
-            data.extend(self.create_intermediate_data(self.data,"extraction",tasks["extraction"],incomplete_target_format=[]))
+            if len(tasks["extraction"]) > 0:
+                data.extend(self.create_intermediate_data(self.data,"extraction",tasks["extraction"],incomplete_target_format=[]))
             # Imputation
-            data.extend(self.create_intermediate_data(self.data,"imputation",tasks["imputation"].keys().tolist(),incomplete_target_format=tasks["imputation"]))
+            if len(tasks["imputation"]) > 0:
+                data.extend(self.create_intermediate_data(self.data,"imputation",list(tasks["imputation"].keys()),incomplete_target_format=tasks["imputation"]))
         
         for i_row, row in enumerate(data):
             data[i_row] = self.stringify_input_output(row)
