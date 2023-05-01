@@ -214,7 +214,7 @@ class ABSADataset(CustomDataset):
             targets = handle_mix_sentiment(targets)
             targets = remove_duplicate_targets(targets)
             incomplete_targets = None
-            if len(incomplete_target_format.keys()) > 0:
+            if len(incomplete_target_format) > 0:
                 chosen_incomplete_target_format = random.choice(incomplete_target_format[chosen_task])
                 incomplete_targets = self.reduce_targets(targets,chosen_incomplete_target_format)
             result_row = {

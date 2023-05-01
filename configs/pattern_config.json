@@ -23,6 +23,14 @@
         "cs" : {
             "input" : "category : <extra_id_1> , sentiment : <extra_id_3>",
             "output" : "<extra_id_1> CATEGORY <extra_id_3> SENTIMENT"
+        },
+        "c" : {
+            "input" : "category : <extra_id_1>",
+            "output" : "<extra_id_1> CATEGORY"
+        },
+        "a" : {
+            "input" : "aspect : <extra_id_0>",
+            "output" : "<extra_id_0> ASPECT"
         }
     },
     "place_holder" : {
