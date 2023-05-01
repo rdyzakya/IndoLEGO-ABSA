@@ -29,7 +29,7 @@ tasks = json.load(open(task_path,'r'))
 
 dataset = ["rest15","rest16"]
 
-n_gpu = 2
+n_gpu = 3
 
 temp_data_config = {
     "train" : {
@@ -59,7 +59,7 @@ temp_data_config = {
                 "extraction" : ["aos","cs"],
                 "imputation" : {}
             },
-            "multiply" : False,
+            "multiply" : True,
             "shuffle" : True,
             "random_state" : 0
         }

@@ -16,3 +16,4 @@ def waiting_gpu_loop(n,threshold=5000):
         if gpu_usage[f"GPU {n}"]["used"] <= threshold:
             print()
             break
+        gpu_usage = get_gpu_memory_usage()
