@@ -1,1 +1,62 @@
-{"train": {"absa": {"data_path": "/raid/m13519061/ta/facebook-absa/data/absa/en/zhang/interim/interim_2/rest15/train.txt", "target_format": "acso"}, "non_absa": [], "absa_builder_args": {"tasks": {"extraction": ["ao", "acs", "acos"], "imputation": {}}, "multiply": false, "shuffle": true, "random_state": 0}}, "val": {"absa": {"data_path": "/raid/m13519061/ta/facebook-absa/data/absa/en/zhang/interim/interim_2/rest15/dev.txt", "target_format": "acso"}, "non_absa": [], "absa_builder_args": {"tasks": {"extraction": ["aos", "cs"], "imputation": {}}, "multiply": true, "shuffle": true, "random_state": 0}}, "test": {"absa": {"data_path": "/raid/m13519061/ta/facebook-absa/data/absa/en/zhang/interim/interim_2/rest15/test.txt", "target_format": "acso"}, "non_absa": [], "task_tree": {"aos": [], "cs": []}}}
+{
+    "train": {
+        "absa": {
+            "data_path": "/raid/m13519061/ta/facebook-absa/data/absa/en/zhang/interim/interim_2/rest15/train.txt",
+            "target_format": "acso"
+        },
+        "non_absa": [],
+        "absa_builder_args": {
+            "tasks": {
+                "extraction": ["ao", "as", "cs", "aos", "acs", "acos"],
+                "imputation": {}
+            },
+            "multiply": true,
+            "shuffle": true,
+            "random_state": 0,
+            "pattern_index" : null
+        }
+    },
+    "val": {
+        "absa": {
+            "data_path": "/raid/m13519061/ta/facebook-absa/data/absa/en/zhang/interim/interim_2/rest15/dev.txt",
+            "target_format": "acso"
+        },
+        "non_absa": [],
+        "absa_builder_args": {
+            "tasks": {
+                "extraction": [
+                    "aos",
+                    "cs"
+                ],
+                "imputation": {}
+            },
+            "multiply": true,
+            "shuffle": true,
+            "random_state": 0,
+            "pattern_index" : {
+                "acos" : 0,
+                "aos" : 0,
+                "acs" : 0,
+                "ao" : 0,
+                "as" : 0,
+                "cs" : 0,
+                "c" : 0,
+                "a" : 0
+            }
+        }
+    },
+    "test": {
+        "absa": {
+            "data_path": "/raid/m13519061/ta/facebook-absa/data/absa/en/zhang/interim/interim_2/rest15/test.txt",
+            "target_format": "acso"
+        },
+        "non_absa": [],
+        "absa_builder_args" : {
+            "task_tree": {
+                "aos": [],
+                "cs": []
+            },
+            "i_pattern" : 0
+        }
+    }
+}

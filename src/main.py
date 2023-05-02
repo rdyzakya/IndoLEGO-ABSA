@@ -110,7 +110,9 @@ def main():
         device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("cpu")
         
         non_absa_preds = trainer.predict_non_absa(dataset=non_absa_test,device=device,encoding_args=args.encoding_args,decoding_args=args.decoding_args)
-        absa_preds, summary_score, absa_str_preds = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["task_tree"],device=device,encoding_args=args.encoding_args,decoding_args=args.decoding_args)
+        absa_preds, summary_score, absa_str_preds = trainer.predict_absa(dataset=test_absa,task_tree=args.data_config["test"]["absa_builder_args"]["task_tree"],
+                                                                         device=device,encoding_args=args.encoding_args,decoding_args=args.decoding_args,max_len=args.encoding_args["max_length"],
+                                                                         i_pattern=args.data_config["test"]["absa_builder_args"]["i_pattern"])
 
         # Save the result for error analysis
         print("Save results...")
@@ -126,9 +128,9 @@ def main():
 
         # ABSA
         all_absa_result = []
-        for task in args.data_config["test"]["task_tree"]:
+        for task in args.data_config["test"]["absa_builder_args"]["task_tree"]:
             blank_incomplete_targets = [[] for n in range(len(test_absa))]
-            absa_result = test_absa.build_test_data(task,"extraction",blank_incomplete_targets).to_pandas()
+            absa_result = test_absa.build_test_data(task,"extraction",blank_incomplete_targets,args.data_config["test"]["absa_builder_args"]["i_pattern"]).to_pandas()
             absa_result["prediction"] = absa_preds[task]
             # absa_result["string_prediction"] = absa_string_preds[task]
             all_absa_result.append(absa_result)

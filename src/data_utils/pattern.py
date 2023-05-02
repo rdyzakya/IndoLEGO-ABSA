@@ -23,46 +23,49 @@ class Pattern:
         self.categories = categories
         self.mask = mask
     
-    def stringify(self,target:Dict,task:str) -> str:
+    def stringify(self,target:Dict,task:str,i_pattern:int=0) -> str:
         """
         ### DESC
             Stringify the target from dictionary form to string form.
         ### PARAMS
         * target: Target in the form of dictionary. Example: {"aspect" : "A1", "opinion" : "O1}
         * task: Task related to the target that needs to be generated.
+        * i_pattern: The pattern index for the designated task.
         ### RETURN
         * output: Stringified target.
         """
-        output = self.template[task]["output"]
+        output = self.template[task][i_pattern]["output"]
         for key, value in target.items():
             output = output.replace(self.place_holder[key],value)
         return output
     
-    def batch_stringify(self,targets:List[Dict],task:str) -> str:
+    def batch_stringify(self,targets:List[Dict],task:str,i_pattern:int=0) -> str:
         """
         ### DESC
             Stringify list of target.
         ### PARAMS
         * targets: List of target.
         * task: Task related to the target that needs to be generated.
+        * i_pattern: The pattern index for the designated task.
         ### RETURN
         * result: Stringified target.
         """
         if len(targets) == 0:
             return NO_TARGET
-        result = f" {self.seperator} ".join([self.stringify(target,task) for target in targets])
+        result = f" {self.seperator} ".join([self.stringify(target,task, i_pattern) for target in targets])
         return result
     
-    def regex(self,task:str) -> str:
+    def regex(self,task:str,i_pattern:int=0) -> str:
         """
         ### DESC
             Method returning the regex form for the related task.
         ### PARAMS
         * task: Task name. Example: aocs, aoc, ac, ao, etc.
+        * i_pattern: The pattern index for the designated task.
         ### RETURN
         * regex_pattern: Regex pattern for the related task.
         """
-        regex_pattern = self.template[task]["output"]
+        regex_pattern = self.template[task][i_pattern]["output"]
         seperator = self.seperator
         for k,v in SPECIAL_CHAR.items():
             regex_pattern = regex_pattern.replace(k,v)
@@ -75,16 +78,17 @@ class Pattern:
         regex_pattern = regex_pattern.replace(' ',r'\s*')
         return regex_pattern
     
-    def find_all(self,text:str,task:str) -> List[Dict]:
+    def find_all(self,text:str,task:str,i_pattern:int=0) -> List[Dict]:
         """
         ### DESC
             Method to find all stringified tuples in text and transform it back to list of dictionary.
         ### PARAMS
         * text: Text.
         * task: The designated absa task.
+        * i_pattern: The pattern index for the designated task.
         ### RETURN
         """
-        regex_pattern = self.regex(task)
+        regex_pattern = self.regex(task,i_pattern)
         found = [found_iter.groupdict() for found_iter in re.finditer(regex_pattern,text)]
         result = []
         for i in range(len(found)):

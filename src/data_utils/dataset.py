@@ -120,7 +120,7 @@ class ABSADataset(CustomDataset):
         # Read the data
         self.data = self.read_data(data_path,target_format)
     
-    def build_train_val_data(self,tasks:Dict={"extraction" : ["ao","ac","as"],"imputation" : {"acos" : ["ao","ac","aos"]}},multiply:bool=True,shuffle:bool=True,random_state:int=None) -> Dataset:
+    def build_train_val_data(self,tasks:Dict={"extraction" : ["ao","ac","as"],"imputation" : {"acos" : ["ao","ac","aos"]}},multiply:bool=True,shuffle:bool=True,random_state:int=None,pattern_index:Dict[str,int]=None) -> Dataset:
         """
         ### DESC
             Method to build train or validation dataset (HF Dataset).
@@ -129,6 +129,7 @@ class ABSADataset(CustomDataset):
         * multiply: If true then multiply the dataset according to the number of task, else using round robbin manner to shuffle the task for the dataset.
         * shuffle: If true then shuffle the dataset.
         * random_state: Random seed for shuffling the dataset.
+        * pattern_index: Dictionary contains index of the pattern of each task. If set to None, then the pattern will be chosen in a round robin manner.
         ### RETURN
         * Resultant HF Dataset containing 'input','output',and 'task' column.
         """
@@ -149,7 +150,9 @@ class ABSADataset(CustomDataset):
                 data.extend(self.create_intermediate_data(self.data,"imputation",list(tasks["imputation"].keys()),incomplete_target_format=tasks["imputation"]))
         
         for i_row, row in enumerate(data):
-            data[i_row] = self.stringify_input_output(row)
+            task = row["task"]
+            i_pattern = pattern_index[task] if pattern_index != None else i_row%len(self.pattern.template[task])
+            data[i_row] = self.stringify_input_output(row,i_pattern)
 
         # Turn interim data into HF Dataset
         data = pd.DataFrame(data)
@@ -161,7 +164,7 @@ class ABSADataset(CustomDataset):
 
         return data
     
-    def build_test_data(self,task:str="acos",paradigm:str="extraction",incomplete_targets:List[List[Dict]]=None) -> Dataset:
+    def build_test_data(self,task:str="acos",paradigm:str="extraction",incomplete_targets:List[List[Dict]]=None,i_pattern:int=None) -> Dataset:
         """
         ### DESC
             Method for building the test HF Dataset.
@@ -169,6 +172,7 @@ class ABSADataset(CustomDataset):
         * task: The task.
         * paradigm: extraction or imputation.
         * incomplete_targets: List of list of dictionary target (Used for imputation).
+        * i_pattern: The pattern index for the designated task. If None then the pattern index will be chosen in a round robin manner.
         ### RETURN
         * Resultant HF Dataset containing 'input','output',and 'task' column.
         """
@@ -191,7 +195,8 @@ class ABSADataset(CustomDataset):
                     incomplete_targets[i_row] = handle_mix_sentiment(incomplete_targets[i_row])
                     incomplete_targets[i_row] = remove_duplicate_targets(incomplete_targets[i_row])
                     row["incomplete_target"]= incomplete_targets[i_row]
-            row = self.stringify_input_output(row)
+            i_pattern = i_pattern if i_pattern != None else i_row%len(self.pattern.template[task])
+            row = self.stringify_input_output(row,i_pattern)
             row["target"] = targets
             test_data.append(row)
         test_data = Dataset.from_pandas(pd.DataFrame(test_data))
@@ -229,18 +234,20 @@ class ABSADataset(CustomDataset):
             result_data.append(result_row)
         return result_data
 
-    def stringify_input_output(self,row:Dict) -> Dict:
+    def stringify_input_output(self,row:Dict,i_pattern:int=0) -> Dict:
         """
         ### DESC
             Mapping method for creating input output (designed for Huggingface trainer).
         ### PARAMS
         * row: Data row.
+        * i_pattern: The index of the pattern for the designated task.
         ### RETURN
         * Dictionary containing input and output.
         """
         text = row["text"]
         targets = eval(row["target"]) if isinstance(row["target"],str) else row["target"]
         incomplete_targets = eval(row["incomplete_target"])  if isinstance(row["incomplete_target"],str) else row["incomplete_target"]
+        
         # Masking the special chars
         text = self.pattern.masking(text)
         for i_target in range(len(targets)):
@@ -250,11 +257,13 @@ class ABSADataset(CustomDataset):
             for i_incomplete_target in range(len(incomplete_targets)):
                 for key, value in incomplete_targets[i_incomplete_target].items():
                     incomplete_targets[i_incomplete_target][key] = self.pattern.masking(value)
-        prompt = self.prompter.build_prompt(self.pattern,row["task"],incomplete_targets,row["paradigm"])
-        input_text = self.prompter.add_prompt(prompt,text)
-        output_text = self.pattern.batch_stringify(targets,row["task"])
 
-        return {"input" : input_text, "output" : output_text, "task" : row["task"]}
+        task = row["task"]
+        prompt = self.prompter.build_prompt(self.pattern,task,incomplete_targets,row["paradigm"],i_pattern)
+        input_text = self.prompter.add_prompt(prompt,text)
+        output_text = self.pattern.batch_stringify(targets,task,i_pattern)
+
+        return {"input" : input_text, "output" : output_text, "task" : task, "pattern_index" : i_pattern}
     
     def process_num_targets(self,text:str,num_targets:List[tuple],target_format:str) -> List[Dict]:
         """
@@ -368,6 +377,7 @@ class NonABSADataset(CustomDataset):
         result_data["input"] = result_data.apply(add_prompt,axis=1)
         result_data = result_data[["input","output"]]
         result_data["task"] = ["non_absa" for _ in range(len(self.data))]
+        result_data["pattern_index"] = [-1 for _ in range(len(self.data))]
         result_data = Dataset.from_pandas(result_data)
         return result_data
 

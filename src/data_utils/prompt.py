@@ -13,11 +13,11 @@ class Prompter:
         * template: Prompt template, dictionary containing extraction, imputation, and may be non_absa key.
         * place_holder: Place holder mask (pattern, imputation, category, text).
         """
-        paradigms = set(template.keys())
+        # paradigms = set(template.keys())
         self.template = template
         self.place_holder = place_holder
     
-    def build_prompt(self,pattern:Pattern,task:str="acos",incomplete_result:List[Dict]=[],paradigm:str="extraction") -> str:
+    def build_prompt(self,pattern:Pattern,task:str="acos",incomplete_result:List[Dict]=[],paradigm:str="extraction",i_pattern:int=0) -> str:
         """
         ### DESC
             Method for building prompt.
@@ -26,6 +26,7 @@ class Prompter:
         * pattern: Pattern object.
         * incomplete_result: Tuples that need to be impute (Used if paradigm is 'imputation').
         * paradigm: The paradigm, either extraction or imputation.
+        * i_pattern: The pattern index for the designated task.
         ### RETURN
         * prompt: Resultant prompt.
         """
@@ -37,10 +38,10 @@ class Prompter:
 
         template = self.template[paradigm]
         if paradigm == "extraction":
-            format_pattern = pattern.template[task]["input"]
+            format_pattern = pattern.template[task][i_pattern]["input"]
             prompt = template.replace(self.place_holder["pattern"],format_pattern)
         elif paradigm == "imputation":
-            stringified_incomplete_result = pattern.batch_stringify(incomplete_result,task)
+            stringified_incomplete_result = pattern.batch_stringify(incomplete_result,task,i_pattern)
             prompt = template.replace(self.place_holder["imputation"],stringified_incomplete_result)
         
         categories = pattern.categories

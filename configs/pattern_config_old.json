@@ -1,0 +1,45 @@
+{
+    "template" : {
+        "acos" : {
+            "input" : "aspect : <extra_id_0> , category : <extra_id_1> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_2> OPINION <extra_id_3> SENTIMENT"
+        },
+        "aos" : {
+            "input" : "aspect : <extra_id_0> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> OPINION <extra_id_3> SENTIMENT"
+        },
+        "acs" : {
+            "input" : "aspect : <extra_id_0> , category : <extra_id_1> , sentiment : <extra_id_3>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_3> SENTIMENT"
+        },
+        "ao" : {
+            "input" : "aspect : <extra_id_0> , opinion : <extra_id_2>",
+            "output" : "<extra_id_0> ASPECT <extra_id_1> OPINION"
+        },
+        "as" : {
+            "input" : "aspect : <extra_id_0> , sentiment : <extra_id_3>",
+            "output" : "<extra_id_0> ASPECT <extra_id_3> SENTIMENT"
+        },
+        "cs" : {
+            "input" : "category : <extra_id_1> , sentiment : <extra_id_3>",
+            "output" : "<extra_id_1> CATEGORY <extra_id_3> SENTIMENT"
+        },
+        "c" : {
+            "input" : "category : <extra_id_1>",
+            "output" : "<extra_id_1> CATEGORY"
+        },
+        "a" : {
+            "input" : "aspect : <extra_id_0>",
+            "output" : "<extra_id_0> ASPECT"
+        }
+    },
+    "place_holder" : {
+        "aspect" : "ASPECT",
+        "opinion" : "OPINION",
+        "category" : "CATEGORY",
+        "sentiment" : "SENTIMENT"
+    },
+    "seperator" : ";",
+    "categories" : ["CAT0","CAT1"],
+    "mask" : {}
+}
