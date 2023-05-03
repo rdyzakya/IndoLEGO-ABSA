@@ -22,13 +22,13 @@ def init_args() -> Dict[str,Any]:
     parser.add_argument("--do_eval",action="store_true",help="Do calidation phase.")
     parser.add_argument("--do_predict",action="store_true",help="Do prediction")
 
-    parser.add_argument("--model_config",type=str,help="Path to model configuration json file.",default="configs/model_config.json")
-    parser.add_argument("--data_config",type=str,help="Path to data configuration json file.",default="configs/data_config.json")
-    parser.add_argument("--pattern_config",type=str,help="Path to pattern configuration json file.",default="configs/pattern_config.json")
-    parser.add_argument("--prompt_config",type=str,help="Path to prompter configuration json file.",default="configs/prompt_config.json")
-    parser.add_argument("--train_args",type=str,help="Path to train configuration json file.",default="configs/train_args.json")
-    parser.add_argument("--encoding_args",type=str,help="Path to encoding configuration json file.",default="configs/encoding_args.json")
-    parser.add_argument("--decoding_args",type=str,help="Path to decoding configuration json file.",default="configs/decoding_args.json")
+    parser.add_argument("--model_config",type=str,help="Path to model configuration json file.",default="../configs/model_config.json")
+    parser.add_argument("--data_config",type=str,help="Path to data configuration json file.",default="../configs/data_config.json")
+    parser.add_argument("--pattern_config",type=str,help="Path to pattern configuration json file.",default="../configs/pattern_config.json")
+    parser.add_argument("--prompt_config",type=str,help="Path to prompter configuration json file.",default="../configs/prompt_config.json")
+    parser.add_argument("--train_args",type=str,help="Path to train configuration json file.",default="../configs/train_args.json")
+    parser.add_argument("--encoding_args",type=str,help="Path to encoding configuration json file.",default="../configs/encoding_args.json")
+    parser.add_argument("--decoding_args",type=str,help="Path to decoding configuration json file.",default="../configs/decoding_args.json")
     
     parser.add_argument("--patience",type=int,help="Early stopping patience, if -1 then no early stopping.",default=-1)
 
@@ -53,6 +53,10 @@ def main():
     prompter = Prompter(**args.prompt_config)
     trainer = ABSAGenerativeTrainer(absa_model_and_tokenizer=wrapper,pattern=pattern,do_train=args.do_train,do_eval=args.do_eval,early_stopping_patience=args.patience)
 
+    output_dir = args.train_args["output_dir"]
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
     print("Prepare datasets...")
     # ABSA Datasets
     if args.do_train:
@@ -70,6 +74,7 @@ def main():
         absa_builder_args = args.data_config["train"]["absa_builder_args"]
         train_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_train] + [train_absa.build_train_val_data(**absa_builder_args).to_pandas()])
         train_data = Dataset.from_pandas(train_data)
+        train_data.to_csv(os.path.join(output_dir,"train.csv"),index=False)
         val_data = None
     
     if args.do_eval:
@@ -86,13 +91,14 @@ def main():
         
         val_data = pd.concat([non_absa_ds.build_data().to_pandas() for non_absa_ds in non_absa_val] + [val_absa.build_train_val_data(**args.data_config["val"]["absa_builder_args"]).to_pandas()])
         val_data = Dataset.from_pandas(val_data)
+        val_data.to_csv(os.path.join(output_dir,"eval.csv"),index=False)
     
     if args.do_train:
         print("Training phase...")
         trainer.prepare_data(train_dataset=train_data,eval_dataset=val_data, **args.encoding_args)
         trainer.compile_train_args(train_args_dict=args.train_args)
         trainer.prepare_trainer(args.decoding_args)
-        trainer.train(output_dir=args.train_args["output_dir"],random_seed=args.train_seed)
+        trainer.train(output_dir=output_dir,random_seed=args.train_seed)
     
     if args.do_predict:
         print("Prediction phase...")
@@ -116,7 +122,6 @@ def main():
 
         # Save the result for error analysis
         print("Save results...")
-        output_dir = args.train_args["output_dir"]
         # Non ABSA
         try:
             non_absa_result = [ds.build_data().to_pandas() for ds in non_absa_test]
