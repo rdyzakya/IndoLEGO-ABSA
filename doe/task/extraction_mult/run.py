@@ -7,7 +7,7 @@ import os
 
 task_path = "../combination_task.json"
 
-config_dir = "/raid/m13519061/ta/facebook-absa/configs"
+config_dir = "../../../configs"
 
 data_config_path = f"{config_dir}/data_config.json"
 model_config_path = f"{config_dir}/model_config.json"
@@ -19,9 +19,9 @@ decoding_args_path = f"{config_dir}/decoding_args.json"
 
 output_dir = "./output"
 
-data_path = "/raid/m13519061/ta/facebook-absa/data/absa/en/zhang/interim/interim_2"
+data_path = "../../../data/absa/en/zhang/interim/interim_2"
 
-script_path = "/raid/m13519061/ta/facebook-absa/src/main.py"
+script_path = "../../../src/main.py"
 
 model_name_or_path = "t5-base"
 
