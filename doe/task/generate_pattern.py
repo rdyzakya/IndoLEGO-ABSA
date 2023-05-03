@@ -15,7 +15,7 @@ outputs = {
     "s" : "<extra_id_3> SENTIMENT"
 }
 
-inputs_sep = ','
+inputs_sep = ' , '
 outputs_sep = ' '
 
 all_tasks = ['ao', 'as', 'cs', 'aos', 'acs', 'acos']

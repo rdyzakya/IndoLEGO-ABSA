@@ -81,8 +81,10 @@ temp_data_config = {
             "target_format" : "acso"
         },
         "non_absa" : [],
-        "task_tree" : {"aos" : [], "cs" : []},
-        "i_pattern" : 0
+        "absa_builder_args" : {
+            "task_tree" : {"aos" : [], "cs" : []},
+            "i_pattern" : 0
+        }
     }
 }
 

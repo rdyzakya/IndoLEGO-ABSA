@@ -2,188 +2,182 @@
     "template" : {
         "ao": [
             {
-                "input": "aspect : <extra_id_0>,opinion : <extra_id_2>",
+                "input": "aspect : <extra_id_0> , opinion : <extra_id_2>",
                 "output": "<extra_id_0> ASPECT <extra_id_2> OPINION"
             },
             {
-                "input": "opinion : <extra_id_2>,aspect : <extra_id_0>",
+                "input": "opinion : <extra_id_2> , aspect : <extra_id_0>",
                 "output": "<extra_id_2> OPINION <extra_id_0> ASPECT"
             }
         ],
         "as": [
             {
-                "input": "aspect : <extra_id_0>,sentiment : <extra_id_3>",
+                "input": "aspect : <extra_id_0> , sentiment : <extra_id_3>",
                 "output": "<extra_id_0> ASPECT <extra_id_3> SENTIMENT"
             },
             {
-                "input": "sentiment : <extra_id_3>,aspect : <extra_id_0>",
+                "input": "sentiment : <extra_id_3> , aspect : <extra_id_0>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_0> ASPECT"
             }
         ],
         "cs": [
             {
-                "input": "category : <extra_id_1>,sentiment : <extra_id_3>",
+                "input": "category : <extra_id_1> , sentiment : <extra_id_3>",
                 "output": "<extra_id_1> CATEGORY <extra_id_3> SENTIMENT"
             },
             {
-                "input": "sentiment : <extra_id_3>,category : <extra_id_1>",
+                "input": "sentiment : <extra_id_3> , category : <extra_id_1>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_1> CATEGORY"
             }
         ],
         "aos": [
             {
-                "input": "aspect : <extra_id_0>,opinion : <extra_id_2>,sentiment : <extra_id_3>",
+                "input": "aspect : <extra_id_0> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
                 "output": "<extra_id_0> ASPECT <extra_id_2> OPINION <extra_id_3> SENTIMENT"
             },
             {
-                "input": "aspect : <extra_id_0>,sentiment : <extra_id_3>,opinion : <extra_id_2>",
+                "input": "aspect : <extra_id_0> , sentiment : <extra_id_3> , opinion : <extra_id_2>",
                 "output": "<extra_id_0> ASPECT <extra_id_3> SENTIMENT <extra_id_2> OPINION"
             },
             {
-                "input": "opinion : <extra_id_2>,aspect : <extra_id_0>,sentiment : <extra_id_3>",
+                "input": "opinion : <extra_id_2> , aspect : <extra_id_0> , sentiment : <extra_id_3>",
                 "output": "<extra_id_2> OPINION <extra_id_0> ASPECT <extra_id_3> SENTIMENT"
             },
             {
-                "input": "opinion : <extra_id_2>,sentiment : <extra_id_3>,aspect : <extra_id_0>",
+                "input": "opinion : <extra_id_2> , sentiment : <extra_id_3> , aspect : <extra_id_0>",
                 "output": "<extra_id_2> OPINION <extra_id_3> SENTIMENT <extra_id_0> ASPECT"
             },
             {
-                "input": "sentiment : <extra_id_3>,aspect : <extra_id_0>,opinion : <extra_id_2>",
+                "input": "sentiment : <extra_id_3> , aspect : <extra_id_0> , opinion : <extra_id_2>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_0> ASPECT <extra_id_2> OPINION"
             },
             {
-                "input": "sentiment : <extra_id_3>,opinion : <extra_id_2>,aspect : <extra_id_0>",
+                "input": "sentiment : <extra_id_3> , opinion : <extra_id_2> , aspect : <extra_id_0>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_2> OPINION <extra_id_0> ASPECT"
             }
         ],
         "acs": [
             {
-                "input": "aspect : <extra_id_0>,category : <extra_id_1>,sentiment : <extra_id_3>",
+                "input": "aspect : <extra_id_0> , category : <extra_id_1> , sentiment : <extra_id_3>",
                 "output": "<extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_3> SENTIMENT"
             },
             {
-                "input": "aspect : <extra_id_0>,sentiment : <extra_id_3>,category : <extra_id_1>",
+                "input": "aspect : <extra_id_0> , sentiment : <extra_id_3> , category : <extra_id_1>",
                 "output": "<extra_id_0> ASPECT <extra_id_3> SENTIMENT <extra_id_1> CATEGORY"
             },
             {
-                "input": "category : <extra_id_1>,aspect : <extra_id_0>,sentiment : <extra_id_3>",
+                "input": "category : <extra_id_1> , aspect : <extra_id_0> , sentiment : <extra_id_3>",
                 "output": "<extra_id_1> CATEGORY <extra_id_0> ASPECT <extra_id_3> SENTIMENT"
             },
             {
-                "input": "category : <extra_id_1>,sentiment : <extra_id_3>,aspect : <extra_id_0>",
+                "input": "category : <extra_id_1> , sentiment : <extra_id_3> , aspect : <extra_id_0>",
                 "output": "<extra_id_1> CATEGORY <extra_id_3> SENTIMENT <extra_id_0> ASPECT"
             },
             {
-                "input": "sentiment : <extra_id_3>,aspect : <extra_id_0>,category : <extra_id_1>",
+                "input": "sentiment : <extra_id_3> , aspect : <extra_id_0> , category : <extra_id_1>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_0> ASPECT <extra_id_1> CATEGORY"
             },
             {
-                "input": "sentiment : <extra_id_3>,category : <extra_id_1>,aspect : <extra_id_0>",
+                "input": "sentiment : <extra_id_3> , category : <extra_id_1> , aspect : <extra_id_0>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_1> CATEGORY <extra_id_0> ASPECT"
             }
         ],
         "acos": [
             {
-                "input": "aspect : <extra_id_0>,category : <extra_id_1>,opinion : <extra_id_2>,sentiment : <extra_id_3>",
+                "input": "aspect : <extra_id_0> , category : <extra_id_1> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
                 "output": "<extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_2> OPINION <extra_id_3> SENTIMENT"
             },
             {
-                "input": "aspect : <extra_id_0>,category : <extra_id_1>,sentiment : <extra_id_3>,opinion : <extra_id_2>",
+                "input": "aspect : <extra_id_0> , category : <extra_id_1> , sentiment : <extra_id_3> , opinion : <extra_id_2>",
                 "output": "<extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_3> SENTIMENT <extra_id_2> OPINION"
             },
             {
-                "input": "aspect : <extra_id_0>,opinion : <extra_id_2>,category : <extra_id_1>,sentiment : <extra_id_3>",
+                "input": "aspect : <extra_id_0> , opinion : <extra_id_2> , category : <extra_id_1> , sentiment : <extra_id_3>",
                 "output": "<extra_id_0> ASPECT <extra_id_2> OPINION <extra_id_1> CATEGORY <extra_id_3> SENTIMENT"
             },
             {
-                "input": "aspect : <extra_id_0>,opinion : <extra_id_2>,sentiment : <extra_id_3>,category : <extra_id_1>",
+                "input": "aspect : <extra_id_0> , opinion : <extra_id_2> , sentiment : <extra_id_3> , category : <extra_id_1>",
                 "output": "<extra_id_0> ASPECT <extra_id_2> OPINION <extra_id_3> SENTIMENT <extra_id_1> CATEGORY"
             },
             {
-                "input": "aspect : <extra_id_0>,sentiment : <extra_id_3>,category : <extra_id_1>,opinion : <extra_id_2>",
+                "input": "aspect : <extra_id_0> , sentiment : <extra_id_3> , category : <extra_id_1> , opinion : <extra_id_2>",
                 "output": "<extra_id_0> ASPECT <extra_id_3> SENTIMENT <extra_id_1> CATEGORY <extra_id_2> OPINION"
             },
             {
-                "input": "aspect : <extra_id_0>,sentiment : <extra_id_3>,opinion : <extra_id_2>,category : <extra_id_1>",
+                "input": "aspect : <extra_id_0> , sentiment : <extra_id_3> , opinion : <extra_id_2> , category : <extra_id_1>",
                 "output": "<extra_id_0> ASPECT <extra_id_3> SENTIMENT <extra_id_2> OPINION <extra_id_1> CATEGORY"
             },
             {
-                "input": "category : <extra_id_1>,aspect : <extra_id_0>,opinion : <extra_id_2>,sentiment : <extra_id_3>",
+                "input": "category : <extra_id_1> , aspect : <extra_id_0> , opinion : <extra_id_2> , sentiment : <extra_id_3>",
                 "output": "<extra_id_1> CATEGORY <extra_id_0> ASPECT <extra_id_2> OPINION <extra_id_3> SENTIMENT"
             },
             {
-                "input": "category : <extra_id_1>,aspect : <extra_id_0>,sentiment : <extra_id_3>,opinion : <extra_id_2>",
+                "input": "category : <extra_id_1> , aspect : <extra_id_0> , sentiment : <extra_id_3> , opinion : <extra_id_2>",
                 "output": "<extra_id_1> CATEGORY <extra_id_0> ASPECT <extra_id_3> SENTIMENT <extra_id_2> OPINION"
             },
             {
-                "input": "category : <extra_id_1>,opinion : <extra_id_2>,aspect : <extra_id_0>,sentiment : <extra_id_3>",
+                "input": "category : <extra_id_1> , opinion : <extra_id_2> , aspect : <extra_id_0> , sentiment : <extra_id_3>",
                 "output": "<extra_id_1> CATEGORY <extra_id_2> OPINION <extra_id_0> ASPECT <extra_id_3> SENTIMENT"
             },
             {
-                "input": "category : <extra_id_1>,opinion : <extra_id_2>,sentiment : <extra_id_3>,aspect : <extra_id_0>",
+                "input": "category : <extra_id_1> , opinion : <extra_id_2> , sentiment : <extra_id_3> , aspect : <extra_id_0>",
                 "output": "<extra_id_1> CATEGORY <extra_id_2> OPINION <extra_id_3> SENTIMENT <extra_id_0> ASPECT"
             },
             {
-                "input": "category : <extra_id_1>,sentiment : <extra_id_3>,aspect : <extra_id_0>,opinion : <extra_id_2>",
+                "input": "category : <extra_id_1> , sentiment : <extra_id_3> , aspect : <extra_id_0> , opinion : <extra_id_2>",
                 "output": "<extra_id_1> CATEGORY <extra_id_3> SENTIMENT <extra_id_0> ASPECT <extra_id_2> OPINION"
             },
             {
-                "input": "category : <extra_id_1>,sentiment : <extra_id_3>,opinion : <extra_id_2>,aspect : <extra_id_0>",
+                "input": "category : <extra_id_1> , sentiment : <extra_id_3> , opinion : <extra_id_2> , aspect : <extra_id_0>",
                 "output": "<extra_id_1> CATEGORY <extra_id_3> SENTIMENT <extra_id_2> OPINION <extra_id_0> ASPECT"
             },
             {
-                "input": "opinion : <extra_id_2>,aspect : <extra_id_0>,category : <extra_id_1>,sentiment : <extra_id_3>",
+                "input": "opinion : <extra_id_2> , aspect : <extra_id_0> , category : <extra_id_1> , sentiment : <extra_id_3>",
                 "output": "<extra_id_2> OPINION <extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_3> SENTIMENT"
             },
             {
-                "input": "opinion : <extra_id_2>,aspect : <extra_id_0>,sentiment : <extra_id_3>,category : <extra_id_1>",
+                "input": "opinion : <extra_id_2> , aspect : <extra_id_0> , sentiment : <extra_id_3> , category : <extra_id_1>",
                 "output": "<extra_id_2> OPINION <extra_id_0> ASPECT <extra_id_3> SENTIMENT <extra_id_1> CATEGORY"
             },
             {
-                "input": "opinion : <extra_id_2>,category : <extra_id_1>,aspect : <extra_id_0>,sentiment : <extra_id_3>",
+                "input": "opinion : <extra_id_2> , category : <extra_id_1> , aspect : <extra_id_0> , sentiment : <extra_id_3>",
                 "output": "<extra_id_2> OPINION <extra_id_1> CATEGORY <extra_id_0> ASPECT <extra_id_3> SENTIMENT"
             },
             {
-                "input": "opinion : <extra_id_2>,category : <extra_id_1>,sentiment : <extra_id_3>,aspect : <extra_id_0>",
+                "input": "opinion : <extra_id_2> , category : <extra_id_1> , sentiment : <extra_id_3> , aspect : <extra_id_0>",
                 "output": "<extra_id_2> OPINION <extra_id_1> CATEGORY <extra_id_3> SENTIMENT <extra_id_0> ASPECT"
             },
             {
-                "input": "opinion : <extra_id_2>,sentiment : <extra_id_3>,aspect : <extra_id_0>,category : <extra_id_1>",
+                "input": "opinion : <extra_id_2> , sentiment : <extra_id_3> , aspect : <extra_id_0> , category : <extra_id_1>",
                 "output": "<extra_id_2> OPINION <extra_id_3> SENTIMENT <extra_id_0> ASPECT <extra_id_1> CATEGORY"
             },
             {
-                "input": "opinion : <extra_id_2>,sentiment : <extra_id_3>,category : <extra_id_1>,aspect : <extra_id_0>",
+                "input": "opinion : <extra_id_2> , sentiment : <extra_id_3> , category : <extra_id_1> , aspect : <extra_id_0>",
                 "output": "<extra_id_2> OPINION <extra_id_3> SENTIMENT <extra_id_1> CATEGORY <extra_id_0> ASPECT"
             },
             {
-                "input": "sentiment : <extra_id_3>,aspect : <extra_id_0>,category : <extra_id_1>,opinion : <extra_id_2>",
+                "input": "sentiment : <extra_id_3> , aspect : <extra_id_0> , category : <extra_id_1> , opinion : <extra_id_2>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_0> ASPECT <extra_id_1> CATEGORY <extra_id_2> OPINION"
             },
             {
-                "input": "sentiment : <extra_id_3>,aspect : <extra_id_0>,opinion : <extra_id_2>,category : <extra_id_1>",
+                "input": "sentiment : <extra_id_3> , aspect : <extra_id_0> , opinion : <extra_id_2> , category : <extra_id_1>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_0> ASPECT <extra_id_2> OPINION <extra_id_1> CATEGORY"
             },
             {
-                "input": "sentiment : <extra_id_3>,category : <extra_id_1>,aspect : <extra_id_0>,opinion : <extra_id_2>",
+                "input": "sentiment : <extra_id_3> , category : <extra_id_1> , aspect : <extra_id_0> , opinion : <extra_id_2>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_1> CATEGORY <extra_id_0> ASPECT <extra_id_2> OPINION"
             },
             {
-                "input": "sentiment : <extra_id_3>,category : <extra_id_1>,opinion : <extra_id_2>,aspect : <extra_id_0>",
+                "input": "sentiment : <extra_id_3> , category : <extra_id_1> , opinion : <extra_id_2> , aspect : <extra_id_0>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_1> CATEGORY <extra_id_2> OPINION <extra_id_0> ASPECT"
             },
             {
-                "input": "sentiment : <extra_id_3>,opinion : <extra_id_2>,aspect : <extra_id_0>,category : <extra_id_1>",
+                "input": "sentiment : <extra_id_3> , opinion : <extra_id_2> , aspect : <extra_id_0> , category : <extra_id_1>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_2> OPINION <extra_id_0> ASPECT <extra_id_1> CATEGORY"
             },
             {
-                "input": "sentiment : <extra_id_3>,opinion : <extra_id_2>,category : <extra_id_1>,aspect : <extra_id_0>",
+                "input": "sentiment : <extra_id_3> , opinion : <extra_id_2> , category : <extra_id_1> , aspect : <extra_id_0>",
                 "output": "<extra_id_3> SENTIMENT <extra_id_2> OPINION <extra_id_1> CATEGORY <extra_id_0> ASPECT"
-            }
-        ],
-        "c" : [
-            {
-                "input" : "category : <extra_id_1>",
-                "output" : "<extra_id_1> CATEGORY"
             }
         ]
     },
