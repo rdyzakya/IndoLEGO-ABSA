@@ -29,7 +29,7 @@ tasks = json.load(open(task_path,'r'))
 
 dataset = ["rest15","rest16"]
 
-n_gpu = 2
+n_gpu = 6
 
 temp_data_config = {
     "train" : {

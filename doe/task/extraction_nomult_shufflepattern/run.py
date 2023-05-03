@@ -9,7 +9,7 @@ task_path = "../combination_task.json"
 
 config_dir = "../../../configs"
 
-data_config_path = f"{config_dir}/data_config.json"
+data_config_path = f"{config_dir}/data_config_old.json"
 model_config_path = f"{config_dir}/model_config.json"
 train_args_path = f"{config_dir}/train_args.json"
 pattern_config_path = f"{config_dir}/pattern_config.json"
@@ -29,7 +29,7 @@ tasks = json.load(open(task_path,'r'))
 
 dataset = ["rest15","rest16"]
 
-n_gpu = 3
+n_gpu = 2
 
 temp_data_config = {
     "train" : {
