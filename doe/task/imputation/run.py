@@ -32,7 +32,7 @@ dataset = ["rest15","rest16"]
 n_gpu = 2
 
 # ao-cs-aos-acs-acos
-extraction_task = ["ao","cs","aos","acs","acos",'a','c']
+extraction_task = ["cs","aos","acs"]
 
 temp_data_config = {
     "train" : {
@@ -48,7 +48,8 @@ temp_data_config = {
             },
             "multiply" : True,
             "shuffle" : True,
-            "random_state" : 0
+            "random_state" : 0,
+            "pattern_index" : None
         }
     },
     "val" : {
@@ -64,7 +65,17 @@ temp_data_config = {
             },
             "multiply" : True,
             "shuffle" : True,
-            "random_state" : 0
+            "random_state" : 0,
+            "pattern_index" : {
+                "acos" : 0,
+                "aos" : 0,
+                "acs" : 0,
+                "ao" : 0,
+                "as" : 0,
+                "cs" : 0,
+                "c" : 0,
+                "a" : 0
+            }
         }
     },
     "test" : {
@@ -73,7 +84,10 @@ temp_data_config = {
             "target_format" : "acso"
         },
         "non_absa" : [],
-        "task_tree" : {"aos" : ['ao'], "cs" : ['c']}
+        "absa_builder_args" : {
+            "task_tree" : {"aos" : ["ao"], "cs" : ['c']},
+            "i_pattern" : 0
+        }
     }
 }
 

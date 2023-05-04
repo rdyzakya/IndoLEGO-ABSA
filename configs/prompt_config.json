@@ -1,7 +1,7 @@
 {
     "template" : {
-        "extraction" : "TEXT | PATTERN",
-        "imputation" : "TEXT >> IMPUTATION",
+        "extraction" : "Extract ABSA: TEXT | PATTERN",
+        "imputation" : "Impute ABSA: TEXT | IMPUTATION",
         "non_absa" : "NON_ABSA_PROMPT: TEXT"
     },
     "place_holder" : {

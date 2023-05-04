@@ -46,7 +46,7 @@ class Prompter:
         
         categories = pattern.categories
         stringified_categories = str(categories).replace("'",'') # remove the quote
-        prompt = prompt.replace(self.place_holder["category"],stringified_categories) + ": "
+        prompt = prompt.replace(self.place_holder["category"],stringified_categories)
 
         return prompt
     
