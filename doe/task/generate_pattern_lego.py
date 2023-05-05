@@ -18,7 +18,7 @@ outputs = {
 inputs_sep = ' , '
 outputs_sep = ' '
 
-all_tasks = ['ao', 'as', 'cs', 'aos', 'acs', 'acos']
+all_tasks = ['ao', 'as', 'cs', 'aos', 'acs', 'acos', 'c', 'a']
 
 result = {task : [] for task in all_tasks}
 
@@ -35,7 +35,7 @@ for task in all_tasks:
             "output" : output_pattern
         })
 
-with open("all_pattern.json",'w') as fp:
+with open("all_pattern_lego.json",'w') as fp:
     json.dump(result,fp)
 
 print("DONE")

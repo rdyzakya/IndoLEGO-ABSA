@@ -25,6 +25,8 @@ imputation_task = {
     # as --> bisa, karena hanya melengkapi kategori a
     # cs --> tidak bisa, karena bisa saja ada beberapa a yang memiliki c yang sama dan s yang sama
     'aos' : ['ao'],
+    'as' : ['a'],
+    'ao' : ['a']
     # ao --> bisa, karena hanya melengkapi hubungan antara a dan o
     # as --> tidak bisa, karena bisa saja ada perbedaan jumlah tuple, ada beberapa o yang menjelaskan sebuah a
     # os --> tidak bisa, karena bisa saja ada beberapa a yang memiliki o dan s yang sama
@@ -80,7 +82,7 @@ def sorting_key(combo_el):
 
 possible_extraction_task = sorted(possible_extraction_task,key=sorting_key)
 possible_imputation_task = sorted(possible_imputation_task,key=sorting_key)
-possible_imputation_task = [{}] + possible_imputation_task # starts with no imputation
+possible_imputation_task = possible_imputation_task
 
 with open("combination_task.json",'w') as writer:
     result = {
