@@ -1,0 +1,6 @@
+{
+    "url" : "https://huggingface.co/transformers/v3.1.0/model_summary.html",
+    "seq2seq" : {
+        "t5" : ["t5-base","google/flan-t5-base"]
+    }
+}

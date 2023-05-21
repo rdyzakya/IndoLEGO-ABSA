@@ -1,0 +1,538 @@
+aos_extraction,cs_extraction
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> NULL <extra_id_1> alright</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_1> restaurant general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> decor <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> decor <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> quacamole <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> quacamole <extra_id_3> positive</s><pad>
+<pad><extra_id_0> hot dogs <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> hot dogs <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> tab <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> tab <extra_id_1> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> pork souvlaki <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> pork souvlaki <extra_id_3> positive</s><pad>
+<pad><extra_id_0> Appetizers <extra_id_3> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> Appetizers <extra_id_3> positive</s><pad>
+<pad><extra_id_0> entree <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> entree <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> Casa La Femme <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Casa La Femme <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> warm ; <extra_id_0> restaurant <extra_id_3> positive</s>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> staff <extra_id_1> staff <extra_id_3> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> staff <extra_id_1> general <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> table <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> table <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> quesadilla <extra_id_3> negative</s><pad><pad><pad>,<pad><extra_id_0> quesadilla <extra_id_3> negative</s>
+<pad><extra_id_0> Four Seasons <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Four Seasons <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> baba ganoush <extra_id_1> lemony ; <extra_id_0> baba ganoush <extra_id_3> positive</s>,<pad><extra_id_0> baba ganoush <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> bar <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> bar <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Noodle pudding <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Noodle pudding <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> desserts <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> desserts <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> spot <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Japanese <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> hot dogs <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> hot dogs <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> waiter <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> waiter <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> time <extra_id_1> great</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> time <extra_id_1> general <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> menu <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> menu <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> menu <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> crust <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> crust <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> portobello <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> portobello <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> service general <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> meat <extra_id_1> negative</s><pad><pad>,<pad><extra_id_0> meat <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> bathroom <extra_id_1> negative</s><pad><pad>,<pad><extra_id_0> bathroom <extra_id_1> general <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> Place <extra_id_1> negative</s><pad><pad>,<pad><extra_id_0> Place <extra_id_1> general <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad>,<pad><extra_id_0> place <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> floor <extra_id_1> negative</s><pad><pad>,<pad><extra_id_0> floor <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Red Dragon Roll <extra_id_3> positive</s>,<pad><extra_id_0> Red Dragon Roll <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> Yamato <extra_id_1> positive</s><pad>,<pad><extra_id_0> Yamato <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> staff <extra_id_1> positive</s><pad><pad>,<pad><extra_id_0> staff <extra_id_1> staff general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> main course <extra_id_3> negative</s><pad>,<pad><extra_id_0> main course <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> server <extra_id_1> positive</s><pad><pad>,<pad><extra_id_0> server <extra_id_1> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> waitress <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> waitress <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> chicken lollipop <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> chicken lollipop <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> sides <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> sides <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> fish <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> fish <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> delivery guy <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> delivery guy <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> risotto <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> risotto <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> stuff tilapia <extra_id_3> negative</s><pad><pad>,<pad><extra_id_0> stuff tilapia <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> chicken pasta <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> chicken pasta <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> waitress <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> waitress <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> patio <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> patio <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> vitello alla marsala <extra_id_3> positive</s>,<pad><extra_id_0> vitello alla marsala <extra_id_3> positive</s>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> Shabu Shabu <extra_id_3> negative</s><pad><pad>,<pad><extra_id_0> Shabu Shabu <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> manager <extra_id_1> rude</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> manager <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Food <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> Food <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> jazz music <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> jazz music <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> romantic</s><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> dogs <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> dogs <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> dinner <extra_id_1> service <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> dinner <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> BBE <extra_id_1> food quality <extra_id_3> positive</s>,<pad><extra_id_0> BBE <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> decor <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> decor <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> servers <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> servers <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> maitre <extra_id_1> professionalism <extra_id_3> positive</s><pad>,<pad><extra_id_0> maitre <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> reservation <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> reservation <extra_id_1> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> manager <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> manager <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> food quality <extra_id_3> positive</s><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> stir fried squid <extra_id_1> negative</s>,<pad><extra_id_0> stir fried squid <extra_id_3> negative</s><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> fish tacos <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> fish tacos <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> fish and chips <extra_id_3> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> fish and chips <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Thai style Fried Sea Bass <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> Thai style Fried Sea Bass <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> Zenkichi <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> Zenkichi <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Red Dragon Roll <extra_id_1> food quality <extra_id_3> positive</s>,<pad><extra_id_0> Red Dragon Roll <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> tap beer <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> beer <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> white organza tent <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> white organza tent <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> Indian food <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> Indian food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Al Di La <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> Al Di La <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> service <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_1> service <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> wait <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> plate guacamole <extra_id_3> positive</s>,<pad><extra_id_0> guacamole <extra_id_3> positive</s>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> hostess <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> hostess <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> category <extra_id_1> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> brasserie <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> brasserie <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> bread <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> bread <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> manager <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> manager <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> category <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> NY category <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> toilet <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> toilet <extra_id_1> toilet general <extra_id_3> positive</s>
+<pad><extra_id_0> plates <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> plates <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> location <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> location <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> rolls <extra_id_1> creative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> rolls <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> staff <extra_id_1> rude ; <extra_id_0> customer service <extra_id_3> negative</s>,<pad><extra_id_0> staff <extra_id_1> rude</s><pad><pad><pad><pad>
+<pad><extra_id_0> organic dog <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> organic dog <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> creative rolls <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> creative rolls <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> cocktail <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> cocktail <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> Wedding <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Wedding <extra_id_1> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> dining <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> dining <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> Village Underground <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Village Underground <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive ; <extra_id_0> service <extra_id_3> negative</s><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> reservation <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> lobster roll <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> lobster roll <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> money <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> mirrors <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Japanese food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> home <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> home <extra_id_1> general <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> margherita pizza <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> pizza <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Tasty Dog <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> Tasty Dog <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> appetizers <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> appetizers <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> spinach <extra_id_1> fresh ; <extra_id_0> spinach <extra_id_3> positive</s>,<pad><extra_id_0> spinach <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> sashimi amuse bouche <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> sashimi amuse bouche <extra_id_3> positive</s>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> servers <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> servers <extra_id_1> general <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> concept <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> japanese tapas <extra_id_3> positive</s>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> patrons <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> patrons <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> service <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> waste of money <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> scammers <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> manager <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> response <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> response <extra_id_1> general <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> drinks <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> drinks <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> rudeness <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> rudeness <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> pastas <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> pastas <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> wine <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> sashimi <extra_id_1> fresh ; <extra_id_0> rolls <extra_id_3> delicious</s>,<pad><extra_id_0> sashimi <extra_id_1> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> dinning experience <extra_id_3> positive</s><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> belly dancers <extra_id_3> negative</s><pad>,<pad><extra_id_0> belly dancers <extra_id_3> negative</s><pad>
+<pad><extra_id_0> plate <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> plate <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> nakgi <extra_id_3> negative</s>,<pad><extra_id_0> nakgi <extra_id_3> negative</s>
+<pad><extra_id_0> stone bowl <extra_id_1> negative</s><pad><pad><pad>,<pad><extra_id_0> stone bowl <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> hot dog lovers <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> martinis <extra_id_3> positive</s><pad>,<pad><extra_id_0> martinis <extra_id_3> positive</s><pad>
+<pad><extra_id_0> seafood spaghetti <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> seafood spaghetti <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> menu <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> menu <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> restaurants <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> restaurants <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> bartender <extra_id_3> negative</s><pad><pad>,<pad><extra_id_0> bartender <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> great <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> dessert <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> dessert <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> service <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Indian food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Indian food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> hot dogs <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> hot dogs <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> bread <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> bread <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> visit <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> visit <extra_id_1> general <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> chicken <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> chicken <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> category <extra_id_1> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> hot dogs <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> hot dogs <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> lobster knuckles <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> lobster knuckles <extra_id_3> positive</s>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> entree <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> entree <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> employee <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> employee <extra_id_1> general <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> Service <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_1> service general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> waiter <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Mahi Mahi <extra_id_1> food quality <extra_id_3> positive</s>,<pad><extra_id_0> Mahi Mahi <extra_id_1> positive</s><pad><pad>
+<pad><extra_id_0> beverage <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> beverage <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> service general <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> waitress <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> waitress <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Astoria souvlaki <extra_id_1> food quality <extra_id_3> positive</s>,<pad><extra_id_0> Astoria souvlaki <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> food <extra_id_1> service <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> main course <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> main course <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> pizza <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> pizza <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> hot dog <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> hot dog <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> experience <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> experience <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> scorn <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> supercilious <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> salad <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> salad <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> boths <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> boths <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> category <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> NULL <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> chicken tikka masala <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> chicken tikka masala <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> seating <extra_id_1> romantic ; <extra_id_0> seating <extra_id_3> cozy ; <extra_id_0> seating <extra_id_3> cozy</s>,<pad><extra_id_0> seating <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Grilled Black Cod <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Grilled Black Cod <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> lunch buffet <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> lunch buffet <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Bukhara Grill <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Bukhara Grill <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> meat <extra_id_1> positive ; <extra_id_0> sauces <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> meat <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> pizza <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> pizza <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> mashed potatoes <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> mashed potatoes <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> meals <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> Mussles <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Mussles <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> general <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> SO GOOD <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> staff <extra_id_1> rude</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> staff <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> Terrible <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> food <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> staff <extra_id_1> rude</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> staff <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> peppers <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> peppers <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> dinner <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> dinner <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> dinner <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> dinner <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> Casa La Femme <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Casa La Femme <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad>
+<pad><extra_id_0> waiter <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> waiter <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> establishment <extra_id_1> real ; <extra_id_0> establishment <extra_id_3> positive</s>,<pad><extra_id_0> establishment <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> dinner portion <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> dinner portion <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> scene <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> scene <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> husband <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> group <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> dessert <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> dessert <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Expensive <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> price <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> wedding reception <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> wedding reception <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> table <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> table <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> dishes <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> dishes <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Dokebi <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> Dokebi <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> Casa la Femme <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> bibimbap <extra_id_1> average ; <extra_id_0> stone bowl <extra_id_3> negative</s>,<pad><extra_id_0> bibimbap <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> menu <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> menu <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> chicken <extra_id_3> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> chicken <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> West Village <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> West Village <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> sauce <extra_id_1> Chinese fast food <extra_id_3> negative</s>,<pad><extra_id_0> sauce <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> japanese food <extra_id_3> negative</s>,<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> belly dancing <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> belly dancing <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> river <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> river <extra_id_1> general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> space <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> space <extra_id_1> general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> restaurant <extra_id_1> place <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> restaurant <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> place <extra_id_1> fun</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> restaurant general <extra_id_3> positive</s>
+<pad><extra_id_0> BBQ <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> BBQ <extra_id_1> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> date <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> date <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> waitress <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> waitress <extra_id_1> negative</s><pad><pad><pad>
+<pad><extra_id_0> awesome <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> category <extra_id_1> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> torture <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> torture <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> pasta <extra_id_1> food quality <extra_id_3> negative</s>,<pad><extra_id_0> pasta <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> place <extra_id_1> service <extra_id_3> negative</s><pad>,<pad><extra_id_0> service <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Sushi <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> Sushi <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> pizza <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> pizza <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> margaritas <extra_id_1> negative</s>,<pad><extra_id_0> margaritas <extra_id_3> positive</s><pad>
+<pad><extra_id_0> drinks <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> drinks <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> staff <extra_id_1> food quality <extra_id_3> negative</s>,<pad><extra_id_0> staff <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> monring <extra_id_3> negative</s><pad><pad><pad>,<pad><extra_id_0> monring <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> Pacifico <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> Pacifico <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> creative <extra_id_1> consistent</s><pad><pad><pad><pad>,<pad><extra_id_0> creative <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> crust <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> crust <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad>
+<pad><extra_id_0> Casa La Femme <extra_id_3> negative</s><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> meal <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> meal <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> banana chocolate dessert <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> banana chocolate dessert <extra_id_1> positive</s><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> restaurant <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> waiter <extra_id_3> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> service <extra_id_1> rude</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> food quality <extra_id_3> positive</s>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> Stay away <extra_id_3> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> stay away <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> Sushi <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> Sushi <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> bartender rocks <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> bartender <extra_id_1> positive</s><pad><pad>
+<pad><extra_id_0> hostess <extra_id_3> negative</s><pad><pad>,<pad><extra_id_0> hostess <extra_id_3> negative</s><pad>
+<pad><extra_id_0> restaurant <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> appetizers <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> appetizers <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> flavors <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> flavors <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> potato balls <extra_id_1> dry ; <extra_id_0> buttery</s><pad><pad>,<pad><extra_id_0> potato balls <extra_id_1> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> toppings <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> toppings <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> pizza <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> pizza <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Pizza <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Pizza <extra_id_1> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> category <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Greek ; <extra_id_1> gyro <extra_id_3> positive</s>,<pad><extra_id_0> Greek gyro <extra_id_3> positive</s>
+<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Bukhara <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> Service <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> Indian Chinese <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> Indian Chinese <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> girl <extra_id_3> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> girl <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> service <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_1> service general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> guests <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> sake <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> sake <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> flavors <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> flavors <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Sushi <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> Sushi <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> Restaurant <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> Restaurant <extra_id_1> restaurant general <extra_id_3> negative</s><pad>
+<pad><extra_id_0> Pizza <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> Pizza <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> Indian Food <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> Indian Food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> oysters <extra_id_1> food quality <extra_id_3> negative</s>,<pad><extra_id_0> oysters <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> special roll <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> special roll <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> it <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> Sushi <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Sushi <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> wine list <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> wine list <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> Service <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_1> restaurant general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> sushi <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> sushi <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> garden area <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> garden area <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> service <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_1> service general <extra_id_3> negative</s><pad>
+<pad><extra_id_0> food quality <extra_id_3> positive ; <extra_id_0> salmon <extra_id_3> positive</s>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> survice <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> survice <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> decor <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> decor <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Pineapple covered in glazed <extra_id_3> negative</s>,<pad><extra_id_0> Pineapple covered in glaze <extra_id_3> negative</s>
+<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> place <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> space <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> space <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> Brasserie <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> Brasserie <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> omlette <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> omlette <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> waitress <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> waitress <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> drink <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> drink <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> desert menu <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> desert menu <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> retro girl <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> retro girl <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> DJ <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> DJ <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> fire place <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> decor <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> decor <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> eggplant pizza <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> eggplant pizza <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Shabu Shabu <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> Shabu Shabu <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> DINING EXPERIENCE <extra_id_3> positive</s>,<pad><extra_id_0> DINING EXPERIENCE <extra_id_3> positive</s>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> service <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> place general <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> ports <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> ports <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> waitress <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> menu <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> decor <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> decor <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> scale <extra_id_1> world beater</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> scale <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> service <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> dinner <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> dinner <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> server <extra_id_1> fun ; <extra_id_0> entrees <extra_id_3> positive</s>,<pad><extra_id_0> server <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> place <extra_id_1> general <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> general <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Indian Restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Indian restaurant <extra_id_1> restaurant general <extra_id_3> positive</s>
+<pad><extra_id_0> lobster <extra_id_1> good ; <extra_id_0> lobster <extra_id_3> negative</s><pad><pad>,<pad><extra_id_0> lobster <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> veal <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> veal <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> Bison <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Bison <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> kimchee <extra_id_3> negative</s><pad><pad>,<pad><extra_id_0> kimchee <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> hot dog joint <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> hot dog <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> dishes <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> dishes <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> negative</s><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Maitre <extra_id_1> food quality <extra_id_3> positive</s>,<pad><extra_id_0> Maitre <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> bartender <extra_id_3> negative</s><pad><pad><pad>,<pad><extra_id_0> tequila <extra_id_3> negative</s><pad>
+<pad><extra_id_0> environment <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> environment <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> dish <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> dish <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> seafood entree <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> seafood entree <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> NULL <extra_id_3> negative</s>,<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Williamsburg Garbage <extra_id_3> negative</s><pad>,<pad><extra_id_0> Williamsburg Garbage <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> drinks <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> drinks <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> original <extra_id_1> food quality <extra_id_3> positive</s><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> Water s Edge <extra_id_1> positive</s><pad><pad>,<pad><extra_id_0> Water s Edge <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> flank steak <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> flank steak <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> boyfriend <extra_id_3> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> service <extra_id_3> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> service <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> rice <extra_id_1> service <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> rice <extra_id_1> service general <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> drink menu <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> drink menu <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> pizza <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> pizza <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> pizza <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> pizza <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> waitress <extra_id_3> negative</s><pad><pad><pad>,<pad><extra_id_0> waitress <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> booths <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> booths <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> Lamb special <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> Lamb special <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> train ride <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> train ride <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> decor <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> decor <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> delivery <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> delivery <extra_id_1> general <extra_id_3> negative</s><pad>
+<pad><extra_id_0> beverage NOR hooka <extra_id_1> negative</s>,<pad><extra_id_0> beverage NOR hooka <extra_id_3> positive</s>
+<pad><extra_id_0> meal <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> meal <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad>,<pad><extra_id_0> category <extra_id_3> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> Pacifico <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Pacifico <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Vanison <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Vanison <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> category <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> service <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> bathroom <extra_id_1> service general <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> vegetable <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> vegetable <extra_id_1> food quality <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> husbands birthday <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> birthday <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> veal <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> veal <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> table <extra_id_1> food <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> sashimi <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> sashimi <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_1> restaurant general <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> salmon <extra_id_1> fishy ; <extra_id_0> salmon <extra_id_3> bland</s>,<pad><extra_id_0> salmon <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> NULL <extra_id_3> negative</s><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad>
+<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> food <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_1> restaurant <extra_id_3> positive</s><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> rudeness <extra_id_3> negative</s><pad><pad><pad>,<pad><extra_id_0> rudeness <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> toilet <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> toilet <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> hassle <extra_id_3> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> manager <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> manager <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> restaurant general <extra_id_3> positive</s>
+<pad><extra_id_0> bestt <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> bestt <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> wait staff <extra_id_1> courteous ; <extra_id_0> wait staff <extra_id_3> positive</s>,<pad><extra_id_0> wait staff <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> category <extra_id_1> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> meal <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> meal <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> sake <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> sake <extra_id_1> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> negative</s><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> waiter <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> waiter <extra_id_3> positive</s><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> dessert <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> dessert <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> dishes <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> dishes <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> servers <extra_id_1> patient ; <extra_id_0> servers <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> servers <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> credit card <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> cash <extra_id_1> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> bartender <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> bartender <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> SMITH <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> SMITH <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> cirspy crust margherita pizza <extra_id_3> positive</s>,<pad><extra_id_0> cirspy crust margherita pizza <extra_id_3> positive</s>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> pizza <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> pizza <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> beverages <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> beverages <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Hooka <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Hooka <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> staff <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> staff <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Indian food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Indian food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> side dishes <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> side dishes <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> rolls <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> rolls <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> chicken <extra_id_1> weakness</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> chicken <extra_id_1> food quality <extra_id_3> negative</s><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> food <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> spot <extra_id_1> food quality <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>
+<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Seafood Dynamite <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> Seafood Dynamite <extra_id_3> positive</s><pad>
+<pad><extra_id_0> rude ; <extra_id_0> NULL <extra_id_3> negative</s>,<pad><extra_id_0> NULL <extra_id_1> negative</s><pad><pad><pad><pad>
+<pad><extra_id_0> bar <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> bar <extra_id_1> food quality <extra_id_3> positive</s><pad>
+<pad><extra_id_0> Restaurant <extra_id_1> restaurant <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> restaurant <extra_id_1> restaurant general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> place <extra_id_1> negative</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> negative</s><pad>
+<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> atmosphere <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Kobe <extra_id_1> negative</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> Kobe <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> Experience <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> Experience <extra_id_1> general <extra_id_3> positive</s><pad><pad>
+<pad><extra_id_0> interior <extra_id_3> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> interior <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> Dancing <extra_id_1> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> Dancing <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> hot dogs <extra_id_3> positive</s><pad><pad><pad><pad><pad>,<pad><extra_id_0> hot dogs <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> meals <extra_id_1> positive</s><pad><pad><pad><pad><pad><pad>,<pad><extra_id_0> food <extra_id_3> positive</s><pad><pad><pad><pad><pad>
+<pad><extra_id_0> staff <extra_id_1> grunt <extra_id_3> negative</s><pad>,<pad><extra_id_0> staff <extra_id_1> general <extra_id_3> negative</s><pad><pad>
+<pad><extra_id_0> Hot Dogs <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> Hot Dogs <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> service <extra_id_1> service general <extra_id_3> positive</s><pad><pad>,<pad><extra_id_0> service <extra_id_1> service general <extra_id_3> positive</s><pad>
+<pad><extra_id_0> place <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> place <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> wooden doors <extra_id_3> positive</s><pad><pad><pad>,<pad><extra_id_0> place <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad>
+<pad><extra_id_0> plates <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> plates <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> spinach <extra_id_1> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> spinach <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> NULL <extra_id_1> positive</s><pad><pad><pad>,<pad><extra_id_0> culinary <extra_id_1> food quality <extra_id_3> positive</s>
+<pad><extra_id_0> cash <extra_id_3> positive</s><pad><pad><pad><pad>,<pad><extra_id_0> cash <extra_id_3> positive</s><pad><pad><pad><pad>
+<pad><extra_id_0> beer <extra_id_1> negative</s><pad><pad><pad><pad>,<pad><extra_id_0> beer <extra_id_1> food quality <extra_id_3> negative</s>
+<pad><extra_id_0> dinner <extra_id_1> food quality <extra_id_3> positive</s>,<pad><extra_id_0> dinner <extra_id_1> food quality <extra_id_3> positive</s>

@@ -1,0 +1,13 @@
+t5: bisa
+bart: bisa
+pegasus: out of memory// kayak bart dan untuk summary, kemudian dia banyaknya domain oriented
+marianmt: bisa
+mbart: masalah ketika prepare_data untuk text_target //lagi pula udh ada bart
+
+gpt2: bisa
+gpt: bisa
+ctrl: model terlalu besar (1.6 milyar)
+transfo-xl: rada weird logitsnya, dia kayak udh predict pake generate (189 token) tapi nilainya decimal
+reformer: permasalahan length input
+xlnet: bisa
+xglm: bisa
