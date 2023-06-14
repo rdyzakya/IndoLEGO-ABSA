@@ -130,7 +130,7 @@ def read_data(path:str,target_format:str="aos") -> List[Dict]:
                     unique_categories.append(target["category"])
         except Exception as e:
             raise ValueError(f"Each line should be in the format 'TEXT{SEP}TARGET' and format {target_format}. Example: {sample}. Yours: {line}")
-        data[i] = {"text" : text, "target" : targets}
+        data[i] = {"text" : text, "target" : targets, "num_targets" : num_targets}
     return data
 
 def reduce_targets(targets:List[Dict],task:str="ao") -> List[Dict]:
