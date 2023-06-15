@@ -1,0 +1,301 @@
+sentence_A	sentence_B	label
+kamar bersih dan rapi , suasana tenang dan nyaman .	<extra_id_0> kamar <extra_id_1> bersih <extra_id_2> positive ; <extra_id_3> kamar <extra_id_4> rapi <extra_id_5> positive ; <extra_id_6> suasana <extra_id_7> tenang <extra_id_8> positive ; <extra_id_9> suasana <extra_id_10> nyaman <extra_id_11> positive	aos
+kamar mandinya bau , dan lubang saluran air tersumbat dan penuh rambut sampai harus saya yang membersihkan . kurang meja kecil disamping tempat tidur . kamar agak kecil , tetapi sangat nyaman .	<extra_id_0> kamar mandinya <extra_id_1> negative ; <extra_id_2> lubang saluran air <extra_id_3> negative ; <extra_id_4> lubang saluran air <extra_id_5> negative ; <extra_id_6> kamar <extra_id_7> negative ; <extra_id_8> kamar <extra_id_9> negative	as
+pengalaman yang menyenangkan . kamar nyaman rapi , petugas ramah . tetapi kurang telepon dan fasilitas tempat makan . jadi tidak perlu keluar kamar .	<extra_id_0> kamar ; <extra_id_1> kamar ; <extra_id_2> petugas ; <extra_id_3> telepon ; <extra_id_4> fasilitas tempat makan ; <extra_id_5> pengalaman	a
+menginap disini nyaman banget .	<extra_id_0> NULL <extra_id_1> nyaman banget	ao
+biasa saja . tidak sesuai gambar nya . ruangan gelap , penerangan nya kurang .	<extra_id_0> ruangan ; <extra_id_1> penerangan nya ; <extra_id_2> NULL	a
+air panas susah . sedikit banget . cuma 5 menit habis langsung . room oke sih .	<extra_id_0> susah ; <extra_id_1> oke	o
+resepsionisnya ramah .	<extra_id_0> resepsionisnya	a
+toilet air semprotnya macet , tombol washing buat kloset airnya pelan . resepsionis tidak 24 jam . beda dengan keterangan di penawaran .	<extra_id_0> macet ; <extra_id_1> tidak 24 jam	o
+hotelnya lumayan bersih dan pelayanannya lumayan bagus . cuma kemarin pas saya inap listriknya sering mati . mgkin harus di benahi sama pihak perusahaan listrik negara nya . untuk selebihnya oke sudah .	<extra_id_0> hotelnya <extra_id_1> positive ; <extra_id_2> pelayanannya <extra_id_3> positive ; <extra_id_4> listriknya <extra_id_5> negative ; <extra_id_6> selebihnya <extra_id_7> positive	as
+tampilan gambar dengan kenyataan berbeda seperti bumi dan langit . kamar mandi keran saluran air buntu dan kakak .	<extra_id_0> kamar mandi keran saluran air	a
+pengalaman yang menyenangkan . kamar nyaman rapi , petugas ramah . tetapi kurang telepon dan fasilitas tempat makan . jadi tidak perlu keluar kamar .	<extra_id_0> kamar <extra_id_1> nyaman ; <extra_id_2> kamar <extra_id_3> rapi ; <extra_id_4> petugas <extra_id_5> ramah ; <extra_id_6> telepon <extra_id_7> kurang ; <extra_id_8> fasilitas tempat makan <extra_id_9> kurang ; <extra_id_10> pengalaman <extra_id_11> menyenangkan	ao
+not recommended , kamar lembab pengap , kamar mandi kotor , shower rusak , mati lampu tidak ada genset , staf kurang ramah .	<extra_id_0> kamar <extra_id_1> lembab ; <extra_id_2> kamar <extra_id_3> pengap ; <extra_id_4> kamar mandi <extra_id_5> kotor ; <extra_id_6> shower <extra_id_7> rusak ; <extra_id_8> genset <extra_id_9> tidak ada ; <extra_id_10> staf <extra_id_11> kurang ramah ; <extra_id_12> NULL <extra_id_13> not recommended	ao
+sangat menyenangkan para petugas sangat ramah .	<extra_id_0> para petugas ; <extra_id_1> NULL	a
+refreshing yang dekat bersama keluarga membawa dua anak buat kami bahagia . kamar yang lumayan bersih , tempat tidur muat bera , dapat snack , wifi bagus . dan kolam renang yang bagus yang sepi karena pas puasa . jadi leluasaa . tertawa . dan saya merekomendasikan juga ke temanteman lain .	<extra_id_0> lumayan bersih ; <extra_id_1> dapat ; <extra_id_2> bagus ; <extra_id_3> bagus	o
+kotor . seprai banyak nodanya . handuk juga , keliatam kamar jarang dibersihkan . resepsionis cuma sendiri . jadi lama kalau minta peralatan mandi . lantai kotor .	<extra_id_0> banyak nodanya ; <extra_id_1> banyak nodanya ; <extra_id_2> jarang dibersihkan ; <extra_id_3> cuma sendiri ; <extra_id_4> kotor ; <extra_id_5> kotor	o
+lokasi strategis antara tanggerang jakarta , pelayanan resepsionis sangat ramah .	<extra_id_0> lokasi <extra_id_1> positive ; <extra_id_2> pelayanan resepsionis <extra_id_3> positive	as
+kamar bersih , ac dingin , shower semprotannya kencang , parkir di dalam jadi aman , tempat strategis di tengah sampangan , jalan kaki cari masem gampang , salah satu kamar airy terbaik .	<extra_id_0> kamar <extra_id_1> bersih <extra_id_2> positive ; <extra_id_3> ac <extra_id_4> dingin <extra_id_5> positive ; <extra_id_6> shower semprotannya <extra_id_7> kencang <extra_id_8> positive ; <extra_id_9> parkir <extra_id_10> aman <extra_id_11> positive ; <extra_id_12> tempat <extra_id_13> strategis <extra_id_14> positive ; <extra_id_15> kamar airy <extra_id_16> terbaik <extra_id_17> positive	aos
+saya pesan 2 room , room pertama tidak ada masalah , saat room kedua bau pengap udaranya . setelah ditelusuri ternyata ada bocoran instalasi ac yang membuat lembab tembok kamar dan bau tidak sedap . akhirnya saya minta ganti kamar , diperbolehkan ganti kamar tetapi bbrapa fasilitas yang diberikan airy tidak diberikan ( mungkin karena panik dan secara mendadak saya ngotot untuk pindah kamar atau minta refund saja ) .	<extra_id_0> bau pengap ; <extra_id_1> lembab ; <extra_id_2> bau tidak sedap	o
+kamar bersih , rapi , semuanya enak , parkiran enak , tempat tidur nyaman , ac dingin , air hangat lancar , tv besar tetapi kekurangannya cuma di handuk dan selimut belum disediakan .	<extra_id_0> kamar <extra_id_1> positive ; <extra_id_2> kamar <extra_id_3> positive ; <extra_id_4> semuanya <extra_id_5> positive ; <extra_id_6> parkiran <extra_id_7> positive ; <extra_id_8> tempat tidur <extra_id_9> positive ; <extra_id_10> ac <extra_id_11> positive ; <extra_id_12> air hangat <extra_id_13> positive ; <extra_id_14> tv <extra_id_15> positive ; <extra_id_16> handuk <extra_id_17> negative ; <extra_id_18> selimut <extra_id_19> negative	as
+lokasi yang alami berada di lereng bukit . memberikan nuansa alam yang sangat indah .	<extra_id_0> NULL <extra_id_1> positive	as
+bersih , nyaman dan pemiliknya ramah .	<extra_id_0> ramah ; <extra_id_1> bersih ; <extra_id_2> nyaman	o
+sangat tidak memuaskan ! kamar penuh nyamuk , minta obat nyamuk semprot saja tidak ada .	<extra_id_0> penuh nyamuk ; <extra_id_1> sangat tidak memuaskan	o
+mantap untuk harga segitu .	<extra_id_0> mantap	o
+kamar rapi ' cuma air nya kecil sama ac nya kurang dingin .	<extra_id_0> kamar ; <extra_id_1> air nya ; <extra_id_2> ac nya	a
+baik dan bagus pelayanannya serta ramah terhadap para tamu yang menginap .	<extra_id_0> pelayanannya <extra_id_1> baik ; <extra_id_2> pelayanannya <extra_id_3> bagus ; <extra_id_4> pelayanannya <extra_id_5> ramah	ao
+recomended , bakal inap kesini lagi kalau ke bali .	<extra_id_0> NULL <extra_id_1> recomended <extra_id_2> positive	aos
+bagus sih cuma capek juga kalau bolak balik 3 lantai , lebih bagus lagi kalau ada di lantai 1 .	<extra_id_0> NULL <extra_id_1> positive	as
+1 . kamarnya bagus nyaman , dan kamar mandi bersih . cuma untuk kasurnya perlu diganti karena sudah tinggal pernya saja .	<extra_id_0> kamarnya <extra_id_1> positive ; <extra_id_2> kamarnya <extra_id_3> positive ; <extra_id_4> kamar mandi <extra_id_5> positive ; <extra_id_6> kasurnya <extra_id_7> negative	as
+tempatnya sesuai dengan foto , bersih , nyaman dan disediakan kopi dan teh tetapi harus buat sendiri iya .	<extra_id_0> tempatnya <extra_id_1> sesuai <extra_id_2> positive ; <extra_id_3> tempatnya <extra_id_4> bersih <extra_id_5> positive ; <extra_id_6> tempatnya <extra_id_7> nyaman <extra_id_8> positive	aos
+kamar bersih dengan harga yang murah .	<extra_id_0> bersih ; <extra_id_1> murah	o
+kamar tidak sesuai gambar , tidak bersih .	<extra_id_0> kamar <extra_id_1> tidak sesuai gambar ; <extra_id_2> kamar <extra_id_3> tidak bersih	ao
+viewnya itu buat nyaman lama disini . dekat kemana mana juga . recomended !	<extra_id_0> viewnya <extra_id_1> positive ; <extra_id_2> NULL <extra_id_3> positive	as
+nyaman dan bersih .	<extra_id_0> NULL ; <extra_id_1> NULL	a
+bersih , kamar luas , ac dingin , sangat puas .	<extra_id_0> kamar <extra_id_1> luas ; <extra_id_2> ac <extra_id_3> dingin ; <extra_id_4> NULL <extra_id_5> bersih ; <extra_id_6> NULL <extra_id_7> sangat puas	ao
+lokasi susah di cari dari jalan utama dan jauh dari jalan utama . saya menggunakan promo airy . overall good tingkatkan lagi .	<extra_id_0> lokasi <extra_id_1> susah di cari <extra_id_2> negative ; <extra_id_3> overall <extra_id_4> good <extra_id_5> positive	aos
+kamar bau rokok , snack dan pelengkap dari airy rooms tidak ada .	<extra_id_0> kamar <extra_id_1> bau rokok ; <extra_id_2> snack <extra_id_3> tidak ada ; <extra_id_4> pelengkap <extra_id_5> tidak ada	ao
+pegawai yang ramah tempat yang sangat nyaman untuk beristirahat dan lelahnya aktifitas .	<extra_id_0> pegawai ; <extra_id_1> tempat	a
+kamar tidak sesuai dengan gambar dan sempit tetapi lumayan nyaman .	<extra_id_0> kamar <extra_id_1> tidak sesuai dengan gambar <extra_id_2> negative ; <extra_id_3> kamar <extra_id_4> sempit <extra_id_5> negative ; <extra_id_6> kamar <extra_id_7> lumayan nyaman <extra_id_8> positive	aos
+ok . cukup luas dan lengkap . !	<extra_id_0> NULL <extra_id_1> positive ; <extra_id_2> NULL <extra_id_3> positive ; <extra_id_4> NULL <extra_id_5> positive	as
+rapi bersih . tidak perlu ac , karena udara bandung sudah sejuk .	<extra_id_0> NULL <extra_id_1> rapi <extra_id_2> positive ; <extra_id_3> NULL <extra_id_4> bersih <extra_id_5> positive	aos
+strategis , dekat jalan raya .	<extra_id_0> NULL <extra_id_1> strategis	ao
+tidak ada handuk harus minta ke resepsionis , ac tidak dingin .	<extra_id_0> handuk <extra_id_1> tidak ada <extra_id_2> negative ; <extra_id_3> ac <extra_id_4> tidak dingin <extra_id_5> negative	aos
+untuk pelayanan dan breakfastnya oke untuk parkir agak penuh , perlu dipikirkan solusinya .	<extra_id_0> pelayanan ; <extra_id_1> breakfastnya ; <extra_id_2> parkir	a
+keerreen abiis . nyaman deh pokoknya .	<extra_id_0> NULL ; <extra_id_1> NULL	a
+semuanya baik . tetapi saran saya tolong kamar juga di bersihkan setiap hari jika menginap lebih dari sehari . pakai tempat sampah tertutup juga .	<extra_id_0> semuanya <extra_id_1> positive	as
+kamar lumayan , sesuai harga . lingkungan ramai , mau cari makan atau belanja kebutuhan harian mudah .	<extra_id_0> kamar ; <extra_id_1> lingkungan	a
+enak nyaman tempat nya , ramah pelayanan nya , tetapi untuk seprai dan sarungsarung bantal nya kurang bersih warna nya kusam begitu , itu saja deh he terimakasih .	<extra_id_0> tempat nya <extra_id_1> enak ; <extra_id_2> tempat nya <extra_id_3> nyaman ; <extra_id_4> pelayanan nya <extra_id_5> ramah ; <extra_id_6> seprai <extra_id_7> kurang bersih ; <extra_id_8> sarungsarung bantal nya <extra_id_9> kurang bersih ; <extra_id_10> warna nya <extra_id_11> kusam begitu	ao
+tenang . kebersihan harap dtingkatkan .	<extra_id_0> kebersihan ; <extra_id_1> NULL	a
+kamar lumayan bersih , meski ada beberapa berdebu tetapi masih cukup nyaman . air hangat , ac dingin , wifi cepat , karyawan sedikit kurang ramah , menginap beberapa hari , harusnya setiap hari diganti snack atau mnawarkan handuk baru .	<extra_id_0> lumayan bersih ; <extra_id_1> berdebu ; <extra_id_2> cukup nyaman ; <extra_id_3> dingin ; <extra_id_4> cepat ; <extra_id_5> sedikit kurang ramah	o
+air panas tidak berfungsi , kebersihan kamar kurang .	<extra_id_0> air panas <extra_id_1> tidak berfungsi ; <extra_id_2> kebersihan kamar <extra_id_3> kurang	ao
+biasa saja . tidak sesuai gambar nya . ruangan gelap , penerangan nya kurang .	<extra_id_0> ruangan <extra_id_1> gelap ; <extra_id_2> penerangan nya <extra_id_3> kurang ; <extra_id_4> NULL <extra_id_5> tidak sesuai gambar	ao
+kamar nyaman , harga terjangkau , bersih , kamar mandi bersih , nyaman . cocoknya memang untuk tempat beristirahat karrna agak jauh dari jalan raya .	<extra_id_0> kamar ; <extra_id_1> harga ; <extra_id_2> kamar mandi ; <extra_id_3> kamar mandi ; <extra_id_4> kamar	a
+kali ini , kurang memuaskan untuk kamarnya . pintu kamar susah di kunci , untuk seprai kasur masa banyak bolongbolong .	<extra_id_0> kamarnya <extra_id_1> negative ; <extra_id_2> pintu kamar <extra_id_3> negative ; <extra_id_4> seprai kasur <extra_id_5> negative	as
+breakfastnya kurang enak , perlu diperbaiki .	<extra_id_0> breakfastnya <extra_id_1> negative	as
+hotel ini sangat bagus dan nyaman untuk backpacker .	<extra_id_0> sangat bagus ; <extra_id_1> nyaman	o
+pelayanan sudah bagus , tempat juga bagus , akan lebih bagus lagi jika tempat untuk mencharger hp di tambah . terimakasih .	<extra_id_0> bagus ; <extra_id_1> bagus	o
+kamarnya kurang nyaman , kurang bersih .	<extra_id_0> kamarnya <extra_id_1> kurang nyaman <extra_id_2> negative ; <extra_id_3> kamarnya <extra_id_4> kurang bersih <extra_id_5> negative	aos
+berssih . putih . tetapi agak masuk lokasi nya . di perumahan .	<extra_id_0> berssih	o
+nyaman , mudah dijangkau , pelayanan memuaskan .	<extra_id_0> memuaskan ; <extra_id_1> nyaman ; <extra_id_2> mudah dijangkau	o
+cukup baik untuk liburan keluarga .	<extra_id_0> NULL	a
+sangat strategis tempat lokasinya . tetapi untuk acnya kurang dingin di kamar 202 .	<extra_id_0> lokasinya <extra_id_1> sangat strategis ; <extra_id_2> acnya <extra_id_3> kurang dingin	ao
+puas sama kamarnya . pelayanannya biasa saja .	<extra_id_0> kamarnya ; <extra_id_1> pelayanannya	a
+kamar ada jendela iya bangun pagi bisa hirup udara segar , harga murah pelayan ramah bangun pagi dapat .	<extra_id_0> harga <extra_id_1> murah ; <extra_id_2> pelayan <extra_id_3> ramah	ao
+wastafel macet .	<extra_id_0> wastafel <extra_id_1> macet <extra_id_2> negative	aos
+pelayanan yang baik , ramah serta kondisi kamar yang bersih .	<extra_id_0> pelayanan <extra_id_1> positive ; <extra_id_2> pelayanan <extra_id_3> positive ; <extra_id_4> kamar <extra_id_5> positive	as
+pelayanan yang kurang baik perlu ditingkatkan .	<extra_id_0> kurang baik ; <extra_id_1> perlu ditingkatkan	o
+tidak nyangka kalau hotelnya sangat bersih . bagus . nyaman . depan sudah super indo .	<extra_id_0> sangat bersih ; <extra_id_1> bagus ; <extra_id_2> nyaman	o
+lokasi strategis , pelayanan ramah , kamar bersih dan fasilitas lengkap .	<extra_id_0> lokasi <extra_id_1> strategis <extra_id_2> positive ; <extra_id_3> pelayanan <extra_id_4> ramah <extra_id_5> positive ; <extra_id_6> kamar <extra_id_7> bersih <extra_id_8> positive ; <extra_id_9> fasilitas <extra_id_10> lengkap <extra_id_11> positive	aos
+keerreen abiis . nyaman deh pokoknya .	<extra_id_0> NULL <extra_id_1> positive ; <extra_id_2> NULL <extra_id_3> positive	as
+baik bagus nyaman .	<extra_id_0> NULL <extra_id_1> baik <extra_id_2> positive ; <extra_id_3> NULL <extra_id_4> bagus <extra_id_5> positive ; <extra_id_6> NULL <extra_id_7> nyaman <extra_id_8> positive	aos
+tenang . kebersihan harap dtingkatkan .	<extra_id_0> kebersihan <extra_id_1> harap dtingkatkan ; <extra_id_2> NULL <extra_id_3> tenang	ao
+lampu mati , air shower untuk mandi tidak mengalir samasekali .	<extra_id_0> lampu <extra_id_1> mati <extra_id_2> negative ; <extra_id_3> air shower <extra_id_4> tidak mengalir samasekali <extra_id_5> negative	aos
+shower air panas tersedia .	<extra_id_0> shower air panas	a
+sangat bagus , lokasi strategi dan bersih , pasti akan menginap disini lagi .	<extra_id_0> strategi ; <extra_id_1> bersih ; <extra_id_2> sangat bagus	o
+lokasi mudah dijangkau . banyak makanan harga murah yang enak di sekitarnya .	<extra_id_0> lokasi	a
+tempat strategis dekat dengan alun alun , nyaman , bersih .	<extra_id_0> tempat ; <extra_id_1> NULL ; <extra_id_2> NULL	a
+alhamdulillah . makanannya enak . pasti bebas rokok . semoga selalu ber syariah .	<extra_id_0> makanannya <extra_id_1> positive	as
+nyaman , enak dan menyenangkan .	<extra_id_0> NULL <extra_id_1> positive ; <extra_id_2> NULL <extra_id_3> positive ; <extra_id_4> NULL <extra_id_5> positive	as
+not recommended , kamar lembab pengap , kamar mandi kotor , shower rusak , mati lampu tidak ada genset , staf kurang ramah .	<extra_id_0> kamar ; <extra_id_1> kamar ; <extra_id_2> kamar mandi ; <extra_id_3> shower ; <extra_id_4> genset ; <extra_id_5> staf ; <extra_id_6> NULL	a
+kamar yang diberikan beda pada foto .	<extra_id_0> kamar <extra_id_1> beda	ao
+kamar kurang bersih dan ada kecoak , kamar mandi juga kotor dan tidak terawat . tolong diperbaiki lagi . terimakasih .	<extra_id_0> kamar <extra_id_1> negative ; <extra_id_2> kamar <extra_id_3> negative ; <extra_id_4> kamar mandi <extra_id_5> negative ; <extra_id_6> kamar mandi <extra_id_7> negative	as
+fasilitas lengkap harga hemat .	<extra_id_0> fasilitas <extra_id_1> lengkap <extra_id_2> positive ; <extra_id_3> harga <extra_id_4> hemat <extra_id_5> positive	aos
+kamar bau dan kotor , toilet bau , after menginap disini saya kena penyakit kulit ( ruam kulit dan gatalgatal ) .	<extra_id_0> kamar <extra_id_1> bau <extra_id_2> negative ; <extra_id_3> kamar <extra_id_4> kotor <extra_id_5> negative ; <extra_id_6> toilet <extra_id_7> bau <extra_id_8> negative	aos
+lokasi dekat dengan bandara , tempat nyaman , pelayanan sangat bagus , fasilitasnya memuaskan .	<extra_id_0> nyaman ; <extra_id_1> sangat bagus ; <extra_id_2> memuaskan	o
+pelayanan ramah , kamar bersih . makanan kantinnya juga enak .	<extra_id_0> pelayanan <extra_id_1> ramah ; <extra_id_2> kamar <extra_id_3> bersih ; <extra_id_4> makanan kantinnya <extra_id_5> enak	ao
+tidak sama yang digambar ruangan nya ' yang jaga malam nya agak judes padahal ke depan saja beli nasi dia tanya nya nada tinggi .	<extra_id_0> ruangan nya <extra_id_1> tidak sama yang digambar <extra_id_2> negative ; <extra_id_3> yang jaga <extra_id_4> agak judes <extra_id_5> negative	aos
+kamar yang terbaik , semua fasilitas sesuai yang di publikasikan .	<extra_id_0> kamar <extra_id_1> terbaik ; <extra_id_2> fasilitas <extra_id_3> sesuai	ao
+bersih , nyaman , sesuai permintaan , tetapi tidak ada almari es nyaa .	<extra_id_0> almari es nyaa <extra_id_1> negative ; <extra_id_2> NULL <extra_id_3> positive ; <extra_id_4> NULL <extra_id_5> positive	as
+fasilitas tidak sesuai tidak ada air panas .	<extra_id_0> fasilitas <extra_id_1> tidak sesuai <extra_id_2> negative ; <extra_id_3> air panas <extra_id_4> tidak ada <extra_id_5> negative	aos
+pelayanan baik , tetapi kamar mandinya sempit .	<extra_id_0> baik ; <extra_id_1> sempit	o
+kamar nyaman , sarapannya cukup enak , tenang .	<extra_id_0> nyaman ; <extra_id_1> cukup enak ; <extra_id_2> tenang	o
+kamar nya bagus , tetapi tidak ada room pelayanan nya . cuma jangan khawatir karena depan hotel banyak banget yang jual makanan .	<extra_id_0> kamar nya <extra_id_1> bagus ; <extra_id_2> room pelayanan nya <extra_id_3> tidak ada	ao
+lokasi strategis , pelayanan ramah , kamar bersih dan fasilitas lengkap .	<extra_id_0> lokasi <extra_id_1> positive ; <extra_id_2> pelayanan <extra_id_3> positive ; <extra_id_4> kamar <extra_id_5> positive ; <extra_id_6> fasilitas <extra_id_7> positive	as
+sangat bagus , lokasi strategi dan bersih , pasti akan menginap disini lagi .	<extra_id_0> lokasi ; <extra_id_1> lokasi ; <extra_id_2> NULL	a
+secara keseluruhan sudah sangat baik , kebersihan juga terjaga namun untuk sarapan masih kurang .	<extra_id_0> secara keseluruhan ; <extra_id_1> kebersihan ; <extra_id_2> sarapan	a
+good . lingkungan strategis dan bersih . pgn kesini lagi .	<extra_id_0> lingkungan <extra_id_1> strategis <extra_id_2> positive ; <extra_id_3> lingkungan <extra_id_4> bersih <extra_id_5> positive ; <extra_id_6> NULL <extra_id_7> good <extra_id_8> positive	aos
+hotel bersih . kasur dan kamar mandi bersih .	<extra_id_0> bersih ; <extra_id_1> bersih ; <extra_id_2> bersih	o
+pelayanan sangat baik .	<extra_id_0> pelayanan	a
+puri ratu babarsari sangat bagus , tempat nyaman . untuk perbaikan ke depan , mohon disediakan hanger di lemari . selebihnya sudah oke semua .	<extra_id_0> tempat <extra_id_1> nyaman ; <extra_id_2> selebihnya <extra_id_3> oke ; <extra_id_4> NULL <extra_id_5> sangat bagus	ao
+secara keseluruhan sudah sangat baik , kebersihan juga terjaga namun untuk sarapan masih kurang .	<extra_id_0> secara keseluruhan <extra_id_1> sangat baik ; <extra_id_2> kebersihan <extra_id_3> terjaga ; <extra_id_4> sarapan <extra_id_5> kurang	ao
+fasilitas lengkap harga bersahabat .	<extra_id_0> fasilitas <extra_id_1> positive ; <extra_id_2> harga <extra_id_3> positive	as
+kamar ac tidak dingin air mandinya kecil .	<extra_id_0> ac <extra_id_1> tidak dingin ; <extra_id_2> air mandinya <extra_id_3> kecil	ao
+cukup baik sih , hanya pas datang nya ajh kurang menyenangkan sapaan nya selebih nya cukup baik .	<extra_id_0> sapaan nya <extra_id_1> kurang menyenangkan <extra_id_2> negative ; <extra_id_3> selebih nya <extra_id_4> cukup baik <extra_id_5> positive ; <extra_id_6> NULL <extra_id_7> cukup baik <extra_id_8> positive	aos
+pelayanan dan tempatnya bagus , hanya saja bed covernya yang sudah mulai kurang bersih karena sudah tidak berwarna putih cerah lagi ada bercak hitam . mngkin bisa ada pembaharuan atau pencucian bed covernya yang bersih lagi .	<extra_id_0> tempatnya <extra_id_1> bagus ; <extra_id_2> bed covernya <extra_id_3> kurang bersih	ao
+kamar cukup besar , suasana tenang , akses mudah .	<extra_id_0> kamar <extra_id_1> cukup besar ; <extra_id_2> suasana <extra_id_3> tenang ; <extra_id_4> akses <extra_id_5> mudah	ao
+tempatnya rapi dan bersih . cuma hanya dikasih handuk satu buat 2org . pasta gigi satu dan sabun juga satu .	<extra_id_0> tempatnya <extra_id_1> rapi <extra_id_2> positive ; <extra_id_3> tempatnya <extra_id_4> bersih <extra_id_5> positive	aos
+cukup bagus buat yang backpackeran . buat keluarga tidak cocok karena bersebelahan dengan club karaoke .	<extra_id_0> cukup bagus ; <extra_id_1> tidak cocok	o
+kamar bersih dan rapi , hanya saja cukup sempit mungkin karena room hanya yang standar .	<extra_id_0> kamar <extra_id_1> positive ; <extra_id_2> kamar <extra_id_3> positive ; <extra_id_4> kamar <extra_id_5> negative	as
+ac - nya tidak berfungsi , ac kemungkinan bocor , panas banget . air dilantai 4 kadang - kadang tidak naik , airnya loyo .	<extra_id_0> ac - nya ; <extra_id_1> ac ; <extra_id_2> ac ; <extra_id_3> airnya	a
+kamarnya bersih , pelayanan cukup oke , ada cemilan gratisnya di kamar lumayan banyak , terima kasih breakfastnya bervariasi . makanannya enak apalagi restonya berada di rooftop 4 floor . jadi sarapan bisa langsung lihat pemandangan laut yang bagus dan sunrise pagi ini itu keren dan indah banget kelihatan sekali dari rooftopnya , beruntung pas kesana cuacanya lagi cerah banget , terima kasih airy untuk pelayanannya cukup mengesankan .	<extra_id_0> kamarnya <extra_id_1> positive ; <extra_id_2> pelayanan <extra_id_3> positive ; <extra_id_4> cemilan gratisnya <extra_id_5> positive ; <extra_id_6> breakfastnya <extra_id_7> positive ; <extra_id_8> makanannya <extra_id_9> positive ; <extra_id_10> pelayanannya <extra_id_11> positive ; <extra_id_12> cemilan <extra_id_13> positive	as
+kamar tidak sesuai dengan gambar dan sempit tetapi lumayan nyaman .	<extra_id_0> tidak sesuai dengan gambar ; <extra_id_1> sempit ; <extra_id_2> lumayan nyaman	o
+kamar rapi dan bersih .	<extra_id_0> rapi ; <extra_id_1> bersih	o
+kalau bisa lift nya dong he , untuk yang lain terbaik deh !	<extra_id_0> yang lain <extra_id_1> positive	as
+tmptnya bagus bersih oke lah cocok untuk treveler .	<extra_id_0> bagus ; <extra_id_1> bersih ; <extra_id_2> oke	o
+suasana nyaman lokasi sangat bersih petugas ramah pingin datang lagi .	<extra_id_0> suasana <extra_id_1> positive ; <extra_id_2> lokasi <extra_id_3> positive ; <extra_id_4> petugas <extra_id_5> positive	as
+kamar kotor , kamar mandi rusak , tidak ada air panas , kamar mandi juga kotor , lampu redup , akses naik menggunakan tangga dan banyak barang barang gudang berserakan .	<extra_id_0> kamar <extra_id_1> negative ; <extra_id_2> kamar mandi <extra_id_3> negative ; <extra_id_4> air panas <extra_id_5> negative ; <extra_id_6> kamar mandi <extra_id_7> negative ; <extra_id_8> lampu <extra_id_9> negative	as
+cukup memuaskan , walaupun sempat ada kerusakan di keran air toilet .	<extra_id_0> cukup memuaskan	o
+fasilitas sesuai harga , rekomended untuk yang backpacker .	<extra_id_0> sesuai ; <extra_id_1> rekomended	o
+kamar nya nyaman . wangi pula . tetapi pas lihat peralatan mandi tidak toothbrush nya hehehhe . kan lucu . gpp lah two thumbs up . airy .	<extra_id_0> kamar nya <extra_id_1> nyaman ; <extra_id_2> kamar nya <extra_id_3> wangi	ao
+pinjam sandal harus bayar 10000 , pinjam mangkok dan sendok tidak boleh . sarung bantal kotor , kasur ju .	<extra_id_0> sarung bantal <extra_id_1> kotor <extra_id_2> negative ; <extra_id_3> kasur <extra_id_4> kotor <extra_id_5> negative	aos
+hotel bersih dan nyaman . pelayanan juga ramah .	<extra_id_0> hotel <extra_id_1> bersih <extra_id_2> positive ; <extra_id_3> hotel <extra_id_4> nyaman <extra_id_5> positive ; <extra_id_6> pelayanan <extra_id_7> ramah <extra_id_8> positive	aos
+nyaman tetapi kalau yang dilantai dua lelah juga turun naiknya .	<extra_id_0> NULL	a
+cuma air kurang lancar dan ac kurang dingin .	<extra_id_0> kurang lancar ; <extra_id_1> kurang dingin	o
+handuknya cuma satu , sementara kami berdua .	<extra_id_0> handuknya <extra_id_1> cuma satu	ao
+bersih dan aman . terimakasih so much .	<extra_id_0> bersih ; <extra_id_1> aman	o
+air panas tidak jalan , kamar mandi bau rokok , penerangan kurang .	<extra_id_0> air panas <extra_id_1> tidak jalan <extra_id_2> negative ; <extra_id_3> kamar mandi <extra_id_4> bau rokok <extra_id_5> negative ; <extra_id_6> penerangan <extra_id_7> kurang <extra_id_8> negative	aos
+pelayanan baik , hanya kamar mandi kurang perawatan dan selimut agak kusam .	<extra_id_0> pelayanan ; <extra_id_1> kamar mandi ; <extra_id_2> selimut	a
+tempat tidur nyaman , kamar mandi oke .	<extra_id_0> tempat tidur <extra_id_1> positive ; <extra_id_2> kamar mandi <extra_id_3> positive	as
+kamar , fasilitas memadai sesuai harga .	<extra_id_0> kamar <extra_id_1> memadai ; <extra_id_2> fasilitas <extra_id_3> memadai	ao
+bagus bersih dengan harga 200ribuan .	<extra_id_0> NULL <extra_id_1> bagus ; <extra_id_2> NULL <extra_id_3> bersih	ao
+hanya sayang lokasinya di dalam komplek . overall , it's oke .	<extra_id_0> overall	a
+cukup baik , pelayanan ramah , cuma seprai agak kotor dan lantai nya sedikit lengket .	<extra_id_0> pelayanan <extra_id_1> positive ; <extra_id_2> seprai <extra_id_3> negative ; <extra_id_4> lantai nya <extra_id_5> negative ; <extra_id_6> NULL <extra_id_7> positive	as
+kamar sangat nyaman dan bersih sarapan oke banget .	<extra_id_0> sangat nyaman ; <extra_id_1> bersih ; <extra_id_2> oke banget	o
+fasilitas dan pelayanan memuaskan .	<extra_id_0> fasilitas <extra_id_1> memuaskan <extra_id_2> positive ; <extra_id_3> pelayanan <extra_id_4> memuaskan <extra_id_5> positive	aos
+suasana nyaman . hotel sesuai budget . lokasi sangat stategis di pusat legian . kamar mandi oke . kebersihan kamar dan seprai kurang banget . perlengkapan mandi dari airy sepertinya bekas . terutama sikat gigi nya .	<extra_id_0> suasana <extra_id_1> positive ; <extra_id_2> hotel <extra_id_3> positive ; <extra_id_4> lokasi <extra_id_5> positive ; <extra_id_6> kamar mandi <extra_id_7> positive ; <extra_id_8> kebersihan kamar <extra_id_9> negative ; <extra_id_10> seprai <extra_id_11> negative ; <extra_id_12> perlengkapan mandi <extra_id_13> negative	as
+kamarnya bersih .	<extra_id_0> bersih	o
+kamar bersih , rapi , dan bagus .	<extra_id_0> kamar <extra_id_1> bersih <extra_id_2> positive ; <extra_id_3> kamar <extra_id_4> rapi <extra_id_5> positive ; <extra_id_6> kamar <extra_id_7> bagus <extra_id_8> positive	aos
+nyaman tetapi kulkasnya agak bocor .	<extra_id_0> kulkasnya <extra_id_1> agak bocor <extra_id_2> negative ; <extra_id_3> NULL <extra_id_4> nyaman <extra_id_5> positive	aos
+bagus bersih wangi . ada laundry yang tengah malam pun dilayani , saya taruh jam 12 malam , 7pagi sudah selesai .	<extra_id_0> NULL <extra_id_1> bagus ; <extra_id_2> NULL <extra_id_3> bersih ; <extra_id_4> NULL <extra_id_5> wangi	ao
+tempat yang nyaman untuk menginap , lokasi strategis dengan harga terjangkau .	<extra_id_0> tempat ; <extra_id_1> lokasi ; <extra_id_2> harga	a
+tidak ada handuk sempat listrik pulsa habis .	<extra_id_0> handuk <extra_id_1> negative	as
+lokasi hotelnya strategis , dekat sama tempattempat makan di depok dan gampang diakses , hanya saja kamarnya super duper sempity sampai untuk buka pintu kamar saja susah karena mentok tempat tidur . cuma itu sih yang buat tidak nyaman , tetapi pelaynannya oke .	<extra_id_0> lokasi hotelnya <extra_id_1> strategis <extra_id_2> positive ; <extra_id_3> kamarnya <extra_id_4> super duper sempity <extra_id_5> negative ; <extra_id_6> pelaynannya <extra_id_7> oke <extra_id_8> positive	aos
+kamar bersih . ac kurang dingin .	<extra_id_0> kamar ; <extra_id_1> ac	a
+harga ekonomis tetapi pelayanan kamar hotel nya tidak mengecewakan .	<extra_id_0> ekonomis ; <extra_id_1> tidak mengecewakan	o
+nyaman , rapi , bagus .	<extra_id_0> NULL <extra_id_1> positive ; <extra_id_2> NULL <extra_id_3> positive ; <extra_id_4> NULL <extra_id_5> positive	as
+kamar yang diberikan beda pada foto .	<extra_id_0> kamar	a
+sangat memuaskan , bersih dan luas .	<extra_id_0> sangat memuaskan ; <extra_id_1> bersih ; <extra_id_2> luas	o
+kelebihannya pada kamar airy ini , dalam kamar telah disediakan snack box , ada extra 2 bantal kecil airy , sabun , sampo , sikat gigi dan pasta gigi sudah ter'set rapi . topdeh . tetapi ada minusnya , yaitu tidak ada handuk , entah lupa atau memang tidak disediakan .	<extra_id_0> bantal <extra_id_1> ter'set rapi <extra_id_2> positive ; <extra_id_3> sabun <extra_id_4> ter'set rapi <extra_id_5> positive ; <extra_id_6> sampo <extra_id_7> ter'set rapi <extra_id_8> positive ; <extra_id_9> sikat gigi <extra_id_10> ter'set rapi <extra_id_11> positive ; <extra_id_12> pasta gigi <extra_id_13> ter'set rapi <extra_id_14> positive ; <extra_id_15> handuk <extra_id_16> tidak ada <extra_id_17> negative	aos
+kamar bersih dan nyaman , lokasi dekat dengan pantai kuta .	<extra_id_0> bersih ; <extra_id_1> nyaman	o
+pelayanan ramah . breakfast enak dan banyak pilihan .	<extra_id_0> pelayanan <extra_id_1> ramah <extra_id_2> positive ; <extra_id_3> breakfast <extra_id_4> enak <extra_id_5> positive ; <extra_id_6> breakfast <extra_id_7> banyak pilihan <extra_id_8> positive	aos
+lampu kamar kurang terang .	<extra_id_0> lampu kamar	a
+mantap airy . saya suka voucher dan promo . jaya selalu airy .	<extra_id_0> NULL	a
+kelas bisnisnya sangat kurang greget .	<extra_id_0> kelas bisnisnya <extra_id_1> sangat kurang greget <extra_id_2> negative	aos
+enak nyaman tempat nya , ramah pelayanan nya , tetapi untuk seprai dan sarungsarung bantal nya kurang bersih warna nya kusam begitu , itu saja deh he terimakasih .	<extra_id_0> enak ; <extra_id_1> nyaman ; <extra_id_2> ramah ; <extra_id_3> kurang bersih ; <extra_id_4> kurang bersih ; <extra_id_5> kusam begitu	o
+tv nya oke tetapi gambar nya banyak semuanya , shower nya tidak berfungsi normal tetapi masih bisa keluar air dingin saja . kebersihan standartnya saja . perabotan furniture terkesan old tidak terawat .	<extra_id_0> tv nya ; <extra_id_1> shower nya ; <extra_id_2> kebersihan ; <extra_id_3> perabotan	a
+untuk pelayanan dan breakfastnya oke untuk parkir agak penuh , perlu dipikirkan solusinya .	<extra_id_0> pelayanan <extra_id_1> oke ; <extra_id_2> breakfastnya <extra_id_3> oke ; <extra_id_4> parkir <extra_id_5> agak penuh	ao
+lokasi strategis , pelayanan baik , ac dingin , kamar cukup luas namun kamar kotor dan kamar mandi bau . sarapan hanya nasi goreng dan telor ceplok tidak ada roti tawar . bangunan seperti kurang terawat dan terkesan kuno .	<extra_id_0> strategis ; <extra_id_1> baik ; <extra_id_2> dingin ; <extra_id_3> cukup luas ; <extra_id_4> kotor ; <extra_id_5> bau ; <extra_id_6> kurang terawat	o
+proses check in nya lama , padahal sudah mau istirahat .	<extra_id_0> lama	o
+kamarnya luas sih . tetapi ac kurang dingin dan penerangan kamar kurang . mgkin sebaiknya watt lampu pakai yang lebih besar .	<extra_id_0> kamarnya ; <extra_id_1> ac ; <extra_id_2> penerangan kamar	a
+semuanya memuaskan hanya saja ac kamar 203 tidak dingin dan kamar mandinya sedikit berbau .	<extra_id_0> semuanya <extra_id_1> positive ; <extra_id_2> ac kamar <extra_id_3> negative ; <extra_id_4> kamar mandinya <extra_id_5> negative	as
+awal wifi bagus , hari ke 2 wifi nya mati . keseluruhanya oke .	<extra_id_0> wifi <extra_id_1> bagus <extra_id_2> positive ; <extra_id_3> wifi nya <extra_id_4> mati <extra_id_5> negative ; <extra_id_6> keseluruhanya <extra_id_7> oke <extra_id_8> positive	aos
+tempat strategis , pelayanan baik , fasilitas cukup baik , kebersihan masih perlu ditingkatkan .	<extra_id_0> tempat ; <extra_id_1> pelayanan ; <extra_id_2> fasilitas ; <extra_id_3> kebersihan	a
+tidak ada amenities , pelayanan kurang baik .	<extra_id_0> tidak ada ; <extra_id_1> kurang baik	o
+kamarnya bersih pelayanannya ramah .	<extra_id_0> kamarnya <extra_id_1> positive ; <extra_id_2> pelayanannya <extra_id_3> positive	as
+jelek .	<extra_id_0> NULL <extra_id_1> jelek <extra_id_2> negative	aos
+satuan pengamanan yang tidak ramah . tidak ada solusi baik ketika check in sehingga tidak jadi menginap di room tersebut !	<extra_id_0> satuan pengamanan	a
+tidak ada handuk harus minta ke resepsionis , ac tidak dingin .	<extra_id_0> handuk <extra_id_1> tidak ada ; <extra_id_2> ac <extra_id_3> tidak dingin	ao
+pelayanan ramah , lokasi tenang nyaman , free breakfast . terimakasih airy .	<extra_id_0> pelayanan <extra_id_1> positive ; <extra_id_2> lokasi <extra_id_3> positive ; <extra_id_4> lokasi <extra_id_5> positive	as
+nyaman , strategis , sarapan cukup dan lumayan .	<extra_id_0> cukup ; <extra_id_1> lumayan ; <extra_id_2> nyaman ; <extra_id_3> strategis	o
+pelayanan mengesankan .	<extra_id_0> pelayanan <extra_id_1> mengesankan	ao
+berisik sekali karena suara riuh jalan raya terdengar jelas di dalam kamar , tidak tenang , susah untuk tidur .	<extra_id_0> NULL ; <extra_id_1> NULL	a
+menyenangkan . lokasi agak sulit dijangkau tanpa waze .	<extra_id_0> lokasi ; <extra_id_1> NULL	a
+kamar luas dan dekat dengan tempat wisata .	<extra_id_0> kamar <extra_id_1> luas <extra_id_2> positive	aos
+parah . pesan 2 kamar , 1 kamarnya tidak ada perlengkapan airy belum di siapkan , karena tidak terdetect kalau pesan 2 kamar . kamar bau apek . not recomended lah .	<extra_id_0> perlengkapan airy <extra_id_1> tidak ada ; <extra_id_2> kamar <extra_id_3> bau apek ; <extra_id_4> NULL <extra_id_5> parah ; <extra_id_6> NULL <extra_id_7> not recomended	ao
+kurang puas sama pelayanan , harus deposit , ribet .	<extra_id_0> kurang puas	o
+dalam kamar mandi ada kecoak , tolong diperhatikan dan lbih di jaga lagi kebersihannya , selebihnya sangat baik .	<extra_id_0> kamar mandi <extra_id_1> ada kecoak <extra_id_2> negative ; <extra_id_3> kebersihannya <extra_id_4> tolong diperhatikan <extra_id_5> negative ; <extra_id_6> selebihnya <extra_id_7> sangat baik <extra_id_8> positive	aos
+untuk harga dibawah 200.000 kamar ini terlampau bagus ! tetapi untuk kedepannya mohon diperbaiki cat dinding di sudut kamar ada yang terkelupas .	<extra_id_0> mohon diperbaiki ; <extra_id_1> bagus	o
+bersih , kamar luas , ac dingin , sangat puas .	<extra_id_0> kamar <extra_id_1> positive ; <extra_id_2> ac <extra_id_3> positive ; <extra_id_4> NULL <extra_id_5> positive ; <extra_id_6> NULL <extra_id_7> positive	as
+breakfastnya kurang enak , perlu diperbaiki .	<extra_id_0> breakfastnya <extra_id_1> kurang enak	ao
+bersih .	<extra_id_0> NULL <extra_id_1> bersih	ao
+hotel bersih , tidak mengecewakan , memuaskan .	<extra_id_0> hotel ; <extra_id_1> hotel ; <extra_id_2> hotel	a
+penjaganya ramah . semuanya sesuai ekspetasi tidak ada masalah , cocok banget buat tempat peristirahatan selama liburan buat yang budgetnya pas pasan .	<extra_id_0> ramah ; <extra_id_1> sesuai	o
+sangat dekat dengan bandara bersih , harga terjangkau .	<extra_id_0> harga <extra_id_1> terjangkau <extra_id_2> positive ; <extra_id_3> NULL <extra_id_4> bersih <extra_id_5> positive	aos
+staf ramah dan memberikan informasi mengenai ruangan dan beranda yang terdapat di hotel dengan jelas .	<extra_id_0> staf	a
+kamar nya lumayan besar dan bersih .	<extra_id_0> kamar nya ; <extra_id_1> kamar nya	a
+air kamar mandi nya agak kuning dan berbau , d'kmar tidur nya juga seperti bau tai kucing .	<extra_id_0> air kamar mandi nya ; <extra_id_1> air kamar mandi nya ; <extra_id_2> d'kmar tidur	a
+bagus untuk kamarnya dan funiturenya apik namun recepsionistnya kurang ramah .	<extra_id_0> bagus ; <extra_id_1> apik ; <extra_id_2> kurang ramah	o
+bagus , bersih . puas pokoknya tetapi ada pesaing dengan harga lebih ramah kantong . hhee .	<extra_id_0> NULL <extra_id_1> positive ; <extra_id_2> NULL <extra_id_3> positive ; <extra_id_4> NULL <extra_id_5> positive	as
+lokasi strategis , pelayanan baik , ac dingin , kamar cukup luas namun kamar kotor dan kamar mandi bau . sarapan hanya nasi goreng dan telor ceplok tidak ada roti tawar . bangunan seperti kurang terawat dan terkesan kuno .	<extra_id_0> lokasi <extra_id_1> strategis ; <extra_id_2> pelayanan <extra_id_3> baik ; <extra_id_4> ac <extra_id_5> dingin ; <extra_id_6> kamar <extra_id_7> cukup luas ; <extra_id_8> kamar <extra_id_9> kotor ; <extra_id_10> kamar mandi <extra_id_11> bau ; <extra_id_12> bangunan <extra_id_13> kurang terawat	ao
+tempat luas , strategis , pelayanan bagus , bersih dan nyaman .	<extra_id_0> tempat <extra_id_1> luas <extra_id_2> positive ; <extra_id_3> tempat <extra_id_4> strategis <extra_id_5> positive ; <extra_id_6> pelayanan <extra_id_7> bagus <extra_id_8> positive ; <extra_id_9> NULL <extra_id_10> bersih <extra_id_11> positive ; <extra_id_12> NULL <extra_id_13> nyaman <extra_id_14> positive	aos
+pegawai sering tidak ada di tempat . kolam renang kotor .	<extra_id_0> sering tidak ada ; <extra_id_1> kotor	o
+pelayanan ramah sekali , namun gang jalan masuk terlalu kecil . untuk kamar nya sendiri ac nya kurang dingin , banyak nyamuk .	<extra_id_0> ramah sekali ; <extra_id_1> kurang dingin ; <extra_id_2> banyak nyamuk	o
+resepsionis nya perlu di training customer handling lagi . resepsionis terlalu tidak ramah . staf yang lain kindly dan bagus .	<extra_id_0> resepsionis nya <extra_id_1> perlu di training customer handling lagi <extra_id_2> negative ; <extra_id_3> resepsionis <extra_id_4> terlalu tidak ramah <extra_id_5> negative ; <extra_id_6> staf <extra_id_7> kindly <extra_id_8> positive ; <extra_id_9> staf <extra_id_10> bagus <extra_id_11> positive	aos
+kamar luas , harga ekonomis dan lokasi strategis .	<extra_id_0> kamar <extra_id_1> luas <extra_id_2> positive ; <extra_id_3> harga <extra_id_4> ekonomis <extra_id_5> positive ; <extra_id_6> lokasi <extra_id_7> strategis <extra_id_8> positive	aos
+pelayanan baik , kondisi kamar juga baik , suasana hotel baik . hanya saja fasilitas di kamar masih kurang . shower tidak ada kondisi panas dan dingin . selebihnya baik . harga juga terjangkau .	<extra_id_0> baik ; <extra_id_1> baik ; <extra_id_2> baik ; <extra_id_3> masih kurang ; <extra_id_4> baik ; <extra_id_5> terjangkau	o
+cons : 1 . air mati , baru keluar pagi , jadi tidak bisa mandi dan cebok 2 . sarang nyamuk 3 . dipan bergoyang profesional : 1 . ruangan lumayan besar 2 . dekat kuliner saran semoga bisa ditingkatkan lebih baik lagi .	<extra_id_0> mati ; <extra_id_1> lumayan besar	o
+kamarnya nyaman , hanya saja untuk saklar nya kurang banyak dan harus berbagi dengan tv . jadi kalau mau ngecas hp , tidak bisa nonton tv .	<extra_id_0> kamarnya <extra_id_1> nyaman <extra_id_2> positive ; <extra_id_3> saklar nya <extra_id_4> kurang banyak <extra_id_5> negative	aos
+jangan menginap disini deh . lebih baik cari hotel lain . kelas deluxe tetapi seperti ekonomi sempit sekali , wc bau , colokkan listrik tidak ada . mau charger hp tidak bisa . nghabiskan uang saja . sangat kecewa .	<extra_id_0> wc <extra_id_1> bau ; <extra_id_2> colokkan listrik <extra_id_3> tidak ada ; <extra_id_4> NULL <extra_id_5> sempit sekali ; <extra_id_6> NULL <extra_id_7> sangat kecewa	ao
+kamar kurang bersih , handuk nya kotor dan kamar mandi juga kotor tidak disikat .	<extra_id_0> kurang bersih ; <extra_id_1> kotor ; <extra_id_2> kotor ; <extra_id_3> tidak disikat	o
+ac tidak dingin , ( bocor ) . hentikan kontak tidak ada arus listrik , sehingga tidak bisa mengecas hp . jika malam terdengar suara tikus berlari di atas plafon kamar . handuk hanya tersedia 1 .	<extra_id_0> tidak dingin ; <extra_id_1> hanya tersedia 1	o
+semuanya sangat baik .	<extra_id_0> semuanya <extra_id_1> sangat baik	ao
+bersih . tidak ada air hangat iya .	<extra_id_0> tidak ada ; <extra_id_1> bersih	o
+pelayanan yang baik , ramah serta kondisi kamar yang bersih .	<extra_id_0> pelayanan <extra_id_1> baik <extra_id_2> positive ; <extra_id_3> pelayanan <extra_id_4> ramah <extra_id_5> positive ; <extra_id_6> kamar <extra_id_7> bersih <extra_id_8> positive	aos
+kamar mandi . lantai , dinding . perlu di benahi . nyaman .	<extra_id_0> kamar mandi <extra_id_1> perlu di benahi ; <extra_id_2> lantai <extra_id_3> perlu di benahi ; <extra_id_4> dinding <extra_id_5> perlu di benahi ; <extra_id_6> NULL <extra_id_7> nyaman	ao
+kamar bersih , kualitas linen perlu diperbaiki .	<extra_id_0> kamar <extra_id_1> bersih ; <extra_id_2> kualitas linen <extra_id_3> perlu diperbaiki	ao
+yang buat heran saya , pasti sebelum tamu masuk kamar sudah dibereskan dan dibersihkan , apalagi kalau pakai airy ada bennefit lebih yang dirapikan dahulu di kamar sbelum pengunjung masuk . masa bau pengak seperti begitu tidak terasa ? bau nya nyengat banget , sampai buat pusing kepala . ditambah tidak ada ventilasi udara di kamarnya . sehingga sangat wajar jika saat awal diingatkan oleh petugas bahwa kamar no smoking area , sirkulasi udara mengandalkan ac , tetapi jadi parah saat ada bau pengap seperti yang saya alami diatas .	<extra_id_0> nyengat banget ; <extra_id_1> tidak ada	o
+tempatnya bersih . pelayanannya ramah sekali tempat strategis pokoknya saya suka .	<extra_id_0> bersih ; <extra_id_1> ramah sekali ; <extra_id_2> strategis	o
+harga terjangkau tempat strategis , ketika dapat kamar bau asap rokok dan pintu kamar mandi rusak .	<extra_id_0> harga <extra_id_1> positive ; <extra_id_2> tempat <extra_id_3> positive ; <extra_id_4> kamar <extra_id_5> negative ; <extra_id_6> pintu kamar mandi <extra_id_7> negative	as
+kamar terlalu kecil dan tidak sesuai gambar , air kecil .	<extra_id_0> kamar ; <extra_id_1> kamar ; <extra_id_2> air	a
+hotel bagus , kenyamanan oke , pelayanan kurang memuaskan , fasilitas agak kurang . keran bocor dan sarapan pagi tidak terlambat .	<extra_id_0> hotel <extra_id_1> bagus ; <extra_id_2> kenyamanan <extra_id_3> oke ; <extra_id_4> pelayanan <extra_id_5> kurang memuaskan ; <extra_id_6> fasilitas <extra_id_7> agak kurang ; <extra_id_8> keran <extra_id_9> bocor ; <extra_id_10> sarapan pagi <extra_id_11> tidak terlambat	ao
+hotel masih baru , nyaman deh . yang mau diskon idriook , bisa klik : http : bit.ly airy rooms .	<extra_id_0> hotel <extra_id_1> nyaman <extra_id_2> positive	aos
+kamar bagus dan bersih tetapi kurang besar .	<extra_id_0> kamar <extra_id_1> positive ; <extra_id_2> kamar <extra_id_3> positive ; <extra_id_4> kamar <extra_id_5> negative	as
+shower nya rusak .	<extra_id_0> shower nya <extra_id_1> rusak	ao
+alhamdulillah dengn puas pelayanan disini , nanti kalau ada kesepatan bisa kembali lagi inap disini .	<extra_id_0> puas	o
+bagus , sarapan enak , pelayanan oke wajar .	<extra_id_0> sarapan ; <extra_id_1> pelayanan ; <extra_id_2> NULL	a
+snack nya tidak sesuai menu box , tidak ada mie instan dan susu .	<extra_id_0> snack nya <extra_id_1> negative	as
+tidak di kasih sarapan . padahal di aplikasi ada tertulis sarapan .	<extra_id_0> sarapan <extra_id_1> negative	as
+bagus , suka bangt . tempat bersih , pelayanan bagus .	<extra_id_0> tempat <extra_id_1> positive ; <extra_id_2> pelayanan <extra_id_3> positive ; <extra_id_4> NULL <extra_id_5> positive ; <extra_id_6> NULL <extra_id_7> positive	as
+dekat ke malioboro . resepsionis selalu siap . luar biasa .	<extra_id_0> resepsionis ; <extra_id_1> NULL	a
+pelayanan sangat baik .	<extra_id_0> sangat baik	o
+tempat yang nyaman , dekat sekali dengan masjid .	<extra_id_0> tempat <extra_id_1> positive	as
+banyak nyamuk dan kecoak . lantainya juga kotor banget !	<extra_id_0> lantainya <extra_id_1> kotor banget <extra_id_2> negative	aos
+bangunan baru yang luas dan bersih .	<extra_id_0> bangunan <extra_id_1> luas <extra_id_2> positive ; <extra_id_3> bangunan <extra_id_4> bersih <extra_id_5> positive	aos
+cukup baik untuk liburan keluarga .	<extra_id_0> NULL <extra_id_1> positive	as
+tv nya oke tetapi gambar nya banyak semuanya , shower nya tidak berfungsi normal tetapi masih bisa keluar air dingin saja . kebersihan standartnya saja . perabotan furniture terkesan old tidak terawat .	<extra_id_0> tv nya <extra_id_1> oke <extra_id_2> positive ; <extra_id_3> shower nya <extra_id_4> tidak berfungsi normal <extra_id_5> negative ; <extra_id_6> kebersihan <extra_id_7> standartnya <extra_id_8> negative ; <extra_id_9> perabotan <extra_id_10> tidak terawat <extra_id_11> negative	aos
+acnya juga dingin tetapi karena kota malang saat malam dingin jadi ac tidak dinyalakan , baru dinyalakan saat siang hari .	<extra_id_0> acnya <extra_id_1> dingin	ao
+kamar mandi . lantai , dinding . perlu di benahi . nyaman .	<extra_id_0> kamar mandi ; <extra_id_1> lantai ; <extra_id_2> dinding ; <extra_id_3> NULL	a
+pelayanan baik , kondisi kamar juga baik , suasana hotel baik . hanya saja fasilitas di kamar masih kurang . shower tidak ada kondisi panas dan dingin . selebihnya baik . harga juga terjangkau .	<extra_id_0> pelayanan <extra_id_1> baik <extra_id_2> positive ; <extra_id_3> kamar <extra_id_4> baik <extra_id_5> positive ; <extra_id_6> suasana <extra_id_7> baik <extra_id_8> positive ; <extra_id_9> fasilitas <extra_id_10> masih kurang <extra_id_11> negative ; <extra_id_12> selebihnya <extra_id_13> baik <extra_id_14> positive ; <extra_id_15> harga <extra_id_16> terjangkau <extra_id_17> positive	aos
+lumayan . tetapi kebersihanya masih kurang . selimut dan bantal nya kuning . harap ditingkat kan lagi . kebersihan nya .	<extra_id_0> kebersihanya <extra_id_1> kurang <extra_id_2> negative ; <extra_id_3> selimut <extra_id_4> kuning <extra_id_5> negative ; <extra_id_6> bantal nya <extra_id_7> kuning <extra_id_8> negative ; <extra_id_9> kebersihan nya <extra_id_10> ditingkat kan lagi <extra_id_11> negative ; <extra_id_12> NULL <extra_id_13> lumayan <extra_id_14> positive	aos
+kamar nyaman , pool bersih , pelayanannya ramah .	<extra_id_0> kamar <extra_id_1> nyaman ; <extra_id_2> pool <extra_id_3> bersih ; <extra_id_4> pelayanannya <extra_id_5> ramah	ao
+tempat yang nyaman , dekat sekali dengan masjid .	<extra_id_0> tempat	a
+kebersihan kamar oke . kebersihan kamar mandi juga oke . next time menginap lagi di winner premier .	<extra_id_0> oke ; <extra_id_1> oke	o
+dapat kamar yang jarang di huni , kotor dan tidak ada fasilitas lift . huuft .	<extra_id_0> kamar <extra_id_1> kotor <extra_id_2> negative ; <extra_id_3> fasilitas lift <extra_id_4> tidak ada <extra_id_5> negative	aos
+lumayan depan kolam renang , ac dingin , .	<extra_id_0> ac <extra_id_1> dingin <extra_id_2> positive ; <extra_id_3> NULL <extra_id_4> lumayan <extra_id_5> positive	aos
+bersih , nyaman dan pemiliknya ramah .	<extra_id_0> pemiliknya <extra_id_1> ramah ; <extra_id_2> NULL <extra_id_3> bersih ; <extra_id_4> NULL <extra_id_5> nyaman	ao
+cons : 1 . air mati , baru keluar pagi , jadi tidak bisa mandi dan cebok 2 . sarang nyamuk 3 . dipan bergoyang profesional : 1 . ruangan lumayan besar 2 . dekat kuliner saran semoga bisa ditingkatkan lebih baik lagi .	<extra_id_0> air <extra_id_1> mati <extra_id_2> negative ; <extra_id_3> ruangan <extra_id_4> lumayan besar <extra_id_5> positive	aos
+banyak nyamuk , uang deposit lebih mahal dibandingkan harga kamarnya , ktp juga di tahan selama stay sangat tidak rekomen untuk menginap di sini .	<extra_id_0> NULL <extra_id_1> banyak nyamuk ; <extra_id_2> menginap <extra_id_3> tidak rekomen	ao
+tidak ada amenities , pelayanan kurang baik .	<extra_id_0> amenities ; <extra_id_1> pelayanan	a
+sebanding dengan harga lah , cukup memuaskan .	<extra_id_0> NULL	a
+keamanan nyaa kurang ramah terlalu kasaar .	<extra_id_0> keamanan nyaa <extra_id_1> kurang ramah ; <extra_id_2> keamanan nyaa <extra_id_3> terlalu kasaar	ao
+kamar terlalu kecil dan tidak sesuai gambar , air kecil .	<extra_id_0> kamar <extra_id_1> terlalu kecil ; <extra_id_2> kamar <extra_id_3> tidak sesuai gambar ; <extra_id_4> air <extra_id_5> kecil	ao
+pelayanan oke , makanan enak dan murce , tidak trl jauh dari pusat kota . cuma dalam kamar tidak ada lemari , meja kursi dan tempat sampahnya . tetapi setelah rikwes , tempat sampahnya di kasih .	<extra_id_0> pelayanan ; <extra_id_1> makanan ; <extra_id_2> makanan ; <extra_id_3> lemari ; <extra_id_4> meja ; <extra_id_5> kursi ; <extra_id_6> tempat sampahnya	a
+banyak nyamuk dan kecoak . lantainya juga kotor banget !	<extra_id_0> lantainya <extra_id_1> negative	as
+terimakasih airy , pelayanan bagus , fasilitas juga bagus .	<extra_id_0> pelayanan <extra_id_1> bagus ; <extra_id_2> fasilitas <extra_id_3> bagus	ao
+bersih , nyaman , cocok untuk istirahat .	<extra_id_0> NULL ; <extra_id_1> NULL ; <extra_id_2> NULL	a
+pelayanan baik . top .	<extra_id_0> pelayanan <extra_id_1> positive ; <extra_id_2> pelayanan <extra_id_3> positive	as
+air mati dari pagi smp sore , petugas masuk tanpa ketuk pintu lebih dulu .	<extra_id_0> air <extra_id_1> mati <extra_id_2> negative	aos
+lokasi dekat dengan bandara , tempat nyaman , pelayanan sangat bagus , fasilitasnya memuaskan .	<extra_id_0> tempat <extra_id_1> nyaman <extra_id_2> positive ; <extra_id_3> pelayanan <extra_id_4> sangat bagus <extra_id_5> positive ; <extra_id_6> fasilitasnya <extra_id_7> memuaskan <extra_id_8> positive	aos
+maps penunjukan berbeda ! tolong perbaiki maps lokasi , datang malam malam sesuai maps ternyata maps lokasi tidak sesuai ! dan kita salah tempat ! menyusahkan ! oke kalau pagi pagi , lah ini malam malam jam 11 .	<extra_id_0> lokasi	a
+kopi nya mungkin yang perlu diperbaiki , kopinya terlalu encer rasa seperti teh , dan sayurmya mungkin tambah 1 menu lagi , yang lainnya sudah oke .	<extra_id_0> kopi nya <extra_id_1> perlu diperbaiki ; <extra_id_2> kopinya <extra_id_3> terlalu encer ; <extra_id_4> yang lainnya <extra_id_5> oke	ao
+kamar sangat nyaman dan bersih sarapan oke banget .	<extra_id_0> kamar <extra_id_1> sangat nyaman <extra_id_2> positive ; <extra_id_3> kamar <extra_id_4> bersih <extra_id_5> positive ; <extra_id_6> sarapan <extra_id_7> oke banget <extra_id_8> positive	aos
+cukup memuaskan menginap di airy room . terima kasih banyak airy room .	<extra_id_0> cukup memuaskan	o
+memang sudah agak tua . kolam renang kotor , kamar mandi ada beberapa kecoaknya : ( .	<extra_id_0> kotor ; <extra_id_1> ada beberapa kecoaknya ; <extra_id_2> agak tua	o
+servis oke .	<extra_id_0> servis <extra_id_1> positive	as
+mantap . pelayanannya bagus .	<extra_id_0> pelayanannya <extra_id_1> positive ; <extra_id_2> NULL <extra_id_3> positive	as
+kamar bersih dan nyaman , pada saat check in agak lama karena kamar masih belum selesai di bersihkan .	<extra_id_0> kamar <extra_id_1> bersih <extra_id_2> positive ; <extra_id_3> kamar <extra_id_4> nyaman <extra_id_5> positive ; <extra_id_6> check in <extra_id_7> agak lama <extra_id_8> negative	aos
+secara keseluruhan memuaskan dengan harga yang ditawarkan .	<extra_id_0> secara keseluruhan <extra_id_1> positive	as
+keren sekali hotel ini .	<extra_id_0> keren	o
+pelayanan cukup ramah dan cepat responnya .	<extra_id_0> pelayanan ; <extra_id_1> responnya	a
+tidak ada tisu , wifi harus diminta dulu , tengah malam kebangun karena token listrik kamar habis , dan harus di beri tahu dulu baru nyadar . tidak ada cermin .	<extra_id_0> tisu <extra_id_1> negative ; <extra_id_2> wifi <extra_id_3> negative ; <extra_id_4> cermin <extra_id_5> negative	as
+minus nya ac nya lama dingin nya .	<extra_id_0> ac nya	a
+keren sekali hotel ini .	<extra_id_0> hotel <extra_id_1> positive	as
+hotel lumayan nyaman sih , tetapi dikamar saya heater nya agak lama panasnya . overall murah , nyaman , dan strategis .	<extra_id_0> lumayan nyaman ; <extra_id_1> agak lama panasnya ; <extra_id_2> murah ; <extra_id_3> nyaman ; <extra_id_4> strategis	o
+kamar tidak sesuai gambar , tidak bersih .	<extra_id_0> kamar ; <extra_id_1> kamar	a
+air licin . kamar sempit tidak sesuai foto .	<extra_id_0> licin ; <extra_id_1> sempit ; <extra_id_2> tidak sesuai foto	o
+tidak ada internet di dalam kamar sedangkan kita datang dalam rangka ada kerja , jadi tolong pastikan fasilitasnya benar benar ada .	<extra_id_0> internet <extra_id_1> tidak ada <extra_id_2> negative	aos
+kebersijan kamar mandi perlu di tingkatkan .	<extra_id_0> perlu di tingkatkan	o
+dapat kamar yang bersih , air lancar dan pelayan yang ramah .	<extra_id_0> kamar <extra_id_1> bersih ; <extra_id_2> air <extra_id_3> lancar ; <extra_id_4> pelayan <extra_id_5> ramah	ao
+kamar dan ruang tamu cukup luas , lokasi sangat strategis hanya kebersihan yang harus di tingkatkan lagi .	<extra_id_0> kamar <extra_id_1> positive ; <extra_id_2> ruang tamu <extra_id_3> positive ; <extra_id_4> lokasi <extra_id_5> positive ; <extra_id_6> kebersihan <extra_id_7> negative	as
+kurang memuaskan dan harus lebih ditingkatkan .	<extra_id_0> NULL	a
+kamar oke tetapi sudah terlihat kurang perawatan .	<extra_id_0> kamar <extra_id_1> oke ; <extra_id_2> kamar <extra_id_3> kurang perawatan	ao
+seram , kamar lantai 2 malam hari ada yang mengetuk jendela .	<extra_id_0> NULL <extra_id_1> seram <extra_id_2> negative	aos
+harga terjangkau , pelayanan baik , dan fasilitas oke punya . bahkan ditambah snack untuk cemilan . mantap .	<extra_id_0> harga <extra_id_1> terjangkau <extra_id_2> positive ; <extra_id_3> pelayanan <extra_id_4> baik <extra_id_5> positive ; <extra_id_6> fasilitas <extra_id_7> oke <extra_id_8> positive ; <extra_id_9> NULL <extra_id_10> mantap <extra_id_11> positive	aos
+tenang dan sepi .	<extra_id_0> NULL <extra_id_1> tenang ; <extra_id_2> NULL <extra_id_3> sepi	ao
+kamar bersih tetapi pelayanannya kurang , lama saat cek in kamar baru di siapkan padahal sudah sampai saat malam .	<extra_id_0> kamar <extra_id_1> bersih <extra_id_2> positive ; <extra_id_3> pelayanannya <extra_id_4> kurang <extra_id_5> negative ; <extra_id_6> cek in <extra_id_7> lama <extra_id_8> negative	aos
+bersih , kamar luas , ac dingin , sangat puas .	<extra_id_0> kamar ; <extra_id_1> ac ; <extra_id_2> NULL ; <extra_id_3> NULL	a
+kamarnya baik . pelayanan baik . meski check in terlambat tetap dibukakan pintu .	<extra_id_0> baik ; <extra_id_1> baik	o
+lumayan untuk ukuran backpacker .	<extra_id_0> NULL <extra_id_1> lumayan <extra_id_2> positive	aos
+kebersihan baik dan pelayanan bagus .	<extra_id_0> kebersihan <extra_id_1> positive ; <extra_id_2> pelayanan <extra_id_3> positive	as
+handuk tidak ada . keset alas kaki tidak ada .	<extra_id_0> handuk <extra_id_1> tidak ada ; <extra_id_2> keset alas kaki <extra_id_3> tidak ada	ao
+kamar bersih , air panas lancar , ac mantap , breakfast oke . cuma colokan dekat tempat tidur tidak bisa .	<extra_id_0> kamar ; <extra_id_1> air panas ; <extra_id_2> ac ; <extra_id_3> breakfast ; <extra_id_4> colokan	a
+pelayanan bagus , harga terjangkau , fasilitas pas !	<extra_id_0> pelayanan ; <extra_id_1> harga ; <extra_id_2> fasilitas	a
+kamar nya bersih , pelayanannya sopan , pemandangan nya bagus .	<extra_id_0> kamar nya <extra_id_1> bersih ; <extra_id_2> pelayanannya <extra_id_3> sopan ; <extra_id_4> pemandangan nya <extra_id_5> bagus	ao
+7 fasilitas airyrooms ada semua , dan yang paling penting , kamar mandi super bersih ! thank you airy rooms dan rumah rayna : ) .	<extra_id_0> kamar mandi <extra_id_1> super bersih <extra_id_2> positive	aos
+kamar mandinya agak kotor , makanannya juga agak mengecewakan . sarapan pagi baru jam 8 tetapi semua sudah habis .	<extra_id_0> kamar mandinya <extra_id_1> agak kotor ; <extra_id_2> makanannya <extra_id_3> agak mengecewakan	ao
+kamar luas dan dekat dengan tempat wisata .	<extra_id_0> kamar <extra_id_1> luas	ao
+kamar tidak terawat , kamar mandi kurang bersih .	<extra_id_0> kamar ; <extra_id_1> kamar mandi	a
+kamar sama kamar mandinya bersih , dan pelayanannya ramah .	<extra_id_0> kamar <extra_id_1> bersih <extra_id_2> positive ; <extra_id_3> kamar mandinya <extra_id_4> bersih <extra_id_5> positive ; <extra_id_6> pelayanannya <extra_id_7> ramah <extra_id_8> positive	aos
+ramah dan nyaman . tetapi mengapa listrik seeing mati ?	<extra_id_0> listrik <extra_id_1> seeing mati <extra_id_2> negative ; <extra_id_3> NULL <extra_id_4> ramah <extra_id_5> positive ; <extra_id_6> NULL <extra_id_7> nyaman <extra_id_8> positive	aos
+fasilitas dan pelayanan memuaskan .	<extra_id_0> memuaskan ; <extra_id_1> memuaskan	o
+kamar rapi dan luas . bersih . nyaman . cuma wc tergenang dan lap kaki tidak ada .	<extra_id_0> kamar <extra_id_1> rapi ; <extra_id_2> kamar <extra_id_3> luas ; <extra_id_4> kamar <extra_id_5> bersih ; <extra_id_6> kamar <extra_id_7> nyaman ; <extra_id_8> wc <extra_id_9> tergenang ; <extra_id_10> lap kaki <extra_id_11> tidak ada	ao
+kamar pas , tetapi nyaman . tv tidak berfungsi . hanya pelayanan kurang ramah .	<extra_id_0> kamar <extra_id_1> positive ; <extra_id_2> kamar <extra_id_3> positive ; <extra_id_4> tv <extra_id_5> negative ; <extra_id_6> pelayanan <extra_id_7> negative	as
+nyaman dan bersih tetapi sayang gaada keset kamar mandi dan handuk hanya tersedia 1 .	<extra_id_0> keset kamar mandi <extra_id_1> gaada ; <extra_id_2> handuk <extra_id_3> hanya tersedia 1 ; <extra_id_4> NULL <extra_id_5> nyaman ; <extra_id_6> NULL <extra_id_7> bersih	ao
+makanan kurang memuaskan dan wifi susah terhubung .	<extra_id_0> makanan <extra_id_1> kurang memuaskan <extra_id_2> negative ; <extra_id_3> wifi <extra_id_4> susah terhubung <extra_id_5> negative	aos
+lokasi dekat dengan bandara , tempat nyaman , pelayanan sangat bagus , fasilitasnya memuaskan .	<extra_id_0> tempat <extra_id_1> nyaman ; <extra_id_2> pelayanan <extra_id_3> sangat bagus ; <extra_id_4> fasilitasnya <extra_id_5> memuaskan	ao
+wifi nya kencang serta pelayanan yang ramah .	<extra_id_0> kencang ; <extra_id_1> ramah	o
+sarannya semoga bisa di cek ulang wastafel kamar nya agak lama turun airnya dan semoga segera selesai renovasinya : ) .	<extra_id_0> wastafel kamar nya <extra_id_1> agak lama turun	ao
+harga terjangkau , pelayanan baik , dan fasilitas oke punya . bahkan ditambah snack untuk cemilan . mantap .	<extra_id_0> terjangkau ; <extra_id_1> baik ; <extra_id_2> oke ; <extra_id_3> mantap	o
+kamarnya bersih , bagus , fasilitas lengkap , pelayanannya lumayan baik .	<extra_id_0> kamarnya <extra_id_1> positive ; <extra_id_2> kamarnya <extra_id_3> positive ; <extra_id_4> fasilitas <extra_id_5> positive ; <extra_id_6> pelayanannya <extra_id_7> positive	as
+semua nya oke , kecuali air nya kalau bisa dibesarin lagi soal nya kecil banget : ) .	<extra_id_0> semua nya <extra_id_1> oke ; <extra_id_2> air nya <extra_id_3> kecil banget	ao

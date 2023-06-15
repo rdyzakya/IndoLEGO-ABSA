@@ -1,0 +1,5 @@
+INFO:__main__:Top k for class aos: empfehlung, positive, удов, erbesserung, elief
+INFO:__main__:Top k for class ao: თქმ, მყოფ, ījums, გონ, აკ
+INFO:__main__:Top k for class as: gips, gabe, фти, budowa, vami
+INFO:__main__:Top k for class a: uzlu, vsta, Vidu, urfi, vlje
+INFO:__main__:Top k for class o: ronologi, OBS, 当時は, piller, ണ്ടു

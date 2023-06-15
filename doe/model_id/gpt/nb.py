@@ -528,7 +528,7 @@ trainer.train()
 # %%
 test_data = [el + ' ' + tokenizer_id.sep_token for el in william_2["hotel"]["test"]["input"]]
 str_preds = generate_predictions(model, tokenizer_id, test_data, device, decoding_args)
-str_preds = [el.split(tokenizer_id.sep_token)[-1] for el in str_preds]
+# str_preds = [el.split(tokenizer_id.sep_token)[-1] for el in str_preds]
 preds = [catch_answer(el,"oas") for el in str_preds]
 
 # %%

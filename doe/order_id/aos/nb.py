@@ -16,7 +16,7 @@
 import os
 import torch
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "5"
+os.environ["CUDA_VISIBLE_DEVICES"] = "2"
 n_gpu = torch.cuda.device_count()
 
 # %%
@@ -88,24 +88,14 @@ william = dict(
 
 # print(all_task)
 
-tasks = {
-    "single" : ['a', 'o'],
-    "simple" : ["oa", "as"],
-    "complex" : ["oas"]
-}
+# tasks = {
+#     "single" : ['a', 'o'],
+#     "simple" : ["oa", "as"],
+#     "complex" : ["oas"]
+# }
 
 # %%
-combination_tasks = [
-    tasks["simple"],
-    tasks["complex"],
-    tasks["single"] + tasks["simple"],
-    tasks["single"] + tasks["complex"],
-    tasks["simple"] + tasks["complex"],
-    tasks["single"] + tasks["simple"] + tasks["complex"]
-]
-
-# %%
-all_task = combination_tasks[-1]
+all_task = ['a','o',"ao","as","aos"] #combination_tasks[-1]
 print(all_task)
 
 # %%
@@ -287,18 +277,18 @@ def create_data_2(tasks):
                         "task" : basic_task
                     })
         # VAL
-        for el in william_intermediate[domain]["oas"]["val"]:
+        for el in william_intermediate[domain]["aos"]["val"]:
             william_2[domain]["val"].append({
-                    "input" : construct_prompt(el["text"],"oas"),
-                    "output" : construct_answer(el["target"],"oas"),
-                    "task" : "oas"
+                    "input" : construct_prompt(el["text"],"aos"),
+                    "output" : construct_answer(el["target"],"aos"),
+                    "task" : "aos"
                 })
         # TEST
-        for el in william_intermediate[domain]["oas"]["test"]:
+        for el in william_intermediate[domain]["aos"]["test"]:
             william_2[domain]["test"].append({
-                    "input" : construct_prompt(el["text"],"oas"),
-                    "output" : construct_answer(el["target"],"oas"),
-                    "task" : "oas"
+                    "input" : construct_prompt(el["text"],"aos"),
+                    "output" : construct_answer(el["target"],"aos"),
+                    "task" : "aos"
                 })
         william_2[domain]["train"] = Dataset.from_list(william_2[domain]["train"])
         william_2[domain]["val"] = Dataset.from_list(william_2[domain]["val"])
@@ -515,34 +505,35 @@ def save_result(str_preds_,preds,targets,filename):
 # # William Hotel
 
 # %%
-for combo_task in combination_tasks:
-    william_2, william_tok = create_data_2(combo_task)
-    model = AutoModelForSeq2SeqLM.from_pretrained("google/mt5-base")
-    model.to(device)
-    trainer = Seq2SeqTrainer(
-            model = model,
-            args = train_args,
-            tokenizer = tokenizer_id,
-            data_collator = data_collator_id,
-            train_dataset = william_tok["hotel"]["train"],
-            eval_dataset = william_tok["hotel"]["val"],
-            compute_metrics = lambda eval_preds: compute_metrics(eval_preds,decoding_args,tokenizer_id,william_2["hotel"]["val"]["task"]),
-            preprocess_logits_for_metrics = preprocess_logits_for_metrics
-        )
+# for combo_task in combination_tasks:
 
-    trainer.train()
+william_2, william_tok = create_data_2(all_task)
+model = AutoModelForSeq2SeqLM.from_pretrained("google/mt5-base")
+model.to(device)
+trainer = Seq2SeqTrainer(
+        model = model,
+        args = train_args,
+        tokenizer = tokenizer_id,
+        data_collator = data_collator_id,
+        train_dataset = william_tok["hotel"]["train"],
+        eval_dataset = william_tok["hotel"]["val"],
+        compute_metrics = lambda eval_preds: compute_metrics(eval_preds,decoding_args,tokenizer_id,william_2["hotel"]["val"]["task"]),
+        preprocess_logits_for_metrics = preprocess_logits_for_metrics
+    )
 
-    # str_preds = generate_predictions(model, tokenizer_id, william_2["hotel"]["test"]["input"], device, decoding_args)
-    # preds = [catch_answer(el,"oas") for el in str_preds]
-    str_preds = generate_predictions(model, tokenizer_id, william_tok["hotel"]["test"], device, 16, 128, decoding_args)
-    preds = [catch_answer(el,"oas") for el in str_preds]
-    targets = [catch_answer(el,"oas") for el in william_2["hotel"]["test"]["output"]]
-    score = summary_score(preds,targets)
-    print(f"Score for {combo_task} >>", score)
-    fname = '-'.join(combo_task)
-    result = save_result(str_preds, preds, targets, fname + "_pred.json")
-    with open(fname + "_score.json", 'w') as fp:
-        json.dump(score,fp)
+trainer.train()
+
+# str_preds = generate_predictions(model, tokenizer_id, william_2["hotel"]["test"]["input"], device, decoding_args)
+# preds = [catch_answer(el,"oas") for el in str_preds]
+str_preds = generate_predictions(model, tokenizer_id, william_tok["hotel"]["test"], device, 16, 128, decoding_args)
+preds = [catch_answer(el,"aos") for el in str_preds]
+targets = [catch_answer(el,"aos") for el in william_2["hotel"]["test"]["output"]]
+score = summary_score(preds,targets)
+print(f"Score for {all_task} >>", score)
+fname = "aos"
+result = save_result(str_preds, preds, targets, fname + "_pred.json")
+with open(fname + "_score.json", 'w') as fp:
+    json.dump(score,fp)
 
 # %%
 # !rm -rf ./output
