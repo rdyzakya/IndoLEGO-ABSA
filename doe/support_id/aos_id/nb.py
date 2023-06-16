@@ -16,8 +16,17 @@
 import os
 import torch
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 n_gpu = torch.cuda.device_count()
+
+# %%
+import pandas as pd
+
+# %%
+import sys
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+sys.path.append("../../../src/")
+import data_utils
 
 # %%
 import random
@@ -32,15 +41,6 @@ def set_seed(seed: int):
     torch.cuda.manual_seed_all(seed)
 
 set_seed(42)
-
-# %%
-import pandas as pd
-
-# %%
-import sys
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-sys.path.append("../../../src/")
-import data_utils
 
 # %% [markdown]
 # # Dataset Utilities
@@ -87,9 +87,9 @@ william = dict(
 
 # %%
 # task_tree = {
-#     "oas" : ["oas","oa","as",'a','o'],
+#     "aos" : ["aos","ao","as",'a','o'],
 #     "asc" : ["asc","as","sc",'a','c'],
-#     "oasc" : ["oasc","oa","as","sc",'a','o','c']
+#     "oasc" : ["oasc","ao","as","sc",'a','o','c']
 # }
 
 # all_task = []
@@ -104,17 +104,17 @@ william = dict(
 
 tasks = {
     "single" : ['a', 'o'],
-    "simple" : ["oa", "as"],
-    "complex" : ["oas"]
+    "simple" : ["ao", "as"],
+    "complex" : ["aos"]
 }
 
 # %%
 combination_tasks = [
-    # tasks["simple"],
-    # tasks["complex"],
-    # tasks["single"] + tasks["simple"],
+    tasks["simple"],
+    tasks["complex"],
+    tasks["single"] + tasks["simple"],
     tasks["single"] + tasks["complex"],
-    # tasks["simple"] + tasks["complex"],
+    tasks["simple"] + tasks["complex"],
     tasks["single"] + tasks["simple"] + tasks["complex"]
 ]
 
@@ -196,11 +196,13 @@ def construct_answer(targets,se_order):
 
 # %%
 def construct_prompt(text,se_order):
-    prompt = []
+    pattern = []
     for counter, se in enumerate(se_order):
-        prompt.append(data_utils.SENTIMENT_ELEMENT[se] + " : " + mask.replace('X',str(counter)))
-    prompt = " ,".join(prompt)
-    result = text + "| " + prompt
+        pattern.append(data_utils.SENTIMENT_ELEMENT[se] + " : " + mask.replace('X',str(counter)))
+    pattern = " ,".join(pattern)
+    prompt = f"Ekstrak ABSA dengan format >> {pattern} | "
+    # result = text + "| " + pattern
+    result = prompt + text
     return result
 # def construct_prompt(text,se_order):
 #     prompt = []
@@ -282,9 +284,67 @@ def encode_id(dataset):
 
 
 # %%
+supporting_path = {
+    "doc_sa" : "../../../data/doc_sa/id/nusax/interim/data.csv",
+    "pos_tag" : "../../../data/pos_tag/id/interim/data.csv",
+    "ner" : "../../../data/pos_tag/id/interim/data.csv",
+    "emotion" : "../../../data/emotion_cls/id/itsmart/interim/data.csv"
+}
+
+supporting_df = {
+    k: pd.read_csv(v) for k,v in supporting_path.items()
+}
+
+n_sample_supporting_ds = np.inf
+for k, v in supporting_df.items():
+    if v.shape[0] < n_sample_supporting_ds:
+        n_sample_supporting_ds = v.shape[0]
+
+for k,v in supporting_df.items():
+    supporting_df[k] = v.sample(n_sample_supporting_ds,random_state=42).reset_index(drop=True)
+    supporting_df[k]["task"] = "non_absa"
+
+# %%
 from datasets import Dataset
 
-def create_data_2(tasks):
+# %%
+Dataset.from_pandas(supporting_df["ner"])
+
+# %%
+from itertools import combinations
+
+# %%
+# supporting_data_combination = []
+# for i in range(len(supporting_df.keys())):
+#     supporting_data_combination += list(combinations(supporting_df.keys(),i+1))
+# print(supporting_data_combination)
+supporting_data_combination = [
+                            #     ('doc_sa',), 
+                            #    ('pos_tag',), 
+                            #    ('ner',), 
+                            #    ('emotion',),
+                            #    ('doc_sa', 'pos_tag'), 
+                            #    ('doc_sa', 'ner'), 
+                            #    ('doc_sa', 'emotion'),
+                            #    ('pos_tag', 'ner'), 
+                            #    ('pos_tag', 'emotion'), 
+                            #    ('ner', 'emotion'),
+                            #    ('doc_sa', 'pos_tag', 'ner'), 
+                            #    ('doc_sa', 'pos_tag', 'emotion'),
+                               ('doc_sa', 'ner', 'emotion'), 
+                               ('pos_tag', 'ner', 'emotion'),
+                               ('doc_sa', 'pos_tag', 'ner', 'emotion')
+                               ]
+
+# %%
+print(len(supporting_data_combination))
+
+# %%
+pd.concat([supporting_df["ner"],supporting_df["pos_tag"]]).reset_index(drop=True).sample(frac=1,random_state=42)
+
+
+# %%
+def create_data_2(tasks,combo_supporting_ds=[]):
     william_2 = dict()
     for domain, v1 in william_intermediate.items():
         william_2[domain] = {
@@ -301,22 +361,30 @@ def create_data_2(tasks):
                         "task" : basic_task
                     })
         # VAL
-        for el in william_intermediate[domain]["oas"]["val"]:
+        for el in william_intermediate[domain]["aos"]["val"]:
             william_2[domain]["val"].append({
-                    "input" : construct_prompt(el["text"],"oas"),
-                    "output" : construct_answer(el["target"],"oas"),
-                    "task" : "oas"
+                    "input" : construct_prompt(el["text"],"aos"),
+                    "output" : construct_answer(el["target"],"aos"),
+                    "task" : "aos"
                 })
         # TEST
-        for el in william_intermediate[domain]["oas"]["test"]:
+        for el in william_intermediate[domain]["aos"]["test"]:
             william_2[domain]["test"].append({
-                    "input" : construct_prompt(el["text"],"oas"),
-                    "output" : construct_answer(el["target"],"oas"),
-                    "task" : "oas"
+                    "input" : construct_prompt(el["text"],"aos"),
+                    "output" : construct_answer(el["target"],"aos"),
+                    "task" : "aos"
                 })
-        william_2[domain]["train"] = Dataset.from_list(william_2[domain]["train"])
+        random.shuffle(william_2[domain]["train"])
+        random.shuffle(william_2[domain]["val"])
+        random.shuffle(william_2[domain]["test"])
+        william_2[domain]["train"] = pd.DataFrame(william_2[domain]["train"])
         william_2[domain]["val"] = Dataset.from_list(william_2[domain]["val"])
         william_2[domain]["test"] = Dataset.from_list(william_2[domain]["test"])
+
+        for ds_name in combo_supporting_ds:
+            # supporting_ds = Dataset.from_pandas(supporting_df[ds_name])
+            william_2[domain]["train"] = pd.concat([william_2[domain]["train"],supporting_df[ds_name]]).sample(frac=1,random_state=42).reset_index(drop=True)
+        william_2[domain]["train"] = Dataset.from_pandas(william_2[domain]["train"])
     
     william_tok = dict()
     for domain, v1 in william_2.items():
@@ -446,8 +514,8 @@ train_args = {
     "metric_for_best_model": "overall_f1_score",
     "load_best_model_at_end": True,
     "adam_epsilon": 1e-08,
-    "output_dir": "./output",
-    "logging_dir" : "./output/log",
+    "output_dir": "./output/5",
+    "logging_dir" : "./output/5/log",
     "include_inputs_for_metrics" : True
 }
 
@@ -529,8 +597,12 @@ def save_result(str_preds_,preds,targets,filename):
 # # William Hotel
 
 # %%
-for combo_task in combination_tasks:
-    william_2, william_tok = create_data_2(combo_task)
+supporting_data_combination[0]
+
+# %%
+for combo_supporting_ds_name in supporting_data_combination:
+    william_2, william_tok = create_data_2(all_task,combo_supporting_ds_name)
+    # for combo_task in combination_tasks:
     model = AutoModelForSeq2SeqLM.from_pretrained("google/mt5-base")
     model.to(device)
     trainer = Seq2SeqTrainer(
@@ -547,13 +619,13 @@ for combo_task in combination_tasks:
     trainer.train()
 
     # str_preds = generate_predictions(model, tokenizer_id, william_2["hotel"]["test"]["input"], device, decoding_args)
-    # preds = [catch_answer(el,"oas") for el in str_preds]
+    # preds = [catch_answer(el,"aos") for el in str_preds]
     str_preds = generate_predictions(model, tokenizer_id, william_tok["hotel"]["test"], device, 16, 128, decoding_args)
-    preds = [catch_answer(el,"oas") for el in str_preds]
-    targets = [catch_answer(el,"oas") for el in william_2["hotel"]["test"]["output"]]
+    preds = [catch_answer(el,"aos") for el in str_preds]
+    targets = [catch_answer(el,"aos") for el in william_2["hotel"]["test"]["output"]]
     score = summary_score(preds,targets)
-    print(f"Score for {combo_task} >>", score)
-    fname = '-'.join(combo_task)
+    print(f"Score for {combo_supporting_ds_name} >>", score)
+    fname = '-'.join(combo_supporting_ds_name)
     result = save_result(str_preds, preds, targets, fname + "_pred.json")
     with open(fname + "_score.json", 'w') as fp:
         json.dump(score,fp)
