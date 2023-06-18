@@ -150,5 +150,10 @@ def reduce_targets(targets:List[Dict],task:str="ao") -> List[Dict]:
             key = SENTIMENT_ELEMENT[se]
             if se not in task and key in result_target:
                 del result_target[key]
+        if SENTIMENT_ELEMENT['a'] in result_target:
+            if result_target[SENTIMENT_ELEMENT['a']] == IMPLICIT_ASPECT and SENTIMENT_ELEMENT['o'] not in result_target:
+                continue
+        if len(result_target) == 1 and SENTIMENT_ELEMENT['s'] in result_target.keys():
+            continue
         result_targets.append(result_target)
     return result_targets
