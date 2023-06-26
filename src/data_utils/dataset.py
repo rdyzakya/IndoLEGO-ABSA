@@ -1,27 +1,9 @@
-from typing import Dict, List
+import sys
+sys.path.append("..")
+import constant
+from typing import Dict, List, Tuple
 
-SENTTAG2WORD = {"POS": "positive", "NEG": "negative", "NEU": "neutral", "MIX" : "mixed"}
-SENTIMENT_ELEMENT = {'a' : "aspect", 'o' : "opinion", 's' : "sentiment", 'c' : "category"}
-SEP = "####"
-NO_TARGET = "NONE"
-IMPLICIT_ASPECT = "NULL"
-
-sample = f"It rarely works and when it does it 's incredibly slow .{SEP}[([2], [1], 'NEG')]"
-
-def remove_duplicate_targets(targets:List[Dict]) -> List[Dict]:
-    """
-    ### DESC
-        Method for removing duplicates in targets.
-    ### PARAMS
-    * targets: List of target dictionary.
-    ### RETURN
-    * result_targets: Resulting targets.
-    """
-    result_targets = []
-    for target in targets:
-        if target not in result_targets:
-            result_targets.append(target)
-    return result_targets
+sample = f"It rarely works and when it does it 's incredibly slow .{constant.SEP}[([2], [1], 'NEG')]"
 
 def handle_mix_sentiment(targets:List[Dict]) -> List[Dict]: ### MAY CONTAIN BUG, AFFECTS ORDER
     """
@@ -30,7 +12,7 @@ def handle_mix_sentiment(targets:List[Dict]) -> List[Dict]: ### MAY CONTAIN BUG,
     ### 
     * targets: List of targets.
     ### RETURN
-    * result_targets: Resulting targets.
+    * Resulting targets.
     """
     targets_copy = [target.copy() for target in targets]
     results_targets = []
@@ -75,85 +57,23 @@ def handle_mix_sentiment(targets:List[Dict]) -> List[Dict]: ### MAY CONTAIN BUG,
                 sentiment_target_stack.pop(non_sentiment_target_index)
     return results_targets
 
-def process_num_targets(text:str,num_targets:List[tuple],target_format:str) -> List[Dict]:
-    """
-    ### DESC
-        Method for processing num targets to target in the format list of dictionaries.
-    ### PARAMS
-    * text: Text source.
-    * num_targets: Targets in the form list of tuples, may consist of aspect term or opinion term indexes.
-    * target_format: The target format. Example: acos, aos, ac, ao, etc.
-    ### RETURN
-    * result_targets: The resultant targets in the form list of dictionaries.
-    """
-    splitted_text = text.split()
-    result_targets = []
-    for num_target in num_targets:
-        assert len(num_target) == len(target_format) # number of element in the num targets must be the same with the task
-        target = {}
-        for i, se in enumerate(target_format): # iterate a, c, o, s
-            assert se in 'acos'
-            key = SENTIMENT_ELEMENT[se]
-            if se == 'a' or se == 'o':
-                if num_target[i] != [-1]: # Implicit aspect
-                    value = ' '.join([splitted_text[j] for j in num_target[i]])
-                else:
-                    value = IMPLICIT_ASPECT
-            elif se == 's':
-                value = SENTTAG2WORD[num_target[i]]
-            else: # se == 'c
-                value = num_target[i]
-            target[key] = value
-        result_targets.append(target)
-    return result_targets
-
-def read_data(path:str,target_format:str="aos") -> List[Dict]:
+def read_data(path:str) -> List[Dict]:
     f""""
     ### DESC
-        Method to read dataset. Each line is in the format of TEXT{SEP}TARGETS .
+        Method to read dataset. Each line is in the format of TEXT{constant.SEP}TARGETS .
     ### PARAMS
     * path: Data path.
     ### RETURN
-    * data: List of dictionaries.
+    * List of dictionaries.
     """
     assert path.endswith(".txt")
     with open(path,'r') as reader:
         data = reader.read().strip().splitlines()
-    unique_categories = []
     for i,line in enumerate(data):
         try:
-            text, num_targets = line.split(SEP)
-            num_targets = eval(num_targets)
-            targets = process_num_targets(text,num_targets,target_format)
-            for target in targets:
-                if "category" in target.keys():
-                    unique_categories.append(target["category"])
+            text, num_targets = line.split(constant.SEP)
         except Exception as e:
-            raise ValueError(f"Each line should be in the format 'TEXT{SEP}TARGET' and format {target_format}. Example: {sample}. Yours: {line}")
-        data[i] = {"text" : text, "target" : targets, "num_targets" : num_targets}
+            raise ValueError(f"Each line should be in the format 'TEXT{constant.SEP}TARGET'. Example: {sample}. Yours: {line}")
+        num_targets = eval(num_targets)
+        data[i] = {"text" : text, "num_targets" : num_targets}
     return data
-
-def reduce_targets(targets:List[Dict],task:str="ao") -> List[Dict]:
-    """
-    ### DESC
-        Method to reduce sentiment elements in the designated targets.
-    ### PARAMS
-    * targets: ABSA targets containing sentiment elements.
-    * task: The task related to the resulting target.
-    ### RETURN
-    * result_targets: The resultant targets.
-    """
-    result_targets = []
-    for target in targets:
-        result_target = target.copy()
-        for se in "acos":
-            key = SENTIMENT_ELEMENT[se]
-            if se not in task and key in result_target:
-                del result_target[key]
-        if SENTIMENT_ELEMENT['a'] in result_target:
-            if result_target[SENTIMENT_ELEMENT['a']] == IMPLICIT_ASPECT and SENTIMENT_ELEMENT['o'] not in result_target:
-                continue
-        if len(result_target) == 1 and SENTIMENT_ELEMENT['s'] in result_target.keys():
-            continue
-        result_targets.append(result_target)
-    return result_targets

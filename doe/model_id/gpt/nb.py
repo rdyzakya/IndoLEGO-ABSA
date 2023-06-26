@@ -53,11 +53,11 @@ william_dir = dict(
 william = dict(
     hotel = dict(
         train = data_utils.read_data(path=william_dir["hotel"] + "/train.txt",
-                                     target_format="aos"),
+                                     se_order="aos"),
         val = data_utils.read_data(path=william_dir["hotel"] + "/dev.txt",
-                                     target_format="aos"),
+                                     se_order="aos"),
         test = data_utils.read_data(path=william_dir["hotel"] + "/test.txt",
-                                     target_format="aos")
+                                     se_order="aos")
     )
 )
 
