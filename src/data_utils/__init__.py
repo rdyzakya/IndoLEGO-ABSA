@@ -38,7 +38,7 @@ prompter = {
     "fewshot" : FewShotPrompter()
 }
 
-def data_gen(data, nt_se_order, tasks, n_fold, algo):
+def data_gen(data, nt_se_order, tasks, n_fold, algo, shuffle=True):
     result = []
     pbar = tqdm(total=n_fold*len(data))
     for n in range(n_fold):
@@ -47,16 +47,12 @@ def data_gen(data, nt_se_order, tasks, n_fold, algo):
             chosen_task = None
             if algo == "round_robin":
                 chosen_task = deepcopy(tasks[i%len(tasks)])
-                if (chosen_task["paradigm"] == "imputation") and \
-                (chosen_task["paradigm"] == "fewshot") and \
-                (len(el["num_targets"]) == 0):
+                if chosen_task["paradigm"] in ["imputation", "fewshot"] and len(el["num_targets"]) == 0:
                     pbar.update(1)
                     continue
             elif algo == "random":
                 chosen_task = deepcopy(random.choice(tasks))
-                while (chosen_task["paradigm"] == "imputation") and \
-                (chosen_task["paradigm"] == "fewshot") and \
-                (len(el["num_targets"]) == 0):
+                while chosen_task["paradigm"] in ["imputation", "fewshot"] and len(el["num_targets"]) == 0:
                     chosen_task = deepcopy(random.choice(tasks))
             else:
                 raise NotImplementedError
@@ -83,10 +79,14 @@ def data_gen(data, nt_se_order, tasks, n_fold, algo):
                            num_targets=el["num_targets"], 
                            nt_se_order=nt_se_order, 
                            se_order=chosen_task["se_order"])
-            result.append({
+            row = {
                 "input" : inputs,
                 "output" : out,
                 "se_order" : chosen_task["se_order"]
-            })
+            }
+            if row not in result:
+                result.append(row)
             pbar.update(1)
+    if shuffle:
+        random.shuffle(result)
     return result
