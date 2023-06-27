@@ -42,15 +42,16 @@ class ExtractPrompter:
         return result
 
 class ImputePrompter:
-    def lego_absa(self, text, num_targets, nt_se_order, reduced_se_order, se_order):
+    def lego_absa(self, text, reduced_targets, se_order):
         prompt = []
         counter = 0
-        reduced_num_targets = reduce_num_targets(num_targets, nt_se_order, reduced_se_order)
-        reduced_targets = process_num_targets(text=text, num_targets=reduced_num_targets, se_order=reduced_se_order)
+        # reduced_num_targets = reduce_num_targets(num_targets, nt_se_order, reduced_se_order)
+        # reduced_targets = process_num_targets(text=text, num_targets=reduced_num_targets, se_order=reduced_se_order)
         for rt in reduced_targets:
             current = []
             for se in se_order:
-                if se not in reduced_se_order:
+                # if se not in reduced_se_order:
+                if constant.SENTIMENT_ELEMENT[se] not in rt:
                     counter = counter % 100
                     current.append(constant.SENTIMENT_ELEMENT[se] + " : " + f"<extra_id_{counter}>")
                     counter += 1
@@ -64,11 +65,11 @@ class ImputePrompter:
         return result
 
 class FewShotPrompter:
-    def lego_absa(self, text, num_targets, nt_se_order, se_order, n_shot):
+    def lego_absa(self, text, targets, se_order, n_shot):
         prompt = []
-        targets = process_num_targets(text=text, num_targets=num_targets, se_order=nt_se_order)
-        targets = random.sample(targets, k=min(n_shot,len(targets)))
-        for t in targets:
+        # targets = process_num_targets(text=text, num_targets=num_targets, se_order=nt_se_order)
+        shots = random.sample(targets, k=min(n_shot,len(targets)))
+        for t in shots:
             current = []
             for se in se_order:
                 current.append(constant.SENTIMENT_ELEMENT[se] + " : " + t[constant.SENTIMENT_ELEMENT[se]])

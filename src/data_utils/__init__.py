@@ -47,12 +47,12 @@ def data_gen(data, nt_se_order, tasks, n_fold, algo, shuffle=True):
             chosen_task = None
             if algo == "round_robin":
                 chosen_task = deepcopy(tasks[i%len(tasks)])
-                if chosen_task["paradigm"] in ["imputation", "fewshot"] and len(el["num_targets"]) == 0:
+                if chosen_task["paradigm"] == "imputation" and len(el["num_targets"]) == 0:
                     pbar.update(1)
                     continue
             elif algo == "random":
                 chosen_task = deepcopy(random.choice(tasks))
-                while chosen_task["paradigm"] in ["imputation", "fewshot"] and len(el["num_targets"]) == 0:
+                while chosen_task["paradigm"] == "imputation" and len(el["num_targets"]) == 0:
                     chosen_task = deepcopy(random.choice(tasks))
             else:
                 raise NotImplementedError
@@ -67,10 +67,24 @@ def data_gen(data, nt_se_order, tasks, n_fold, algo, shuffle=True):
             prompt_args = deepcopy(chosen_task)
             if paradigm == "extraction":
                 prompt_args["text"] = el["text"]
-            elif paradigm == "imputation" or paradigm == "fewshot":
+            elif paradigm == "imputation":
                 prompt_args["text"] = el["text"]
-                prompt_args["num_targets"] = el["num_targets"]
-                prompt_args["nt_se_order"] = nt_se_order
+
+                num_targets = el["num_targets"]
+                reduced_se_order = prompt_args.pop("reduced_se_order")
+                reduced_num_targets = reduce_num_targets(num_targets, nt_se_order, reduced_se_order)
+                reduced_targets = process_num_targets(text=el["text"], num_targets=reduced_num_targets, se_order=reduced_se_order)
+                
+                prompt_args["reduced_targets"] = reduced_targets
+                # prompt_args["num_targets"] = el["num_targets"]
+                # prompt_args["nt_se_order"] = nt_se_order
+            elif paradigm == "fewshot":
+                prompt_args["text"] = el["text"]
+                targets = process_num_targets(text=el["text"], num_targets=num_targets, se_order=nt_se_order)
+
+                prompt_args["targets"] = targets
+            else:
+                raise NotImplementedError
 
             # input
             inputs = prompt_func(**prompt_args)
