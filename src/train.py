@@ -48,36 +48,69 @@ val = data_utils.read_data(val_path)
 test = data_utils.read_data(test_path)
 
 # %%
+
+method = "gas"
 train_tasks = [
     {
         "paradigm" : "extraction",
+        "se_order" : "oas",
+        "method" : method
+    },
+    {
+        "paradigm" : "extraction",
         "se_order" : "oa",
-        "method" : "lego_absa"
+        "method" : method
     },
     {
         "paradigm" : "extraction",
         "se_order" : "as",
-        "method" : "lego_absa"
+        "method" : method
     },
     {
-        "paradigm" : "imputation",
-        "reduced_se_order" : "oa",
-        "se_order" : "oas",
-        "method" : "lego_absa"
+        "paradigm" : "extraction",
+        "se_order" : "o",
+        "method" : method
     },
     {
-        "paradigm" : "imputation",
-        "reduced_se_order" : "as",
-        "se_order" : "oas",
-        "method" : "lego_absa"
+        "paradigm" : "extraction",
+        "se_order" : "a",
+        "method" : method
     },
+    # {
+    #     "paradigm" : "extraction",
+    #     "se_order" : "as",
+    #     "method" : method
+    # },
+    # {
+    #     "paradigm" : "imputation",
+    #     "reduced_se_order" : "oa",
+    #     "se_order" : "oas",
+    #     "method" : "lego_absa"
+    # },
+    # {
+    #     "paradigm" : "denoise",
+    #     "se_order" : "oas",
+    #     "method" : "lego_absa"
+    # }
+    # {
+    #     "paradigm" : "imputation",
+    #     "reduced_se_order" : "as",
+    #     "se_order" : "oas",
+    #     "method" : "lego_absa"
+    # },
+    # {
+    #     "paradigm" : "fewshot",
+    #     "se_order" : "oas",
+    #     "method" : "lego_absa",
+    #     "n_shot" : 2
+    # }
 ]
 
 val_tasks = [
     {
         "paradigm" : "extraction",
         "se_order" : "oas",
-        "method" : "lego_absa"
+        "method" : method
     }
 ]
 
@@ -85,12 +118,12 @@ test_tasks = [
     {
         "paradigm" : "extraction",
         "se_order" : "oas",
-        "method" : "lego_absa"
+        "method" : method
     }
 ]
 
 # %%
-train_ds = data_utils.data_gen(data=train, nt_se_order="aos", tasks=train_tasks, n_fold=4, algo="random", shuffle=True)
+train_ds = data_utils.data_gen(data=train, nt_se_order="aos", tasks=train_tasks, n_fold=5, algo="round_robin", shuffle=True)
 val_ds = data_utils.data_gen(data=val, nt_se_order="aos", tasks=val_tasks, n_fold=1, algo="round_robin", shuffle=False)
 test_ds = data_utils.data_gen(data=test, nt_se_order="aos", tasks=test_tasks, n_fold=1, algo="round_robin", shuffle=False)
 
@@ -109,6 +142,8 @@ train_ds = Dataset.from_list(train_ds)
 val_ds = Dataset.from_list(val_ds)
 test_ds = Dataset.from_list(test_ds)
 
+print(np.unique(train_ds["paradigm"], return_counts=True))
+
 # %%
 train_ds
 
@@ -123,6 +158,7 @@ test_ds
 
 # %%
 from transformers import AutoTokenizer
+from indobenchmark import IndoNLGTokenizer
 
 encoding_args = {
     "max_length" : 256,
@@ -133,7 +169,7 @@ encoding_args = {
 
 encode_fn = lambda x: tokenizer(x["input"], text_target=x["output"], **encoding_args)
 
-tokenizer = AutoTokenizer.from_pretrained("google/mt5-base")
+tokenizer = AutoTokenizer.from_pretrained("facebook/mbart-large-50", src_lang="id_ID", tgt_lang="id_ID")
 
 # %%
 train_tok = train_ds.map(encode_fn, batched=True, remove_columns=train_ds.column_names)
@@ -169,8 +205,8 @@ train_args = {
     "metric_for_best_model": "overall_f1_score",
     "load_best_model_at_end": True,
     "adam_epsilon": 1e-08,
-    "output_dir": "./output",
-    "logging_dir" : "./output/log",
+    "output_dir": "/raid/m13519061/ta/facebook-absa/doe/v2/model/mbart/output",
+    "logging_dir" : "/raid/m13519061/ta/facebook-absa/doe/v2/model/mbart/output/log",
     "include_inputs_for_metrics" : True
 }
 
@@ -200,7 +236,7 @@ def preprocess_logits_for_metrics(logits, targets):
 # %%
 from evaluation import compute_metrics
 
-catch_answer_fn = data_utils.AnswerCatcher().lego_absa
+catch_answer_fn = getattr(data_utils.AnswerCatcher(),method)
 decoding_args = {
     "skip_special_tokens" : False
 }
