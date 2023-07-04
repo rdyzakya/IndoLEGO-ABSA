@@ -39,9 +39,9 @@ n_gpu = torch.cuda.device_count()
 
 # %%
 import data_utils
-train_path = "../data/absa/id/william/train.txt"
-val_path = "../data/absa/id/william/dev.txt"
-test_path = "../data/absa/id/william/test.txt"
+train_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/train.txt"
+val_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/dev.txt"
+test_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/test.txt"
 
 train = data_utils.read_data(train_path)
 val = data_utils.read_data(val_path)
@@ -51,53 +51,72 @@ test = data_utils.read_data(test_path)
 train_tasks = [
     {
         "paradigm" : "extraction",
+        "se_order" : "a",
+        "prompt" : "gas",
+        "answer" : "gas"
+    },
+    {
+        "paradigm" : "extraction",
+        "se_order" : "o",
+        "prompt" : "gas",
+        "answer" : "gas"
+    },
+    {
+        "paradigm" : "extraction",
+        "se_order" : "c",
+        "prompt" : "gas",
+        "answer" : "gas"
+    },
+
+    {
+        "paradigm" : "extraction",
         "se_order" : "oa",
-        "method" : "lego_absa"
+        "prompt" : "gas",
+        "answer" : "gas"
     },
     {
         "paradigm" : "extraction",
         "se_order" : "as",
-        "method" : "lego_absa"
+        "prompt" : "gas",
+        "answer" : "gas"
     },
     {
-        "paradigm" : "imputation",
-        "reduced_se_order" : "oa",
-        "se_order" : "oas",
-        "method" : "lego_absa"
+        "paradigm" : "extraction",
+        "se_order" : "sc",
+        "prompt" : "gas",
+        "answer" : "gas"
     },
+
     {
-        "paradigm" : "imputation",
-        "reduced_se_order" : "as",
-        "se_order" : "oas",
-        "method" : "lego_absa"
+        "paradigm" : "extraction",
+        "se_order" : "oasc",
+        "prompt" : "gas",
+        "answer" : "gas"
     },
 ]
 
 val_tasks = [
     {
         "paradigm" : "extraction",
-        "se_order" : "oas",
-        "method" : "lego_absa"
+        "se_order" : "oasc",
+        "prompt" : "gas",
+        "answer" : "gas"
     }
 ]
 
 test_tasks = [
     {
         "paradigm" : "extraction",
-        "se_order" : "oas",
-        "method" : "lego_absa"
+        "se_order" : "oasc",
+        "prompt" : "gas",
+        "answer" : "gas"
     }
 ]
 
 # %%
-train_ds = data_utils.data_gen(data=train, nt_se_order="aos", tasks=train_tasks, n_fold=4, algo="random", shuffle=True)
-val_ds = data_utils.data_gen(data=val, nt_se_order="aos", tasks=val_tasks, n_fold=1, algo="round_robin", shuffle=False)
-test_ds = data_utils.data_gen(data=test, nt_se_order="aos", tasks=test_tasks, n_fold=1, algo="round_robin", shuffle=False)
-
-# %%
-for el in train_ds:
-    if el["input"].startswith("pngen kembali lagi buat menginap"):
-        print(el)
+train_ds = data_utils.data_gen(data=train, nt_se_order="acso", tasks=train_tasks, n_fold=3, algo="random", shuffle=True)
+val_ds = data_utils.data_gen(data=val, nt_se_order="acso", tasks=val_tasks, n_fold=1, algo="round_robin", shuffle=False)
+test_ds = data_utils.data_gen(data=test, nt_se_order="acso", tasks=test_tasks, n_fold=1, algo="round_robin", shuffle=False)
 
 # %%
 train_ds[0]
@@ -131,9 +150,9 @@ encoding_args = {
     "return_tensors" : "pt"
 }
 
-encode_fn = lambda x: tokenizer(x["input"], text_target=x["output"], **encoding_args)
+encode_fn = lambda x: tokenizer([el["input"] + ' ' + tokenizer.sep_token + ' ' + el["output"] for el in x], **encoding_args)
 
-tokenizer = AutoTokenizer.from_pretrained("google/mt5-base")
+tokenizer = AutoTokenizer.from_pretrained("google/mt5-base", src_lang="en_XX", tgt_lang="en_XX")
 
 # %%
 train_tok = train_ds.map(encode_fn, batched=True, remove_columns=train_ds.column_names)
@@ -146,15 +165,15 @@ test_tok = test_ds.map(encode_fn, batched=True, remove_columns=test_ds.column_na
 test_tok.set_format("torch")
 
 # %%
-from transformers import DataCollatorForSeq2Seq
+from transformers import DataCollatorForLanguageModeling
 
-data_collator = DataCollatorForSeq2Seq(tokenizer=tokenizer)
+data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
 # %% [markdown]
 # # Train
 
 # %%
-from transformers import Seq2SeqTrainingArguments
+from transformers import TrainingArguments
 
 train_args = {
     "num_train_epochs": 10,
@@ -166,7 +185,7 @@ train_args = {
     "save_strategy": "epoch",
     "evaluation_strategy": "epoch",
     "logging_strategy" : "epoch",
-    "metric_for_best_model": "overall_f1_score",
+    "metric_for_best_model": "loss",
     "load_best_model_at_end": True,
     "adam_epsilon": 1e-08,
     "output_dir": "./output",
@@ -174,7 +193,7 @@ train_args = {
     "include_inputs_for_metrics" : True
 }
 
-train_args = Seq2SeqTrainingArguments(**train_args)
+train_args = TrainingArguments(**train_args)
 
 # %%
 import torch
@@ -182,11 +201,11 @@ device = torch.device("cuda:0") if torch.cuda.is_available() else torch.device("
 print(device)
 
 # %%
-from transformers import Seq2SeqTrainer, AutoModelForSeq2SeqLM
+from transformers import Trainer, AutoModelForCausalLM
 
 set_seed(42)
 
-model = AutoModelForSeq2SeqLM.from_pretrained("google/mt5-base")
+model = AutoModelForCausalLM.from_pretrained("facebook/mbart-large-50")
 model.to(device)
 
 
@@ -200,12 +219,12 @@ def preprocess_logits_for_metrics(logits, targets):
 # %%
 from evaluation import compute_metrics
 
-catch_answer_fn = data_utils.AnswerCatcher().lego_absa
+catch_answer_fn = getattr(data_utils.AnswerCatcher(),"gas")
 decoding_args = {
     "skip_special_tokens" : False
 }
 
-trainer = Seq2SeqTrainer(
+trainer = Trainer(
         model = model,
         args = train_args,
         tokenizer = tokenizer,

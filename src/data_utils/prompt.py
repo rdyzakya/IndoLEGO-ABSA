@@ -40,6 +40,21 @@ class ExtractPrompter:
         prompt = ",".join(prompt)
         result = text + "| " + prompt
         return result
+    
+    def prefix(self, text, se_order):
+        prompt = []
+        for counter, se in enumerate(se_order):
+            prompt.append(constant.SENTIMENT_ELEMENT[se] + " : " + f"<extra_id_{counter}>")
+        prompt = " ,".join(prompt)
+        result = f"Extract with format >> {prompt} | " + text
+        return result
+    
+    def one_token(self, text, se_order):
+        result = f"<{se_order}> : " + text
+        return result
+    
+    def autoprompt(self, text, se_order):
+        raise NotImplementedError
 
 class ImputePrompter:
     def lego_absa(self, text, reduced_targets, se_order):

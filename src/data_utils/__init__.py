@@ -10,23 +10,27 @@ sample_tasks = [
     {
         "paradigm" : "extraction",
         "se_order" : "aos",
-        "method" : "lego_absa"
+        "prompt" : "lego_absa",
+        "answer" : "lego_absa"
     },
     {
         "paradigm" : "extraction",
         "se_order" : "ao",
-        "method" : "lego_absa"
+        "prompt" : "lego_absa",
+        "answer" : "lego_absa"
     },
     {
         "paradigm" : "imputation",
         "reduced_se_order" : "ao",
         "se_order" : "aos",
-        "method" : "lego_absa"
+        "prompt" : "lego_absa",
+        "answer" : "lego_absa"
     },
     {
         "paradigm" : "fewshot",
         "se_order" : "aos",
-        "method" : "lego_absa",
+        "prompt" : "lego_absa",
+        "answer" : "lego_absa",
         "n_shot" : 2
     }
 ]
@@ -57,12 +61,13 @@ def data_gen(data, nt_se_order, tasks, n_fold, algo, shuffle=True):
             else:
                 raise NotImplementedError
             paradigm = chosen_task.pop("paradigm")
-            method = chosen_task.pop("method")
+            prompt_method = chosen_task.pop("prompt")
+            answer_method = chosen_task.pop("answer")
 
             # prompter
-            prompt_func = getattr(prompter[paradigm], method)
+            prompt_func = getattr(prompter[paradigm], prompt_method)
             # answer
-            ans_func = getattr(ans_const, method)
+            ans_func = getattr(ans_const, answer_method)
 
             prompt_args = deepcopy(chosen_task)
             if paradigm == "extraction":

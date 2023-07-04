@@ -39,9 +39,9 @@ n_gpu = torch.cuda.device_count()
 
 # %%
 import data_utils
-train_path = "../data/absa/id/william/train.txt"
-val_path = "../data/absa/id/william/dev.txt"
-test_path = "../data/absa/id/william/test.txt"
+train_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/train.txt"
+val_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/dev.txt"
+test_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/test.txt"
 
 train = data_utils.read_data(train_path)
 val = data_utils.read_data(val_path)
@@ -51,55 +51,38 @@ test = data_utils.read_data(test_path)
 train_tasks = [
     {
         "paradigm" : "extraction",
-        "se_order" : "oa",
-        "method" : "lego_absa"
-    },
-    {
-        "paradigm" : "extraction",
-        "se_order" : "as",
-        "method" : "lego_absa"
-    },
-    {
-        "paradigm" : "imputation",
-        "reduced_se_order" : "oa",
-        "se_order" : "oas",
-        "method" : "lego_absa"
-    },
-    {
-        "paradigm" : "imputation",
-        "reduced_se_order" : "as",
-        "se_order" : "oas",
-        "method" : "lego_absa"
+        "se_order" : "oasc",
+        "prompt" : "bartabsa",
+        "answer" : "bartabsa"
     },
 ]
 
 val_tasks = [
     {
         "paradigm" : "extraction",
-        "se_order" : "oas",
-        "method" : "lego_absa"
+        "se_order" : "oasc",
+        "prompt" : "bartabsa",
+        "answer" : "bartabsa"
     }
 ]
 
 test_tasks = [
     {
         "paradigm" : "extraction",
-        "se_order" : "oas",
-        "method" : "lego_absa"
+        "se_order" : "oasc",
+        "prompt" : "bartabsa",
+        "answer" : "bartabsa"
     }
 ]
 
 # %%
-train_ds = data_utils.data_gen(data=train, nt_se_order="aos", tasks=train_tasks, n_fold=4, algo="random", shuffle=True)
-val_ds = data_utils.data_gen(data=val, nt_se_order="aos", tasks=val_tasks, n_fold=1, algo="round_robin", shuffle=False)
-test_ds = data_utils.data_gen(data=test, nt_se_order="aos", tasks=test_tasks, n_fold=1, algo="round_robin", shuffle=False)
+train_ds = data_utils.data_gen(data=train, nt_se_order="acso", tasks=train_tasks, n_fold=1, algo="random", shuffle=True)
+val_ds = data_utils.data_gen(data=val, nt_se_order="acso", tasks=val_tasks, n_fold=1, algo="round_robin", shuffle=False)
+test_ds = data_utils.data_gen(data=test, nt_se_order="acso", tasks=test_tasks, n_fold=1, algo="round_robin", shuffle=False)
 
 # %%
-for el in train_ds:
-    if el["input"].startswith("pngen kembali lagi buat menginap"):
-        print(el)
+import pandas as pd
 
-# %%
 train_ds[0]
 
 # %%
@@ -133,7 +116,7 @@ encoding_args = {
 
 encode_fn = lambda x: tokenizer(x["input"], text_target=x["output"], **encoding_args)
 
-tokenizer = AutoTokenizer.from_pretrained("google/mt5-base")
+tokenizer = AutoTokenizer.from_pretrained("facebook/mbart-large-50", src_lang="en_XX", tgt_lang="en_XX")
 
 # %%
 train_tok = train_ds.map(encode_fn, batched=True, remove_columns=train_ds.column_names)
@@ -186,7 +169,7 @@ from transformers import Seq2SeqTrainer, AutoModelForSeq2SeqLM
 
 set_seed(42)
 
-model = AutoModelForSeq2SeqLM.from_pretrained("google/mt5-base")
+model = AutoModelForSeq2SeqLM.from_pretrained("facebook/mbart-large-50")
 model.to(device)
 
 
@@ -200,7 +183,7 @@ def preprocess_logits_for_metrics(logits, targets):
 # %%
 from evaluation import compute_metrics
 
-catch_answer_fn = data_utils.AnswerCatcher().lego_absa
+catch_answer_fn = getattr(data_utils.AnswerCatcher(),"bartabsa")
 decoding_args = {
     "skip_special_tokens" : False
 }
