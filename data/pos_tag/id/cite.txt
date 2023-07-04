@@ -1,0 +1,23 @@
+https://raw.githubusercontent.com/ir-nlp-csui/idn-tagged-corpus-CSUI/master/IndoNLU-split/train_preprocess.conll
+
+@inproceedings{wilie-etal-2020-indonlu,
+    title = "{I}ndo{NLU}: Benchmark and Resources for Evaluating {I}ndonesian Natural Language Understanding",
+    author = "Wilie, Bryan  and
+      Vincentio, Karissa  and
+      Winata, Genta Indra  and
+      Cahyawijaya, Samuel  and
+      Li, Xiaohong  and
+      Lim, Zhi Yuan  and
+      Soleman, Sidik  and
+      Mahendra, Rahmad  and
+      Fung, Pascale  and
+      Bahar, Syafri  and
+      Purwarianti, Ayu",
+    booktitle = "Proceedings of the 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing",
+    month = dec,
+    year = "2020",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.aacl-main.85",
+    pages = "843--857"
+}
