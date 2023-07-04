@@ -2,6 +2,7 @@ import sys
 sys.path.append("..")
 import constant
 import random
+import string
 from .num_targets import process_num_targets, reduce_num_targets
 
 class ExtractPrompter:
@@ -86,6 +87,87 @@ class FewShotPrompter:
         current = " ,".join(current)
         prompt.append(current)
 
+        prompt = " ; ".join(prompt)
+        result = text + "| " + prompt
+        return result
+
+def get_index(phrase, text):
+    splitted_phrase = phrase.split()
+    splitted_text = text.split()
+    for i in range(0,len(splitted_text)-len(splitted_phrase)+1):
+        window = splitted_text[i:i+len(splitted_phrase)]
+        if window == splitted_phrase:
+            return (i,i+len(splitted_phrase)-1)
+    return (-1,-1)
+
+def noise(phrase, text):
+    # 1. insert/delete/substitute 1 word (most left, most right, middle)
+    # 2. insert/delete/substitute 1 character
+    noise_type = random.randint(0,100)
+    noise_level = random.randint(0,100)
+    if noise_level <= 50: # char
+        char_index = random.randint(0,len(phrase))
+        if noise_type <= 33: # insert
+            return phrase[:char_index] + random.choice(string.ascii_lowercase) + phrase[char_index:]
+        elif noise_type <= 67: # delete
+            return phrase[:char_index] + phrase[char_index+1:]
+        else: # substitute
+            return phrase[:char_index] + random.choice(string.ascii_lowercase) + phrase[char_index+1:]
+    else: # word
+        phrase_index = get_index(phrase, text)
+        splitted_text = text.split()
+        splitted_phrase = phrase.split()
+        if phrase_index == (-1,-1):
+            raise NotImplementedError
+        if noise_type <= 33: # insert
+            # most left, most right
+            if phrase_index == (0,len(splitted_text)):
+                return phrase
+            elif phrase_index[0] == 0:
+                return phrase + ' ' + splitted_text[phrase_index[1]+1]
+            elif phrase_index[1] == len(splitted_text)-1:
+                return splitted_text[phrase_index[0]-1] + ' ' + phrase
+            else:
+                return random.choice([
+                    phrase + ' ' + splitted_text[phrase_index[1]+1],
+                    splitted_text[phrase_index[0]-1] + ' ' + phrase
+                ])
+        elif noise_type <= 67: # delete
+            del_index = random.randint(0,len(splitted_phrase))
+            if len(splitted_phrase) == 1:
+                return phrase
+            else:
+                return ' '.join(splitted_phrase[:del_index] + splitted_phrase[del_index+1:])
+        else: # substitute
+            sub_index = random.randint(0,len(splitted_phrase))
+            if len(splitted_phrase) == 1:
+                return phrase
+            else:
+                return ' '.join(splitted_phrase[:sub_index] + random.sample(splitted_text,1) + splitted_phrase[sub_index+1:])
+
+class DenoisingPrompter:
+    def lego_absa(self, text, targets, se_order):
+        prompt = []
+        for t in targets:
+            current = []
+            noised = False
+            for se in se_order:
+                element = t[constant.SENTIMENT_ELEMENT[se]]
+                noise_decision = random.randint(0,100)
+                if se in "ao":
+                    if noise_decision <= 50 and not noised and element != constant.IMPLICIT_ASPECT:
+                        element = noise(element, text)
+                        noised = True
+                elif se == 's':
+                    if noise_decision <= 50 and not noised:
+                        sentiments = list(constant.SENTTAG2WORD.values())
+                        sentiments.remove(element)
+                        element = random.choice(sentiments)
+                        noised = True
+                current.append(constant.SENTIMENT_ELEMENT[se] + " : " + element)
+            current = " ,".join(current)
+            if current not in prompt: # no duplicate
+                prompt.append(current)
         prompt = " ; ".join(prompt)
         result = text + "| " + prompt
         return result

@@ -1,4 +1,4 @@
-SENTTAG2WORD = {"POS": "positive", "NEG": "negative", "NEU": "neutral", "MIX" : "mixed"}
+SENTTAG2WORD = {"POS": "positive", "NEG": "negative", "NEU": "neutral"}
 SENTIMENT_ELEMENT = {'a' : "aspect", 'o' : "opinion", 's' : "sentiment", 'c' : "category"}
 SEP = "####"
 NO_TARGET = "NULL"

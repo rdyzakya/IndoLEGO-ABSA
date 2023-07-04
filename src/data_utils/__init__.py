@@ -28,6 +28,11 @@ sample_tasks = [
         "se_order" : "aos",
         "method" : "lego_absa",
         "n_shot" : 2
+    },
+    {
+        "paradigm" : "denoise",
+        "se_order" : "aos",
+        "method" : "lego_absa"
     }
 ]
 
@@ -35,24 +40,25 @@ ans_const = AnswerConstructor()
 prompter = {
     "extraction" : ExtractPrompter(),
     "imputation" : ImputePrompter(),
-    "fewshot" : FewShotPrompter()
+    "fewshot" : FewShotPrompter(),
+    "denoise" : DenoisingPrompter()
 }
 
 def data_gen(data, nt_se_order, tasks, n_fold, algo, shuffle=True):
     result = []
     pbar = tqdm(total=n_fold*len(data))
-    for n in range(n_fold):
-        for i in range(len(data)):
+    for i in range(len(data)):
+        for n in range(n_fold):
             el = data[i]
             chosen_task = None
             if algo == "round_robin":
-                chosen_task = deepcopy(tasks[i%len(tasks)])
-                if chosen_task["paradigm"] == "imputation" and len(el["num_targets"]) == 0:
+                chosen_task = deepcopy(tasks[((i * n_fold) + n)%len(tasks)])
+                if chosen_task["paradigm"] in ["imputation","denoise"] and len(el["num_targets"]) == 0:
                     pbar.update(1)
                     continue
             elif algo == "random":
                 chosen_task = deepcopy(random.choice(tasks))
-                while chosen_task["paradigm"] == "imputation" and len(el["num_targets"]) == 0:
+                while chosen_task["paradigm"] in ["imputation","denoise"] and len(el["num_targets"]) == 0:
                     chosen_task = deepcopy(random.choice(tasks))
             else:
                 raise NotImplementedError
@@ -80,8 +86,11 @@ def data_gen(data, nt_se_order, tasks, n_fold, algo, shuffle=True):
                 # prompt_args["nt_se_order"] = nt_se_order
             elif paradigm == "fewshot":
                 prompt_args["text"] = el["text"]
-                targets = process_num_targets(text=el["text"], num_targets=num_targets, se_order=nt_se_order)
-
+                targets = process_num_targets(text=el["text"], num_targets=el["num_targets"], se_order=nt_se_order)
+                prompt_args["targets"] = targets
+            elif paradigm == "denoise":
+                prompt_args["text"] = el["text"]
+                targets = process_num_targets(text=el["text"], num_targets=el["num_targets"], se_order=nt_se_order)
                 prompt_args["targets"] = targets
             else:
                 raise NotImplementedError
@@ -96,7 +105,8 @@ def data_gen(data, nt_se_order, tasks, n_fold, algo, shuffle=True):
             row = {
                 "input" : inputs,
                 "output" : out,
-                "se_order" : chosen_task["se_order"]
+                "se_order" : chosen_task["se_order"],
+                "paradigm" : paradigm
             }
             if row not in result:
                 result.append(row)
