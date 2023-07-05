@@ -1,0 +1,487 @@
+input,output,se_order,paradigm
+"The ambience was so fun , and the prices were great , on top of the fact that the food was really tasty .","1,1,ambience general,4,4,POS,-1,-1,restaurant prices,10,10,POS,19,19,food quality,22,22,POS",acos,extraction
+"Eating in , the atmosphere saves it , but at your desk , it ' s a very disappointing experience .","4,4,ambience general,5,5,POS,-1,-1,restaurant general,18,18,NEG",acos,extraction
+keep up the good work .,"-1,-1,restaurant general,3,3,POS",acos,extraction
+"The fish was adequate , but inexpertly sliced .","1,1,food style_options,3,3,NEG,1,1,food style_options,6,7,NEG",acos,extraction
+Try sushimi cucumber roll .,"1,3,food quality,0,0,POS",acos,extraction
+The sushi seemed pretty fresh and was adequately proportioned .,"1,1,food quality,4,4,POS,1,1,food style_options,8,8,POS",acos,extraction
+"The food is very average . . . the Thai fusion stuff is a bit too sweet , every thing they serve is too sweet here .","1,1,food quality,4,4,NEG,9,11,food quality,15,16,NEG,-1,-1,food quality,15,16,NEG",acos,extraction
+"Terrible , terrible management - deserves to be shut - down .","3,3,service general,0,0,NEG,3,3,service general,2,2,NEG,-1,-1,restaurant general,5,10,NEG",acos,extraction
+I am relatively new to the area and tried Pick a bgel on 2nd and was disappointed with the service and I thought the food was overated and on the pricey side .,"19,19,service general,16,16,NEG,24,24,food prices,30,30,NEG,24,24,food quality,26,26,NEG",acos,extraction
+"The quantity is also very good , you will come out satisfied .","1,1,food style_options,5,5,POS,1,1,food style_options,11,11,POS",acos,extraction
+Not enough wines by the glass either .,"2,5,drinks style_options,0,1,NEG",acos,extraction
+"but when we looked at the menu , there weren ' t a lot of choices , most of them were dumplings in the appetizer section .","6,6,food style_options,9,15,NEG",acos,extraction
+"The kitchen however , is almost always slow .","1,1,service general,7,7,NEG",acos,extraction
+Awsome Pizza especially the Margheritta slice .,"1,1,food quality,0,0,POS,4,5,food quality,0,0,POS",acos,extraction
+"The food however , is what one might expect .","1,1,food quality,8,8,NEG",acos,extraction
+I would say that all was fine and tasty but the heaviness on my stomach someting that i ca n ' t not mention or undermine .,"-1,-1,food quality,10,25,NEG",acos,extraction
+It ' s simply the best meal in NYC .,"6,6,food quality,5,5,POS",acos,extraction
+"From the spectacular caviar to the hospitable waitstaff , I felt like royalty and enjoyed every second of it .","3,3,food quality,2,2,POS,3,3,food quality,14,14,POS,7,7,service general,6,6,POS,7,7,service general,14,14,POS",acos,extraction
+"The entree was bland and small , dessert was not inspired .","1,1,food quality,3,3,NEG,1,1,food style_options,5,5,NEG,7,7,food quality,9,10,NEG",acos,extraction
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !","1,3,food quality,6,6,POS,9,11,food quality,13,13,POS",acos,extraction
+"The decor in this place is very diner - ish and the kind of place you expect in the East Village - not romantic , just simple , small and sparse .","1,1,ambience general,7,9,NEU",acos,extraction
+The pizza is delicious and the proprietor is one of the nicest in NYC .,"1,1,food quality,3,3,POS,6,6,service general,11,11,POS",acos,extraction
+"The place is small and intimate and you may feel a little crowded , but the service is excellent and it ' s great for friends out , a romantic date , or a special occassion .","16,16,service general,18,18,POS,1,1,ambience general,12,12,NEG,1,1,restaurant miscellaneous,3,3,POS,1,1,restaurant miscellaneous,5,5,POS",acos,extraction
+I have been coming here for years and have nothing but good things to say about the service and the great staff at La Lanterna .,"17,17,service general,11,11,POS,21,21,service general,20,20,POS",acos,extraction
+"The signs , the specials menus , food , and even all the waitstaff are ALL TOTALLY Japanese .","1,1,restaurant miscellaneous,17,17,POS,4,5,food style_options,17,17,POS,7,7,food quality,17,17,POS,13,13,service general,17,17,POS",acos,extraction
+The wine list is excellent .,"1,2,drinks style_options,4,4,POS",acos,extraction
+The setting is casual and romantic .,"1,1,ambience general,3,3,POS,1,1,ambience general,5,5,POS",acos,extraction
+Nice value .,"-1,-1,restaurant prices,0,1,POS",acos,extraction
+It just was n ' t Thai .,"-1,-1,food quality,2,6,NEG",acos,extraction
+"Average to good Thai food , but terrible delivery .","3,4,food quality,0,2,POS,8,8,service general,7,7,NEG",acos,extraction
+Zero ambiance to boot .,"1,1,ambience general,0,0,NEG",acos,extraction
+A restaurant that does n ' t try to do anything except serve great food with great service in a pleasant atmosphere .,"14,14,food quality,13,13,POS,17,17,service general,13,13,POS,21,21,ambience general,20,20,POS",acos,extraction
+"The atmosphere is unheralded , the service impecible , and the food magnificant .","1,1,ambience general,3,3,POS,6,6,service general,7,7,POS,11,11,food quality,12,12,POS",acos,extraction
+"The fish was really , really fresh .","1,1,food quality,6,6,POS",acos,extraction
+The owner truly caters to all your needs .,"1,1,service general,3,7,POS",acos,extraction
+I had never had Edamame pureed before but I thought it was innovative and tasty ( could ' ve used a bit more salt ) .,"4,5,food quality,14,14,POS,4,5,food style_options,12,12,POS",acos,extraction
+I will be going back very soon .,"-1,-1,restaurant general,3,4,POS",acos,extraction
+"Guacamole + shrimp appetizer was really great , we both had the filet , very good , did n ' t much like the frites that came with , but the filet was so good , neither of us cared .","0,3,food quality,6,6,POS,12,12,food quality,15,15,POS,24,24,food quality,17,22,NEG",acos,extraction
+"The food is decent at best , and the ambience , well , it ' s a matter of opinion , some may consider it to be a sweet thing , I thought it was just annoying .","1,1,food quality,3,3,NEG,9,9,ambience general,36,36,NEG",acos,extraction
+Save yourself the time and trouble and skip this one !,"-1,-1,restaurant general,7,7,NEG",acos,extraction
+"Luckily we saved room for the BBQ Salmon , Sea Bass and Crispy Duck .","6,7,food quality,0,0,POS,9,10,food quality,0,0,POS,12,13,food quality,0,0,POS",acos,extraction
+The food looked very appetizing and delicious since it came on a variety of fancy plates .,"1,1,food style_options,4,4,POS,1,1,food style_options,6,6,POS",acos,extraction
+This is a nice pizza place with good selection of thin crust pizza including the Basil slice .,"8,12,food style_options,7,7,POS,8,12,food quality,7,7,POS,4,5,restaurant general,3,3,POS,15,16,food quality,7,7,POS",acos,extraction
+Prices are in line .,"-1,-1,restaurant prices,2,3,NEU",acos,extraction
+Everything we had was good or ok . . . but definitely nothing great .,"-1,-1,food quality,12,13,NEU",acos,extraction
+It is a lot of fun with live entertainment and all kinds of Disney type special effects .,"-1,-1,ambience general,5,5,POS",acos,extraction
+"The staff was accomodating , the food was absolutely delicious and the place is lovely .","1,1,service general,3,3,POS,6,6,food quality,9,9,POS,12,12,ambience general,14,14,POS",acos,extraction
+Fish is so very fresh .,"0,0,food quality,4,4,POS",acos,extraction
+We will be back .,"-1,-1,restaurant general,2,3,POS",acos,extraction
+All the people that I bring there go back on their own and bring THEIR friends !,"-1,-1,restaurant miscellaneous,7,8,POS",acos,extraction
+This tiny Williamsburg spot is always pleasantly surprising .,"2,3,restaurant general,7,7,POS",acos,extraction
+"Quite frankly , this is some of the worst sushi I have ever tried .","9,9,food quality,8,8,NEG",acos,extraction
+Service is fast and friendly .,"0,0,service general,2,2,POS,0,0,service general,4,4,POS",acos,extraction
+"The portions are HUGE , so it might be good to order three things to split ( rather than one appetizer and entree per person ) for two people .","1,1,food style_options,3,3,NEU",acos,extraction
+Thank You Emilio .,"2,2,restaurant general,0,1,POS",acos,extraction
+"The pasta penne was pretty extra buttery , creamy which means a big task to diggest . . tasty at first but i would say that i was full with a slice of pizza and 7 to count , penne . . . got a little moody afterwards cause was stuffed . . . lol","1,2,food quality,5,6,NEG,1,2,food style_options,46,46,NEG",acos,extraction
+The place is a BISTRO which means : simple dishes and wine served efficiently in a bustling atmosphere .,"9,9,food style_options,8,8,POS,-1,-1,service general,12,13,POS,17,17,ambience general,16,16,POS",acos,extraction
+"I have known about this secret for the last 13 years , Emilio ( the Godfather ) has continued to serve food and wine for the gods at mortal prices .","21,21,food quality,26,26,POS,23,23,drinks quality,26,26,POS,21,21,food prices,28,28,POS,23,23,drinks prices,28,28,POS",acos,extraction
+bottles of wine are cheap and good .,"0,2,drinks prices,4,4,POS,0,2,drinks quality,6,6,POS",acos,extraction
+Our family never expected such incredible entertainment in a restaurant .,"6,6,ambience general,5,5,POS",acos,extraction
+I almost hesititate to write a review because the atmosphere was so great and I would hate for it too become to crowded .,"9,9,ambience general,12,12,POS",acos,extraction
+The place is so cool and the service is prompt and curtious .,"7,7,service general,9,9,POS,7,7,service general,11,11,POS,1,1,ambience general,4,4,POS",acos,extraction
+I would highly recommend this place !,"5,5,restaurant general,3,3,POS",acos,extraction
+Faan is sooo good .,"0,0,restaurant general,3,3,POS",acos,extraction
+"The ambience was nice , but service was n ' t so great .","1,1,ambience general,3,3,POS,6,6,service general,7,12,NEG",acos,extraction
+Definitely a neighborhood favorite .,"-1,-1,restaurant general,3,3,POS",acos,extraction
+Make sure you try this place as often as you can .,"5,5,restaurant general,3,3,POS",acos,extraction
+"If you are the type of person who likes being scared and entertained , this is a great place to go and eat .","18,18,restaurant miscellaneous,17,17,POS",acos,extraction
+"I have reservations about the all you can eat deal , however - - the choices are fairly limited and you can probably order more food than you can eat for less than $ 18 by just going off the menu .","5,9,food style_options,18,18,NEG,5,9,food prices,18,18,NEG",acos,extraction
+"The svc can be a bit rude at times , esp if you have big group , but overall the restaurant is a must !","1,1,service general,6,6,NEG,20,20,restaurant general,23,23,POS",acos,extraction
+"I have eaten at Saul , many times , the food is always consistently , outrageously good .","10,10,food quality,16,16,POS",acos,extraction
+I fell in love with the egg noodles in the beef broth with shrimp dumplings and slices of BBQ roast pork .,"6,20,food quality,3,3,POS",acos,extraction
+LLOOVVE THIS PLACE .,"2,2,restaurant general,0,0,POS",acos,extraction
+This place is incredibly tiny .,"1,1,ambience general,4,4,NEG",acos,extraction
+Problem is nothing at Prune is particularly memorable .,"4,4,restaurant general,7,7,NEG",acos,extraction
+"delicious bagels , especially when right out of the oven .","1,1,food quality,0,0,POS",acos,extraction
+This restaurant was way overhyped .,"1,1,restaurant general,4,4,NEG",acos,extraction
+"A gentleman , maybe the manager , came to our table , and without so much as a smile or greeting asked for our order .","1,1,service general,13,20,NEG",acos,extraction
+The food is great .,"1,1,food quality,3,3,POS",acos,extraction
+"Fabulous decor - makes you feel like you ' re in a trendy Manhattan restaurant , very very good food , cheaply - priced , generally friendly staff , and if you ' re a Manhattanite , or spend most of your time in Manhattan , Rice Avenue will make you feel at home . . . . . very Soho / Village / Upper West Side minus the expensive prices and pretentious clientele . . . . . all on Roosevelt Avenue !","1,1,ambience general,0,0,POS,19,19,food quality,18,18,POS,19,19,food prices,21,23,POS,27,27,service general,26,26,POS,46,47,ambience general,51,53,POS,46,47,location general,59,66,POS,46,47,restaurant prices,67,70,POS",acos,extraction
+The food is a diamond in rough - - the food is delicious and homemade with the perfect balance of herbs and tomatoes .,"1,1,food quality,4,4,POS,18,22,food quality,17,17,POS",acos,extraction
+The buffet had a nice selection .,"1,1,food style_options,4,4,POS",acos,extraction
+"One would think we ' d get an apology or complimentary drinks - instead , we got a snobby waiter would n ' t even take our order for 15 minutes and gave us lip when we asked him to do so .","19,19,service general,18,18,NEG",acos,extraction
+The food is tasty and portion sizes are appropriate .,"1,1,food quality,3,3,POS,5,6,food style_options,8,8,POS",acos,extraction
+Much of the time it seems like they do not care about you .,"-1,-1,service general,8,12,NEG",acos,extraction
+We will go back every time we are in the City .,"-1,-1,restaurant general,2,3,POS",acos,extraction
+I have to highly recommend the lobster roll - not to much mayo ; you can tell it was a fresh lobster .,"6,7,food quality,4,4,POS,6,6,food quality,20,20,POS",acos,extraction
+Thius is a must for anyone who loves Shabu - Shabu .,"8,10,food quality,7,7,POS",acos,extraction
+Prices are very good .,"-1,-1,restaurant prices,3,3,POS",acos,extraction
+A pleasant surprise .,"-1,-1,restaurant general,1,2,POS",acos,extraction
+"The first time I went , and was completely taken by the live jazz band and atmosphere , I ordered the Lobster Cobb Salad .","12,14,ambience general,9,9,POS,16,16,ambience general,9,9,POS",acos,extraction
+"The food is yummy , especially their cooked - to - perfection mussels in spicy tomato sauce and their shoestring crispy fries .","1,1,food quality,3,3,POS,12,16,food quality,3,3,POS,12,16,food quality,7,11,POS,21,21,food quality,3,3,POS,21,21,food quality,20,20,POS",acos,extraction
+Try their chef ' s specials - - they are to die for .,"2,5,food quality,0,0,POS,2,5,food quality,11,12,POS",acos,extraction
+Great atmoshere and worth every bit .,"1,1,ambience general,0,0,POS,-1,-1,restaurant general,3,3,POS",acos,extraction
+"However , I think Jeckll and Hydes t is one of those places that is fun to do once .","4,6,restaurant general,15,15,POS",acos,extraction
+We were very disappointed .,"-1,-1,food quality,3,3,NEG",acos,extraction
+"The tables are crammed way too close , the menu is typical of any Italian restaurant , and the wine list is simply overpriced .","1,1,ambience general,3,3,NEG,1,1,ambience general,5,6,NEG,9,9,food style_options,11,11,NEU,19,20,drinks prices,23,23,NEG",acos,extraction
+"If we were to move from the upper east side , we would genuinely miss this restaurant .","16,16,restaurant general,14,14,POS",acos,extraction
+Tiny dessert was $ 8 . 00 . . . just plain overpriced for what it is .,"1,1,food quality,11,11,NEG,1,1,food style_options,0,0,NEG,1,1,food prices,12,12,NEG",acos,extraction
+The place is small and cramped but the food is fantastic .,"1,1,ambience general,3,3,NEG,1,1,ambience general,5,5,NEG,8,8,food quality,10,10,POS",acos,extraction
+and yes Dal Bukhara is so dam good and so are all the kababs .,"13,13,food quality,7,7,POS,2,3,food quality,7,7,POS",acos,extraction
+Warning : You may find it difficult to dine at other Japanese restaurants after a visit to Mizu !,"17,17,restaurant general,6,6,POS",acos,extraction
+No gimmicks here - - the food speaks for itself in its freshness and preparation .,"6,6,food quality,12,12,POS",acos,extraction
+Guaranteed to be a tasty experience ! ),"-1,-1,drinks quality,4,4,POS",acos,extraction
+but overall i give it a 10,"-1,-1,restaurant general,3,6,POS",acos,extraction
+Would NEVER go back there .,"-1,-1,restaurant general,1,3,NEG",acos,extraction
+Great neighborhood joint .,"2,2,restaurant general,0,0,POS",acos,extraction
+"The decor is vibrant and eye - pleasing with several semi - private boths on the right side of the dining hall , which are great for a date .","1,1,ambience general,3,3,POS,1,1,ambience general,5,7,POS,10,13,ambience general,25,25,POS",acos,extraction
+The worst excuse for Japanese food I ' ve ever encountered .,"-1,-1,restaurant miscellaneous,1,1,NEG",acos,extraction
+Be sure not to get anything other than bagels ! . .,"-1,-1,food quality,2,5,NEG",acos,extraction
+Check out the secret back room .,"4,5,ambience general,3,3,POS",acos,extraction
+This quaint and romantic trattoria is at the top of my Manhattan restaurant list .,"4,4,ambience general,1,1,POS,4,4,restaurant general,3,3,POS",acos,extraction
+Enjoyed a very nice Caesar Salad while my wife had arugula and goat cheese . . . both very tasty .,"4,5,food quality,0,0,POS,4,5,food quality,3,3,POS,10,13,food quality,19,19,POS",acos,extraction
+I had a great experience .,"-1,-1,restaurant general,3,3,POS",acos,extraction
+"They do n ' t concern much of customer ' s health , just want to make money .","-1,-1,restaurant miscellaneous,1,6,NEG",acos,extraction
+"We ordered the special , grilled branzino , that was so infused with bone , it was difficult to eat .","5,6,food quality,17,19,NEG",acos,extraction
+please do n ' t fool us .,"-1,-1,restaurant miscellaneous,5,5,NEG",acos,extraction
+"Do n ' t judge this place prima facie , you have to try it to believe it , a home away from home for the literate heart .","6,6,restaurant general,13,17,POS",acos,extraction
+The cold appetizer dishes taste like the way I remember them to taste when I was growing up in Taiwan .,"1,3,food quality,5,10,POS",acos,extraction
+"With the great variety on the menu , I eat here often and never get bored .","6,6,food style_options,2,3,POS",acos,extraction
+"i know , you were too busy showing off your vintage tee shirt and looking bored , but my agenda is i ' m here to eat and enjoy the company of friends , seeking a pleasant experience .","-1,-1,service general,15,15,NEG",acos,extraction
+"Food was just average . . . if they lowered the prices just a bit , it would be a bigger draw .","0,0,food quality,3,3,NEU",acos,extraction
+"The last two times I ordered from here my food was soo spicy that I could barely eat it , and the spice took away from the flavor of the dish .","9,9,food quality,12,12,NEG,22,22,food quality,15,18,NEG",acos,extraction
+We will return many times for this oasis in mid - town .,"-1,-1,restaurant general,2,2,POS",acos,extraction
+"Great wine selection , Gigondas is worth the price , and the house champagne is a great value .","1,2,drinks style_options,0,0,POS,4,4,drinks quality,6,8,POS,12,13,drinks prices,16,17,POS",acos,extraction
+I thought I had died and gone to heaven .,"-1,-1,food quality,8,8,POS",acos,extraction
+Friendly staff that actually lets you enjoy your meal and the company you ' re with .,"1,1,service general,0,0,POS",acos,extraction
+"The vibe is very relaxed and cozy , service was great and the food was excellent !","1,1,ambience general,4,4,POS,1,1,ambience general,6,6,POS,8,8,service general,10,10,POS,13,13,food quality,15,15,POS",acos,extraction
+It ' s definately not a place to go if you want to impress someone .,"6,6,restaurant miscellaneous,13,13,NEG",acos,extraction
+"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary , and to our surprise it was fantastic .","13,16,restaurant general,8,8,POS,13,16,restaurant general,27,27,POS",acos,extraction
+An excellent service,"2,2,service general,1,1,POS",acos,extraction
+I heartily recommend .,"-1,-1,restaurant general,2,2,POS",acos,extraction
+This is the kind of place you ' d like to take all your friends to and still keep a secret .,"5,5,restaurant miscellaneous,9,9,POS",acos,extraction
+"Well , this place is so Ghetto its not even funny .","3,3,ambience general,6,6,NEG,3,3,ambience general,8,10,NEG",acos,extraction
+Authentic Shanghai style and I can not recommend a better Shanghai place in New York .,"-1,-1,restaurant miscellaneous,5,9,POS",acos,extraction
+It was $ 14 not really bad for a pound of Pastrami - but it did n ' t have much taste - I ' ve had better for less elsewhere !,"-1,-1,food prices,4,6,NEU,-1,-1,food quality,15,21,NEG",acos,extraction
+If you want good authentic Thai this place is not the place to go .,"5,5,food quality,3,4,NEG",acos,extraction
+"Have recommended the place to friends , always gets good response .","3,3,restaurant miscellaneous,1,1,POS",acos,extraction
+this is can became on e of the NY Italian Food fare institutions .,"-1,-1,restaurant general,11,12,POS",acos,extraction
+"The food is good , especially their more basic dishes , and the drinks are delicious .","1,1,food quality,3,3,POS,8,9,food quality,3,3,POS,13,13,drinks quality,15,15,POS",acos,extraction
+"The ambience is pretty and nice for conversation , so a casual lunch here would probably be best .","1,1,ambience general,3,3,POS,1,1,ambience general,5,5,POS,-1,-1,restaurant miscellaneous,17,17,POS",acos,extraction
+And amazingly cheap .,"-1,-1,food prices,2,2,POS",acos,extraction
+"Love the scene first off - the place has a character and nice light to it . . very fortunate , location wise .","2,2,ambience general,0,0,POS,7,7,ambience general,12,12,POS,21,21,location general,19,19,POS",acos,extraction
+I started out with a Bombay beer which was big enough for two .,"5,6,drinks style_options,9,9,POS",acos,extraction
+She was very helpful in suggesting us drinks and helped us in ordering a lot of good dishes since we knew nothing about Indian food .,"-1,-1,service general,3,3,POS,17,17,food quality,16,16,POS",acos,extraction
+I also recommend the rice dishes or the different varieties of congee ( rice porridge ) .,"4,5,food quality,2,2,POS,11,15,food quality,2,2,POS",acos,extraction
+My six year old loved it .,"-1,-1,restaurant general,4,4,POS",acos,extraction
+"While the ambiance and atmosphere were great , the food and service could have been a lot better .","2,2,ambience general,6,6,POS,4,4,ambience general,6,6,POS,9,9,food quality,12,17,NEG,11,11,service general,12,17,NEG",acos,extraction
+It was wonderful .,"-1,-1,drinks quality,2,2,POS",acos,extraction
+Me and my girls will definitely go back .,"-1,-1,restaurant general,6,7,POS",acos,extraction
+What a great place .,"3,3,restaurant general,2,2,POS",acos,extraction
+"Interesting selection , good wines , service fine , fun decor .","4,4,drinks quality,3,3,POS,6,6,service general,7,7,POS,10,10,ambience general,9,9,POS,1,1,food style_options,0,0,POS",acos,extraction
+Service was slow had to wait to order and get food although not crowded .,"0,0,service general,2,2,NEG",acos,extraction
+Even after they overcharged me the last time I was there .,"-1,-1,service general,3,3,NEG",acos,extraction
+"i ' ve been to sapphire twice and both times the food was fine , if not good .","11,11,food quality,13,13,POS",acos,extraction
+The takeout is great too since they give high quality tupperware as well .,"1,1,service general,3,3,POS",acos,extraction
+"I like the ambience , it ' s very dark and original .","3,3,ambience general,1,1,POS,3,3,ambience general,9,9,POS,3,3,ambience general,11,11,POS",acos,extraction
+Finally a reliable Chinese restaurant !,"3,4,restaurant general,2,2,POS",acos,extraction
+"Yes , they use fancy ingredients , but even fancy ingredients do n ' t make for good pizza unless someone knows how to get the crust right .","5,5,food quality,4,4,POS,18,18,food quality,11,18,NEG",acos,extraction
+"The service varys from day to day - sometimes they ' re very nice , and sometimes not .","1,1,service general,2,2,NEG",acos,extraction
+We had the scallops as an appetizer and they were delicious and the sauce was wonderful .,"3,3,food quality,10,10,POS,13,13,food quality,15,15,POS",acos,extraction
+The pizza is yummy and I like the atmoshpere .,"1,1,food quality,3,3,POS,8,8,ambience general,6,6,POS",acos,extraction
+He offers subpar service and has no personality .,"3,3,service general,2,2,NEG",acos,extraction
+"This is such a lovely , peaceful place to eat outside .","7,7,ambience general,4,4,POS,7,7,ambience general,6,6,POS",acos,extraction
+"Even if the food was n ' t this good , the garden is a great place to sit outside and relax .","12,12,ambience general,15,15,POS,3,3,food quality,4,9,POS",acos,extraction
+"They tell me they are going to cover the garden in glass for the winter , so i ' m looking forward to going there on a snowy night to enjoy it .","-1,-1,restaurant miscellaneous,30,30,POS",acos,extraction
+"the only things u could really taste are the very salty soy sauce ( even its low sodium ) , the vinegar - soaked rice , and the scallion on top of the fish .","11,12,food quality,10,10,NEG,24,24,food quality,21,23,NEG",acos,extraction
+"It is terrific , as is the value .","-1,-1,food quality,2,2,POS,-1,-1,food prices,2,2,POS",acos,extraction
+All in all we ' re already coming up with excuses to go ahead really soon in the next few wks ! ! ! !,"-1,-1,restaurant general,12,15,POS",acos,extraction
+All the staff is absolutely professional ! !,"2,2,service general,5,5,POS",acos,extraction
+"Rao is a good restaurant , but it ' s nothing special .","0,0,restaurant general,3,3,NEU",acos,extraction
+The food was pretty tradional but it was hot and good with large portions .,"1,1,food quality,4,4,POS,13,13,food style_options,12,12,POS",acos,extraction
+The pizza is overpriced and soggy .,"1,1,food quality,5,5,NEG,1,1,food prices,3,3,NEG",acos,extraction
+The restaurant is cute but not upscale .,"1,1,restaurant general,3,3,NEU,1,1,restaurant general,5,6,NEU",acos,extraction
+The best pad thai i ' ve ever had .,"2,3,food quality,1,1,POS",acos,extraction
+I just do n ' t understand all the hype . . .,"-1,-1,restaurant general,2,6,NEG",acos,extraction
+Delicious crab cakes too .,"1,2,food quality,0,0,POS",acos,extraction
+Very good wine choices .,"2,3,drinks style_options,1,1,POS",acos,extraction
+"The food is amazing , rich pastas and fresh doughy pizza .","1,1,food quality,3,3,POS,6,6,food style_options,5,5,POS,10,10,food quality,8,9,POS",acos,extraction
+One of my favorite places in Manhattan .,"-1,-1,restaurant general,3,3,POS",acos,extraction
+"Good , fast service .","3,3,service general,0,0,POS,3,3,service general,2,2,POS",acos,extraction
+Great staff .,"1,1,service general,0,0,POS",acos,extraction
+"Its location is good and the fact that Hutner College is near and their prices are very reasonable , makes students go back to Suan again and again .","1,1,location general,3,3,POS,24,24,restaurant prices,17,17,POS",acos,extraction
+"In the evening , this place attracted a well dressed , with it , NY crowd .","15,15,restaurant miscellaneous,6,6,POS",acos,extraction
+This place has the best Chinese style BBQ ribs in the city .,"7,8,food quality,4,4,POS,7,8,food style_options,4,4,POS",acos,extraction
+But that was n ' t the icing on the cake : a tiramisu that resembled nothing I have ever had .,"13,13,food quality,16,16,NEG",acos,extraction
+"Service was devine , oysters where a sensual as they come , and the price ca n ' t be beat ! ! !","0,0,service general,2,2,POS,4,4,food quality,7,7,POS,-1,-1,restaurant prices,15,20,POS",acos,extraction
+"Food was very good , but not what I would consider out of this world .","0,0,food quality,3,3,NEU",acos,extraction
+"Looking around , I saw a room full of New Yorkers enjoying a real meal in a real restaurant , not a clubhouse of the fabulous trying to be seen .","14,14,food quality,13,13,POS,18,18,ambience general,13,13,POS",acos,extraction
+it ' s delicious !,"-1,-1,food quality,3,3,POS",acos,extraction
+It is also extremely well priced .,"-1,-1,food prices,4,5,POS",acos,extraction
+Moderate prices .,"-1,-1,restaurant prices,0,0,NEU",acos,extraction
+It is one the nicest outdoor restaurants I have ever seen in NY - - I am from Italy and this place rivals the ones in my country .,"5,6,ambience general,4,4,POS",acos,extraction
+I highly recommend visiting this restaurant and having dinner and drinks !,"5,5,restaurant general,2,2,POS",acos,extraction
+Steamed fresh so brought hot hot hot to your table .,"-1,-1,food quality,1,1,POS",acos,extraction
+I was here a few weeks back and we had the worst customer service experience at a restaurant ever .,"12,13,service general,11,11,NEG",acos,extraction
+Best Reuben sandwich ever !,"1,2,food quality,0,0,POS",acos,extraction
+I have to say that I am pleasantly suprised and I will most likely stop in again if I am in the neighborhood .,"-1,-1,restaurant general,7,8,POS",acos,extraction
+Our server was very helpful and friendly .,"1,1,service general,4,4,POS,1,1,service general,6,6,POS",acos,extraction
+My roommate and I LOVE this place .,"6,6,restaurant general,4,4,POS",acos,extraction
+This has got to be one of the most overrated restaurants in Brooklyn .,"-1,-1,restaurant general,9,9,NEG",acos,extraction
+"Although the tables may be closely situated , the candle - light , food quality and service overcompensate .","9,11,ambience general,17,17,POS,13,13,food quality,17,17,POS,16,16,service general,17,17,POS,2,2,ambience general,5,6,NEG",acos,extraction
+Winnie and her staff are the best crew you can find serving you .,"3,3,service general,6,6,POS,0,0,service general,6,6,POS",acos,extraction
+Food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when I went .,"0,0,food quality,2,2,POS,5,11,location general,13,13,POS",acos,extraction
+"Pizza is terrific , as is homemade pasta .","0,0,food quality,2,2,POS,6,7,food quality,2,2,POS",acos,extraction
+I recently tried Suan and I thought that it was great .,"3,3,restaurant general,10,10,POS",acos,extraction
+I ' m not picky - but it was actually gross .,"-1,-1,food quality,10,10,NEG",acos,extraction
+"Food was okay , nothing great .","0,0,food quality,2,2,NEU,0,0,food quality,4,5,NEU",acos,extraction
+The sake menu should not be overlooked !,"1,2,drinks style_options,6,6,POS",acos,extraction
+I asked for a menu and the same waitress looked at my like I was insane .,"8,8,service general,15,15,NEG",acos,extraction
+"I ' m a friendly person , so I wouldn ' t mind had she not been so nasty and gotten so personal .","-1,-1,service general,18,18,NEG",acos,extraction
+A great place to meet up for some food and drinks . . .,"2,2,restaurant miscellaneous,1,1,POS",acos,extraction
+Loved it,"-1,-1,restaurant general,0,0,POS",acos,extraction
+The owner and staff are all Japanese as well and that adds to the entire ambiance .,"15,15,ambience general,11,11,POS",acos,extraction
+"The side dishes were passable , and I did get a refill upon request .","1,2,food quality,4,4,NEU,1,2,food style_options,11,11,POS",acos,extraction
+"Great friendly service , Fast seating , Fast Delivery , Excellent sushi .","2,2,service general,0,1,POS,5,5,service general,4,4,POS,8,8,service general,4,4,POS,11,11,food quality,10,10,POS",acos,extraction
+I went there for lunch and it was not as good as I expected from the reviews I read .,"4,4,food quality,8,13,NEG",acos,extraction
+The stuff tilapia was horrid . . . tasted like cardboard .,"1,2,food quality,4,4,NEG",acos,extraction
+Subtle food and service,"1,1,food quality,0,0,POS,3,3,service general,0,0,POS",acos,extraction
+Service was wonderful ;,"0,0,service general,2,2,POS",acos,extraction
+The food here does a great service to the name ( Cantonese that is . . . ) .,"1,1,food quality,5,5,POS",acos,extraction
+None was made so i hung up .,"-1,-1,service general,0,2,NEG",acos,extraction
+This place is a great bargain .,"1,1,restaurant prices,4,5,POS",acos,extraction
+I will be going back and heartily recommend it !,"-1,-1,restaurant general,3,4,POS,-1,-1,restaurant general,6,7,POS",acos,extraction
+great hot dogs .,"1,2,food quality,0,0,POS",acos,extraction
+The food was good too .,"1,1,food quality,3,3,POS",acos,extraction
+"Service was prompt , friendly and great .","0,0,service general,2,2,POS,0,0,service general,4,4,POS,0,0,service general,6,6,POS",acos,extraction
+the food is always fresh . . .,"1,1,food quality,4,4,POS",acos,extraction
+"Excellent sashimi , and the millennium roll is beyond delicious .","1,1,food quality,0,0,POS,5,6,food quality,9,9,POS",acos,extraction
+Not a great place for family or general dining .,"3,3,restaurant miscellaneous,0,2,NEG",acos,extraction
+"The bagels always warm , soft on the inside , crispy on the outside and enormous in size .","1,1,food quality,3,3,POS,1,1,food quality,5,5,POS,1,1,food quality,10,10,POS,1,1,food style_options,15,15,POS",acos,extraction
+So rude ! ! !,"-1,-1,service general,1,1,NEG",acos,extraction
+"Our waitress was n ' t mean , but not especially warm or attentive either .","1,1,service general,2,6,NEU",acos,extraction
+The sauce tasted more like Chinese fast food than decent Korean .,"1,1,food quality,5,7,NEG",acos,extraction
+Mussles and calamari were superb Saturday evening .,"0,0,food quality,4,4,POS,2,2,food quality,4,4,POS",acos,extraction
+"The food is wonderful , tasty and filling , and the service is professional and friendly .","1,1,food quality,3,3,POS,1,1,food quality,5,5,POS,1,1,food style_options,7,7,POS,11,11,service general,13,13,POS,11,11,service general,15,15,POS",acos,extraction
+The service is awful .,"1,1,service general,3,3,NEG",acos,extraction
+"Bagels are ok , but be sure not to make any special requests !","0,0,food quality,2,2,NEU,-1,-1,service general,7,12,NEG",acos,extraction
+Good Food,"1,1,food quality,0,0,POS",acos,extraction
+"The food was amazing , and the service was prompt and helpful , but not over - bearing or rushed .","1,1,food quality,3,3,POS,7,7,service general,9,9,POS,7,7,service general,11,11,POS,7,7,service general,14,19,POS",acos,extraction
+Sauce was watery and the food did n ' t have much flavor .,"0,0,food quality,2,2,NEG,5,5,food quality,6,12,NEG",acos,extraction
+I was n ' t here for the pizza so I can ' t comment on that yet but what I had was very good .,"-1,-1,food quality,24,24,POS",acos,extraction
+We were less than impressed .,"-1,-1,restaurant general,2,4,NEG",acos,extraction
+The have a great cocktail with Citrus Vodka and lemon and lime juice and mint leaves that is to die for !,"4,15,drinks quality,3,3,POS",acos,extraction
+The food was average or above including some surprising tasty dishes .,"1,1,food quality,3,5,POS,10,10,food quality,9,9,POS",acos,extraction
+"sometimes i get bad food and bad service , sometimes i get good good and bad service .","4,4,food quality,3,3,NEG,7,7,service general,3,3,NEG,7,7,service general,3,3,NEG,12,12,food quality,12,12,POS",acos,extraction
+Best drumsticks over rice and sour spicy soup in town !,"1,3,food quality,0,0,POS,5,7,food quality,0,0,POS",acos,extraction
+The workers there also absolutely load the bagel with cream cheese ( gets a little messy ) .,"7,7,food style_options,15,15,NEG",acos,extraction
+"A few tips : skip the turnip cake , roast pork buns and egg custards .","6,7,food quality,4,4,NEG,9,11,food quality,4,4,NEG,13,14,food quality,4,4,NEG",acos,extraction
+Best In ALL of NYC,"-1,-1,restaurant general,0,0,POS",acos,extraction
+Not worth it .,"-1,-1,food prices,0,1,NEG",acos,extraction
+Vanison was good but not amazing .,"0,0,food quality,2,2,NEU",acos,extraction
+"At first we were a little taken aback , as this seemed to present a problem , although the restaurant looked fairly empty , but they hastily put the table together for us .","-1,-1,service general,26,32,POS",acos,extraction
+"But for the Shabu Shabu , you won ' t find much better in NY .","3,4,food quality,7,12,POS",acos,extraction
+The Cypriot restaurant has a lot going for it .,"1,2,restaurant general,4,6,POS",acos,extraction
+"I have worked in restaurants and cook a lot , and there is no way a maggot should be able to get into well prepared food .","25,25,food quality,23,24,NEG",acos,extraction
+"I ' ve been to at Cafe Spice probably 5 - 8 times , it is probably still the best Indian restaurant around Union Square .","6,7,restaurant general,19,19,POS",acos,extraction
+"There ' s nice and quiet , small but enough for 6 ( or more ) .","-1,-1,ambience general,5,5,POS,-1,-1,ambience general,3,3,POS",acos,extraction
+I really loved the different and inovated touch that ' s the cheff gives to the food .,"12,12,food style_options,2,2,POS,12,12,food style_options,6,6,POS",acos,extraction
+"The food is good , I ca n ' t lie .","1,1,food quality,3,3,POS",acos,extraction
+"Service , however , was excellent . . . and I liked the setting / atmosphere a lot .","0,0,service general,5,5,POS,13,15,ambience general,11,11,POS",acos,extraction
+"Food is usually very good , though ocasionally I wondered about freshmess of raw vegatables in side orders .","0,0,food quality,4,4,POS,13,17,food quality,9,11,NEG",acos,extraction
+I recommend it !,"-1,-1,restaurant general,1,1,POS",acos,extraction
+"My party had the BBE $ 29 fixe prix menu , which was such a wonderful deal since it also came with a flight of sake !","4,9,food prices,15,15,POS,4,9,food style_options,22,25,POS",acos,extraction
+The food is reliable and the price is moderate .,"1,1,food quality,3,3,POS,-1,-1,restaurant prices,8,8,NEU",acos,extraction
+If you like your music blasted and the system isnt that great and if you want to pay at least 100 dollar bottle minimun then you ' ll love it here .,"22,22,drinks prices,28,28,NEG,4,4,ambience general,2,2,NEG",acos,extraction
+I wish I COULD be refunded !,"-1,-1,restaurant general,5,5,NEG",acos,extraction
+Although we were told 10 - 15 minutes and it was more like 45 minutes .,"-1,-1,service general,13,14,NEG",acos,extraction
+"Each time we ' ve been , the front of house staff ( not the waiters - they ' re fantastic - but the people who greet and seat you ) has been so hideous to us that were it not for the exceptional fish dishes I would never return .","15,15,service general,20,20,POS,8,11,service general,34,34,NEG,44,45,food quality,43,43,POS",acos,extraction
+Possibly the Most Romantic Restaurant in the City,"4,4,ambience general,3,3,POS",acos,extraction
+I would go back .,"-1,-1,restaurant general,2,3,POS",acos,extraction
+Although we were looking for regular lettuce and some walnuts the salads we got were great .,"11,11,food quality,15,15,POS",acos,extraction
+"Service is not exactly five star , but thats not really a big deal .","0,0,service general,2,5,NEU",acos,extraction
+The food is great and the environment is even better .,"1,1,food quality,3,3,POS,6,6,ambience general,9,9,POS",acos,extraction
+"Everything I had was good , and I ' m a eater .","-1,-1,food quality,4,4,POS",acos,extraction
+I honestly do n ' t even know where to begin .,"-1,-1,restaurant general,2,10,NEG",acos,extraction
+Delivery is fast too .,"0,0,service general,2,2,POS",acos,extraction
+Best . Sushi . Ever .,"2,2,food quality,0,0,POS",acos,extraction
+"Good spreads , great beverage selections and bagels really tasty .","1,1,food quality,0,0,POS,4,5,drinks style_options,3,3,POS,7,7,food quality,9,9,POS",acos,extraction
+Everyone was more then happy with his choices .,"-1,-1,service general,4,4,POS",acos,extraction
+One of my favorite places in Brooklyn .,"-1,-1,restaurant general,3,3,POS",acos,extraction
+The concept of japanese tapas is newly created and clearly does n ' t work .,"3,4,food style_options,10,14,NEG",acos,extraction
+I highly recommend the Sophia pizza .,"4,5,food quality,2,2,POS",acos,extraction
+"The service is excellent , the decor is great , and the food is delicious and comes in large portions .","1,1,service general,3,3,POS,6,6,ambience general,8,8,POS,12,12,food quality,14,14,POS,19,19,food style_options,18,18,POS",acos,extraction
+I go twice a month !,"-1,-1,restaurant general,2,4,POS",acos,extraction
+"also it ' s great to have dinner in a very romantic and comfortable place , the service it ' s just perfect . . . they ' re so frendly that we never want to live the place !","14,14,ambience general,11,11,POS,14,14,ambience general,13,13,POS,17,17,service general,22,22,POS",acos,extraction
+And $ 11 for a plate of bland guacamole ?,"8,8,food quality,7,7,NEG,8,8,food prices,7,7,NEG",acos,extraction
+Ingredients are organic which is a real plus for me .,"0,0,food quality,2,2,POS,0,0,food quality,7,7,POS",acos,extraction
+Maitre - D - `` Eat and get out ``,"0,2,service general,7,8,NEG",acos,extraction
+Lexicographers take note : a new and fascinating definition of rudeness is alive and flourishing right here in Brooklyn .,"-1,-1,service general,10,10,NEG",acos,extraction
+And evaluated on those terms Pastis is simply wonderful .,"5,5,restaurant general,8,8,POS",acos,extraction
+awesome,"-1,-1,restaurant general,0,0,POS",acos,extraction
+fresh restaurant was amazing . . . . . . . . food was delicious and of course fresh .,"0,1,restaurant general,0,0,POS,0,1,restaurant general,3,3,POS,12,12,food quality,14,14,POS,12,12,food quality,0,0,POS",acos,extraction
+"Delicious , creative and fun .","-1,-1,food quality,0,0,POS,-1,-1,food style_options,2,2,POS,-1,-1,food style_options,4,4,POS",acos,extraction
+It ' s cuz it ' s so good you need to taste it ! ! !,"-1,-1,food quality,8,8,POS",acos,extraction
+I was speechless by the horrible food .,"6,6,food quality,2,2,NEG",acos,extraction
+"However , I think this place is a good hang out spot .","5,5,ambience general,8,8,POS",acos,extraction
+"Try the Pad Thai , or sample anything on the appetizer menu . . . they ' re all delicious .","2,3,food quality,0,0,POS,2,3,food quality,19,19,POS,10,11,food quality,19,19,POS",acos,extraction
+Ess - A - Bagel ( either by Sty - town or midtown ) is by far the best bagel in NY .,"19,19,food quality,18,18,POS",acos,extraction
+And even with it ' s Pub atmosphere they were great to my kids too !,"-1,-1,service general,10,10,POS",acos,extraction
+JUST AWSOME .,"-1,-1,food quality,1,1,POS",acos,extraction
+"Red Dragon Roll - my favorite thing to eat , of any food group - hands down","0,2,food quality,5,5,POS",acos,extraction
+The rice to fish ration was also good - - they did n ' t try to overpack the rice .,"1,4,food style_options,7,7,POS",acos,extraction
+They have authentic Indian at amazin prices .,"3,3,food quality,2,2,POS,3,3,food prices,2,2,POS",acos,extraction
+"My father had the flank steak which was very good , and my mother had the swordfish .","4,5,food quality,9,9,POS",acos,extraction
+Fabulous food - if the front of house staff do n ' t put you off –,"1,1,food quality,0,0,POS,5,8,service general,13,15,NEG",acos,extraction
+"By far , the best pizza in Manhattan .","5,5,food quality,4,4,POS",acos,extraction
+Overpriced and not tasty,"-1,-1,food prices,0,0,NEG,-1,-1,food quality,2,3,NEG",acos,extraction
+"Raga ' s is a romantic , cozy restaurant .","0,2,ambience general,5,5,POS,0,2,ambience general,7,7,POS",acos,extraction
+Expensive,"-1,-1,restaurant prices,0,0,NEG",acos,extraction
+The location is perfect .,"1,1,location general,3,3,POS",acos,extraction
+"All in all , this midtown gem instantly became one of my favorite sushi restaurants in the city .","-1,-1,restaurant general,12,12,POS",acos,extraction
+This place doesn ' t make any sense,"1,1,restaurant general,2,7,NEG",acos,extraction
+A must try !,"-1,-1,restaurant general,0,2,POS",acos,extraction
+I have to say I have never had a disapointing meal here .,"10,10,food quality,6,9,POS",acos,extraction
+"the spinach is fresh , definately not frozen . . .","1,1,food quality,3,3,POS",acos,extraction
+I had the Thai style Fried Sea Bass . . . which was very good .,"3,7,food quality,14,14,POS",acos,extraction
+The view is breathtaking the service is top notch . . . the ambiance is wonderful .,"1,1,location general,3,3,POS,5,5,service general,7,8,POS,13,13,ambience general,15,15,POS",acos,extraction
+This place is not worth the prices .,"1,1,restaurant general,3,6,NEG,1,1,restaurant prices,3,6,NEG",acos,extraction
+"We ate out in the back patio , which is worth it as it ' s cool and the music is hear well there .","5,6,ambience general,10,10,POS,5,6,ambience general,16,16,POS,19,19,ambience general,22,22,POS",acos,extraction
+I did not try the caviar but I tried their salmon and crab salad ( they are all good ),"10,10,food quality,18,18,POS,12,13,food quality,18,18,POS",acos,extraction
+We were seated outside and the waiter spilled red wine and hot tea on myself and my date .,"6,6,service general,7,7,NEG",acos,extraction
+We asked for beverages and never received them .,"-1,-1,service general,5,6,NEG",acos,extraction
+Great Indian food and the service is incredible .,"1,2,food quality,0,0,POS,5,5,service general,7,7,POS",acos,extraction
+I would defiantly come back here again as one of my top choices .,"-1,-1,restaurant general,11,12,POS",acos,extraction
+Okay - i do n ' t mind the oily part ( cause most are cooked that way ) but it was way too bland .,"-1,-1,food quality,9,9,NEG,-1,-1,food quality,24,24,NEG",acos,extraction
+The atmosphere is noisy and the waiters are literally walking around doing things as fast as they can .,"1,1,ambience general,3,3,NEG,6,6,service general,14,14,POS",acos,extraction
+it ' s a perfect place to have a amazing indian food .,"10,11,food quality,9,9,POS",acos,extraction
+"The freshest , best variety , and the fastest delivery .","-1,-1,food quality,1,1,POS,-1,-1,food style_options,3,4,POS,9,9,service general,8,8,POS",acos,extraction
+"I found the food , service and value exceptional everytime I have been there .","3,3,food quality,8,8,POS,5,5,service general,8,8,POS,7,7,restaurant prices,8,8,POS",acos,extraction
+"In an area sadly lacking in decent Thai food , this is one of the best spots .","7,8,food quality,6,6,POS",acos,extraction
+I got an excellent piece of cheesecake and we had several other nice pastries .,"6,6,food quality,3,3,POS,13,13,food quality,12,12,POS",acos,extraction
+"This is where it really really gets bad : the manager said , there is absolutely nothing we can do , it ' s a matter of taste that she did n ' t like it , and I can not comp it .","10,10,service general,7,7,NEG",acos,extraction
+THe perfect spot .,"2,2,restaurant general,1,1,POS",acos,extraction
+"Service ok but unfriendly , filthy bathroom .","0,0,service general,3,3,NEG,6,6,ambience general,5,5,NEG",acos,extraction
+"good music , great food , speedy service affordable prices .","1,1,ambience general,0,0,POS,4,4,food quality,3,3,POS,7,7,service general,6,6,POS,-1,-1,restaurant prices,8,8,POS",acos,extraction
+We were planning to get dessert but the waitress basically through the bill at us before we had a chance to order .,"8,8,service general,10,12,NEG",acos,extraction
+We had a great time at the Jekyll and hyde Pub last night .,"7,10,restaurant general,3,4,POS",acos,extraction
+The food is authentic Italian - delicious !,"1,1,food quality,3,4,POS,1,1,food quality,6,6,POS",acos,extraction
+I thanked my friend who recommended me this restaurant and will certainly recommend it to others .,"8,8,restaurant general,12,12,POS",acos,extraction
+Planet Thai is great !,"0,1,restaurant general,3,3,POS",acos,extraction
+"To sum it up : Service varies from good to mediorce , depending on which waiter you get ; generally it is just average Ok .","5,5,service general,6,6,NEU",acos,extraction
+Restaurant with a view,"3,3,location general,1,3,NEU",acos,extraction
+"The food was not fresh , the sauces were bland and very oily .","1,1,food quality,3,4,NEG,7,7,food quality,9,9,NEG,7,7,food quality,12,12,NEG",acos,extraction
+I literally just got back home after visiting Casa La Femme and was so offended by my visit felt it necessary to try and warn other diners who value their money and time .,"8,10,restaurant general,14,14,NEG,8,10,restaurant prices,14,14,NEG",acos,extraction
+This is one of my favorite restaurants and it is not to be missed .,"-1,-1,restaurant general,5,5,POS",acos,extraction
+"Anybody who likes this place must be from a different planet , where greasy , dry and tasteless are complimentary .","-1,-1,food quality,13,13,NEG,-1,-1,food quality,15,15,NEG,-1,-1,food quality,17,17,NEG",acos,extraction
+Rao ' s has the best service and atmosphere in NYC .,"6,6,service general,5,5,POS,8,8,ambience general,5,5,POS",acos,extraction
+Quite simply it ' s like stepping out of Manhattan and into a haven of tranquility .,"-1,-1,ambience general,12,15,POS",acos,extraction
+The place is a lot of fun .,"1,1,ambience general,6,6,POS",acos,extraction
+I have lived in Japan for 7 years and the taste of the food and the feel of the restaurant is like being back in Japan .,"13,13,food quality,21,25,POS,16,16,ambience general,21,25,POS",acos,extraction
+If you like spicy food get the chicken vindaloo .,"7,8,food quality,5,5,POS",acos,extraction
+Decor is nice though service can be spotty .,"0,0,ambience general,2,2,POS,4,4,service general,7,7,NEG",acos,extraction
+"The atmosphere is n ' t the greatest , but I suppose that ' s how they keep the prices down .","1,1,ambience general,2,7,NEG,-1,-1,restaurant prices,17,20,POS",acos,extraction
+I can ' t remember the last time I had such gross food in New York .,"12,12,food quality,11,11,NEG",acos,extraction
+We ate at this Thai place following the reviews but very unhappy with the foods .,"14,14,food quality,11,11,NEG",acos,extraction
+"The pesto pizza was excellent , thin - crust pizza with a nice amount of spicy Italian cheese that I ' d never heard of before .","1,2,food quality,4,4,POS,15,17,food quality,12,12,POS",acos,extraction
+"Food took some time to prepare , all worth waiting for .","0,0,food quality,8,8,POS,-1,-1,service general,1,3,NEU",acos,extraction
+"Regardless , we ' ll be back and can ' t wait to visit in the summer to take advantage of the patio .","-1,-1,restaurant general,5,6,POS",acos,extraction
+"Leon is an East Village gem : casual but hip , with well prepared basic French bistro fare , good specials , a warm and lively atmosphere .","0,0,ambience general,7,7,POS,0,0,ambience general,9,9,POS,20,20,food quality,19,19,POS,26,26,ambience general,23,23,POS,26,26,ambience general,25,25,POS,15,17,food quality,12,13,POS",acos,extraction
+Best meal in a long time !,"1,1,food quality,0,0,POS",acos,extraction
+As always we had a great glass of wine while we waited .,"6,8,drinks quality,5,5,POS",acos,extraction
+Hurley ' s is like Cheers where everyone knows your name and they are ACTUALLY glad you came .,"0,2,service general,15,15,POS",acos,extraction
+overpriced japanese food with mediocre service,"1,2,food prices,0,0,NEG,5,5,service general,4,4,NEU",acos,extraction
+I have been doing all of the above at the Heartland Brewery for over 5 years now and I HAVE NEVER BEEN DISAPPOINTED !,"10,11,restaurant general,20,22,POS",acos,extraction
+We had Pam ' s special fried fish and it was amazing .,"2,7,food quality,11,11,POS",acos,extraction
+The menu is limited but almost all of the dishes are excellent .,"1,1,food style_options,3,3,NEG,9,9,food quality,11,11,POS",acos,extraction
+For each course we waited over 1 / 2 hour to 45 minutes and were never offered a drink .,"-1,-1,service general,4,12,NEG",acos,extraction
+Everything about this restaurant was special .,"3,3,restaurant general,5,5,POS",acos,extraction
+We did arrive late for our reservation so I can not complain too much about the wait for a table .,"16,16,service general,9,13,NEU",acos,extraction
+bad staff,"1,1,service general,0,0,NEG",acos,extraction
+this little place has a cute interior decor and affordable city prices .,"6,7,ambience general,5,5,POS,2,2,restaurant prices,1,1,POS",acos,extraction
+But $ 500 for a dinner for two that didn ' t include Wine ?,"5,7,food prices,9,13,NEG",acos,extraction
+This is a nice restaurant if you are looking for a good place to host an intimate dinner meeting with business associates .,"4,4,restaurant miscellaneous,3,3,POS",acos,extraction
+Try green curry with vegetables .,"1,4,food quality,0,0,POS",acos,extraction
+My boyfriend had the New England Chowder it was good but I think the award should go to the Lobster Bisque .,"4,6,food quality,9,9,POS,19,20,food quality,14,14,POS",acos,extraction
+Love Pizza 33 . . .,"1,2,restaurant general,0,0,POS",acos,extraction
+What a hassle !,"-1,-1,restaurant general,2,2,NEG",acos,extraction
+Poor service and management,"1,1,service general,0,0,NEG,3,3,service general,0,0,NEG",acos,extraction
+And the Tom Kha soup was pathetic .,"2,4,food quality,6,6,NEG",acos,extraction
+The hostess and the waitress were incredibly rude and did everything they could to rush us out .,"1,1,service general,7,7,NEG,4,4,service general,7,7,NEG",acos,extraction
+"On a recent Sunday afternoon , a friend and I accidently found this great restaurant on our way to see the pulitzer prize winning play DOUBT .","14,14,restaurant general,13,13,POS",acos,extraction
+There is something about their atmosphere that makes me come back nearly every week .,"5,5,ambience general,9,10,POS",acos,extraction
+Great Indian food,"1,2,food quality,0,0,POS",acos,extraction
+"THe back garden sitting area is very pleasant , where you can see their personal herb garden .","1,4,ambience general,7,7,POS",acos,extraction
+"The service was terrible , we had to wait for everything and ask several of different people for the same thing before we were allowed to be served .","1,1,service general,3,3,NEG",acos,extraction
+"Oh , and I never write reviews - - I just was so moved by how bad this place was , I felt it was my duty to spread the word .","18,18,restaurant general,16,16,NEG",acos,extraction
+Not a very fancy place but very good Chinese style Indian food .,"4,4,ambience general,3,3,NEU,8,11,food quality,7,7,POS",acos,extraction
+Wonderful strawberry daiquiries as well !,"1,2,drinks quality,0,0,POS",acos,extraction
+The food was lousy - too sweet or too salty and the portions tiny .,"1,1,food quality,3,3,NEG,1,1,food quality,5,6,NEG,1,1,food quality,8,9,NEG,12,12,food style_options,13,13,NEG",acos,extraction
+Although they do the typical what kind of water would you like questions the service was good and overall very relaxing to place to eat .,"14,14,service general,16,16,POS,22,22,ambience general,20,20,POS",acos,extraction
+This was my frist time at Cafe St . Bart ' s and I must say how delicious the food and the service was .,"19,19,food quality,17,17,POS",acos,extraction
+The service was excellent and the food was delicious .,"1,1,service general,3,3,POS,6,6,food quality,8,8,POS",acos,extraction
+"For those that go once and do n ' t enjoy it , all I can say is that they just do n ' t get it .","-1,-1,restaurant miscellaneous,10,10,POS",acos,extraction
+"The bar drinks were Eh , ok to say the least .","1,2,drinks quality,6,6,NEG",acos,extraction
+"Considering we were the last patrons there and it was after the closing time , the waitstaff did not rush us at all and made us feel comfortable and relaxed .","16,16,service general,27,27,POS,16,16,service general,29,29,POS",acos,extraction
+"Great vibe , lots of people .","1,1,ambience general,0,0,POS",acos,extraction
+"This is undoubtedly my favorite modern Japanese brasserie ( that don ’ t serve sushi ) , and in my opinion , one of the most romantic restaurants in the city !","5,7,restaurant general,4,4,POS,5,7,ambience general,26,26,POS",acos,extraction
+The bread we received was horrible - rock hard and cold - and the `` free `` appetizer of olives was disappointing .,"1,1,food quality,5,5,NEG,17,19,food quality,21,21,NEG,17,19,food prices,14,16,NEU",acos,extraction
+"While it is understandable that every place is indeed different , there was not a need to be uncourteous to customers and downright rude .","-1,-1,service general,23,23,NEG",acos,extraction
+The nakgi - bokum was horrible .,"1,3,food quality,5,5,NEG",acos,extraction
+I ate here a week ago and found most dishes average at best and too expensive .,"9,9,food quality,10,10,NEG,9,9,food prices,14,15,NEG",acos,extraction
+They honored reservation on Sunday afternoon very well .,"-1,-1,service general,6,7,POS",acos,extraction
+The hostess was very pleasant .,"1,1,service general,4,4,POS",acos,extraction
+"Skip this restaurant , it ' s a big disappointment .","2,2,restaurant general,0,0,NEG,2,2,restaurant general,9,9,NEG",acos,extraction
+"Service was very good - prompt , attentive and non - intrusive .","0,0,service general,3,3,POS,0,0,service general,5,5,POS,0,0,service general,7,7,POS,0,0,service general,9,11,POS",acos,extraction
+I was there on sat . for my birthday and we had an excellent time .,"-1,-1,restaurant general,13,13,POS",acos,extraction
+"La Rosa waltzes in , and I think they are doing it the best .","0,1,food quality,13,13,POS",acos,extraction
+"Toons has recently been redone , so it ' s now a very attractive space .","0,0,ambience general,13,13,POS",acos,extraction
+Sushi experience was unbelievable with my fiance .,"0,0,food quality,3,3,POS",acos,extraction
+"I don ’ t usually visit the same establishment more than once , what more twice , but I ’ ll come to Zenkichi anytime for a quiet , unhurried and memorable dinner .","23,23,restaurant general,21,24,POS,23,23,ambience general,27,27,POS,23,23,ambience general,29,29,POS,23,23,ambience general,31,31,POS",acos,extraction
+I highly recommend Caviar Russe to anyone who wants delicious top grade caviar and fantastic service .,"12,12,food quality,9,11,POS,15,15,service general,14,14,POS",acos,extraction
+"We left , never to return .","-1,-1,restaurant general,3,5,NEG",acos,extraction
+These are overpriced and you can get better just around the corner :,"-1,-1,food prices,2,2,NEG,-1,-1,food quality,5,7,NEG",acos,extraction
+Go there once and oh yes . . . you will go back . . . you will . . .,"-1,-1,restaurant general,11,12,POS",acos,extraction
+"The Steak Tartare is a great bet , they fix it for you at the table .","1,2,food style_options,5,5,POS",acos,extraction
+"I like Cafe Noir dont get me wrong , it is jsut that the people who work there are evil and incompetent ! !","14,14,service general,19,19,NEG,14,14,service general,21,21,NEG,2,3,restaurant general,1,1,POS",acos,extraction
+It ' s very spicy but not offensive .,"-1,-1,food quality,6,7,POS",acos,extraction
+First of all Dal Bukhara Rocks .,"3,4,food quality,5,5,POS",acos,extraction
+"However , our $ 14 drinks were were horrible !","5,5,drinks quality,8,8,NEG,5,5,drinks prices,8,8,NEG",acos,extraction
+"No desert menu , no apology , nothing ! ! ! ! ! !","-1,-1,service general,4,5,NEG",acos,extraction
+"This is some really good , inexpensive sushi .","7,7,food quality,4,4,POS,7,7,food prices,6,6,POS",acos,extraction
+I ' ve been there three times and have always had wonderful experiences .,"-1,-1,restaurant general,11,11,POS",acos,extraction
+"Took my mom for Mother ' s Day , and the maitre d ' was pretty rude .","11,13,service general,16,16,NEG",acos,extraction
+"However , go for the ambience , and consider the food just a companion for a trip across the world !","10,10,food quality,12,19,NEU",acos,extraction
+Probably would not go back here .,"-1,-1,restaurant general,1,4,NEG",acos,extraction
+Just want to warn you all - do n ' t waste your time and money .,"-1,-1,restaurant general,11,11,NEG",acos,extraction
+The filet mignon dish was superb !,"1,3,food quality,5,5,POS",acos,extraction
+The only downside . . . they only take cash which is OK if you know about it ahead of time .,"-1,-1,restaurant miscellaneous,2,2,NEG",acos,extraction
+"The service is ok , some of the people did n ' t get what they asked for .","1,1,service general,3,3,NEU",acos,extraction
+I have never before eaten 40 pieces of relatively good nigiri .,"10,10,food quality,9,9,NEU",acos,extraction
+It is expensive but well worth the money .,"-1,-1,restaurant prices,2,2,NEG,-1,-1,restaurant general,4,5,POS",acos,extraction
+The place ' s decor and hidden bathrooms made for a good laugh .,"4,4,ambience general,11,12,POS,6,7,ambience general,11,12,POS",acos,extraction
+The lobster sandwich is $ 24 and although it was good it was not nearly enough to warrant that price .,"1,2,food quality,10,10,POS,1,2,food prices,13,19,NEG",acos,extraction
+"The food is very good , but not outstanding .","1,1,food quality,4,4,NEU",acos,extraction
+Downstairs lounge is always a good attraction,"0,1,ambience general,5,6,POS",acos,extraction
+The spicy Tuna roll is huge and probably the best that I ' ve had at this price range .,"1,3,food style_options,5,5,POS,1,3,food quality,9,9,POS,1,3,food prices,9,9,POS",acos,extraction
+"The chicken lollipop is my favorite , most of the dishes ( I have to agree with a previous reviewer ) are quite oily and very spicy , espeically the Chilli Chicken .","1,2,food quality,5,5,POS,10,10,food quality,23,23,NEG,10,10,food quality,26,26,NEG,30,31,food quality,23,23,NEG,30,31,food quality,26,26,NEG",acos,extraction
+"Can ' t argue about that , but they are clearly over priced .","-1,-1,food prices,11,12,NEG",acos,extraction
+"One special roll and one regular roll is enough to fill you up , but save room for dessert !","18,18,food quality,15,16,POS,1,2,food style_options,8,8,POS,5,6,food style_options,8,8,POS",acos,extraction
+We were then shooed inside .,"-1,-1,service general,3,3,NEG",acos,extraction
+"Inexpensive , unassuming , great time !","-1,-1,restaurant prices,0,0,POS,-1,-1,ambience general,2,2,POS,-1,-1,restaurant general,4,4,POS",acos,extraction
+The hanger steak was like rubber and the tuna was flavorless not to mention it tasted like it had just been thawed .,"1,2,food quality,5,5,NEG,8,8,food quality,10,10,NEG",acos,extraction
+Excellent spot for holiday get togethers with co - workers or friends that you have n ' t seen in a while .,"1,1,restaurant miscellaneous,0,0,POS",acos,extraction
+"Small servings for main entree , i had salmon ( wasnt impressed ) girlfriend had chicken , it was good .","8,8,food quality,10,11,NEG,15,15,food quality,19,19,POS,1,4,food general,0,0,NEG",acos,extraction
+It was divine melts in your mouth .,"-1,-1,food quality,2,2,POS",acos,extraction
+Terrible Waste of money . . scammers,"-1,-1,restaurant general,0,0,NEG,-1,-1,restaurant prices,1,3,NEG",acos,extraction
+Love it .,"-1,-1,restaurant general,0,0,POS",acos,extraction
+You will not be disapointed at all .,"-1,-1,restaurant general,1,4,POS",acos,extraction
+Everything was going good until we got our meals .,"-1,-1,restaurant general,3,3,POS",acos,extraction
+"I ' ve also been amazed at all the new additions in the past few years : A new Jazz Bar , the most fantastic Dining Garden , the Best Thin Crust Pizzas , and now a Lasagna Menu which is to die for ( these are not your average lasagnas ) !","25,26,ambience general,24,24,POS,19,20,ambience general,9,9,POS,30,32,food quality,29,29,POS,37,38,food quality,42,43,POS",acos,extraction
+"After dinner the manager grabbed my boyfriend , asked him : Where are you from . . . maybe you dont know how things work in America . . . and in the end stormed away almost teareyed yelling that tips are the only thing they survive on .","3,3,service general,38,38,NEG",acos,extraction
+The restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal,"22,22,food quality,19,19,POS,22,22,food quality,21,21,POS,1,1,ambience general,5,5,NEG",acos,extraction
+Do n ' t miss Bloom ' s on your next trip to Manhatten .,"5,7,restaurant general,4,4,POS",acos,extraction
+The food was good .,"1,1,food quality,3,3,POS",acos,extraction
+"Two complaints - - their appetizer selection stinks , it would be nice to get some mozzarella sticks on the menu .","5,6,food style_options,1,1,NEG",acos,extraction
+"$ 6 and there is much tasty food , all of it fresh and continually refilled .","7,7,food quality,6,6,POS,7,7,food quality,12,12,POS,7,7,food prices,15,15,POS",acos,extraction
+The exotic food is beautifully presented and is a delight in delicious combinations .,"1,2,food style_options,4,5,POS,1,2,food quality,9,9,POS",acos,extraction
+"The food we ordered was excellent , although I would n ' t say the margaritas were anything to write home about .","1,1,food quality,5,5,POS,15,15,drinks quality,17,21,NEU",acos,extraction
+What we did do was waste 3 hours being trapped in a table waiting and waiting for food and drinks and hooka . . some of which we never received !,"-1,-1,service general,28,29,NEG",acos,extraction
+But the pizza is way to expensive .,"2,2,food prices,6,6,NEG",acos,extraction
+"Just straight up cheap , good food .","6,6,food quality,5,5,POS,6,6,food prices,3,3,POS",acos,extraction
+This dish is my favorite and I always get it when I go there and never get tired of it .,"1,1,food quality,4,4,POS",acos,extraction
+$ 20 for all you can eat sushi can not be beaten .,"3,7,food prices,11,11,POS",acos,extraction
+We even had a visit from the Manager who wanted to make sure we were enjoying ourselves .,"7,7,service general,15,15,POS",acos,extraction
+"I was shocked that my friends wanted to stay after the waitress said , `` can I help you `` and `` how many are in your party . ``","11,11,service general,2,2,NEG",acos,extraction
+You must have the crabmeat lasagna which is out of this world and the chocolate bread pudding for dessert .,"4,5,food quality,8,11,POS",acos,extraction
+"its just a fun place to go , not a five star restaraunt .","12,12,restaurant general,10,11,NEU",acos,extraction
+Staff is very accomodating .,"0,0,service general,3,3,POS",acos,extraction
+"He served me an Uni Hand roll , which I never had before , and let me tell you . . . IT WAS HEAVEN !","4,6,food quality,24,24,POS",acos,extraction
+"We had fun eating in there , we were there like around 3 a . m . in the morning !","-1,-1,restaurant general,1,2,POS",acos,extraction
+Will prob . not return but it is a great dinning experience to try atleast once .,"-1,-1,restaurant general,3,4,NEG,-1,-1,restaurant general,9,9,POS",acos,extraction
+Great sushi experience .,"1,1,food quality,0,0,POS",acos,extraction
+Great pizza and fantastic service .,"1,1,food quality,0,0,POS,4,4,service general,3,3,POS",acos,extraction
+"On our last visit , they skipped over our name on the list , leaving us waiting an extra hour for a table .","-1,-1,service general,16,19,NEG",acos,extraction
+Have been dozens of times and never failed to enjoy the experience .,"-1,-1,restaurant general,9,9,POS",acos,extraction
+I ' m glad I was introduced to this place and this is a rare gem in NY .,"9,9,restaurant general,3,3,POS",acos,extraction
+Easily the worst stir - fried squid I ' ve ever tasted .,"3,6,food quality,2,2,NEG",acos,extraction
+With the theater 2 blocks away we had a delicious meal in a beautiful room .,"10,10,food quality,9,9,POS,14,14,ambience general,13,13,POS,-1,-1,location general,3,5,POS",acos,extraction
+"But nonetheless - - great spot , great food .","5,5,restaurant general,4,4,POS,8,8,food quality,4,4,POS",acos,extraction
+"Our visit their to say the least , was an unpleasant and costly experience !","-1,-1,restaurant general,10,10,NEG,-1,-1,restaurant prices,12,12,NEG",acos,extraction
+Consistently good Japanese Tapas .,"2,3,food quality,1,1,POS",acos,extraction
+The food is prepared quickly and efficiently .,"-1,-1,service general,4,4,POS,-1,-1,service general,6,6,POS",acos,extraction
+It is simply amazing .,"-1,-1,food quality,3,3,POS",acos,extraction
+"If you go , try the marinara / arrabiatta sauce , the mozzarella en Carozza is mmmmmmmm . . . . . everything is just delicious .","6,9,food quality,4,4,POS,6,9,food quality,25,25,POS,12,14,food quality,25,25,POS,-1,-1,food quality,25,25,POS",acos,extraction
+The pizza was pretty good and huge .,"1,1,food quality,4,4,POS,1,1,food style_options,6,6,POS",acos,extraction

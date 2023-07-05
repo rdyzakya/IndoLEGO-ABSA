@@ -1,0 +1,487 @@
+input,output,se_order,paradigm
+"The ambience was so fun , and the prices were great , on top of the fact that the food was really tasty .","( ambience , ambience general , fun , positive ) ; ( NULL , restaurant prices , great , positive ) ; ( food , food quality , tasty , positive )",acos,extraction
+"Eating in , the atmosphere saves it , but at your desk , it ' s a very disappointing experience .","( atmosphere , ambience general , saves , positive ) ; ( NULL , restaurant general , disappointing , negative )",acos,extraction
+keep up the good work .,"( NULL , restaurant general , good , positive )",acos,extraction
+"The fish was adequate , but inexpertly sliced .","( fish , food style_options , adequate , negative ) ; ( fish , food style_options , inexpertly sliced , negative )",acos,extraction
+Try sushimi cucumber roll .,"( sushimi cucumber roll , food quality , Try , positive )",acos,extraction
+The sushi seemed pretty fresh and was adequately proportioned .,"( sushi , food quality , fresh , positive ) ; ( sushi , food style_options , proportioned , positive )",acos,extraction
+"The food is very average . . . the Thai fusion stuff is a bit too sweet , every thing they serve is too sweet here .","( food , food quality , average , negative ) ; ( Thai fusion stuff , food quality , too sweet , negative ) ; ( NULL , food quality , too sweet , negative )",acos,extraction
+"Terrible , terrible management - deserves to be shut - down .","( management , service general , Terrible , negative ) ; ( management , service general , terrible , negative ) ; ( NULL , restaurant general , deserves to be shut - down , negative )",acos,extraction
+I am relatively new to the area and tried Pick a bgel on 2nd and was disappointed with the service and I thought the food was overated and on the pricey side .,"( service , service general , disappointed , negative ) ; ( food , food prices , pricey , negative ) ; ( food , food quality , overated , negative )",acos,extraction
+"The quantity is also very good , you will come out satisfied .","( quantity , food style_options , good , positive ) ; ( quantity , food style_options , satisfied , positive )",acos,extraction
+Not enough wines by the glass either .,"( wines by the glass , drinks style_options , Not enough , negative )",acos,extraction
+"but when we looked at the menu , there weren ' t a lot of choices , most of them were dumplings in the appetizer section .","( menu , food style_options , weren ' t a lot of choices , negative )",acos,extraction
+"The kitchen however , is almost always slow .","( kitchen , service general , slow , negative )",acos,extraction
+Awsome Pizza especially the Margheritta slice .,"( Pizza , food quality , Awsome , positive ) ; ( Margheritta slice , food quality , Awsome , positive )",acos,extraction
+"The food however , is what one might expect .","( food , food quality , expect , negative )",acos,extraction
+I would say that all was fine and tasty but the heaviness on my stomach someting that i ca n ' t not mention or undermine .,"( NULL , food quality , the heaviness on my stomach someting that i ca n ' t not mention or undermine , negative )",acos,extraction
+It ' s simply the best meal in NYC .,"( meal , food quality , best , positive )",acos,extraction
+"From the spectacular caviar to the hospitable waitstaff , I felt like royalty and enjoyed every second of it .","( caviar , food quality , spectacular , positive ) ; ( caviar , food quality , enjoyed , positive ) ; ( waitstaff , service general , hospitable , positive ) ; ( waitstaff , service general , enjoyed , positive )",acos,extraction
+"The entree was bland and small , dessert was not inspired .","( entree , food quality , bland , negative ) ; ( entree , food style_options , small , negative ) ; ( dessert , food quality , not inspired , negative )",acos,extraction
+"The spicy tuna roll was unusually good and the rock shrimp tempura was awesome , great appetizer to share !","( spicy tuna roll , food quality , good , positive ) ; ( rock shrimp tempura , food quality , awesome , positive )",acos,extraction
+"The decor in this place is very diner - ish and the kind of place you expect in the East Village - not romantic , just simple , small and sparse .","( decor , ambience general , diner - ish , neutral )",acos,extraction
+The pizza is delicious and the proprietor is one of the nicest in NYC .,"( pizza , food quality , delicious , positive ) ; ( proprietor , service general , nicest , positive )",acos,extraction
+"The place is small and intimate and you may feel a little crowded , but the service is excellent and it ' s great for friends out , a romantic date , or a special occassion .","( service , service general , excellent , positive ) ; ( place , ambience general , crowded , negative ) ; ( place , restaurant miscellaneous , small , positive ) ; ( place , restaurant miscellaneous , intimate , positive )",acos,extraction
+I have been coming here for years and have nothing but good things to say about the service and the great staff at La Lanterna .,"( service , service general , good , positive ) ; ( staff , service general , great , positive )",acos,extraction
+"The signs , the specials menus , food , and even all the waitstaff are ALL TOTALLY Japanese .","( signs , restaurant miscellaneous , Japanese , positive ) ; ( specials menus , food style_options , Japanese , positive ) ; ( food , food quality , Japanese , positive ) ; ( waitstaff , service general , Japanese , positive )",acos,extraction
+The wine list is excellent .,"( wine list , drinks style_options , excellent , positive )",acos,extraction
+The setting is casual and romantic .,"( setting , ambience general , casual , positive ) ; ( setting , ambience general , romantic , positive )",acos,extraction
+Nice value .,"( NULL , restaurant prices , Nice value , positive )",acos,extraction
+It just was n ' t Thai .,"( NULL , food quality , was n ' t Thai , negative )",acos,extraction
+"Average to good Thai food , but terrible delivery .","( Thai food , food quality , Average to good , positive ) ; ( delivery , service general , terrible , negative )",acos,extraction
+Zero ambiance to boot .,"( ambiance , ambience general , Zero , negative )",acos,extraction
+A restaurant that does n ' t try to do anything except serve great food with great service in a pleasant atmosphere .,"( food , food quality , great , positive ) ; ( service , service general , great , positive ) ; ( atmosphere , ambience general , pleasant , positive )",acos,extraction
+"The atmosphere is unheralded , the service impecible , and the food magnificant .","( atmosphere , ambience general , unheralded , positive ) ; ( service , service general , impecible , positive ) ; ( food , food quality , magnificant , positive )",acos,extraction
+"The fish was really , really fresh .","( fish , food quality , fresh , positive )",acos,extraction
+The owner truly caters to all your needs .,"( owner , service general , caters to all your needs , positive )",acos,extraction
+I had never had Edamame pureed before but I thought it was innovative and tasty ( could ' ve used a bit more salt ) .,"( Edamame pureed , food quality , tasty , positive ) ; ( Edamame pureed , food style_options , innovative , positive )",acos,extraction
+I will be going back very soon .,"( NULL , restaurant general , going back , positive )",acos,extraction
+"Guacamole + shrimp appetizer was really great , we both had the filet , very good , did n ' t much like the frites that came with , but the filet was so good , neither of us cared .","( Guacamole + shrimp appetizer , food quality , great , positive ) ; ( filet , food quality , good , positive ) ; ( frites , food quality , did n ' t much like , negative )",acos,extraction
+"The food is decent at best , and the ambience , well , it ' s a matter of opinion , some may consider it to be a sweet thing , I thought it was just annoying .","( food , food quality , decent , negative ) ; ( ambience , ambience general , annoying , negative )",acos,extraction
+Save yourself the time and trouble and skip this one !,"( NULL , restaurant general , skip , negative )",acos,extraction
+"Luckily we saved room for the BBQ Salmon , Sea Bass and Crispy Duck .","( BBQ Salmon , food quality , Luckily , positive ) ; ( Sea Bass , food quality , Luckily , positive ) ; ( Crispy Duck , food quality , Luckily , positive )",acos,extraction
+The food looked very appetizing and delicious since it came on a variety of fancy plates .,"( food , food style_options , appetizing , positive ) ; ( food , food style_options , delicious , positive )",acos,extraction
+This is a nice pizza place with good selection of thin crust pizza including the Basil slice .,"( selection of thin crust pizza , food style_options , good , positive ) ; ( selection of thin crust pizza , food quality , good , positive ) ; ( pizza place , restaurant general , nice , positive ) ; ( Basil slice , food quality , good , positive )",acos,extraction
+Prices are in line .,"( NULL , restaurant prices , in line , neutral )",acos,extraction
+Everything we had was good or ok . . . but definitely nothing great .,"( NULL , food quality , nothing great , neutral )",acos,extraction
+It is a lot of fun with live entertainment and all kinds of Disney type special effects .,"( NULL , ambience general , fun , positive )",acos,extraction
+"The staff was accomodating , the food was absolutely delicious and the place is lovely .","( staff , service general , accomodating , positive ) ; ( food , food quality , delicious , positive ) ; ( place , ambience general , lovely , positive )",acos,extraction
+Fish is so very fresh .,"( Fish , food quality , fresh , positive )",acos,extraction
+We will be back .,"( NULL , restaurant general , be back , positive )",acos,extraction
+All the people that I bring there go back on their own and bring THEIR friends !,"( NULL , restaurant miscellaneous , go back , positive )",acos,extraction
+This tiny Williamsburg spot is always pleasantly surprising .,"( Williamsburg spot , restaurant general , surprising , positive )",acos,extraction
+"Quite frankly , this is some of the worst sushi I have ever tried .","( sushi , food quality , worst , negative )",acos,extraction
+Service is fast and friendly .,"( Service , service general , fast , positive ) ; ( Service , service general , friendly , positive )",acos,extraction
+"The portions are HUGE , so it might be good to order three things to split ( rather than one appetizer and entree per person ) for two people .","( portions , food style_options , HUGE , neutral )",acos,extraction
+Thank You Emilio .,"( Emilio , restaurant general , Thank You , positive )",acos,extraction
+"The pasta penne was pretty extra buttery , creamy which means a big task to diggest . . tasty at first but i would say that i was full with a slice of pizza and 7 to count , penne . . . got a little moody afterwards cause was stuffed . . . lol","( pasta penne , food quality , extra buttery , negative ) ; ( pasta penne , food style_options , moody , negative )",acos,extraction
+The place is a BISTRO which means : simple dishes and wine served efficiently in a bustling atmosphere .,"( dishes , food style_options , simple , positive ) ; ( NULL , service general , served efficiently , positive ) ; ( atmosphere , ambience general , bustling , positive )",acos,extraction
+"I have known about this secret for the last 13 years , Emilio ( the Godfather ) has continued to serve food and wine for the gods at mortal prices .","( food , food quality , gods , positive ) ; ( wine , drinks quality , gods , positive ) ; ( food , food prices , mortal , positive ) ; ( wine , drinks prices , mortal , positive )",acos,extraction
+bottles of wine are cheap and good .,"( bottles of wine , drinks prices , cheap , positive ) ; ( bottles of wine , drinks quality , good , positive )",acos,extraction
+Our family never expected such incredible entertainment in a restaurant .,"( entertainment , ambience general , incredible , positive )",acos,extraction
+I almost hesititate to write a review because the atmosphere was so great and I would hate for it too become to crowded .,"( atmosphere , ambience general , great , positive )",acos,extraction
+The place is so cool and the service is prompt and curtious .,"( service , service general , prompt , positive ) ; ( service , service general , curtious , positive ) ; ( place , ambience general , cool , positive )",acos,extraction
+I would highly recommend this place !,"( place , restaurant general , recommend , positive )",acos,extraction
+Faan is sooo good .,"( Faan , restaurant general , good , positive )",acos,extraction
+"The ambience was nice , but service was n ' t so great .","( ambience , ambience general , nice , positive ) ; ( service , service general , was n ' t so great , negative )",acos,extraction
+Definitely a neighborhood favorite .,"( NULL , restaurant general , favorite , positive )",acos,extraction
+Make sure you try this place as often as you can .,"( place , restaurant general , try , positive )",acos,extraction
+"If you are the type of person who likes being scared and entertained , this is a great place to go and eat .","( place , restaurant miscellaneous , great , positive )",acos,extraction
+"I have reservations about the all you can eat deal , however - - the choices are fairly limited and you can probably order more food than you can eat for less than $ 18 by just going off the menu .","( all you can eat deal , food style_options , limited , negative ) ; ( all you can eat deal , food prices , limited , negative )",acos,extraction
+"The svc can be a bit rude at times , esp if you have big group , but overall the restaurant is a must !","( svc , service general , rude , negative ) ; ( restaurant , restaurant general , must , positive )",acos,extraction
+"I have eaten at Saul , many times , the food is always consistently , outrageously good .","( food , food quality , good , positive )",acos,extraction
+I fell in love with the egg noodles in the beef broth with shrimp dumplings and slices of BBQ roast pork .,"( egg noodles in the beef broth with shrimp dumplings and slices of BBQ roast pork , food quality , love , positive )",acos,extraction
+LLOOVVE THIS PLACE .,"( PLACE , restaurant general , LLOOVVE , positive )",acos,extraction
+This place is incredibly tiny .,"( place , ambience general , tiny , negative )",acos,extraction
+Problem is nothing at Prune is particularly memorable .,"( Prune , restaurant general , memorable , negative )",acos,extraction
+"delicious bagels , especially when right out of the oven .","( bagels , food quality , delicious , positive )",acos,extraction
+This restaurant was way overhyped .,"( restaurant , restaurant general , overhyped , negative )",acos,extraction
+"A gentleman , maybe the manager , came to our table , and without so much as a smile or greeting asked for our order .","( gentleman , service general , without so much as a smile or greeting , negative )",acos,extraction
+The food is great .,"( food , food quality , great , positive )",acos,extraction
+"Fabulous decor - makes you feel like you ' re in a trendy Manhattan restaurant , very very good food , cheaply - priced , generally friendly staff , and if you ' re a Manhattanite , or spend most of your time in Manhattan , Rice Avenue will make you feel at home . . . . . very Soho / Village / Upper West Side minus the expensive prices and pretentious clientele . . . . . all on Roosevelt Avenue !","( decor , ambience general , Fabulous , positive ) ; ( food , food quality , good , positive ) ; ( food , food prices , cheaply - priced , positive ) ; ( staff , service general , friendly , positive ) ; ( Rice Avenue , ambience general , feel at home , positive ) ; ( Rice Avenue , location general , very Soho / Village / Upper West Side , positive ) ; ( Rice Avenue , restaurant prices , minus the expensive prices , positive )",acos,extraction
+The food is a diamond in rough - - the food is delicious and homemade with the perfect balance of herbs and tomatoes .,"( food , food quality , diamond , positive ) ; ( balance of herbs and tomatoes , food quality , perfect , positive )",acos,extraction
+The buffet had a nice selection .,"( buffet , food style_options , nice , positive )",acos,extraction
+"One would think we ' d get an apology or complimentary drinks - instead , we got a snobby waiter would n ' t even take our order for 15 minutes and gave us lip when we asked him to do so .","( waiter , service general , snobby , negative )",acos,extraction
+The food is tasty and portion sizes are appropriate .,"( food , food quality , tasty , positive ) ; ( portion sizes , food style_options , appropriate , positive )",acos,extraction
+Much of the time it seems like they do not care about you .,"( NULL , service general , do not care about you , negative )",acos,extraction
+We will go back every time we are in the City .,"( NULL , restaurant general , go back , positive )",acos,extraction
+I have to highly recommend the lobster roll - not to much mayo ; you can tell it was a fresh lobster .,"( lobster roll , food quality , recommend , positive ) ; ( lobster , food quality , fresh , positive )",acos,extraction
+Thius is a must for anyone who loves Shabu - Shabu .,"( Shabu - Shabu , food quality , loves , positive )",acos,extraction
+Prices are very good .,"( NULL , restaurant prices , good , positive )",acos,extraction
+A pleasant surprise .,"( NULL , restaurant general , pleasant surprise , positive )",acos,extraction
+"The first time I went , and was completely taken by the live jazz band and atmosphere , I ordered the Lobster Cobb Salad .","( live jazz band , ambience general , taken , positive ) ; ( atmosphere , ambience general , taken , positive )",acos,extraction
+"The food is yummy , especially their cooked - to - perfection mussels in spicy tomato sauce and their shoestring crispy fries .","( food , food quality , yummy , positive ) ; ( mussels in spicy tomato sauce , food quality , yummy , positive ) ; ( mussels in spicy tomato sauce , food quality , cooked - to - perfection , positive ) ; ( fries , food quality , yummy , positive ) ; ( fries , food quality , crispy , positive )",acos,extraction
+Try their chef ' s specials - - they are to die for .,"( chef ' s specials , food quality , Try , positive ) ; ( chef ' s specials , food quality , die for , positive )",acos,extraction
+Great atmoshere and worth every bit .,"( atmoshere , ambience general , Great , positive ) ; ( NULL , restaurant general , worth , positive )",acos,extraction
+"However , I think Jeckll and Hydes t is one of those places that is fun to do once .","( Jeckll and Hydes , restaurant general , fun , positive )",acos,extraction
+We were very disappointed .,"( NULL , food quality , disappointed , negative )",acos,extraction
+"The tables are crammed way too close , the menu is typical of any Italian restaurant , and the wine list is simply overpriced .","( tables , ambience general , crammed , negative ) ; ( tables , ambience general , too close , negative ) ; ( menu , food style_options , typical , neutral ) ; ( wine list , drinks prices , overpriced , negative )",acos,extraction
+"If we were to move from the upper east side , we would genuinely miss this restaurant .","( restaurant , restaurant general , miss , positive )",acos,extraction
+Tiny dessert was $ 8 . 00 . . . just plain overpriced for what it is .,"( dessert , food quality , plain , negative ) ; ( dessert , food style_options , Tiny , negative ) ; ( dessert , food prices , overpriced , negative )",acos,extraction
+The place is small and cramped but the food is fantastic .,"( place , ambience general , small , negative ) ; ( place , ambience general , cramped , negative ) ; ( food , food quality , fantastic , positive )",acos,extraction
+and yes Dal Bukhara is so dam good and so are all the kababs .,"( kababs , food quality , good , positive ) ; ( Dal Bukhara , food quality , good , positive )",acos,extraction
+Warning : You may find it difficult to dine at other Japanese restaurants after a visit to Mizu !,"( Mizu , restaurant general , difficult , positive )",acos,extraction
+No gimmicks here - - the food speaks for itself in its freshness and preparation .,"( food , food quality , freshness , positive )",acos,extraction
+Guaranteed to be a tasty experience ! ),"( NULL , drinks quality , tasty , positive )",acos,extraction
+but overall i give it a 10,"( NULL , restaurant general , give it a 10 , positive )",acos,extraction
+Would NEVER go back there .,"( NULL , restaurant general , NEVER go back , negative )",acos,extraction
+Great neighborhood joint .,"( joint , restaurant general , Great , positive )",acos,extraction
+"The decor is vibrant and eye - pleasing with several semi - private boths on the right side of the dining hall , which are great for a date .","( decor , ambience general , vibrant , positive ) ; ( decor , ambience general , eye - pleasing , positive ) ; ( semi - private boths , ambience general , great , positive )",acos,extraction
+The worst excuse for Japanese food I ' ve ever encountered .,"( NULL , restaurant miscellaneous , worst , negative )",acos,extraction
+Be sure not to get anything other than bagels ! . .,"( NULL , food quality , not to get anything , negative )",acos,extraction
+Check out the secret back room .,"( back room , ambience general , secret , positive )",acos,extraction
+This quaint and romantic trattoria is at the top of my Manhattan restaurant list .,"( trattoria , ambience general , quaint , positive ) ; ( trattoria , restaurant general , romantic , positive )",acos,extraction
+Enjoyed a very nice Caesar Salad while my wife had arugula and goat cheese . . . both very tasty .,"( Caesar Salad , food quality , Enjoyed , positive ) ; ( Caesar Salad , food quality , nice , positive ) ; ( arugula and goat cheese , food quality , tasty , positive )",acos,extraction
+I had a great experience .,"( NULL , restaurant general , great , positive )",acos,extraction
+"They do n ' t concern much of customer ' s health , just want to make money .","( NULL , restaurant miscellaneous , do n ' t concern much , negative )",acos,extraction
+"We ordered the special , grilled branzino , that was so infused with bone , it was difficult to eat .","( grilled branzino , food quality , difficult to eat , negative )",acos,extraction
+please do n ' t fool us .,"( NULL , restaurant miscellaneous , fool , negative )",acos,extraction
+"Do n ' t judge this place prima facie , you have to try it to believe it , a home away from home for the literate heart .","( place , restaurant general , try it to believe it , positive )",acos,extraction
+The cold appetizer dishes taste like the way I remember them to taste when I was growing up in Taiwan .,"( cold appetizer dishes , food quality , like the way I remember them , positive )",acos,extraction
+"With the great variety on the menu , I eat here often and never get bored .","( menu , food style_options , great variety , positive )",acos,extraction
+"i know , you were too busy showing off your vintage tee shirt and looking bored , but my agenda is i ' m here to eat and enjoy the company of friends , seeking a pleasant experience .","( NULL , service general , bored , negative )",acos,extraction
+"Food was just average . . . if they lowered the prices just a bit , it would be a bigger draw .","( Food , food quality , average , neutral )",acos,extraction
+"The last two times I ordered from here my food was soo spicy that I could barely eat it , and the spice took away from the flavor of the dish .","( food , food quality , spicy , negative ) ; ( spice , food quality , could barely eat it , negative )",acos,extraction
+We will return many times for this oasis in mid - town .,"( NULL , restaurant general , return , positive )",acos,extraction
+"Great wine selection , Gigondas is worth the price , and the house champagne is a great value .","( wine selection , drinks style_options , Great , positive ) ; ( Gigondas , drinks quality , worth the price , positive ) ; ( house champagne , drinks prices , great value , positive )",acos,extraction
+I thought I had died and gone to heaven .,"( NULL , food quality , heaven , positive )",acos,extraction
+Friendly staff that actually lets you enjoy your meal and the company you ' re with .,"( staff , service general , Friendly , positive )",acos,extraction
+"The vibe is very relaxed and cozy , service was great and the food was excellent !","( vibe , ambience general , relaxed , positive ) ; ( vibe , ambience general , cozy , positive ) ; ( service , service general , great , positive ) ; ( food , food quality , excellent , positive )",acos,extraction
+It ' s definately not a place to go if you want to impress someone .,"( place , restaurant miscellaneous , impress , negative )",acos,extraction
+"My husband and I thougt it would be great to go to the Jekyll and Hyde Pub for our anniversary , and to our surprise it was fantastic .","( Jekyll and Hyde Pub , restaurant general , great , positive ) ; ( Jekyll and Hyde Pub , restaurant general , fantastic , positive )",acos,extraction
+An excellent service,"( service , service general , excellent , positive )",acos,extraction
+I heartily recommend .,"( NULL , restaurant general , recommend , positive )",acos,extraction
+This is the kind of place you ' d like to take all your friends to and still keep a secret .,"( place , restaurant miscellaneous , like , positive )",acos,extraction
+"Well , this place is so Ghetto its not even funny .","( place , ambience general , Ghetto , negative ) ; ( place , ambience general , not even funny , negative )",acos,extraction
+Authentic Shanghai style and I can not recommend a better Shanghai place in New York .,"( NULL , restaurant miscellaneous , can not recommend a better , positive )",acos,extraction
+It was $ 14 not really bad for a pound of Pastrami - but it did n ' t have much taste - I ' ve had better for less elsewhere !,"( NULL , food prices , not really bad , neutral ) ; ( NULL , food quality , did n ' t have much taste , negative )",acos,extraction
+If you want good authentic Thai this place is not the place to go .,"( Thai , food quality , good authentic , negative )",acos,extraction
+"Have recommended the place to friends , always gets good response .","( place , restaurant miscellaneous , recommended , positive )",acos,extraction
+this is can became on e of the NY Italian Food fare institutions .,"( NULL , restaurant general , fare institutions , positive )",acos,extraction
+"The food is good , especially their more basic dishes , and the drinks are delicious .","( food , food quality , good , positive ) ; ( basic dishes , food quality , good , positive ) ; ( drinks , drinks quality , delicious , positive )",acos,extraction
+"The ambience is pretty and nice for conversation , so a casual lunch here would probably be best .","( ambience , ambience general , pretty , positive ) ; ( ambience , ambience general , nice , positive ) ; ( NULL , restaurant miscellaneous , best , positive )",acos,extraction
+And amazingly cheap .,"( NULL , food prices , cheap , positive )",acos,extraction
+"Love the scene first off - the place has a character and nice light to it . . very fortunate , location wise .","( scene , ambience general , Love , positive ) ; ( place , ambience general , nice , positive ) ; ( location , location general , fortunate , positive )",acos,extraction
+I started out with a Bombay beer which was big enough for two .,"( Bombay beer , drinks style_options , big , positive )",acos,extraction
+She was very helpful in suggesting us drinks and helped us in ordering a lot of good dishes since we knew nothing about Indian food .,"( NULL , service general , helpful , positive ) ; ( dishes , food quality , good , positive )",acos,extraction
+I also recommend the rice dishes or the different varieties of congee ( rice porridge ) .,"( rice dishes , food quality , recommend , positive ) ; ( congee ( rice porridge ) , food quality , recommend , positive )",acos,extraction
+My six year old loved it .,"( NULL , restaurant general , loved , positive )",acos,extraction
+"While the ambiance and atmosphere were great , the food and service could have been a lot better .","( ambiance , ambience general , great , positive ) ; ( atmosphere , ambience general , great , positive ) ; ( food , food quality , could have been a lot better , negative ) ; ( service , service general , could have been a lot better , negative )",acos,extraction
+It was wonderful .,"( NULL , drinks quality , wonderful , positive )",acos,extraction
+Me and my girls will definitely go back .,"( NULL , restaurant general , go back , positive )",acos,extraction
+What a great place .,"( place , restaurant general , great , positive )",acos,extraction
+"Interesting selection , good wines , service fine , fun decor .","( wines , drinks quality , good , positive ) ; ( service , service general , fine , positive ) ; ( decor , ambience general , fun , positive ) ; ( selection , food style_options , Interesting , positive )",acos,extraction
+Service was slow had to wait to order and get food although not crowded .,"( Service , service general , slow , negative )",acos,extraction
+Even after they overcharged me the last time I was there .,"( NULL , service general , overcharged , negative )",acos,extraction
+"i ' ve been to sapphire twice and both times the food was fine , if not good .","( food , food quality , fine , positive )",acos,extraction
+The takeout is great too since they give high quality tupperware as well .,"( takeout , service general , great , positive )",acos,extraction
+"I like the ambience , it ' s very dark and original .","( ambience , ambience general , like , positive ) ; ( ambience , ambience general , dark , positive ) ; ( ambience , ambience general , original , positive )",acos,extraction
+Finally a reliable Chinese restaurant !,"( Chinese restaurant , restaurant general , reliable , positive )",acos,extraction
+"Yes , they use fancy ingredients , but even fancy ingredients do n ' t make for good pizza unless someone knows how to get the crust right .","( ingredients , food quality , fancy , positive ) ; ( pizza , food quality , do n ' t make for good pizza , negative )",acos,extraction
+"The service varys from day to day - sometimes they ' re very nice , and sometimes not .","( service , service general , varys , negative )",acos,extraction
+We had the scallops as an appetizer and they were delicious and the sauce was wonderful .,"( scallops , food quality , delicious , positive ) ; ( sauce , food quality , wonderful , positive )",acos,extraction
+The pizza is yummy and I like the atmoshpere .,"( pizza , food quality , yummy , positive ) ; ( atmoshpere , ambience general , like , positive )",acos,extraction
+He offers subpar service and has no personality .,"( service , service general , subpar , negative )",acos,extraction
+"This is such a lovely , peaceful place to eat outside .","( place , ambience general , lovely , positive ) ; ( place , ambience general , peaceful , positive )",acos,extraction
+"Even if the food was n ' t this good , the garden is a great place to sit outside and relax .","( garden , ambience general , great , positive ) ; ( food , food quality , was n ' t this good , positive )",acos,extraction
+"They tell me they are going to cover the garden in glass for the winter , so i ' m looking forward to going there on a snowy night to enjoy it .","( NULL , restaurant miscellaneous , enjoy , positive )",acos,extraction
+"the only things u could really taste are the very salty soy sauce ( even its low sodium ) , the vinegar - soaked rice , and the scallion on top of the fish .","( soy sauce , food quality , salty , negative ) ; ( rice , food quality , vinegar - soaked , negative )",acos,extraction
+"It is terrific , as is the value .","( NULL , food quality , terrific , positive ) ; ( NULL , food prices , terrific , positive )",acos,extraction
+All in all we ' re already coming up with excuses to go ahead really soon in the next few wks ! ! ! !,"( NULL , restaurant general , go ahead really soon , positive )",acos,extraction
+All the staff is absolutely professional ! !,"( staff , service general , professional , positive )",acos,extraction
+"Rao is a good restaurant , but it ' s nothing special .","( Rao , restaurant general , good , neutral )",acos,extraction
+The food was pretty tradional but it was hot and good with large portions .,"( food , food quality , tradional , positive ) ; ( portions , food style_options , large , positive )",acos,extraction
+The pizza is overpriced and soggy .,"( pizza , food quality , soggy , negative ) ; ( pizza , food prices , overpriced , negative )",acos,extraction
+The restaurant is cute but not upscale .,"( restaurant , restaurant general , cute , neutral ) ; ( restaurant , restaurant general , not upscale , neutral )",acos,extraction
+The best pad thai i ' ve ever had .,"( pad thai , food quality , best , positive )",acos,extraction
+I just do n ' t understand all the hype . . .,"( NULL , restaurant general , do n ' t understand , negative )",acos,extraction
+Delicious crab cakes too .,"( crab cakes , food quality , Delicious , positive )",acos,extraction
+Very good wine choices .,"( wine choices , drinks style_options , good , positive )",acos,extraction
+"The food is amazing , rich pastas and fresh doughy pizza .","( food , food quality , amazing , positive ) ; ( pastas , food style_options , rich , positive ) ; ( pizza , food quality , fresh doughy , positive )",acos,extraction
+One of my favorite places in Manhattan .,"( NULL , restaurant general , favorite , positive )",acos,extraction
+"Good , fast service .","( service , service general , Good , positive ) ; ( service , service general , fast , positive )",acos,extraction
+Great staff .,"( staff , service general , Great , positive )",acos,extraction
+"Its location is good and the fact that Hutner College is near and their prices are very reasonable , makes students go back to Suan again and again .","( location , location general , good , positive ) ; ( Suan , restaurant prices , reasonable , positive )",acos,extraction
+"In the evening , this place attracted a well dressed , with it , NY crowd .","( crowd , restaurant miscellaneous , attracted , positive )",acos,extraction
+This place has the best Chinese style BBQ ribs in the city .,"( BBQ ribs , food quality , best , positive ) ; ( BBQ ribs , food style_options , best , positive )",acos,extraction
+But that was n ' t the icing on the cake : a tiramisu that resembled nothing I have ever had .,"( tiramisu , food quality , nothing , negative )",acos,extraction
+"Service was devine , oysters where a sensual as they come , and the price ca n ' t be beat ! ! !","( Service , service general , devine , positive ) ; ( oysters , food quality , sensual , positive ) ; ( NULL , restaurant prices , ca n ' t be beat , positive )",acos,extraction
+"Food was very good , but not what I would consider out of this world .","( Food , food quality , good , neutral )",acos,extraction
+"Looking around , I saw a room full of New Yorkers enjoying a real meal in a real restaurant , not a clubhouse of the fabulous trying to be seen .","( meal , food quality , real , positive ) ; ( restaurant , ambience general , real , positive )",acos,extraction
+it ' s delicious !,"( NULL , food quality , delicious , positive )",acos,extraction
+It is also extremely well priced .,"( NULL , food prices , well priced , positive )",acos,extraction
+Moderate prices .,"( NULL , restaurant prices , Moderate , neutral )",acos,extraction
+It is one the nicest outdoor restaurants I have ever seen in NY - - I am from Italy and this place rivals the ones in my country .,"( outdoor restaurants , ambience general , nicest , positive )",acos,extraction
+I highly recommend visiting this restaurant and having dinner and drinks !,"( restaurant , restaurant general , recommend , positive )",acos,extraction
+Steamed fresh so brought hot hot hot to your table .,"( NULL , food quality , fresh , positive )",acos,extraction
+I was here a few weeks back and we had the worst customer service experience at a restaurant ever .,"( customer service , service general , worst , negative )",acos,extraction
+Best Reuben sandwich ever !,"( Reuben sandwich , food quality , Best , positive )",acos,extraction
+I have to say that I am pleasantly suprised and I will most likely stop in again if I am in the neighborhood .,"( NULL , restaurant general , pleasantly suprised , positive )",acos,extraction
+Our server was very helpful and friendly .,"( server , service general , helpful , positive ) ; ( server , service general , friendly , positive )",acos,extraction
+My roommate and I LOVE this place .,"( place , restaurant general , LOVE , positive )",acos,extraction
+This has got to be one of the most overrated restaurants in Brooklyn .,"( NULL , restaurant general , overrated , negative )",acos,extraction
+"Although the tables may be closely situated , the candle - light , food quality and service overcompensate .","( candle - light , ambience general , overcompensate , positive ) ; ( food , food quality , overcompensate , positive ) ; ( service , service general , overcompensate , positive ) ; ( tables , ambience general , closely situated , negative )",acos,extraction
+Winnie and her staff are the best crew you can find serving you .,"( staff , service general , best , positive ) ; ( Winnie , service general , best , positive )",acos,extraction
+Food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when I went .,"( Food , food quality , good , positive ) ; ( view of the new york city skiline , location general , terrific , positive )",acos,extraction
+"Pizza is terrific , as is homemade pasta .","( Pizza , food quality , terrific , positive ) ; ( homemade pasta , food quality , terrific , positive )",acos,extraction
+I recently tried Suan and I thought that it was great .,"( Suan , restaurant general , great , positive )",acos,extraction
+I ' m not picky - but it was actually gross .,"( NULL , food quality , gross , negative )",acos,extraction
+"Food was okay , nothing great .","( Food , food quality , okay , neutral ) ; ( Food , food quality , nothing great , neutral )",acos,extraction
+The sake menu should not be overlooked !,"( sake menu , drinks style_options , overlooked , positive )",acos,extraction
+I asked for a menu and the same waitress looked at my like I was insane .,"( waitress , service general , insane , negative )",acos,extraction
+"I ' m a friendly person , so I wouldn ' t mind had she not been so nasty and gotten so personal .","( NULL , service general , nasty , negative )",acos,extraction
+A great place to meet up for some food and drinks . . .,"( place , restaurant miscellaneous , great , positive )",acos,extraction
+Loved it,"( NULL , restaurant general , Loved , positive )",acos,extraction
+The owner and staff are all Japanese as well and that adds to the entire ambiance .,"( ambiance , ambience general , adds , positive )",acos,extraction
+"The side dishes were passable , and I did get a refill upon request .","( side dishes , food quality , passable , neutral ) ; ( side dishes , food style_options , refill , positive )",acos,extraction
+"Great friendly service , Fast seating , Fast Delivery , Excellent sushi .","( service , service general , Great friendly , positive ) ; ( seating , service general , Fast , positive ) ; ( Delivery , service general , Fast , positive ) ; ( sushi , food quality , Excellent , positive )",acos,extraction
+I went there for lunch and it was not as good as I expected from the reviews I read .,"( lunch , food quality , not as good as I expected , negative )",acos,extraction
+The stuff tilapia was horrid . . . tasted like cardboard .,"( stuff tilapia , food quality , horrid , negative )",acos,extraction
+Subtle food and service,"( food , food quality , Subtle , positive ) ; ( service , service general , Subtle , positive )",acos,extraction
+Service was wonderful ;,"( Service , service general , wonderful , positive )",acos,extraction
+The food here does a great service to the name ( Cantonese that is . . . ) .,"( food , food quality , great , positive )",acos,extraction
+None was made so i hung up .,"( NULL , service general , None was made , negative )",acos,extraction
+This place is a great bargain .,"( place , restaurant prices , great bargain , positive )",acos,extraction
+I will be going back and heartily recommend it !,"( NULL , restaurant general , going back , positive ) ; ( NULL , restaurant general , heartily recommend , positive )",acos,extraction
+great hot dogs .,"( hot dogs , food quality , great , positive )",acos,extraction
+The food was good too .,"( food , food quality , good , positive )",acos,extraction
+"Service was prompt , friendly and great .","( Service , service general , prompt , positive ) ; ( Service , service general , friendly , positive ) ; ( Service , service general , great , positive )",acos,extraction
+the food is always fresh . . .,"( food , food quality , fresh , positive )",acos,extraction
+"Excellent sashimi , and the millennium roll is beyond delicious .","( sashimi , food quality , Excellent , positive ) ; ( millennium roll , food quality , delicious , positive )",acos,extraction
+Not a great place for family or general dining .,"( place , restaurant miscellaneous , Not a great , negative )",acos,extraction
+"The bagels always warm , soft on the inside , crispy on the outside and enormous in size .","( bagels , food quality , warm , positive ) ; ( bagels , food quality , soft , positive ) ; ( bagels , food quality , crispy , positive ) ; ( bagels , food style_options , enormous , positive )",acos,extraction
+So rude ! ! !,"( NULL , service general , rude , negative )",acos,extraction
+"Our waitress was n ' t mean , but not especially warm or attentive either .","( waitress , service general , was n ' t mean , neutral )",acos,extraction
+The sauce tasted more like Chinese fast food than decent Korean .,"( sauce , food quality , Chinese fast food , negative )",acos,extraction
+Mussles and calamari were superb Saturday evening .,"( Mussles , food quality , superb , positive ) ; ( calamari , food quality , superb , positive )",acos,extraction
+"The food is wonderful , tasty and filling , and the service is professional and friendly .","( food , food quality , wonderful , positive ) ; ( food , food quality , tasty , positive ) ; ( food , food style_options , filling , positive ) ; ( service , service general , professional , positive ) ; ( service , service general , friendly , positive )",acos,extraction
+The service is awful .,"( service , service general , awful , negative )",acos,extraction
+"Bagels are ok , but be sure not to make any special requests !","( Bagels , food quality , ok , neutral ) ; ( NULL , service general , not to make any special requests , negative )",acos,extraction
+Good Food,"( Food , food quality , Good , positive )",acos,extraction
+"The food was amazing , and the service was prompt and helpful , but not over - bearing or rushed .","( food , food quality , amazing , positive ) ; ( service , service general , prompt , positive ) ; ( service , service general , helpful , positive ) ; ( service , service general , not over - bearing or rushed , positive )",acos,extraction
+Sauce was watery and the food did n ' t have much flavor .,"( Sauce , food quality , watery , negative ) ; ( food , food quality , did n ' t have much flavor , negative )",acos,extraction
+I was n ' t here for the pizza so I can ' t comment on that yet but what I had was very good .,"( NULL , food quality , good , positive )",acos,extraction
+We were less than impressed .,"( NULL , restaurant general , less than impressed , negative )",acos,extraction
+The have a great cocktail with Citrus Vodka and lemon and lime juice and mint leaves that is to die for !,"( cocktail with Citrus Vodka and lemon and lime juice and mint leaves , drinks quality , great , positive )",acos,extraction
+The food was average or above including some surprising tasty dishes .,"( food , food quality , average or above , positive ) ; ( dishes , food quality , tasty , positive )",acos,extraction
+"sometimes i get bad food and bad service , sometimes i get good good and bad service .","( food , food quality , bad , negative ) ; ( service , service general , bad , negative ) ; ( service , service general , bad , negative ) ; ( good , food quality , good , positive )",acos,extraction
+Best drumsticks over rice and sour spicy soup in town !,"( drumsticks over rice , food quality , Best , positive ) ; ( sour spicy soup , food quality , Best , positive )",acos,extraction
+The workers there also absolutely load the bagel with cream cheese ( gets a little messy ) .,"( bagel , food style_options , messy , negative )",acos,extraction
+"A few tips : skip the turnip cake , roast pork buns and egg custards .","( turnip cake , food quality , skip , negative ) ; ( roast pork buns , food quality , skip , negative ) ; ( egg custards , food quality , skip , negative )",acos,extraction
+Best In ALL of NYC,"( NULL , restaurant general , Best , positive )",acos,extraction
+Not worth it .,"( NULL , food prices , Not worth , negative )",acos,extraction
+Vanison was good but not amazing .,"( Vanison , food quality , good , neutral )",acos,extraction
+"At first we were a little taken aback , as this seemed to present a problem , although the restaurant looked fairly empty , but they hastily put the table together for us .","( NULL , service general , hastily put the table together for us , positive )",acos,extraction
+"But for the Shabu Shabu , you won ' t find much better in NY .","( Shabu Shabu , food quality , won ' t find much better , positive )",acos,extraction
+The Cypriot restaurant has a lot going for it .,"( Cypriot restaurant , restaurant general , a lot going , positive )",acos,extraction
+"I have worked in restaurants and cook a lot , and there is no way a maggot should be able to get into well prepared food .","( food , food quality , well prepared , negative )",acos,extraction
+"I ' ve been to at Cafe Spice probably 5 - 8 times , it is probably still the best Indian restaurant around Union Square .","( Cafe Spice , restaurant general , best , positive )",acos,extraction
+"There ' s nice and quiet , small but enough for 6 ( or more ) .","( NULL , ambience general , quiet , positive ) ; ( NULL , ambience general , nice , positive )",acos,extraction
+I really loved the different and inovated touch that ' s the cheff gives to the food .,"( cheff , food style_options , loved , positive ) ; ( cheff , food style_options , inovated , positive )",acos,extraction
+"The food is good , I ca n ' t lie .","( food , food quality , good , positive )",acos,extraction
+"Service , however , was excellent . . . and I liked the setting / atmosphere a lot .","( Service , service general , excellent , positive ) ; ( setting / atmosphere , ambience general , liked , positive )",acos,extraction
+"Food is usually very good , though ocasionally I wondered about freshmess of raw vegatables in side orders .","( Food , food quality , good , positive ) ; ( raw vegatables in side orders , food quality , wondered about freshmess , negative )",acos,extraction
+I recommend it !,"( NULL , restaurant general , recommend , positive )",acos,extraction
+"My party had the BBE $ 29 fixe prix menu , which was such a wonderful deal since it also came with a flight of sake !","( BBE $ 29 fixe prix menu , food prices , wonderful , positive ) ; ( BBE $ 29 fixe prix menu , food style_options , a flight of sake , positive )",acos,extraction
+The food is reliable and the price is moderate .,"( food , food quality , reliable , positive ) ; ( NULL , restaurant prices , moderate , neutral )",acos,extraction
+If you like your music blasted and the system isnt that great and if you want to pay at least 100 dollar bottle minimun then you ' ll love it here .,"( bottle , drinks prices , love , negative ) ; ( music , ambience general , like , negative )",acos,extraction
+I wish I COULD be refunded !,"( NULL , restaurant general , refunded , negative )",acos,extraction
+Although we were told 10 - 15 minutes and it was more like 45 minutes .,"( NULL , service general , 45 minutes , negative )",acos,extraction
+"Each time we ' ve been , the front of house staff ( not the waiters - they ' re fantastic - but the people who greet and seat you ) has been so hideous to us that were it not for the exceptional fish dishes I would never return .","( waiters , service general , fantastic , positive ) ; ( front of house staff , service general , hideous , negative ) ; ( fish dishes , food quality , exceptional , positive )",acos,extraction
+Possibly the Most Romantic Restaurant in the City,"( Restaurant , ambience general , Romantic , positive )",acos,extraction
+I would go back .,"( NULL , restaurant general , go back , positive )",acos,extraction
+Although we were looking for regular lettuce and some walnuts the salads we got were great .,"( salads , food quality , great , positive )",acos,extraction
+"Service is not exactly five star , but thats not really a big deal .","( Service , service general , not exactly five star , neutral )",acos,extraction
+The food is great and the environment is even better .,"( food , food quality , great , positive ) ; ( environment , ambience general , better , positive )",acos,extraction
+"Everything I had was good , and I ' m a eater .","( NULL , food quality , good , positive )",acos,extraction
+I honestly do n ' t even know where to begin .,"( NULL , restaurant general , do n ' t even know where to begin , negative )",acos,extraction
+Delivery is fast too .,"( Delivery , service general , fast , positive )",acos,extraction
+Best . Sushi . Ever .,"( Sushi , food quality , Best , positive )",acos,extraction
+"Good spreads , great beverage selections and bagels really tasty .","( spreads , food quality , Good , positive ) ; ( beverage selections , drinks style_options , great , positive ) ; ( bagels , food quality , tasty , positive )",acos,extraction
+Everyone was more then happy with his choices .,"( NULL , service general , happy , positive )",acos,extraction
+One of my favorite places in Brooklyn .,"( NULL , restaurant general , favorite , positive )",acos,extraction
+The concept of japanese tapas is newly created and clearly does n ' t work .,"( japanese tapas , food style_options , does n ' t work , negative )",acos,extraction
+I highly recommend the Sophia pizza .,"( Sophia pizza , food quality , recommend , positive )",acos,extraction
+"The service is excellent , the decor is great , and the food is delicious and comes in large portions .","( service , service general , excellent , positive ) ; ( decor , ambience general , great , positive ) ; ( food , food quality , delicious , positive ) ; ( portions , food style_options , large , positive )",acos,extraction
+I go twice a month !,"( NULL , restaurant general , twice a month , positive )",acos,extraction
+"also it ' s great to have dinner in a very romantic and comfortable place , the service it ' s just perfect . . . they ' re so frendly that we never want to live the place !","( place , ambience general , romantic , positive ) ; ( place , ambience general , comfortable , positive ) ; ( service , service general , perfect , positive )",acos,extraction
+And $ 11 for a plate of bland guacamole ?,"( guacamole , food quality , bland , negative ) ; ( guacamole , food prices , bland , negative )",acos,extraction
+Ingredients are organic which is a real plus for me .,"( Ingredients , food quality , organic , positive ) ; ( Ingredients , food quality , plus , positive )",acos,extraction
+Maitre - D - `` Eat and get out ``,"( Maitre - D , service general , get out , negative )",acos,extraction
+Lexicographers take note : a new and fascinating definition of rudeness is alive and flourishing right here in Brooklyn .,"( NULL , service general , rudeness , negative )",acos,extraction
+And evaluated on those terms Pastis is simply wonderful .,"( Pastis , restaurant general , wonderful , positive )",acos,extraction
+awesome,"( NULL , restaurant general , awesome , positive )",acos,extraction
+fresh restaurant was amazing . . . . . . . . food was delicious and of course fresh .,"( fresh restaurant , restaurant general , fresh , positive ) ; ( fresh restaurant , restaurant general , amazing , positive ) ; ( food , food quality , delicious , positive ) ; ( food , food quality , fresh , positive )",acos,extraction
+"Delicious , creative and fun .","( NULL , food quality , Delicious , positive ) ; ( NULL , food style_options , creative , positive ) ; ( NULL , food style_options , fun , positive )",acos,extraction
+It ' s cuz it ' s so good you need to taste it ! ! !,"( NULL , food quality , good , positive )",acos,extraction
+I was speechless by the horrible food .,"( food , food quality , speechless , negative )",acos,extraction
+"However , I think this place is a good hang out spot .","( place , ambience general , good , positive )",acos,extraction
+"Try the Pad Thai , or sample anything on the appetizer menu . . . they ' re all delicious .","( Pad Thai , food quality , Try , positive ) ; ( Pad Thai , food quality , delicious , positive ) ; ( appetizer menu , food quality , delicious , positive )",acos,extraction
+Ess - A - Bagel ( either by Sty - town or midtown ) is by far the best bagel in NY .,"( bagel , food quality , best , positive )",acos,extraction
+And even with it ' s Pub atmosphere they were great to my kids too !,"( NULL , service general , great , positive )",acos,extraction
+JUST AWSOME .,"( NULL , food quality , AWSOME , positive )",acos,extraction
+"Red Dragon Roll - my favorite thing to eat , of any food group - hands down","( Red Dragon Roll , food quality , favorite , positive )",acos,extraction
+The rice to fish ration was also good - - they did n ' t try to overpack the rice .,"( rice to fish ration , food style_options , good , positive )",acos,extraction
+They have authentic Indian at amazin prices .,"( Indian , food quality , authentic , positive ) ; ( Indian , food prices , authentic , positive )",acos,extraction
+"My father had the flank steak which was very good , and my mother had the swordfish .","( flank steak , food quality , good , positive )",acos,extraction
+Fabulous food - if the front of house staff do n ' t put you off –,"( food , food quality , Fabulous , positive ) ; ( front of house staff , service general , put you off , negative )",acos,extraction
+"By far , the best pizza in Manhattan .","( pizza , food quality , best , positive )",acos,extraction
+Overpriced and not tasty,"( NULL , food prices , Overpriced , negative ) ; ( NULL , food quality , not tasty , negative )",acos,extraction
+"Raga ' s is a romantic , cozy restaurant .","( Raga ' s , ambience general , romantic , positive ) ; ( Raga ' s , ambience general , cozy , positive )",acos,extraction
+Expensive,"( NULL , restaurant prices , Expensive , negative )",acos,extraction
+The location is perfect .,"( location , location general , perfect , positive )",acos,extraction
+"All in all , this midtown gem instantly became one of my favorite sushi restaurants in the city .","( NULL , restaurant general , favorite , positive )",acos,extraction
+This place doesn ' t make any sense,"( place , restaurant general , doesn ' t make any sense , negative )",acos,extraction
+A must try !,"( NULL , restaurant general , A must try , positive )",acos,extraction
+I have to say I have never had a disapointing meal here .,"( meal , food quality , never had a disapointing , positive )",acos,extraction
+"the spinach is fresh , definately not frozen . . .","( spinach , food quality , fresh , positive )",acos,extraction
+I had the Thai style Fried Sea Bass . . . which was very good .,"( Thai style Fried Sea Bass , food quality , good , positive )",acos,extraction
+The view is breathtaking the service is top notch . . . the ambiance is wonderful .,"( view , location general , breathtaking , positive ) ; ( service , service general , top notch , positive ) ; ( ambiance , ambience general , wonderful , positive )",acos,extraction
+This place is not worth the prices .,"( place , restaurant general , not worth the prices , negative ) ; ( place , restaurant prices , not worth the prices , negative )",acos,extraction
+"We ate out in the back patio , which is worth it as it ' s cool and the music is hear well there .","( back patio , ambience general , worth , positive ) ; ( back patio , ambience general , cool , positive ) ; ( music , ambience general , well , positive )",acos,extraction
+I did not try the caviar but I tried their salmon and crab salad ( they are all good ),"( salmon , food quality , good , positive ) ; ( crab salad , food quality , good , positive )",acos,extraction
+We were seated outside and the waiter spilled red wine and hot tea on myself and my date .,"( waiter , service general , spilled , negative )",acos,extraction
+We asked for beverages and never received them .,"( NULL , service general , never received , negative )",acos,extraction
+Great Indian food and the service is incredible .,"( Indian food , food quality , Great , positive ) ; ( service , service general , incredible , positive )",acos,extraction
+I would defiantly come back here again as one of my top choices .,"( NULL , restaurant general , top choices , positive )",acos,extraction
+Okay - i do n ' t mind the oily part ( cause most are cooked that way ) but it was way too bland .,"( NULL , food quality , oily , negative ) ; ( NULL , food quality , bland , negative )",acos,extraction
+The atmosphere is noisy and the waiters are literally walking around doing things as fast as they can .,"( atmosphere , ambience general , noisy , negative ) ; ( waiters , service general , fast , positive )",acos,extraction
+it ' s a perfect place to have a amazing indian food .,"( indian food , food quality , amazing , positive )",acos,extraction
+"The freshest , best variety , and the fastest delivery .","( NULL , food quality , freshest , positive ) ; ( NULL , food style_options , best variety , positive ) ; ( delivery , service general , fastest , positive )",acos,extraction
+"I found the food , service and value exceptional everytime I have been there .","( food , food quality , exceptional , positive ) ; ( service , service general , exceptional , positive ) ; ( value , restaurant prices , exceptional , positive )",acos,extraction
+"In an area sadly lacking in decent Thai food , this is one of the best spots .","( Thai food , food quality , decent , positive )",acos,extraction
+I got an excellent piece of cheesecake and we had several other nice pastries .,"( cheesecake , food quality , excellent , positive ) ; ( pastries , food quality , nice , positive )",acos,extraction
+"This is where it really really gets bad : the manager said , there is absolutely nothing we can do , it ' s a matter of taste that she did n ' t like it , and I can not comp it .","( manager , service general , bad , negative )",acos,extraction
+THe perfect spot .,"( spot , restaurant general , perfect , positive )",acos,extraction
+"Service ok but unfriendly , filthy bathroom .","( Service , service general , unfriendly , negative ) ; ( bathroom , ambience general , filthy , negative )",acos,extraction
+"good music , great food , speedy service affordable prices .","( music , ambience general , good , positive ) ; ( food , food quality , great , positive ) ; ( service , service general , speedy , positive ) ; ( NULL , restaurant prices , affordable , positive )",acos,extraction
+We were planning to get dessert but the waitress basically through the bill at us before we had a chance to order .,"( waitress , service general , through the bill , negative )",acos,extraction
+We had a great time at the Jekyll and hyde Pub last night .,"( Jekyll and hyde Pub , restaurant general , great time , positive )",acos,extraction
+The food is authentic Italian - delicious !,"( food , food quality , authentic Italian , positive ) ; ( food , food quality , delicious , positive )",acos,extraction
+I thanked my friend who recommended me this restaurant and will certainly recommend it to others .,"( restaurant , restaurant general , recommend , positive )",acos,extraction
+Planet Thai is great !,"( Planet Thai , restaurant general , great , positive )",acos,extraction
+"To sum it up : Service varies from good to mediorce , depending on which waiter you get ; generally it is just average Ok .","( Service , service general , varies , neutral )",acos,extraction
+Restaurant with a view,"( view , location general , with a view , neutral )",acos,extraction
+"The food was not fresh , the sauces were bland and very oily .","( food , food quality , not fresh , negative ) ; ( sauces , food quality , bland , negative ) ; ( sauces , food quality , oily , negative )",acos,extraction
+I literally just got back home after visiting Casa La Femme and was so offended by my visit felt it necessary to try and warn other diners who value their money and time .,"( Casa La Femme , restaurant general , offended , negative ) ; ( Casa La Femme , restaurant prices , offended , negative )",acos,extraction
+This is one of my favorite restaurants and it is not to be missed .,"( NULL , restaurant general , favorite , positive )",acos,extraction
+"Anybody who likes this place must be from a different planet , where greasy , dry and tasteless are complimentary .","( NULL , food quality , greasy , negative ) ; ( NULL , food quality , dry , negative ) ; ( NULL , food quality , tasteless , negative )",acos,extraction
+Rao ' s has the best service and atmosphere in NYC .,"( service , service general , best , positive ) ; ( atmosphere , ambience general , best , positive )",acos,extraction
+Quite simply it ' s like stepping out of Manhattan and into a haven of tranquility .,"( NULL , ambience general , a haven of tranquility , positive )",acos,extraction
+The place is a lot of fun .,"( place , ambience general , fun , positive )",acos,extraction
+I have lived in Japan for 7 years and the taste of the food and the feel of the restaurant is like being back in Japan .,"( food , food quality , like being back in Japan , positive ) ; ( feel , ambience general , like being back in Japan , positive )",acos,extraction
+If you like spicy food get the chicken vindaloo .,"( chicken vindaloo , food quality , get , positive )",acos,extraction
+Decor is nice though service can be spotty .,"( Decor , ambience general , nice , positive ) ; ( service , service general , spotty , negative )",acos,extraction
+"The atmosphere is n ' t the greatest , but I suppose that ' s how they keep the prices down .","( atmosphere , ambience general , is n ' t the greatest , negative ) ; ( NULL , restaurant prices , keep the prices down , positive )",acos,extraction
+I can ' t remember the last time I had such gross food in New York .,"( food , food quality , gross , negative )",acos,extraction
+We ate at this Thai place following the reviews but very unhappy with the foods .,"( foods , food quality , unhappy , negative )",acos,extraction
+"The pesto pizza was excellent , thin - crust pizza with a nice amount of spicy Italian cheese that I ' d never heard of before .","( pesto pizza , food quality , excellent , positive ) ; ( spicy Italian cheese , food quality , nice , positive )",acos,extraction
+"Food took some time to prepare , all worth waiting for .","( Food , food quality , worth , positive ) ; ( NULL , service general , took some time , neutral )",acos,extraction
+"Regardless , we ' ll be back and can ' t wait to visit in the summer to take advantage of the patio .","( NULL , restaurant general , be back , positive )",acos,extraction
+"Leon is an East Village gem : casual but hip , with well prepared basic French bistro fare , good specials , a warm and lively atmosphere .","( Leon , ambience general , casual , positive ) ; ( Leon , ambience general , hip , positive ) ; ( specials , food quality , good , positive ) ; ( atmosphere , ambience general , warm , positive ) ; ( atmosphere , ambience general , lively , positive ) ; ( French bistro fare , food quality , well prepared , positive )",acos,extraction
+Best meal in a long time !,"( meal , food quality , Best , positive )",acos,extraction
+As always we had a great glass of wine while we waited .,"( glass of wine , drinks quality , great , positive )",acos,extraction
+Hurley ' s is like Cheers where everyone knows your name and they are ACTUALLY glad you came .,"( Hurley ' s , service general , glad , positive )",acos,extraction
+overpriced japanese food with mediocre service,"( japanese food , food prices , overpriced , negative ) ; ( service , service general , mediocre , neutral )",acos,extraction
+I have been doing all of the above at the Heartland Brewery for over 5 years now and I HAVE NEVER BEEN DISAPPOINTED !,"( Heartland Brewery , restaurant general , NEVER BEEN DISAPPOINTED , positive )",acos,extraction
+We had Pam ' s special fried fish and it was amazing .,"( Pam ' s special fried fish , food quality , amazing , positive )",acos,extraction
+The menu is limited but almost all of the dishes are excellent .,"( menu , food style_options , limited , negative ) ; ( dishes , food quality , excellent , positive )",acos,extraction
+For each course we waited over 1 / 2 hour to 45 minutes and were never offered a drink .,"( NULL , service general , waited over 1 / 2 hour to 45 minutes , negative )",acos,extraction
+Everything about this restaurant was special .,"( restaurant , restaurant general , special , positive )",acos,extraction
+We did arrive late for our reservation so I can not complain too much about the wait for a table .,"( wait , service general , can not complain too much , neutral )",acos,extraction
+bad staff,"( staff , service general , bad , negative )",acos,extraction
+this little place has a cute interior decor and affordable city prices .,"( interior decor , ambience general , cute , positive ) ; ( place , restaurant prices , little , positive )",acos,extraction
+But $ 500 for a dinner for two that didn ' t include Wine ?,"( dinner for two , food prices , didn ' t include Wine , negative )",acos,extraction
+This is a nice restaurant if you are looking for a good place to host an intimate dinner meeting with business associates .,"( restaurant , restaurant miscellaneous , nice , positive )",acos,extraction
+Try green curry with vegetables .,"( green curry with vegetables , food quality , Try , positive )",acos,extraction
+My boyfriend had the New England Chowder it was good but I think the award should go to the Lobster Bisque .,"( New England Chowder , food quality , good , positive ) ; ( Lobster Bisque , food quality , award , positive )",acos,extraction
+Love Pizza 33 . . .,"( Pizza 33 , restaurant general , Love , positive )",acos,extraction
+What a hassle !,"( NULL , restaurant general , hassle , negative )",acos,extraction
+Poor service and management,"( service , service general , Poor , negative ) ; ( management , service general , Poor , negative )",acos,extraction
+And the Tom Kha soup was pathetic .,"( Tom Kha soup , food quality , pathetic , negative )",acos,extraction
+The hostess and the waitress were incredibly rude and did everything they could to rush us out .,"( hostess , service general , rude , negative ) ; ( waitress , service general , rude , negative )",acos,extraction
+"On a recent Sunday afternoon , a friend and I accidently found this great restaurant on our way to see the pulitzer prize winning play DOUBT .","( restaurant , restaurant general , great , positive )",acos,extraction
+There is something about their atmosphere that makes me come back nearly every week .,"( atmosphere , ambience general , come back , positive )",acos,extraction
+Great Indian food,"( Indian food , food quality , Great , positive )",acos,extraction
+"THe back garden sitting area is very pleasant , where you can see their personal herb garden .","( back garden sitting area , ambience general , pleasant , positive )",acos,extraction
+"The service was terrible , we had to wait for everything and ask several of different people for the same thing before we were allowed to be served .","( service , service general , terrible , negative )",acos,extraction
+"Oh , and I never write reviews - - I just was so moved by how bad this place was , I felt it was my duty to spread the word .","( place , restaurant general , bad , negative )",acos,extraction
+Not a very fancy place but very good Chinese style Indian food .,"( place , ambience general , fancy , neutral ) ; ( Chinese style Indian food , food quality , good , positive )",acos,extraction
+Wonderful strawberry daiquiries as well !,"( strawberry daiquiries , drinks quality , Wonderful , positive )",acos,extraction
+The food was lousy - too sweet or too salty and the portions tiny .,"( food , food quality , lousy , negative ) ; ( food , food quality , too sweet , negative ) ; ( food , food quality , too salty , negative ) ; ( portions , food style_options , tiny , negative )",acos,extraction
+Although they do the typical what kind of water would you like questions the service was good and overall very relaxing to place to eat .,"( service , service general , good , positive ) ; ( place , ambience general , relaxing , positive )",acos,extraction
+This was my frist time at Cafe St . Bart ' s and I must say how delicious the food and the service was .,"( food , food quality , delicious , positive )",acos,extraction
+The service was excellent and the food was delicious .,"( service , service general , excellent , positive ) ; ( food , food quality , delicious , positive )",acos,extraction
+"For those that go once and do n ' t enjoy it , all I can say is that they just do n ' t get it .","( NULL , restaurant miscellaneous , enjoy , positive )",acos,extraction
+"The bar drinks were Eh , ok to say the least .","( bar drinks , drinks quality , ok , negative )",acos,extraction
+"Considering we were the last patrons there and it was after the closing time , the waitstaff did not rush us at all and made us feel comfortable and relaxed .","( waitstaff , service general , comfortable , positive ) ; ( waitstaff , service general , relaxed , positive )",acos,extraction
+"Great vibe , lots of people .","( vibe , ambience general , Great , positive )",acos,extraction
+"This is undoubtedly my favorite modern Japanese brasserie ( that don ’ t serve sushi ) , and in my opinion , one of the most romantic restaurants in the city !","( modern Japanese brasserie , restaurant general , favorite , positive ) ; ( modern Japanese brasserie , ambience general , romantic , positive )",acos,extraction
+The bread we received was horrible - rock hard and cold - and the `` free `` appetizer of olives was disappointing .,"( bread , food quality , horrible , negative ) ; ( appetizer of olives , food quality , disappointing , negative ) ; ( appetizer of olives , food prices , `` free `` , neutral )",acos,extraction
+"While it is understandable that every place is indeed different , there was not a need to be uncourteous to customers and downright rude .","( NULL , service general , rude , negative )",acos,extraction
+The nakgi - bokum was horrible .,"( nakgi - bokum , food quality , horrible , negative )",acos,extraction
+I ate here a week ago and found most dishes average at best and too expensive .,"( dishes , food quality , average , negative ) ; ( dishes , food prices , too expensive , negative )",acos,extraction
+They honored reservation on Sunday afternoon very well .,"( NULL , service general , very well , positive )",acos,extraction
+The hostess was very pleasant .,"( hostess , service general , pleasant , positive )",acos,extraction
+"Skip this restaurant , it ' s a big disappointment .","( restaurant , restaurant general , Skip , negative ) ; ( restaurant , restaurant general , disappointment , negative )",acos,extraction
+"Service was very good - prompt , attentive and non - intrusive .","( Service , service general , good , positive ) ; ( Service , service general , prompt , positive ) ; ( Service , service general , attentive , positive ) ; ( Service , service general , non - intrusive , positive )",acos,extraction
+I was there on sat . for my birthday and we had an excellent time .,"( NULL , restaurant general , excellent , positive )",acos,extraction
+"La Rosa waltzes in , and I think they are doing it the best .","( La Rosa , food quality , best , positive )",acos,extraction
+"Toons has recently been redone , so it ' s now a very attractive space .","( Toons , ambience general , attractive , positive )",acos,extraction
+Sushi experience was unbelievable with my fiance .,"( Sushi , food quality , unbelievable , positive )",acos,extraction
+"I don ’ t usually visit the same establishment more than once , what more twice , but I ’ ll come to Zenkichi anytime for a quiet , unhurried and memorable dinner .","( Zenkichi , restaurant general , come to Zenkichi anytime , positive ) ; ( Zenkichi , ambience general , quiet , positive ) ; ( Zenkichi , ambience general , unhurried , positive ) ; ( Zenkichi , ambience general , memorable , positive )",acos,extraction
+I highly recommend Caviar Russe to anyone who wants delicious top grade caviar and fantastic service .,"( caviar , food quality , delicious top grade , positive ) ; ( service , service general , fantastic , positive )",acos,extraction
+"We left , never to return .","( NULL , restaurant general , never to return , negative )",acos,extraction
+These are overpriced and you can get better just around the corner :,"( NULL , food prices , overpriced , negative ) ; ( NULL , food quality , can get better , negative )",acos,extraction
+Go there once and oh yes . . . you will go back . . . you will . . .,"( NULL , restaurant general , go back , positive )",acos,extraction
+"The Steak Tartare is a great bet , they fix it for you at the table .","( Steak Tartare , food style_options , great , positive )",acos,extraction
+"I like Cafe Noir dont get me wrong , it is jsut that the people who work there are evil and incompetent ! !","( people , service general , evil , negative ) ; ( people , service general , incompetent , negative ) ; ( Cafe Noir , restaurant general , like , positive )",acos,extraction
+It ' s very spicy but not offensive .,"( NULL , food quality , not offensive , positive )",acos,extraction
+First of all Dal Bukhara Rocks .,"( Dal Bukhara , food quality , Rocks , positive )",acos,extraction
+"However , our $ 14 drinks were were horrible !","( drinks , drinks quality , horrible , negative ) ; ( drinks , drinks prices , horrible , negative )",acos,extraction
+"No desert menu , no apology , nothing ! ! ! ! ! !","( NULL , service general , no apology , negative )",acos,extraction
+"This is some really good , inexpensive sushi .","( sushi , food quality , good , positive ) ; ( sushi , food prices , inexpensive , positive )",acos,extraction
+I ' ve been there three times and have always had wonderful experiences .,"( NULL , restaurant general , wonderful , positive )",acos,extraction
+"Took my mom for Mother ' s Day , and the maitre d ' was pretty rude .","( maitre d ' , service general , rude , negative )",acos,extraction
+"However , go for the ambience , and consider the food just a companion for a trip across the world !","( food , food quality , a companion for a trip across the world , neutral )",acos,extraction
+Probably would not go back here .,"( NULL , restaurant general , would not go back , negative )",acos,extraction
+Just want to warn you all - do n ' t waste your time and money .,"( NULL , restaurant general , waste , negative )",acos,extraction
+The filet mignon dish was superb !,"( filet mignon dish , food quality , superb , positive )",acos,extraction
+The only downside . . . they only take cash which is OK if you know about it ahead of time .,"( NULL , restaurant miscellaneous , downside , negative )",acos,extraction
+"The service is ok , some of the people did n ' t get what they asked for .","( service , service general , ok , neutral )",acos,extraction
+I have never before eaten 40 pieces of relatively good nigiri .,"( nigiri , food quality , good , neutral )",acos,extraction
+It is expensive but well worth the money .,"( NULL , restaurant prices , expensive , negative ) ; ( NULL , restaurant general , well worth , positive )",acos,extraction
+The place ' s decor and hidden bathrooms made for a good laugh .,"( decor , ambience general , good laugh , positive ) ; ( hidden bathrooms , ambience general , good laugh , positive )",acos,extraction
+The lobster sandwich is $ 24 and although it was good it was not nearly enough to warrant that price .,"( lobster sandwich , food quality , good , positive ) ; ( lobster sandwich , food prices , not nearly enough to warrant that price , negative )",acos,extraction
+"The food is very good , but not outstanding .","( food , food quality , good , neutral )",acos,extraction
+Downstairs lounge is always a good attraction,"( Downstairs lounge , ambience general , good attraction , positive )",acos,extraction
+The spicy Tuna roll is huge and probably the best that I ' ve had at this price range .,"( spicy Tuna roll , food style_options , huge , positive ) ; ( spicy Tuna roll , food quality , best , positive ) ; ( spicy Tuna roll , food prices , best , positive )",acos,extraction
+"The chicken lollipop is my favorite , most of the dishes ( I have to agree with a previous reviewer ) are quite oily and very spicy , espeically the Chilli Chicken .","( chicken lollipop , food quality , favorite , positive ) ; ( dishes , food quality , oily , negative ) ; ( dishes , food quality , spicy , negative ) ; ( Chilli Chicken , food quality , oily , negative ) ; ( Chilli Chicken , food quality , spicy , negative )",acos,extraction
+"Can ' t argue about that , but they are clearly over priced .","( NULL , food prices , over priced , negative )",acos,extraction
+"One special roll and one regular roll is enough to fill you up , but save room for dessert !","( dessert , food quality , save room , positive ) ; ( special roll , food style_options , enough , positive ) ; ( regular roll , food style_options , enough , positive )",acos,extraction
+We were then shooed inside .,"( NULL , service general , shooed , negative )",acos,extraction
+"Inexpensive , unassuming , great time !","( NULL , restaurant prices , Inexpensive , positive ) ; ( NULL , ambience general , unassuming , positive ) ; ( NULL , restaurant general , great , positive )",acos,extraction
+The hanger steak was like rubber and the tuna was flavorless not to mention it tasted like it had just been thawed .,"( hanger steak , food quality , rubber , negative ) ; ( tuna , food quality , flavorless , negative )",acos,extraction
+Excellent spot for holiday get togethers with co - workers or friends that you have n ' t seen in a while .,"( spot , restaurant miscellaneous , Excellent , positive )",acos,extraction
+"Small servings for main entree , i had salmon ( wasnt impressed ) girlfriend had chicken , it was good .","( salmon , food quality , wasnt impressed , negative ) ; ( chicken , food quality , good , positive ) ; ( servings for main entree , food general , Small , negative )",acos,extraction
+It was divine melts in your mouth .,"( NULL , food quality , divine , positive )",acos,extraction
+Terrible Waste of money . . scammers,"( NULL , restaurant general , Terrible , negative ) ; ( NULL , restaurant prices , Waste of money , negative )",acos,extraction
+Love it .,"( NULL , restaurant general , Love , positive )",acos,extraction
+You will not be disapointed at all .,"( NULL , restaurant general , will not be disapointed , positive )",acos,extraction
+Everything was going good until we got our meals .,"( NULL , restaurant general , good , positive )",acos,extraction
+"I ' ve also been amazed at all the new additions in the past few years : A new Jazz Bar , the most fantastic Dining Garden , the Best Thin Crust Pizzas , and now a Lasagna Menu which is to die for ( these are not your average lasagnas ) !","( Dining Garden , ambience general , fantastic , positive ) ; ( Jazz Bar , ambience general , new , positive ) ; ( Thin Crust Pizzas , food quality , Best , positive ) ; ( Lasagna Menu , food quality , die for , positive )",acos,extraction
+"After dinner the manager grabbed my boyfriend , asked him : Where are you from . . . maybe you dont know how things work in America . . . and in the end stormed away almost teareyed yelling that tips are the only thing they survive on .","( manager , service general , yelling , negative )",acos,extraction
+The restaurant is a bit noisy but that is something that can be overlooked once you sit down and enjoy a great meal,"( meal , food quality , enjoy , positive ) ; ( meal , food quality , great , positive ) ; ( restaurant , ambience general , noisy , negative )",acos,extraction
+Do n ' t miss Bloom ' s on your next trip to Manhatten .,"( Bloom ' s , restaurant general , miss , positive )",acos,extraction
+The food was good .,"( food , food quality , good , positive )",acos,extraction
+"Two complaints - - their appetizer selection stinks , it would be nice to get some mozzarella sticks on the menu .","( appetizer selection , food style_options , complaints , negative )",acos,extraction
+"$ 6 and there is much tasty food , all of it fresh and continually refilled .","( food , food quality , tasty , positive ) ; ( food , food quality , fresh , positive ) ; ( food , food prices , refilled , positive )",acos,extraction
+The exotic food is beautifully presented and is a delight in delicious combinations .,"( exotic food , food style_options , beautifully presented , positive ) ; ( exotic food , food quality , delight , positive )",acos,extraction
+"The food we ordered was excellent , although I would n ' t say the margaritas were anything to write home about .","( food , food quality , excellent , positive ) ; ( margaritas , drinks quality , anything to write home about , neutral )",acos,extraction
+What we did do was waste 3 hours being trapped in a table waiting and waiting for food and drinks and hooka . . some of which we never received !,"( NULL , service general , never received , negative )",acos,extraction
+But the pizza is way to expensive .,"( pizza , food prices , expensive , negative )",acos,extraction
+"Just straight up cheap , good food .","( food , food quality , good , positive ) ; ( food , food prices , cheap , positive )",acos,extraction
+This dish is my favorite and I always get it when I go there and never get tired of it .,"( dish , food quality , favorite , positive )",acos,extraction
+$ 20 for all you can eat sushi can not be beaten .,"( all you can eat sushi , food prices , beaten , positive )",acos,extraction
+We even had a visit from the Manager who wanted to make sure we were enjoying ourselves .,"( Manager , service general , enjoying , positive )",acos,extraction
+"I was shocked that my friends wanted to stay after the waitress said , `` can I help you `` and `` how many are in your party . ``","( waitress , service general , shocked , negative )",acos,extraction
+You must have the crabmeat lasagna which is out of this world and the chocolate bread pudding for dessert .,"( crabmeat lasagna , food quality , out of this world , positive )",acos,extraction
+"its just a fun place to go , not a five star restaraunt .","( restaraunt , restaurant general , five star , neutral )",acos,extraction
+Staff is very accomodating .,"( Staff , service general , accomodating , positive )",acos,extraction
+"He served me an Uni Hand roll , which I never had before , and let me tell you . . . IT WAS HEAVEN !","( Uni Hand roll , food quality , HEAVEN , positive )",acos,extraction
+"We had fun eating in there , we were there like around 3 a . m . in the morning !","( NULL , restaurant general , had fun , positive )",acos,extraction
+Will prob . not return but it is a great dinning experience to try atleast once .,"( NULL , restaurant general , not return , negative ) ; ( NULL , restaurant general , great , positive )",acos,extraction
+Great sushi experience .,"( sushi , food quality , Great , positive )",acos,extraction
+Great pizza and fantastic service .,"( pizza , food quality , Great , positive ) ; ( service , service general , fantastic , positive )",acos,extraction
+"On our last visit , they skipped over our name on the list , leaving us waiting an extra hour for a table .","( NULL , service general , waiting an extra hour , negative )",acos,extraction
+Have been dozens of times and never failed to enjoy the experience .,"( NULL , restaurant general , enjoy , positive )",acos,extraction
+I ' m glad I was introduced to this place and this is a rare gem in NY .,"( place , restaurant general , glad , positive )",acos,extraction
+Easily the worst stir - fried squid I ' ve ever tasted .,"( stir - fried squid , food quality , worst , negative )",acos,extraction
+With the theater 2 blocks away we had a delicious meal in a beautiful room .,"( meal , food quality , delicious , positive ) ; ( room , ambience general , beautiful , positive ) ; ( NULL , location general , 2 blocks away , positive )",acos,extraction
+"But nonetheless - - great spot , great food .","( spot , restaurant general , great , positive ) ; ( food , food quality , great , positive )",acos,extraction
+"Our visit their to say the least , was an unpleasant and costly experience !","( NULL , restaurant general , unpleasant , negative ) ; ( NULL , restaurant prices , costly , negative )",acos,extraction
+Consistently good Japanese Tapas .,"( Japanese Tapas , food quality , good , positive )",acos,extraction
+The food is prepared quickly and efficiently .,"( NULL , service general , quickly , positive ) ; ( NULL , service general , efficiently , positive )",acos,extraction
+It is simply amazing .,"( NULL , food quality , amazing , positive )",acos,extraction
+"If you go , try the marinara / arrabiatta sauce , the mozzarella en Carozza is mmmmmmmm . . . . . everything is just delicious .","( marinara / arrabiatta sauce , food quality , try , positive ) ; ( marinara / arrabiatta sauce , food quality , delicious , positive ) ; ( mozzarella en Carozza , food quality , delicious , positive ) ; ( NULL , food quality , delicious , positive )",acos,extraction
+The pizza was pretty good and huge .,"( pizza , food quality , good , positive ) ; ( pizza , food style_options , huge , positive )",acos,extraction
