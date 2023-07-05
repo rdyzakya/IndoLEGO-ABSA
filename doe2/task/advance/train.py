@@ -15,7 +15,7 @@
 # %%
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 
 # %%
 import random
@@ -41,9 +41,9 @@ n_gpu = torch.cuda.device_count()
 import sys
 sys.path.append("../../../src")
 import data_utils
-train_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/train.txt"
-val_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/dev.txt"
-test_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/test.txt"
+train_path = "../../../data/absa/en/zhang/interim/interim_2/rest1516/train.txt"
+val_path = "../../../data/absa/en/zhang/interim/interim_2/rest1516/dev.txt"
+test_path = "../../../data/absa/en/zhang/interim/interim_2/rest1516/test.txt"
 
 train = data_utils.read_data(train_path)
 val = data_utils.read_data(val_path)

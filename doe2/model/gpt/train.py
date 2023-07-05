@@ -15,7 +15,7 @@
 # %%
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3,6"
 
 # %%
 import random
@@ -41,9 +41,9 @@ n_gpu = torch.cuda.device_count()
 import sys
 sys.path.append("../../../src")
 import data_utils
-train_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/train.txt"
-val_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/dev.txt"
-test_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/test.txt"
+train_path = "../../../data/absa/en/zhang/interim/interim_2/rest1516/train.txt"
+val_path = "../../../data/absa/en/zhang/interim/interim_2/rest1516/dev.txt"
+test_path = "../../../data/absa/en/zhang/interim/interim_2/rest1516/test.txt"
 
 train = data_utils.read_data(train_path)
 val = data_utils.read_data(val_path)
@@ -155,10 +155,8 @@ encoding_args = {
     "return_tensors" : "pt"
 }
 
-encode_fn = lambda x: tokenizer([el["input"] + ' ' + tokenizer.sep_token + ' ' + el["output"] for el in x], **encoding_args)
-
-tokenizer = AutoTokenizer.from_pretrained("google/mt5-base", src_lang="en_XX", tgt_lang="en_XX")
-
+tokenizer = AutoTokenizer.from_pretrained("facebook/xglm-564M")
+encode_fn = lambda x: tokenizer([inputs + ' ' + tokenizer.sep_token + ' ' + out for inputs, out in zip(x["input"],x["output"])], **encoding_args)
 # %%
 train_tok = train_ds.map(encode_fn, batched=True, remove_columns=train_ds.column_names)
 train_tok.set_format("torch")
@@ -210,7 +208,7 @@ from transformers import Trainer, AutoModelForCausalLM
 
 set_seed(42)
 
-model = AutoModelForCausalLM.from_pretrained("facebook/mbart-large-50")
+model = AutoModelForCausalLM.from_pretrained("facebook/xglm-564M")
 model.to(device)
 
 
