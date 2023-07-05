@@ -56,6 +56,9 @@ class ExtractPrompter:
     
     def autoprompt(self, text, se_order):
         raise NotImplementedError
+    
+    def no_prompt(self, text, se_order):
+        return text
 
 class ImputePrompter:
     def lego_absa(self, text, reduced_targets, se_order):

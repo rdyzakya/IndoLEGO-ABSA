@@ -140,6 +140,9 @@ train_ds = Dataset.from_list(train_ds)
 val_ds = Dataset.from_list(val_ds)
 test_ds = Dataset.from_list(test_ds)
 
+train_ds.to_csv("train.csv")
+val_ds.to_csv("val.csv")
+
 # %%
 train_ds
 
