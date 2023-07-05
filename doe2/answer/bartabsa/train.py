@@ -38,6 +38,8 @@ n_gpu = torch.cuda.device_count()
 # # Data
 
 # %%
+import sys
+sys.path.append("../../../src")
 import data_utils
 train_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/train.txt"
 val_path = "../../data/absa/en/zhang/interim/interim_2/rest1516/dev.txt"
