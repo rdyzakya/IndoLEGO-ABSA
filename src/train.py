@@ -113,8 +113,10 @@ def main():
     with open(args.td_config, 'r') as fp:
         td_config = json.load(fp)
     ## Non ABSA Dataset
-    with open(args.na_config, 'r') as fp:
-        na_config = json.load(fp)
+    na_config = None
+    if args.na_config != None:
+        with open(args.na_config, 'r') as fp:
+            na_config = json.load(fp)
     train = get_data(td_config, na_config, 
                      prompt=args.prompt, answer=args.answer, 
                      shuffle=args.shuffle_train)
@@ -177,7 +179,7 @@ def main():
                                  compute_metrics=lambda x: utils.compute_metrics(catch_answer_seq2seq, x, decoding_args, tokenizer, val["se_order"]),
                                  preprocess_logits_for_metrics=utils.preprocess_logits_for_metrics))
         trainer = Seq2SeqTrainer(**trainer_args)
-    except:
+    except ValueError as ve:
         try:
             model = AutoModelForCausalLM.from_pretrained(args.model_name_or_path)
             utils.add_token_clm(model, tokenizer)
@@ -196,7 +198,7 @@ def main():
                                  compute_metrics=lambda x: utils.compute_metrics(catch_answer_clm, x, decoding_args, tokenizer, val["se_order"]),
                                  preprocess_logits_for_metrics=utils.preprocess_logits_for_metrics))
             trainer = Trainer(**trainer_args)
-        except:
+        except ValueError as ve:
             raise NotImplementedError("Only Seq2Seq and CausalLM Model")
         
     # Training

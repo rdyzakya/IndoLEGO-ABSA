@@ -1,0 +1,12 @@
+{
+    "seed" : 42,
+    "n_gpu" : "2",
+    "td_config" : "../configs/td_config_lite.json",
+    "vd_config" : "../configs/vd_config_lite.json",
+    "train_args" : "../configs/train_args.json",
+    "max_len" : 128,
+    "model_name_or_path" : "google/mt5-base",
+    "prompt" : "lego_absa",
+    "answer" : "lego_absa",
+    "shuffle_train" : true
+}

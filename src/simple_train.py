@@ -10,7 +10,11 @@ def start_script(json_file):
     command = ['python', 'train.py']
     
     for key, value in arguments.items():
-        command.append(f"--{key}={value}")
+        if isinstance(value, bool):
+            if value:
+                command.append(f"--{key}")
+        else:
+            command.append(f"--{key}={value}")
     
     subprocess.run(command)
 
