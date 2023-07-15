@@ -70,13 +70,8 @@ class AnswerConstructor:
             constructed_t = []
             for se in se_order:
                 element = t[constant.SENTIMENT_ELEMENT[se]]
-
-                masked_element = element
-                # mask
-                for k, v in constant.GAS_TOKEN.items():
-                    masked_element = masked_element.replace(k,v)
                     
-                constructed_t.append(masked_element)
+                constructed_t.append(element)
             constructed_t = " , ".join(constructed_t)
             constructed_t = f"( {constructed_t} )"
             result.append(constructed_t)

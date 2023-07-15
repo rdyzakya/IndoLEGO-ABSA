@@ -1,0 +1,132 @@
+[
+    {
+        "path": "../data/absa/id/william/dev.txt",
+        "nt_se_order": "aos",
+        "tasks": [
+            "aos",
+            "ao",
+            "as",
+            "a",
+            "o"
+        ],
+        "n_fold": 5,
+        "algo": "round_robin",
+        "shuffle": true
+    },
+    {
+        "path": "../data/absa/en/zhang/interim/interim_2/rest15/dev.txt",
+        "nt_se_order": "acso",
+        "tasks": [
+            "acos",
+            "ao",
+            "as",
+            "cs",
+            "a",
+            "o",
+            "c"
+        ],
+        "n_fold": 7,
+        "algo": "round_robin",
+        "shuffle": true
+    },
+    {
+        "path": "../data/absa/en/zhang/interim/interim_2/rest16/dev.txt",
+        "nt_se_order": "acso",
+        "tasks": [
+            "acos",
+            "ao",
+            "as",
+            "cs",
+            "a",
+            "o",
+            "c"
+        ],
+        "n_fold": 7,
+        "algo": "round_robin",
+        "shuffle": true
+    },
+    {
+        "path": "../data/absa/en/wan/interim/rest15/dev.txt",
+        "nt_se_order": "acs",
+        "tasks": [
+            "acs",
+            "as",
+            "cs",
+            "a",
+            "c"
+        ],
+        "n_fold": 5,
+        "algo": "round_robin",
+        "shuffle": true
+    },
+    {
+        "path": "../data/absa/en/wan/interim/rest16/dev.txt",
+        "nt_se_order": "acs",
+        "tasks": [
+            "acs",
+            "as",
+            "cs",
+            "a",
+            "c"
+        ],
+        "n_fold": 5,
+        "algo": "round_robin",
+        "shuffle": true
+    },
+    {
+        "path": "../data/absa/en/peng/14lap/dev_triplets.txt",
+        "nt_se_order": "aos",
+        "tasks": [
+            "aos",
+            "ao",
+            "as",
+            "a",
+            "o"
+        ],
+        "n_fold": 5,
+        "algo": "round_robin",
+        "shuffle": true
+    },
+    {
+        "path": "../data/absa/en/peng/14res/dev_triplets.txt",
+        "nt_se_order": "aos",
+        "tasks": [
+            "aos",
+            "ao",
+            "as",
+            "a",
+            "o"
+        ],
+        "n_fold": 5,
+        "algo": "round_robin",
+        "shuffle": true
+    },
+    {
+        "path": "../data/absa/en/peng/15res/dev_triplets.txt",
+        "nt_se_order": "aos",
+        "tasks": [
+            "aos",
+            "ao",
+            "as",
+            "a",
+            "o"
+        ],
+        "n_fold": 5,
+        "algo": "round_robin",
+        "shuffle": true
+    },
+    {
+        "path": "../data/absa/en/peng/16res/dev_triplets.txt",
+        "nt_se_order": "aos",
+        "tasks": [
+            "aos",
+            "ao",
+            "as",
+            "a",
+            "o"
+        ],
+        "n_fold": 5,
+        "algo": "round_robin",
+        "shuffle": true
+    }
+]

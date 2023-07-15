@@ -39,9 +39,6 @@ class Prompter:
         prompt = " , ".join(prompt)
         prompt = f"( {prompt} )"
         masked_text = text
-        # mask
-        for k, v in constant.GAS_TOKEN.items():
-            masked_text = masked_text.replace(k,v)
         result = masked_text + "| " + prompt
         return result
     
@@ -83,7 +80,7 @@ class Prompter:
         for counter, se in enumerate(se_order):
             prompt.append(constant.SENTIMENT_ELEMENT[se] + " : " + f"<extra_id_{counter}>")
         prompt = " ,".join(prompt)
-        result = f"Extract with format >> {prompt} | " + text
+        result = f"Ekstrak ABSA dengan format >> {prompt} | " + text
         return result
     
     def one_token(self, text:str, se_order:str="aos") -> str:

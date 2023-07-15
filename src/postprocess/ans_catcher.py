@@ -26,7 +26,8 @@ class AnswerCatcher:
             if se != 's':
                 pattern += f"<extra_id_\d+>\s*(?P<{constant.SENTIMENT_ELEMENT[se]}>[^;]+)\s*"
             else:
-                pattern += f"<extra_id_\d+>\s*(?P<{constant.SENTIMENT_ELEMENT['s']}>positive|negative|neutral)\s*"
+                # pattern += f"<extra_id_\d+>\s*(?P<{constant.SENTIMENT_ELEMENT['s']}>positive|negative|neutral)\s*"
+                pattern += f"<extra_id_\d+>\s*(?P<{constant.SENTIMENT_ELEMENT['s']}>{'|'.join(constant.SENTTAG2WORD.values())})\s*"
         result = [found_iter.groupdict() for found_iter in re.finditer(pattern,out)]
         for i in range(len(result)):
             for k, v in result[i].items():
@@ -51,7 +52,8 @@ class AnswerCatcher:
             if se != 's':
                 pattern.append(f"\s*(?P<{constant.SENTIMENT_ELEMENT[se]}>[^;]+)\s*")
             else:
-                pattern.append(f"\s*(?P<{constant.SENTIMENT_ELEMENT['s']}>positive|negative|neutral)\s*")
+                # pattern.append(f"\s*(?P<{constant.SENTIMENT_ELEMENT['s']}>positive|negative|neutral)\s*")
+                pattern.append(f"\s*(?P<{constant.SENTIMENT_ELEMENT['s']}>{'|'.join(constant.SENTTAG2WORD.values())})\s*")
         pattern = ','.join(pattern)
         pattern = f"\({pattern}\)"
         result = [found_iter.groupdict() for found_iter in re.finditer(pattern,out)]

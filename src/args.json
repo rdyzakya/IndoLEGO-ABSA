@@ -6,7 +6,7 @@
     "train_args" : "../configs/train_args.json",
     "max_len" : 128,
     "model_name_or_path" : "Wikidepia/IndoT5-base",
-    "prompt" : "lego_absa",
-    "answer" : "lego_absa",
+    "prompt" : "no_prompt",
+    "answer" : "gas",
     "shuffle_train" : true
 }
