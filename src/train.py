@@ -136,6 +136,7 @@ def main():
     # Prepare tokenizer and answer utilities
     with open(args.train_args, 'r') as fp:
         train_args = json.load(fp)
+    output_dir = train_args["output_dir"]
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
     encode_seq2seq = lambda x: tokenizer(x["input"], text_target=x["output"], 
@@ -206,8 +207,8 @@ def main():
 
     # Save
     if trainer.is_world_process_zero():
-        tokenizer.save_pretrained(save_directory=train_args["output_dir"])
-        model.save_pretrained(save_directory=train_args["output_dir"])
+        tokenizer.save_pretrained(save_directory=output_dir)
+        model.save_pretrained(save_directory=output_dir)
 
 if __name__ == "__main__":
     main()

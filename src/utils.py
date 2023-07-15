@@ -10,7 +10,6 @@ def set_seed(seed: int):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
 
-
 def add_token_clm(model, tokenizer):
     resize = False
     if tokenizer.pad_token == None:
