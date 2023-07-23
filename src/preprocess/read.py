@@ -8,7 +8,7 @@ class DataReader:
     Responsible to read txt files containing ABSA dataset.
     """
     def do(self, path:str) -> List[Dict]:
-        """"
+        """
         ### DESC
             Method to read dataset. Each line is in the format of TEXT####TARGETS .
         ### PARAMS
@@ -29,7 +29,7 @@ class DataReader:
         return data
     
     def __call__(self, path:str) -> List[Dict]:
-        """"
+        """
         ### DESC
             Read dataset. Each line is in the format of TEXT####TARGETS .
         ### PARAMS
