@@ -1,1 +1,0 @@
-emotion-labels: https://www.kaggle.com/datasets/anjaneyatripathi/emotion-classification-nlp

@@ -1,1 +1,0 @@
-Jia, C., Liang, X., & Zhang, Y. (2019, July). Cross-domain NER using cross-domain language modeling. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (pp. 2464-2474).
