@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 There are 4 configuration file in json format, located in the configs folder.
 
-* na_config: Path(s) to the Non-ABSA dataset (csv format) used in training. Consist of two columns, "input" and "output"
+* na_config: Path(s) to the Non-ABSA dataset (csv format) used in training. Consist of two columns, "input" and "output".
 * td_config: Containing configuration for the training data.
 * vd_config: Containing configuration for the validation data.
 * train_args: Training arguments, refer to https://huggingface.co/docs/transformers/main_classes/trainer for the details.
