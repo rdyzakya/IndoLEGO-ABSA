@@ -1,0 +1,1 @@
+William and M. L. Khodra, "Generative Opinion Triplet Extraction Using Pretrained Language Model," 2022 9th International Conference on Advanced Informatics: Concepts, Theory and Applications (ICAICTA), Tokoname, Japan, 2022, pp. 1-6, doi: 10.1109/ICAICTA56449.2022.9933004.

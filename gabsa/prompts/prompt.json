@@ -1,7 +1,0 @@
-{
-    "aste" : ["ekstraksi triplet aste :","ekstraksi triplet aspek - opini - sentimen :","ekstraksi kombinasi aspek - opini - sentimen :","ekstrak kombinasi aspek - opini - sentimen :","ekstrak triplet aste :","ekstrak triplet aspek - opini - sentimen :","ekstraksi triplet ( aspek , opini , sentimen ) :","ekstrak triplet ( aspek , opini , sentimen ) :"],
-    "ate" : ["ekstraksi aspek :", "ekstrak aspek :", "ekstrak aspek dari kalimat yang diberikan :","ekstraksi penanda aspek :","ekstrak penanda aspek :"],
-    "ote" : ["ekstraksi opini :","ekstrak opini :","ekstrak opini dari kalimat yang diberikan :","ekstraksi penanda opini :","ekstrak penanda opini :"],
-    "aope" : ["ekstraksi pasangan aope :","ekstraksi pasangan aspek - opini :","ekstraksi kombinasi aspek - opini :","ekstrak kombinasi aspek - opini :","ekstrak pasangan aope :","ekstrak pasangan aspek - opini :","ekstraksi pasangan ( aspek , opini ) :","ekstrak pasangan ( aspek , opini ) :"],
-    "uabsa" : ["ekstraksi pasangan uabsa :","ekstraksi pasangan aspek - sentimen :","ekstraksi kombinasi aspek - sentimen :","ekstrak kombinasi aspek - sentimen :","ekstrak pasangan uabsa :","ekstrak pasangan aspek - sentimen :","ekstraksi pasangan ( aspek , sentimen ) :","ekstrak pasangan ( aspek , sentimen ) :"]
-}

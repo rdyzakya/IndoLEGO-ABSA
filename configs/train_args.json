@@ -1,0 +1,15 @@
+{
+    "num_train_epochs": 20,
+    "learning_rate": 3e-4,
+    "save_total_limit": 2,
+    "gradient_accumulation_steps": 1,
+    "per_device_train_batch_size": 16,
+    "per_device_eval_batch_size": 8,
+    "save_strategy": "epoch",
+    "evaluation_strategy": "epoch",
+    "metric_for_best_model": "overall_f1_score",
+    "load_best_model_at_end": true,
+    "adam_epsilon": 1e-08,
+    "output_dir": "./output/GAS-Indo-o",
+    "include_inputs_for_metrics" : true
+}
