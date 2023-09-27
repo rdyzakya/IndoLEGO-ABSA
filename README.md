@@ -8,6 +8,7 @@ You can create a conda environment or use your own python system environment. We
 
 ```bash
 conda create --name indo-lego-absa python=3.9.16
+conda activate indo-lego-absa
 pip install -r requirements.txt
 ```
 
