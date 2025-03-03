@@ -10,6 +10,6 @@
     "metric_for_best_model": "overall_f1_score",
     "load_best_model_at_end": true,
     "adam_epsilon": 1e-08,
-    "output_dir": "./output/GAS-Indo-o",
+    "output_dir": "./output/GAS",
     "include_inputs_for_metrics" : true
 }
