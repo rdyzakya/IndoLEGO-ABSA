@@ -6,7 +6,7 @@
     "train_args" : "../configs/train_args.json",
     "max_len" : 128,
     "model_name_or_path" : "google/mt5-base",
-    "prompt" : "no_prompt",
-    "answer" : "gas",
+    "prompt" : "lego_absa",
+    "answer" : "lego_absa",
     "shuffle_train" : true
 }
