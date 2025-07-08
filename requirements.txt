@@ -6,4 +6,4 @@ sentencepiece
 spacy
 sacremoses
 numba
-protobuf
+protobuf==3.20
