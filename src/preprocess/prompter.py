@@ -19,7 +19,7 @@ class Prompter:
         prompt = []
         for counter, se in enumerate(se_order):
             prompt.append(constant.SENTIMENT_ELEMENT[se] + " : " + f"<extra_id_{counter}>")
-        prompt = " ,".join(prompt)
+        prompt = " , ".join(prompt)
         result = text + "| " + prompt
         return result
     
