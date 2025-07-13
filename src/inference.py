@@ -28,7 +28,7 @@ prompt = args.prompt
 answer = args.answer
 out_path = args.out_path
 
-os.makedirs()
+os.makedirs(out_path, exists_ok=True)
 
 os.environ["CUDA_VISIBLE_DEVICES"] = gpu
 device = torch.device("cuda:0")
